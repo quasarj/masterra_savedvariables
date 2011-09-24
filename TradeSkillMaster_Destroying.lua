@@ -1,13 +1,13 @@
 
 TradeSkillMaster_DestroyingDB = {
 	["profileKeys"] = {
-		["Sadr - Auchindoun"] = "Default",
 		["Wezen - Auchindoun"] = "Default",
-		["Promitto - Auchindoun"] = "Default",
-		["Pulari - Auchindoun"] = "Default",
-		["Chukk - Auchindoun"] = "Default",
-		["Deadset - Auchindoun"] = "Default",
+		["Sadr - Auchindoun"] = "Default",
 		["Aset - Auchindoun"] = "Default",
+		["Chukk - Auchindoun"] = "Default",
+		["Promitto - Auchindoun"] = "Default",
+		["Deadset - Auchindoun"] = "Default",
+		["Pulari - Auchindoun"] = "Default",
 		["Aonah - Auchindoun"] = "Default",
 	},
 	["global"] = {

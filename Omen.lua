@@ -178,25 +178,25 @@ Omen3DB = {
 			["PositionH"] = 134.5714588357067,
 		},
 		["Pulari - Auchindoun"] = {
-			["MinimapIcon"] = {
-				["minimapPos"] = 339.3836867571586,
-			},
 			["PositionW"] = 235.4285204994345,
 			["PositionH"] = 125.42858305632,
 			["VGrip2"] = 135.3714637494962,
 			["PositionY"] = 478.4282583931133,
+			["Background"] = {
+				["BorderTexture"] = "None",
+				["Color"] = {
+					["a"] = 0,
+				},
+				["Texture"] = "Solid",
+			},
+			["MinimapIcon"] = {
+				["minimapPos"] = 339.3836867571586,
+			},
+			["VGrip1"] = 100.0571688583233,
 			["PositionX"] = 1647.499755219827,
 			["Warnings"] = {
 				["Sound"] = false,
 			},
-			["Background"] = {
-				["Color"] = {
-					["a"] = 0,
-				},
-				["BorderTexture"] = "None",
-				["Texture"] = "Solid",
-			},
-			["VGrip1"] = 100.0571688583233,
 		},
 		["Gacrux - Auchindoun"] = {
 			["VGrip2"] = 187.9286444721159,
@@ -244,13 +244,13 @@ Omen3DB = {
 			["Warnings"] = {
 				["Sound"] = false,
 			},
-			["PositionH"] = 181.4286027371379,
-			["Background"] = {
-				["BorderTexture"] = "None",
-				["Texture"] = "Blizzard Dialog Background",
-			},
 			["PositionX"] = 1629.214219587742,
+			["Background"] = {
+				["Texture"] = "Blizzard Dialog Background",
+				["BorderTexture"] = "None",
+			},
 			["VGrip1"] = 111.2284109650913,
+			["PositionH"] = 181.4286027371379,
 		},
 		["Yttrium - Auchindoun"] = {
 			["PositionY"] = 537.8571488919242,
@@ -262,25 +262,25 @@ Omen3DB = {
 			["PositionH"] = 81.9999860828502,
 		},
 		["Aset - Auchindoun"] = {
+			["MinimapIcon"] = {
+				["minimapPos"] = 248.5097544565978,
+			},
 			["PositionW"] = 341.7138801287772,
+			["ShowWith"] = {
+				["HideWhenOOC"] = true,
+			},
 			["PositionH"] = 196.8570684114368,
+			["VGrip1"] = 145.2284446606219,
 			["VGrip2"] = 196.4855427761355,
 			["PositionY"] = 831.1427035722301,
+			["PositionX"] = 1566.859342529945,
+			["Warnings"] = {
+				["Sound"] = false,
+			},
 			["Locked"] = true,
 			["Background"] = {
 				["BorderTexture"] = "None",
 				["Texture"] = "None",
-			},
-			["MinimapIcon"] = {
-				["minimapPos"] = 248.5097544565978,
-			},
-			["ShowWith"] = {
-				["HideWhenOOC"] = true,
-			},
-			["VGrip1"] = 145.2284446606219,
-			["PositionX"] = 1566.859342529945,
-			["Warnings"] = {
-				["Sound"] = false,
 			},
 			["CollapseHide"] = true,
 			["Bar"] = {

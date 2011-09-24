@@ -2,11 +2,11 @@
 AUCTIONATOR_SAVEDVARS = {
 	["_200000"] = 1000,
 	["_50000"] = 500,
-	["_10000"] = 200,
-	["_1000000"] = 2500,
 	["_5000000"] = 10000,
-	["STARTING_DISCOUNT"] = 5,
+	["_1000000"] = 2500,
+	["_10000"] = 200,
 	["_500"] = 5,
+	["STARTING_DISCOUNT"] = 5,
 	["_2000"] = 100,
 }
 AUCTIONATOR_PRICING_HISTORY = {
@@ -159,25 +159,25 @@ AUCTIONATOR_PRICING_HISTORY = {
 AUCTIONATOR_SHOPPING_LISTS = {
 	{
 		["items"] = {
-			"pyrite ore", -- [1]
-			"carnelian", -- [2]
-			"Elementium ore", -- [3]
-			"obsidium bar", -- [4]
-			"Elementium bar", -- [5]
-			"Heartblossom", -- [6]
-			"obsidium ore", -- [7]
-			"Volatile Fire", -- [8]
-			"savage leather", -- [9]
-			"Embersilk cloth", -- [10]
-			"Volatile Air", -- [11]
-			"Volatile Water", -- [12]
-			"Inferno ruby", -- [13]
-			"Volatile life", -- [14]
-			"pyrium bar", -- [15]
-			"pyrium ore", -- [16]
-			"Infinite Dust", -- [17]
-			"Volatile Earth", -- [18]
-			"maelstrom crystal", -- [19]
+			"maelstrom crystal", -- [1]
+			"pyrite ore", -- [2]
+			"carnelian", -- [3]
+			"Elementium ore", -- [4]
+			"obsidium bar", -- [5]
+			"Elementium bar", -- [6]
+			"Heartblossom", -- [7]
+			"obsidium ore", -- [8]
+			"Volatile Fire", -- [9]
+			"savage leather", -- [10]
+			"Embersilk cloth", -- [11]
+			"Volatile Air", -- [12]
+			"Volatile Water", -- [13]
+			"Inferno ruby", -- [14]
+			"Volatile life", -- [15]
+			"pyrium bar", -- [16]
+			"pyrium ore", -- [17]
+			"Infinite Dust", -- [18]
+			"Volatile Earth", -- [19]
 			"Demonseye", -- [20]
 		},
 		["isRecents"] = 1,
@@ -317,8 +317,9 @@ AUCTIONATOR_PRICE_DATABASE = {
 		},
 		["Elementium Ore"] = {
 			["H311"] = 13505,
-			["mr"] = 13505,
+			["mr"] = 12873,
 			["sc"] = 4,
+			["H312"] = 12873,
 			["id"] = "52185",
 			["H309"] = 29000,
 			["cc"] = 6,
@@ -474,10 +475,10 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["cc"] = 6,
 		},
 		["Maelstrom Crystal"] = {
-			["mr"] = 4000000,
+			["mr"] = 1150620,
 			["cc"] = 6,
+			["H312"] = 1150620,
 			["id"] = "52722",
-			["H226"] = 4000000,
 			["sc"] = 7,
 		},
 		["Delicate Carnelian"] = {
@@ -725,13 +726,12 @@ AUCTIONATOR_TOONS = {
 		["firstSeen"] = 1306648601,
 		["firstVersion"] = "2.9.4",
 	},
-	["Promitto"] = {
-		["firstSeen"] = 1306638326,
-		["firstVersion"] = "2.9.4",
-		["guid"] = "0x07000000038DD80C",
-	},
 	["Deadset"] = {
 		["firstSeen"] = 1307478618,
+		["firstVersion"] = "2.9.4",
+	},
+	["Promitto"] = {
+		["firstSeen"] = 1306638326,
 		["firstVersion"] = "2.9.4",
 	},
 	["Wezen"] = {
@@ -745,8 +745,8 @@ AUCTIONATOR_TOONS = {
 	},
 	["Aonah"] = {
 		["firstSeen"] = 1306615330,
-		["firstVersion"] = "2.9.4",
 		["guid"] = "0x07000000038DD9B8",
+		["firstVersion"] = "2.9.4",
 	},
 	["Sadr"] = {
 		["firstSeen"] = 1306726475,
