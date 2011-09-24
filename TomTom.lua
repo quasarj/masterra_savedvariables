@@ -17,42 +17,42 @@ TomTomDB = {
 		["Xanaomi - Hellscream"] = "Xanaomi - Hellscream",
 		["Idsapme - Auchindoun"] = "Default",
 		["Tyrela - Hellscream"] = "Tyrela - Hellscream",
-		["Aonarap - Hellscream"] = "Aonarap - Hellscream",
+		["Krisgurl - Hellscream"] = "Krisgurl - Hellscream",
 		["Barimuri - Hellscream"] = "Barimuri - Hellscream",
-		["Pulari - Auchindoun"] = "Default",
+		["Totemtusk - Auchindoun"] = "Default",
 		["Prudey - Laughing Skull"] = "Prudey - Laughing Skull",
 		["Pooshield - Thrall"] = "Default",
 		["Knasbank - Auchindoun"] = "Default",
-		["Krisgurl - Hellscream"] = "Krisgurl - Hellscream",
+		["Aonarap - Hellscream"] = "Aonarap - Hellscream",
 		["Aset - Auchindoun"] = "Default",
 		["Rimbaa - Hellscream"] = "Rimbaa - Hellscream",
 		["Nideyn - Hellscream"] = "Nideyn - Hellscream",
-		["Promitto - Thorium Brotherhood"] = "Default",
-		["Kernelpanic - Auchindoun"] = "Default",
+		["Itsashaman - Arthas"] = "Default",
+		["Xuyxee - Hellscream"] = "Xuyxee - Hellscream",
 		["Unlok - Auchindoun"] = "Default",
-		["Aonar - Hellscream"] = "Aonar - Hellscream",
+		["Vanisa - Hellscream"] = "Vanisa - Hellscream",
 		["Rudeadyet - Hellscream"] = "Rudeadyet - Hellscream",
 		["Chukk - Auchindoun"] = "Default",
 		["Deadset - Auchindoun"] = "Default",
 		["Karrl - Auchindoun"] = "Default",
-		["Promitto - Auchindoun"] = "Default",
-		["Vanisa - Hellscream"] = "Vanisa - Hellscream",
+		["Pulari - Auchindoun"] = "Default",
+		["Aonar - Hellscream"] = "Aonar - Hellscream",
 		["Aniak - Garona"] = "Aniak - Garona",
 		["Pooshield - Arthas"] = "Default",
 		["Wezen - Thorium Brotherhood"] = "Default",
-		["Gacrux - Thorium Brotherhood"] = "Default",
-		["Anokank - Hellscream"] = "Anokank - Hellscream",
+		["Promitto - Auchindoun"] = "Default",
+		["Kabun - Laughing Skull"] = "Kabun - Laughing Skull",
 		["Aona - Hellscream"] = "Aona - Hellscream",
 		["Phoebeldia - Laughing Skull"] = "Phoebeldia - Laughing Skull",
 		["Freezeforu - Zuluhed"] = "Default",
 		["Gacrux - Zuluhed"] = "Default",
 		["Chukk - Hellscream"] = "Chukk - Hellscream",
 		["Nohsk - Hellscream"] = "Nohsk - Hellscream",
-		["Kabun - Laughing Skull"] = "Kabun - Laughing Skull",
-		["Totemtusk - Auchindoun"] = "Default",
+		["Anokank - Hellscream"] = "Anokank - Hellscream",
+		["Gacrux - Thorium Brotherhood"] = "Default",
 		["Gacrux - Auchindoun"] = "Default",
-		["Xuyxee - Hellscream"] = "Xuyxee - Hellscream",
-		["Itsashaman - Arthas"] = "Default",
+		["Kernelpanic - Auchindoun"] = "Default",
+		["Promitto - Thorium Brotherhood"] = "Default",
 		["Wezen - Auchindoun"] = "Default",
 		["Ankra - Medivh"] = "Ankra - Medivh",
 		["Yttrium - Auchindoun"] = "Default",
@@ -72,13 +72,13 @@ TomTomDB = {
 		},
 		["Rudeadyet - Hellscream"] = {
 		},
-		["Aonarah - Hellscream"] = {
+		["Tamori - ChaosWoW Funserver"] = {
 		},
 		["Vanisa - Hellscream"] = {
 		},
 		["Bairra - Alterac valley (PVP - INSTA 70)"] = {
 		},
-		["Tamori - ChaosWoW Funserver"] = {
+		["Aonarah - Hellscream"] = {
 		},
 		["Aonar - Hellscream"] = {
 		},
@@ -150,8 +150,8 @@ TomTomWaypoints = {
 		["Pandohra - Zuluhed"] = "Pandohra - Zuluhed",
 		["Gacrux - Thorium Brotherhood"] = "Gacrux - Thorium Brotherhood",
 		["Aonah - Auchindoun"] = "Aonah - Auchindoun",
-		["Freezeforu - Zuluhed"] = "Freezeforu - Zuluhed",
 		["Gacrux - Zuluhed"] = "Gacrux - Zuluhed",
+		["Freezeforu - Zuluhed"] = "Freezeforu - Zuluhed",
 		["Wezen - Thorium Brotherhood"] = "Wezen - Thorium Brotherhood",
 		["Idsapme - Auchindoun"] = "Idsapme - Auchindoun",
 		["Totemtusk - Auchindoun"] = "Totemtusk - Auchindoun",
@@ -202,8 +202,6 @@ TomTomWaypoints = {
 		},
 		["Aonah - Auchindoun"] = {
 		},
-		["Freezeforu - Zuluhed"] = {
-		},
 		["Gacrux - Zuluhed"] = {
 			["Dragonblight"] = {
 				"28395012:", -- [1]
@@ -212,6 +210,8 @@ TomTomWaypoints = {
 			["BoreanTundra"] = {
 				"33643197:", -- [1]
 			},
+		},
+		["Freezeforu - Zuluhed"] = {
 		},
 		["Wezen - Thorium Brotherhood"] = {
 		},
@@ -269,12 +269,12 @@ TomTomWaypointsMF = {
 		["Gacrux - Auchindoun"] = "Gacrux - Auchindoun",
 		["Aonah - Auchindoun"] = "Aonah - Auchindoun",
 		["Pooshield - Thrall"] = "Pooshield - Thrall",
-		["Wezen - Auchindoun"] = "Wezen - Auchindoun",
+		["Sadr - Auchindoun"] = "Sadr - Auchindoun",
 		["Pooshield - Arthas"] = "Pooshield - Arthas",
 		["Promitto - Auchindoun"] = "Promitto - Auchindoun",
 		["Pulari - Auchindoun"] = "Pulari - Auchindoun",
 		["Aset - Auchindoun"] = "Aset - Auchindoun",
-		["Sadr - Auchindoun"] = "Sadr - Auchindoun",
+		["Wezen - Auchindoun"] = "Wezen - Auchindoun",
 		["Itsashaman - Arthas"] = "Itsashaman - Arthas",
 	},
 	["profiles"] = {
@@ -305,9 +305,9 @@ TomTomWaypointsMF = {
 					0.6800000000000001, -- [4]
 					["silent"] = true,
 					["crazy"] = true,
-					["world"] = true,
-					["persistent"] = true,
 					["minimap"] = true,
+					["persistent"] = true,
+					["world"] = true,
 				},
 			},
 		},
@@ -330,7 +330,7 @@ TomTomWaypointsMF = {
 				},
 			},
 		},
-		["Wezen - Auchindoun"] = {
+		["Sadr - Auchindoun"] = {
 		},
 		["Pooshield - Arthas"] = {
 		},
@@ -352,8 +352,21 @@ TomTomWaypointsMF = {
 		["Pulari - Auchindoun"] = {
 		},
 		["Aset - Auchindoun"] = {
+			[700] = {
+				["700:0:479225226:305363470:nil"] = {
+					700, -- [1]
+					0, -- [2]
+					0.4792252265750294, -- [3]
+					0.3053634705138246, -- [4]
+					["silent"] = true,
+					["crazy"] = true,
+					["minimap"] = true,
+					["persistent"] = true,
+					["world"] = true,
+				},
+			},
 		},
-		["Sadr - Auchindoun"] = {
+		["Wezen - Auchindoun"] = {
 		},
 		["Itsashaman - Arthas"] = {
 		},

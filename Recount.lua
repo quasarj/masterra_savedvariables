@@ -7,8 +7,8 @@ RecountDB = {
 		["Deadset - Auchindoun"] = "Deadset - Auchindoun",
 		["Gacrux - Auchindoun"] = "Gacrux - Auchindoun",
 		["Itsashaman - Arthas"] = "Itsashaman - Arthas",
-		["Wezen - Auchindoun"] = "Wezen - Auchindoun",
 		["Sadr - Auchindoun"] = "Sadr - Auchindoun",
+		["Wezen - Auchindoun"] = "Wezen - Auchindoun",
 		["Pooshield - Arthas"] = "Pooshield - Arthas",
 		["Promitto - Auchindoun"] = "Promitto - Auchindoun",
 		["Pulari - Auchindoun"] = "Pulari - Auchindoun",
@@ -92,14 +92,14 @@ RecountDB = {
 			["GraphWindowY"] = 0,
 			["MainWindow"] = {
 				["Position"] = {
-					["y"] = -256.9999987006424,
+					["y"] = -256.9999899470758,
 					["h"] = 205.9999949393443,
-					["w"] = 264.9999270308155,
-					["x"] = 922.1668179506381,
+					["w"] = 264.9999445379488,
+					["x"] = 923.2778206299819,
 				},
 			},
-			["DetailWindowX"] = 423.4444729467261,
-			["LastInstanceName"] = "Blackrock Depths",
+			["DetailWindowX"] = 600.3333265174051,
+			["LastInstanceName"] = "Firelands",
 			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
@@ -111,7 +111,7 @@ RecountDB = {
 					},
 				},
 			},
-			["DetailWindowY"] = -320.5555407307218,
+			["DetailWindowY"] = -368.7778189544945,
 			["GraphWindowX"] = 0,
 			["ReportLines"] = 2,
 			["MainWindowWidth"] = 265.4446257238191,
@@ -164,29 +164,6 @@ RecountDB = {
 			["GraphWindowX"] = 0,
 			["CurDataSet"] = "OverallData",
 		},
-		["Wezen - Auchindoun"] = {
-			["GraphWindowY"] = 0,
-			["MainWindow"] = {
-				["Position"] = {
-					["y"] = -513.1430757475529,
-					["x"] = 593.142796727616,
-					["w"] = 140.0001157112092,
-					["h"] = 200.0000727640228,
-				},
-			},
-			["Colors"] = {
-				["Bar"] = {
-					["Bar Text"] = {
-						["a"] = 1,
-					},
-				},
-			},
-			["DetailWindowY"] = 0,
-			["LastInstanceName"] = "Blackrock Caverns",
-			["CurDataSet"] = "LastFightData",
-			["GraphWindowX"] = 0,
-			["DetailWindowX"] = 0,
-		},
 		["Sadr - Auchindoun"] = {
 			["GraphWindowY"] = 0,
 			["MainWindow"] = {
@@ -214,6 +191,29 @@ RecountDB = {
 			["MainWindowHeight"] = 192.2222661876186,
 			["MainWindowWidth"] = 227.7777308033429,
 			["GraphWindowX"] = 0,
+		},
+		["Wezen - Auchindoun"] = {
+			["GraphWindowY"] = 0,
+			["MainWindow"] = {
+				["Position"] = {
+					["y"] = -513.1430757475529,
+					["x"] = 593.142796727616,
+					["w"] = 140.0001157112092,
+					["h"] = 200.0000727640228,
+				},
+			},
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["DetailWindowY"] = 0,
+			["LastInstanceName"] = "Blackrock Caverns",
+			["CurDataSet"] = "LastFightData",
+			["GraphWindowX"] = 0,
+			["DetailWindowX"] = 0,
 		},
 		["Pooshield - Arthas"] = {
 			["GraphWindowY"] = 0,
@@ -275,7 +275,9 @@ RecountDB = {
 					["h"] = 205.7141734810562,
 				},
 			},
-			["ReportLines"] = 3,
+			["DetailWindowX"] = 497.7775200338708,
+			["LastInstanceName"] = "Baradin Hold",
+			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -284,10 +286,8 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = -354.4445538488304,
-			["DetailWindowX"] = 497.7775200338708,
-			["LastInstanceName"] = "Baradin Hold",
-			["CurDataSet"] = "LastFightData",
 			["GraphWindowX"] = 0,
+			["ReportLines"] = 3,
 			["MainWindowWidth"] = 235.9998445215386,
 			["MainWindowHeight"] = 205.7142192011542,
 		},
@@ -301,15 +301,17 @@ RecountDB = {
 					["h"] = 285.0000235935976,
 				},
 			},
-			["DetailWindowX"] = 252.999995144506,
-			["LastInstanceName"] = "Ulduar",
-			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
-				["Window"] = {
-					["Title"] = {
+				["Other Windows"] = {
+					["Background"] = {
 						["a"] = 0,
 					},
+				},
+				["Window"] = {
 					["Background"] = {
+						["a"] = 0,
+					},
+					["Title"] = {
 						["a"] = 0,
 					},
 				},
@@ -321,16 +323,14 @@ RecountDB = {
 						["a"] = 1,
 					},
 				},
-				["Other Windows"] = {
-					["Background"] = {
-						["a"] = 0,
-					},
-				},
 			},
 			["DetailWindowY"] = -284.0000686607884,
-			["MainWindowHeight"] = 284.571347357931,
-			["MainWindowWidth"] = 252.5714440750933,
+			["DetailWindowX"] = 252.999995144506,
+			["LastInstanceName"] = "Blackrock Depths",
+			["CurDataSet"] = "LastFightData",
 			["GraphWindowX"] = 0,
+			["MainWindowWidth"] = 252.5714440750933,
+			["MainWindowHeight"] = 284.571347357931,
 		},
 		["Pooshield - Thrall"] = {
 			["GraphWindowY"] = 0,
