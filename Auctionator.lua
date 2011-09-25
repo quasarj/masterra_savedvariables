@@ -317,14 +317,17 @@ AUCTIONATOR_PRICE_DATABASE = {
 		},
 		["Elementium Ore"] = {
 			["H311"] = 13505,
-			["H309"] = 29000,
+			["H313"] = 16500,
+			["id"] = "52185",
 			["L312"] = 12700,
 			["L309"] = 25250,
-			["mr"] = 12700,
-			["cc"] = 6,
-			["H312"] = 12873,
+			["mr"] = 22999,
 			["sc"] = 4,
-			["id"] = "52185",
+			["H312"] = 12873,
+			["L314"] = 22999,
+			["cc"] = 6,
+			["H309"] = 29000,
+			["H314"] = 30400,
 		},
 		["Hardened Elementium Bar"] = {
 			["mr"] = 929025,
@@ -441,7 +444,8 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H202"] = 399999,
 		},
 		["Carnelian"] = {
-			["mr"] = 249000,
+			["H314"] = 300000,
+			["mr"] = 300000,
 			["cc"] = 8,
 			["H309"] = 249000,
 			["id"] = "52177",
@@ -597,7 +601,8 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H274"] = 1500000,
 		},
 		["Bold Carnelian"] = {
-			["mr"] = 350000,
+			["H314"] = 150000,
+			["mr"] = 150000,
 			["cc"] = 8,
 			["id"] = "52081",
 			["H309"] = 350000,
@@ -660,11 +665,12 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H202"] = 400000,
 		},
 		["Heartblossom"] = {
-			["mr"] = 50000,
-			["sc"] = 6,
-			["H309"] = 50000,
+			["H314"] = 48750,
+			["mr"] = 48750,
 			["cc"] = 6,
 			["id"] = "52986",
+			["sc"] = 6,
+			["H309"] = 50000,
 		},
 		["Essence of Earth"] = {
 			["mr"] = 20000,
@@ -702,7 +708,8 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["id"] = "54849",
 		},
 		["Perfect Precise Carnelian"] = {
-			["mr"] = 400000,
+			["H314"] = 410000,
+			["mr"] = 410000,
 			["cc"] = 8,
 			["id"] = "52172",
 			["H309"] = 400000,
@@ -718,6 +725,7 @@ AUCTIONATOR_TOONS = {
 	["Chukk"] = {
 		["firstSeen"] = 1306794359,
 		["firstVersion"] = "2.9.4",
+		["guid"] = "0x07000000038A862D",
 	},
 	["Pulari"] = {
 		["firstSeen"] = 1307259481,
@@ -733,6 +741,7 @@ AUCTIONATOR_TOONS = {
 	},
 	["Deadset"] = {
 		["firstSeen"] = 1307478618,
+		["guid"] = "0x07000000038DD7AE",
 		["firstVersion"] = "2.9.4",
 	},
 	["Wezen"] = {
@@ -751,13 +760,11 @@ AUCTIONATOR_TOONS = {
 	},
 	["Sadr"] = {
 		["firstSeen"] = 1306726475,
-		["guid"] = "0x0700000003F5E6FD",
 		["firstVersion"] = "2.9.4",
 	},
 	["Aonah"] = {
 		["firstSeen"] = 1306615330,
 		["firstVersion"] = "2.9.4",
-		["guid"] = "0x07000000038DD9B8",
 	},
 	["Promitto"] = {
 		["firstSeen"] = 1306638326,

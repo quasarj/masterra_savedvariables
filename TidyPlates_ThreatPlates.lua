@@ -72,12 +72,12 @@ ThreatPlatesDB = {
 					5, -- [3]
 				}, -- [2]
 			},
-			["welcome"] = true,
 			["specName"] = {
 				"Blood", -- [1]
 				"Frost", -- [2]
 				"Unholy", -- [3]
 			},
+			["welcome"] = true,
 		},
 		["Gacrux - Auchindoun"] = {
 			["specInfo"] = {
@@ -193,6 +193,30 @@ ThreatPlatesDB = {
 				"Restoration", -- [3]
 			},
 		},
+		["Promitto - Auchindoun"] = {
+			["spec"] = {
+				["primary"] = false,
+				["secondary"] = true,
+			},
+			["welcome"] = true,
+			["specInfo"] = {
+				{
+					34, -- [1]
+					5, -- [2]
+					2, -- [3]
+				}, -- [1]
+				{
+					nil, -- [1]
+					34, -- [2]
+					7, -- [3]
+				}, -- [2]
+			},
+			["specName"] = {
+				"Holy", -- [1]
+				"Protection", -- [2]
+				"Retribution", -- [3]
+			},
+		},
 		["Pulari - Auchindoun"] = {
 			["welcome"] = true,
 			["spec"] = {
@@ -217,10 +241,10 @@ ThreatPlatesDB = {
 			},
 		},
 		["Aset - Auchindoun"] = {
-			["welcome"] = true,
 			["spec"] = {
 				["secondary"] = true,
 			},
+			["welcome"] = true,
 			["specInfo"] = {
 				{
 					nil, -- [1]
@@ -237,30 +261,6 @@ ThreatPlatesDB = {
 				"Balance", -- [1]
 				"Feral Combat", -- [2]
 				"Restoration", -- [3]
-			},
-		},
-		["Promitto - Auchindoun"] = {
-			["spec"] = {
-				["primary"] = false,
-				["secondary"] = true,
-			},
-			["welcome"] = true,
-			["specInfo"] = {
-				{
-					34, -- [1]
-					5, -- [2]
-					2, -- [3]
-				}, -- [1]
-				{
-					nil, -- [1]
-					34, -- [2]
-					7, -- [3]
-				}, -- [2]
-			},
-			["specName"] = {
-				"Holy", -- [1]
-				"Protection", -- [2]
-				"Retribution", -- [3]
 			},
 		},
 		["Aonah - Auchindoun"] = {
@@ -298,9 +298,9 @@ ThreatPlatesDB = {
 		["Sadr - Auchindoun"] = "Default",
 		["Pooshield - Arthas"] = "Default",
 		["Pooshield - Thrall"] = "Default",
+		["Promitto - Auchindoun"] = "Default",
 		["Pulari - Auchindoun"] = "Default",
 		["Aset - Auchindoun"] = "Default",
-		["Promitto - Auchindoun"] = "Default",
 		["Aonah - Auchindoun"] = "Default",
 	},
 	["profiles"] = {

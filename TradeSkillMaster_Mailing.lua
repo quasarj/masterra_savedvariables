@@ -70,6 +70,7 @@ TradeSkillMaster_MailingDB = {
 				[52213] = "aonah",
 				[52983] = "aonah",
 				[56551] = "aonah",
+				["worthless blues"] = "aonah",
 				["dust"] = "aonah",
 				[58480] = "aonah",
 				[39341] = "pulari",

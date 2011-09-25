@@ -14,6 +14,16 @@ AutoProfitX2DB = {
 		["Sadr - Auchindoun"] = "Sadr - Auchindoun",
 		["Aonah - Auchindoun"] = "Aonah - Auchindoun",
 	},
+	["global"] = {
+		["Auchindoun"] = {
+			["Aset"] = {
+				["exceptionList"] = {
+					["52170"] = true,
+					["52087"] = true,
+				},
+			},
+		},
+	},
 }
 AutoProfitX2_ExceptionlistVersion = nil
 AutoProfitX2_Settings = nil

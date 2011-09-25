@@ -121,10 +121,10 @@ Postal3DB = {
 		["Aonah - Auchindoun"] = {
 			["BlackBook"] = {
 				["recent"] = {
-					"aset|Auchindoun|Alliance", -- [1]
-					"Deadset|Auchindoun|Alliance", -- [2]
-					"Pulari|Auchindoun|Alliance", -- [3]
-					"Aset|Auchindoun|Alliance", -- [4]
+					"Aset|Auchindoun|Alliance", -- [1]
+					"aset|Auchindoun|Alliance", -- [2]
+					"Deadset|Auchindoun|Alliance", -- [3]
+					"Pulari|Auchindoun|Alliance", -- [4]
 					"Chukk|Auchindoun|Alliance", -- [5]
 					"promitto|Auchindoun|Alliance", -- [6]
 					"deadset|Auchindoun|Alliance", -- [7]
@@ -217,11 +217,11 @@ Postal3DB = {
 		["Aset - Auchindoun"] = {
 			["BlackBook"] = {
 				["recent"] = {
-					"promitto|Auchindoun|Alliance", -- [1]
-					"aonah|Auchindoun|Alliance", -- [2]
-					"Aonah|Auchindoun|Alliance", -- [3]
-					"Deadset|Auchindoun|Alliance", -- [4]
-					"Promitto|Auchindoun|Alliance", -- [5]
+					"aonah|Auchindoun|Alliance", -- [1]
+					"Promitto|Auchindoun|Alliance", -- [2]
+					"promitto|Auchindoun|Alliance", -- [3]
+					"Aonah|Auchindoun|Alliance", -- [4]
+					"Deadset|Auchindoun|Alliance", -- [5]
 					"Notenoughrag|Auchindoun|Alliance", -- [6]
 					"Chukk|Auchindoun|Alliance", -- [7]
 					"promitto````|Auchindoun|Alliance", -- [8]
