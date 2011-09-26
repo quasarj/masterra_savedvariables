@@ -19,8 +19,8 @@ TradeSkillMaster_ShoppingDB = {
 			},
 			["scrollvalue"] = 0,
 			["fullwidth"] = 759.9999928877271,
-			["treesizable"] = true,
 			["selected"] = 1,
+			["treesizable"] = true,
 		},
 		["itemNames"] = {
 			[39340] = "Violet Pigment",

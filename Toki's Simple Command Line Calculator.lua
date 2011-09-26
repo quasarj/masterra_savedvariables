@@ -1,4 +1,4 @@
 
 CLINE_CALC_ENV = {
-	["ans"] = 22,
+	["ans"] = 15,
 }
