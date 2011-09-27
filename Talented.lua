@@ -10,12 +10,15 @@ TalentedDB = {
 	["profileKeys"] = {
 		["Aset - Auchindoun"] = "Aset - Auchindoun",
 		["Deadset - Auchindoun"] = "Deadset - Auchindoun",
+		["Sadr - Auchindoun"] = "Sadr - Auchindoun",
 	},
 	["profiles"] = {
 		["Aset - Auchindoun"] = {
 			["last_template"] = "Feral PVP",
 		},
 		["Deadset - Auchindoun"] = {
+		},
+		["Sadr - Auchindoun"] = {
 		},
 	},
 }

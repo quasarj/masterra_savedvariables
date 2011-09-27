@@ -7,19 +7,19 @@ DataStoreDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.Auchindoun.Aonah"] = {
-				["faction"] = "Alliance",
 				["guildName"] = "Terokkar Florist",
+				["faction"] = "Alliance",
 			},
 			["Default.Auchindoun.Chukk"] = {
-				["faction"] = "Alliance",
 				["guildName"] = "Open Ticket",
+				["faction"] = "Alliance",
 			},
 		},
 		["Guilds"] = {
-			["Default.Auchindoun.Terokkar Florist"] = {
+			["Default.Auchindoun.Open Ticket"] = {
 				["faction"] = "Alliance",
 			},
-			["Default.Auchindoun.Open Ticket"] = {
+			["Default.Auchindoun.Terokkar Florist"] = {
 				["faction"] = "Alliance",
 			},
 		},

@@ -32,19 +32,19 @@ WIM3_Data = {
 				["onReceive"] = true,
 			},
 			["alwaysOther"] = false,
-			["arena"] = {
-				["keepfocus"] = false,
-				["supress"] = false,
-				["onSend"] = false,
-				["autofocus"] = false,
-				["onReceive"] = false,
-			},
 			["raid"] = {
 				["keepfocus"] = false,
 				["supress"] = true,
 				["onSend"] = true,
 				["autofocus"] = false,
 				["onReceive"] = true,
+			},
+			["arena"] = {
+				["keepfocus"] = false,
+				["supress"] = false,
+				["onSend"] = false,
+				["autofocus"] = false,
+				["onReceive"] = false,
 			},
 			["resting"] = {
 				["keepfocus"] = false,
@@ -92,14 +92,14 @@ WIM3_Data = {
 				["onReceive"] = false,
 			},
 			["alwaysOther"] = true,
-			["raid"] = {
+			["arena"] = {
 				["keepfocus"] = false,
 				["supress"] = false,
 				["onSend"] = false,
 				["autofocus"] = false,
 				["onReceive"] = false,
 			},
-			["arena"] = {
+			["raid"] = {
 				["keepfocus"] = false,
 				["supress"] = false,
 				["onSend"] = false,
@@ -149,9 +149,9 @@ WIM3_Data = {
 			["custom_sml"] = "Chat Blip",
 			["say_sml"] = "Chat Blip",
 			["raid_sml"] = "Chat Blip",
-			["officer_sml"] = "Chat Blip",
 			["guild_sml"] = "Chat Blip",
 			["raidleader_sml"] = "Chat Blip",
+			["officer_sml"] = "Chat Blip",
 			["battlegroundleader_sml"] = "Chat Blip",
 			["battleground_sml"] = "Chat Blip",
 		},
@@ -219,17 +219,17 @@ WIM3_Data = {
 			["g"] = 0,
 			["r"] = 1,
 		},
-		["BNwispIn"] = {
-			["b"] = 0.6549019607843137,
-			["g"] = 0.4862745098039216,
-			["r"] = 0,
-		},
+		["useSkin"] = true,
 		["historyOut"] = {
 			["b"] = 0.7058823529411764,
 			["g"] = 0.7058823529411764,
 			["r"] = 0.7058823529411764,
 		},
-		["useSkin"] = true,
+		["BNwispIn"] = {
+			["b"] = 0.6549019607843137,
+			["g"] = 0.4862745098039216,
+			["r"] = 0,
+		},
 	},
 	["fontSize"] = 12,
 	["showToolTips"] = true,
@@ -299,8 +299,8 @@ WIM3_Data = {
 			["ageLimit"] = true,
 			["previewCount"] = 25,
 			["maxAge"] = 1209600,
-			["all"] = true,
 			["preview"] = true,
+			["all"] = true,
 			["friends"] = true,
 			["maxPer"] = true,
 		},
@@ -326,10 +326,10 @@ WIM3_Data = {
 		["Manipulating_Tabs"] = true,
 		["Right_Mouse_Click_"] = true,
 		["WIM_History_Viewer"] = true,
-		["Expose__"] = true,
+		["Resizing_Windows"] = true,
 		["WIM_Update_Available_"] = true,
 		["WIM_History_Button"] = true,
-		["Resizing_Windows"] = true,
+		["Expose__"] = true,
 		["WIM_Slash_Commands"] = true,
 	},
 	["modules"] = {
@@ -363,19 +363,19 @@ WIM3_Data = {
 		["OffScreenTracker"] = {
 			["enabled"] = true,
 		},
-		["History"] = {
+		["ClickControl"] = {
 			["enabled"] = true,
 		},
-		["LDB"] = {
+		["W2W"] = {
 			["enabled"] = true,
 		},
 		["Negotiate"] = {
 			["enabled"] = true,
 		},
-		["ClickControl"] = {
+		["History"] = {
 			["enabled"] = true,
 		},
-		["W2W"] = {
+		["Tabs"] = {
 			["enabled"] = true,
 		},
 		["URLHandler"] = {
@@ -387,10 +387,10 @@ WIM3_Data = {
 		["WhisperEngine"] = {
 			["enabled"] = true,
 		},
-		["Menu"] = {
+		["LDB"] = {
 			["enabled"] = true,
 		},
-		["Tabs"] = {
+		["Menu"] = {
 			["enabled"] = true,
 		},
 	},
@@ -475,14 +475,14 @@ WIM3_Cache = {
 				["|Kg91|k000000|k |Ks91|k0000|k"] = 2,
 				["|Kg69|k0000000|k |Ks69|k000000|k"] = 2,
 				["|Kg74|k000000|k |Ks74|k000000|k"] = 2,
-				["|Kg89|k0000000|k |Ks89|k0000000|k"] = 2,
-				["|Kg80|k00000000|k |Ks80|k00000|k"] = 2,
+				["|Kg90|k0000000|k |Ks90|k000000|k"] = 2,
+				["|Kg88|k00000000|k |Ks88|k00000|k"] = 2,
 				["|Kg60|k0000000|k |Ks60|k00000000|k"] = 2,
 				["|Kg84|k000000|k |Ks84|k0000000|k"] = 2,
 				["|Kg73|k00000|k |Ks73|k000000|k"] = 2,
 				["|Kg61|k00000|k |Ks61|k00000|k"] = 2,
-				["|Kg88|k00000000|k |Ks88|k00000|k"] = 2,
-				["|Kg90|k0000000|k |Ks90|k000000|k"] = 2,
+				["|Kg80|k00000000|k |Ks80|k00000|k"] = 2,
+				["|Kg89|k0000000|k |Ks89|k0000000|k"] = 2,
 			},
 			["guildList"] = {
 				["Roguelegend"] = true,
@@ -600,8 +600,8 @@ WIM3_Cache = {
 				["Farminboy"] = true,
 				["Treepieguy"] = true,
 				["Emalynn"] = true,
-				["Hortz"] = true,
 				["Krendarr"] = true,
+				["Erroz"] = true,
 				["Makirotatsu"] = true,
 				["Urung"] = true,
 				["Medorgalice"] = true,
@@ -615,16 +615,16 @@ WIM3_Cache = {
 				["Grømar"] = true,
 				["Kilori"] = true,
 				["Canthsolara"] = true,
-				["Kjmule"] = true,
+				["Scythêr"] = true,
 				["Rampagescrit"] = true,
-				["Xandon"] = true,
+				["Freezeray"] = true,
 				["Kratorius"] = true,
 				["Enchocks"] = true,
-				["Scythêr"] = true,
-				["Midnighttoke"] = true,
-				["Freezeray"] = true,
+				["Kjmule"] = true,
+				["Omnieajr"] = true,
+				["Xandon"] = true,
 				["Rrambo"] = true,
-				["Wishstar"] = true,
+				["Nezertkal"] = true,
 				["Rahoto"] = true,
 				["Tankar"] = true,
 				["Unholyfist"] = true,
@@ -633,23 +633,23 @@ WIM3_Cache = {
 				["Velini"] = true,
 				["Taull"] = true,
 				["Zéùs"] = true,
-				["Zetxin"] = true,
-				["Sparkfizzle"] = true,
-				["Emoraruk"] = true,
-				["Camminick"] = true,
-				["Zaphyrine"] = true,
 				["Jerundo"] = true,
+				["Camminick"] = true,
+				["Zetxin"] = true,
+				["Sortbek"] = true,
+				["Zaphyrine"] = true,
+				["Emoraruk"] = true,
 				["Drakxon"] = true,
 				["Edgarreatt"] = true,
-				["Fekbreztok"] = true,
-				["Syrela"] = true,
 				["Farnoosh"] = true,
+				["Syrela"] = true,
+				["Fekbreztok"] = true,
 				["Youbedead"] = true,
-				["Shëëpwithmë"] = true,
+				["Aryna"] = true,
 				["Chumpz"] = true,
-				["Myronoran"] = true,
-				["Enrekay"] = true,
+				["Vodoomaster"] = true,
 				["Justshootme"] = true,
+				["Enrekay"] = true,
 				["Boocockery"] = true,
 				["Cullen"] = true,
 				["Prettynice"] = true,
@@ -661,7 +661,7 @@ WIM3_Cache = {
 				["Taintaina"] = true,
 				["Demonikka"] = true,
 				["Lockmyballz"] = true,
-				["Gavek"] = true,
+				["Myrtie"] = true,
 				["Aaberath"] = true,
 				["Trazor"] = true,
 				["Ömega"] = true,
@@ -675,28 +675,28 @@ WIM3_Cache = {
 				["Youlie"] = true,
 				["Comrade"] = true,
 				["Zirox"] = true,
-				["Cecilharvey"] = true,
-				["Nun"] = true,
 				["Vexxez"] = true,
+				["Nun"] = true,
+				["Cecilharvey"] = true,
 				["Bloodysoul"] = true,
 				["Valadín"] = true,
 				["Jazzul"] = true,
-				["Tuluk"] = true,
+				["Blackhorn"] = true,
 				["Okrog"] = true,
 				["Hidookin"] = true,
 				["Sanesh"] = true,
-				["Gagarin"] = true,
 				["Ggdrutu"] = true,
-				["Arthurdayne"] = true,
 				["Grenyoin"] = true,
+				["Arthurdayne"] = true,
+				["Deathofnite"] = true,
 				["Inglik"] = true,
-				["Procell"] = true,
+				["Firearcane"] = true,
 				["Ranzixx"] = true,
 				["Baelcozsh"] = true,
 				["Abrof"] = true,
 				["Tankfail"] = true,
 				["Magditha"] = true,
-				["Galeinthia"] = true,
+				["Tinytummy"] = true,
 				["Kiraspian"] = true,
 				["Rendol"] = true,
 				["Bettyul"] = true,
@@ -707,79 +707,79 @@ WIM3_Cache = {
 				["Sernewa"] = true,
 				["Slapxshot"] = true,
 				["Ôldschôôl"] = true,
-				["Celoneus"] = true,
-				["Bamboomya"] = true,
-				["Zuzuii"] = true,
 				["Tergosh"] = true,
+				["Uryuishida"] = true,
+				["Zuzuii"] = true,
+				["Celoneus"] = true,
 				["Rainclaw"] = true,
 				["Roxstar"] = true,
 				["Theordun"] = true,
 				["Poafys"] = true,
 				["Hettroz"] = true,
-				["Dironic"] = true,
-				["Arthisain"] = true,
+				["Soulfalcon"] = true,
+				["Gaztrazzul"] = true,
 				["Rytio"] = true,
 				["Kaihana"] = true,
-				["Hargath"] = true,
+				["Eviltouch"] = true,
 				["Eripmav"] = true,
 				["Iknowaghost"] = true,
 				["Phucer"] = true,
-				["Jullem"] = true,
-				["Gaztrazzul"] = true,
+				["Demonickilla"] = true,
+				["Arthisain"] = true,
 				["Bananabane"] = true,
 				["Zulmah"] = true,
 				["Skarro"] = true,
 				["Sinestah"] = true,
 				["Tokinallday"] = true,
-				["Dreztok"] = true,
+				["Meechu"] = true,
 				["Shåmmy"] = true,
 				["Lackbombboy"] = true,
-				["Terrath"] = true,
+				["Bixel"] = true,
 				["Malicioüs"] = true,
-				["Madhater"] = true,
+				["Dirkmaster"] = true,
 				["Cophor"] = true,
-				["Eviltouch"] = true,
-				["Lohkir"] = true,
+				["Hargath"] = true,
+				["Grakendriel"] = true,
 				["Patchex"] = true,
 				["Jorzzie"] = true,
 				["Cerrote"] = true,
-				["Jinma"] = true,
+				["Cheddas"] = true,
 				["Ruthy"] = true,
-				["Demonickilla"] = true,
+				["Jullem"] = true,
 				["Lak"] = true,
-				["Meechu"] = true,
+				["Dreztok"] = true,
 				["Nathras"] = true,
 				["Deathnessess"] = true,
-				["Salerin"] = true,
-				["Nekrø"] = true,
-				["Dirkmaster"] = true,
+				["Keridia"] = true,
+				["Stamanswife"] = true,
+				["Madhater"] = true,
 				["Reanoth"] = true,
 				["Gatcha"] = true,
 				["Bruanhar"] = true,
 				["Frck"] = true,
 				["Ninge"] = true,
-				["Yougowndown"] = true,
+				["Jinma"] = true,
 				["Rakqwa"] = true,
-				["Keridia"] = true,
-				["Solivaradori"] = true,
-				["Stamanswife"] = true,
+				["Naeda"] = true,
+				["Jbombwar"] = true,
+				["Sangría"] = true,
 				["Qiqi"] = true,
 				["Ritgakux"] = true,
-				["Zakble"] = true,
+				["Keleniel"] = true,
 				["Phurius"] = true,
 				["Mekju"] = true,
-				["Pyronorth"] = true,
-				["Sangría"] = true,
-				["Keleniel"] = true,
+				["Salerin"] = true,
+				["Nekrø"] = true,
 				["Sbamfm"] = true,
 				["Glaxal"] = true,
+				["Zakble"] = true,
 				["Yoguurt"] = true,
 				["Owlbeast"] = true,
 				["Morbog"] = true,
 				["Halothree"] = true,
-				["Niert"] = true,
+				["Lovastus"] = true,
 				["Sciocco"] = true,
-				["Ritzie"] = true,
+				["Aelarion"] = true,
 				["Lichfiend"] = true,
 				["Sylvis"] = true,
 				["Darkgreen"] = true,
@@ -788,31 +788,31 @@ WIM3_Cache = {
 				["Drexicus"] = true,
 				["Viiolet"] = true,
 				["Randypants"] = true,
-				["Garbyron"] = true,
-				["Lovastus"] = true,
+				["Tirarogue"] = true,
+				["Niert"] = true,
 				["Coolcash"] = true,
 				["Apolon"] = true,
-				["Annaelin"] = true,
+				["Tierial"] = true,
 				["Relaps"] = true,
-				["Bonirokx"] = true,
-				["Bladeguard"] = true,
+				["Ragefuryz"] = true,
+				["Rockxstar"] = true,
 				["Goplin"] = true,
 				["Dunbarz"] = true,
-				["Tirarogue"] = true,
-				["Circä"] = true,
+				["Smellykatt"] = true,
+				["Kissmybut"] = true,
 				["Salindra"] = true,
 				["Heavymedal"] = true,
 				["Skelp"] = true,
 				["Mugzug"] = true,
-				["Serpentyna"] = true,
+				["Circä"] = true,
 				["Graysword"] = true,
 				["Wirelesstuba"] = true,
 				["Shleonny"] = true,
 				["Ojsímpson"] = true,
 				["Fizkix"] = true,
 				["Fyain"] = true,
-				["Greenva"] = true,
 				["Eelaya"] = true,
+				["Greenva"] = true,
 				["Devilwilldie"] = true,
 				["Ihuntgnomes"] = true,
 				["Toxiccandy"] = true,
@@ -824,84 +824,84 @@ WIM3_Cache = {
 				["Mangocow"] = true,
 				["Grombie"] = true,
 				["Skinme"] = true,
-				["Bonesdrone"] = true,
 				["Tonstaar"] = true,
+				["Bonesdrone"] = true,
 				["Fiehrah"] = true,
-				["Kissmybut"] = true,
+				["Serpentyna"] = true,
 				["Plaze"] = true,
 				["Lekil"] = true,
-				["Smellykatt"] = true,
+				["Garbyron"] = true,
 				["Panzokk"] = true,
-				["Rockxstar"] = true,
-				["Ragefuryz"] = true,
-				["Sugarcouch"] = true,
+				["Bladeguard"] = true,
+				["Bonirokx"] = true,
+				["Annaelin"] = true,
 				["Lyghtning"] = true,
-				["Naeda"] = true,
-				["Aelarion"] = true,
+				["Aidentron"] = true,
+				["Ritzie"] = true,
 				["Dabos"] = true,
-				["Tierial"] = true,
+				["Sugarcouch"] = true,
 				["Tiglet"] = true,
-				["Cheddas"] = true,
+				["Yougowndown"] = true,
 				["Nerferter"] = true,
-				["Blocter"] = true,
-				["Jbombwar"] = true,
-				["Zulljin"] = true,
+				["Jankeemcgee"] = true,
+				["Solivaradori"] = true,
+				["Pyronorth"] = true,
 				["Doctafun"] = true,
 				["Akashannon"] = true,
 				["Blackendrose"] = true,
-				["Jankeemcgee"] = true,
-				["Aidentron"] = true,
+				["Blocter"] = true,
+				["Zulljin"] = true,
 				["Zilgibbix"] = true,
 				["Sigdis"] = true,
-				["Soulfalcon"] = true,
+				["Dironic"] = true,
 				["Wìtch"] = true,
-				["Grakendriel"] = true,
+				["Lohkir"] = true,
 				["Sklutn"] = true,
 				["Welskrosd"] = true,
-				["Bixel"] = true,
+				["Terrath"] = true,
 				["Fourtwenttyy"] = true,
 				["Etrash"] = true,
 				["Drussaria"] = true,
-				["Uryuishida"] = true,
+				["Bamboomya"] = true,
 				["Brotal"] = true,
 				["Bannt"] = true,
 				["Djknight"] = true,
 				["Pobe"] = true,
-				["Tinytummy"] = true,
+				["Galeinthia"] = true,
 				["Undeåd"] = true,
-				["Firearcane"] = true,
-				["Deathofnite"] = true,
+				["Procell"] = true,
+				["Gagarin"] = true,
 				["Druscilla"] = true,
 				["Elmeroc"] = true,
 				["Directdep"] = true,
 				["Calinia"] = true,
 				["Lakuna"] = true,
-				["Syik"] = true,
+				["Tuluk"] = true,
 				["Keiya"] = true,
-				["Blackhorn"] = true,
+				["Syik"] = true,
 				["Piupiu"] = true,
 				["Nibs"] = true,
 				["Kyruxzz"] = true,
 				["Theroiel"] = true,
-				["Myrtie"] = true,
-				["Cobrabubbles"] = true,
+				["Gavek"] = true,
 				["Asuki"] = true,
+				["Cobrabubbles"] = true,
 				["Bangnbang"] = true,
 				["Doofensburg"] = true,
-				["Vodoomaster"] = true,
+				["Myronoran"] = true,
 				["Cowpiie"] = true,
-				["Aryna"] = true,
+				["Shëëpwithmë"] = true,
 				["Rogron"] = true,
 				["Raisenbake"] = true,
 				["Durimzul"] = true,
-				["Sortbek"] = true,
+				["Sparkfizzle"] = true,
 				["Girlcow"] = true,
 				["Deathwinggay"] = true,
 				["Balstyrka"] = true,
 				["Oicu"] = true,
 				["Pooshield"] = true,
-				["Nezertkal"] = true,
-				["Omnieajr"] = true,
+				["Wishstar"] = true,
+				["Midnighttoke"] = true,
 				["Lomax"] = true,
 				["Båckslîdê"] = true,
 				["Voidbreaker"] = true,
@@ -909,7 +909,7 @@ WIM3_Cache = {
 				["Takirumo"] = true,
 				["Taurensaurus"] = true,
 				["Koruul"] = true,
-				["Erroz"] = true,
+				["Hortz"] = true,
 				["Wealcore"] = true,
 				["Thairok"] = true,
 				["Rhagrimm"] = true,
@@ -947,14 +947,14 @@ WIM3_Cache = {
 				["Chia Williams"] = 2,
 				["Christopher Burnette"] = 2,
 				["Kenneth Williams"] = 2,
-				["robby marshall"] = 2,
-				["greg duhart"] = 2,
 				["Jessel Serrano"] = 2,
-				["Muhammad Ahmad"] = 2,
-				["James Robert"] = 2,
-				["Emily McKillip"] = 2,
 				["Robert Weston"] = 2,
 				["Amanda Krupa"] = 2,
+				["Muhammad Ahmad"] = 2,
+				["James Robert"] = 2,
+				["robby marshall"] = 2,
+				["greg duhart"] = 2,
+				["Emily McKillip"] = 2,
 				["trisha wall"] = 2,
 			},
 			["guildList"] = {
@@ -1024,18 +1024,18 @@ WIM3_Cache = {
 				["Varthemis"] = true,
 				["Albarizziba"] = true,
 				["Delatana"] = true,
-				["Traylin"] = true,
+				["Artheau"] = true,
 				["Guile"] = true,
-				["Akihuma"] = true,
-				["Tootsweet"] = true,
+				["Allene"] = true,
+				["Traylin"] = true,
 				["Promitto"] = true,
 				["Eviluptuous"] = true,
 				["Zarkov"] = true,
-				["Artheau"] = true,
+				["Tootsweet"] = true,
 				["Aulyse"] = true,
 				["Goldthorn"] = true,
-				["Briarthorn"] = true,
 				["Yergacheffe"] = true,
+				["Briarthorn"] = true,
 				["Sheepsly"] = true,
 				["Gwion"] = true,
 				["Dagosh"] = true,
@@ -1044,7 +1044,7 @@ WIM3_Cache = {
 				["Suechur"] = true,
 				["Hyas"] = true,
 				["Kyrianya"] = true,
-				["Demer"] = true,
+				["Syna"] = true,
 				["Impuriti"] = true,
 				["Tamerlain"] = true,
 				["Deadhoof"] = true,
@@ -1052,29 +1052,29 @@ WIM3_Cache = {
 				["Ooziemere"] = true,
 				["Tyraelyssa"] = true,
 				["Hengeyoki"] = true,
-				["Chensalvador"] = true,
+				["Ikonrippia"] = true,
 				["Sweetdreams"] = true,
-				["Semisweet"] = true,
+				["Chensalvador"] = true,
 				["Oshbegosh"] = true,
 				["Dinzell"] = true,
 				["Rueage"] = true,
-				["Ikonrippia"] = true,
+				["Semisweet"] = true,
 				["Driftsong"] = true,
 				["Doamnei"] = true,
 				["Anieza"] = true,
 				["Durogg"] = true,
 				["Delduath"] = true,
 				["Oakenvein"] = true,
-				["Melgaine"] = true,
 				["Zarkroc"] = true,
+				["Melgaine"] = true,
 				["Severance"] = true,
 				["Lawkor"] = true,
 				["Zulie"] = true,
 				["Zalaliman"] = true,
-				["Dugamau"] = true,
 				["Sulfur"] = true,
+				["Dugamau"] = true,
 				["Brommok"] = true,
-				["Paudie"] = true,
+				["Merkava"] = true,
 				["Haenri"] = true,
 				["Kraal"] = true,
 				["Maddog"] = true,
@@ -1083,19 +1083,19 @@ WIM3_Cache = {
 				["Mirix"] = true,
 				["Daghoof"] = true,
 				["Nebakanezer"] = true,
-				["Stormvine"] = true,
-				["Parintachin"] = true,
 				["Keiala"] = true,
-				["Alliorth"] = true,
-				["Zalshan"] = true,
-				["Zekryt"] = true,
-				["Gwendelyn"] = true,
+				["Parintachin"] = true,
+				["Stormvine"] = true,
 				["Songbreeze"] = true,
+				["Zalshan"] = true,
+				["Ðarcy"] = true,
+				["Gwendelyn"] = true,
+				["Alliorth"] = true,
 				["Vilefor"] = true,
 				["Tiryl"] = true,
-				["Thorne"] = true,
-				["Ðarcy"] = true,
 				["Kirianya"] = true,
+				["Zekryt"] = true,
+				["Thorne"] = true,
 				["Coreall"] = true,
 				["Gogg"] = true,
 				["Deathmist"] = true,
@@ -1105,9 +1105,9 @@ WIM3_Cache = {
 				["Zarktog"] = true,
 				["Bladecatcher"] = true,
 				["Gorepile"] = true,
-				["Rashana"] = true,
-				["Reverberate"] = true,
 				["Zorra"] = true,
+				["Reverberate"] = true,
+				["Rashana"] = true,
 				["Bloodthistle"] = true,
 				["Emeranth"] = true,
 				["Yasu"] = true,
@@ -1130,7 +1130,7 @@ WIM3_Cache = {
 				["Vardemis"] = true,
 				["Moetchandon"] = true,
 				["Déadlock"] = true,
-				["Merkava"] = true,
+				["Paudie"] = true,
 				["Adelius"] = true,
 				["Eryne"] = true,
 				["Decayblade"] = true,
@@ -1147,7 +1147,7 @@ WIM3_Cache = {
 				["Firethorn"] = true,
 				["Aaeoh"] = true,
 				["Alaranu"] = true,
-				["Syna"] = true,
+				["Demer"] = true,
 				["Arcadus"] = true,
 				["Ausric"] = true,
 				["Thwak"] = true,
@@ -1155,7 +1155,7 @@ WIM3_Cache = {
 				["Sacredsong"] = true,
 				["Rhoa"] = true,
 				["Khorium"] = true,
-				["Allene"] = true,
+				["Akihuma"] = true,
 				["Lirazel"] = true,
 				["Dugriakil"] = true,
 				["Roshota"] = true,
@@ -1179,15 +1179,15 @@ WIM3_Cache = {
 				["Jonathan Knight"] = 2,
 				["sonny simonetti"] = 2,
 				["Sam Hurst"] = 2,
-				["Jessel Serrano"] = 2,
-				["greg duhart"] = 2,
-				["Kenneth Williams"] = 2,
 				["Amanda Krupa"] = 2,
 				["Robert Weston"] = 2,
+				["Kenneth Williams"] = 2,
 				["Emily McKillip"] = 2,
+				["greg duhart"] = 2,
+				["robby marshall"] = 2,
 				["Muhammad Ahmad"] = 2,
 				["James Robert"] = 2,
-				["robby marshall"] = 2,
+				["Jessel Serrano"] = 2,
 				["Chia Williams"] = 2,
 				["Christopher Burnette"] = 2,
 				["trisha wall"] = 2,
@@ -1198,16 +1198,16 @@ WIM3_Cache = {
 				["Jessica Yeates"] = 2,
 				["Robert Bomkamp"] = 2,
 				["Jonathan Knight"] = 2,
-				["Emily McKillip"] = 2,
-				["Muhammad Ahmad"] = 2,
-				["Jamie Jones"] = 2,
-				["Christopher Burnette"] = 2,
-				["Tim Carlton"] = 2,
 				["robby marshall"] = 2,
 				["Nicholas Lopez"] = 2,
+				["Jamie Jones"] = 2,
+				["Christopher Burnette"] = 2,
+				["Robert Weston"] = 2,
+				["Emily McKillip"] = 2,
+				["Muhammad Ahmad"] = 2,
 				["Jessel Serrano"] = 2,
 				["kevin kapiszka"] = 2,
-				["Robert Weston"] = 2,
+				["Tim Carlton"] = 2,
 				["sonny simonetti"] = 2,
 				["trisha wall"] = 2,
 			},
@@ -1298,15 +1298,15 @@ WIM3_Cache = {
 				["Bellwether"] = true,
 				["Caçador"] = true,
 				["Opin"] = true,
-				["Dalone"] = true,
 				["Warcracker"] = true,
+				["Dalone"] = true,
 				["Altonus"] = true,
 				["Garrice"] = true,
 				["Dinkdoodle"] = true,
 				["Bronial"] = true,
+				["Aimbot"] = true,
 				["Kethrae"] = true,
 				["Raidne"] = true,
-				["Aimbot"] = true,
 				["Donkkykong"] = true,
 				["Rheavoss"] = true,
 				["Luxe"] = true,
@@ -1331,10 +1331,10 @@ WIM3_Cache = {
 				["Ginahotpants"] = true,
 				["Plammy"] = true,
 				["Longrangerx"] = true,
-				["Pillars"] = true,
+				["Cowgirll"] = true,
 				["Stòrm"] = true,
 				["Kvamight"] = true,
-				["Maldicion"] = true,
+				["Talilla"] = true,
 				["Warkel"] = true,
 				["Spartacus"] = true,
 				["Demonion"] = true,
@@ -1347,12 +1347,12 @@ WIM3_Cache = {
 				["Bêrwind"] = true,
 				["Tordek"] = true,
 				["Omaku"] = true,
-				["Amarabelle"] = true,
+				["Darkneis"] = true,
 				["Sticky"] = true,
 				["Oldguy"] = true,
-				["Amyea"] = true,
+				["Pillars"] = true,
 				["Azshadez"] = true,
-				["Talilla"] = true,
+				["Maldicion"] = true,
 				["Hordemeat"] = true,
 				["Mortarionn"] = true,
 				["Ectredon"] = true,
@@ -1368,20 +1368,20 @@ WIM3_Cache = {
 				["Gloronater"] = true,
 				["Arthain"] = true,
 				["Mireynn"] = true,
-				["Darkneis"] = true,
-				["Cowgirll"] = true,
+				["Animaltaimer"] = true,
+				["Amyea"] = true,
 				["Thrasia"] = true,
 				["Murtesh"] = true,
 				["Tailstar"] = true,
 				["Coolhunter"] = true,
 				["Tauceti"] = true,
 				["Hotyspankum"] = true,
-				["Watertamer"] = true,
+				["Warkingz"] = true,
 				["Icebringr"] = true,
-				["Minihorse"] = true,
-				["Kelroy"] = true,
-				["Starfly"] = true,
 				["Irishman"] = true,
+				["Kelroy"] = true,
+				["Messan"] = true,
+				["Minihorse"] = true,
 				["Calic"] = true,
 				["Aqusia"] = true,
 				["Ltdangle"] = true,
@@ -1393,15 +1393,15 @@ WIM3_Cache = {
 				["Dragonslayêr"] = true,
 				["Ghmå"] = true,
 				["Splishy"] = true,
-				["Whitearrow"] = true,
-				["Pookums"] = true,
-				["Courier"] = true,
 				["Elorana"] = true,
+				["Tristnay"] = true,
+				["Courier"] = true,
+				["Jadofo"] = true,
 				["Halat"] = true,
 				["Karann"] = true,
 				["Boozee"] = true,
-				["Tristnay"] = true,
-				["Jadofo"] = true,
+				["Pookums"] = true,
+				["Whitearrow"] = true,
 				["Argonath"] = true,
 				["Ilthar"] = true,
 				["Kidhole"] = true,
@@ -1418,13 +1418,13 @@ WIM3_Cache = {
 				["Aillen"] = true,
 				["Tsui"] = true,
 				["Dexerus"] = true,
+				["Steathkiller"] = true,
 				["Fabriann"] = true,
 				["Ravanza"] = true,
-				["Cleave"] = true,
 				["Barilyn"] = true,
-				["Luzran"] = true,
-				["Steathkiller"] = true,
 				["Baccus"] = true,
+				["Cleave"] = true,
+				["Luzran"] = true,
 				["Login"] = true,
 				["Alir"] = true,
 				["Ruffmcgruff"] = true,
@@ -1432,16 +1432,16 @@ WIM3_Cache = {
 				["Blacodiablo"] = true,
 				["Biade"] = true,
 				["Nazral"] = true,
-				["Messan"] = true,
+				["Starfly"] = true,
 				["Torgash"] = true,
 				["Roara"] = true,
 				["Veraxis"] = true,
 				["Cordrann"] = true,
-				["Animaltaimer"] = true,
+				["Amarabelle"] = true,
 				["Dragonsblade"] = true,
 				["Honisa"] = true,
 				["Hoteah"] = true,
-				["Warkingz"] = true,
+				["Watertamer"] = true,
 				["Vaziline"] = true,
 				["Khamade"] = true,
 				["Azaleia"] = true,
@@ -1464,23 +1464,23 @@ WIM3_Cache = {
 				["|Kg73|k00000|k |Ks73|k000000000|k"] = 2,
 				["|Kg87|k000000|k |Ks87|k0000|k"] = 2,
 				["|Kg69|k00000|k |Ks69|k00000000|k"] = 2,
-				["|Kg68|k000000|k |Ks68|k0000|k"] = 2,
 				["|Kg82|k00000|k |Ks82|k0000000|k"] = 2,
+				["|Kg68|k000000|k |Ks68|k0000|k"] = 2,
 				["|Kg84|k000000|k |Ks84|k0000000|k"] = 2,
 				["|Kg85|k00000|k |Ks85|k000000|k"] = 2,
-				["|Kg80|k00000000|k |Ks80|k00000|k"] = 2,
-				["|Kg79|k0000000|k |Ks79|k000000|k"] = 2,
-				["|Kg70|k00000|k |Ks70|k00000000|k"] = 2,
-				["|Kg83|k000000|k |Ks83|k00000|k"] = 2,
 				["|Kg88|k00000000|k |Ks88|k00000|k"] = 2,
-				["|Kg89|k0000000|k |Ks89|k000000|k"] = 2,
 				["|Kg91|k000000|k |Ks91|k0000|k"] = 2,
-				["|Kg67|k000000|k |Ks67|k0000000|k"] = 2,
-				["|Kg65|k00000000000|k |Ks65|k00000000|k"] = 2,
+				["|Kg70|k00000|k |Ks70|k00000000|k"] = 2,
 				["|Kg63|k0000000|k |Ks63|k00000000|k"] = 2,
-				["|Kg75|k00000|k |Ks75|k000000|k"] = 2,
-				["|Kg71|k0000000|k |Ks71|k000000|k"] = 2,
+				["|Kg80|k00000000|k |Ks80|k00000|k"] = 2,
+				["|Kg89|k0000000|k |Ks89|k000000|k"] = 2,
+				["|Kg79|k0000000|k |Ks79|k000000|k"] = 2,
 				["|Kg66|k000000|k |Ks66|k0000000|k"] = 2,
+				["|Kg65|k00000000000|k |Ks65|k00000000|k"] = 2,
+				["|Kg83|k000000|k |Ks83|k00000|k"] = 2,
+				["|Kg75|k00000|k |Ks75|k000000|k"] = 2,
+				["|Kg67|k000000|k |Ks67|k0000000|k"] = 2,
+				["|Kg71|k0000000|k |Ks71|k000000|k"] = 2,
 				["|Kg92|k000000|k |Ks92|k000000|k"] = 2,
 				["|Kg74|k000000|k |Ks74|k000000|k"] = 2,
 				["|Kg86|k0000|k |Ks86|k00000000|k"] = 2,
@@ -1789,11 +1789,11 @@ WIM3_Cache = {
 				["Chingao"] = true,
 				["Zilean"] = true,
 				["Slux"] = true,
-				["Tasheal"] = true,
+				["Teemo"] = true,
 				["Fakehero"] = true,
 				["Needleskane"] = true,
 				["Dauði"] = true,
-				["Teemo"] = true,
+				["Tasheal"] = true,
 				["Bleotch"] = true,
 				["Rennjii"] = true,
 				["Ginzo"] = true,
@@ -1891,20 +1891,20 @@ WIM3_Cache = {
 				["Voodoodrudoo"] = true,
 				["Almazyoona"] = true,
 				["Mpshamwrath"] = true,
-				["Haijinn"] = true,
+				["Derigomer"] = true,
 				["Ralliveron"] = true,
-				["Trezzi"] = true,
-				["Snackers"] = true,
-				["Deathxpoison"] = true,
-				["Abâddön"] = true,
 				["Druidbob"] = true,
-				["Uglymother"] = true,
+				["Snackers"] = true,
 				["Nyoron"] = true,
+				["Liminal"] = true,
+				["Trezzi"] = true,
+				["Uglymother"] = true,
+				["Deathxpoison"] = true,
 				["Karlx"] = true,
 				["Wiggnig"] = true,
 				["Brodobaggins"] = true,
 				["Raisinpulp"] = true,
-				["Derigomer"] = true,
+				["Ryukuu"] = true,
 				["Alldaybro"] = true,
 				["Racïsm"] = true,
 				["Grilledchese"] = true,
@@ -1941,7 +1941,7 @@ WIM3_Cache = {
 				["Sunzoo"] = true,
 				["Hairytotems"] = true,
 				["Lafaa"] = true,
-				["Conjureskill"] = true,
+				["Zireenone"] = true,
 				["Ihazbow"] = true,
 				["Alendler"] = true,
 				["Cribixx"] = true,
@@ -1951,22 +1951,22 @@ WIM3_Cache = {
 				["Enragedteo"] = true,
 				["Hemocyanin"] = true,
 				["Burninghandd"] = true,
-				["Aaha"] = true,
-				["Lexiana"] = true,
-				["Pikachr"] = true,
 				["Bagerra"] = true,
+				["Lexiana"] = true,
 				["Mashup"] = true,
+				["Tentoestall"] = true,
+				["Pikachr"] = true,
 				["Darkaught"] = true,
 				["Rawuka"] = true,
-				["Tentoestall"] = true,
+				["Aaha"] = true,
 				["Dosor"] = true,
 				["Engaia"] = true,
 				["Skinnyjoe"] = true,
 				["Alantra"] = true,
 				["Onÿx"] = true,
 				["Redmagic"] = true,
-				["Chudon"] = true,
-				["Sushibringer"] = true,
+				["Dealindoug"] = true,
+				["Dedlypally"] = true,
 				["Sylorian"] = true,
 				["Zandalari"] = true,
 				["Bilbuttlickr"] = true,
@@ -1974,12 +1974,12 @@ WIM3_Cache = {
 				["Neoplasm"] = true,
 				["Celii"] = true,
 				["Ghankster"] = true,
-				["Dealindoug"] = true,
-				["Dedlypally"] = true,
+				["Chudon"] = true,
+				["Sushibringer"] = true,
 				["Lantheroin"] = true,
 				["Wierdwarrior"] = true,
-				["Yogghurt"] = true,
 				["Scaryogre"] = true,
+				["Yogghurt"] = true,
 				["Skreenone"] = true,
 				["Soraya"] = true,
 				["Hirokage"] = true,
@@ -1988,24 +1988,24 @@ WIM3_Cache = {
 				["Deathbysirhc"] = true,
 				["Vedesticus"] = true,
 				["Kronikx"] = true,
-				["Protectabull"] = true,
-				["Viçodin"] = true,
 				["Shenekuya"] = true,
-				["Kreleran"] = true,
+				["Viçodin"] = true,
+				["Falaran"] = true,
 				["Xdk"] = true,
+				["Kreleran"] = true,
 				["Rogueulater"] = true,
 				["Tänkard"] = true,
 				["Teezly"] = true,
 				["Haxu"] = true,
-				["Helivanah"] = true,
-				["Bloodystain"] = true,
 				["Doxstar"] = true,
+				["Bloodystain"] = true,
+				["Xilid"] = true,
 				["Spinespliter"] = true,
 				["Nessarius"] = true,
 				["Frostituté"] = true,
 				["Mugishta"] = true,
-				["Zhanghe"] = true,
 				["Blåckmagic"] = true,
+				["Zhanghe"] = true,
 				["Recyclabull"] = true,
 				["Razakel"] = true,
 				["Articulo"] = true,
@@ -2013,48 +2013,48 @@ WIM3_Cache = {
 				["Ràfaèl"] = true,
 				["Spartanation"] = true,
 				["Mogriak"] = true,
-				["Murkzoglop"] = true,
+				["Ordairn"] = true,
 				["Dèadmouse"] = true,
-				["Cricksus"] = true,
+				["Gabryal"] = true,
+				["Amarinth"] = true,
+				["Blinkalot"] = true,
+				["Stônedheals"] = true,
+				["Stunaa"] = true,
 				["Cytotoxic"] = true,
-				["Razzpick"] = true,
-				["Kitebamdead"] = true,
-				["Osps"] = true,
-				["Aliman"] = true,
 				["Spït"] = true,
 				["Gaysil"] = true,
 				["Cheetøz"] = true,
 				["Tankåddict"] = true,
-				["Stunaa"] = true,
+				["Osps"] = true,
 				["Effigie"] = true,
 				["Bïgpappa"] = true,
 				["Marex"] = true,
 				["Córàn"] = true,
 				["Lesya"] = true,
-				["Måryjåne"] = true,
+				["Caitigon"] = true,
 				["Platebizzi"] = true,
 				["Bekkaz"] = true,
 				["Elvin"] = true,
 				["Zittix"] = true,
 				["Notadog"] = true,
 				["Blumpyjr"] = true,
-				["Genocidê"] = true,
-				["Wooliebulli"] = true,
 				["Mikumbokum"] = true,
+				["Wooliebulli"] = true,
+				["Genocidê"] = true,
 				["Gorgonopsid"] = true,
 				["Tezzeræt"] = true,
 				["Omocha"] = true,
 				["Harrynutz"] = true,
 				["Cptyr"] = true,
 				["Shadowhackk"] = true,
-				["Lucian"] = true,
-				["Mägoon"] = true,
-				["Mound"] = true,
 				["Caurn"] = true,
+				["Téø"] = true,
+				["Mound"] = true,
+				["Lucian"] = true,
 				["Sarcaph"] = true,
 				["Clandestino"] = true,
 				["Guyledouche"] = true,
-				["Téø"] = true,
+				["Mägoon"] = true,
 				["Sarugaki"] = true,
 				["Cryogenix"] = true,
 				["Brrlol"] = true,
@@ -2079,31 +2079,31 @@ WIM3_Cache = {
 				["Klefia"] = true,
 				["Tondor"] = true,
 				["Lochandley"] = true,
-				["Caitigon"] = true,
+				["Måryjåne"] = true,
 				["Efferent"] = true,
 				["Crabmaster"] = true,
-				["Amarinth"] = true,
-				["Gabryal"] = true,
+				["Aliman"] = true,
+				["Cricksus"] = true,
 				["Fisholigist"] = true,
 				["Bazzarn"] = true,
 				["Alaradrela"] = true,
 				["Aalucard"] = true,
-				["Stônedheals"] = true,
-				["Blinkalot"] = true,
-				["Ordairn"] = true,
+				["Kitebamdead"] = true,
+				["Razzpick"] = true,
+				["Murkzoglop"] = true,
 				["Hunteraris"] = true,
 				["Taricc"] = true,
 				["Dreadger"] = true,
 				["Lemondiesel"] = true,
-				["Xilid"] = true,
+				["Helivanah"] = true,
 				["Laluena"] = true,
 				["Krén"] = true,
 				["Ðryice"] = true,
 				["Helping"] = true,
-				["Falaran"] = true,
+				["Protectabull"] = true,
 				["Doomface"] = true,
-				["Hellzonedk"] = true,
 				["Phloem"] = true,
+				["Hellzonedk"] = true,
 				["Shibasaur"] = true,
 				["Rickcoiled"] = true,
 				["Andyy"] = true,
@@ -2120,7 +2120,7 @@ WIM3_Cache = {
 				["Tyloren"] = true,
 				["Mjr"] = true,
 				["Roidmidget"] = true,
-				["Zireenone"] = true,
+				["Conjureskill"] = true,
 				["Karthús"] = true,
 				["Istabnsuch"] = true,
 				["Zanake"] = true,
@@ -2132,8 +2132,8 @@ WIM3_Cache = {
 				["Greap"] = true,
 				["Ingargriko"] = true,
 				["Xushu"] = true,
-				["Slashya"] = true,
 				["Crakkal"] = true,
+				["Slashya"] = true,
 				["Walrock"] = true,
 				["Gragola"] = true,
 				["Soulrage"] = true,
@@ -2142,8 +2142,8 @@ WIM3_Cache = {
 				["Tyrinthan"] = true,
 				["Methodd"] = true,
 				["Backstabäth"] = true,
-				["Liminal"] = true,
-				["Ryukuu"] = true,
+				["Haijinn"] = true,
+				["Abâddön"] = true,
 				["Naffkop"] = true,
 				["Trollisugly"] = true,
 				["Kaddo"] = true,
@@ -2328,11 +2328,11 @@ WIM3_Cache = {
 				["Coritar"] = true,
 				["Lantheroin"] = true,
 				["Rogueshadow"] = true,
-				["Deàthstroke"] = true,
+				["Kittyflip"] = true,
 				["Boomnombush"] = true,
 				["Circumsalot"] = true,
-				["Clickety"] = true,
-				["Kittyflip"] = true,
+				["Disembowel"] = true,
+				["Deàthstroke"] = true,
 				["Nash"] = true,
 				["Dovschousky"] = true,
 				["Shilaylee"] = true,
@@ -2344,12 +2344,12 @@ WIM3_Cache = {
 				["Rummin"] = true,
 				["Zainrastus"] = true,
 				["Icecrememan"] = true,
-				["Sorgonion"] = true,
-				["Vyrannsep"] = true,
 				["Raffaello"] = true,
+				["Vyrannsep"] = true,
+				["Zaella"] = true,
 				["Asalto"] = true,
-				["Rapewhistle"] = true,
 				["Suuhwa"] = true,
+				["Welash"] = true,
 				["Norem"] = true,
 				["Stàrship"] = true,
 				["Galtrez"] = true,
@@ -2358,7 +2358,7 @@ WIM3_Cache = {
 				["Fontane"] = true,
 				["Ràfaèl"] = true,
 				["Badbehavior"] = true,
-				["Karthús"] = true,
+				["Waargh"] = true,
 				["Hillzorg"] = true,
 				["Haitok"] = true,
 				["Fréak"] = true,
@@ -2371,11 +2371,11 @@ WIM3_Cache = {
 				["Laluena"] = true,
 				["Henriik"] = true,
 				["Fearoshíma"] = true,
-				["Drekgo"] = true,
+				["Ferocius"] = true,
 				["Bangfang"] = true,
 				["Hurtzu"] = true,
 				["Arister"] = true,
-				["Shixx"] = true,
+				["Drekgo"] = true,
 				["Harbirt"] = true,
 				["Kromdai"] = true,
 				["Nezbatu"] = true,
@@ -2385,37 +2385,37 @@ WIM3_Cache = {
 				["Onthemark"] = true,
 				["Requiems"] = true,
 				["Ryingbol"] = true,
-				["Pestilentz"] = true,
 				["Shadefocus"] = true,
-				["Xanicor"] = true,
+				["Pestilentz"] = true,
+				["Orcsapien"] = true,
 				["Yadonebro"] = true,
-				["Zalisk"] = true,
-				["Rðthschild"] = true,
+				["Grilledchese"] = true,
+				["Takoy"] = true,
 				["Imbure"] = true,
 				["Deliciouslol"] = true,
 				["Aeirs"] = true,
-				["Plutoe"] = true,
-				["Grilledchese"] = true,
-				["Tenaciòusd"] = true,
+				["Warcheiftain"] = true,
+				["Zalisk"] = true,
+				["Ödìn"] = true,
 				["Sìlênt"] = true,
 				["Psychópathic"] = true,
 				["Deadmancool"] = true,
 				["Kriloxx"] = true,
 				["Savannahrio"] = true,
-				["Orcsapien"] = true,
+				["Xanicor"] = true,
 				["Balloo"] = true,
-				["Smellee"] = true,
-				["Ödìn"] = true,
+				["Bootysnatcha"] = true,
+				["Tenaciòusd"] = true,
 				["Sofakingsoft"] = true,
 				["Selfain"] = true,
-				["Takoy"] = true,
+				["Rðthschild"] = true,
 				["Devilsangél"] = true,
 				["Soulforager"] = true,
-				["Songria"] = true,
-				["Oktoberfestt"] = true,
-				["Naturo"] = true,
 				["Rougething"] = true,
+				["Oktoberfestt"] = true,
 				["Lecroix"] = true,
+				["Skinnyjoe"] = true,
+				["Naturo"] = true,
 				["Lyodbringer"] = true,
 				["Driftingmagi"] = true,
 				["Greatflow"] = true,
@@ -2432,8 +2432,8 @@ WIM3_Cache = {
 				["Snoweyball"] = true,
 				["Mpdeathlight"] = true,
 				["Itsamee"] = true,
-				["Frànkthetank"] = true,
-				["Uglymother"] = true,
+				["Sinfulshot"] = true,
+				["Croakër"] = true,
 				["Gading"] = true,
 				["Kíngdoom"] = true,
 				["Wyvyrm"] = true,
@@ -2442,94 +2442,94 @@ WIM3_Cache = {
 				["Daggersman"] = true,
 				["Airalanii"] = true,
 				["Soülcatcher"] = true,
-				["Croakër"] = true,
+				["Uglymother"] = true,
 				["Usad"] = true,
-				["Derlockster"] = true,
 				["Geneph"] = true,
-				["Ravane"] = true,
+				["Derlockster"] = true,
+				["Kreiin"] = true,
 				["Ninjaisb"] = true,
 				["Mickluvvin"] = true,
 				["Wármaka"] = true,
 				["Qaw"] = true,
-				["Nessarius"] = true,
-				["Sinfulnature"] = true,
-				["Kebam"] = true,
-				["Jort"] = true,
-				["Greap"] = true,
-				["Gulios"] = true,
 				["Hirciné"] = true,
-				["Doomhorn"] = true,
 				["Crakkal"] = true,
-				["Guimontag"] = true,
+				["Ragnair"] = true,
+				["Jort"] = true,
+				["Teyra"] = true,
+				["Tattoss"] = true,
+				["Nessarius"] = true,
+				["Doomhorn"] = true,
+				["Sinfulnature"] = true,
+				["Jubanogrub"] = true,
 				["Dreadmore"] = true,
 				["Gazah"] = true,
-				["Onehorn"] = true,
-				["Thôr"] = true,
-				["Ragnair"] = true,
-				["Aggaiboso"] = true,
-				["Hemoragia"] = true,
-				["Aldarrin"] = true,
-				["Jubanogrub"] = true,
 				["Hemocyanin"] = true,
+				["Thôr"] = true,
+				["Kebam"] = true,
+				["Greap"] = true,
+				["Snipze"] = true,
+				["Epicpokes"] = true,
+				["Guimontag"] = true,
+				["Onehorn"] = true,
 				["Dethgortaur"] = true,
 				["Dillinger"] = true,
-				["Rizxelrik"] = true,
+				["Gobtart"] = true,
 				["Phobix"] = true,
-				["Shaminjammin"] = true,
+				["Quickfrost"] = true,
 				["Mirroden"] = true,
-				["Jihadist"] = true,
+				["Tazanna"] = true,
 				["Gronstomper"] = true,
-				["Lochandley"] = true,
-				["Relapz"] = true,
+				["Teleron"] = true,
+				["Acadie"] = true,
 				["Xandiar"] = true,
-				["Thebartender"] = true,
-				["Thatshazz"] = true,
+				["Ibrahimleswd"] = true,
+				["Ikonic"] = true,
 				["Spankmybank"] = true,
 				["Shamaneesta"] = true,
-				["Hemogóblin"] = true,
-				["Wunderbar"] = true,
-				["Almazyoona"] = true,
+				["Gondomere"] = true,
+				["Getnsum"] = true,
+				["Varrylis"] = true,
 				["Shasam"] = true,
 				["Shrimpoboy"] = true,
 				["Locotaco"] = true,
 				["Martris"] = true,
 				["Itsadinosaur"] = true,
 				["Muudu"] = true,
-				["Snipze"] = true,
+				["Hemoragia"] = true,
 				["Corongorr"] = true,
 				["Darkspearmon"] = true,
 				["Saraice"] = true,
-				["Epicpokes"] = true,
-				["Gobtart"] = true,
+				["Aldarrin"] = true,
+				["Rizxelrik"] = true,
 				["Lúthsol"] = true,
-				["Tazanna"] = true,
+				["Jihadist"] = true,
 				["Somdamhunter"] = true,
 				["Aendrelorin"] = true,
 				["Smoochi"] = true,
 				["Thagerium"] = true,
-				["Teleron"] = true,
-				["Ikonic"] = true,
+				["Lochandley"] = true,
+				["Thatshazz"] = true,
 				["Kair"] = true,
-				["Eires"] = true,
+				["Likibi"] = true,
 				["Kidresk"] = true,
 				["Theodious"] = true,
 				["Ragnaröc"] = true,
-				["Erzhumphugus"] = true,
-				["Oruwa"] = true,
 				["Mondley"] = true,
+				["Tavvis"] = true,
+				["Hieu"] = true,
 				["Bareach"] = true,
 				["Ihatewow"] = true,
 				["Anthath"] = true,
-				["Ugotlocked"] = true,
+				["Idealz"] = true,
 				["Kekix"] = true,
 				["Revour"] = true,
 				["Vynith"] = true,
 				["Hyphestia"] = true,
 				["Revinis"] = true,
 				["Kiddbuu"] = true,
-				["Dogenzenji"] = true,
-				["Caidien"] = true,
 				["Helping"] = true,
+				["Caidien"] = true,
+				["Dogenzenji"] = true,
 				["Redjuice"] = true,
 				["Udderbull"] = true,
 				["Axbladejayd"] = true,
@@ -2537,15 +2537,15 @@ WIM3_Cache = {
 				["Zekjin"] = true,
 				["Krén"] = true,
 				["Notgaymaster"] = true,
-				["Retapple"] = true,
+				["Frozzin"] = true,
 				["Vensér"] = true,
 				["Stonly"] = true,
 				["Rickcoiled"] = true,
 				["Meatmilk"] = true,
 				["Xandalorian"] = true,
 				["Tankmasheen"] = true,
-				["Abras"] = true,
-				["Frozzin"] = true,
+				["Andyy"] = true,
+				["Retapple"] = true,
 				["Kilshot"] = true,
 				["Fashionbug"] = true,
 				["Dottedballs"] = true,
@@ -2555,116 +2555,116 @@ WIM3_Cache = {
 				["Tyloren"] = true,
 				["Swanked"] = true,
 				["Kirikirno"] = true,
-				["Soulrage"] = true,
 				["Íwazaru"] = true,
+				["Madhoof"] = true,
 				["Lynesta"] = true,
-				["Isx"] = true,
+				["Neqaz"] = true,
 				["Blubanz"] = true,
 				["Jelzert"] = true,
+				["Isx"] = true,
 				["Knuckleupz"] = true,
-				["Neqaz"] = true,
 				["Democrates"] = true,
 				["Tenco"] = true,
 				["Itsashaman"] = true,
 				["Saozi"] = true,
-				["Korvon"] = true,
-				["Redmagic"] = true,
+				["Ëlectron"] = true,
+				["Shinagen"] = true,
 				["Kenull"] = true,
 				["Iimpairedl"] = true,
-				["Herekitty"] = true,
+				["Vynlord"] = true,
 				["Gablins"] = true,
 				["Venith"] = true,
 				["Flyingpancak"] = true,
-				["Comosexual"] = true,
-				["Ëlectron"] = true,
+				["Threon"] = true,
+				["Korvon"] = true,
 				["Thebigkiller"] = true,
 				["Zhirani"] = true,
-				["Yongyong"] = true,
-				["Shinagen"] = true,
-				["Vynlord"] = true,
+				["Comosexual"] = true,
+				["Redmagic"] = true,
+				["Kasualkill"] = true,
 				["Marseillaise"] = true,
 				["Gamaki"] = true,
-				["Somebadmojo"] = true,
+				["Lightborn"] = true,
 				["Rakndai"] = true,
 				["Isahad"] = true,
 				["Aalucard"] = true,
-				["Alaradrela"] = true,
+				["Mogriak"] = true,
 				["Purehart"] = true,
-				["Vallyssa"] = true,
+				["Lightninbolt"] = true,
 				["Gorgonopsid"] = true,
 				["Aliman"] = true,
-				["Threon"] = true,
-				["Lemondiesel"] = true,
-				["Lamusica"] = true,
+				["Razakel"] = true,
+				["Deathkaos"] = true,
+				["Slyv"] = true,
 				["Descalso"] = true,
 				["Sillyjack"] = true,
-				["Djsquared"] = true,
-				["Zerylo"] = true,
-				["Fumannchu"] = true,
-				["Hyperfly"] = true,
-				["Chudly"] = true,
-				["Lucian"] = true,
-				["Freshlol"] = true,
-				["Gulfala"] = true,
-				["Wooliebulli"] = true,
-				["Deyr"] = true,
-				["Farpfeep"] = true,
+				["Vallyssa"] = true,
 				["Lînd"] = true,
+				["Fumannchu"] = true,
+				["Gobpri"] = true,
+				["Chudly"] = true,
+				["Sneakybanana"] = true,
+				["Holyhorny"] = true,
+				["Tondor"] = true,
+				["Wooliebulli"] = true,
+				["Precipice"] = true,
+				["Farpfeep"] = true,
+				["Somebadmojo"] = true,
 				["Magicdub"] = true,
 				["Exstans"] = true,
-				["Nosenugget"] = true,
+				["Serefeena"] = true,
 				["Kronwalld"] = true,
 				["Firebringerr"] = true,
-				["Sneakybanana"] = true,
+				["Ingargriko"] = true,
 				["Rohini"] = true,
-				["Shigellosis"] = true,
+				["Ozie"] = true,
 				["Pnomadman"] = true,
 				["Mpshamwrath"] = true,
 				["Serylo"] = true,
-				["Tondor"] = true,
-				["Caurn"] = true,
 				["Shadowshockr"] = true,
-				["Holyhorny"] = true,
+				["Lucian"] = true,
+				["Hyperfly"] = true,
+				["Gulfala"] = true,
 				["Kichos"] = true,
-				["Fingenn"] = true,
+				["Deyr"] = true,
 				["Forin"] = true,
 				["Huskarl"] = true,
 				["Ràvën"] = true,
-				["Sarugaki"] = true,
+				["Jartik"] = true,
 				["Oakend"] = true,
 				["Mazdathree"] = true,
-				["Mahshah"] = true,
+				["Nosenugget"] = true,
 				["Whitepaladen"] = true,
 				["Protrot"] = true,
 				["Chanimade"] = true,
 				["Zeenox"] = true,
 				["Jironimo"] = true,
-				["Ozie"] = true,
+				["Shigellosis"] = true,
 				["Tezzerét"] = true,
 				["Torían"] = true,
-				["Beotroll"] = true,
+				["Lurky"] = true,
 				["Sabinia"] = true,
-				["Hovington"] = true,
+				["Rono"] = true,
 				["Bonelock"] = true,
 				["Rottedballs"] = true,
 				["Lowlivin"] = true,
-				["Baracadë"] = true,
+				["Dovs"] = true,
 				["Drakeman"] = true,
 				["Lubrifiant"] = true,
 				["Norrington"] = true,
-				["Sykohowze"] = true,
-				["Syphillus"] = true,
-				["Córàn"] = true,
+				["Diqmongler"] = true,
+				["Nagoller"] = true,
+				["Arcinash"] = true,
 				["Negal"] = true,
 				["Dercrit"] = true,
 				["Dantainian"] = true,
-				["Mound"] = true,
+				["Sarugaki"] = true,
 				["Téø"] = true,
 				["Panðemonium"] = true,
-				["Serefeena"] = true,
+				["Mahshah"] = true,
 				["Ireek"] = true,
-				["Hexmon"] = true,
-				["Lurky"] = true,
+				["Raliver"] = true,
+				["Beotroll"] = true,
 				["Kelinis"] = true,
 				["Chaossd"] = true,
 				["Holá"] = true,
@@ -2673,19 +2673,19 @@ WIM3_Cache = {
 				["Arcanim"] = true,
 				["Groot"] = true,
 				["Notouch"] = true,
-				["Stolpe"] = true,
+				["Swånk"] = true,
 				["Dranox"] = true,
-				["Dovs"] = true,
-				["Rogishardlol"] = true,
+				["Lockhound"] = true,
+				["Notadog"] = true,
 				["Littlefriend"] = true,
 				["Zombiboy"] = true,
-				["Keslo"] = true,
-				["Strykè"] = true,
+				["Shingles"] = true,
+				["Pooshield"] = true,
 				["Slixxils"] = true,
-				["Nagoller"] = true,
-				["Arcinash"] = true,
+				["Gallebee"] = true,
+				["Córàn"] = true,
 				["Somejig"] = true,
-				["Burameshi"] = true,
+				["Mooreon"] = true,
 				["Randomcheese"] = true,
 				["Slingkee"] = true,
 				["Steakumz"] = true,
@@ -2702,65 +2702,65 @@ WIM3_Cache = {
 				["Apocaliza"] = true,
 				["Tuupacc"] = true,
 				["Schoolbus"] = true,
-				["Wildex"] = true,
+				["Gøblïn"] = true,
 				["Redrumrage"] = true,
-				["Swånk"] = true,
-				["Lockhound"] = true,
-				["Whitewing"] = true,
-				["Notadog"] = true,
+				["Teoisevil"] = true,
+				["Baracadë"] = true,
+				["Cåke"] = true,
+				["Rogishardlol"] = true,
 				["Frostituté"] = true,
 				["Salvatorel"] = true,
 				["Diqsandwich"] = true,
 				["Fückyoupayme"] = true,
-				["Shingles"] = true,
+				["Chaotiikz"] = true,
 				["Daspunk"] = true,
 				["Yôshï"] = true,
 				["Wuan"] = true,
 				["Bekkaz"] = true,
 				["Riseagàinst"] = true,
 				["Bowderekk"] = true,
-				["Gallebee"] = true,
+				["Cwotudidthar"] = true,
 				["Hugglesz"] = true,
-				["Mooreon"] = true,
+				["Burameshi"] = true,
 				["Caitigon"] = true,
-				["Turbopallie"] = true,
-				["Criticalcoww"] = true,
+				["Thanantos"] = true,
+				["Frostyknight"] = true,
 				["Zubai"] = true,
 				["Flakjakket"] = true,
-				["Untrustable"] = true,
+				["Fearthesoup"] = true,
 				["Bearkatt"] = true,
-				["Malyka"] = true,
-				["Meatcäke"] = true,
+				["Hunteraris"] = true,
+				["Muraud"] = true,
 				["Marex"] = true,
 				["Nithrand"] = true,
 				["Nightsblade"] = true,
 				["Randomeyes"] = true,
-				["Salvor"] = true,
+				["Hairytotems"] = true,
 				["Teutonik"] = true,
-				["Brandonmb"] = true,
+				["Étphonehome"] = true,
 				["Druidsoda"] = true,
 				["Egamick"] = true,
 				["Osgiliath"] = true,
-				["Gøblïn"] = true,
-				["Teoisevil"] = true,
+				["Wildex"] = true,
+				["Stolpe"] = true,
 				["Iiminal"] = true,
-				["Kilshara"] = true,
+				["Spellspun"] = true,
 				["Jiaxu"] = true,
 				["Smallmeat"] = true,
 				["Stunaa"] = true,
 				["Effigie"] = true,
-				["Cåke"] = true,
+				["Whitewing"] = true,
 				["Cheetøz"] = true,
 				["Stabzyou"] = true,
 				["Toucheskids"] = true,
-				["Trufunkmastr"] = true,
+				["Simz"] = true,
 				["Garlton"] = true,
 				["Gabryal"] = true,
 				["Dimió"] = true,
 				["Rölo"] = true,
 				["Hydroll"] = true,
-				["Mastaskrilla"] = true,
-				["Aenlovan"] = true,
+				["Xxkillerxz"] = true,
+				["Sstoop"] = true,
 				["Skyzoo"] = true,
 				["Ribstabber"] = true,
 				["Tänkard"] = true,
@@ -2768,121 +2768,121 @@ WIM3_Cache = {
 				["Brrlol"] = true,
 				["Stônedheals"] = true,
 				["Blinkalot"] = true,
-				["Zandao"] = true,
-				["Cwotudidthar"] = true,
+				["Blowinpurple"] = true,
+				["Syphillus"] = true,
 				["Nezrail"] = true,
-				["Mocito"] = true,
-				["Zanake"] = true,
+				["Misswhist"] = true,
+				["Chingao"] = true,
 				["Barioth"] = true,
 				["Tojinn"] = true,
 				["Mindtaint"] = true,
 				["Blunklnok"] = true,
 				["Dèadmouse"] = true,
-				["Muraud"] = true,
+				["Meatcäke"] = true,
 				["Icildor"] = true,
 				["Cerro"] = true,
-				["Xilid"] = true,
+				["Doxstar"] = true,
 				["Parntlek"] = true,
-				["Mybumhurts"] = true,
+				["Quinlock"] = true,
 				["Sanivan"] = true,
 				["Perfectíon"] = true,
 				["Mejammin"] = true,
-				["Ginzo"] = true,
-				["Spellspun"] = true,
+				["Caedere"] = true,
+				["Kilshara"] = true,
 				["Farnlek"] = true,
-				["Elaines"] = true,
+				["Aenlovan"] = true,
 				["Thundersquid"] = true,
 				["Bilgewater"] = true,
 				["Kannd"] = true,
 				["Recyclabull"] = true,
 				["Blåckmagic"] = true,
-				["Vedesticus"] = true,
+				["Kaithwas"] = true,
 				["Dornlok"] = true,
 				["Masoqistic"] = true,
 				["Azarok"] = true,
-				["Oldhuman"] = true,
+				["Swarlik"] = true,
 				["Kodene"] = true,
-				["Blowinpurple"] = true,
+				["Zandao"] = true,
 				["Decepticonx"] = true,
 				["Ahnyoung"] = true,
 				["Piike"] = true,
-				["Chingao"] = true,
+				["Zanake"] = true,
 				["Wildtiger"] = true,
 				["Slux"] = true,
-				["Doxstar"] = true,
+				["Xilid"] = true,
 				["Fakehero"] = true,
-				["Needleskane"] = true,
+				["Magewave"] = true,
 				["Dauði"] = true,
-				["Tasheal"] = true,
-				["Bleotch"] = true,
+				["Teemo"] = true,
+				["Bendon"] = true,
 				["Thumpr"] = true,
 				["Bloodystain"] = true,
-				["Caedere"] = true,
+				["Ginzo"] = true,
 				["Blatz"] = true,
-				["Nyigguh"] = true,
+				["Everspring"] = true,
 				["Gobelinus"] = true,
 				["Syrelryth"] = true,
-				["Shenekuya"] = true,
+				["Fînalblood"] = true,
 				["Venatius"] = true,
-				["Varuk"] = true,
+				["Jonnia"] = true,
 				["Vickersmbt"] = true,
 				["Ðryice"] = true,
 				["Allikillr"] = true,
-				["Kaithwas"] = true,
+				["Rulerofpies"] = true,
 				["Migetslayer"] = true,
 				["Zindá"] = true,
-				["Swarlik"] = true,
+				["Xogg"] = true,
 				["Midgyknight"] = true,
-				["Sstoop"] = true,
+				["Elaines"] = true,
 				["Rogueulater"] = true,
 				["Shamblin"] = true,
-				["Everspring"] = true,
+				["Nyigguh"] = true,
 				["Xdk"] = true,
 				["Aragasd"] = true,
 				["Thébéärjéw"] = true,
-				["Holycowshiz"] = true,
-				["Fînalblood"] = true,
+				["Alldaybro"] = true,
+				["Shenekuya"] = true,
 				["Mahanu"] = true,
-				["Fatherjoe"] = true,
-				["Xymuria"] = true,
+				["Sillypuppy"] = true,
+				["Swashbuckler"] = true,
 				["Aeiouy"] = true,
-				["Dyamina"] = true,
+				["Rugbyman"] = true,
 				["Jeefberky"] = true,
 				["Stixsonfire"] = true,
-				["Rulerofpies"] = true,
-				["Xogg"] = true,
-				["Feiglinge"] = true,
-				["Alldaybro"] = true,
+				["Vedesticus"] = true,
+				["Oldhuman"] = true,
+				["Kupowie"] = true,
+				["Holycowshiz"] = true,
 				["Forbearance"] = true,
-				["Hunguyen"] = true,
+				["Jemhachi"] = true,
 				["Deepfríar"] = true,
-				["Naiouaireuon"] = true,
+				["Vertris"] = true,
 				["Thranar"] = true,
-				["Tizzneez"] = true,
-				["Blaarrgghh"] = true,
-				["Nnki"] = true,
-				["Killerrbeast"] = true,
-				["Dazznazzil"] = true,
-				["Ivally"] = true,
-				["Swashbuckler"] = true,
-				["Articulo"] = true,
-				["Khaosen"] = true,
+				["Zinergy"] = true,
 				["Rahuuk"] = true,
 				["Ovérpowered"] = true,
+				["Fatherjoe"] = true,
+				["Dazznazzil"] = true,
+				["Guum"] = true,
+				["Xinzhoa"] = true,
+				["Articulo"] = true,
+				["Khaosen"] = true,
+				["Herminee"] = true,
+				["Pforlife"] = true,
 				["Masavedda"] = true,
-				["Rübìk"] = true,
+				["Dãx"] = true,
 				["Crankthetank"] = true,
 				["Fearthesky"] = true,
 				["Brokensun"] = true,
-				["Erulasse"] = true,
-				["Guum"] = true,
-				["Hirokage"] = true,
+				["Mjr"] = true,
+				["Ivally"] = true,
+				["Alkalon"] = true,
 				["Shugarz"] = true,
 				["Notoriousßig"] = true,
-				["Pforlife"] = true,
+				["Nnki"] = true,
 				["Sushibringer"] = true,
-				["Dãx"] = true,
-				["Horozloo"] = true,
+				["Rübìk"] = true,
+				["Kizwalifa"] = true,
 				["Goblinpants"] = true,
 				["Umejuarez"] = true,
 				["Gremblin"] = true,
@@ -2892,43 +2892,43 @@ WIM3_Cache = {
 				["Careberry"] = true,
 				["Quantavious"] = true,
 				["Merser"] = true,
-				["Alkalon"] = true,
+				["Baltizar"] = true,
 				["Paperr"] = true,
 				["Igothooves"] = true,
-				["Liminal"] = true,
+				["Gritag"] = true,
 				["Iamsephiroth"] = true,
 				["Kyuzu"] = true,
-				["Inglip"] = true,
+				["Churchmagic"] = true,
 				["Deathreap"] = true,
 				["Rootdown"] = true,
 				["Skumbag"] = true,
 				["Kegbelly"] = true,
-				["Baltizar"] = true,
+				["Hirokage"] = true,
 				["Anote"] = true,
 				["Sylorian"] = true,
-				["Ryukuu"] = true,
+				["Derigomer"] = true,
 				["Buntz"] = true,
-				["Oriesius"] = true,
+				["Nyoron"] = true,
 				["Goblìn"] = true,
 				["Wiggnig"] = true,
 				["Vendrid"] = true,
 				["Ralliveron"] = true,
 				["Rillia"] = true,
 				["Snackers"] = true,
-				["Derigomer"] = true,
+				["Abâddön"] = true,
 				["Kalzik"] = true,
-				["Druidbob"] = true,
+				["Sunzoo"] = true,
 				["Goulddigger"] = true,
-				["Nyoron"] = true,
+				["Deathxpoison"] = true,
 				["Karlx"] = true,
 				["Tyrinthan"] = true,
 				["Brodobaggins"] = true,
 				["Raisinpulp"] = true,
-				["Abâddön"] = true,
-				["Tentoestall"] = true,
+				["Haijinn"] = true,
+				["Bagerra"] = true,
 				["Racïsm"] = true,
 				["Dosor"] = true,
-				["Aaha"] = true,
+				["Tentoestall"] = true,
 				["Killbuzz"] = true,
 				["Jibthegreat"] = true,
 				["Ässässïn"] = true,
@@ -2941,102 +2941,102 @@ WIM3_Cache = {
 				["Tomasaquinas"] = true,
 				["Mashup"] = true,
 				["Daikoku"] = true,
-				["Rottedgens"] = true,
-				["Verdegris"] = true,
 				["Uliancis"] = true,
+				["Lerox"] = true,
+				["Rottedgens"] = true,
 				["Realgankster"] = true,
 				["Xizorr"] = true,
-				["Lerox"] = true,
-				["Doobby"] = true,
-				["Bartenderbob"] = true,
-				["Chulada"] = true,
 				["Boneknapper"] = true,
+				["Crogunk"] = true,
+				["Tidnipply"] = true,
+				["Chulada"] = true,
+				["Truffles"] = true,
 				["Danksacks"] = true,
 				["Warbz"] = true,
-				["Lockycharm"] = true,
+				["Doobby"] = true,
 				["Caoyourmam"] = true,
 				["Happypappi"] = true,
-				["Tidnipply"] = true,
-				["Crogunk"] = true,
+				["Bartenderbob"] = true,
+				["Lockycharm"] = true,
 				["Dancinkitty"] = true,
 				["Exosistbull"] = true,
 				["Lafaa"] = true,
-				["Conjureskill"] = true,
+				["Zireenone"] = true,
 				["Ihazbow"] = true,
 				["Alendler"] = true,
 				["Bfresh"] = true,
-				["Zireenone"] = true,
+				["Conjureskill"] = true,
 				["Dft"] = true,
-				["Clutchdeath"] = true,
-				["Enragedteo"] = true,
 				["Athenelolwin"] = true,
+				["Enragedteo"] = true,
+				["Clutchdeath"] = true,
 				["Burninghandd"] = true,
-				["Truffles"] = true,
+				["Verdegris"] = true,
 				["Wölfclaw"] = true,
 				["Haxu"] = true,
 				["Rainiy"] = true,
 				["Pikachr"] = true,
 				["Lustyegg"] = true,
 				["Rawuka"] = true,
-				["Bagerra"] = true,
+				["Aaha"] = true,
 				["Scatta"] = true,
 				["Darkaught"] = true,
-				["Gritag"] = true,
+				["Liminal"] = true,
 				["Linastira"] = true,
 				["Onÿx"] = true,
 				["Omgbubblez"] = true,
-				["Deathxpoison"] = true,
-				["Trezzi"] = true,
+				["Oriesius"] = true,
+				["Druidbob"] = true,
 				["Crignan"] = true,
 				["Zandalari"] = true,
 				["Bilbuttlickr"] = true,
 				["Erdownhere"] = true,
-				["Sunzoo"] = true,
+				["Trezzi"] = true,
 				["Celii"] = true,
 				["Ghankster"] = true,
 				["Dealindoug"] = true,
 				["Dedlypally"] = true,
-				["Haijinn"] = true,
+				["Ryukuu"] = true,
 				["Wierdwarrior"] = true,
-				["Churchmagic"] = true,
-				["Kizwalifa"] = true,
+				["Inglip"] = true,
+				["Horozloo"] = true,
 				["Skreenone"] = true,
-				["Yogghurt"] = true,
-				["Mjr"] = true,
-				["Tinkerspell"] = true,
-				["Sillypuppy"] = true,
-				["Herminee"] = true,
-				["Blumpyjr"] = true,
-				["Kronikx"] = true,
-				["Xinzhoa"] = true,
-				["Viçodin"] = true,
-				["Protectabull"] = true,
 				["Soraya"] = true,
+				["Erulasse"] = true,
+				["Tinkerspell"] = true,
+				["Killerrbeast"] = true,
+				["Blaarrgghh"] = true,
+				["Yogghurt"] = true,
+				["Kronikx"] = true,
+				["Xymuria"] = true,
+				["Viçodin"] = true,
+				["Falaran"] = true,
+				["Blumpyjr"] = true,
 				["Kreleran"] = true,
 				["Joblin"] = true,
-				["Zinergy"] = true,
-				["Vertris"] = true,
-				["Jemhachi"] = true,
-				["Kupowie"] = true,
+				["Tizzneez"] = true,
+				["Naiouaireuon"] = true,
+				["Hunguyen"] = true,
+				["Feiglinge"] = true,
 				["Mitins"] = true,
 				["Helivanah"] = true,
 				["Spinespliter"] = true,
 				["Tattik"] = true,
-				["Rugbyman"] = true,
+				["Dyamina"] = true,
 				["Troján"] = true,
-				["Falaran"] = true,
+				["Protectabull"] = true,
 				["Zhanghe"] = true,
 				["Mythose"] = true,
-				["Shockulance"] = true,
+				["Høudini"] = true,
 				["Ossium"] = true,
-				["Jonnia"] = true,
+				["Varuk"] = true,
 				["Currytheft"] = true,
 				["Gêtsuga"] = true,
-				["Bendon"] = true,
+				["Bleotch"] = true,
 				["Ordairn"] = true,
 				["Pshht"] = true,
-				["Teemo"] = true,
-				["Geronimoos"] = true,
+				["Tasheal"] = true,
+				["Needleskane"] = true,
 				["Razzpick"] = true,
 				["Kitebamdead"] = true,
 				["Swifte"] = true,
@@ -3046,87 +3046,87 @@ WIM3_Cache = {
 				["Immagonnawin"] = true,
 				["Tankåddict"] = true,
 				["Osps"] = true,
-				["Høudini"] = true,
+				["Shockulance"] = true,
 				["Blluee"] = true,
 				["Stonenight"] = true,
-				["Quinlock"] = true,
+				["Mybumhurts"] = true,
 				["Lesya"] = true,
-				["Moomoomia"] = true,
-				["Misswhist"] = true,
+				["Måryjåne"] = true,
+				["Mocito"] = true,
 				["Dûde"] = true,
 				["Elvin"] = true,
 				["Imakekidscry"] = true,
 				["Verittas"] = true,
-				["Magewave"] = true,
-				["Xxkillerxz"] = true,
-				["Simz"] = true,
+				["Geronimoos"] = true,
+				["Mastaskrilla"] = true,
+				["Trufunkmastr"] = true,
 				["Genocidê"] = true,
 				["Falyynn"] = true,
 				["Tezzeræt"] = true,
 				["Omocha"] = true,
 				["Harrynutz"] = true,
-				["Diqmongler"] = true,
-				["Hunteraris"] = true,
-				["Fearthesoup"] = true,
-				["Frostyknight"] = true,
-				["Thanantos"] = true,
-				["Måryjåne"] = true,
+				["Salvor"] = true,
+				["Sykohowze"] = true,
+				["Untrustable"] = true,
+				["Criticalcoww"] = true,
+				["Turbopallie"] = true,
+				["Moomoomia"] = true,
 				["Sarcaph"] = true,
 				["Clandestino"] = true,
 				["Guyledouche"] = true,
 				["Mägoon"] = true,
-				["Jartik"] = true,
+				["Mound"] = true,
 				["Cryogenix"] = true,
-				["Étphonehome"] = true,
-				["Hairytotems"] = true,
+				["Brandonmb"] = true,
+				["Malyka"] = true,
 				["Gutx"] = true,
-				["Pooshield"] = true,
+				["Strykè"] = true,
 				["Quinnqu"] = true,
-				["Laquista"] = true,
+				["Hexmon"] = true,
 				["Kronwalled"] = true,
 				["Zatooichi"] = true,
 				["Frozenmalice"] = true,
-				["Chaotiikz"] = true,
-				["Malstrøm"] = true,
+				["Keslo"] = true,
+				["Caurn"] = true,
 				["Myothertoon"] = true,
-				["Rono"] = true,
-				["Raliver"] = true,
+				["Freshlol"] = true,
+				["Laquista"] = true,
 				["Biglock"] = true,
 				["Hammerite"] = true,
-				["Gobpri"] = true,
+				["Lamusica"] = true,
 				["Rhezzin"] = true,
-				["Precipice"] = true,
+				["Fingenn"] = true,
 				["Klefia"] = true,
-				["Ingargriko"] = true,
-				["Slyv"] = true,
-				["Deathkaos"] = true,
+				["Malstrøm"] = true,
+				["Hovington"] = true,
+				["Zerylo"] = true,
 				["Efferent"] = true,
 				["Crabmaster"] = true,
 				["Cytotoxic"] = true,
-				["Lightninbolt"] = true,
+				["Lemondiesel"] = true,
 				["Fisholigist"] = true,
 				["Bazzarn"] = true,
-				["Mogriak"] = true,
+				["Alaradrela"] = true,
 				["Spartanation"] = true,
-				["Lightborn"] = true,
+				["Djsquared"] = true,
 				["Skorpio"] = true,
 				["Grapedrankk"] = true,
 				["Shiroko"] = true,
-				["Kasualkill"] = true,
-				["Razakel"] = true,
+				["Herekitty"] = true,
+				["Yongyong"] = true,
 				["Boomshockuh"] = true,
 				["Stzah"] = true,
 				["Fantenyl"] = true,
 				["Quickshift"] = true,
 				["Aassault"] = true,
-				["Madhoof"] = true,
+				["Soulrage"] = true,
 				["Orcga"] = true,
 				["Teoisdead"] = true,
 				["Phloem"] = true,
 				["Methodd"] = true,
 				["Foshobigfoot"] = true,
 				["Lay"] = true,
-				["Andyy"] = true,
+				["Abras"] = true,
 				["Seizureboss"] = true,
 				["Neoplasm"] = true,
 				["Porkens"] = true,
@@ -3135,34 +3135,34 @@ WIM3_Cache = {
 				["Alantra"] = true,
 				["Mcdieseler"] = true,
 				["Mnightshamel"] = true,
-				["Idealz"] = true,
-				["Hieu"] = true,
+				["Ugotlocked"] = true,
+				["Erzhumphugus"] = true,
 				["Madedamojo"] = true,
 				["Inicus"] = true,
 				["Roidmidget"] = true,
 				["Shêila"] = true,
 				["Greenleigh"] = true,
-				["Tavvis"] = true,
-				["Likibi"] = true,
+				["Oruwa"] = true,
+				["Eires"] = true,
 				["Katizan"] = true,
-				["Varrylis"] = true,
-				["Getnsum"] = true,
-				["Gondomere"] = true,
-				["Ibrahimleswd"] = true,
-				["Teyra"] = true,
-				["Acadie"] = true,
-				["Quickfrost"] = true,
+				["Almazyoona"] = true,
+				["Wunderbar"] = true,
+				["Hemogóblin"] = true,
+				["Thebartender"] = true,
+				["Aggaiboso"] = true,
+				["Relapz"] = true,
+				["Shaminjammin"] = true,
 				["Hozilla"] = true,
 				["Deathhorror"] = true,
-				["Tattoss"] = true,
+				["Gulios"] = true,
 				["Glüten"] = true,
 				["Einreich"] = true,
 				["Mugishta"] = true,
 				["Amnepoxer"] = true,
-				["Kreiin"] = true,
+				["Ravane"] = true,
 				["Vellaen"] = true,
 				["Backstabäth"] = true,
-				["Sinfulshot"] = true,
+				["Frànkthetank"] = true,
 				["Bigaine"] = true,
 				["Naffkop"] = true,
 				["Trollisugly"] = true,
@@ -3172,36 +3172,36 @@ WIM3_Cache = {
 				["Rallys"] = true,
 				["Icemask"] = true,
 				["Tswifty"] = true,
-				["Skinnyjoe"] = true,
+				["Songria"] = true,
 				["Zittix"] = true,
 				["Asakaghaki"] = true,
 				["Yunì"] = true,
 				["Liktc"] = true,
-				["Bootysnatcha"] = true,
+				["Smellee"] = true,
 				["Eranter"] = true,
 				["Asassinrog"] = true,
 				["Tickrottick"] = true,
-				["Warcheiftain"] = true,
+				["Plutoe"] = true,
 				["Kinja"] = true,
-				["Steeckster"] = true,
 				["Lanzzar"] = true,
+				["Steeckster"] = true,
 				["Grummall"] = true,
 				["Shemån"] = true,
 				["Naraylithela"] = true,
 				["Drekom"] = true,
-				["Ferocius"] = true,
+				["Shixx"] = true,
 				["Squidwerd"] = true,
 				["Haijin"] = true,
 				["Myrodrian"] = true,
 				["Saiñt"] = true,
 				["Ezzako"] = true,
 				["Bought"] = true,
-				["Waargh"] = true,
+				["Karthús"] = true,
 				["Kramex"] = true,
 				["Shàdów"] = true,
 				["Kibbler"] = true,
-				["Welash"] = true,
-				["Zaella"] = true,
+				["Rapewhistle"] = true,
+				["Sorgonion"] = true,
 				["Serexx"] = true,
 				["Rdkill"] = true,
 				["Hilairion"] = true,
@@ -3209,7 +3209,7 @@ WIM3_Cache = {
 				["Foodpoizon"] = true,
 				["Magatsuhi"] = true,
 				["Skrotam"] = true,
-				["Disembowel"] = true,
+				["Clickety"] = true,
 				["Gløwwørm"] = true,
 				["Magepwner"] = true,
 				["ßråins"] = true,
@@ -3288,19 +3288,19 @@ WIM3_Cache = {
 				["Aethas"] = true,
 				["Osterek"] = true,
 				["Gatsuga"] = true,
-				["Kyxx"] = true,
 				["Saox"] = true,
+				["Momochan"] = true,
 				["Chukk"] = true,
 				["Pepelepew"] = true,
 				["Avietes"] = true,
-				["Momochan"] = true,
+				["Kyxx"] = true,
 				["Skiusmc"] = true,
 				["Larolin"] = true,
 				["Hunniebunnie"] = true,
 				["Aset"] = true,
-				["Promitto"] = true,
-				["Kreek"] = true,
 				["Klietal"] = true,
+				["Kreek"] = true,
+				["Promitto"] = true,
 				["Ônyx"] = true,
 				["Molgraine"] = true,
 				["Dys"] = true,
@@ -3473,20 +3473,20 @@ WIM3_Cache = {
 				["Markov"] = true,
 				["Sylq"] = true,
 				["Brokenwind"] = true,
-				["Gnost"] = true,
+				["Omgkittens"] = true,
 				["Sweetmoses"] = true,
-				["Kitkepkin"] = true,
 				["Mauul"] = true,
+				["Kitkepkin"] = true,
 				["Muffun"] = true,
 				["Ryzukane"] = true,
-				["Donkeybreath"] = true,
+				["Draeger"] = true,
 				["Morrin"] = true,
 				["Gendarilia"] = true,
 				["Smile"] = true,
-				["Globalzen"] = true,
+				["Shaline"] = true,
 				["Benafflict"] = true,
-				["Draeger"] = true,
-				["Rizziks"] = true,
+				["Donkeybreath"] = true,
+				["Globalzen"] = true,
 				["Kuthim"] = true,
 				["Shaqfu"] = true,
 				["Psyaved"] = true,
@@ -3504,18 +3504,18 @@ WIM3_Cache = {
 				["Kwanko"] = true,
 				["Podcast"] = true,
 				["Shóckz"] = true,
+				["Nidair"] = true,
 				["Rudetoyou"] = true,
-				["Koten"] = true,
 				["Zabita"] = true,
 				["Mirrorrorrim"] = true,
 				["Warrenglory"] = true,
-				["Deefrichic"] = true,
+				["Tarfang"] = true,
 				["Brotan"] = true,
 				["Lightside"] = true,
 				["Karasawa"] = true,
 				["Backbeat"] = true,
 				["Snowchick"] = true,
-				["Tarfang"] = true,
+				["Deefrichic"] = true,
 				["Disturbia"] = true,
 				["Uthanak"] = true,
 				["Rudeme"] = true,
@@ -3524,25 +3524,25 @@ WIM3_Cache = {
 				["Gandranth"] = true,
 				["Loupgarou"] = true,
 				["Bagz"] = true,
-				["Solie"] = true,
+				["Meengreen"] = true,
 				["Deathreaver"] = true,
-				["Oneyoself"] = true,
-				["Darkknife"] = true,
-				["Sunscream"] = true,
-				["Ninjawhack"] = true,
 				["Percocets"] = true,
+				["Darkknife"] = true,
+				["Cantoi"] = true,
+				["Ninjawhack"] = true,
+				["Oneyoself"] = true,
 				["Depraved"] = true,
 				["Firenforget"] = true,
 				["Shellyn"] = true,
 				["Demonyk"] = true,
 				["Sryana"] = true,
 				["Okthra"] = true,
-				["Speedyiscool"] = true,
+				["Woben"] = true,
 				["Drawkward"] = true,
 				["Gnomewise"] = true,
 				["Drigs"] = true,
 				["Roerick"] = true,
-				["Woben"] = true,
+				["Speedyiscool"] = true,
 				["Dòze"] = true,
 				["Resillence"] = true,
 				["Mourningbref"] = true,
@@ -3550,15 +3550,15 @@ WIM3_Cache = {
 				["Mahzb"] = true,
 				["Gerryatric"] = true,
 				["Funkadacious"] = true,
-				["Caniah"] = true,
+				["Haladenn"] = true,
 				["Uncas"] = true,
 				["Lionside"] = true,
 				["Ågsküld"] = true,
-				["Philconnors"] = true,
-				["Twotons"] = true,
-				["Wingznut"] = true,
 				["Warlorrck"] = true,
 				["Tenzan"] = true,
+				["Wingznut"] = true,
+				["Philconnors"] = true,
+				["Twotons"] = true,
 				["Inyca"] = true,
 				["Knasbank"] = true,
 				["Gotudders"] = true,
@@ -3574,28 +3574,28 @@ WIM3_Cache = {
 				["Casting"] = true,
 				["Jhegaala"] = true,
 				["Rickrol"] = true,
-				["Callistus"] = true,
+				["Darkseedtwo"] = true,
 				["Dott"] = true,
 				["Skadoosh"] = true,
 				["Huntosiris"] = true,
 				["Kothas"] = true,
-				["Darkseedtwo"] = true,
+				["Callistus"] = true,
 				["Lemonpepper"] = true,
 				["Serien"] = true,
 				["Eldred"] = true,
-				["Glint"] = true,
 				["Nasuum"] = true,
+				["Glint"] = true,
 				["Barefoot"] = true,
-				["Bikura"] = true,
+				["Drunkshadows"] = true,
 				["Sekai"] = true,
 				["Mordikain"] = true,
 				["Shammonkey"] = true,
-				["Shon"] = true,
 				["Totemaholic"] = true,
+				["Shon"] = true,
 				["Kiidii"] = true,
 				["Ditch"] = true,
 				["Greathuntard"] = true,
-				["Drunkshadows"] = true,
+				["Bikura"] = true,
 				["Quelil"] = true,
 				["Hatrid"] = true,
 				["Hippocrit"] = true,
@@ -3612,7 +3612,7 @@ WIM3_Cache = {
 				["Divaplavala"] = true,
 				["Goose"] = true,
 				["Jollykiller"] = true,
-				["Haladenn"] = true,
+				["Caniah"] = true,
 				["Sullengrove"] = true,
 				["Wantedalive"] = true,
 				["Kastratikron"] = true,
@@ -3623,9 +3623,9 @@ WIM3_Cache = {
 				["Outlandish"] = true,
 				["Drcons"] = true,
 				["Schnozberry"] = true,
-				["Cantoi"] = true,
+				["Sunscream"] = true,
 				["Sunbolt"] = true,
-				["Meengreen"] = true,
+				["Solie"] = true,
 				["Harddkpguy"] = true,
 				["Shifthappêns"] = true,
 				["Nightside"] = true,
@@ -3635,13 +3635,13 @@ WIM3_Cache = {
 				["Goldamesh"] = true,
 				["Nooblishous"] = true,
 				["Creshne"] = true,
-				["Nidair"] = true,
+				["Koten"] = true,
 				["Shalashaskka"] = true,
 				["Darkdrakke"] = true,
 				["Jailee"] = true,
 				["Milkymilk"] = true,
 				["Blackieo"] = true,
-				["Shaline"] = true,
+				["Rizziks"] = true,
 				["Unlok"] = true,
 				["Lavode"] = true,
 				["Esabin"] = true,
@@ -3650,7 +3650,7 @@ WIM3_Cache = {
 				["Irishdevil"] = true,
 				["Mushasi"] = true,
 				["Flarios"] = true,
-				["Omgkittens"] = true,
+				["Gnost"] = true,
 				["Darketernal"] = true,
 				["Grotak"] = true,
 				["Reshka"] = true,
@@ -3697,12 +3697,12 @@ WIM3_Cache = {
 				["Darshani"] = true,
 				["Rizes"] = true,
 				["Deatholimpus"] = true,
-				["Bogoranuover"] = true,
+				["Cattleclysm"] = true,
 				["Silvertex"] = true,
 				["Mcgpriest"] = true,
 				["Bulkar"] = true,
 				["Xfactor"] = true,
-				["Cattleclysm"] = true,
+				["Bogoranuover"] = true,
 				["Darkrott"] = true,
 				["Jtar"] = true,
 				["Ericbaldwin"] = true,
@@ -3724,12 +3724,12 @@ WIM3_Cache = {
 				["Pandohra"] = true,
 				["Pollenator"] = true,
 				["Mirø"] = true,
+				["Sníper"] = true,
+				["Thupertheven"] = true,
 				["Krucify"] = true,
 				["Therilla"] = true,
-				["Sníper"] = true,
-				["Noobburger"] = true,
 				["Ghóstly"] = true,
-				["Thupertheven"] = true,
+				["Noobburger"] = true,
 				["Bakhegar"] = true,
 				["Belofte"] = true,
 				["Serdinteen"] = true,
@@ -3739,13 +3739,13 @@ WIM3_Cache = {
 				["Sholdelm"] = true,
 				["Scythix"] = true,
 				["Throatski"] = true,
-				["Thewoodster"] = true,
-				["Wazee"] = true,
-				["Rofltard"] = true,
-				["Ginash"] = true,
-				["Blitzkreig"] = true,
 				["Dildozer"] = true,
 				["Sourhorns"] = true,
+				["Rofltard"] = true,
+				["Ginash"] = true,
+				["Fazes"] = true,
+				["Deathvaderz"] = true,
+				["Wazee"] = true,
 				["Mobeaver"] = true,
 				["Nogg"] = true,
 				["Dioscuro"] = true,
@@ -3755,13 +3755,13 @@ WIM3_Cache = {
 				["Saxton"] = true,
 				["Lathiel"] = true,
 				["Marshock"] = true,
-				["Mobovine"] = true,
+				["Kaelar"] = true,
 				["Kreuzfahrer"] = true,
-				["Rokna"] = true,
+				["Jover"] = true,
 				["Julainarra"] = true,
 				["Seimei"] = true,
 				["Eatmorebeef"] = true,
-				["Jover"] = true,
+				["Rokna"] = true,
 				["Zereena"] = true,
 				["Mochachino"] = true,
 				["Newtin"] = true,
@@ -3787,12 +3787,12 @@ WIM3_Cache = {
 				["Cerong"] = true,
 				["Phazzer"] = true,
 				["Selestia"] = true,
-				["Kaelar"] = true,
+				["Mobovine"] = true,
 				["Aonah"] = true,
 				["Yudas"] = true,
 				["Shamysdebt"] = true,
-				["Deathvaderz"] = true,
-				["Fazes"] = true,
+				["Thewoodster"] = true,
+				["Blitzkreig"] = true,
 				["Medikation"] = true,
 				["Noggs"] = true,
 				["Reise"] = true,
@@ -3832,22 +3832,22 @@ WIM3_Cache = {
 				["|Kg1528|k000000|k |Ks1528|k000000|k"] = 2,
 				["Healemz"] = true,
 				["Aani"] = true,
-				["Miakis"] = 1,
+				["|Kg1517|k00000|k |Ks1517|k0000000|k"] = 2,
 				["|Kg1509|k000|k |Ks1509|k0000000|k"] = 2,
-				["Nethershade"] = 1,
+				["Miakis"] = 1,
 				["|Kg1490|k00000|k |Ks1490|k00000|k"] = 2,
 				["|Kg1510|k000000000|k |Ks1510|k000000|k"] = 2,
 				["|Kg1494|k00000|k |Ks1494|k00000|k"] = 2,
-				["|Kg1517|k00000|k |Ks1517|k0000000|k"] = 2,
+				["Nethershade"] = 1,
 				["Oculi"] = true,
 				["|Kg1521|k00000|k |Ks1521|k000000|k"] = 2,
-				["Mirfak"] = true,
-				["Netheregion"] = 1,
+				["|Kg1512|k000000|k |Ks1512|k0000000|k"] = 2,
+				["|Kg1513|k00000000|k |Ks1513|k000000|k"] = 2,
 				["|Kg1523|k000000|k |Ks1523|k0000|k"] = 2,
 				["|Kg1502|k0000000|k |Ks1502|k000000|k"] = 2,
 				["|Kg1491|k00000|k |Ks1491|k000000|k"] = 2,
-				["|Kg1513|k00000000|k |Ks1513|k000000|k"] = 2,
-				["Belofte"] = true,
+				["Netheregion"] = 1,
+				["|Kg1530|k0000|k |Ks1530|k00000|k"] = 2,
 				["|Kg1514|k0000000|k |Ks1514|k000000|k"] = 2,
 				["|Kg1503|k000000|k |Ks1503|k0000|k"] = 2,
 				["|Kg1493|k0000000|k |Ks1493|k00000000|k"] = 2,
@@ -3856,8 +3856,8 @@ WIM3_Cache = {
 				["|Kg1516|k0000|k |Ks1516|k000000|k"] = 2,
 				["|Kg1492|k00000000|k |Ks1492|k0000000000|k"] = 2,
 				["|Kg1524|k0000000|k |Ks1524|k000000000|k"] = 2,
-				["|Kg1530|k0000|k |Ks1530|k00000|k"] = 2,
-				["|Kg1512|k000000|k |Ks1512|k0000000|k"] = 2,
+				["Belofte"] = true,
+				["Mirfak"] = true,
 				["|Kg1505|k00000|k |Ks1505|k000000000|k"] = 2,
 				["|Kg1518|k0000|k |Ks1518|k00000|k"] = 2,
 				["|Kg1529|k00000000|k |Ks1529|k00000|k"] = 2,
@@ -4281,10 +4281,10 @@ WIM3_Cache = {
 				["Larentia"] = true,
 				["Owley"] = true,
 				["Mistearica"] = true,
-				["Isolei"] = true,
+				["Shiftinmojo"] = true,
 				["Evessil"] = true,
 				["Pulari"] = true,
-				["Shiftinmojo"] = true,
+				["Dõc"] = true,
 				["Nazear"] = true,
 				["Snowguard"] = true,
 				["Testify"] = true,
@@ -4297,18 +4297,18 @@ WIM3_Cache = {
 				["Noamchomsky"] = true,
 				["Evantrue"] = true,
 				["Içe"] = true,
-				["Convíct"] = true,
+				["Cârrion"] = true,
 				["Animalchin"] = true,
 				["Squeekette"] = true,
 				["Warrioradr"] = true,
 				["Fakealexos"] = true,
-				["Captnstabbn"] = true,
-				["Cârrion"] = true,
 				["Curseus"] = true,
+				["Convíct"] = true,
+				["Captnstabbn"] = true,
 				["Baconätor"] = true,
-				["Âerith"] = true,
-				["Cogglucklem"] = true,
 				["Premise"] = true,
+				["Cogglucklem"] = true,
+				["Âerith"] = true,
 				["Väsago"] = true,
 				["Captnworgen"] = true,
 				["Blacksmack"] = true,
@@ -4324,13 +4324,13 @@ WIM3_Cache = {
 				["Gacrux"] = true,
 				["Wÿnd"] = true,
 				["Steppinwolf"] = true,
-				["Akaira"] = true,
 				["Raddoxx"] = true,
+				["Akaira"] = true,
 				["Praireðoggin"] = true,
 				["Phailrus"] = true,
-				["Piggyslicer"] = true,
-				["Edifikill"] = true,
 				["Tkthedk"] = true,
+				["Edifikill"] = true,
+				["Piggyslicer"] = true,
 				["Wilaylord"] = true,
 				["Uthomage"] = true,
 				["Magma"] = true,
@@ -4342,8 +4342,8 @@ WIM3_Cache = {
 				["Clawandorder"] = true,
 				["Killiáns"] = true,
 				["Disdorn"] = true,
+				["Isolei"] = true,
 				["Dotdotgooze"] = true,
-				["Dõc"] = true,
 				["Wôlverine"] = true,
 				["Klairabell"] = true,
 				["Zodiara"] = true,
@@ -4409,13 +4409,13 @@ WIM3_Cache = {
 				["Sam Hurst"] = 2,
 				["trisha wall"] = 2,
 				["Kenneth Williams"] = 2,
-				["Emily McKillip"] = 2,
-				["greg duhart"] = 2,
 				["Amanda Krupa"] = 2,
+				["greg duhart"] = 2,
+				["Jessel Serrano"] = 2,
 				["Muhammad Ahmad"] = 2,
 				["Robert Weston"] = 2,
 				["robby marshall"] = 2,
-				["Jessel Serrano"] = 2,
+				["Emily McKillip"] = 2,
 				["kevin kapiszka"] = 2,
 				["Chia Williams"] = 2,
 			},
@@ -4428,54 +4428,54 @@ WIM3_Cache = {
 		},
 		["Chukk"] = {
 			["friendList"] = {
-				["Greymouser"] = 1,
-				["Trishaqt"] = 1,
-				["|Kg100|k0000000|k |Ks100|k0000000|k"] = 2,
-				["Stormi"] = 1,
-				["|Kg97|k0000|k |Ks97|k00000000|k"] = 2,
-				["|Kg92|k00000|k |Ks92|k0000000|k"] = 2,
-				["Maldorf"] = 1,
-				["|Kg98|k000000|k |Ks98|k0000|k"] = 2,
-				["|Kg68|k0000000|k |Ks68|k00000000|k"] = 2,
-				["Vanasukuov"] = 1,
-				["|Kg94|k000000|k |Ks94|k00000|k"] = 2,
-				["|Kg72|k000000|k |Ks72|k0000000|k"] = 2,
-				["|Kg101|k0000000|k |Ks101|k000000|k"] = 2,
-				["|Kg65|k00000|k |Ks65|k00000|k"] = 2,
-				["Fellwether"] = 1,
-				["|Kg85|k000000000|k |Ks85|k000000|k"] = 2,
-				["|Kg96|k00000|k |Ks96|k000000|k"] = 2,
-				["|Kg80|k00000|k |Ks80|k000000000|k"] = 2,
-				["|Kg82|k00000|k |Ks82|k000000|k"] = 2,
-				["|Kg84|k000|k |Ks84|k0000000|k"] = 2,
-				["|Kg95|k000000|k |Ks95|k0000000|k"] = 2,
-				["|Kg103|k000000|k |Ks103|k000000|k"] = 2,
-				["|Kg99|k0000000|k |Ks99|k000000000|k"] = 2,
-				["|Kg71|k00000|k |Ks71|k0000000000|k"] = 2,
-				["|Kg93|k0000|k |Ks93|k00000|k"] = 2,
-				["|Kg88|k00000000|k |Ks88|k000000|k"] = 2,
-				["|Kg77|k0000000|k |Ks77|k000000|k"] = 2,
-				["|Kg69|k00000|k |Ks69|k00000|k"] = 2,
-				["|Kg105|k0000|k |Ks105|k00000|k"] = 2,
-				["|Kg75|k00000|k |Ks75|k00000000|k"] = 2,
-				["|Kg87|k000000|k |Ks87|k0000000|k"] = 2,
-				["|Kg81|k000000|k |Ks81|k000000|k"] = 2,
-				["|Kg70|k00000000000|k |Ks70|k00000000|k"] = 2,
-				["|Kg74|k000000|k |Ks74|k0000|k"] = 2,
-				["|Kg102|k000000|k |Ks102|k0000|k"] = 2,
-				["|Kg76|k00000|k |Ks76|k00000000|k"] = 2,
 				["Omabore"] = 1,
-				["|Kg89|k0000000|k |Ks89|k000000|k"] = 2,
-				["|Kg104|k00000000|k |Ks104|k00000|k"] = 2,
-				["|Kg66|k00000|k |Ks66|k000000|k"] = 2,
-				["|Kg67|k00000000|k |Ks67|k0000000000|k"] = 2,
-				["|Kg86|k000000|k |Ks86|k000000|k"] = 2,
-				["|Kg78|k000000|k |Ks78|k0000|k"] = 2,
-				["|Kg83|k000000|k |Ks83|k000000|k"] = 2,
-				["|Kg90|k00000000|k |Ks90|k00000|k"] = 2,
-				["|Kg73|k000000|k |Ks73|k00000|k"] = 2,
-				["|Kg79|k00000|k |Ks79|k0|k"] = 2,
-				["|Kg91|k0000|k |Ks91|k000000|k"] = 2,
+				["Trishaqt"] = 1,
+				["Stormi"] = 1,
+				["Maldorf"] = 1,
+				["Vanasukuov"] = 1,
+				["|Kg1834|k000000|k |Ks1834|k0000000|k"] = 2,
+				["|Kg1833|k000000|k |Ks1833|k000000|k"] = 2,
+				["|Kg1844|k0000|k |Ks1844|k00000000|k"] = 2,
+				["Fellwether"] = 1,
+				["|Kg1829|k00000|k |Ks1829|k000000|k"] = 2,
+				["|Kg1847|k0000000|k |Ks1847|k0000000|k"] = 2,
+				["|Kg1814|k00000000|k |Ks1814|k0000000000|k"] = 2,
+				["|Kg1845|k000000|k |Ks1845|k0000|k"] = 2,
+				["|Kg1816|k00000|k |Ks1816|k00000|k"] = 2,
+				["|Kg1823|k00000|k |Ks1823|k00000000|k"] = 2,
+				["|Kg1812|k00000|k |Ks1812|k00000|k"] = 2,
+				["|Kg1824|k0000000|k |Ks1824|k000000|k"] = 2,
+				["|Kg1837|k00000000|k |Ks1837|k00000|k"] = 2,
+				["|Kg1843|k00000|k |Ks1843|k000000|k"] = 2,
+				["|Kg1826|k00000|k |Ks1826|k0|k"] = 2,
+				["|Kg1849|k000000|k |Ks1849|k0000|k"] = 2,
+				["|Kg1831|k000|k |Ks1831|k0000000|k"] = 2,
+				["|Kg1851|k00000000|k |Ks1851|k00000|k"] = 2,
+				["|Kg1832|k000000000|k |Ks1832|k000000|k"] = 2,
+				["|Kg1825|k000000|k |Ks1825|k0000|k"] = 2,
+				["|Kg1839|k00000|k |Ks1839|k0000000|k"] = 2,
+				["|Kg1819|k000000|k |Ks1819|k0000000|k"] = 2,
+				["|Kg1813|k00000|k |Ks1813|k000000|k"] = 2,
+				["|Kg1836|k0000000|k |Ks1836|k000000|k"] = 2,
+				["|Kg1830|k000000|k |Ks1830|k000000|k"] = 2,
+				["Greymouser"] = 1,
+				["|Kg1822|k00000|k |Ks1822|k00000000|k"] = 2,
+				["|Kg1818|k00000|k |Ks1818|k0000000000|k"] = 2,
+				["|Kg1848|k0000000|k |Ks1848|k000000|k"] = 2,
+				["|Kg1815|k0000000|k |Ks1815|k00000000|k"] = 2,
+				["|Kg1842|k000000|k |Ks1842|k0000000|k"] = 2,
+				["|Kg1840|k0000|k |Ks1840|k00000|k"] = 2,
+				["|Kg1841|k000000|k |Ks1841|k00000|k"] = 2,
+				["|Kg1835|k00000000|k |Ks1835|k000000|k"] = 2,
+				["|Kg1846|k0000000|k |Ks1846|k000000000|k"] = 2,
+				["|Kg1850|k000000|k |Ks1850|k000000|k"] = 2,
+				["|Kg1817|k00000000000|k |Ks1817|k00000000|k"] = 2,
+				["|Kg1838|k0000|k |Ks1838|k000000|k"] = 2,
+				["|Kg1820|k000000|k |Ks1820|k00000|k"] = 2,
+				["|Kg1827|k00000|k |Ks1827|k000000000|k"] = 2,
+				["|Kg1852|k0000|k |Ks1852|k00000|k"] = 2,
+				["|Kg1828|k000000|k |Ks1828|k000000|k"] = 2,
+				["|Kg1821|k000000|k |Ks1821|k0000|k"] = 2,
 				["Daynger"] = 1,
 			},
 			["guildList"] = {
@@ -4701,6 +4701,7 @@ WIM3_Cache = {
 				["Vesim"] = true,
 				["Mephaestas"] = true,
 				["Streams"] = true,
+				["Lawlatwink"] = true,
 				["Tëmp"] = true,
 				["Utara"] = true,
 				["Irondot"] = true,
@@ -4739,7 +4740,7 @@ WIM3_Cache = {
 				["Prkidfoeva"] = true,
 				["Esclaramonde"] = true,
 				["Nyvira"] = true,
-				["Helmetsftw"] = true,
+				["Ajora"] = true,
 				["Malifiscent"] = true,
 				["Löuie"] = true,
 				["Gooze"] = true,
@@ -4819,194 +4820,195 @@ WIM3_Cache = {
 				["Ember"] = true,
 				["Nehisamurai"] = true,
 				["Dumathoin"] = true,
+				["Missylectric"] = true,
 				["Celestialan"] = true,
 				["Alabasiter"] = true,
-				["Nat"] = true,
+				["Déwéy"] = true,
 				["Irönmaiden"] = true,
 				["Neablis"] = true,
-				["Déwéy"] = true,
-				["Druidadr"] = true,
-				["Implied"] = true,
+				["Piggyhunter"] = true,
 				["Netherstorm"] = true,
+				["Implied"] = true,
 				["Spellshocker"] = true,
 				["Foalan"] = true,
-				["Edifisorc"] = true,
+				["Nsaine"] = true,
 				["Timeteo"] = true,
 				["Cattnip"] = true,
+				["Prkidishell"] = true,
 				["Ponimus"] = true,
-				["Bré"] = true,
 				["Ariodante"] = true,
-				["Jessej"] = true,
-				["Gôdofwar"] = true,
+				["Lockermantwo"] = true,
 				["Dauterofarus"] = true,
+				["Gôdofwar"] = true,
 				["Alorin"] = true,
 				["Taxation"] = true,
+				["Bonivie"] = true,
 				["Netherkitteh"] = true,
 				["Elementsâge"] = true,
 				["Gød"] = true,
-				["Wildhunterr"] = true,
+				["Spasmodic"] = true,
 				["Quickspell"] = true,
 				["Carex"] = true,
-				["Spasmodic"] = true,
 				["Mordag"] = true,
-				["Deathtooyou"] = true,
 				["Phailrus"] = true,
+				["Deathtooyou"] = true,
 				["Nehiholyguy"] = true,
+				["Derindel"] = true,
 				["Lobolita"] = true,
 				["Glardian"] = true,
-				["Derindel"] = true,
+				["Dilligaf"] = true,
 				["Noamchomsky"] = true,
 				["Zodiara"] = true,
-				["Deadset"] = true,
-				["Snøw"] = true,
 				["Artashir"] = true,
-				["Bëllä"] = true,
+				["Snøw"] = true,
 				["Brutallus"] = true,
+				["Bëllä"] = true,
+				["Metïs"] = true,
 				["Myrthana"] = true,
-				["Venomancer"] = true,
+				["Awnylight"] = true,
 				["Chukk"] = true,
 				["Rôadwarrior"] = true,
-				["Awnylight"] = true,
+				["Rizzæ"] = true,
 				["Hazumu"] = true,
-				["Annifreeze"] = true,
+				["Krexxis"] = true,
 				["Karem"] = true,
 				["Tolomeo"] = true,
-				["Krexxis"] = true,
+				["Anduith"] = true,
 				["Poisonlotus"] = true,
-				["Wilaylord"] = true,
 				["Nerka"] = true,
-				["Shalomee"] = true,
+				["Lorbital"] = true,
 				["Rannicus"] = true,
 				["Haliax"] = true,
+				["Sendo"] = true,
 				["Schmoopee"] = true,
-				["Annisneekup"] = true,
-				["Luscian"] = true,
 				["Shialabeouf"] = true,
+				["Luscian"] = true,
 				["Kayllea"] = true,
+				["Falkren"] = true,
 				["Kirye"] = true,
-				["Dóc"] = true,
+				["Kasta"] = true,
 				["Demàn"] = true,
 				["Glaze"] = true,
 				["ßøøb"] = true,
 				["Uthomage"] = true,
-				["Kasta"] = true,
-				["Warricon"] = true,
 				["Jebuus"] = true,
+				["Warricon"] = true,
 				["Mauwie"] = true,
-				["Fotmdk"] = true,
+				["Omnomnomz"] = true,
 				["Vincentlãw"] = true,
 				["Ihazfleas"] = true,
-				["Mistearica"] = true,
 				["Somarvale"] = true,
+				["Mistearica"] = true,
 				["Disdorn"] = true,
+				["Brotherlucas"] = true,
 				["Pulari"] = true,
 				["Dotdotgooze"] = true,
 				["Nazear"] = true,
-				["Dustock"] = true,
 				["Clawandorder"] = true,
 				["Doncornelius"] = true,
+				["Shiftinmojo"] = true,
 				["Dõc"] = true,
-				["Neablist"] = true,
-				["Dôc"] = true,
 				["Promitto"] = true,
+				["Dôc"] = true,
 				["Darthcalor"] = true,
-				["Shukimi"] = true,
-				["Evantrue"] = true,
+				["Hankard"] = true,
 				["Priestadr"] = true,
+				["Evantrue"] = true,
 				["Isolace"] = true,
-				["Animalchin"] = true,
 				["Dropadeuce"] = true,
-				["Warrioradr"] = true,
+				["Animalchin"] = true,
 				["Squeekette"] = true,
+				["Warrioradr"] = true,
 				["Piggyslicer"] = true,
-				["Convíct"] = true,
-				["Curseus"] = true,
 				["Cârrion"] = true,
-				["Väsago"] = true,
-				["Cogglucklem"] = true,
+				["Convíct"] = true,
+				["Captnstabbn"] = true,
+				["Hatounndk"] = true,
 				["Eruca"] = true,
+				["Cogglucklem"] = true,
 				["Âerith"] = true,
+				["Premise"] = true,
 				["Fathertim"] = true,
 				["Blacksmack"] = true,
 				["Raddoxx"] = true,
-				["Deathofcal"] = true,
 				["Haragor"] = true,
 				["Isolei"] = true,
+				["Câmeltotem"] = true,
 				["Nethér"] = true,
 				["Edifilock"] = true,
-				["Câmeltotem"] = true,
 				["Sagewarrior"] = true,
+				["Deathofcal"] = true,
 				["Dencane"] = true,
 				["Gacrux"] = true,
 				["Wÿnd"] = true,
 				["Steppinwolf"] = true,
-				["Premise"] = true,
 				["Akaira"] = true,
+				["Väsago"] = true,
 				["Praireðoggin"] = true,
-				["Hatounndk"] = true,
-				["Tkthedk"] = true,
-				["Edifikill"] = true,
-				["Captnstabbn"] = true,
+				["Curseus"] = true,
 				["Fakealexos"] = true,
+				["Edifikill"] = true,
+				["Tkthedk"] = true,
 				["Goozee"] = true,
+				["Shukimi"] = true,
 				["Magma"] = true,
-				["Hankard"] = true,
 				["Terrygrant"] = true,
+				["Neablist"] = true,
 				["Edifipal"] = true,
 				["Vanasukuov"] = true,
-				["Shiftinmojo"] = true,
+				["Dustock"] = true,
 				["Testify"] = true,
 				["Killiáns"] = true,
 				["Evessil"] = true,
-				["Brotherlucas"] = true,
 				["Captnworgen"] = true,
 				["Tazdevil"] = true,
+				["Fotmdk"] = true,
 				["Klairabell"] = true,
-				["Omnomnomz"] = true,
 				["Anutha"] = true,
 				["Jayzonn"] = true,
+				["Dóc"] = true,
 				["Guinn"] = true,
-				["Falkren"] = true,
 				["Squeekers"] = true,
+				["Annisneekup"] = true,
 				["Jknight"] = true,
 				["Dðc"] = true,
-				["Sendo"] = true,
 				["Garlexis"] = true,
+				["Shalomee"] = true,
 				["Tabata"] = true,
-				["Lorbital"] = true,
+				["Wilaylord"] = true,
 				["Celenie"] = true,
-				["Anduith"] = true,
+				["Annifreeze"] = true,
 				["Kainda"] = true,
-				["Rizzæ"] = true,
+				["Venomancer"] = true,
 				["Killabobby"] = true,
-				["Metïs"] = true,
 				["Brutalus"] = true,
+				["Deadset"] = true,
 				["Bellynda"] = true,
-				["Dilligaf"] = true,
 				["Doç"] = true,
 				["Holyann"] = true,
 				["Lukhas"] = true,
 				["Polysporin"] = true,
+				["Wildhunterr"] = true,
 				["Dðç"] = true,
 				["Anyande"] = true,
 				["Jizzßlaster"] = true,
 				["Mysterion"] = true,
 				["Kavik"] = true,
-				["Bonivie"] = true,
+				["Jessej"] = true,
 				["Mistrust"] = true,
-				["Lockermantwo"] = true,
+				["Bré"] = true,
 				["Retspih"] = true,
-				["Prkidishell"] = true,
 				["Seliniana"] = true,
+				["Edifisorc"] = true,
 				["Etreinte"] = true,
-				["Nsaine"] = true,
 				["Baconätor"] = true,
 				["Maeday"] = true,
+				["Druidadr"] = true,
 				["Reverence"] = true,
-				["Piggyhunter"] = true,
+				["Nat"] = true,
 				["Memnoçh"] = true,
-				["Missylectric"] = true,
 				["Paladinadr"] = true,
+				["Helmetsftw"] = true,
 			},
 		},
 		["Knasbank"] = {
@@ -5026,11 +5028,11 @@ WIM3_Cache = {
 				["Yodaazen"] = true,
 				["Phecda"] = true,
 				["Pandohra"] = true,
-				["Promitto"] = true,
 				["Mirfak"] = true,
+				["Luxee"] = true,
 				["Wezen"] = true,
 				["Rhenium"] = true,
-				["Luxee"] = true,
+				["Promitto"] = true,
 				["Sadr"] = true,
 				["Bellwether"] = true,
 				["Belofte"] = true,
@@ -5055,8 +5057,8 @@ WIM3_Cache = {
 				["|Kg122|k00000|k |Ks122|k000000|k"] = 2,
 				["|Kg135|k0000000|k |Ks135|k000000|k"] = 2,
 				["|Kg112|k000000|k |Ks112|k0000000|k"] = 2,
-				["|Kg115|k000000|k |Ks115|k0000|k"] = 2,
 				["|Kg125|k000000|k |Ks125|k00000|k"] = 2,
+				["|Kg115|k000000|k |Ks115|k0000|k"] = 2,
 				["|Kg127|k0000000|k |Ks127|k000000|k"] = 2,
 				["|Kg116|k00000|k |Ks116|k00000000|k"] = 2,
 				["|Kg117|k0000000|k |Ks117|k000000|k"] = 2,
@@ -5085,49 +5087,49 @@ WIM3_Cache = {
 		},
 		["Pulari"] = {
 			["friendList"] = {
-				["|Kg94|k0000000|k |Ks94|k000000|k"] = 2,
-				["|Kg96|k0000|k |Ks96|k000000|k"] = 2,
-				["|Kg93|k00000000|k |Ks93|k000000|k"] = 2,
-				["|Kg70|k00000|k |Ks70|k00000|k"] = 2,
-				["|Kg110|k0000|k |Ks110|k00000|k"] = 2,
-				["|Kg83|k000000|k |Ks83|k0000|k"] = 2,
-				["|Kg78|k000000|k |Ks78|k00000|k"] = 2,
-				["|Kg80|k00000|k |Ks80|k00000000|k"] = 2,
-				["|Kg90|k000000000|k |Ks90|k000000|k"] = 2,
-				["|Kg88|k000000|k |Ks88|k000000|k"] = 2,
-				["|Kg108|k000000|k |Ks108|k000000|k"] = 2,
-				["|Kg107|k000000|k |Ks107|k0000|k"] = 2,
-				["|Kg92|k000000|k |Ks92|k0000000|k"] = 2,
-				["|Kg76|k00000|k |Ks76|k0000000000|k"] = 2,
-				["|Kg103|k000000|k |Ks103|k0000|k"] = 2,
-				["|Kg109|k00000000|k |Ks109|k00000|k"] = 2,
-				["|Kg102|k0000|k |Ks102|k00000000|k"] = 2,
-				["|Kg79|k000000|k |Ks79|k0000|k"] = 2,
-				["|Kg74|k00000|k |Ks74|k00000|k"] = 2,
-				["|Kg106|k0000000|k |Ks106|k000000|k"] = 2,
-				["|Kg86|k000000|k |Ks86|k000000|k"] = 2,
-				["|Kg85|k00000|k |Ks85|k000000000|k"] = 2,
-				["|Kg95|k00000000|k |Ks95|k00000|k"] = 2,
-				["|Kg81|k00000|k |Ks81|k00000000|k"] = 2,
-				["Bëllä"] = 1,
-				["|Kg100|k000000|k |Ks100|k0000000|k"] = 2,
-				["|Kg97|k00000|k |Ks97|k0000000|k"] = 2,
-				["|Kg99|k000000|k |Ks99|k00000|k"] = 2,
-				["|Kg89|k000|k |Ks89|k0000000|k"] = 2,
-				["|Kg104|k0000000|k |Ks104|k000000000|k"] = 2,
-				["|Kg98|k0000|k |Ks98|k00000|k"] = 2,
-				["|Kg72|k00000000|k |Ks72|k0000000000|k"] = 2,
-				["|Kg77|k000000|k |Ks77|k0000000|k"] = 2,
-				["|Kg75|k00000000000|k |Ks75|k00000000|k"] = 2,
-				["|Kg87|k00000|k |Ks87|k000000|k"] = 2,
-				["|Kg82|k0000000|k |Ks82|k000000|k"] = 2,
-				["|Kg71|k00000|k |Ks71|k000000|k"] = 2,
+				["|Kg1731|k00000000|k |Ks1731|k000000|k"] = 2,
+				["|Kg1724|k000000|k |Ks1724|k000000|k"] = 2,
+				["|Kg1729|k000000|k |Ks1729|k000000|k"] = 2,
+				["|Kg1722|k00000|k |Ks1722|k0|k"] = 2,
+				["|Kg1711|k0000000|k |Ks1711|k00000000|k"] = 2,
+				["|Kg1728|k000000000|k |Ks1728|k000000|k"] = 2,
+				["|Kg1725|k00000|k |Ks1725|k000000|k"] = 2,
+				["|Kg1730|k000000|k |Ks1730|k0000000|k"] = 2,
+				["|Kg1716|k000000|k |Ks1716|k00000|k"] = 2,
 				["Fellwether"] = 1,
-				["|Kg73|k0000000|k |Ks73|k00000000|k"] = 2,
-				["|Kg84|k00000|k |Ks84|k0|k"] = 2,
-				["|Kg101|k00000|k |Ks101|k000000|k"] = 2,
-				["|Kg105|k0000000|k |Ks105|k0000000|k"] = 2,
-				["|Kg91|k000000|k |Ks91|k000000|k"] = 2,
+				["|Kg1708|k00000|k |Ks1708|k00000|k"] = 2,
+				["|Kg1742|k0000000|k |Ks1742|k000000000|k"] = 2,
+				["|Kg1741|k000000|k |Ks1741|k0000|k"] = 2,
+				["|Kg1723|k00000|k |Ks1723|k000000000|k"] = 2,
+				["|Kg1734|k0000|k |Ks1734|k000000|k"] = 2,
+				["|Kg1733|k00000000|k |Ks1733|k00000|k"] = 2,
+				["|Kg1747|k00000000|k |Ks1747|k00000|k"] = 2,
+				["|Kg1710|k00000000|k |Ks1710|k0000000000|k"] = 2,
+				["|Kg1746|k000000|k |Ks1746|k000000|k"] = 2,
+				["|Kg1740|k0000|k |Ks1740|k00000000|k"] = 2,
+				["|Kg1719|k00000|k |Ks1719|k00000000|k"] = 2,
+				["|Kg1737|k000000|k |Ks1737|k00000|k"] = 2,
+				["|Kg1715|k000000|k |Ks1715|k0000000|k"] = 2,
+				["|Kg1713|k00000000000|k |Ks1713|k00000000|k"] = 2,
+				["|Kg1717|k000000|k |Ks1717|k0000|k"] = 2,
+				["Bëllä"] = 1,
+				["|Kg1732|k0000000|k |Ks1732|k000000|k"] = 2,
+				["|Kg1736|k0000|k |Ks1736|k00000|k"] = 2,
+				["|Kg1718|k00000|k |Ks1718|k00000000|k"] = 2,
+				["|Kg1744|k0000000|k |Ks1744|k000000|k"] = 2,
+				["|Kg1748|k0000|k |Ks1748|k00000|k"] = 2,
+				["|Kg1726|k000000|k |Ks1726|k000000|k"] = 2,
+				["|Kg1743|k0000000|k |Ks1743|k0000000|k"] = 2,
+				["|Kg1720|k0000000|k |Ks1720|k000000|k"] = 2,
+				["|Kg1727|k000|k |Ks1727|k0000000|k"] = 2,
+				["|Kg1712|k00000|k |Ks1712|k00000|k"] = 2,
+				["|Kg1709|k00000|k |Ks1709|k000000|k"] = 2,
+				["|Kg1721|k000000|k |Ks1721|k0000|k"] = 2,
+				["|Kg1739|k00000|k |Ks1739|k000000|k"] = 2,
+				["|Kg1735|k00000|k |Ks1735|k0000000|k"] = 2,
+				["|Kg1714|k00000|k |Ks1714|k0000000000|k"] = 2,
+				["|Kg1738|k000000|k |Ks1738|k0000000|k"] = 2,
+				["|Kg1745|k000000|k |Ks1745|k0000|k"] = 2,
 			},
 			["guildList"] = {
 				["Deadmanjak"] = true,
@@ -5553,7 +5555,7 @@ WIM3_Cache = {
 				["Evessil"] = true,
 				["Dotdotgooze"] = true,
 				["Pulari"] = true,
-				["Hankard"] = true,
+				["Shiftinmojo"] = true,
 				["Dustock"] = true,
 				["Testify"] = true,
 				["Fotmdk"] = true,
@@ -5571,9 +5573,9 @@ WIM3_Cache = {
 				["Edifikill"] = true,
 				["Warrioradr"] = true,
 				["Fakealexos"] = true,
-				["Väsago"] = true,
-				["Convíct"] = true,
 				["Curseus"] = true,
+				["Cârrion"] = true,
+				["Captnstabbn"] = true,
 				["Doncornelius"] = true,
 				["Elementsâge"] = true,
 				["Cogglucklem"] = true,
@@ -5593,14 +5595,14 @@ WIM3_Cache = {
 				["Gacrux"] = true,
 				["Wÿnd"] = true,
 				["Steppinwolf"] = true,
-				["Âerith"] = true,
 				["Premise"] = true,
+				["Âerith"] = true,
 				["Praireðoggin"] = true,
-				["Captnstabbn"] = true,
-				["Tkthedk"] = true,
-				["Squeekette"] = true,
-				["Cârrion"] = true,
+				["Väsago"] = true,
 				["Piggyslicer"] = true,
+				["Squeekette"] = true,
+				["Convíct"] = true,
+				["Tkthedk"] = true,
 				["Venomancer"] = true,
 				["Magma"] = true,
 				["Darthcalor"] = true,
@@ -5611,7 +5613,7 @@ WIM3_Cache = {
 				["Clawandorder"] = true,
 				["Killiáns"] = true,
 				["Disdorn"] = true,
-				["Shiftinmojo"] = true,
+				["Hankard"] = true,
 				["Neablist"] = true,
 				["Spasmodic"] = true,
 				["Klairabell"] = true,
@@ -6122,7 +6124,7 @@ WIM3_Cache = {
 				["Dotdotgooze"] = true,
 				["Testify"] = true,
 				["Pulari"] = true,
-				["Kernelpanic"] = true,
+				["Dõc"] = true,
 				["Nazear"] = true,
 				["Isolei"] = true,
 				["Bëllä"] = true,
@@ -6140,10 +6142,10 @@ WIM3_Cache = {
 				["Leare"] = true,
 				["Warrioradr"] = true,
 				["Cârrion"] = true,
-				["Âerith"] = true,
-				["Convíct"] = true,
-				["Captnstabbn"] = true,
 				["Raddoxx"] = true,
+				["Convíct"] = true,
+				["Curseus"] = true,
+				["Âerith"] = true,
 				["Väsago"] = true,
 				["Cogglucklem"] = true,
 				["Premise"] = true,
@@ -6163,12 +6165,12 @@ WIM3_Cache = {
 				["Wÿnd"] = true,
 				["Steppinwolf"] = true,
 				["Akaira"] = true,
-				["Curseus"] = true,
+				["Captnstabbn"] = true,
 				["Praireðoggin"] = true,
 				["Phailrus"] = true,
-				["Piggyslicer"] = true,
-				["Edifikill"] = true,
 				["Fakealexos"] = true,
+				["Edifikill"] = true,
+				["Piggyslicer"] = true,
 				["Dumathoin"] = true,
 				["Spellshocker"] = true,
 				["Magma"] = true,
@@ -6180,7 +6182,7 @@ WIM3_Cache = {
 				["Clawandorder"] = true,
 				["Killiáns"] = true,
 				["Evessil"] = true,
-				["Dõc"] = true,
+				["Kernelpanic"] = true,
 				["Rizzö"] = true,
 				["Noamchomsky"] = true,
 				["Klairabell"] = true,
@@ -6231,115 +6233,53 @@ WIM3_Cache = {
 				["Deadmanjak"] = true,
 			},
 		},
-		["Idsapme"] = {
-			["friendList"] = {
-				["|Kg99|k00000|k |Ks99|k00000|k"] = 2,
-				["|Kg108|k00000|k |Ks108|k0|k"] = 2,
-				["|Kg119|k000000|k |Ks119|k00000|k"] = 2,
-				["|Kg122|k00000000|k |Ks122|k00000|k"] = 2,
-				["|Kg116|k0000000|k |Ks116|k000000|k"] = 2,
-				["|Kg117|k00000000|k |Ks117|k00000|k"] = 2,
-				["|Kg114|k000000|k |Ks114|k00000|k"] = 2,
-				["|Kg123|k0000|k |Ks123|k00000000|k"] = 2,
-				["|Kg100|k0000000|k |Ks100|k00000000|k"] = 2,
-				["|Kg102|k000000|k |Ks102|k0000000|k"] = 2,
-				["|Kg109|k00000|k |Ks109|k000000000|k"] = 2,
-				["|Kg112|k000|k |Ks112|k0000000|k"] = 2,
-				["|Kg115|k00000000|k |Ks115|k000000|k"] = 2,
-				["|Kg111|k00000|k |Ks111|k000000|k"] = 2,
-				["|Kg113|k000000|k |Ks113|k000000|k"] = 2,
-				["|Kg107|k0000000|k |Ks107|k000000|k"] = 2,
-				["|Kg118|k0000|k |Ks118|k000000|k"] = 2,
-				["|Kg103|k00000|k |Ks103|k00000000|k"] = 2,
-				["|Kg110|k000000|k |Ks110|k000000|k"] = 2,
-				["|Kg101|k000000|k |Ks101|k0000000|k"] = 2,
-				["|Kg120|k000000|k |Ks120|k0000000|k"] = 2,
-				["|Kg105|k00000|k |Ks105|k00000000|k"] = 2,
-				["|Kg104|k000000|k |Ks104|k0000|k"] = 2,
-				["|Kg126|k000|k |Ks126|k00000|k"] = 2,
-				["|Kg106|k00000|k |Ks106|k00000000|k"] = 2,
-				["|Kg121|k00000|k |Ks121|k000000|k"] = 2,
-				["|Kg125|k0000000|k |Ks125|k000000|k"] = 2,
-				["|Kg124|k000000|k |Ks124|k0000|k"] = 2,
-			},
-			["guildList"] = {
-				["Trishaqt"] = true,
-				["Orbital"] = true,
-				["Whipcream"] = true,
-				["Catamyslic"] = true,
-				["Draksbow"] = true,
-				["Ravenriley"] = true,
-				["Rfat"] = true,
-				["Keichi"] = true,
-				["Kayrazzlers"] = true,
-				["Tyranae"] = true,
-				["Loanwôlf"] = true,
-				["Prada"] = true,
-				["Trishasaurus"] = true,
-				["Crownoes"] = true,
-				["Tyranei"] = true,
-				["Pradasaurus"] = true,
-				["Pulari"] = true,
-				["Shockur"] = true,
-				["Promitto"] = true,
-				["ßongz"] = true,
-				["Chronus"] = true,
-				["Idsapme"] = true,
-				["Revenge"] = true,
-				["Therapìst"] = true,
-				["Meowzqt"] = true,
-				["Dipndoter"] = true,
-				["Booï"] = true,
-				["Ivoryjugz"] = true,
-			},
-		},
 		["Deadset"] = {
 			["friendList"] = {
 				["Trishaqt"] = 1,
-				["|Kg301|k0000000|k |Ks301|k0000000|k"] = 2,
-				["|Kg304|k000000|k |Ks304|k000000|k"] = 2,
-				["|Kg288|k000000|k |Ks288|k0000000|k"] = 2,
-				["|Kg298|k0000|k |Ks298|k00000000|k"] = 2,
+				["|Kg1902|k000000|k |Ks1902|k0000000|k"] = 2,
+				["|Kg1880|k000000|k |Ks1880|k00000|k"] = 2,
+				["|Kg1884|k0000000|k |Ks1884|k000000|k"] = 2,
+				["|Kg1906|k0000000|k |Ks1906|k000000000|k"] = 2,
+				["|Kg1883|k00000|k |Ks1883|k00000000|k"] = 2,
+				["|Kg1897|k00000000|k |Ks1897|k00000|k"] = 2,
 				["Blazhevich"] = 1,
-				["|Kg280|k00000|k |Ks280|k0|k"] = 2,
-				["|Kg279|k000000|k |Ks279|k0000|k"] = 2,
-				["|Kg274|k000000|k |Ks274|k00000|k"] = 2,
-				["|Kg271|k00000000000|k |Ks271|k00000000|k"] = 2,
-				["|Kg305|k00000000|k |Ks305|k00000|k"] = 2,
-				["|Kg286|k000000000|k |Ks286|k000000|k"] = 2,
+				["|Kg1893|k000000|k |Ks1893|k000000|k"] = 2,
+				["|Kg1892|k000000000|k |Ks1892|k000000|k"] = 2,
+				["|Kg1909|k000000|k |Ks1909|k0000|k"] = 2,
+				["|Kg1874|k00000000|k |Ks1874|k0000000000|k"] = 2,
 				["Hordebane"] = 1,
-				["|Kg287|k000000|k |Ks287|k000000|k"] = 2,
-				["|Kg276|k00000|k |Ks276|k00000000|k"] = 2,
-				["|Kg283|k00000|k |Ks283|k000000|k"] = 2,
-				["|Kg290|k0000000|k |Ks290|k000000|k"] = 2,
-				["|Kg273|k000000|k |Ks273|k0000000|k"] = 2,
-				["|Kg306|k0000|k |Ks306|k00000|k"] = 2,
-				["|Kg303|k000000|k |Ks303|k0000|k"] = 2,
-				["|Kg295|k000000|k |Ks295|k00000|k"] = 2,
-				["|Kg270|k00000|k |Ks270|k00000|k"] = 2,
-				["|Kg284|k000000|k |Ks284|k000000|k"] = 2,
-				["|Kg292|k0000|k |Ks292|k000000|k"] = 2,
-				["|Kg267|k00000|k |Ks267|k000000|k"] = 2,
-				["|Kg282|k000000|k |Ks282|k000000|k"] = 2,
-				["|Kg275|k000000|k |Ks275|k0000|k"] = 2,
-				["|Kg268|k00000000|k |Ks268|k0000000000|k"] = 2,
-				["|Kg293|k00000|k |Ks293|k0000000|k"] = 2,
-				["|Kg291|k00000000|k |Ks291|k00000|k"] = 2,
-				["|Kg277|k00000|k |Ks277|k00000000|k"] = 2,
-				["|Kg300|k0000000|k |Ks300|k000000000|k"] = 2,
-				["|Kg285|k000|k |Ks285|k0000000|k"] = 2,
-				["|Kg294|k0000|k |Ks294|k00000|k"] = 2,
-				["|Kg289|k00000000|k |Ks289|k000000|k"] = 2,
-				["|Kg299|k000000|k |Ks299|k0000|k"] = 2,
-				["|Kg297|k00000|k |Ks297|k000000|k"] = 2,
-				["|Kg269|k0000000|k |Ks269|k00000000|k"] = 2,
-				["|Kg281|k00000|k |Ks281|k000000000|k"] = 2,
-				["|Kg266|k00000|k |Ks266|k00000|k"] = 2,
-				["|Kg272|k00000|k |Ks272|k0000000000|k"] = 2,
-				["|Kg302|k0000000|k |Ks302|k000000|k"] = 2,
-				["|Kg278|k0000000|k |Ks278|k000000|k"] = 2,
-				["|Kg296|k000000|k |Ks296|k0000000|k"] = 2,
+				["|Kg1873|k00000|k |Ks1873|k000000|k"] = 2,
+				["|Kg1894|k000000|k |Ks1894|k0000000|k"] = 2,
+				["|Kg1877|k00000000000|k |Ks1877|k00000000|k"] = 2,
+				["|Kg1875|k0000000|k |Ks1875|k00000000|k"] = 2,
+				["|Kg1903|k00000|k |Ks1903|k000000|k"] = 2,
+				["|Kg1901|k000000|k |Ks1901|k00000|k"] = 2,
+				["|Kg1905|k000000|k |Ks1905|k0000|k"] = 2,
+				["|Kg1886|k00000|k |Ks1886|k0|k"] = 2,
+				["|Kg1876|k00000|k |Ks1876|k00000|k"] = 2,
+				["|Kg1881|k000000|k |Ks1881|k0000|k"] = 2,
+				["|Kg1891|k000|k |Ks1891|k0000000|k"] = 2,
 				["Ivoryjugz"] = 1,
+				["|Kg1890|k000000|k |Ks1890|k000000|k"] = 2,
+				["|Kg1907|k0000000|k |Ks1907|k0000000|k"] = 2,
+				["|Kg1872|k00000|k |Ks1872|k00000|k"] = 2,
+				["|Kg1899|k00000|k |Ks1899|k0000000|k"] = 2,
+				["|Kg1898|k0000|k |Ks1898|k000000|k"] = 2,
+				["|Kg1882|k00000|k |Ks1882|k00000000|k"] = 2,
+				["|Kg1910|k000000|k |Ks1910|k000000|k"] = 2,
+				["|Kg1878|k00000|k |Ks1878|k0000000000|k"] = 2,
+				["|Kg1895|k00000000|k |Ks1895|k000000|k"] = 2,
+				["|Kg1889|k00000|k |Ks1889|k000000|k"] = 2,
+				["|Kg1879|k000000|k |Ks1879|k0000000|k"] = 2,
+				["|Kg1904|k0000|k |Ks1904|k00000000|k"] = 2,
+				["|Kg1908|k0000000|k |Ks1908|k000000|k"] = 2,
+				["|Kg1885|k000000|k |Ks1885|k0000|k"] = 2,
+				["|Kg1896|k0000000|k |Ks1896|k000000|k"] = 2,
+				["|Kg1912|k0000|k |Ks1912|k00000|k"] = 2,
+				["|Kg1887|k00000|k |Ks1887|k000000000|k"] = 2,
+				["|Kg1888|k000000|k |Ks1888|k000000|k"] = 2,
+				["|Kg1900|k0000|k |Ks1900|k00000|k"] = 2,
+				["|Kg1911|k00000000|k |Ks1911|k00000|k"] = 2,
 			},
 			["guildList"] = {
 				["Deadmanjak"] = true,
@@ -6716,9 +6656,9 @@ WIM3_Cache = {
 				["Deadset"] = true,
 				["Deathtooyou"] = true,
 				["Lorbital"] = true,
-				["Metïs"] = true,
-				["Lobolita"] = true,
 				["Glardian"] = true,
+				["Lobolita"] = true,
+				["Metïs"] = true,
 				["Dropadeuce"] = true,
 				["Noamchomsky"] = true,
 				["Zodiara"] = true,
@@ -6751,21 +6691,21 @@ WIM3_Cache = {
 				["Kirye"] = true,
 				["Falkren"] = true,
 				["Demàn"] = true,
-				["Mauwie"] = true,
+				["Glaze"] = true,
 				["ßøøb"] = true,
 				["Tazdevil"] = true,
-				["Warricon"] = true,
 				["Fotmdk"] = true,
+				["Warricon"] = true,
 				["Bonivie"] = true,
 				["Piggyhunter"] = true,
 				["Captnworgen"] = true,
-				["Dõc"] = true,
 				["Shiftinmojo"] = true,
+				["Dotdotgooze"] = true,
 				["Mistearica"] = true,
 				["Disdorn"] = true,
 				["Nazear"] = true,
 				["Pulari"] = true,
-				["Dotdotgooze"] = true,
+				["Dõc"] = true,
 				["Dustock"] = true,
 				["Clawandorder"] = true,
 				["Ihazfleas"] = true,
@@ -6778,18 +6718,18 @@ WIM3_Cache = {
 				["Lukhas"] = true,
 				["Evantrue"] = true,
 				["Isolei"] = true,
-				["Convíct"] = true,
+				["Cârrion"] = true,
 				["Animalchin"] = true,
 				["Squeekette"] = true,
 				["Warrioradr"] = true,
 				["Piggyslicer"] = true,
-				["Curseus"] = true,
-				["Cârrion"] = true,
 				["Väsago"] = true,
+				["Convíct"] = true,
+				["Captnstabbn"] = true,
 				["Shukimi"] = true,
-				["Âerith"] = true,
-				["Cogglucklem"] = true,
 				["Raddoxx"] = true,
+				["Cogglucklem"] = true,
+				["Âerith"] = true,
 				["Krexxis"] = true,
 				["Hatounndk"] = true,
 				["Blacksmack"] = true,
@@ -6808,7 +6748,7 @@ WIM3_Cache = {
 				["Akaira"] = true,
 				["Tkthedk"] = true,
 				["Praireðoggin"] = true,
-				["Captnstabbn"] = true,
+				["Curseus"] = true,
 				["Fakealexos"] = true,
 				["Edifikill"] = true,
 				["Fathertim"] = true,
@@ -6829,7 +6769,7 @@ WIM3_Cache = {
 				["Klairabell"] = true,
 				["Mordag"] = true,
 				["Uthomage"] = true,
-				["Glaze"] = true,
+				["Mauwie"] = true,
 				["Guinn"] = true,
 				["Dóc"] = true,
 				["Annisneekup"] = true,
@@ -6872,6 +6812,68 @@ WIM3_Cache = {
 				["Memnoçh"] = true,
 				["Dumathoin"] = true,
 				["Bré"] = true,
+			},
+		},
+		["Idsapme"] = {
+			["friendList"] = {
+				["|Kg99|k00000|k |Ks99|k00000|k"] = 2,
+				["|Kg108|k00000|k |Ks108|k0|k"] = 2,
+				["|Kg119|k000000|k |Ks119|k00000|k"] = 2,
+				["|Kg122|k00000000|k |Ks122|k00000|k"] = 2,
+				["|Kg116|k0000000|k |Ks116|k000000|k"] = 2,
+				["|Kg117|k00000000|k |Ks117|k00000|k"] = 2,
+				["|Kg114|k000000|k |Ks114|k00000|k"] = 2,
+				["|Kg123|k0000|k |Ks123|k00000000|k"] = 2,
+				["|Kg100|k0000000|k |Ks100|k00000000|k"] = 2,
+				["|Kg109|k00000|k |Ks109|k000000000|k"] = 2,
+				["|Kg102|k000000|k |Ks102|k0000000|k"] = 2,
+				["|Kg125|k0000000|k |Ks125|k000000|k"] = 2,
+				["|Kg115|k00000000|k |Ks115|k000000|k"] = 2,
+				["|Kg111|k00000|k |Ks111|k000000|k"] = 2,
+				["|Kg113|k000000|k |Ks113|k000000|k"] = 2,
+				["|Kg107|k0000000|k |Ks107|k000000|k"] = 2,
+				["|Kg118|k0000|k |Ks118|k000000|k"] = 2,
+				["|Kg103|k00000|k |Ks103|k00000000|k"] = 2,
+				["|Kg110|k000000|k |Ks110|k000000|k"] = 2,
+				["|Kg101|k000000|k |Ks101|k0000000|k"] = 2,
+				["|Kg120|k000000|k |Ks120|k0000000|k"] = 2,
+				["|Kg105|k00000|k |Ks105|k00000000|k"] = 2,
+				["|Kg104|k000000|k |Ks104|k0000|k"] = 2,
+				["|Kg126|k000|k |Ks126|k00000|k"] = 2,
+				["|Kg106|k00000|k |Ks106|k00000000|k"] = 2,
+				["|Kg121|k00000|k |Ks121|k000000|k"] = 2,
+				["|Kg112|k000|k |Ks112|k0000000|k"] = 2,
+				["|Kg124|k000000|k |Ks124|k0000|k"] = 2,
+			},
+			["guildList"] = {
+				["Trishaqt"] = true,
+				["Orbital"] = true,
+				["Whipcream"] = true,
+				["Catamyslic"] = true,
+				["Draksbow"] = true,
+				["Ravenriley"] = true,
+				["Rfat"] = true,
+				["Keichi"] = true,
+				["Kayrazzlers"] = true,
+				["Tyranae"] = true,
+				["Loanwôlf"] = true,
+				["Promitto"] = true,
+				["Trishasaurus"] = true,
+				["Crownoes"] = true,
+				["Tyranei"] = true,
+				["Pradasaurus"] = true,
+				["Pulari"] = true,
+				["Shockur"] = true,
+				["Prada"] = true,
+				["ßongz"] = true,
+				["Chronus"] = true,
+				["Meowzqt"] = true,
+				["Revenge"] = true,
+				["Therapìst"] = true,
+				["Idsapme"] = true,
+				["Dipndoter"] = true,
+				["Booï"] = true,
+				["Ivoryjugz"] = true,
 			},
 		},
 		["Knas"] = {
@@ -6926,52 +6928,52 @@ WIM3_Cache = {
 		["Promitto"] = {
 			["friendList"] = {
 				["Omabore"] = 1,
-				["|Kg213|k0000|k |Ks213|k00000|k"] = 2,
-				["|Kg217|k0000|k |Ks217|k00000000|k"] = 2,
-				["|Kg207|k000000|k |Ks207|k0000000|k"] = 2,
-				["|Kg185|k00000|k |Ks185|k00000|k"] = 2,
-				["|Kg223|k000000|k |Ks223|k000000|k"] = 2,
-				["|Kg214|k000000|k |Ks214|k00000|k"] = 2,
-				["Vanasukuov"] = 1,
-				["|Kg190|k00000000000|k |Ks190|k00000000|k"] = 2,
-				["|Kg200|k00000|k |Ks200|k000000000|k"] = 2,
-				["|Kg220|k0000000|k |Ks220|k0000000|k"] = 2,
-				["|Kg219|k0000000|k |Ks219|k000000000|k"] = 2,
-				["|Kg197|k0000000|k |Ks197|k000000|k"] = 2,
-				["|Kg224|k00000000|k |Ks224|k00000|k"] = 2,
-				["|Kg192|k000000|k |Ks192|k0000000|k"] = 2,
-				["|Kg206|k000000|k |Ks206|k000000|k"] = 2,
-				["|Kg216|k00000|k |Ks216|k000000|k"] = 2,
-				["|Kg201|k000000|k |Ks201|k000000|k"] = 2,
-				["Smoothkiller"] = 1,
-				["Vanahumpalot"] = 1,
-				["|Kg199|k00000|k |Ks199|k0|k"] = 2,
-				["|Kg187|k00000000|k |Ks187|k0000000000|k"] = 2,
-				["|Kg202|k00000|k |Ks202|k000000|k"] = 2,
-				["|Kg198|k000000|k |Ks198|k0000|k"] = 2,
-				["|Kg194|k000000|k |Ks194|k0000|k"] = 2,
-				["|Kg193|k000000|k |Ks193|k00000|k"] = 2,
+				["|Kg2036|k000000|k |Ks2036|k00000|k"] = 2,
 				["Stormi"] = 1,
-				["|Kg222|k000000|k |Ks222|k0000|k"] = 2,
-				["|Kg188|k0000000|k |Ks188|k00000000|k"] = 2,
-				["|Kg195|k00000|k |Ks195|k00000000|k"] = 2,
-				["|Kg205|k000000000|k |Ks205|k000000|k"] = 2,
-				["|Kg225|k0000|k |Ks225|k00000|k"] = 2,
-				["|Kg186|k00000|k |Ks186|k000000|k"] = 2,
-				["|Kg203|k000000|k |Ks203|k000000|k"] = 2,
+				["|Kg2063|k0000000|k |Ks2063|k0000000|k"] = 2,
+				["|Kg2060|k0000|k |Ks2060|k00000000|k"] = 2,
+				["|Kg2062|k0000000|k |Ks2062|k000000000|k"] = 2,
+				["Vanasukuov"] = 1,
+				["|Kg2050|k000000|k |Ks2050|k0000000|k"] = 2,
+				["|Kg2065|k000000|k |Ks2065|k0000|k"] = 2,
+				["|Kg2048|k000000000|k |Ks2048|k000000|k"] = 2,
+				["|Kg2042|k00000|k |Ks2042|k0|k"] = 2,
+				["|Kg2053|k00000000|k |Ks2053|k00000|k"] = 2,
+				["|Kg2043|k00000|k |Ks2043|k000000000|k"] = 2,
+				["|Kg2057|k000000|k |Ks2057|k00000|k"] = 2,
+				["|Kg2037|k000000|k |Ks2037|k0000|k"] = 2,
+				["|Kg2066|k000000|k |Ks2066|k000000|k"] = 2,
+				["Vanahumpalot"] = 1,
+				["|Kg2045|k00000|k |Ks2045|k000000|k"] = 2,
+				["|Kg2030|k00000000|k |Ks2030|k0000000000|k"] = 2,
+				["|Kg2039|k00000|k |Ks2039|k00000000|k"] = 2,
+				["|Kg2068|k0000|k |Ks2068|k00000|k"] = 2,
+				["|Kg2052|k0000000|k |Ks2052|k000000|k"] = 2,
+				["|Kg2029|k00000|k |Ks2029|k000000|k"] = 2,
+				["|Kg2028|k00000|k |Ks2028|k00000|k"] = 2,
+				["|Kg2034|k00000|k |Ks2034|k0000000000|k"] = 2,
+				["|Kg2041|k000000|k |Ks2041|k0000|k"] = 2,
+				["|Kg2061|k000000|k |Ks2061|k0000|k"] = 2,
+				["|Kg2067|k00000000|k |Ks2067|k00000|k"] = 2,
+				["|Kg2064|k0000000|k |Ks2064|k000000|k"] = 2,
+				["|Kg2059|k00000|k |Ks2059|k000000|k"] = 2,
+				["|Kg2033|k00000000000|k |Ks2033|k00000000|k"] = 2,
+				["|Kg2032|k00000|k |Ks2032|k00000|k"] = 2,
+				["|Kg2038|k00000|k |Ks2038|k00000000|k"] = 2,
+				["|Kg2058|k000000|k |Ks2058|k0000000|k"] = 2,
+				["|Kg2051|k00000000|k |Ks2051|k000000|k"] = 2,
+				["|Kg2035|k000000|k |Ks2035|k0000000|k"] = 2,
+				["|Kg2047|k000|k |Ks2047|k0000000|k"] = 2,
+				["Smoothkiller"] = 1,
+				["|Kg2055|k00000|k |Ks2055|k0000000|k"] = 2,
+				["|Kg2040|k0000000|k |Ks2040|k000000|k"] = 2,
 				["Biggj"] = 1,
-				["|Kg196|k00000|k |Ks196|k00000000|k"] = 2,
-				["|Kg210|k00000000|k |Ks210|k00000|k"] = 2,
-				["|Kg218|k000000|k |Ks218|k0000|k"] = 2,
-				["|Kg209|k0000000|k |Ks209|k000000|k"] = 2,
-				["|Kg189|k00000|k |Ks189|k00000|k"] = 2,
-				["|Kg211|k0000|k |Ks211|k000000|k"] = 2,
-				["|Kg208|k00000000|k |Ks208|k000000|k"] = 2,
-				["|Kg212|k00000|k |Ks212|k0000000|k"] = 2,
-				["|Kg204|k000|k |Ks204|k0000000|k"] = 2,
-				["|Kg221|k0000000|k |Ks221|k000000|k"] = 2,
-				["|Kg215|k000000|k |Ks215|k0000000|k"] = 2,
-				["|Kg191|k00000|k |Ks191|k0000000000|k"] = 2,
+				["|Kg2031|k0000000|k |Ks2031|k00000000|k"] = 2,
+				["|Kg2056|k0000|k |Ks2056|k00000|k"] = 2,
+				["|Kg2049|k000000|k |Ks2049|k000000|k"] = 2,
+				["|Kg2044|k000000|k |Ks2044|k000000|k"] = 2,
+				["|Kg2054|k0000|k |Ks2054|k000000|k"] = 2,
+				["|Kg2046|k000000|k |Ks2046|k000000|k"] = 2,
 			},
 			["guildList"] = {
 				["Deadmanjak"] = true,
@@ -7356,8 +7358,8 @@ WIM3_Cache = {
 				["Zodiara"] = true,
 				["Nsaine"] = true,
 				["Artashir"] = true,
-				["Annisneekup"] = true,
 				["Bëllä"] = true,
+				["Annisneekup"] = true,
 				["Falkren"] = true,
 				["Myrthana"] = true,
 				["Baconätor"] = true,
@@ -7392,12 +7394,12 @@ WIM3_Cache = {
 				["Tazdevil"] = true,
 				["Neablist"] = true,
 				["Vincentlãw"] = true,
-				["Hankard"] = true,
+				["Dotdotgooze"] = true,
 				["Mistearica"] = true,
 				["Evessil"] = true,
 				["Nazear"] = true,
 				["Pulari"] = true,
-				["Dotdotgooze"] = true,
+				["Hankard"] = true,
 				["Dustock"] = true,
 				["Testify"] = true,
 				["Shukimi"] = true,
@@ -7415,13 +7417,13 @@ WIM3_Cache = {
 				["Edifikill"] = true,
 				["Warrioradr"] = true,
 				["Tkthedk"] = true,
-				["Cârrion"] = true,
 				["Convíct"] = true,
-				["Väsago"] = true,
+				["Cârrion"] = true,
+				["Curseus"] = true,
 				["Captnstabbn"] = true,
-				["Âerith"] = true,
-				["Cogglucklem"] = true,
 				["Premise"] = true,
+				["Cogglucklem"] = true,
+				["Âerith"] = true,
 				["Câmeltotem"] = true,
 				["Maeday"] = true,
 				["Blacksmack"] = true,
@@ -7440,7 +7442,7 @@ WIM3_Cache = {
 				["Akaira"] = true,
 				["Fakealexos"] = true,
 				["Praireðoggin"] = true,
-				["Curseus"] = true,
+				["Väsago"] = true,
 				["Piggyslicer"] = true,
 				["Squeekette"] = true,
 				["Venomancer"] = true,
@@ -7508,46 +7510,47 @@ WIM3_Cache = {
 		},
 		["Gacrux"] = {
 			["friendList"] = {
-				["|Kg453|k000|k |Ks453|k0000000|k"] = 2,
-				["|Kg468|k00000000|k |Ks468|k00000|k"] = 2,
-				["|Kg441|k000000|k |Ks441|k0000000|k"] = 2,
-				["|Kg466|k0000|k |Ks466|k00000000|k"] = 2,
-				["|Kg435|k00000|k |Ks435|k000000|k"] = 2,
-				["|Kg462|k0000|k |Ks462|k00000|k"] = 2,
-				["|Kg469|k0000000|k |Ks469|k0000000|k"] = 2,
-				["|Kg439|k00000000000|k |Ks439|k00000000|k"] = 2,
-				["|Kg471|k000000|k |Ks471|k0000|k"] = 2,
-				["|Kg448|k00000|k |Ks448|k0|k"] = 2,
-				["|Kg445|k00000|k |Ks445|k00000000|k"] = 2,
-				["|Kg436|k00000000|k |Ks436|k0000000000|k"] = 2,
-				["|Kg434|k00000|k |Ks434|k00000|k"] = 2,
-				["|Kg444|k00000|k |Ks444|k00000000|k"] = 2,
-				["|Kg446|k0000000|k |Ks446|k000000|k"] = 2,
-				["|Kg472|k000000|k |Ks472|k000000|k"] = 2,
-				["|Kg452|k000000|k |Ks452|k000000|k"] = 2,
-				["|Kg438|k00000|k |Ks438|k00000|k"] = 2,
-				["|Kg437|k0000000|k |Ks437|k00000000|k"] = 2,
-				["|Kg470|k0000000|k |Ks470|k000000|k"] = 2,
-				["|Kg443|k000000|k |Ks443|k0000|k"] = 2,
-				["|Kg457|k00000000|k |Ks457|k000000|k"] = 2,
-				["|Kg459|k00000000|k |Ks459|k00000|k"] = 2,
-				["|Kg458|k0000000|k |Ks458|k000000|k"] = 2,
-				["|Kg467|k000000|k |Ks467|k0000|k"] = 2,
-				["|Kg456|k000000|k |Ks456|k0000000|k"] = 2,
-				["|Kg454|k000000000|k |Ks454|k000000|k"] = 2,
-				["|Kg464|k000000|k |Ks464|k0000000|k"] = 2,
-				["|Kg461|k00000|k |Ks461|k0000000|k"] = 2,
-				["|Kg440|k00000|k |Ks440|k0000000000|k"] = 2,
-				["|Kg450|k000000|k |Ks450|k000000|k"] = 2,
-				["|Kg465|k00000|k |Ks465|k000000|k"] = 2,
-				["|Kg460|k0000|k |Ks460|k000000|k"] = 2,
-				["|Kg455|k000000|k |Ks455|k000000|k"] = 2,
-				["|Kg442|k000000|k |Ks442|k00000|k"] = 2,
-				["|Kg447|k000000|k |Ks447|k0000|k"] = 2,
-				["|Kg449|k00000|k |Ks449|k000000000|k"] = 2,
-				["|Kg473|k0000|k |Ks473|k00000|k"] = 2,
-				["|Kg463|k000000|k |Ks463|k00000|k"] = 2,
-				["|Kg451|k00000|k |Ks451|k000000|k"] = 2,
+				["|Kg1980|k00000|k |Ks1980|k00000|k"] = 2,
+				["|Kg2008|k0000|k |Ks2008|k00000000|k"] = 2,
+				["|Kg1984|k000000|k |Ks1984|k00000|k"] = 2,
+				["|Kg1976|k00000|k |Ks1976|k00000|k"] = 2,
+				["|Kg1982|k00000|k |Ks1982|k0000000000|k"] = 2,
+				["|Kg1999|k00000000|k |Ks1999|k000000|k"] = 2,
+				["|Kg1993|k00000|k |Ks1993|k000000|k"] = 2,
+				["|Kg2000|k0000000|k |Ks2000|k000000|k"] = 2,
+				["|Kg1977|k00000|k |Ks1977|k000000|k"] = 2,
+				["|Kg2010|k0000000|k |Ks2010|k000000000|k"] = 2,
+				["|Kg1989|k000000|k |Ks1989|k0000|k"] = 2,
+				["|Kg2007|k00000|k |Ks2007|k000000|k"] = 2,
+				["|Kg1997|k000000|k |Ks1997|k000000|k"] = 2,
+				["|Kg1998|k000000|k |Ks1998|k0000000|k"] = 2,
+				["|Kg2013|k000000|k |Ks2013|k0000|k"] = 2,
+				["|Kg2009|k000000|k |Ks2009|k0000|k"] = 2,
+				["|Kg2011|k0000000|k |Ks2011|k0000000|k"] = 2,
+				["|Kg2005|k000000|k |Ks2005|k00000|k"] = 2,
+				["|Kg1992|k000000|k |Ks1992|k000000|k"] = 2,
+				["|Kg1985|k000000|k |Ks1985|k0000|k"] = 2,
+				["|Kg1991|k00000|k |Ks1991|k000000000|k"] = 2,
+				["|Kg2001|k00000000|k |Ks2001|k00000|k"] = 2,
+				["|Kg1987|k00000|k |Ks1987|k00000000|k"] = 2,
+				["|Kg2006|k000000|k |Ks2006|k0000000|k"] = 2,
+				["|Kg1995|k000|k |Ks1995|k0000000|k"] = 2,
+				["|Kg2015|k00000000|k |Ks2015|k00000|k"] = 2,
+				["|Kg1978|k00000000|k |Ks1978|k0000000000|k"] = 2,
+				["|Kg1994|k000000|k |Ks1994|k000000|k"] = 2,
+				["|Kg2016|k0000|k |Ks2016|k00000|k"] = 2,
+				["|Kg1988|k0000000|k |Ks1988|k000000|k"] = 2,
+				["|Kg2002|k0000|k |Ks2002|k000000|k"] = 2,
+				["|Kg2014|k000000|k |Ks2014|k000000|k"] = 2,
+				["|Kg1996|k000000000|k |Ks1996|k000000|k"] = 2,
+				["|Kg1990|k00000|k |Ks1990|k0|k"] = 2,
+				["|Kg1979|k0000000|k |Ks1979|k00000000|k"] = 2,
+				["|Kg2012|k0000000|k |Ks2012|k000000|k"] = 2,
+				["|Kg1983|k000000|k |Ks1983|k0000000|k"] = 2,
+				["|Kg2003|k00000|k |Ks2003|k0000000|k"] = 2,
+				["|Kg1986|k00000|k |Ks1986|k00000000|k"] = 2,
+				["|Kg1981|k00000000000|k |Ks1981|k00000000|k"] = 2,
+				["|Kg2004|k0000|k |Ks2004|k00000|k"] = 2,
 			},
 			["guildList"] = {
 				["Prkidishell"] = true,
@@ -7606,11 +7609,12 @@ WIM3_Cache = {
 				["Droopycox"] = true,
 				["Anniloc"] = true,
 				["Kiva"] = true,
-				["Kittykatt"] = true,
+				["Brutallus"] = true,
 				["Timeteo"] = true,
 				["Swist"] = true,
 				["Zolack"] = true,
 				["Manswers"] = true,
+				["Starfire"] = true,
 				["Somarvale"] = true,
 				["Rapewhistle"] = true,
 				["Calada"] = true,
@@ -7683,6 +7687,7 @@ WIM3_Cache = {
 				["Caliae"] = true,
 				["Reward"] = true,
 				["Marlonelf"] = true,
+				["Kbur"] = true,
 				["Sharghashy"] = true,
 				["Delîverance"] = true,
 				["Polysporin"] = true,
@@ -7747,6 +7752,7 @@ WIM3_Cache = {
 				["Miakis"] = true,
 				["Stunuraz"] = true,
 				["Grampage"] = true,
+				["Superthree"] = true,
 				["Gfokillyou"] = true,
 				["Skyléa"] = true,
 				["Bridalon"] = true,
@@ -7769,6 +7775,7 @@ WIM3_Cache = {
 				["Vesim"] = true,
 				["Câmeltotem"] = true,
 				["Streams"] = true,
+				["Lawlatwink"] = true,
 				["Tëmp"] = true,
 				["Utara"] = true,
 				["Nehiholyguy"] = true,
@@ -7807,7 +7814,7 @@ WIM3_Cache = {
 				["Netherkitteh"] = true,
 				["Esclaramonde"] = true,
 				["Nyvira"] = true,
-				["Promitto"] = true,
+				["Ajora"] = true,
 				["Malifiscent"] = true,
 				["Löuie"] = true,
 				["Gooze"] = true,
@@ -7815,7 +7822,6 @@ WIM3_Cache = {
 				["Intermittent"] = true,
 				["Nerox"] = true,
 				["Dalim"] = true,
-				["Anotherpiggy"] = true,
 				["Hâtounn"] = true,
 				["Khasmar"] = true,
 				["Morgorath"] = true,
@@ -7824,6 +7830,7 @@ WIM3_Cache = {
 				["Edifiest"] = true,
 				["Edifidruid"] = true,
 				["Falaan"] = true,
+				["Anotherhya"] = true,
 				["Mordib"] = true,
 				["Maeday"] = true,
 				["Annilee"] = true,
@@ -7873,157 +7880,154 @@ WIM3_Cache = {
 				["Shukimi"] = true,
 				["Uthodas"] = true,
 				["Chesuscrust"] = true,
+				["Döc"] = true,
 				["Jstab"] = true,
 				["Kebnkhll"] = true,
 				["Rizzä"] = true,
-				["Jaerend"] = true,
+				["Joyleaf"] = true,
 				["Healsulots"] = true,
 				["Augustien"] = true,
-				["Mastabeyta"] = true,
 				["Bitsnpieces"] = true,
-				["Brotherlucas"] = true,
-				["Darthcalor"] = true,
-				["Neablist"] = true,
 				["Demitras"] = true,
 				["Totemshort"] = true,
 				["Scritch"] = true,
 				["Ember"] = true,
-				["Wildhunterr"] = true,
-				["Mephaestas"] = true,
-				["Thayan"] = true,
+				["Mastabeyta"] = true,
+				["Brotherlucas"] = true,
+				["Promitto"] = true,
 				["Celestialan"] = true,
 				["Alabasiter"] = true,
-				["Grimtoll"] = true,
+				["Neablist"] = true,
 				["Irönmaiden"] = true,
 				["Neablis"] = true,
-				["Ariodante"] = true,
-				["Swiftstealth"] = true,
+				["Derindel"] = true,
+				["Mephaestas"] = true,
 				["Implied"] = true,
+				["Ansehc"] = true,
+				["Swiftstealth"] = true,
 				["Falkren"] = true,
-				["Vincentlãw"] = true,
+				["Ariodante"] = true,
 				["Wolfspear"] = true,
-				["Déwéy"] = true,
-				["Romstien"] = true,
-				["Kavik"] = true,
+				["Doç"] = true,
 				["Ponimus"] = true,
-				["Taxation"] = true,
-				["Jebuus"] = true,
-				["Dilligaf"] = true,
+				["Romstien"] = true,
+				["Dropadeuce"] = true,
+				["Druidadr"] = true,
 				["Gôdofwar"] = true,
-				["Snowdae"] = true,
+				["Kavik"] = true,
+				["Taxation"] = true,
+				["Déwéy"] = true,
 				["Piggyblaster"] = true,
 				["Anutha"] = true,
-				["Brutalus"] = true,
-				["Joyleaf"] = true,
 				["Gød"] = true,
-				["Kardalar"] = true,
+				["Brutalus"] = true,
 				["Squeekers"] = true,
 				["Mordag"] = true,
-				["Chòngo"] = true,
-				["Faenithe"] = true,
+				["Kardalar"] = true,
+				["Solyhhit"] = true,
 				["Deathtooyou"] = true,
+				["Faenithe"] = true,
 				["Slow"] = true,
-				["Metïs"] = true,
 				["Lobolita"] = true,
-				["Snowguard"] = true,
-				["Athanasius"] = true,
-				["Sagewarrior"] = true,
+				["Metïs"] = true,
+				["Irjojo"] = true,
+				["Shialabeouf"] = true,
 				["Sendo"] = true,
-				["Quickspell"] = true,
+				["Athanasius"] = true,
 				["Artashir"] = true,
-				["Netherstorm"] = true,
+				["Sagewarrior"] = true,
 				["Annisneekup"] = true,
-				["Paladinadr"] = true,
+				["Netherstorm"] = true,
 				["Myrthana"] = true,
-				["Missylectric"] = true,
+				["Snøw"] = true,
 				["Chukk"] = true,
 				["Rôadwarrior"] = true,
-				["Carex"] = true,
+				["Missylectric"] = true,
 				["Hazumu"] = true,
-				["Meleas"] = true,
+				["Paladinadr"] = true,
 				["Karem"] = true,
-				["Kasta"] = true,
+				["Schmoopee"] = true,
+				["Meleas"] = true,
+				["Poisonlotus"] = true,
 				["Hãlp"] = true,
-				["Dauterofarus"] = true,
-				["Edifisorc"] = true,
+				["Kasta"] = true,
+				["Nehisamurai"] = true,
 				["Captnworgen"] = true,
 				["Owley"] = true,
-				["Guinn"] = true,
+				["Cattnip"] = true,
 				["Helmetsftw"] = true,
+				["Luscian"] = true,
 				["Kynrox"] = true,
 				["Sylverian"] = true,
-				["Luscian"] = true,
-				["Prkidfoeva"] = true,
-				["Bëllä"] = true,
 				["Kirye"] = true,
-				["Rizzö"] = true,
+				["Prkidfoeva"] = true,
 				["Demàn"] = true,
-				["Glaze"] = true,
+				["Mauwie"] = true,
 				["ßøøb"] = true,
 				["Tazdevil"] = true,
-				["Lockermantwo"] = true,
+				["Bëllä"] = true,
 				["Fotmdk"] = true,
-				["Evessil"] = true,
+				["Rizzö"] = true,
+				["Lockermantwo"] = true,
 				["Jessej"] = true,
-				["Clawandorder"] = true,
-				["Dõc"] = true,
+				["Hankard"] = true,
 				["Shiftinmojo"] = true,
 				["Mistearica"] = true,
-				["Hankard"] = true,
-				["Nazear"] = true,
-				["Pulari"] = true,
+				["Evessil"] = true,
 				["Isolei"] = true,
+				["Pulari"] = true,
+				["Dotdotgooze"] = true,
+				["Nazear"] = true,
+				["Clawandorder"] = true,
 				["Dustock"] = true,
-				["Frittata"] = true,
 				["Callell"] = true,
 				["Warricon"] = true,
 				["Jayzonn"] = true,
+				["Dôc"] = true,
 				["Leare"] = true,
-				["Edifikill"] = true,
-				["Fakealexos"] = true,
-				["Tkthedk"] = true,
-				["Noamchomsky"] = true,
-				["Evantrue"] = true,
+				["Dicius"] = true,
 				["Dumathoin"] = true,
-				["Premise"] = true,
-				["Animalchin"] = true,
-				["Captnstabbn"] = true,
-				["Warrioradr"] = true,
+				["Evantrue"] = true,
 				["Cârrion"] = true,
-				["Curseus"] = true,
+				["Captnstabbn"] = true,
+				["Animalchin"] = true,
+				["Edifikill"] = true,
+				["Warrioradr"] = true,
+				["Fakealexos"] = true,
+				["Glardian"] = true,
 				["Convíct"] = true,
 				["Väsago"] = true,
-				["Haragor"] = true,
-				["Akaira"] = true,
+				["Curseus"] = true,
+				["Âerith"] = true,
 				["Cogglucklem"] = true,
+				["Premise"] = true,
 				["Tolomeo"] = true,
-				["Uthomage"] = true,
 				["Deadset"] = true,
 				["Blacksmack"] = true,
+				["Awnylight"] = true,
+				["Haragor"] = true,
 				["Incecream"] = true,
 				["Zodiara"] = true,
-				["Awnylight"] = true,
-				["Brutallus"] = true,
 				["Nethér"] = true,
 				["Edifilock"] = true,
+				["Uthomage"] = true,
 				["Phailrus"] = true,
-				["Glardian"] = true,
 				["Dencane"] = true,
 				["Gacrux"] = true,
 				["Wÿnd"] = true,
 				["Steppinwolf"] = true,
-				["Âerith"] = true,
+				["Akaira"] = true,
 				["Raddoxx"] = true,
 				["Praireðoggin"] = true,
-				["Eruca"] = true,
+				["Noamchomsky"] = true,
 				["Piggyslicer"] = true,
 				["Squeekette"] = true,
+				["Tkthedk"] = true,
+				["Eruca"] = true,
 				["Içe"] = true,
-				["Kernelpanic"] = true,
-				["Dicius"] = true,
 				["Magma"] = true,
 				["Nat"] = true,
-				["Dotdotgooze"] = true,
+				["Dõc"] = true,
 				["Edifipal"] = true,
 				["Vanasukuov"] = true,
 				["Nerka"] = true,
@@ -8031,117 +8035,117 @@ WIM3_Cache = {
 				["Killiáns"] = true,
 				["Disdorn"] = true,
 				["Piggyhunter"] = true,
-				["Mauwie"] = true,
+				["Glaze"] = true,
 				["Larentia"] = true,
 				["Klairabell"] = true,
 				["Bré"] = true,
 				["Baconätor"] = true,
 				["Garlexis"] = true,
-				["Gorgonjii"] = true,
-				["Cattnip"] = true,
+				["Guinn"] = true,
 				["Wilaylord"] = true,
+				["Edifisorc"] = true,
 				["Jknight"] = true,
 				["Dðc"] = true,
-				["Nehisamurai"] = true,
-				["Schmoopee"] = true,
-				["Tabata"] = true,
+				["Carex"] = true,
 				["Lukhas"] = true,
-				["Celenie"] = true,
+				["Tabata"] = true,
 				["Heïmdall"] = true,
+				["Celenie"] = true,
+				["Quickspell"] = true,
 				["Kainda"] = true,
-				["Shialabeouf"] = true,
-				["Killabobby"] = true,
 				["Nubluck"] = true,
-				["Irjojo"] = true,
-				["Bellynda"] = true,
+				["Killabobby"] = true,
+				["Chòngo"] = true,
 				["Spellshocker"] = true,
-				["Solyhhit"] = true,
+				["Bellynda"] = true,
 				["Elideth"] = true,
 				["Irondot"] = true,
 				["Omnomnomz"] = true,
+				["Dilligaf"] = true,
+				["Jebuus"] = true,
 				["Dðç"] = true,
 				["Anyande"] = true,
 				["Jizzßlaster"] = true,
 				["Mysterion"] = true,
 				["Alorin"] = true,
-				["Dropadeuce"] = true,
-				["Mistrust"] = true,
-				["Druidadr"] = true,
 				["Seliniana"] = true,
-				["Doç"] = true,
+				["Mistrust"] = true,
 				["Deadmanjak"] = true,
-				["Etreinte"] = true,
+				["Retspih"] = true,
 				["Aeleyon"] = true,
 				["Bonivie"] = true,
-				["Ansehc"] = true,
-				["Reverence"] = true,
+				["Etreinte"] = true,
+				["Wildhunterr"] = true,
 				["Anduith"] = true,
-				["Memnoçh"] = true,
-				["Derindel"] = true,
+				["Darthcalor"] = true,
+				["Reverence"] = true,
 				["Nethershade"] = true,
+				["Memnoçh"] = true,
+				["Vincentlãw"] = true,
+				["Dauterofarus"] = true,
 			},
 		},
 		["Aset"] = {
 			["friendList"] = {
-				["|Kg128|k00000|k |Ks128|k0000000000|k"] = 2,
-				["Trishaqt"] = 1,
-				["|Kg153|k00000|k |Ks153|k000000|k"] = 2,
+				["|Kg2120|k0000|k |Ks2120|k00000|k"] = 2,
+				["|Kg2116|k0000000|k |Ks2116|k000000|k"] = 2,
 				["Stormi"] = 1,
-				["|Kg145|k00000000|k |Ks145|k000000|k"] = 2,
-				["|Kg157|k0000000|k |Ks157|k0000000|k"] = 2,
-				["Maldorf"] = 1,
+				["|Kg2097|k00000|k |Ks2097|k000000|k"] = 2,
+				["|Kg2090|k00000|k |Ks2090|k00000000|k"] = 2,
 				["Nightsabers"] = 1,
-				["|Kg132|k00000|k |Ks132|k00000000|k"] = 2,
-				["|Kg149|k00000|k |Ks149|k0000000|k"] = 2,
-				["Hexxus"] = 1,
-				["|Kg122|k00000|k |Ks122|k00000|k"] = 2,
+				["Vanasukuov"] = 1,
+				["|Kg2088|k000000|k |Ks2088|k00000|k"] = 2,
+				["|Kg2113|k000000|k |Ks2113|k0000|k"] = 2,
+				["|Kg2112|k0000|k |Ks2112|k00000000|k"] = 2,
+				["|Kg2111|k00000|k |Ks2111|k000000|k"] = 2,
 				["Irethiel"] = 1,
-				["|Kg134|k0000000|k |Ks134|k000000|k"] = 2,
-				["Fellwether"] = 1,
-				["|Kg135|k000000|k |Ks135|k0000|k"] = 2,
-				["|Kg158|k0000000|k |Ks158|k000000|k"] = 2,
-				["|Kg140|k000000|k |Ks140|k000000|k"] = 2,
-				["|Kg133|k00000|k |Ks133|k00000000|k"] = 2,
-				["|Kg159|k000000|k |Ks159|k0000|k"] = 2,
-				["Vanahumpalot"] = 1,
-				["|Kg141|k000|k |Ks141|k0000000|k"] = 2,
-				["Triel"] = 1,
-				["|Kg139|k00000|k |Ks139|k000000|k"] = 2,
-				["Tehrainman"] = 1,
-				["|Kg160|k000000|k |Ks160|k000000|k"] = 2,
-				["|Kg144|k000000|k |Ks144|k0000000|k"] = 2,
-				["|Kg151|k000000|k |Ks151|k00000|k"] = 2,
-				["|Kg156|k0000000|k |Ks156|k000000000|k"] = 2,
-				["|Kg125|k0000000|k |Ks125|k00000000|k"] = 2,
-				["|Kg124|k00000000|k |Ks124|k0000000000|k"] = 2,
-				["|Kg130|k000000|k |Ks130|k00000|k"] = 2,
-				["|Kg142|k000000000|k |Ks142|k000000|k"] = 2,
-				["Hyatotemz"] = 1,
-				["|Kg148|k0000|k |Ks148|k000000|k"] = 2,
-				["|Kg146|k0000000|k |Ks146|k000000|k"] = 2,
-				["|Kg136|k00000|k |Ks136|k0|k"] = 2,
-				["|Kg123|k00000|k |Ks123|k000000|k"] = 2,
-				["|Kg155|k000000|k |Ks155|k0000|k"] = 2,
-				["|Kg143|k000000|k |Ks143|k000000|k"] = 2,
-				["|Kg126|k00000|k |Ks126|k00000|k"] = 2,
-				["|Kg150|k0000|k |Ks150|k00000|k"] = 2,
-				["|Kg152|k000000|k |Ks152|k0000000|k"] = 2,
-				["|Kg127|k00000000000|k |Ks127|k00000000|k"] = 2,
 				["Barbus"] = 1,
-				["|Kg131|k000000|k |Ks131|k0000|k"] = 2,
-				["|Kg147|k00000000|k |Ks147|k00000|k"] = 2,
-				["|Kg137|k00000|k |Ks137|k000000000|k"] = 2,
-				["|Kg161|k00000000|k |Ks161|k00000|k"] = 2,
-				["|Kg138|k000000|k |Ks138|k000000|k"] = 2,
-				["|Kg162|k0000|k |Ks162|k00000|k"] = 2,
-				["Alcana"] = 1,
+				["|Kg2099|k000|k |Ks2099|k0000000|k"] = 2,
+				["|Kg2101|k000000|k |Ks2101|k000000|k"] = 2,
+				["|Kg2104|k0000000|k |Ks2104|k000000|k"] = 2,
+				["|Kg2103|k00000000|k |Ks2103|k000000|k"] = 2,
+				["|Kg2087|k000000|k |Ks2087|k0000000|k"] = 2,
+				["|Kg2095|k00000|k |Ks2095|k000000000|k"] = 2,
+				["|Kg2080|k00000|k |Ks2080|k00000|k"] = 2,
+				["|Kg2081|k00000|k |Ks2081|k000000|k"] = 2,
+				["Trishaqt"] = 1,
+				["Triel"] = 1,
+				["|Kg2094|k00000|k |Ks2094|k0|k"] = 2,
+				["|Kg2089|k000000|k |Ks2089|k0000|k"] = 2,
+				["|Kg2084|k00000|k |Ks2084|k00000|k"] = 2,
+				["|Kg2100|k000000000|k |Ks2100|k000000|k"] = 2,
+				["Tehrainman"] = 1,
+				["Vanahumpalot"] = 1,
+				["Maldorf"] = 1,
+				["|Kg2109|k000000|k |Ks2109|k00000|k"] = 2,
 				["Donteraseme"] = 1,
 				["Alexandrya"] = 1,
-				["|Kg129|k000000|k |Ks129|k0000000|k"] = 2,
+				["Hyatotemz"] = 1,
 				["Hyascinthe"] = 1,
+				["|Kg2118|k000000|k |Ks2118|k000000|k"] = 2,
+				["|Kg2105|k00000000|k |Ks2105|k00000|k"] = 2,
+				["|Kg2086|k00000|k |Ks2086|k0000000000|k"] = 2,
+				["|Kg2091|k00000|k |Ks2091|k00000000|k"] = 2,
+				["|Kg2102|k000000|k |Ks2102|k0000000|k"] = 2,
+				["|Kg2085|k00000000000|k |Ks2085|k00000000|k"] = 2,
+				["|Kg2107|k00000|k |Ks2107|k0000000|k"] = 2,
+				["|Kg2106|k0000|k |Ks2106|k000000|k"] = 2,
+				["|Kg2098|k000000|k |Ks2098|k000000|k"] = 2,
+				["|Kg2083|k0000000|k |Ks2083|k00000000|k"] = 2,
+				["|Kg2115|k0000000|k |Ks2115|k0000000|k"] = 2,
+				["|Kg2082|k00000000|k |Ks2082|k0000000000|k"] = 2,
+				["|Kg2119|k00000000|k |Ks2119|k00000|k"] = 2,
+				["|Kg2110|k000000|k |Ks2110|k0000000|k"] = 2,
+				["|Kg2117|k000000|k |Ks2117|k0000|k"] = 2,
+				["Alcana"] = 1,
+				["|Kg2092|k0000000|k |Ks2092|k000000|k"] = 2,
+				["|Kg2114|k0000000|k |Ks2114|k000000000|k"] = 2,
+				["Fellwether"] = 1,
+				["Hexxus"] = 1,
+				["|Kg2093|k000000|k |Ks2093|k0000|k"] = 2,
 				["Jakinthebox"] = 1,
-				["|Kg154|k0000|k |Ks154|k00000000|k"] = 2,
-				["Vanasukuov"] = 1,
+				["|Kg2096|k000000|k |Ks2096|k000000|k"] = 2,
+				["|Kg2108|k0000|k |Ks2108|k00000|k"] = 2,
 			},
 			["guildList"] = {
 				["Deadmanjak"] = true,
@@ -8199,7 +8203,7 @@ WIM3_Cache = {
 				["Hoppss"] = true,
 				["Droopycox"] = true,
 				["Anniloc"] = true,
-				["Paladinadr"] = true,
+				["Kiva"] = true,
 				["Brutallus"] = true,
 				["Kynrox"] = true,
 				["Swist"] = true,
@@ -8333,7 +8337,7 @@ WIM3_Cache = {
 				["Faenithe"] = true,
 				["Pythia"] = true,
 				["Annita"] = true,
-				["Annifreeze"] = true,
+				["Ansehc"] = true,
 				["Berlion"] = true,
 				["Suchkaa"] = true,
 				["Draulmon"] = true,
@@ -8423,7 +8427,7 @@ WIM3_Cache = {
 				["Falaan"] = true,
 				["Anotherhya"] = true,
 				["Mordib"] = true,
-				["Maeday"] = true,
+				["Aeleyon"] = true,
 				["Annilee"] = true,
 				["Minisubzero"] = true,
 				["Killex"] = true,
@@ -8452,7 +8456,7 @@ WIM3_Cache = {
 				["Thanidk"] = true,
 				["Deltian"] = true,
 				["Darthpuppy"] = true,
-				["Doncornelius"] = true,
+				["Wolfspear"] = true,
 				["Hephåestus"] = true,
 				["Kamarrex"] = true,
 				["Calorimm"] = true,
@@ -8483,197 +8487,197 @@ WIM3_Cache = {
 				["Totemshort"] = true,
 				["Scritch"] = true,
 				["Ember"] = true,
-				["Helmetsftw"] = true,
-				["Déwéy"] = true,
+				["Netherstorm"] = true,
+				["Kardalar"] = true,
 				["Druidadr"] = true,
 				["Celestialan"] = true,
 				["Alabasiter"] = true,
-				["Terrygrant"] = true,
+				["Ariodante"] = true,
 				["Irönmaiden"] = true,
 				["Neablis"] = true,
+				["Maeday"] = true,
 				["Priestadr"] = true,
-				["Kardalar"] = true,
 				["Implied"] = true,
-				["Foalan"] = true,
-				["Edifisorc"] = true,
+				["Spellshocker"] = true,
+				["Phailrus"] = true,
+				["Annifreeze"] = true,
 				["Timeteo"] = true,
-				["Nsaine"] = true,
-				["Bré"] = true,
-				["Ariodante"] = true,
-				["Ponimus"] = true,
-				["Cattnip"] = true,
-				["Garlexis"] = true,
+				["Seliniana"] = true,
 				["Prkidishell"] = true,
-				["Gôdofwar"] = true,
-				["Alorin"] = true,
-				["Taxation"] = true,
-				["Wildhunterr"] = true,
+				["Ponimus"] = true,
+				["Nehisamurai"] = true,
 				["Haliax"] = true,
-				["Piggyhunter"] = true,
-				["Gød"] = true,
+				["Garlexis"] = true,
+				["Gôdofwar"] = true,
+				["Kavik"] = true,
+				["Mysterion"] = true,
 				["Bonivie"] = true,
+				["Doncornelius"] = true,
+				["Spasmodic"] = true,
+				["Gød"] = true,
+				["Somarvale"] = true,
 				["Quickspell"] = true,
 				["Carex"] = true,
-				["Kiva"] = true,
-				["Derindel"] = true,
+				["Polysporin"] = true,
+				["Goozee"] = true,
 				["Deathtooyou"] = true,
-				["Deadset"] = true,
-				["Metïs"] = true,
+				["Fathertim"] = true,
+				["Doç"] = true,
 				["Lobolita"] = true,
-				["Glardian"] = true,
-				["Baconätor"] = true,
+				["Metïs"] = true,
+				["Dilligaf"] = true,
 				["Noamchomsky"] = true,
 				["Zodiara"] = true,
-				["Dropadeuce"] = true,
+				["Venomancer"] = true,
 				["Artashir"] = true,
-				["Awnylight"] = true,
+				["Deathofcal"] = true,
 				["Bëllä"] = true,
-				["Wilaylord"] = true,
+				["Dumathoin"] = true,
 				["Myrthana"] = true,
-				["Dilligaf"] = true,
+				["Shukimi"] = true,
 				["Chukk"] = true,
 				["Rôadwarrior"] = true,
-				["Captnworgen"] = true,
+				["Rannicus"] = true,
 				["Hazumu"] = true,
-				["Deathofcal"] = true,
+				["Ihazfleas"] = true,
 				["Karem"] = true,
 				["Tolomeo"] = true,
-				["Meleas"] = true,
-				["Poisonlotus"] = true,
-				["Rizzæ"] = true,
-				["Dauterofarus"] = true,
 				["Falkren"] = true,
-				["Schmoopee"] = true,
-				["Shialabeouf"] = true,
+				["Poisonlotus"] = true,
+				["Jebuus"] = true,
 				["Lockermantwo"] = true,
-				["Elementsâge"] = true,
-				["Luscian"] = true,
-				["Netherkitteh"] = true,
-				["Jayzonn"] = true,
-				["Kirye"] = true,
+				["Snøw"] = true,
 				["Glaze"] = true,
+				["Kasta"] = true,
+				["Uthomage"] = true,
+				["Schmoopee"] = true,
+				["Luscian"] = true,
+				["Annisneekup"] = true,
+				["Elementsâge"] = true,
+				["Kirye"] = true,
+				["Dustock"] = true,
 				["Demàn"] = true,
 				["Mauwie"] = true,
 				["ßøøb"] = true,
-				["Uthomage"] = true,
+				["Tazdevil"] = true,
+				["Sendo"] = true,
 				["Fotmdk"] = true,
-				["Warricon"] = true,
+				["Shialabeouf"] = true,
+				["Wildhunterr"] = true,
+				["Mordag"] = true,
 				["Squeekers"] = true,
-				["Anutha"] = true,
-				["Ansehc"] = true,
-				["Brotherlucas"] = true,
-				["Jebuus"] = true,
+				["Anduith"] = true,
 				["Mistearica"] = true,
-				["Disdorn"] = true,
-				["Isolei"] = true,
+				["Evessil"] = true,
+				["Captnworgen"] = true,
 				["Pulari"] = true,
-				["Dõc"] = true,
-				["Dustock"] = true,
-				["Clawandorder"] = true,
+				["Dotdotgooze"] = true,
 				["Nazear"] = true,
-				["Ihazfleas"] = true,
-				["Shiftinmojo"] = true,
+				["Testify"] = true,
+				["Brotherlucas"] = true,
 				["Promitto"] = true,
+				["Neablist"] = true,
+				["Hankard"] = true,
 				["Dôc"] = true,
-				["Lukhas"] = true,
-				["Isolace"] = true,
 				["Nerka"] = true,
-				["Evantrue"] = true,
-				["Shukimi"] = true,
-				["Piggyslicer"] = true,
-				["Animalchin"] = true,
-				["Squeekette"] = true,
-				["Warrioradr"] = true,
-				["Tkthedk"] = true,
-				["Curseus"] = true,
+				["Holyann"] = true,
 				["Cârrion"] = true,
-				["Captnstabbn"] = true,
-				["Krexxis"] = true,
+				["Evantrue"] = true,
 				["Väsago"] = true,
+				["Helmetsftw"] = true,
+				["Animalchin"] = true,
+				["Edifikill"] = true,
+				["Warrioradr"] = true,
+				["Fakealexos"] = true,
+				["Rizzæ"] = true,
+				["Convíct"] = true,
+				["Curseus"] = true,
+				["Dropadeuce"] = true,
+				["Darthcalor"] = true,
 				["Cogglucklem"] = true,
 				["Akaira"] = true,
-				["Âerith"] = true,
+				["Krexxis"] = true,
 				["Eruca"] = true,
 				["Blacksmack"] = true,
-				["Raddoxx"] = true,
-				["Haragor"] = true,
 				["Brutalus"] = true,
-				["Vincentlãw"] = true,
+				["Dencane"] = true,
+				["Isolei"] = true,
+				["Sagewarrior"] = true,
 				["Nethér"] = true,
 				["Edifilock"] = true,
-				["Sagewarrior"] = true,
+				["Vincentlãw"] = true,
 				["Câmeltotem"] = true,
-				["Dencane"] = true,
+				["Haragor"] = true,
 				["Gacrux"] = true,
 				["Wÿnd"] = true,
 				["Steppinwolf"] = true,
 				["Premise"] = true,
-				["Goozee"] = true,
+				["Âerith"] = true,
 				["Praireðoggin"] = true,
-				["Convíct"] = true,
-				["Fakealexos"] = true,
-				["Edifikill"] = true,
-				["Darthcalor"] = true,
+				["Isolace"] = true,
+				["Tkthedk"] = true,
+				["Squeekette"] = true,
+				["Captnstabbn"] = true,
 				["Hatounndk"] = true,
-				["Neablist"] = true,
+				["Piggyslicer"] = true,
 				["Magma"] = true,
+				["Lukhas"] = true,
 				["Nat"] = true,
-				["Holyann"] = true,
 				["Edifipal"] = true,
 				["Vanasukuov"] = true,
-				["Hankard"] = true,
-				["Testify"] = true,
+				["Raddoxx"] = true,
+				["Clawandorder"] = true,
 				["Killiáns"] = true,
-				["Evessil"] = true,
-				["Dotdotgooze"] = true,
-				["Wolfspear"] = true,
-				["Omnomnomz"] = true,
+				["Disdorn"] = true,
+				["Anutha"] = true,
+				["Shiftinmojo"] = true,
+				["Dõc"] = true,
 				["Klairabell"] = true,
-				["Anduith"] = true,
-				["Kasta"] = true,
-				["Tazdevil"] = true,
+				["Omnomnomz"] = true,
+				["Netherkitteh"] = true,
+				["Glardian"] = true,
 				["Guinn"] = true,
-				["Mordag"] = true,
-				["Sendo"] = true,
+				["Warricon"] = true,
+				["Jayzonn"] = true,
 				["Jknight"] = true,
 				["Dðc"] = true,
+				["Dauterofarus"] = true,
 				["Dóc"] = true,
-				["Annisneekup"] = true,
 				["Tabata"] = true,
-				["Rannicus"] = true,
+				["Meleas"] = true,
 				["Celenie"] = true,
-				["Shalomee"] = true,
+				["Terrygrant"] = true,
 				["Kainda"] = true,
-				["Venomancer"] = true,
+				["Shalomee"] = true,
 				["Killabobby"] = true,
-				["Doç"] = true,
-				["Snøw"] = true,
+				["Lorbital"] = true,
+				["Wilaylord"] = true,
 				["Bellynda"] = true,
-				["Fathertim"] = true,
-				["Polysporin"] = true,
-				["Phailrus"] = true,
-				["Somarvale"] = true,
-				["Spasmodic"] = true,
+				["Awnylight"] = true,
+				["Baconätor"] = true,
+				["Deadset"] = true,
+				["Derindel"] = true,
+				["Nsaine"] = true,
 				["Dðç"] = true,
 				["Anyande"] = true,
 				["Jizzßlaster"] = true,
-				["Mysterion"] = true,
-				["Kavik"] = true,
-				["Nehisamurai"] = true,
+				["Taxation"] = true,
+				["Alorin"] = true,
+				["Piggyhunter"] = true,
 				["Mistrust"] = true,
-				["Seliniana"] = true,
-				["Retspih"] = true,
-				["Lorbital"] = true,
-				["Spellshocker"] = true,
-				["Etreinte"] = true,
-				["Irondot"] = true,
 				["Jessej"] = true,
-				["Missylectric"] = true,
+				["Retspih"] = true,
+				["Bré"] = true,
+				["Cattnip"] = true,
+				["Etreinte"] = true,
+				["Edifisorc"] = true,
+				["Foalan"] = true,
+				["Irondot"] = true,
 				["Reverence"] = true,
-				["Netherstorm"] = true,
+				["Missylectric"] = true,
 				["Memnoçh"] = true,
-				["Dumathoin"] = true,
-				["Aeleyon"] = true,
+				["Paladinadr"] = true,
+				["Déwéy"] = true,
 			},
 		},
 		["Totemtusk"] = {
@@ -8682,47 +8686,47 @@ WIM3_Cache = {
 		},
 		["Sadr"] = {
 			["friendList"] = {
-				["|Kg654|k00000000000|k |Ks654|k00000000|k"] = 2,
-				["|Kg663|k00000|k |Ks663|k0|k"] = 2,
-				["|Kg655|k00000|k |Ks655|k0000000000|k"] = 2,
-				["|Kg678|k000000|k |Ks678|k00000|k"] = 2,
-				["|Kg666|k00000|k |Ks666|k000000|k"] = 2,
-				["|Kg661|k0000000|k |Ks661|k000000|k"] = 2,
-				["|Kg686|k000000|k |Ks686|k0000|k"] = 2,
-				["|Kg689|k0000|k |Ks689|k00000|k"] = 2,
-				["|Kg671|k000000|k |Ks671|k0000000|k"] = 2,
-				["|Kg679|k000000|k |Ks679|k0000000|k"] = 2,
-				["|Kg652|k0000000|k |Ks652|k00000000|k"] = 2,
-				["|Kg657|k000000|k |Ks657|k00000|k"] = 2,
-				["|Kg680|k00000|k |Ks680|k000000|k"] = 2,
-				["|Kg684|k0000000|k |Ks684|k0000000|k"] = 2,
-				["|Kg682|k000000|k |Ks682|k0000|k"] = 2,
-				["|Kg667|k000000|k |Ks667|k000000|k"] = 2,
-				["|Kg658|k000000|k |Ks658|k0000|k"] = 2,
-				["|Kg687|k000000|k |Ks687|k000000|k"] = 2,
-				["|Kg670|k000000|k |Ks670|k000000|k"] = 2,
-				["|Kg664|k00000|k |Ks664|k000000000|k"] = 2,
-				["|Kg685|k0000000|k |Ks685|k000000|k"] = 2,
-				["|Kg656|k000000|k |Ks656|k0000000|k"] = 2,
-				["|Kg669|k000000000|k |Ks669|k000000|k"] = 2,
-				["|Kg674|k00000000|k |Ks674|k00000|k"] = 2,
-				["|Kg676|k00000|k |Ks676|k0000000|k"] = 2,
-				["|Kg673|k0000000|k |Ks673|k000000|k"] = 2,
-				["|Kg675|k0000|k |Ks675|k000000|k"] = 2,
-				["|Kg688|k00000000|k |Ks688|k00000|k"] = 2,
-				["|Kg649|k00000|k |Ks649|k00000|k"] = 2,
-				["|Kg665|k000000|k |Ks665|k000000|k"] = 2,
-				["|Kg651|k00000000|k |Ks651|k0000000000|k"] = 2,
-				["|Kg677|k0000|k |Ks677|k00000|k"] = 2,
-				["|Kg683|k0000000|k |Ks683|k000000000|k"] = 2,
-				["|Kg681|k0000|k |Ks681|k00000000|k"] = 2,
-				["|Kg672|k00000000|k |Ks672|k000000|k"] = 2,
-				["|Kg650|k00000|k |Ks650|k000000|k"] = 2,
-				["|Kg653|k00000|k |Ks653|k00000|k"] = 2,
-				["|Kg668|k000|k |Ks668|k0000000|k"] = 2,
-				["|Kg659|k00000|k |Ks659|k00000000|k"] = 2,
-				["|Kg660|k00000|k |Ks660|k00000000|k"] = 2,
-				["|Kg662|k000000|k |Ks662|k0000|k"] = 2,
+				["|Kg2224|k0000|k |Ks2224|k00000|k"] = 2,
+				["|Kg2216|k0000|k |Ks2216|k00000000|k"] = 2,
+				["|Kg2217|k000000|k |Ks2217|k0000|k"] = 2,
+				["|Kg2187|k0000000|k |Ks2187|k00000000|k"] = 2,
+				["|Kg2212|k0000|k |Ks2212|k00000|k"] = 2,
+				["|Kg2193|k000000|k |Ks2193|k0000|k"] = 2,
+				["|Kg2202|k000000|k |Ks2202|k000000|k"] = 2,
+				["|Kg2221|k000000|k |Ks2221|k0000|k"] = 2,
+				["|Kg2220|k0000000|k |Ks2220|k000000|k"] = 2,
+				["|Kg2195|k00000|k |Ks2195|k00000000|k"] = 2,
+				["|Kg2219|k0000000|k |Ks2219|k0000000|k"] = 2,
+				["|Kg2211|k00000|k |Ks2211|k0000000|k"] = 2,
+				["|Kg2204|k000000000|k |Ks2204|k000000|k"] = 2,
+				["|Kg2203|k000|k |Ks2203|k0000000|k"] = 2,
+				["|Kg2218|k0000000|k |Ks2218|k000000000|k"] = 2,
+				["|Kg2205|k000000|k |Ks2205|k000000|k"] = 2,
+				["|Kg2198|k00000|k |Ks2198|k0|k"] = 2,
+				["|Kg2190|k00000|k |Ks2190|k0000000000|k"] = 2,
+				["|Kg2213|k000000|k |Ks2213|k00000|k"] = 2,
+				["|Kg2209|k00000000|k |Ks2209|k00000|k"] = 2,
+				["|Kg2192|k000000|k |Ks2192|k00000|k"] = 2,
+				["|Kg2214|k000000|k |Ks2214|k0000000|k"] = 2,
+				["|Kg2210|k0000|k |Ks2210|k000000|k"] = 2,
+				["|Kg2196|k0000000|k |Ks2196|k000000|k"] = 2,
+				["|Kg2207|k00000000|k |Ks2207|k000000|k"] = 2,
+				["|Kg2222|k000000|k |Ks2222|k000000|k"] = 2,
+				["|Kg2191|k000000|k |Ks2191|k0000000|k"] = 2,
+				["|Kg2189|k00000000000|k |Ks2189|k00000000|k"] = 2,
+				["|Kg2185|k00000|k |Ks2185|k000000|k"] = 2,
+				["|Kg2215|k00000|k |Ks2215|k000000|k"] = 2,
+				["|Kg2206|k000000|k |Ks2206|k0000000|k"] = 2,
+				["|Kg2208|k0000000|k |Ks2208|k000000|k"] = 2,
+				["|Kg2186|k00000000|k |Ks2186|k0000000000|k"] = 2,
+				["|Kg2200|k000000|k |Ks2200|k000000|k"] = 2,
+				["|Kg2223|k00000000|k |Ks2223|k00000|k"] = 2,
+				["|Kg2197|k000000|k |Ks2197|k0000|k"] = 2,
+				["|Kg2201|k00000|k |Ks2201|k000000|k"] = 2,
+				["|Kg2188|k00000|k |Ks2188|k00000|k"] = 2,
+				["|Kg2199|k00000|k |Ks2199|k000000000|k"] = 2,
+				["|Kg2194|k00000|k |Ks2194|k00000000|k"] = 2,
+				["|Kg2184|k00000|k |Ks2184|k00000|k"] = 2,
 			},
 			["guildList"] = {
 				["Prkidishell"] = true,
@@ -8947,6 +8951,7 @@ WIM3_Cache = {
 				["Vesim"] = true,
 				["Câmeltotem"] = true,
 				["Streams"] = true,
+				["Lawlatwink"] = true,
 				["Tëmp"] = true,
 				["Utara"] = true,
 				["Nehiholyguy"] = true,
@@ -9104,8 +9109,8 @@ WIM3_Cache = {
 				["Paladinadr"] = true,
 				["Sagewarrior"] = true,
 				["Sendo"] = true,
-				["Artashir"] = true,
 				["Snøw"] = true,
+				["Artashir"] = true,
 				["Brutalus"] = true,
 				["Annisneekup"] = true,
 				["Holyann"] = true,
@@ -9117,7 +9122,7 @@ WIM3_Cache = {
 				["Hazumu"] = true,
 				["Druidadr"] = true,
 				["Karem"] = true,
-				["Schmoopee"] = true,
+				["Kasta"] = true,
 				["Bëllä"] = true,
 				["Poisonlotus"] = true,
 				["Foalan"] = true,
@@ -9142,10 +9147,10 @@ WIM3_Cache = {
 				["Dilligaf"] = true,
 				["Somarvale"] = true,
 				["Neablist"] = true,
-				["Shiftinmojo"] = true,
+				["Dotdotgooze"] = true,
 				["Mistearica"] = true,
 				["Disdorn"] = true,
-				["Dotdotgooze"] = true,
+				["Shiftinmojo"] = true,
 				["Pulari"] = true,
 				["Dõc"] = true,
 				["Dustock"] = true,
@@ -9160,14 +9165,14 @@ WIM3_Cache = {
 				["Shialabeouf"] = true,
 				["Evantrue"] = true,
 				["Romstien"] = true,
-				["Tkthedk"] = true,
+				["Fakealexos"] = true,
 				["Animalchin"] = true,
 				["Edifikill"] = true,
 				["Warrioradr"] = true,
-				["Fakealexos"] = true,
+				["Tkthedk"] = true,
 				["Incecream"] = true,
 				["Cârrion"] = true,
-				["Curseus"] = true,
+				["Väsago"] = true,
 				["Captnstabbn"] = true,
 				["Kynrox"] = true,
 				["Cogglucklem"] = true,
@@ -9190,7 +9195,7 @@ WIM3_Cache = {
 				["Âerith"] = true,
 				["Awnylight"] = true,
 				["Praireðoggin"] = true,
-				["Väsago"] = true,
+				["Curseus"] = true,
 				["Piggyslicer"] = true,
 				["Squeekette"] = true,
 				["Vincentlãw"] = true,
@@ -9222,7 +9227,7 @@ WIM3_Cache = {
 				["Tabata"] = true,
 				["Brutallus"] = true,
 				["Celenie"] = true,
-				["Kasta"] = true,
+				["Schmoopee"] = true,
 				["Kainda"] = true,
 				["Edifisorc"] = true,
 				["Killabobby"] = true,
@@ -9258,49 +9263,49 @@ WIM3_Cache = {
 		},
 		["Aonah"] = {
 			["friendList"] = {
+				["|Kg2271|k00000000|k |Ks2271|k000000|k"] = 2,
+				["|Kg2284|k0000000|k |Ks2284|k000000|k"] = 2,
+				["|Kg2274|k0000|k |Ks2274|k000000|k"] = 2,
+				["|Kg2288|k0000|k |Ks2288|k00000|k"] = 2,
+				["|Kg2257|k000000|k |Ks2257|k0000|k"] = 2,
+				["|Kg2267|k000|k |Ks2267|k0000000|k"] = 2,
+				["|Kg2262|k00000|k |Ks2262|k0|k"] = 2,
+				["|Kg2269|k000000|k |Ks2269|k000000|k"] = 2,
+				["|Kg2272|k0000000|k |Ks2272|k000000|k"] = 2,
+				["|Kg2278|k000000|k |Ks2278|k0000000|k"] = 2,
+				["|Kg2259|k00000|k |Ks2259|k00000000|k"] = 2,
+				["|Kg2279|k00000|k |Ks2279|k000000|k"] = 2,
+				["|Kg2287|k00000000|k |Ks2287|k00000|k"] = 2,
+				["|Kg2255|k000000|k |Ks2255|k0000000|k"] = 2,
+				["|Kg2275|k00000|k |Ks2275|k0000000|k"] = 2,
+				["|Kg2281|k000000|k |Ks2281|k0000|k"] = 2,
+				["|Kg2249|k00000|k |Ks2249|k000000|k"] = 2,
+				["|Kg2280|k0000|k |Ks2280|k00000000|k"] = 2,
+				["|Kg2251|k0000000|k |Ks2251|k00000000|k"] = 2,
+				["|Kg2258|k00000|k |Ks2258|k00000000|k"] = 2,
+				["|Kg2263|k00000|k |Ks2263|k000000000|k"] = 2,
+				["|Kg2282|k0000000|k |Ks2282|k000000000|k"] = 2,
+				["|Kg2276|k0000|k |Ks2276|k00000|k"] = 2,
+				["|Kg2264|k000000|k |Ks2264|k000000|k"] = 2,
+				["|Kg2286|k000000|k |Ks2286|k000000|k"] = 2,
+				["|Kg2273|k00000000|k |Ks2273|k00000|k"] = 2,
+				["|Kg2256|k000000|k |Ks2256|k00000|k"] = 2,
+				["|Kg2277|k000000|k |Ks2277|k00000|k"] = 2,
+				["|Kg2268|k000000000|k |Ks2268|k000000|k"] = 2,
+				["|Kg2261|k000000|k |Ks2261|k0000|k"] = 2,
+				["|Kg2283|k0000000|k |Ks2283|k0000000|k"] = 2,
+				["|Kg2260|k0000000|k |Ks2260|k000000|k"] = 2,
+				["|Kg2252|k00000|k |Ks2252|k00000|k"] = 2,
+				["|Kg2253|k00000000000|k |Ks2253|k00000000|k"] = 2,
 				["Trishaqt"] = 1,
-				["|Kg381|k0000|k |Ks381|k000000|k"] = 2,
-				["|Kg394|k00000000|k |Ks394|k00000|k"] = 2,
-				["|Kg382|k00000|k |Ks382|k0000000|k"] = 2,
-				["|Kg363|k000000|k |Ks363|k00000|k"] = 2,
-				["|Kg383|k0000|k |Ks383|k00000|k"] = 2,
+				["|Kg2248|k00000|k |Ks2248|k00000|k"] = 2,
+				["|Kg2266|k000000|k |Ks2266|k000000|k"] = 2,
+				["|Kg2285|k000000|k |Ks2285|k0000|k"] = 2,
 				["Vanasukuov"] = 1,
-				["|Kg395|k0000|k |Ks395|k00000|k"] = 2,
-				["|Kg360|k00000000000|k |Ks360|k00000000|k"] = 2,
-				["|Kg355|k00000|k |Ks355|k00000|k"] = 2,
-				["|Kg364|k000000|k |Ks364|k0000|k"] = 2,
-				["|Kg374|k000|k |Ks374|k0000000|k"] = 2,
-				["|Kg391|k0000000|k |Ks391|k000000|k"] = 2,
-				["|Kg358|k0000000|k |Ks358|k00000000|k"] = 2,
-				["|Kg357|k00000000|k |Ks357|k0000000000|k"] = 2,
-				["|Kg387|k0000|k |Ks387|k00000000|k"] = 2,
-				["|Kg380|k00000000|k |Ks380|k00000|k"] = 2,
-				["|Kg356|k00000|k |Ks356|k000000|k"] = 2,
-				["|Kg370|k00000|k |Ks370|k000000000|k"] = 2,
-				["|Kg367|k0000000|k |Ks367|k000000|k"] = 2,
-				["|Kg377|k000000|k |Ks377|k0000000|k"] = 2,
-				["|Kg386|k00000|k |Ks386|k000000|k"] = 2,
-				["|Kg373|k000000|k |Ks373|k000000|k"] = 2,
-				["|Kg393|k000000|k |Ks393|k000000|k"] = 2,
-				["|Kg384|k000000|k |Ks384|k00000|k"] = 2,
-				["|Kg365|k00000|k |Ks365|k00000000|k"] = 2,
-				["|Kg378|k00000000|k |Ks378|k000000|k"] = 2,
-				["|Kg379|k0000000|k |Ks379|k000000|k"] = 2,
-				["|Kg375|k000000000|k |Ks375|k000000|k"] = 2,
-				["|Kg385|k000000|k |Ks385|k0000000|k"] = 2,
-				["|Kg362|k000000|k |Ks362|k0000000|k"] = 2,
-				["|Kg359|k00000|k |Ks359|k00000|k"] = 2,
-				["|Kg368|k000000|k |Ks368|k0000|k"] = 2,
-				["|Kg369|k00000|k |Ks369|k0|k"] = 2,
-				["|Kg388|k000000|k |Ks388|k0000|k"] = 2,
-				["|Kg392|k000000|k |Ks392|k0000|k"] = 2,
-				["|Kg389|k0000000|k |Ks389|k000000000|k"] = 2,
-				["|Kg376|k000000|k |Ks376|k000000|k"] = 2,
-				["|Kg371|k000000|k |Ks371|k000000|k"] = 2,
-				["|Kg361|k00000|k |Ks361|k0000000000|k"] = 2,
-				["|Kg390|k0000000|k |Ks390|k0000000|k"] = 2,
-				["|Kg372|k00000|k |Ks372|k000000|k"] = 2,
-				["|Kg366|k00000|k |Ks366|k00000000|k"] = 2,
+				["|Kg2250|k00000000|k |Ks2250|k0000000000|k"] = 2,
+				["|Kg2265|k00000|k |Ks2265|k000000|k"] = 2,
+				["|Kg2270|k000000|k |Ks2270|k0000000|k"] = 2,
+				["|Kg2254|k00000|k |Ks2254|k0000000000|k"] = 2,
 			},
 			["guildList"] = {
 				["Asett"] = true,
@@ -9347,8 +9352,8 @@ WIM3_Cache = {
 				["|Kg1413|k000|k |Ks1413|k0000000|k"] = 2,
 				["|Kg1395|k00000|k |Ks1395|k000000|k"] = 2,
 				["|Kg1405|k00000|k |Ks1405|k00000000|k"] = 2,
-				["|Kg1426|k0000|k |Ks1426|k00000000|k"] = 2,
 				["|Kg1400|k00000|k |Ks1400|k0000000000|k"] = 2,
+				["|Kg1426|k0000|k |Ks1426|k00000000|k"] = 2,
 				["|Kg1417|k00000000|k |Ks1417|k000000|k"] = 2,
 				["|Kg1422|k0000|k |Ks1422|k00000|k"] = 2,
 				["|Kg1402|k000000|k |Ks1402|k00000|k"] = 2,
@@ -9738,13 +9743,13 @@ WIM3_Cache = {
 				["Chelopr"] = true,
 				["Flirting"] = true,
 				["Blasphame"] = true,
-				["Ludacrits"] = true,
+				["Sereniel"] = true,
 				["Dragonis"] = true,
 				["Noaim"] = true,
-				["Karin"] = true,
-				["Halybel"] = true,
-				["Sereniel"] = true,
 				["Anemeous"] = true,
+				["Halybel"] = true,
+				["Ludacrits"] = true,
+				["Karin"] = true,
 				["Eonnâ"] = true,
 				["Edwiltordy"] = true,
 				["Evldmon"] = true,
@@ -10124,55 +10129,111 @@ WIM3_History = {
 				["info"] = {
 				},
 			},
-			["|Kf203|k00000000000|k"] = {
+			["|Kf234|k000000000000|k"] = {
 				{
 					["type"] = 1,
-					["time"] = 1315875317,
+					["time"] = 1316314494,
 					["from"] = "Pulari",
-					["msg"] = "hehe :P",
+					["msg"] = "dps Argaloth on an alt real quick? lol",
 					["inbound"] = false,
-					["convo"] = "|Kf203|k00000000000|k",
+					["convo"] = "|Kf234|k000000000000|k",
 				}, -- [1]
 				{
 					["type"] = 1,
-					["time"] = 1315875327,
+					["time"] = 1316314528,
 					["from"] = "Pulari",
-					["msg"] = "so what's up?",
+					["msg"] = "k make it quick",
 					["inbound"] = false,
-					["convo"] = "|Kf203|k00000000000|k",
+					["convo"] = "|Kf234|k000000000000|k",
 				}, -- [2]
 				{
 					["type"] = 1,
-					["time"] = 1315875330,
+					["time"] = 1316314607,
 					["from"] = "Pulari",
-					["msg"] = "It was good!",
+					["msg"] = "that's fine",
 					["inbound"] = false,
-					["convo"] = "|Kf203|k00000000000|k",
+					["convo"] = "|Kf234|k000000000000|k",
 				}, -- [3]
 				{
 					["type"] = 1,
-					["time"] = 1315875335,
+					["time"] = 1316314626,
 					["from"] = "Pulari",
-					["msg"] = "mondays are almost always good days",
+					["msg"] = "well shit, you may have to prot dps",
 					["inbound"] = false,
-					["convo"] = "|Kf203|k00000000000|k",
+					["convo"] = "|Kf234|k000000000000|k",
 				}, -- [4]
 				{
 					["type"] = 1,
-					["time"] = 1315875344,
+					["time"] = 1316314641,
 					["from"] = "Pulari",
-					["msg"] = "cuz i sleep a lot on the weekends so i'm still rested on monday",
+					["msg"] = "k that'll work",
 					["inbound"] = false,
-					["convo"] = "|Kf203|k00000000000|k",
+					["convo"] = "|Kf234|k000000000000|k",
 				}, -- [5]
 				{
 					["type"] = 1,
-					["time"] = 1315875345,
+					["time"] = 1316314654,
+					["from"] = "Pulari",
+					["msg"] = "ah it's fine, just the easy boss",
+					["inbound"] = false,
+					["convo"] = "|Kf234|k000000000000|k",
+				}, -- [6]
+				{
+					["type"] = 1,
+					["time"] = 1316314658,
+					["from"] = "Pulari",
+					["msg"] = "and wtf is wrong with your spacebar man?",
+					["inbound"] = false,
+					["convo"] = "|Kf234|k000000000000|k",
+				}, -- [7]
+				{
+					["type"] = 1,
+					["time"] = 1316314674,
+					["from"] = "Pulari",
+					["msg"] = "D:",
+					["inbound"] = false,
+					["convo"] = "|Kf234|k000000000000|k",
+				}, -- [8]
+				{
+					["type"] = 1,
+					["time"] = 1316314693,
+					["from"] = "Pulari",
+					["msg"] = "ah, yeah that could do it",
+					["inbound"] = false,
+					["convo"] = "|Kf234|k000000000000|k",
+				}, -- [9]
+				{
+					["type"] = 1,
+					["time"] = 1316314850,
+					["from"] = "Pulari",
+					["msg"] = "lol i like this new system",
+					["inbound"] = false,
+					["convo"] = "|Kf234|k000000000000|k",
+				}, -- [10]
+				{
+					["type"] = 1,
+					["time"] = 1316314853,
+					["from"] = "Pulari",
+					["msg"] = "but how are you gonna jump? D:",
+					["inbound"] = false,
+					["convo"] = "|Kf234|k000000000000|k",
+				}, -- [11]
+				{
+					["type"] = 1,
+					["time"] = 1316314925,
 					["from"] = "Pulari",
 					["msg"] = "lol",
 					["inbound"] = false,
-					["convo"] = "|Kf203|k00000000000|k",
-				}, -- [6]
+					["convo"] = "|Kf234|k000000000000|k",
+				}, -- [12]
+				{
+					["type"] = 1,
+					["time"] = 1316314925,
+					["from"] = "Pulari",
+					["msg"] = "yes",
+					["inbound"] = false,
+					["convo"] = "|Kf234|k000000000000|k",
+				}, -- [13]
 				["info"] = {
 				},
 			},
@@ -10384,114 +10445,6 @@ WIM3_History = {
 				["info"] = {
 				},
 			},
-			["|Kf234|k000000000000|k"] = {
-				{
-					["type"] = 1,
-					["time"] = 1316314494,
-					["from"] = "Pulari",
-					["msg"] = "dps Argaloth on an alt real quick? lol",
-					["inbound"] = false,
-					["convo"] = "|Kf234|k000000000000|k",
-				}, -- [1]
-				{
-					["type"] = 1,
-					["time"] = 1316314528,
-					["from"] = "Pulari",
-					["msg"] = "k make it quick",
-					["inbound"] = false,
-					["convo"] = "|Kf234|k000000000000|k",
-				}, -- [2]
-				{
-					["type"] = 1,
-					["time"] = 1316314607,
-					["from"] = "Pulari",
-					["msg"] = "that's fine",
-					["inbound"] = false,
-					["convo"] = "|Kf234|k000000000000|k",
-				}, -- [3]
-				{
-					["type"] = 1,
-					["time"] = 1316314626,
-					["from"] = "Pulari",
-					["msg"] = "well shit, you may have to prot dps",
-					["inbound"] = false,
-					["convo"] = "|Kf234|k000000000000|k",
-				}, -- [4]
-				{
-					["type"] = 1,
-					["time"] = 1316314641,
-					["from"] = "Pulari",
-					["msg"] = "k that'll work",
-					["inbound"] = false,
-					["convo"] = "|Kf234|k000000000000|k",
-				}, -- [5]
-				{
-					["type"] = 1,
-					["time"] = 1316314654,
-					["from"] = "Pulari",
-					["msg"] = "ah it's fine, just the easy boss",
-					["inbound"] = false,
-					["convo"] = "|Kf234|k000000000000|k",
-				}, -- [6]
-				{
-					["type"] = 1,
-					["time"] = 1316314658,
-					["from"] = "Pulari",
-					["msg"] = "and wtf is wrong with your spacebar man?",
-					["inbound"] = false,
-					["convo"] = "|Kf234|k000000000000|k",
-				}, -- [7]
-				{
-					["type"] = 1,
-					["time"] = 1316314674,
-					["from"] = "Pulari",
-					["msg"] = "D:",
-					["inbound"] = false,
-					["convo"] = "|Kf234|k000000000000|k",
-				}, -- [8]
-				{
-					["type"] = 1,
-					["time"] = 1316314693,
-					["from"] = "Pulari",
-					["msg"] = "ah, yeah that could do it",
-					["inbound"] = false,
-					["convo"] = "|Kf234|k000000000000|k",
-				}, -- [9]
-				{
-					["type"] = 1,
-					["time"] = 1316314850,
-					["from"] = "Pulari",
-					["msg"] = "lol i like this new system",
-					["inbound"] = false,
-					["convo"] = "|Kf234|k000000000000|k",
-				}, -- [10]
-				{
-					["type"] = 1,
-					["time"] = 1316314853,
-					["from"] = "Pulari",
-					["msg"] = "but how are you gonna jump? D:",
-					["inbound"] = false,
-					["convo"] = "|Kf234|k000000000000|k",
-				}, -- [11]
-				{
-					["type"] = 1,
-					["time"] = 1316314925,
-					["from"] = "Pulari",
-					["msg"] = "lol",
-					["inbound"] = false,
-					["convo"] = "|Kf234|k000000000000|k",
-				}, -- [12]
-				{
-					["type"] = 1,
-					["time"] = 1316314925,
-					["from"] = "Pulari",
-					["msg"] = "yes",
-					["inbound"] = false,
-					["convo"] = "|Kf234|k000000000000|k",
-				}, -- [13]
-				["info"] = {
-				},
-			},
 			["|Kf76|k00000000000|k"] = {
 				{
 					["type"] = 1,
@@ -10573,1644 +10526,16 @@ WIM3_History = {
 				},
 			},
 		},
-		["Gacrux"] = {
-			["|Kf1093|k00000000000|k"] = {
+		["Wezen"] = {
+			["Notenoughrag"] = {
 				{
 					["type"] = 1,
-					["time"] = 1315890037,
-					["from"] = "Gacrux",
-					["msg"] = "lol so i just collected/crafted",
-					["inbound"] = false,
-					["convo"] = "|Kf1093|k00000000000|k",
-				}, -- [1]
-				{
-					["type"] = 1,
-					["time"] = 1315890042,
-					["from"] = "Gacrux",
-					["msg"] = " |Hitem:67145:0:0:0:0:0:0:1152040640:85:0|h[Blockade's Lost Shield]|h |Hitem:55031:0:0:0:0:0:0:929866688:85:0|h[Redsteel Helm]|h |Hitem:52294:0:0:0:0:0:0:307207680:85:0|h[Austere Shadowspirit Diamond]|h ",
-					["inbound"] = false,
-					["convo"] = "|Kf1093|k00000000000|k",
-				}, -- [2]
-				{
-					["type"] = 1,
-					["time"] = 1315890042,
-					["from"] = "Gacrux",
-					["msg"] = "|Hitem:71720:0:0:0:0:0:0:1791960704:85:0|h[Drakehide Leg Armor]|h |Hitem:52762:0:0:0:0:0:0:1778842368:85:0|h[Enchant Shield - Mastery]|h |Hitem:68764:0:0:0:0:0:0:0:85:0|h[Arcanum of the Earthen Ring]|h ",
-					["inbound"] = false,
-					["convo"] = "|Kf1093|k00000000000|k",
-				}, -- [3]
-				{
-					["type"] = 1,
-					["time"] = 1315890145,
-					["from"] = "Gacrux",
-					["msg"] = "341 average ilvl now!",
-					["inbound"] = false,
-					["convo"] = "|Kf1093|k00000000000|k",
-				}, -- [4]
-				{
-					["type"] = 1,
-					["time"] = 1315890227,
-					["from"] = "Gacrux",
-					["msg"] = "time for my first heroix",
-					["inbound"] = false,
-					["convo"] = "|Kf1093|k00000000000|k",
-				}, -- [5]
-				{
-					["type"] = 1,
-					["time"] = 1315890230,
-					["from"] = "Gacrux",
-					["msg"] = "i r scared",
-					["inbound"] = false,
-					["convo"] = "|Kf1093|k00000000000|k",
-				}, -- [6]
-				{
-					["type"] = 1,
-					["time"] = 1315890657,
-					["from"] = "Gacrux",
-					["msg"] = "ty!",
-					["inbound"] = false,
-					["convo"] = "|Kf1093|k00000000000|k",
-				}, -- [7]
-				{
-					["type"] = 1,
-					["time"] = 1315890659,
-					["from"] = "Gacrux",
-					["msg"] = "so far so good",
-					["inbound"] = false,
-					["convo"] = "|Kf1093|k00000000000|k",
-				}, -- [8]
-				{
-					["type"] = 1,
-					["time"] = 1315890659,
-					["from"] = "Gacrux",
-					["msg"] = "lol",
-					["inbound"] = false,
-					["convo"] = "|Kf1093|k00000000000|k",
-				}, -- [9]
-				{
-					["type"] = 1,
-					["time"] = 1315890818,
-					["from"] = "Gacrux",
-					["msg"] = "lol Altairus as my first boss",
-					["inbound"] = false,
-					["convo"] = "|Kf1093|k00000000000|k",
-				}, -- [10]
-				{
-					["type"] = 1,
-					["time"] = 1315890825,
-					["from"] = "Gacrux",
-					["msg"] = "pwned him!",
-					["inbound"] = false,
-					["convo"] = "|Kf1093|k00000000000|k",
-				}, -- [11]
-				{
-					["type"] = 1,
-					["time"] = 1315890837,
-					["from"] = "Gacrux",
-					["msg"] = "(he's the swirly torando guy in Vortex Pinnacle, the dragon)",
-					["inbound"] = false,
-					["convo"] = "|Kf1093|k00000000000|k",
-				}, -- [12]
-				{
-					["type"] = 1,
-					["time"] = 1315891495,
-					["from"] = "Gacrux",
-					["msg"] = ";O",
-					["inbound"] = false,
-					["convo"] = "|Kf1093|k00000000000|k",
-				}, -- [13]
-				{
-					["type"] = 1,
-					["time"] = 1315891499,
-					["from"] = "Gacrux",
-					["msg"] = "I about to get double achiev",
-					["inbound"] = false,
-					["convo"] = "|Kf1093|k00000000000|k",
-				}, -- [14]
-				{
-					["type"] = 1,
-					["time"] = 1315891501,
-					["from"] = "Gacrux",
-					["msg"] = "you just watch",
-					["inbound"] = false,
-					["convo"] = "|Kf1093|k00000000000|k",
-				}, -- [15]
-				{
-					["type"] = 1,
-					["time"] = 1315891510,
-					["from"] = "Gacrux",
-					["msg"] = "1 vp, and no clung",
-					["inbound"] = false,
-					["convo"] = "|Kf1093|k00000000000|k",
-				}, -- [16]
-				{
-					["type"] = 1,
-					["time"] = 1315891511,
-					["from"] = "Gacrux",
-					["msg"] = "WTF",
-					["inbound"] = false,
-					["convo"] = "|Kf1093|k00000000000|k",
-				}, -- [17]
-				{
-					["type"] = 1,
-					["time"] = 1315891516,
-					["from"] = "Gacrux",
-					["msg"] = "Are you serious?",
-					["inbound"] = false,
-					["convo"] = "|Kf1093|k00000000000|k",
-				}, -- [18]
-				{
-					["type"] = 1,
-					["time"] = 1315891775,
-					["from"] = "Gacrux",
-					["msg"] = "lolol everyone died but me",
-					["inbound"] = false,
-					["convo"] = "|Kf1093|k00000000000|k",
-				}, -- [19]
-				{
-					["type"] = 1,
-					["time"] = 1315891781,
-					["from"] = "Gacrux",
-					["msg"] = "I guess there is noa chiev for your first vp",
-					["inbound"] = false,
-					["convo"] = "|Kf1093|k00000000000|k",
-				}, -- [20]
-				{
-					["type"] = 1,
-					["time"] = 1315891828,
-					["from"] = "Gacrux",
-					["msg"] = "well i still got 2",
-					["inbound"] = false,
-					["convo"] = "|Kf1093|k00000000000|k",
-				}, -- [21]
-				{
-					["type"] = 1,
-					["time"] = 1315891836,
-					["from"] = "Gacrux",
-					["msg"] = "No Static at All, and Heroic Vortex Pinnacle lol",
-					["inbound"] = false,
-					["convo"] = "|Kf1093|k00000000000|k",
-				}, -- [22]
-				{
-					["type"] = 1,
-					["time"] = 1315891899,
-					["from"] = "Gacrux",
-					["msg"] = "Well I rocked that place, the healer said iw as really easy to heal",
-					["inbound"] = false,
-					["convo"] = "|Kf1093|k00000000000|k",
-				}, -- [23]
-				{
-					["type"] = 1,
-					["time"] = 1315891903,
-					["from"] = "Gacrux",
-					["msg"] = "and his mana agreed",
-					["inbound"] = false,
-					["convo"] = "|Kf1093|k00000000000|k",
-				}, -- [24]
-				{
-					["type"] = 1,
-					["time"] = 1315891907,
-					["from"] = "Gacrux",
-					["msg"] = "also i solo'd the last boss",
-					["inbound"] = false,
-					["convo"] = "|Kf1093|k00000000000|k",
-				}, -- [25]
-				{
-					["type"] = 1,
-					["time"] = 1315891908,
-					["from"] = "Gacrux",
-					["msg"] = "lol",
-					["inbound"] = false,
-					["convo"] = "|Kf1093|k00000000000|k",
-				}, -- [26]
-				{
-					["type"] = 1,
-					["time"] = 1315891911,
-					["from"] = "Gacrux",
-					["msg"] = "well, his last 1%",
-					["inbound"] = false,
-					["convo"] = "|Kf1093|k00000000000|k",
-				}, -- [27]
-				{
-					["type"] = 1,
-					["time"] = 1315891915,
-					["from"] = "Gacrux",
-					["msg"] = "cuz everyone died for some silly reason",
-					["inbound"] = false,
-					["convo"] = "|Kf1093|k00000000000|k",
-				}, -- [28]
-				{
-					["type"] = 1,
-					["time"] = 1315891921,
-					["from"] = "Gacrux",
-					["msg"] = "anyway why on earth are you going back to visit Piggy again?",
-					["inbound"] = false,
-					["convo"] = "|Kf1093|k00000000000|k",
-				}, -- [29]
-				{
-					["type"] = 1,
-					["time"] = 1315891927,
-					["from"] = "Gacrux",
-					["msg"] = "do you not remember the disaster that was last time? :O",
-					["inbound"] = false,
-					["convo"] = "|Kf1093|k00000000000|k",
-				}, -- [30]
-				{
-					["type"] = 1,
-					["time"] = 1315891980,
-					["from"] = "Gacrux",
-					["msg"] = "lolol",
-					["inbound"] = false,
-					["convo"] = "|Kf1093|k00000000000|k",
-				}, -- [31]
-				{
-					["type"] = 1,
-					["time"] = 1315891982,
-					["from"] = "Gacrux",
-					["msg"] = "alright",
-					["inbound"] = false,
-					["convo"] = "|Kf1093|k00000000000|k",
-				}, -- [32]
-				{
-					["type"] = 1,
-					["time"] = 1315891991,
-					["from"] = "Gacrux",
-					["msg"] = "Make plans to come with us to Blizzcon",
-					["inbound"] = false,
-					["convo"] = "|Kf1093|k00000000000|k",
-				}, -- [33]
-				{
-					["type"] = 1,
-					["time"] = 1315892009,
-					["from"] = "Gacrux",
-					["msg"] = "You dont' have to go to the convention.. Jer is gonna be there hanging out in a hotel all day (unless he changed his mind)",
-					["inbound"] = false,
-					["convo"] = "|Kf1093|k00000000000|k",
-				}, -- [34]
-				{
-					["type"] = 1,
-					["time"] = 1315892044,
-					["from"] = "Gacrux",
-					["msg"] = "october 21 i think",
-					["inbound"] = false,
-					["convo"] = "|Kf1093|k00000000000|k",
-				}, -- [35]
-				{
-					["type"] = 1,
-					["time"] = 1315892076,
-					["from"] = "Gacrux",
-					["msg"] = "yeah 21 and 22",
-					["inbound"] = false,
-					["convo"] = "|Kf1093|k00000000000|k",
-				}, -- [36]
-				{
-					["type"] = 1,
-					["time"] = 1315892081,
-					["from"] = "Gacrux",
-					["msg"] = "But we're driving",
-					["inbound"] = false,
-					["convo"] = "|Kf1093|k00000000000|k",
-				}, -- [37]
-				{
-					["type"] = 1,
-					["time"] = 1315892084,
-					["from"] = "Gacrux",
-					["msg"] = "from Houston",
-					["inbound"] = false,
-					["convo"] = "|Kf1093|k00000000000|k",
-				}, -- [38]
-				{
-					["type"] = 1,
-					["time"] = 1315892088,
-					["from"] = "Gacrux",
-					["msg"] = "starting on.. uhh the 18th i think",
-					["inbound"] = false,
-					["convo"] = "|Kf1093|k00000000000|k",
-				}, -- [39]
-				{
-					["type"] = 1,
-					["time"] = 1315892101,
-					["from"] = "Gacrux",
-					["msg"] = "you could drive down here",
-					["inbound"] = false,
-					["convo"] = "|Kf1093|k00000000000|k",
-				}, -- [40]
-				{
-					["type"] = 1,
-					["time"] = 1315892106,
-					["from"] = "Gacrux",
-					["msg"] = "then ride with me to Houston",
-					["inbound"] = false,
-					["convo"] = "|Kf1093|k00000000000|k",
-				}, -- [41]
-				{
-					["type"] = 1,
-					["time"] = 1315892115,
-					["from"] = "Gacrux",
-					["msg"] = "then in the big SUV that Jessica bought just for the trip to California",
-					["inbound"] = false,
-					["convo"] = "|Kf1093|k00000000000|k",
-				}, -- [42]
-				{
-					["type"] = 1,
-					["time"] = 1315892116,
-					["from"] = "Gacrux",
-					["msg"] = "lol",
-					["inbound"] = false,
-					["convo"] = "|Kf1093|k00000000000|k",
-				}, -- [43]
-				{
-					["type"] = 1,
-					["time"] = 1315892173,
-					["from"] = "Gacrux",
-					["msg"] = "why you can't drive?",
-					["inbound"] = false,
-					["convo"] = "|Kf1093|k00000000000|k",
-				}, -- [44]
-				{
-					["type"] = 1,
-					["time"] = 1315892175,
-					["from"] = "Gacrux",
-					["msg"] = "it's not that far",
-					["inbound"] = false,
-					["convo"] = "|Kf1093|k00000000000|k",
-				}, -- [45]
-				{
-					["type"] = 1,
-					["time"] = 1315892253,
-					["from"] = "Gacrux",
-					["msg"] = "oh",
-					["inbound"] = false,
-					["convo"] = "|Kf1093|k00000000000|k",
-				}, -- [46]
-				{
-					["type"] = 1,
-					["time"] = 1315892255,
-					["from"] = "Gacrux",
-					["msg"] = "okay",
-					["inbound"] = false,
-					["convo"] = "|Kf1093|k00000000000|k",
-				}, -- [47]
-				{
-					["type"] = 1,
-					["time"] = 1315892256,
-					["from"] = "Gacrux",
-					["msg"] = "silly",
-					["inbound"] = false,
-					["convo"] = "|Kf1093|k00000000000|k",
-				}, -- [48]
-				{
-					["type"] = 1,
-					["time"] = 1315892260,
-					["from"] = "Gacrux",
-					["msg"] = "but how are you gonna visit piggy?",
-					["inbound"] = false,
-					["convo"] = "|Kf1093|k00000000000|k",
-				}, -- [49]
-				{
-					["type"] = 1,
-					["time"] = 1315892365,
-					["from"] = "Gacrux",
-					["msg"] = "hmm",
-					["inbound"] = false,
-					["convo"] = "|Kf1093|k00000000000|k",
-				}, -- [50]
-				{
-					["type"] = 1,
-					["time"] = 1315892368,
-					["from"] = "Gacrux",
-					["msg"] = "what's it cost to fly to piggy?",
-					["inbound"] = false,
-					["convo"] = "|Kf1093|k00000000000|k",
-				}, -- [51]
-				{
-					["type"] = 1,
-					["time"] = 1315892396,
-					["from"] = "Gacrux",
-					["msg"] = "what the shit",
-					["inbound"] = false,
-					["convo"] = "|Kf1093|k00000000000|k",
-				}, -- [52]
-				{
-					["type"] = 1,
-					["time"] = 1315892397,
-					["from"] = "Gacrux",
-					["msg"] = "to fly?",
-					["inbound"] = false,
-					["convo"] = "|Kf1093|k00000000000|k",
-				}, -- [53]
-				{
-					["type"] = 1,
-					["time"] = 1315892405,
-					["from"] = "Gacrux",
-					["msg"] = "O_o",
-					["inbound"] = false,
-					["convo"] = "|Kf1093|k00000000000|k",
-				}, -- [54]
-				{
-					["type"] = 1,
-					["time"] = 1315892410,
-					["from"] = "Gacrux",
-					["msg"] = "you should link that to me, that sounds fishy",
-					["inbound"] = false,
-					["convo"] = "|Kf1093|k00000000000|k",
-				}, -- [55]
-				{
-					["type"] = 1,
-					["time"] = 1315892421,
-					["from"] = "Gacrux",
-					["msg"] = "you gonna be like in a biplane witout doors with a drunk guy flying?",
-					["inbound"] = false,
-					["convo"] = "|Kf1093|k00000000000|k",
-				}, -- [56]
-				{
-					["type"] = 1,
-					["time"] = 1315892489,
-					["from"] = "Gacrux",
-					["msg"] = "oh gotcha",
-					["inbound"] = false,
-					["convo"] = "|Kf1093|k00000000000|k",
-				}, -- [57]
-				{
-					["type"] = 1,
-					["time"] = 1315892493,
-					["from"] = "Gacrux",
-					["msg"] = "Well it was just a suggestion",
-					["inbound"] = false,
-					["convo"] = "|Kf1093|k00000000000|k",
-				}, -- [58]
-				{
-					["type"] = 1,
-					["time"] = 1315892507,
-					["from"] = "Gacrux",
-					["msg"] = "you should think about it at least :)",
-					["inbound"] = false,
-					["convo"] = "|Kf1093|k00000000000|k",
-				}, -- [59]
-				{
-					["type"] = 1,
-					["time"] = 1315892513,
-					["from"] = "Gacrux",
-					["msg"] = "but have fun visiting piggy",
-					["inbound"] = false,
-					["convo"] = "|Kf1093|k00000000000|k",
-				}, -- [60]
-				{
-					["type"] = 1,
-					["time"] = 1315892518,
-					["from"] = "Gacrux",
-					["msg"] = "don't let him brain wash you! :O",
-					["inbound"] = false,
-					["convo"] = "|Kf1093|k00000000000|k",
-				}, -- [61]
-				{
-					["type"] = 1,
-					["time"] = 1315892532,
-					["from"] = "Gacrux",
-					["msg"] = "And I guess i'll be here to help with the aftermath",
-					["inbound"] = false,
-					["convo"] = "|Kf1093|k00000000000|k",
-				}, -- [62]
-				{
-					["type"] = 1,
-					["time"] = 1315892536,
-					["from"] = "Gacrux",
-					["msg"] = "yep i'm goign to sleep now",
-					["inbound"] = false,
-					["convo"] = "|Kf1093|k00000000000|k",
-				}, -- [63]
-				{
-					["type"] = 1,
-					["time"] = 1315892538,
-					["from"] = "Gacrux",
-					["msg"] = "have a great night!",
-					["inbound"] = false,
-					["convo"] = "|Kf1093|k00000000000|k",
-				}, -- [64]
-				{
-					["type"] = 1,
-					["time"] = 1315892542,
-					["from"] = "Gacrux",
-					["msg"] = "<3",
-					["inbound"] = false,
-					["convo"] = "|Kf1093|k00000000000|k",
-				}, -- [65]
-				{
-					["type"] = 1,
-					["time"] = 1315892559,
-					["from"] = "Gacrux",
-					["msg"] = "don't worry about it",
-					["inbound"] = false,
-					["convo"] = "|Kf1093|k00000000000|k",
-				}, -- [66]
-				{
-					["type"] = 1,
-					["time"] = 1315892579,
-					["from"] = "Gacrux",
-					["msg"] = "k",
-					["inbound"] = false,
-					["convo"] = "|Kf1093|k00000000000|k",
-				}, -- [67]
-				{
-					["type"] = 1,
-					["time"] = 1315892584,
-					["from"] = "Gacrux",
-					["msg"] = "niiight!",
-					["inbound"] = false,
-					["convo"] = "|Kf1093|k00000000000|k",
-				}, -- [68]
-				{
-					["type"] = 1,
-					["time"] = 1315892594,
-					["from"] = "Gacrux",
-					["msg"] = "i'll mention it to Jessica tomorrow, see how she feels",
-					["inbound"] = false,
-					["convo"] = "|Kf1093|k00000000000|k",
-				}, -- [69]
-				{
-					["type"] = 1,
-					["time"] = 1315892595,
-					["from"] = "Gacrux",
-					["msg"] = "kk",
-					["inbound"] = false,
-					["convo"] = "|Kf1093|k00000000000|k",
-				}, -- [70]
-				["info"] = {
-				},
-			},
-			["|Kf670|k00000000000|k"] = {
-				{
-					["type"] = 1,
-					["time"] = 1315885249,
-					["from"] = "Gacrux",
-					["msg"] = "meow!",
-					["inbound"] = false,
-					["convo"] = "|Kf670|k00000000000|k",
-				}, -- [1]
-				{
-					["type"] = 1,
-					["time"] = 1315885666,
-					["from"] = "Gacrux",
-					["msg"] = "i watching the show! shhh",
-					["inbound"] = false,
-					["convo"] = "|Kf670|k00000000000|k",
-				}, -- [2]
-				{
-					["type"] = 1,
-					["time"] = 1315885667,
-					["from"] = "Gacrux",
-					["msg"] = "aww",
-					["inbound"] = false,
-					["convo"] = "|Kf670|k00000000000|k",
-				}, -- [3]
-				{
-					["type"] = 1,
-					["time"] = 1315885669,
-					["from"] = "Gacrux",
-					["msg"] = "alright :(",
-					["inbound"] = false,
-					["convo"] = "|Kf670|k00000000000|k",
-				}, -- [4]
-				{
-					["type"] = 1,
-					["time"] = 1315885729,
-					["from"] = "Gacrux",
-					["msg"] = "lol yep",
-					["inbound"] = false,
-					["convo"] = "|Kf670|k00000000000|k",
-				}, -- [5]
-				{
-					["type"] = 1,
-					["time"] = 1315885826,
-					["from"] = "Gacrux",
-					["msg"] = "lol",
-					["inbound"] = false,
-					["convo"] = "|Kf670|k00000000000|k",
-				}, -- [6]
-				{
-					["type"] = 1,
-					["time"] = 1315885845,
-					["from"] = "Gacrux",
-					["msg"] = "you're kinda turning me on",
-					["inbound"] = false,
-					["convo"] = "|Kf670|k00000000000|k",
-				}, -- [7]
-				{
-					["type"] = 1,
-					["time"] = 1315886421,
-					["from"] = "Gacrux",
-					["msg"] = ":D",
-					["inbound"] = false,
-					["convo"] = "|Kf670|k00000000000|k",
-				}, -- [8]
-				{
-					["type"] = 1,
-					["time"] = 1315886423,
-					["from"] = "Gacrux",
-					["msg"] = "Grats! ",
-					["inbound"] = false,
-					["convo"] = "|Kf670|k00000000000|k",
-				}, -- [9]
-				{
-					["type"] = 1,
-					["time"] = 1315886440,
-					["from"] = "Gacrux",
-					["msg"] = "so what do you gotta be up early for?",
-					["inbound"] = false,
-					["convo"] = "|Kf670|k00000000000|k",
-				}, -- [10]
-				{
-					["type"] = 1,
-					["time"] = 1315886520,
-					["from"] = "Gacrux",
-					["msg"] = "oooh nice",
-					["inbound"] = false,
-					["convo"] = "|Kf670|k00000000000|k",
-				}, -- [11]
-				{
-					["type"] = 1,
-					["time"] = 1315886527,
-					["from"] = "Gacrux",
-					["msg"] = "oooh it's Jessica mostly nude!",
-					["inbound"] = false,
-					["convo"] = "|Kf670|k00000000000|k",
-				}, -- [12]
-				{
-					["type"] = 1,
-					["time"] = 1315886534,
-					["from"] = "Gacrux",
-					["msg"] = "still no tits",
-					["inbound"] = false,
-					["convo"] = "|Kf670|k00000000000|k",
-				}, -- [13]
-				{
-					["type"] = 1,
-					["time"] = 1315886534,
-					["from"] = "Gacrux",
-					["msg"] = "but",
-					["inbound"] = false,
-					["convo"] = "|Kf670|k00000000000|k",
-				}, -- [14]
-				{
-					["type"] = 1,
-					["time"] = 1315886538,
-					["from"] = "Gacrux",
-					["msg"] = "lol",
-					["inbound"] = false,
-					["convo"] = "|Kf670|k00000000000|k",
-				}, -- [15]
-				{
-					["type"] = 1,
-					["time"] = 1315886547,
-					["from"] = "Gacrux",
-					["msg"] = "But really, her face is the good part",
-					["inbound"] = false,
-					["convo"] = "|Kf670|k00000000000|k",
-				}, -- [16]
-				{
-					["type"] = 1,
-					["time"] = 1315886566,
-					["from"] = "Gacrux",
-					["msg"] = "her body looks weird, like they are covering her n makeup to make her whiter",
-					["inbound"] = false,
-					["convo"] = "|Kf670|k00000000000|k",
-				}, -- [17]
-				{
-					["type"] = 1,
-					["time"] = 1315886567,
-					["from"] = "Gacrux",
-					["msg"] = "i don't know",
-					["inbound"] = false,
-					["convo"] = "|Kf670|k00000000000|k",
-				}, -- [18]
-				{
-					["type"] = 1,
-					["time"] = 1315886641,
-					["from"] = "Gacrux",
-					["msg"] = "lolol Pam is pissed",
-					["inbound"] = false,
-					["convo"] = "|Kf670|k00000000000|k",
-				}, -- [19]
-				{
-					["type"] = 1,
-					["time"] = 1315886676,
-					["from"] = "Gacrux",
-					["msg"] = "lol",
-					["inbound"] = false,
-					["convo"] = "|Kf670|k00000000000|k",
-				}, -- [20]
-				{
-					["type"] = 1,
-					["time"] = 1315886677,
-					["from"] = "Gacrux",
-					["msg"] = "FINE",
-					["inbound"] = false,
-					["convo"] = "|Kf670|k00000000000|k",
-				}, -- [21]
-				{
-					["type"] = 1,
-					["time"] = 1315886682,
-					["from"] = "Gacrux",
-					["msg"] = "i was looking forward to you being gone",
-					["inbound"] = false,
-					["convo"] = "|Kf670|k00000000000|k",
-				}, -- [22]
-				{
-					["type"] = 1,
-					["time"] = 1315886684,
-					["from"] = "Gacrux",
-					["msg"] = "but nooooow",
-					["inbound"] = false,
-					["convo"] = "|Kf670|k00000000000|k",
-				}, -- [23]
-				{
-					["type"] = 1,
-					["time"] = 1315886710,
-					["from"] = "Gacrux",
-					["msg"] = "so did you hear that Nozdormu finally figured out who the leader of the Infinite Dragonflight is",
-					["inbound"] = false,
-					["convo"] = "|Kf670|k00000000000|k",
-				}, -- [24]
-				{
-					["type"] = 1,
-					["time"] = 1315886711,
-					["from"] = "Gacrux",
-					["msg"] = "?",
-					["inbound"] = false,
-					["convo"] = "|Kf670|k00000000000|k",
-				}, -- [25]
-				{
-					["type"] = 1,
-					["time"] = 1315886948,
-					["from"] = "Gacrux",
-					["msg"] = "why the long face?",
-					["inbound"] = false,
-					["convo"] = "|Kf670|k00000000000|k",
-				}, -- [26]
-				{
-					["type"] = 1,
-					["time"] = 1315887093,
-					["from"] = "Gacrux",
-					["msg"] = "nice",
-					["inbound"] = false,
-					["convo"] = "|Kf670|k00000000000|k",
-				}, -- [27]
-				{
-					["type"] = 1,
-					["time"] = 1315887095,
-					["from"] = "Gacrux",
-					["msg"] = "i'm sowwy",
-					["inbound"] = false,
-					["convo"] = "|Kf670|k00000000000|k",
-				}, -- [28]
-				{
-					["type"] = 1,
-					["time"] = 1315887102,
-					["from"] = "Gacrux",
-					["msg"] = "Want me to come over and entertain you? :D",
-					["inbound"] = false,
-					["convo"] = "|Kf670|k00000000000|k",
-				}, -- [29]
-				{
-					["type"] = 1,
-					["time"] = 1315887819,
-					["from"] = "Gacrux",
-					["msg"] = "oh sheeeit",
-					["inbound"] = false,
-					["convo"] = "|Kf670|k00000000000|k",
-				}, -- [30]
-				{
-					["type"] = 1,
-					["time"] = 1315887821,
-					["from"] = "Gacrux",
-					["msg"] = "Tara!",
-					["inbound"] = false,
-					["convo"] = "|Kf670|k00000000000|k",
-				}, -- [31]
-				{
-					["type"] = 1,
-					["time"] = 1315887862,
-					["from"] = "Gacrux",
-					["msg"] = "When the gun went up to Debbie's head, as someone who had read the books, there was no doubt that Sookie would pull the trigger",
-					["inbound"] = false,
-					["convo"] = "|Kf670|k00000000000|k",
-				}, -- [32]
-				{
-					["type"] = 1,
-					["time"] = 1315887866,
-					["from"] = "Gacrux",
-					["msg"] = "But Tara?! :O",
-					["inbound"] = false,
-					["convo"] = "|Kf670|k00000000000|k",
-				}, -- [33]
-				{
-					["type"] = 1,
-					["time"] = 1315888435,
-					["from"] = "Gacrux",
-					["msg"] = ":(",
-					["inbound"] = false,
-					["convo"] = "|Kf670|k00000000000|k",
-				}, -- [34]
-				{
-					["type"] = 1,
-					["time"] = 1315888446,
-					["from"] = "Gacrux",
-					["msg"] = "Also i was about 85% sure we were about to have a 3-way",
-					["inbound"] = false,
-					["convo"] = "|Kf670|k00000000000|k",
-				}, -- [35]
-				{
-					["type"] = 1,
-					["time"] = 1315888452,
-					["from"] = "Gacrux",
-					["msg"] = "with Sookie and Bill and Eric",
-					["inbound"] = false,
-					["convo"] = "|Kf670|k00000000000|k",
-				}, -- [36]
-				{
-					["type"] = 1,
-					["time"] = 1315888455,
-					["from"] = "Gacrux",
-					["msg"] = "things were getting weird",
-					["inbound"] = false,
-					["convo"] = "|Kf670|k00000000000|k",
-				}, -- [37]
-				{
-					["type"] = 1,
-					["time"] = 1315888471,
-					["from"] = "Gacrux",
-					["msg"] = "lol",
-					["inbound"] = false,
-					["convo"] = "|Kf670|k00000000000|k",
-				}, -- [38]
-				{
-					["type"] = 1,
-					["time"] = 1315888524,
-					["from"] = "Gacrux",
-					["msg"] = "but no",
-					["inbound"] = false,
-					["convo"] = "|Kf670|k00000000000|k",
-				}, -- [39]
-				{
-					["type"] = 1,
-					["time"] = 1315888528,
-					["from"] = "Gacrux",
-					["msg"] = "instead she breaks upw ith them all",
-					["inbound"] = false,
-					["convo"] = "|Kf670|k00000000000|k",
-				}, -- [40]
-				{
-					["type"] = 1,
-					["time"] = 1315888534,
-					["from"] = "Gacrux",
-					["msg"] = "also the way they both flipped at the one girl made me lol",
-					["inbound"] = false,
-					["convo"] = "|Kf670|k00000000000|k",
-				}, -- [41]
-				{
-					["type"] = 1,
-					["time"] = 1315888536,
-					["from"] = "Gacrux",
-					["msg"] = "when she called them dogs",
-					["inbound"] = false,
-					["convo"] = "|Kf670|k00000000000|k",
-				}, -- [42]
-				{
-					["type"] = 1,
-					["time"] = 1315888558,
-					["from"] = "Gacrux",
-					["msg"] = "i was like WTF",
-					["inbound"] = false,
-					["convo"] = "|Kf670|k00000000000|k",
-				}, -- [43]
-				{
-					["type"] = 1,
-					["time"] = 1315888561,
-					["from"] = "Gacrux",
-					["msg"] = "Bill flipped",
-					["inbound"] = false,
-					["convo"] = "|Kf670|k00000000000|k",
-				}, -- [44]
-				{
-					["type"] = 1,
-					["time"] = 1315888562,
-					["from"] = "Gacrux",
-					["msg"] = "lol",
-					["inbound"] = false,
-					["convo"] = "|Kf670|k00000000000|k",
-				}, -- [45]
-				{
-					["type"] = 1,
-					["time"] = 1315888571,
-					["from"] = "Gacrux",
-					["msg"] = "i mean, sure eric cut off like 5 guys heads in less than a second",
-					["inbound"] = false,
-					["convo"] = "|Kf670|k00000000000|k",
-				}, -- [46]
-				{
-					["type"] = 1,
-					["time"] = 1315888574,
-					["from"] = "Gacrux",
-					["msg"] = "but Bill is usually calm",
-					["inbound"] = false,
-					["convo"] = "|Kf670|k00000000000|k",
-				}, -- [47]
-				{
-					["type"] = 1,
-					["time"] = 1315888575,
-					["from"] = "Gacrux",
-					["msg"] = "lol",
-					["inbound"] = false,
-					["convo"] = "|Kf670|k00000000000|k",
-				}, -- [48]
-				{
-					["type"] = 1,
-					["time"] = 1315888781,
-					["from"] = "Gacrux",
-					["msg"] = "lol it's okay",
-					["inbound"] = false,
-					["convo"] = "|Kf670|k00000000000|k",
-				}, -- [49]
-				{
-					["type"] = 1,
-					["time"] = 1315888785,
-					["from"] = "Gacrux",
-					["msg"] = "I love you anyway",
-					["inbound"] = false,
-					["convo"] = "|Kf670|k00000000000|k",
-				}, -- [50]
-				{
-					["type"] = 1,
-					["time"] = 1315888980,
-					["from"] = "Gacrux",
-					["msg"] = "So you having fun on teh drood?",
-					["inbound"] = false,
-					["convo"] = "|Kf670|k00000000000|k",
-				}, -- [51]
-				["info"] = {
-				},
-			},
-			["|Kf207|k00000000000|k"] = {
-				{
-					["type"] = 1,
-					["time"] = 1315956583,
-					["from"] = "Gacrux",
-					["msg"] = "Are you still getting pizza?",
-					["inbound"] = false,
-					["convo"] = "|Kf207|k00000000000|k",
-				}, -- [1]
-				{
-					["type"] = 1,
-					["time"] = 1315956956,
-					["from"] = "Gacrux",
-					["msg"] = "ahh",
-					["inbound"] = false,
-					["convo"] = "|Kf207|k00000000000|k",
-				}, -- [2]
-				{
-					["type"] = 1,
-					["time"] = 1315956960,
-					["from"] = "Gacrux",
-					["msg"] = "candles? why? O_o",
-					["inbound"] = false,
-					["convo"] = "|Kf207|k00000000000|k",
-				}, -- [3]
-				{
-					["type"] = 1,
-					["time"] = 1315956971,
-					["from"] = "Gacrux",
-					["msg"] = "Also you were soooooo cute. you *are* sooooo cute, you make my heart hurt.",
-					["inbound"] = false,
-					["convo"] = "|Kf207|k00000000000|k",
-				}, -- [4]
-				{
-					["type"] = 1,
-					["time"] = 1315956973,
-					["from"] = "Gacrux",
-					["msg"] = "oh okay",
-					["inbound"] = false,
-					["convo"] = "|Kf207|k00000000000|k",
-				}, -- [5]
-				{
-					["type"] = 1,
-					["time"] = 1315956975,
-					["from"] = "Gacrux",
-					["msg"] = "just wondering!",
-					["inbound"] = false,
-					["convo"] = "|Kf207|k00000000000|k",
-				}, -- [6]
-				{
-					["type"] = 1,
-					["time"] = 1315956976,
-					["from"] = "Gacrux",
-					["msg"] = ":O",
-					["inbound"] = false,
-					["convo"] = "|Kf207|k00000000000|k",
-				}, -- [7]
-				{
-					["type"] = 1,
-					["time"] = 1315957121,
-					["from"] = "Gacrux",
-					["msg"] = "i'm getting all my buffs/debuffs setup",
-					["inbound"] = false,
-					["convo"] = "|Kf207|k00000000000|k",
-				}, -- [8]
-				{
-					["type"] = 1,
-					["time"] = 1315957126,
-					["from"] = "Gacrux",
-					["msg"] = "then i'm gonna go tank another heroic! :O",
-					["inbound"] = false,
-					["convo"] = "|Kf207|k00000000000|k",
-				}, -- [9]
-				{
-					["type"] = 1,
-					["time"] = 1315957198,
-					["from"] = "Gacrux",
-					["msg"] = "ugh you know what, i need to go fishing after the heroic :(",
-					["inbound"] = false,
-					["convo"] = "|Kf207|k00000000000|k",
-				}, -- [10]
-				{
-					["type"] = 1,
-					["time"] = 1315957458,
-					["from"] = "Gacrux",
-					["msg"] = "lol",
-					["inbound"] = false,
-					["convo"] = "|Kf207|k00000000000|k",
-				}, -- [11]
-				{
-					["type"] = 1,
-					["time"] = 1315957461,
-					["from"] = "Gacrux",
-					["msg"] = "yeah it *is* nice",
-					["inbound"] = false,
-					["convo"] = "|Kf207|k00000000000|k",
-				}, -- [12]
-				{
-					["type"] = 1,
-					["time"] = 1315957469,
-					["from"] = "Gacrux",
-					["msg"] = "So does this mean you are a new druid convert?! :O",
-					["inbound"] = false,
-					["convo"] = "|Kf207|k00000000000|k",
-				}, -- [13]
-				{
-					["type"] = 1,
-					["time"] = 1315957524,
-					["from"] = "Gacrux",
-					["msg"] = ":O",
-					["inbound"] = false,
-					["convo"] = "|Kf207|k00000000000|k",
-				}, -- [14]
-				{
-					["type"] = 1,
-					["time"] = 1315957528,
-					["from"] = "Gacrux",
-					["msg"] = "Poor mobs1",
-					["inbound"] = false,
-					["convo"] = "|Kf207|k00000000000|k",
-				}, -- [15]
-				{
-					["type"] = 1,
-					["time"] = 1315957531,
-					["from"] = "Gacrux",
-					["msg"] = "you're raping them in the back!",
-					["inbound"] = false,
-					["convo"] = "|Kf207|k00000000000|k",
-				}, -- [16]
-				{
-					["type"] = 1,
-					["time"] = 1315957660,
-					["from"] = "Gacrux",
-					["msg"] = ":O",
-					["inbound"] = false,
-					["convo"] = "|Kf207|k00000000000|k",
-				}, -- [17]
-				{
-					["type"] = 1,
-					["time"] = 1315957664,
-					["from"] = "Gacrux",
-					["msg"] = "EarlyCongrats :)",
-					["inbound"] = false,
-					["convo"] = "|Kf207|k00000000000|k",
-				}, -- [18]
-				{
-					["type"] = 1,
-					["time"] = 1315957708,
-					["from"] = "Gacrux",
-					["msg"] = ":O",
-					["inbound"] = false,
-					["convo"] = "|Kf207|k00000000000|k",
-				}, -- [19]
-				{
-					["type"] = 1,
-					["time"] = 1315958144,
-					["from"] = "Gacrux",
-					["msg"] = "No didn't get a chance",
-					["inbound"] = false,
-					["convo"] = "|Kf207|k00000000000|k",
-				}, -- [20]
-				{
-					["type"] = 1,
-					["time"] = 1315958213,
-					["from"] = "Gacrux",
-					["msg"] = "oh :(",
-					["inbound"] = false,
-					["convo"] = "|Kf207|k00000000000|k",
-				}, -- [21]
-				{
-					["type"] = 1,
-					["time"] = 1315958314,
-					["from"] = "Gacrux",
-					["msg"] = "hrm",
-					["inbound"] = false,
-					["convo"] = "|Kf207|k00000000000|k",
-				}, -- [22]
-				{
-					["type"] = 1,
-					["time"] = 1315958320,
-					["from"] = "Gacrux",
-					["msg"] = "the ticket you mean?",
-					["inbound"] = false,
-					["convo"] = "|Kf207|k00000000000|k",
-				}, -- [23]
-				{
-					["type"] = 1,
-					["time"] = 1315958328,
-					["from"] = "Gacrux",
-					["msg"] = "gotcha",
-					["inbound"] = false,
-					["convo"] = "|Kf207|k00000000000|k",
-				}, -- [24]
-				{
-					["type"] = 1,
-					["time"] = 1315958334,
-					["from"] = "Gacrux",
-					["msg"] = "I just wanted to meeet you",
-					["inbound"] = false,
-					["convo"] = "|Kf207|k00000000000|k",
-				}, -- [25]
-				{
-					["type"] = 1,
-					["time"] = 1315958347,
-					["from"] = "Gacrux",
-					["msg"] = "I was using Jer to bribe you",
-					["inbound"] = false,
-					["convo"] = "|Kf207|k00000000000|k",
-				}, -- [26]
-				{
-					["type"] = 1,
-					["time"] = 1315958348,
-					["from"] = "Gacrux",
-					["msg"] = ":)",
-					["inbound"] = false,
-					["convo"] = "|Kf207|k00000000000|k",
-				}, -- [27]
-				{
-					["type"] = 1,
-					["time"] = 1315958359,
-					["from"] = "Gacrux",
-					["msg"] = "i know",
-					["inbound"] = false,
-					["convo"] = "|Kf207|k00000000000|k",
-				}, -- [28]
-				{
-					["type"] = 1,
-					["time"] = 1315958362,
-					["from"] = "Gacrux",
-					["msg"] = "neither does he!",
-					["inbound"] = false,
-					["convo"] = "|Kf207|k00000000000|k",
-				}, -- [29]
-				{
-					["type"] = 1,
-					["time"] = 1315958363,
-					["from"] = "Gacrux",
-					["msg"] = "lol",
-					["inbound"] = false,
-					["convo"] = "|Kf207|k00000000000|k",
-				}, -- [30]
-				{
-					["type"] = 1,
-					["time"] = 1315958394,
-					["from"] = "Gacrux",
-					["msg"] = "who is that?",
-					["inbound"] = false,
-					["convo"] = "|Kf207|k00000000000|k",
-				}, -- [31]
-				{
-					["type"] = 1,
-					["time"] = 1315958396,
-					["from"] = "Gacrux",
-					["msg"] = "nooti?",
-					["inbound"] = false,
-					["convo"] = "|Kf207|k00000000000|k",
-				}, -- [32]
-				{
-					["type"] = 1,
-					["time"] = 1315958399,
-					["from"] = "Gacrux",
-					["msg"] = "or some ex?",
-					["inbound"] = false,
-					["convo"] = "|Kf207|k00000000000|k",
-				}, -- [33]
-				{
-					["type"] = 1,
-					["time"] = 1315958444,
-					["from"] = "Gacrux",
-					["msg"] = "oh, lol nice",
-					["inbound"] = false,
-					["convo"] = "|Kf207|k00000000000|k",
-				}, -- [34]
-				{
-					["type"] = 1,
-					["time"] = 1315958555,
-					["from"] = "Gacrux",
-					["msg"] = "lol",
-					["inbound"] = false,
-					["convo"] = "|Kf207|k00000000000|k",
-				}, -- [35]
-				{
-					["type"] = 1,
-					["time"] = 1315958557,
-					["from"] = "Gacrux",
-					["msg"] = "well do it then",
-					["inbound"] = false,
-					["convo"] = "|Kf207|k00000000000|k",
-				}, -- [36]
-				{
-					["type"] = 1,
-					["time"] = 1315958579,
-					["from"] = "Gacrux",
-					["msg"] = "having something that will make you happy within your grasp.. i wouldn't be able to say no, i don't think",
-					["inbound"] = false,
-					["convo"] = "|Kf207|k00000000000|k",
-				}, -- [37]
-				{
-					["type"] = 1,
-					["time"] = 1315958697,
-					["from"] = "Gacrux",
-					["msg"] = "which one?",
-					["inbound"] = false,
-					["convo"] = "|Kf207|k00000000000|k",
-				}, -- [38]
-				{
-					["type"] = 1,
-					["time"] = 1315958726,
-					["from"] = "Gacrux",
-					["msg"] = "yeah i guess",
-					["inbound"] = false,
-					["convo"] = "|Kf207|k00000000000|k",
-				}, -- [39]
-				{
-					["type"] = 1,
-					["time"] = 1315958727,
-					["from"] = "Gacrux",
-					["msg"] = "lol",
-					["inbound"] = false,
-					["convo"] = "|Kf207|k00000000000|k",
-				}, -- [40]
-				{
-					["type"] = 1,
-					["time"] = 1315958731,
-					["from"] = "Gacrux",
-					["msg"] = "lol",
-					["inbound"] = false,
-					["convo"] = "|Kf207|k00000000000|k",
-				}, -- [41]
-				{
-					["type"] = 1,
-					["time"] = 1315958732,
-					["from"] = "Gacrux",
-					["msg"] = "It's okay",
-					["inbound"] = false,
-					["convo"] = "|Kf207|k00000000000|k",
-				}, -- [42]
-				{
-					["type"] = 1,
-					["time"] = 1315958734,
-					["from"] = "Gacrux",
-					["msg"] = "I have more",
-					["inbound"] = false,
-					["convo"] = "|Kf207|k00000000000|k",
-				}, -- [43]
-				{
-					["type"] = 1,
-					["time"] = 1315958788,
-					["from"] = "Gacrux",
-					["msg"] = "I have just as many problems.. but i lack the cute",
-					["inbound"] = false,
-					["convo"] = "|Kf207|k00000000000|k",
-				}, -- [44]
-				{
-					["type"] = 1,
-					["time"] = 1315958830,
-					["from"] = "Gacrux",
-					["msg"] = "It's true!",
-					["inbound"] = false,
-					["convo"] = "|Kf207|k00000000000|k",
-				}, -- [45]
-				{
-					["type"] = 1,
-					["time"] = 1315958840,
-					["from"] = "Gacrux",
-					["msg"] = "never understimate how powerful being attractive is",
-					["inbound"] = false,
-					["convo"] = "|Kf207|k00000000000|k",
-				}, -- [46]
-				{
-					["type"] = 1,
-					["time"] = 1315959568,
-					["from"] = "Gacrux",
-					["msg"] = "it smells like beautiful woman? :O",
-					["inbound"] = false,
-					["convo"] = "|Kf207|k00000000000|k",
-				}, -- [47]
-				{
-					["type"] = 1,
-					["time"] = 1315959578,
-					["from"] = "Gacrux",
-					["msg"] = "And.. I'm not sure, depends on which abilities you have, it's probably not too bad",
-					["inbound"] = false,
-					["convo"] = "|Kf207|k00000000000|k",
-				}, -- [48]
-				{
-					["type"] = 1,
-					["time"] = 1315959589,
-					["from"] = "Gacrux",
-					["msg"] = "do you have swipe?",
-					["inbound"] = false,
-					["convo"] = "|Kf207|k00000000000|k",
-				}, -- [49]
-				{
-					["type"] = 1,
-					["time"] = 1315959619,
-					["from"] = "Gacrux",
-					["msg"] = "k you'll be fine then",
-					["inbound"] = false,
-					["convo"] = "|Kf207|k00000000000|k",
-				}, -- [50]
-				{
-					["type"] = 1,
-					["time"] = 1315959664,
-					["from"] = "Gacrux",
-					["msg"] = "just use it a lot haha",
-					["inbound"] = false,
-					["convo"] = "|Kf207|k00000000000|k",
-				}, -- [51]
-				{
-					["type"] = 1,
-					["time"] = 1315959698,
-					["from"] = "Gacrux",
-					["msg"] = "swipe* ?",
-					["inbound"] = false,
-					["convo"] = "|Kf207|k00000000000|k",
-				}, -- [52]
-				{
-					["type"] = 1,
-					["time"] = 1315959729,
-					["from"] = "Gacrux",
-					["msg"] = "and yeah, just use mangle on cooldown, maul when you have lots of rage, and swipe the rest of the time",
-					["inbound"] = false,
-					["convo"] = "|Kf207|k00000000000|k",
-				}, -- [53]
-				{
-					["type"] = 1,
-					["time"] = 1315959734,
-					["from"] = "Gacrux",
-					["msg"] = "haha",
-					["inbound"] = false,
-					["convo"] = "|Kf207|k00000000000|k",
-				}, -- [54]
-				{
-					["type"] = 1,
-					["time"] = 1315959736,
-					["from"] = "Gacrux",
-					["msg"] = "alright :)",
-					["inbound"] = false,
-					["convo"] = "|Kf207|k00000000000|k",
-				}, -- [55]
-				{
-					["type"] = 1,
-					["time"] = 1315959737,
-					["from"] = "Gacrux",
-					["msg"] = "sec",
-					["inbound"] = false,
-					["convo"] = "|Kf207|k00000000000|k",
-				}, -- [56]
-				["info"] = {
-				},
-			},
-			["Crimsonmyst"] = {
-				{
-					["type"] = 1,
-					["time"] = 1315890031,
-					["from"] = "Crimsonmyst",
-					["msg"] = "you busy?",
+					["time"] = 1316127336,
+					["from"] = "Notenoughrag",
+					["msg"] = "do you have a maxed out BS with the tanking shield?",
 					["inbound"] = true,
-					["convo"] = "Crimsonmyst",
+					["convo"] = "Notenoughrag",
 				}, -- [1]
-				{
-					["type"] = 1,
-					["time"] = 1315890048,
-					["from"] = "Gacrux",
-					["msg"] = "I'm Aset :)",
-					["inbound"] = false,
-					["convo"] = "Crimsonmyst",
-				}, -- [2]
-				{
-					["type"] = 1,
-					["time"] = 1315890056,
-					["from"] = "Crimsonmyst",
-					["msg"] = "LOL",
-					["inbound"] = true,
-					["convo"] = "Crimsonmyst",
-				}, -- [3]
-				{
-					["type"] = 1,
-					["time"] = 1315890059,
-					["from"] = "Crimsonmyst",
-					["msg"] = "no shit, nice",
-					["inbound"] = true,
-					["convo"] = "Crimsonmyst",
-				}, -- [4]
-				{
-					["type"] = 1,
-					["time"] = 1315890060,
-					["from"] = "Gacrux",
-					["msg"] = "hehe ",
-					["inbound"] = false,
-					["convo"] = "Crimsonmyst",
-				}, -- [5]
-				{
-					["type"] = 1,
-					["time"] = 1315890062,
-					["from"] = "Crimsonmyst",
-					["msg"] = "you fury?",
-					["inbound"] = true,
-					["convo"] = "Crimsonmyst",
-				}, -- [6]
-				{
-					["type"] = 1,
-					["time"] = 1315890064,
-					["from"] = "Gacrux",
-					["msg"] = "it's alright",
-					["inbound"] = false,
-					["convo"] = "Crimsonmyst",
-				}, -- [7]
-				{
-					["type"] = 1,
-					["time"] = 1315890069,
-					["from"] = "Gacrux",
-					["msg"] = "nah just started gearing for prot",
-					["inbound"] = false,
-					["convo"] = "Crimsonmyst",
-				}, -- [8]
-				{
-					["type"] = 1,
-					["time"] = 1315890072,
-					["from"] = "Crimsonmyst",
-					["msg"] = "nice, nice",
-					["inbound"] = true,
-					["convo"] = "Crimsonmyst",
-				}, -- [9]
-				{
-					["type"] = 1,
-					["time"] = 1315890079,
-					["from"] = "Crimsonmyst",
-					["msg"] = "pvp at all?",
-					["inbound"] = true,
-					["convo"] = "Crimsonmyst",
-				}, -- [10]
-				{
-					["type"] = 1,
-					["time"] = 1315890090,
-					["from"] = "Gacrux",
-					["msg"] = "nah, not on this guy anyway",
-					["inbound"] = false,
-					["convo"] = "Crimsonmyst",
-				}, -- [11]
-				["info"] = {
-				},
-			},
-			["|Kf459|k000000000000|k"] = {
-				{
-					["type"] = 1,
-					["time"] = 1316129520,
-					["from"] = "Gacrux",
-					["msg"] = "It's exactly the same as all of the others, and it's.. worth it for sure, if you can get it",
-					["inbound"] = false,
-					["convo"] = "|Kf459|k000000000000|k",
-				}, -- [1]
-				{
-					["type"] = 1,
-					["time"] = 1316129528,
-					["from"] = "Gacrux",
-					["msg"] = "not as good as the T12 4pc though",
-					["inbound"] = false,
-					["convo"] = "|Kf459|k000000000000|k",
-				}, -- [2]
-				["info"] = {
-				},
-			},
-			["|Kf678|k000000000000|k"] = {
-				{
-					["type"] = 1,
-					["time"] = 1315884463,
-					["from"] = "Gacrux",
-					["msg"] = "shit i just started a heroix",
-					["inbound"] = false,
-					["convo"] = "|Kf678|k000000000000|k",
-				}, -- [1]
-				{
-					["type"] = 1,
-					["time"] = 1315884543,
-					["from"] = "Gacrux",
-					["msg"] = "mang? O_o",
-					["inbound"] = false,
-					["convo"] = "|Kf678|k000000000000|k",
-				}, -- [2]
-				{
-					["type"] = 1,
-					["time"] = 1315884646,
-					["from"] = "Gacrux",
-					["msg"] = "well",
-					["inbound"] = false,
-					["convo"] = "|Kf678|k000000000000|k",
-				}, -- [3]
-				{
-					["type"] = 1,
-					["time"] = 1315884656,
-					["from"] = "Gacrux",
-					["msg"] = "mon, tues, thurs main raid",
-					["inbound"] = false,
-					["convo"] = "|Kf678|k000000000000|k",
-				}, -- [4]
-				{
-					["type"] = 1,
-					["time"] = 1315884663,
-					["from"] = "Gacrux",
-					["msg"] = "i usually raid wed, fri on my DK with Piggy's group",
-					["inbound"] = false,
-					["convo"] = "|Kf678|k000000000000|k",
-				}, -- [5]
-				{
-					["type"] = 1,
-					["time"] = 1315884668,
-					["from"] = "Gacrux",
-					["msg"] = "but what do you have in mind?",
-					["inbound"] = false,
-					["convo"] = "|Kf678|k000000000000|k",
-				}, -- [6]
-				{
-					["type"] = 1,
-					["time"] = 1315884685,
-					["from"] = "Gacrux",
-					["msg"] = "yeah",
-					["inbound"] = false,
-					["convo"] = "|Kf678|k000000000000|k",
-				}, -- [7]
-				{
-					["type"] = 1,
-					["time"] = 1315884704,
-					["from"] = "Gacrux",
-					["msg"] = "jw?",
-					["inbound"] = false,
-					["convo"] = "|Kf678|k000000000000|k",
-				}, -- [8]
-				{
-					["type"] = 1,
-					["time"] = 1315884706,
-					["from"] = "Gacrux",
-					["msg"] = "eh?",
-					["inbound"] = false,
-					["convo"] = "|Kf678|k000000000000|k",
-				}, -- [9]
-				{
-					["type"] = 1,
-					["time"] = 1315884722,
-					["from"] = "Gacrux",
-					["msg"] = "oh okay",
-					["inbound"] = false,
-					["convo"] = "|Kf678|k000000000000|k",
-				}, -- [10]
-				{
-					["type"] = 1,
-					["time"] = 1315884722,
-					["from"] = "Gacrux",
-					["msg"] = "yeah",
-					["inbound"] = false,
-					["convo"] = "|Kf678|k000000000000|k",
-				}, -- [11]
-				{
-					["type"] = 1,
-					["time"] = 1315884818,
-					["from"] = "Gacrux",
-					["msg"] = "nice",
-					["inbound"] = false,
-					["convo"] = "|Kf678|k000000000000|k",
-				}, -- [12]
 				["info"] = {
 				},
 			},
@@ -12829,154 +11154,6 @@ WIM3_History = {
 					["inbound"] = false,
 					["convo"] = "|Kf271|k00000000000|k",
 				}, -- [25]
-				["info"] = {
-				},
-			},
-			["|Kf127|k00000000000|k"] = {
-				{
-					["type"] = 1,
-					["time"] = 1315867608,
-					["from"] = "Promitto",
-					["msg"] = "JAmie! :D",
-					["inbound"] = false,
-					["convo"] = "|Kf127|k00000000000|k",
-				}, -- [1]
-				{
-					["type"] = 1,
-					["time"] = 1315867661,
-					["from"] = "Promitto",
-					["msg"] = ":O",
-					["inbound"] = false,
-					["convo"] = "|Kf127|k00000000000|k",
-				}, -- [2]
-				{
-					["type"] = 1,
-					["time"] = 1315867665,
-					["from"] = "Promitto",
-					["msg"] = "I'm about to go out with Leslie",
-					["inbound"] = false,
-					["convo"] = "|Kf127|k00000000000|k",
-				}, -- [3]
-				{
-					["type"] = 1,
-					["time"] = 1315867669,
-					["from"] = "Promitto",
-					["msg"] = "or well, over to her house I guess",
-					["inbound"] = false,
-					["convo"] = "|Kf127|k00000000000|k",
-				}, -- [4]
-				{
-					["type"] = 1,
-					["time"] = 1315867675,
-					["from"] = "Promitto",
-					["msg"] = "i was gonna tank on my warrior but",
-					["inbound"] = false,
-					["convo"] = "|Kf127|k00000000000|k",
-				}, -- [5]
-				{
-					["type"] = 1,
-					["time"] = 1315867715,
-					["from"] = "Promitto",
-					["msg"] = "nah",
-					["inbound"] = false,
-					["convo"] = "|Kf127|k00000000000|k",
-				}, -- [6]
-				{
-					["type"] = 1,
-					["time"] = 1315867720,
-					["from"] = "Promitto",
-					["msg"] = "but you're not gonna be there!",
-					["inbound"] = false,
-					["convo"] = "|Kf127|k00000000000|k",
-				}, -- [7]
-				{
-					["type"] = 1,
-					["time"] = 1315867733,
-					["from"] = "Promitto",
-					["msg"] = "lol",
-					["inbound"] = false,
-					["convo"] = "|Kf127|k00000000000|k",
-				}, -- [8]
-				{
-					["type"] = 1,
-					["time"] = 1315867737,
-					["from"] = "Promitto",
-					["msg"] = "nah you're awesome!",
-					["inbound"] = false,
-					["convo"] = "|Kf127|k00000000000|k",
-				}, -- [9]
-				{
-					["type"] = 1,
-					["time"] = 1315867738,
-					["from"] = "Promitto",
-					["msg"] = ":)",
-					["inbound"] = false,
-					["convo"] = "|Kf127|k00000000000|k",
-				}, -- [10]
-				{
-					["type"] = 1,
-					["time"] = 1315867749,
-					["from"] = "Promitto",
-					["msg"] = "haha",
-					["inbound"] = false,
-					["convo"] = "|Kf127|k00000000000|k",
-				}, -- [11]
-				{
-					["type"] = 1,
-					["time"] = 1315867752,
-					["from"] = "Promitto",
-					["msg"] = "that's the spirit!",
-					["inbound"] = false,
-					["convo"] = "|Kf127|k00000000000|k",
-				}, -- [12]
-				{
-					["type"] = 1,
-					["time"] = 1315867754,
-					["from"] = "Promitto",
-					["msg"] = "oh",
-					["inbound"] = false,
-					["convo"] = "|Kf127|k00000000000|k",
-				}, -- [13]
-				{
-					["type"] = 1,
-					["time"] = 1315867756,
-					["from"] = "Promitto",
-					["msg"] = "><",
-					["inbound"] = false,
-					["convo"] = "|Kf127|k00000000000|k",
-				}, -- [14]
-				{
-					["type"] = 1,
-					["time"] = 1315867764,
-					["from"] = "Promitto",
-					["msg"] = "meanie head!",
-					["inbound"] = false,
-					["convo"] = "|Kf127|k00000000000|k",
-				}, -- [15]
-				{
-					["type"] = 1,
-					["time"] = 1315867774,
-					["from"] = "Promitto",
-					["msg"] = ":O",
-					["inbound"] = false,
-					["convo"] = "|Kf127|k00000000000|k",
-				}, -- [16]
-				{
-					["type"] = 1,
-					["time"] = 1315867778,
-					["from"] = "Promitto",
-					["msg"] = "i'll jerk yer face!",
-					["inbound"] = false,
-					["convo"] = "|Kf127|k00000000000|k",
-				}, -- [17]
-				{
-					["type"] = 1,
-					["time"] = 1315867800,
-					["from"] = "Promitto",
-					["msg"] = "D:",
-					["inbound"] = false,
-					["convo"] = "|Kf127|k00000000000|k",
-				}, -- [18]
 				["info"] = {
 				},
 			},
@@ -13689,16 +11866,1628 @@ WIM3_History = {
 				},
 			},
 		},
-		["Wezen"] = {
-			["Notenoughrag"] = {
+		["Oxshield"] = {
+			["|Kf283|k00000000000|k"] = {
 				{
 					["type"] = 1,
-					["time"] = 1316127336,
-					["from"] = "Notenoughrag",
-					["msg"] = "do you have a maxed out BS with the tanking shield?",
-					["inbound"] = true,
-					["convo"] = "Notenoughrag",
+					["time"] = 1316373892,
+					["from"] = "Oxshield",
+					["msg"] = "A wild Jamie appears! :O",
+					["inbound"] = false,
+					["convo"] = "|Kf283|k00000000000|k",
 				}, -- [1]
+				{
+					["type"] = 1,
+					["time"] = 1316374023,
+					["from"] = "Oxshield",
+					["msg"] = "a flat tire?!",
+					["inbound"] = false,
+					["convo"] = "|Kf283|k00000000000|k",
+				}, -- [2]
+				{
+					["type"] = 1,
+					["time"] = 1316374049,
+					["from"] = "Oxshield",
+					["msg"] = "Well that sucks",
+					["inbound"] = false,
+					["convo"] = "|Kf283|k00000000000|k",
+				}, -- [3]
+				{
+					["type"] = 1,
+					["time"] = 1316374059,
+					["from"] = "Oxshield",
+					["msg"] = "I met a cute girl!",
+					["inbound"] = false,
+					["convo"] = "|Kf283|k00000000000|k",
+				}, -- [4]
+				{
+					["type"] = 1,
+					["time"] = 1316374066,
+					["from"] = "Oxshield",
+					["msg"] = "No",
+					["inbound"] = false,
+					["convo"] = "|Kf283|k00000000000|k",
+				}, -- [5]
+				{
+					["type"] = 1,
+					["time"] = 1316374066,
+					["from"] = "Oxshield",
+					["msg"] = "wait",
+					["inbound"] = false,
+					["convo"] = "|Kf283|k00000000000|k",
+				}, -- [6]
+				{
+					["type"] = 1,
+					["time"] = 1316374069,
+					["from"] = "Oxshield",
+					["msg"] = "it was you",
+					["inbound"] = false,
+					["convo"] = "|Kf283|k00000000000|k",
+				}, -- [7]
+				{
+					["type"] = 1,
+					["time"] = 1316374129,
+					["from"] = "Oxshield",
+					["msg"] = "You changed your own tire?!",
+					["inbound"] = false,
+					["convo"] = "|Kf283|k00000000000|k",
+				}, -- [8]
+				{
+					["type"] = 1,
+					["time"] = 1316374147,
+					["from"] = "Oxshield",
+					["msg"] = "lol",
+					["inbound"] = false,
+					["convo"] = "|Kf283|k00000000000|k",
+				}, -- [9]
+				{
+					["type"] = 1,
+					["time"] = 1316374150,
+					["from"] = "Oxshield",
+					["msg"] = "i'm sure it wasn't :(",
+					["inbound"] = false,
+					["convo"] = "|Kf283|k00000000000|k",
+				}, -- [10]
+				{
+					["type"] = 1,
+					["time"] = 1316374152,
+					["from"] = "Oxshield",
+					["msg"] = "but good jbo!",
+					["inbound"] = false,
+					["convo"] = "|Kf283|k00000000000|k",
+				}, -- [11]
+				{
+					["type"] = 1,
+					["time"] = 1316374153,
+					["from"] = "Oxshield",
+					["msg"] = "job*",
+					["inbound"] = false,
+					["convo"] = "|Kf283|k00000000000|k",
+				}, -- [12]
+				{
+					["type"] = 1,
+					["time"] = 1316374156,
+					["from"] = "Oxshield",
+					["msg"] = "i am impressed! :O",
+					["inbound"] = false,
+					["convo"] = "|Kf283|k00000000000|k",
+				}, -- [13]
+				{
+					["type"] = 1,
+					["time"] = 1316374160,
+					["from"] = "Oxshield",
+					["msg"] = "Jamie is pretty awesome <3",
+					["inbound"] = false,
+					["convo"] = "|Kf283|k00000000000|k",
+				}, -- [14]
+				{
+					["type"] = 1,
+					["time"] = 1316374405,
+					["from"] = "Oxshield",
+					["msg"] = "lol",
+					["inbound"] = false,
+					["convo"] = "|Kf283|k00000000000|k",
+				}, -- [15]
+				{
+					["type"] = 1,
+					["time"] = 1316374414,
+					["from"] = "Oxshield",
+					["msg"] = "did you have a full size spare? Or a doughnut?",
+					["inbound"] = false,
+					["convo"] = "|Kf283|k00000000000|k",
+				}, -- [16]
+				{
+					["type"] = 1,
+					["time"] = 1316374416,
+					["from"] = "Oxshield",
+					["msg"] = "and sowwwy!",
+					["inbound"] = false,
+					["convo"] = "|Kf283|k00000000000|k",
+				}, -- [17]
+				{
+					["type"] = 1,
+					["time"] = 1316374420,
+					["from"] = "Oxshield",
+					["msg"] = "I slept all day haha",
+					["inbound"] = false,
+					["convo"] = "|Kf283|k00000000000|k",
+				}, -- [18]
+				{
+					["type"] = 1,
+					["time"] = 1316374579,
+					["from"] = "Oxshield",
+					["msg"] = "lol holy shit",
+					["inbound"] = false,
+					["convo"] = "|Kf283|k00000000000|k",
+				}, -- [19]
+				{
+					["type"] = 1,
+					["time"] = 1316374584,
+					["from"] = "Oxshield",
+					["msg"] = "you slept again from 8am to 12pm?",
+					["inbound"] = false,
+					["convo"] = "|Kf283|k00000000000|k",
+				}, -- [20]
+				{
+					["type"] = 1,
+					["time"] = 1316374591,
+					["from"] = "Oxshield",
+					["msg"] = "did you take your medicine?",
+					["inbound"] = false,
+					["convo"] = "|Kf283|k00000000000|k",
+				}, -- [21]
+				{
+					["type"] = 1,
+					["time"] = 1316374603,
+					["from"] = "Oxshield",
+					["msg"] = "go do it",
+					["inbound"] = false,
+					["convo"] = "|Kf283|k00000000000|k",
+				}, -- [22]
+				{
+					["type"] = 1,
+					["time"] = 1316374608,
+					["from"] = "Oxshield",
+					["msg"] = "and DO NOT go back to sleep",
+					["inbound"] = false,
+					["convo"] = "|Kf283|k00000000000|k",
+				}, -- [23]
+				{
+					["type"] = 1,
+					["time"] = 1316374611,
+					["from"] = "Oxshield",
+					["msg"] = "you slept waaaay too much",
+					["inbound"] = false,
+					["convo"] = "|Kf283|k00000000000|k",
+				}, -- [24]
+				{
+					["type"] = 1,
+					["time"] = 1316374628,
+					["from"] = "Oxshield",
+					["msg"] = "I'm serious1",
+					["inbound"] = false,
+					["convo"] = "|Kf283|k00000000000|k",
+				}, -- [25]
+				{
+					["type"] = 1,
+					["time"] = 1316374650,
+					["from"] = "Oxshield",
+					["msg"] = "lol",
+					["inbound"] = false,
+					["convo"] = "|Kf283|k00000000000|k",
+				}, -- [26]
+				{
+					["type"] = 1,
+					["time"] = 1316374686,
+					["from"] = "Oxshield",
+					["msg"] = "I don't understand the whole \"i'm honry\" thing, maybe it's mostly a girl thing. I only get that way when I see someone who is hot, if i don't see a human for a few days, i never feel it",
+					["inbound"] = false,
+					["convo"] = "|Kf283|k00000000000|k",
+				}, -- [27]
+				{
+					["type"] = 1,
+					["time"] = 1316374745,
+					["from"] = "Oxshield",
+					["msg"] = "Well, that makes sense",
+					["inbound"] = false,
+					["convo"] = "|Kf283|k00000000000|k",
+				}, -- [28]
+				{
+					["type"] = 1,
+					["time"] = 1316374762,
+					["from"] = "Oxshield",
+					["msg"] = "so, go masturbate",
+					["inbound"] = false,
+					["convo"] = "|Kf283|k00000000000|k",
+				}, -- [29]
+				{
+					["type"] = 1,
+					["time"] = 1316374777,
+					["from"] = "Oxshield",
+					["msg"] = "of course, that does nothing for me.. since what I miss is another person lol..",
+					["inbound"] = false,
+					["convo"] = "|Kf283|k00000000000|k",
+				}, -- [30]
+				{
+					["type"] = 1,
+					["time"] = 1316374796,
+					["from"] = "Oxshield",
+					["msg"] = "vibrators are evil! D:",
+					["inbound"] = false,
+					["convo"] = "|Kf283|k00000000000|k",
+				}, -- [31]
+				{
+					["type"] = 1,
+					["time"] = 1316374894,
+					["from"] = "Oxshield",
+					["msg"] = "Well, they are quite effective. They just spoil you. Men don't have vibrating dicks yet ><",
+					["inbound"] = false,
+					["convo"] = "|Kf283|k00000000000|k",
+				}, -- [32]
+				{
+					["type"] = 1,
+					["time"] = 1316375361,
+					["from"] = "Oxshield",
+					["msg"] = "?",
+					["inbound"] = false,
+					["convo"] = "|Kf283|k00000000000|k",
+				}, -- [33]
+				{
+					["type"] = 1,
+					["time"] = 1316375367,
+					["from"] = "Oxshield",
+					["msg"] = "on your computer?",
+					["inbound"] = false,
+					["convo"] = "|Kf283|k00000000000|k",
+				}, -- [34]
+				{
+					["type"] = 1,
+					["time"] = 1316375372,
+					["from"] = "Oxshield",
+					["msg"] = "or the vibrator?",
+					["inbound"] = false,
+					["convo"] = "|Kf283|k00000000000|k",
+				}, -- [35]
+				{
+					["type"] = 1,
+					["time"] = 1316375385,
+					["from"] = "Oxshield",
+					["msg"] = "lol",
+					["inbound"] = false,
+					["convo"] = "|Kf283|k00000000000|k",
+				}, -- [36]
+				{
+					["type"] = 1,
+					["time"] = 1316375387,
+					["from"] = "Oxshield",
+					["msg"] = "hrm i don't know",
+					["inbound"] = false,
+					["convo"] = "|Kf283|k00000000000|k",
+				}, -- [37]
+				{
+					["type"] = 1,
+					["time"] = 1316375404,
+					["from"] = "Oxshield",
+					["msg"] = "k",
+					["inbound"] = false,
+					["convo"] = "|Kf283|k00000000000|k",
+				}, -- [38]
+				{
+					["type"] = 1,
+					["time"] = 1316375406,
+					["from"] = "Oxshield",
+					["msg"] = "good plan",
+					["inbound"] = false,
+					["convo"] = "|Kf283|k00000000000|k",
+				}, -- [39]
+				{
+					["type"] = 1,
+					["time"] = 1316377052,
+					["from"] = "Oxshield",
+					["msg"] = ":O",
+					["inbound"] = false,
+					["convo"] = "|Kf283|k00000000000|k",
+				}, -- [40]
+				{
+					["type"] = 1,
+					["time"] = 1316377056,
+					["from"] = "Oxshield",
+					["msg"] = "sound better now?",
+					["inbound"] = false,
+					["convo"] = "|Kf283|k00000000000|k",
+				}, -- [41]
+				{
+					["type"] = 1,
+					["time"] = 1316377222,
+					["from"] = "Oxshield",
+					["msg"] = "yay!",
+					["inbound"] = false,
+					["convo"] = "|Kf283|k00000000000|k",
+				}, -- [42]
+				{
+					["type"] = 1,
+					["time"] = 1316377314,
+					["from"] = "Oxshield",
+					["msg"] = "ummm no?",
+					["inbound"] = false,
+					["convo"] = "|Kf283|k00000000000|k",
+				}, -- [43]
+				{
+					["type"] = 1,
+					["time"] = 1316377328,
+					["from"] = "Oxshield",
+					["msg"] = "ent?",
+					["inbound"] = false,
+					["convo"] = "|Kf283|k00000000000|k",
+				}, -- [44]
+				{
+					["type"] = 1,
+					["time"] = 1316377331,
+					["from"] = "Oxshield",
+					["msg"] = "oh",
+					["inbound"] = false,
+					["convo"] = "|Kf283|k00000000000|k",
+				}, -- [45]
+				{
+					["type"] = 1,
+					["time"] = 1316377334,
+					["from"] = "Oxshield",
+					["msg"] = "hunh",
+					["inbound"] = false,
+					["convo"] = "|Kf283|k00000000000|k",
+				}, -- [46]
+				{
+					["type"] = 1,
+					["time"] = 1316377336,
+					["from"] = "Oxshield",
+					["msg"] = "i don't know",
+					["inbound"] = false,
+					["convo"] = "|Kf283|k00000000000|k",
+				}, -- [47]
+				{
+					["type"] = 1,
+					["time"] = 1316377341,
+					["from"] = "Oxshield",
+					["msg"] = "wasn't me!",
+					["inbound"] = false,
+					["convo"] = "|Kf283|k00000000000|k",
+				}, -- [48]
+				{
+					["type"] = 1,
+					["time"] = 1316377536,
+					["from"] = "Oxshield",
+					["msg"] = "stephen? ",
+					["inbound"] = false,
+					["convo"] = "|Kf283|k00000000000|k",
+				}, -- [49]
+				{
+					["type"] = 1,
+					["time"] = 1316377541,
+					["from"] = "Oxshield",
+					["msg"] = "oh",
+					["inbound"] = false,
+					["convo"] = "|Kf283|k00000000000|k",
+				}, -- [50]
+				{
+					["type"] = 1,
+					["time"] = 1316377543,
+					["from"] = "Oxshield",
+					["msg"] = "i didn't know he was in the guild!",
+					["inbound"] = false,
+					["convo"] = "|Kf283|k00000000000|k",
+				}, -- [51]
+				{
+					["type"] = 1,
+					["time"] = 1316377554,
+					["from"] = "Oxshield",
+					["msg"] = "what was his toon name? lol",
+					["inbound"] = false,
+					["convo"] = "|Kf283|k00000000000|k",
+				}, -- [52]
+				{
+					["type"] = 1,
+					["time"] = 1316377605,
+					["from"] = "Oxshield",
+					["msg"] = "lol wait so you asked him to get kicked?",
+					["inbound"] = false,
+					["convo"] = "|Kf283|k00000000000|k",
+				}, -- [53]
+				{
+					["type"] = 1,
+					["time"] = 1316377607,
+					["from"] = "Oxshield",
+					["msg"] = "i'm confused lol",
+					["inbound"] = false,
+					["convo"] = "|Kf283|k00000000000|k",
+				}, -- [54]
+				{
+					["type"] = 1,
+					["time"] = 1316377617,
+					["from"] = "Oxshield",
+					["msg"] = "wtf",
+					["inbound"] = false,
+					["convo"] = "|Kf283|k00000000000|k",
+				}, -- [55]
+				{
+					["type"] = 1,
+					["time"] = 1316377624,
+					["from"] = "Oxshield",
+					["msg"] = "did you say he played freuqently? or infrequently?",
+					["inbound"] = false,
+					["convo"] = "|Kf283|k00000000000|k",
+				}, -- [56]
+				{
+					["type"] = 1,
+					["time"] = 1316377640,
+					["from"] = "Oxshield",
+					["msg"] = "lol",
+					["inbound"] = false,
+					["convo"] = "|Kf283|k00000000000|k",
+				}, -- [57]
+				{
+					["type"] = 1,
+					["time"] = 1316377647,
+					["from"] = "Oxshield",
+					["msg"] = "why didn't i ever notice that?",
+					["inbound"] = false,
+					["convo"] = "|Kf283|k00000000000|k",
+				}, -- [58]
+				{
+					["type"] = 1,
+					["time"] = 1316377675,
+					["from"] = "Oxshield",
+					["msg"] = "oh gotcha",
+					["inbound"] = false,
+					["convo"] = "|Kf283|k00000000000|k",
+				}, -- [59]
+				{
+					["type"] = 1,
+					["time"] = 1316377681,
+					["from"] = "Oxshield",
+					["msg"] = "well does he know yet?",
+					["inbound"] = false,
+					["convo"] = "|Kf283|k00000000000|k",
+				}, -- [60]
+				{
+					["type"] = 1,
+					["time"] = 1316377684,
+					["from"] = "Oxshield",
+					["msg"] = "that he got kicked out? lol",
+					["inbound"] = false,
+					["convo"] = "|Kf283|k00000000000|k",
+				}, -- [61]
+				{
+					["type"] = 1,
+					["time"] = 1316377709,
+					["from"] = "Oxshield",
+					["msg"] = "lol isn't he gonna be like \"um Jamie, why did i get kicked out of your guild?\"",
+					["inbound"] = false,
+					["convo"] = "|Kf283|k00000000000|k",
+				}, -- [62]
+				{
+					["type"] = 1,
+					["time"] = 1316377750,
+					["from"] = "Oxshield",
+					["msg"] = "lol /facepalm",
+					["inbound"] = false,
+					["convo"] = "|Kf283|k00000000000|k",
+				}, -- [63]
+				{
+					["type"] = 1,
+					["time"] = 1316377754,
+					["from"] = "Oxshield",
+					["msg"] = "he's gonna know you're lying to him",
+					["inbound"] = false,
+					["convo"] = "|Kf283|k00000000000|k",
+				}, -- [64]
+				{
+					["type"] = 1,
+					["time"] = 1316377760,
+					["from"] = "Oxshield",
+					["msg"] = "and being mean",
+					["inbound"] = false,
+					["convo"] = "|Kf283|k00000000000|k",
+				}, -- [65]
+				{
+					["type"] = 1,
+					["time"] = 1316377767,
+					["from"] = "Oxshield",
+					["msg"] = "i'm starting to feel bad for him",
+					["inbound"] = false,
+					["convo"] = "|Kf283|k00000000000|k",
+				}, -- [66]
+				{
+					["type"] = 1,
+					["time"] = 1316377806,
+					["from"] = "Oxshield",
+					["msg"] = "well",
+					["inbound"] = false,
+					["convo"] = "|Kf283|k00000000000|k",
+				}, -- [67]
+				{
+					["type"] = 1,
+					["time"] = 1316377809,
+					["from"] = "Oxshield",
+					["msg"] = "he was obviously mad at you",
+					["inbound"] = false,
+					["convo"] = "|Kf283|k00000000000|k",
+				}, -- [68]
+				{
+					["type"] = 1,
+					["time"] = 1316377817,
+					["from"] = "Oxshield",
+					["msg"] = "though that was a little overboard lol",
+					["inbound"] = false,
+					["convo"] = "|Kf283|k00000000000|k",
+				}, -- [69]
+				{
+					["type"] = 1,
+					["time"] = 1316377837,
+					["from"] = "Oxshield",
+					["msg"] = "but he's kinda getting screwed, and rather than leave him you're just being a jerk to him and leeching off him",
+					["inbound"] = false,
+					["convo"] = "|Kf283|k00000000000|k",
+				}, -- [70]
+				{
+					["type"] = 1,
+					["time"] = 1316377903,
+					["from"] = "Oxshield",
+					["msg"] = "well no, but you shouldn't be a jerk about it.",
+					["inbound"] = false,
+					["convo"] = "|Kf283|k00000000000|k",
+				}, -- [71]
+				{
+					["type"] = 1,
+					["time"] = 1316377922,
+					["from"] = "Oxshield",
+					["msg"] = "Okay, that's fair",
+					["inbound"] = false,
+					["convo"] = "|Kf283|k00000000000|k",
+				}, -- [72]
+				{
+					["type"] = 1,
+					["time"] = 1316377927,
+					["from"] = "Oxshield",
+					["msg"] = "I didn't know he was treating you like shit",
+					["inbound"] = false,
+					["convo"] = "|Kf283|k00000000000|k",
+				}, -- [73]
+				{
+					["type"] = 1,
+					["time"] = 1316377968,
+					["from"] = "Oxshield",
+					["msg"] = "oh",
+					["inbound"] = false,
+					["convo"] = "|Kf283|k00000000000|k",
+				}, -- [74]
+				{
+					["type"] = 1,
+					["time"] = 1316377975,
+					["from"] = "Oxshield",
+					["msg"] = "Don't you do the same to him now?",
+					["inbound"] = false,
+					["convo"] = "|Kf283|k00000000000|k",
+				}, -- [75]
+				{
+					["type"] = 1,
+					["time"] = 1316377981,
+					["from"] = "Oxshield",
+					["msg"] = "And I thought he didn't play much, lol",
+					["inbound"] = false,
+					["convo"] = "|Kf283|k00000000000|k",
+				}, -- [76]
+				{
+					["type"] = 1,
+					["time"] = 1316377994,
+					["from"] = "Oxshield",
+					["msg"] = "oh okay",
+					["inbound"] = false,
+					["convo"] = "|Kf283|k00000000000|k",
+				}, -- [77]
+				{
+					["type"] = 1,
+					["time"] = 1316378003,
+					["from"] = "Oxshield",
+					["msg"] = "and wait a second, I thought he wouldn't sleep with *you*? O_o",
+					["inbound"] = false,
+					["convo"] = "|Kf283|k00000000000|k",
+				}, -- [78]
+				{
+					["type"] = 1,
+					["time"] = 1316378020,
+					["from"] = "Oxshield",
+					["msg"] = "oh",
+					["inbound"] = false,
+					["convo"] = "|Kf283|k00000000000|k",
+				}, -- [79]
+				{
+					["type"] = 1,
+					["time"] = 1316378023,
+					["from"] = "Oxshield",
+					["msg"] = "but now you don't want to?",
+					["inbound"] = false,
+					["convo"] = "|Kf283|k00000000000|k",
+				}, -- [80]
+				{
+					["type"] = 1,
+					["time"] = 1316378028,
+					["from"] = "Oxshield",
+					["msg"] = "or not with him? lol",
+					["inbound"] = false,
+					["convo"] = "|Kf283|k00000000000|k",
+				}, -- [81]
+				{
+					["type"] = 1,
+					["time"] = 1316378068,
+					["from"] = "Oxshield",
+					["msg"] = "lol ugh",
+					["inbound"] = false,
+					["convo"] = "|Kf283|k00000000000|k",
+				}, -- [82]
+				{
+					["type"] = 1,
+					["time"] = 1316378076,
+					["from"] = "Oxshield",
+					["msg"] = "Well, i hope you are communicating to him and telling him that",
+					["inbound"] = false,
+					["convo"] = "|Kf283|k00000000000|k",
+				}, -- [83]
+				{
+					["type"] = 1,
+					["time"] = 1316378089,
+					["from"] = "Oxshield",
+					["msg"] = "and not letting him just be like \"i don't know what's wrong\" and then one day you'll be like \"oh by the way, goodbye!\"",
+					["inbound"] = false,
+					["convo"] = "|Kf283|k00000000000|k",
+				}, -- [84]
+				{
+					["type"] = 1,
+					["time"] = 1316378180,
+					["from"] = "Oxshield",
+					["msg"] = "ah",
+					["inbound"] = false,
+					["convo"] = "|Kf283|k00000000000|k",
+				}, -- [85]
+				{
+					["type"] = 1,
+					["time"] = 1316378204,
+					["from"] = "Oxshield",
+					["msg"] = "Well I guess what i'm saying is, if you have given up on making things work, you should probably tell him so he doesn't think otherwise",
+					["inbound"] = false,
+					["convo"] = "|Kf283|k00000000000|k",
+				}, -- [86]
+				{
+					["type"] = 1,
+					["time"] = 1316378208,
+					["from"] = "Oxshield",
+					["msg"] = "but yeah",
+					["inbound"] = false,
+					["convo"] = "|Kf283|k00000000000|k",
+				}, -- [87]
+				{
+					["type"] = 1,
+					["time"] = 1316378239,
+					["from"] = "Oxshield",
+					["msg"] = "me and my ex Kristine fought a lot like that, and it was dumb, and i never did anything on purpose to hurt her, but she obviously hated what iw as (or wasn't) doing",
+					["inbound"] = false,
+					["convo"] = "|Kf283|k00000000000|k",
+				}, -- [88]
+				{
+					["type"] = 1,
+					["time"] = 1316378264,
+					["from"] = "Oxshield",
+					["msg"] = "of course, now she dated a guy who was actually crazy, and she realized i wans't so bad ;)",
+					["inbound"] = false,
+					["convo"] = "|Kf283|k00000000000|k",
+				}, -- [89]
+				{
+					["type"] = 1,
+					["time"] = 1316378364,
+					["from"] = "Oxshield",
+					["msg"] = "Well, i'm just saying",
+					["inbound"] = false,
+					["convo"] = "|Kf283|k00000000000|k",
+				}, -- [90]
+				{
+					["type"] = 1,
+					["time"] = 1316378366,
+					["from"] = "Oxshield",
+					["msg"] = "communicate",
+					["inbound"] = false,
+					["convo"] = "|Kf283|k00000000000|k",
+				}, -- [91]
+				{
+					["type"] = 1,
+					["time"] = 1316378370,
+					["from"] = "Oxshield",
+					["msg"] = "it's the best thing",
+					["inbound"] = false,
+					["convo"] = "|Kf283|k00000000000|k",
+				}, -- [92]
+				{
+					["type"] = 1,
+					["time"] = 1316378371,
+					["from"] = "Oxshield",
+					["msg"] = "lol",
+					["inbound"] = false,
+					["convo"] = "|Kf283|k00000000000|k",
+				}, -- [93]
+				{
+					["type"] = 1,
+					["time"] = 1316378377,
+					["from"] = "Oxshield",
+					["msg"] = "or if you're done, then be done",
+					["inbound"] = false,
+					["convo"] = "|Kf283|k00000000000|k",
+				}, -- [94]
+				{
+					["type"] = 1,
+					["time"] = 1316378380,
+					["from"] = "Oxshield",
+					["msg"] = "don't let him think otherwise",
+					["inbound"] = false,
+					["convo"] = "|Kf283|k00000000000|k",
+				}, -- [95]
+				{
+					["type"] = 1,
+					["time"] = 1316378395,
+					["from"] = "Oxshield",
+					["msg"] = "I know",
+					["inbound"] = false,
+					["convo"] = "|Kf283|k00000000000|k",
+				}, -- [96]
+				{
+					["type"] = 1,
+					["time"] = 1316378401,
+					["from"] = "Oxshield",
+					["msg"] = "Well",
+					["inbound"] = false,
+					["convo"] = "|Kf283|k00000000000|k",
+				}, -- [97]
+				{
+					["type"] = 1,
+					["time"] = 1316378407,
+					["from"] = "Oxshield",
+					["msg"] = "go live with one of the people who have offered",
+					["inbound"] = false,
+					["convo"] = "|Kf283|k00000000000|k",
+				}, -- [98]
+				{
+					["type"] = 1,
+					["time"] = 1316378420,
+					["from"] = "Oxshield",
+					["msg"] = "oh, i thought others had",
+					["inbound"] = false,
+					["convo"] = "|Kf283|k00000000000|k",
+				}, -- [99]
+				{
+					["type"] = 1,
+					["time"] = 1316378461,
+					["from"] = "Oxshield",
+					["msg"] = "well blah",
+					["inbound"] = false,
+					["convo"] = "|Kf283|k00000000000|k",
+				}, -- [100]
+				{
+					["type"] = 1,
+					["time"] = 1316378466,
+					["from"] = "Oxshield",
+					["msg"] = "Make Jer invite you",
+					["inbound"] = false,
+					["convo"] = "|Kf283|k00000000000|k",
+				}, -- [101]
+				{
+					["type"] = 1,
+					["time"] = 1316378467,
+					["from"] = "Oxshield",
+					["msg"] = "lol",
+					["inbound"] = false,
+					["convo"] = "|Kf283|k00000000000|k",
+				}, -- [102]
+				{
+					["type"] = 1,
+					["time"] = 1316378539,
+					["from"] = "Oxshield",
+					["msg"] = "Jer doesnt'? lol",
+					["inbound"] = false,
+					["convo"] = "|Kf283|k00000000000|k",
+				}, -- [103]
+				{
+					["type"] = 1,
+					["time"] = 1316378546,
+					["from"] = "Oxshield",
+					["msg"] = "go live with Piggy",
+					["inbound"] = false,
+					["convo"] = "|Kf283|k00000000000|k",
+				}, -- [104]
+				{
+					["type"] = 1,
+					["time"] = 1316378573,
+					["from"] = "Oxshield",
+					["msg"] = "It sounds like Piggy has his own place.. haha",
+					["inbound"] = false,
+					["convo"] = "|Kf283|k00000000000|k",
+				}, -- [105]
+				{
+					["type"] = 1,
+					["time"] = 1316378659,
+					["from"] = "Oxshield",
+					["msg"] = "well he is right now",
+					["inbound"] = false,
+					["convo"] = "|Kf283|k00000000000|k",
+				}, -- [106]
+				{
+					["type"] = 1,
+					["time"] = 1316378671,
+					["from"] = "Oxshield",
+					["msg"] = "but doesn't he have his own place?",
+					["inbound"] = false,
+					["convo"] = "|Kf283|k00000000000|k",
+				}, -- [107]
+				{
+					["type"] = 1,
+					["time"] = 1316378676,
+					["from"] = "Oxshield",
+					["msg"] = "maybe not.. i've never asked",
+					["inbound"] = false,
+					["convo"] = "|Kf283|k00000000000|k",
+				}, -- [108]
+				{
+					["type"] = 1,
+					["time"] = 1316378682,
+					["from"] = "Oxshield",
+					["msg"] = "why doesn't he have a girlfriend? lol",
+					["inbound"] = false,
+					["convo"] = "|Kf283|k00000000000|k",
+				}, -- [109]
+				{
+					["type"] = 1,
+					["time"] = 1316378802,
+					["from"] = "Oxshield",
+					["msg"] = "where was he when you visited him last? lol",
+					["inbound"] = false,
+					["convo"] = "|Kf283|k00000000000|k",
+				}, -- [110]
+				{
+					["type"] = 1,
+					["time"] = 1316378838,
+					["from"] = "Oxshield",
+					["msg"] = "oooh i didn't realize he was living with his mom",
+					["inbound"] = false,
+					["convo"] = "|Kf283|k00000000000|k",
+				}, -- [111]
+				{
+					["type"] = 1,
+					["time"] = 1316378839,
+					["from"] = "Oxshield",
+					["msg"] = "lawl",
+					["inbound"] = false,
+					["convo"] = "|Kf283|k00000000000|k",
+				}, -- [112]
+				{
+					["type"] = 1,
+					["time"] = 1316378841,
+					["from"] = "Oxshield",
+					["msg"] = " /facepalm",
+					["inbound"] = false,
+					["convo"] = "|Kf283|k00000000000|k",
+				}, -- [113]
+				{
+					["type"] = 1,
+					["time"] = 1316379059,
+					["from"] = "Oxshield",
+					["msg"] = "Ah well, I don't know.",
+					["inbound"] = false,
+					["convo"] = "|Kf283|k00000000000|k",
+				}, -- [114]
+				{
+					["type"] = 1,
+					["time"] = 1316379065,
+					["from"] = "Oxshield",
+					["msg"] = "I'd help you if I could :(",
+					["inbound"] = false,
+					["convo"] = "|Kf283|k00000000000|k",
+				}, -- [115]
+				{
+					["type"] = 1,
+					["time"] = 1316379076,
+					["from"] = "Oxshield",
+					["msg"] = "If i was skinny and much better looking, lol ;)",
+					["inbound"] = false,
+					["convo"] = "|Kf283|k00000000000|k",
+				}, -- [116]
+				{
+					["type"] = 1,
+					["time"] = 1316380062,
+					["from"] = "Oxshield",
+					["msg"] = "test",
+					["inbound"] = false,
+					["convo"] = "|Kf283|k00000000000|k",
+				}, -- [117]
+				{
+					["type"] = 1,
+					["time"] = 1316380068,
+					["from"] = "Oxshield",
+					["msg"] = "sorry, just checking the time",
+					["inbound"] = false,
+					["convo"] = "|Kf283|k00000000000|k",
+				}, -- [118]
+				{
+					["type"] = 1,
+					["time"] = 1316380083,
+					["from"] = "Oxshield",
+					["msg"] = "O_O",
+					["inbound"] = false,
+					["convo"] = "|Kf283|k00000000000|k",
+				}, -- [119]
+				{
+					["type"] = 1,
+					["time"] = 1316380087,
+					["from"] = "Oxshield",
+					["msg"] = "Are you high again? :P",
+					["inbound"] = false,
+					["convo"] = "|Kf283|k00000000000|k",
+				}, -- [120]
+				{
+					["type"] = 1,
+					["time"] = 1316380101,
+					["from"] = "Oxshield",
+					["msg"] = "ah pretty good!",
+					["inbound"] = false,
+					["convo"] = "|Kf283|k00000000000|k",
+				}, -- [121]
+				{
+					["type"] = 1,
+					["time"] = 1316380107,
+					["from"] = "Oxshield",
+					["msg"] = "my head is wonky from too much sleep and too many drugs",
+					["inbound"] = false,
+					["convo"] = "|Kf283|k00000000000|k",
+				}, -- [122]
+				{
+					["type"] = 1,
+					["time"] = 1316380112,
+					["from"] = "Oxshield",
+					["msg"] = "but i'm good otherwise :)",
+					["inbound"] = false,
+					["convo"] = "|Kf283|k00000000000|k",
+				}, -- [123]
+				{
+					["type"] = 1,
+					["time"] = 1316380131,
+					["from"] = "Oxshield",
+					["msg"] = "my ex, Kristine, has expressed possible interest in dating me again",
+					["inbound"] = false,
+					["convo"] = "|Kf283|k00000000000|k",
+				}, -- [124]
+				{
+					["type"] = 1,
+					["time"] = 1316380144,
+					["from"] = "Oxshield",
+					["msg"] = "and I finally got the phone number of this cute girl Mercades",
+					["inbound"] = false,
+					["convo"] = "|Kf283|k00000000000|k",
+				}, -- [125]
+				{
+					["type"] = 1,
+					["time"] = 1316380205,
+					["from"] = "Oxshield",
+					["msg"] = "yeah but i guess she's gonna get married on monday haha",
+					["inbound"] = false,
+					["convo"] = "|Kf283|k00000000000|k",
+				}, -- [126]
+				{
+					["type"] = 1,
+					["time"] = 1316380214,
+					["from"] = "Oxshield",
+					["msg"] = "and her boyfriend just got her named tattooed on his chest",
+					["inbound"] = false,
+					["convo"] = "|Kf283|k00000000000|k",
+				}, -- [127]
+				{
+					["type"] = 1,
+					["time"] = 1316380218,
+					["from"] = "Oxshield",
+					["msg"] = "so ig uess i should leave that alone..",
+					["inbound"] = false,
+					["convo"] = "|Kf283|k00000000000|k",
+				}, -- [128]
+				{
+					["type"] = 1,
+					["time"] = 1316380258,
+					["from"] = "Oxshield",
+					["msg"] = ":O",
+					["inbound"] = false,
+					["convo"] = "|Kf283|k00000000000|k",
+				}, -- [129]
+				{
+					["type"] = 1,
+					["time"] = 1316380260,
+					["from"] = "Oxshield",
+					["msg"] = "you should!",
+					["inbound"] = false,
+					["convo"] = "|Kf283|k00000000000|k",
+				}, -- [130]
+				{
+					["type"] = 1,
+					["time"] = 1316380365,
+					["from"] = "Oxshield",
+					["msg"] = "Aww, why?",
+					["inbound"] = false,
+					["convo"] = "|Kf283|k00000000000|k",
+				}, -- [131]
+				{
+					["type"] = 1,
+					["time"] = 1316380434,
+					["from"] = "Oxshield",
+					["msg"] = "You can come live in my spare room, and I won't molest you, and you can find me women!",
+					["inbound"] = false,
+					["convo"] = "|Kf283|k00000000000|k",
+				}, -- [132]
+				{
+					["type"] = 1,
+					["time"] = 1316382651,
+					["from"] = "Oxshield",
+					["msg"] = ":O",
+					["inbound"] = false,
+					["convo"] = "|Kf283|k00000000000|k",
+				}, -- [133]
+				{
+					["type"] = 1,
+					["time"] = 1316382954,
+					["from"] = "Oxshield",
+					["msg"] = "yum",
+					["inbound"] = false,
+					["convo"] = "|Kf283|k00000000000|k",
+				}, -- [134]
+				{
+					["type"] = 1,
+					["time"] = 1316382956,
+					["from"] = "Oxshield",
+					["msg"] = "*hugs*",
+					["inbound"] = false,
+					["convo"] = "|Kf283|k00000000000|k",
+				}, -- [135]
+				{
+					["type"] = 1,
+					["time"] = 1316383596,
+					["from"] = "Oxshield",
+					["msg"] = " /lick :O",
+					["inbound"] = false,
+					["convo"] = "|Kf283|k00000000000|k",
+				}, -- [136]
+				["info"] = {
+				},
+			},
+			["Thislilpiggy"] = {
+				{
+					["type"] = 1,
+					["time"] = 1316379828,
+					["from"] = "Thislilpiggy",
+					["msg"] = "poke poke mofo",
+					["inbound"] = true,
+					["convo"] = "Thislilpiggy",
+				}, -- [1]
+				["info"] = {
+				},
+			},
+			["|Kf303|k0000000000000000|k"] = {
+				{
+					["type"] = 1,
+					["time"] = 1316369980,
+					["from"] = "Oxshield",
+					["msg"] = "nice!",
+					["inbound"] = false,
+					["convo"] = "|Kf303|k0000000000000000|k",
+				}, -- [1]
+				{
+					["type"] = 1,
+					["time"] = 1316369984,
+					["from"] = "Oxshield",
+					["msg"] = " |Hachievement:73:0700000004971D0B:1:9:18:11:4294967295:4294967295:4294967295:4294967295|h[Disgracin' The Basin]|h lol",
+					["inbound"] = false,
+					["convo"] = "|Kf303|k0000000000000000|k",
+				}, -- [2]
+				["info"] = {
+				},
+			},
+			["|Kf1394|k00000000000|k"] = {
+				{
+					["type"] = 1,
+					["time"] = 1317007508,
+					["from"] = "Oxshield",
+					["msg"] = "nope :(",
+					["inbound"] = false,
+					["convo"] = "|Kf1394|k00000000000|k",
+				}, -- [1]
+				{
+					["type"] = 1,
+					["time"] = 1317007510,
+					["from"] = "Oxshield",
+					["msg"] = "reconnect?",
+					["inbound"] = false,
+					["convo"] = "|Kf1394|k00000000000|k",
+				}, -- [2]
+				["info"] = {
+				},
+			},
+			["|Kf304|k0000000000000|k"] = {
+				{
+					["type"] = 1,
+					["time"] = 1316380316,
+					["from"] = "Oxshield",
+					["msg"] = "Hey man!",
+					["inbound"] = false,
+					["convo"] = "|Kf304|k0000000000000|k",
+				}, -- [1]
+				{
+					["type"] = 1,
+					["time"] = 1316380331,
+					["from"] = "Oxshield",
+					["msg"] = "good morning",
+					["inbound"] = false,
+					["convo"] = "|Kf304|k0000000000000|k",
+				}, -- [2]
+				{
+					["type"] = 1,
+					["time"] = 1316380402,
+					["from"] = "Oxshield",
+					["msg"] = "Leveling cows again!",
+					["inbound"] = false,
+					["convo"] = "|Kf304|k0000000000000|k",
+				}, -- [3]
+				{
+					["type"] = 1,
+					["time"] = 1316380409,
+					["from"] = "Oxshield",
+					["msg"] = "but we'll probably be done in an hour",
+					["inbound"] = false,
+					["convo"] = "|Kf304|k0000000000000|k",
+				}, -- [4]
+				{
+					["type"] = 1,
+					["time"] = 1316380513,
+					["from"] = "Oxshield",
+					["msg"] = "haha",
+					["inbound"] = false,
+					["convo"] = "|Kf304|k0000000000000|k",
+				}, -- [5]
+				{
+					["type"] = 1,
+					["time"] = 1316380517,
+					["from"] = "Oxshield",
+					["msg"] = "alright fair enough",
+					["inbound"] = false,
+					["convo"] = "|Kf304|k0000000000000|k",
+				}, -- [6]
+				{
+					["type"] = 1,
+					["time"] = 1316381338,
+					["from"] = "Oxshield",
+					["msg"] = "so",
+					["inbound"] = false,
+					["convo"] = "|Kf304|k0000000000000|k",
+				}, -- [7]
+				{
+					["type"] = 1,
+					["time"] = 1316381342,
+					["from"] = "Oxshield",
+					["msg"] = "imo",
+					["inbound"] = false,
+					["convo"] = "|Kf304|k0000000000000|k",
+				}, -- [8]
+				{
+					["type"] = 1,
+					["time"] = 1316381344,
+					["from"] = "Oxshield",
+					["msg"] = "after xmog",
+					["inbound"] = false,
+					["convo"] = "|Kf304|k0000000000000|k",
+				}, -- [9]
+				{
+					["type"] = 1,
+					["time"] = 1316381350,
+					["from"] = "Oxshield",
+					["msg"] = "any shield tank using a one hand mace",
+					["inbound"] = false,
+					["convo"] = "|Kf304|k0000000000000|k",
+				}, -- [10]
+				{
+					["type"] = 1,
+					["time"] = 1316381355,
+					["from"] = "Oxshield",
+					["msg"] = "has got to be using this:  |Hitem:68194:0:0:0:0:0:0:445999728:16:0|h[Oggleflint's Inspirer]|h",
+					["inbound"] = false,
+					["convo"] = "|Kf304|k0000000000000|k",
+				}, -- [11]
+				{
+					["type"] = 1,
+					["time"] = 1316381378,
+					["from"] = "Oxshield",
+					["msg"] = "lol i laughed pretty good when i saw someone with it",
+					["inbound"] = false,
+					["convo"] = "|Kf304|k0000000000000|k",
+				}, -- [12]
+				{
+					["type"] = 1,
+					["time"] = 1316381417,
+					["from"] = "Oxshield",
+					["msg"] = "so how are you today? otherwise",
+					["inbound"] = false,
+					["convo"] = "|Kf304|k0000000000000|k",
+				}, -- [13]
+				{
+					["type"] = 1,
+					["time"] = 1316381450,
+					["from"] = "Oxshield",
+					["msg"] = "lol oh?",
+					["inbound"] = false,
+					["convo"] = "|Kf304|k0000000000000|k",
+				}, -- [14]
+				{
+					["type"] = 1,
+					["time"] = 1316381453,
+					["from"] = "Oxshield",
+					["msg"] = "why was it wasted?",
+					["inbound"] = false,
+					["convo"] = "|Kf304|k0000000000000|k",
+				}, -- [15]
+				{
+					["type"] = 1,
+					["time"] = 1316381508,
+					["from"] = "Oxshield",
+					["msg"] = "hahaha",
+					["inbound"] = false,
+					["convo"] = "|Kf304|k0000000000000|k",
+				}, -- [16]
+				{
+					["type"] = 1,
+					["time"] = 1316381509,
+					["from"] = "Oxshield",
+					["msg"] = "sorry",
+					["inbound"] = false,
+					["convo"] = "|Kf304|k0000000000000|k",
+				}, -- [17]
+				{
+					["type"] = 1,
+					["time"] = 1316381515,
+					["from"] = "Oxshield",
+					["msg"] = "what exactly qualifies as the history of graphic design/",
+					["inbound"] = false,
+					["convo"] = "|Kf304|k0000000000000|k",
+				}, -- [18]
+				{
+					["type"] = 1,
+					["time"] = 1316381517,
+					["from"] = "Oxshield",
+					["msg"] = "?",
+					["inbound"] = false,
+					["convo"] = "|Kf304|k0000000000000|k",
+				}, -- [19]
+				{
+					["type"] = 1,
+					["time"] = 1316381540,
+					["from"] = "Oxshield",
+					["msg"] = "\"So like, first there was ascii art. And then like.. we got 4 bit GIF and the world rejoiced, except for the guys still on the 400 baud modems.\"",
+					["inbound"] = false,
+					["convo"] = "|Kf304|k0000000000000|k",
+				}, -- [20]
+				{
+					["type"] = 1,
+					["time"] = 1316381581,
+					["from"] = "Oxshield",
+					["msg"] = "oh okay",
+					["inbound"] = false,
+					["convo"] = "|Kf304|k0000000000000|k",
+				}, -- [21]
+				{
+					["type"] = 1,
+					["time"] = 1316381589,
+					["from"] = "Oxshield",
+					["msg"] = "is a \"win press\" a real thing? lol",
+					["inbound"] = false,
+					["convo"] = "|Kf304|k0000000000000|k",
+				}, -- [22]
+				{
+					["type"] = 1,
+					["time"] = 1316381594,
+					["from"] = "Oxshield",
+					["msg"] = "lolol",
+					["inbound"] = false,
+					["convo"] = "|Kf304|k0000000000000|k",
+				}, -- [23]
+				{
+					["type"] = 1,
+					["time"] = 1316381654,
+					["from"] = "Oxshield",
+					["msg"] = "haha",
+					["inbound"] = false,
+					["convo"] = "|Kf304|k0000000000000|k",
+				}, -- [24]
+				{
+					["type"] = 1,
+					["time"] = 1316381659,
+					["from"] = "Oxshield",
+					["msg"] = "well it's an online quiz.. google it",
+					["inbound"] = false,
+					["convo"] = "|Kf304|k0000000000000|k",
+				}, -- [25]
+				{
+					["type"] = 1,
+					["time"] = 1316381703,
+					["from"] = "Oxshield",
+					["msg"] = "oh okay, lol",
+					["inbound"] = false,
+					["convo"] = "|Kf304|k0000000000000|k",
+				}, -- [26]
+				{
+					["type"] = 1,
+					["time"] = 1316381706,
+					["from"] = "Oxshield",
+					["msg"] = "that sucks man, i'm sorry",
+					["inbound"] = false,
+					["convo"] = "|Kf304|k0000000000000|k",
+				}, -- [27]
+				{
+					["type"] = 1,
+					["time"] = 1316381750,
+					["from"] = "Oxshield",
+					["msg"] = "lol yeah",
+					["inbound"] = false,
+					["convo"] = "|Kf304|k0000000000000|k",
+				}, -- [28]
+				{
+					["type"] = 1,
+					["time"] = 1316381753,
+					["from"] = "Oxshield",
+					["msg"] = "I understand",
+					["inbound"] = false,
+					["convo"] = "|Kf304|k0000000000000|k",
+				}, -- [29]
+				{
+					["type"] = 1,
+					["time"] = 1316381758,
+					["from"] = "Oxshield",
+					["msg"] = "you could have been installing Oracle! :O",
+					["inbound"] = false,
+					["convo"] = "|Kf304|k0000000000000|k",
+				}, -- [30]
+				{
+					["type"] = 1,
+					["time"] = 1316381787,
+					["from"] = "Oxshield",
+					["msg"] = "haha",
+					["inbound"] = false,
+					["convo"] = "|Kf304|k0000000000000|k",
+				}, -- [31]
+				{
+					["type"] = 1,
+					["time"] = 1316381836,
+					["from"] = "Oxshield",
+					["msg"] = "This is important for your future!",
+					["inbound"] = false,
+					["convo"] = "|Kf304|k0000000000000|k",
+				}, -- [32]
+				{
+					["type"] = 1,
+					["time"] = 1316381840,
+					["from"] = "Oxshield",
+					["msg"] = "and.. *I* find it fun",
+					["inbound"] = false,
+					["convo"] = "|Kf304|k0000000000000|k",
+				}, -- [33]
+				{
+					["type"] = 1,
+					["time"] = 1316381914,
+					["from"] = "Oxshield",
+					["msg"] = "lol",
+					["inbound"] = false,
+					["convo"] = "|Kf304|k0000000000000|k",
+				}, -- [34]
+				{
+					["type"] = 1,
+					["time"] = 1316381922,
+					["from"] = "Oxshield",
+					["msg"] = "Well, that'll be better than the guy who says \"um, none\"",
+					["inbound"] = false,
+					["convo"] = "|Kf304|k0000000000000|k",
+				}, -- [35]
+				{
+					["type"] = 1,
+					["time"] = 1316381941,
+					["from"] = "Oxshield",
+					["msg"] = "but I'd suggest something more like \"well I have used Toad to pull reports from a databae, and wrote a few queries myself\"",
+					["inbound"] = false,
+					["convo"] = "|Kf304|k0000000000000|k",
+				}, -- [36]
+				{
+					["type"] = 1,
+					["time"] = 1316382048,
+					["from"] = "Oxshield",
+					["msg"] = "haha",
+					["inbound"] = false,
+					["convo"] = "|Kf304|k0000000000000|k",
+				}, -- [37]
+				["info"] = {
+				},
+			},
+			["|Kf1415|k0000000000000|k"] = {
+				{
+					["type"] = 1,
+					["time"] = 1317007361,
+					["from"] = "Oxshield",
+					["msg"] = "dude terrible timing, right when we get on the cows!",
+					["inbound"] = false,
+					["convo"] = "|Kf1415|k0000000000000|k",
+				}, -- [1]
+				{
+					["type"] = 1,
+					["time"] = 1317007372,
+					["from"] = "Oxshield",
+					["msg"] = "Oh good you're playing that lowbie anyway",
+					["inbound"] = false,
+					["convo"] = "|Kf1415|k0000000000000|k",
+				}, -- [2]
+				{
+					["type"] = 1,
+					["time"] = 1317007377,
+					["from"] = "Oxshield",
+					["msg"] = "our cow alts",
+					["inbound"] = false,
+					["convo"] = "|Kf1415|k0000000000000|k",
+				}, -- [3]
+				{
+					["type"] = 1,
+					["time"] = 1317007384,
+					["from"] = "Oxshield",
+					["msg"] = "me, maso and piggy lol",
+					["inbound"] = false,
+					["convo"] = "|Kf1415|k0000000000000|k",
+				}, -- [4]
+				{
+					["type"] = 1,
+					["time"] = 1317007397,
+					["from"] = "Oxshield",
+					["msg"] = "I played on my lock a bit today",
+					["inbound"] = false,
+					["convo"] = "|Kf1415|k0000000000000|k",
+				}, -- [5]
+				{
+					["type"] = 1,
+					["time"] = 1317007399,
+					["from"] = "Oxshield",
+					["msg"] = "it was fun!",
+					["inbound"] = false,
+					["convo"] = "|Kf1415|k0000000000000|k",
+				}, -- [6]
+				{
+					["type"] = 1,
+					["time"] = 1317007401,
+					["from"] = "Oxshield",
+					["msg"] = "i did well",
+					["inbound"] = false,
+					["convo"] = "|Kf1415|k0000000000000|k",
+				}, -- [7]
+				{
+					["type"] = 1,
+					["time"] = 1317007405,
+					["from"] = "Oxshield",
+					["msg"] = "it felt.. evil, but in a good way",
+					["inbound"] = false,
+					["convo"] = "|Kf1415|k0000000000000|k",
+				}, -- [8]
+				{
+					["type"] = 1,
+					["time"] = 1317007411,
+					["from"] = "Oxshield",
+					["msg"] = "also neverending mana made me happy",
+					["inbound"] = false,
+					["convo"] = "|Kf1415|k0000000000000|k",
+				}, -- [9]
+				{
+					["type"] = 1,
+					["time"] = 1317007412,
+					["from"] = "Oxshield",
+					["msg"] = "84",
+					["inbound"] = false,
+					["convo"] = "|Kf1415|k0000000000000|k",
+				}, -- [10]
+				{
+					["type"] = 1,
+					["time"] = 1317007475,
+					["from"] = "Oxshield",
+					["msg"] = "not really",
+					["inbound"] = false,
+					["convo"] = "|Kf1415|k0000000000000|k",
+				}, -- [11]
+				{
+					["type"] = 1,
+					["time"] = 1317007652,
+					["from"] = "Oxshield",
+					["msg"] = "but, it's fun that in affliction life tap takes 10% hp and restores 60% mana lol",
+					["inbound"] = false,
+					["convo"] = "|Kf1415|k0000000000000|k",
+				}, -- [12]
+				{
+					["type"] = 1,
+					["time"] = 1317007702,
+					["from"] = "Oxshield",
+					["msg"] = "I don't know, it was jsut fun",
+					["inbound"] = false,
+					["convo"] = "|Kf1415|k0000000000000|k",
+				}, -- [13]
+				{
+					["type"] = 1,
+					["time"] = 1317007707,
+					["from"] = "Oxshield",
+					["msg"] = "she's 84 and 70% now",
+					["inbound"] = false,
+					["convo"] = "|Kf1415|k0000000000000|k",
+				}, -- [14]
+				{
+					["type"] = 1,
+					["time"] = 1317007711,
+					["from"] = "Oxshield",
+					["msg"] = "i'll join you when you get there!",
+					["inbound"] = false,
+					["convo"] = "|Kf1415|k0000000000000|k",
+				}, -- [15]
+				{
+					["type"] = 1,
+					["time"] = 1317007793,
+					["from"] = "Oxshield",
+					["msg"] = "sweet!",
+					["inbound"] = false,
+					["convo"] = "|Kf1415|k0000000000000|k",
+				}, -- [16]
+				{
+					["type"] = 1,
+					["time"] = 1317007936,
+					["from"] = "Oxshield",
+					["msg"] = "cool",
+					["inbound"] = false,
+					["convo"] = "|Kf1415|k0000000000000|k",
+				}, -- [17]
+				{
+					["type"] = 1,
+					["time"] = 1317007941,
+					["from"] = "Oxshield",
+					["msg"] = "oh i was sayign earlier about the t13s",
+					["inbound"] = false,
+					["convo"] = "|Kf1415|k0000000000000|k",
+				}, -- [18]
+				{
+					["type"] = 1,
+					["time"] = 1317007966,
+					["from"] = "Oxshield",
+					["msg"] = "people were saying it would allow a rotaitonw here you spammed mind spike and mind blast only while fiend was up",
+					["inbound"] = false,
+					["convo"] = "|Kf1415|k0000000000000|k",
+				}, -- [19]
+				{
+					["type"] = 1,
+					["time"] = 1317007973,
+					["from"] = "Oxshield",
+					["msg"] = "because of all the orbs it would make",
+					["inbound"] = false,
+					["convo"] = "|Kf1415|k0000000000000|k",
+				}, -- [20]
+				{
+					["type"] = 1,
+					["time"] = 1317007977,
+					["from"] = "Oxshield",
+					["msg"] = "sounded fun",
+					["inbound"] = false,
+					["convo"] = "|Kf1415|k0000000000000|k",
+				}, -- [21]
+				{
+					["type"] = 1,
+					["time"] = 1317007978,
+					["from"] = "Oxshield",
+					["msg"] = "lol",
+					["inbound"] = false,
+					["convo"] = "|Kf1415|k0000000000000|k",
+				}, -- [22]
 				["info"] = {
 				},
 			},
@@ -14140,50 +13929,6 @@ WIM3_History = {
 				["info"] = {
 				},
 			},
-			["|Kf205|k000000000000|k"] = {
-				{
-					["type"] = 1,
-					["time"] = 1316219728,
-					["from"] = "Aset",
-					["msg"] = "DON'T YOU LEVEL",
-					["inbound"] = false,
-					["convo"] = "|Kf205|k000000000000|k",
-				}, -- [1]
-				{
-					["type"] = 1,
-					["time"] = 1316219732,
-					["from"] = "Aset",
-					["msg"] = "I'LL BE THERE SOON",
-					["inbound"] = false,
-					["convo"] = "|Kf205|k000000000000|k",
-				}, -- [2]
-				{
-					["type"] = 1,
-					["time"] = 1316219756,
-					["from"] = "Aset",
-					["msg"] = "well, soonish",
-					["inbound"] = false,
-					["convo"] = "|Kf205|k000000000000|k",
-				}, -- [3]
-				{
-					["type"] = 1,
-					["time"] = 1316219760,
-					["from"] = "Aset",
-					["msg"] = "i gotta xfer a toon off my account",
-					["inbound"] = false,
-					["convo"] = "|Kf205|k000000000000|k",
-				}, -- [4]
-				{
-					["type"] = 1,
-					["time"] = 1316219764,
-					["from"] = "Aset",
-					["msg"] = "so give me a sec lol",
-					["inbound"] = false,
-					["convo"] = "|Kf205|k000000000000|k",
-				}, -- [5]
-				["info"] = {
-				},
-			},
 			["Edifipal"] = {
 				{
 					["type"] = 1,
@@ -14217,210 +13962,6 @@ WIM3_History = {
 					["inbound"] = true,
 					["convo"] = "Edifipal",
 				}, -- [4]
-				["info"] = {
-				},
-			},
-			["|Kf95|k0000000000000|k"] = {
-				{
-					["type"] = 1,
-					["time"] = 1316748373,
-					["from"] = "Aset",
-					["msg"] = "I'm pretty much going to bed",
-					["inbound"] = false,
-					["convo"] = "|Kf95|k0000000000000|k",
-				}, -- [1]
-				{
-					["type"] = 1,
-					["time"] = 1316748376,
-					["from"] = "Aset",
-					["msg"] = "i feel like so much shit",
-					["inbound"] = false,
-					["convo"] = "|Kf95|k0000000000000|k",
-				}, -- [2]
-				{
-					["type"] = 1,
-					["time"] = 1316748377,
-					["from"] = "Aset",
-					["msg"] = "but",
-					["inbound"] = false,
-					["convo"] = "|Kf95|k0000000000000|k",
-				}, -- [3]
-				{
-					["type"] = 1,
-					["time"] = 1316748383,
-					["from"] = "Aset",
-					["msg"] = "it looks like Group 1 just killed Rag",
-					["inbound"] = false,
-					["convo"] = "|Kf95|k0000000000000|k",
-				}, -- [4]
-				{
-					["type"] = 1,
-					["time"] = 1316748386,
-					["from"] = "Aset",
-					["msg"] = "and got the mount",
-					["inbound"] = false,
-					["convo"] = "|Kf95|k0000000000000|k",
-				}, -- [5]
-				{
-					["type"] = 1,
-					["time"] = 1316748409,
-					["from"] = "Aset",
-					["msg"] = "That's *waaay* too many for it to be coincidence, it must drop at 100% the first time you kill him",
-					["inbound"] = false,
-					["convo"] = "|Kf95|k0000000000000|k",
-				}, -- [6]
-				{
-					["type"] = 1,
-					["time"] = 1316748417,
-					["from"] = "Aset",
-					["msg"] = "not sure how it would be calculated though",
-					["inbound"] = false,
-					["convo"] = "|Kf95|k0000000000000|k",
-				}, -- [7]
-				{
-					["type"] = 1,
-					["time"] = 1316748431,
-					["from"] = "Aset",
-					["msg"] = "but.. our group got it on first kill, pariah got it on first kill, Group 1 got it on frist kill",
-					["inbound"] = false,
-					["convo"] = "|Kf95|k0000000000000|k",
-				}, -- [8]
-				{
-					["type"] = 1,
-					["time"] = 1316748441,
-					["from"] = "Aset",
-					["msg"] = "and none of us have seen another since then, despite having killed him 8 times more each",
-					["inbound"] = false,
-					["convo"] = "|Kf95|k0000000000000|k",
-				}, -- [9]
-				{
-					["type"] = 1,
-					["time"] = 1316748491,
-					["from"] = "Aset",
-					["msg"] = "but anyway",
-					["inbound"] = false,
-					["convo"] = "|Kf95|k0000000000000|k",
-				}, -- [10]
-				{
-					["type"] = 1,
-					["time"] = 1316748555,
-					["from"] = "Aset",
-					["msg"] = "sure",
-					["inbound"] = false,
-					["convo"] = "|Kf95|k0000000000000|k",
-				}, -- [11]
-				{
-					["type"] = 1,
-					["time"] = 1316748558,
-					["from"] = "Aset",
-					["msg"] = "okay so anyway",
-					["inbound"] = false,
-					["convo"] = "|Kf95|k0000000000000|k",
-				}, -- [12]
-				{
-					["type"] = 1,
-					["time"] = 1316748567,
-					["from"] = "Aset",
-					["msg"] = "We did most/all of the achivements in Ulduar",
-					["inbound"] = false,
-					["convo"] = "|Kf95|k0000000000000|k",
-				}, -- [13]
-				{
-					["type"] = 1,
-					["time"] = 1316748568,
-					["from"] = "Aset",
-					["msg"] = "tonight",
-					["inbound"] = false,
-					["convo"] = "|Kf95|k0000000000000|k",
-				}, -- [14]
-				{
-					["type"] = 1,
-					["time"] = 1316748578,
-					["from"] = "Aset",
-					["msg"] = "and! now i'm in the 10,000 club!",
-					["inbound"] = false,
-					["convo"] = "|Kf95|k0000000000000|k",
-				}, -- [15]
-				{
-					["type"] = 1,
-					["time"] = 1316748603,
-					["from"] = "Aset",
-					["msg"] = "10,020 points",
-					["inbound"] = false,
-					["convo"] = "|Kf95|k0000000000000|k",
-				}, -- [16]
-				{
-					["type"] = 1,
-					["time"] = 1316748698,
-					["from"] = "Aset",
-					["msg"] = "got two mounts in Trade right now",
-					["inbound"] = false,
-					["convo"] = "|Kf95|k0000000000000|k",
-				}, -- [17]
-				{
-					["type"] = 1,
-					["time"] = 1316748699,
-					["from"] = "Aset",
-					["msg"] = "lol",
-					["inbound"] = false,
-					["convo"] = "|Kf95|k0000000000000|k",
-				}, -- [18]
-				{
-					["type"] = 1,
-					["time"] = 1316748702,
-					["from"] = "Aset",
-					["msg"] = "two blazing birds",
-					["inbound"] = false,
-					["convo"] = "|Kf95|k0000000000000|k",
-				}, -- [19]
-				{
-					["type"] = 1,
-					["time"] = 1316748704,
-					["from"] = "Aset",
-					["msg"] = "also",
-					["inbound"] = false,
-					["convo"] = "|Kf95|k0000000000000|k",
-				}, -- [20]
-				{
-					["type"] = 1,
-					["time"] = 1316748708,
-					["from"] = "Aset",
-					["msg"] = " |Hitem:45892:0:0:0:0:0:0:1486296384:85:0|h[Legacy of Thunder]|h |Hitem:45661:0:0:0:0:0:0:1754731840:85:0|h[Spaulders of the Wayward Vanquisher]|h",
-					["inbound"] = false,
-					["convo"] = "|Kf95|k0000000000000|k",
-				}, -- [21]
-				{
-					["type"] = 1,
-					["time"] = 1316748715,
-					["from"] = "Aset",
-					["msg"] = "Yep",
-					["inbound"] = false,
-					["convo"] = "|Kf95|k0000000000000|k",
-				}, -- [22]
-				{
-					["type"] = 1,
-					["time"] = 1316748720,
-					["from"] = "Aset",
-					["msg"] = "Got my T8 shoulders from that run",
-					["inbound"] = false,
-					["convo"] = "|Kf95|k0000000000000|k",
-				}, -- [23]
-				{
-					["type"] = 1,
-					["time"] = 1316748721,
-					["from"] = "Aset",
-					["msg"] = "wohoo!",
-					["inbound"] = false,
-					["convo"] = "|Kf95|k0000000000000|k",
-				}, -- [24]
-				{
-					["type"] = 1,
-					["time"] = 1316748729,
-					["from"] = "Aset",
-					["msg"] = "sec switching",
-					["inbound"] = false,
-					["convo"] = "|Kf95|k0000000000000|k",
-				}, -- [25]
 				["info"] = {
 				},
 			},
@@ -14551,7 +14092,7 @@ WIM3_History = {
 			["Leare"] = {
 				{
 					["type"] = 1,
-					["time"] = 1315879008,
+					["time"] = 1315965716,
 					["from"] = "Leare",
 					["msg"] = "|cff71d5ff|Hspell:33206|h[Pain Suppression]|h|r cast on You!",
 					["inbound"] = true,
@@ -14559,7 +14100,7 @@ WIM3_History = {
 				}, -- [1]
 				{
 					["type"] = 1,
-					["time"] = 1315879016,
+					["time"] = 1315965724,
 					["from"] = "Leare",
 					["msg"] = "|cff71d5ff|Hspell:33206|h[Pain Suppression]|h|r on You ended!",
 					["inbound"] = true,
@@ -14567,44 +14108,12 @@ WIM3_History = {
 				}, -- [2]
 				{
 					["type"] = 1,
-					["time"] = 1315880652,
-					["from"] = "Leare",
-					["msg"] = "|cff71d5ff|Hspell:33206|h[Pain Suppression]|h|r cast on You!",
-					["inbound"] = true,
-					["convo"] = "Leare",
-				}, -- [3]
-				{
-					["type"] = 1,
-					["time"] = 1315880660,
-					["from"] = "Leare",
-					["msg"] = "|cff71d5ff|Hspell:33206|h[Pain Suppression]|h|r on You ended!",
-					["inbound"] = true,
-					["convo"] = "Leare",
-				}, -- [4]
-				{
-					["type"] = 1,
-					["time"] = 1315965716,
-					["from"] = "Leare",
-					["msg"] = "|cff71d5ff|Hspell:33206|h[Pain Suppression]|h|r cast on You!",
-					["inbound"] = true,
-					["convo"] = "Leare",
-				}, -- [5]
-				{
-					["type"] = 1,
-					["time"] = 1315965724,
-					["from"] = "Leare",
-					["msg"] = "|cff71d5ff|Hspell:33206|h[Pain Suppression]|h|r on You ended!",
-					["inbound"] = true,
-					["convo"] = "Leare",
-				}, -- [6]
-				{
-					["type"] = 1,
 					["time"] = 1315967715,
 					["from"] = "Leare",
 					["msg"] = "|cff71d5ff|Hspell:10060|h[Power Infusion]|h|r cast on You!",
 					["inbound"] = true,
 					["convo"] = "Leare",
-				}, -- [7]
+				}, -- [3]
 				{
 					["type"] = 1,
 					["time"] = 1315968206,
@@ -14612,7 +14121,7 @@ WIM3_History = {
 					["msg"] = "|cff71d5ff|Hspell:10060|h[Power Infusion]|h|r cast on You!",
 					["inbound"] = true,
 					["convo"] = "Leare",
-				}, -- [8]
+				}, -- [4]
 				{
 					["type"] = 1,
 					["time"] = 1316138695,
@@ -14620,7 +14129,7 @@ WIM3_History = {
 					["msg"] = "|cff71d5ff|Hspell:10060|h[Power Infusion]|h|r cast on You!",
 					["inbound"] = true,
 					["convo"] = "Leare",
-				}, -- [9]
+				}, -- [5]
 				{
 					["type"] = 1,
 					["time"] = 1316138834,
@@ -14628,7 +14137,7 @@ WIM3_History = {
 					["msg"] = "|cff71d5ff|Hspell:10060|h[Power Infusion]|h|r cast on You!",
 					["inbound"] = true,
 					["convo"] = "Leare",
-				}, -- [10]
+				}, -- [6]
 				{
 					["type"] = 1,
 					["time"] = 1316139379,
@@ -14636,7 +14145,7 @@ WIM3_History = {
 					["msg"] = "|cff71d5ff|Hspell:10060|h[Power Infusion]|h|r cast on You!",
 					["inbound"] = true,
 					["convo"] = "Leare",
-				}, -- [11]
+				}, -- [7]
 				{
 					["type"] = 1,
 					["time"] = 1316139644,
@@ -14644,7 +14153,7 @@ WIM3_History = {
 					["msg"] = "|cff71d5ff|Hspell:10060|h[Power Infusion]|h|r cast on You!",
 					["inbound"] = true,
 					["convo"] = "Leare",
-				}, -- [12]
+				}, -- [8]
 				{
 					["type"] = 1,
 					["time"] = 1316141266,
@@ -14652,7 +14161,7 @@ WIM3_History = {
 					["msg"] = "|cff71d5ff|Hspell:33206|h[Pain Suppression]|h|r cast on You!",
 					["inbound"] = true,
 					["convo"] = "Leare",
-				}, -- [13]
+				}, -- [9]
 				{
 					["type"] = 1,
 					["time"] = 1316141274,
@@ -14660,7 +14169,7 @@ WIM3_History = {
 					["msg"] = "|cff71d5ff|Hspell:33206|h[Pain Suppression]|h|r on You ended!",
 					["inbound"] = true,
 					["convo"] = "Leare",
-				}, -- [14]
+				}, -- [10]
 				{
 					["type"] = 1,
 					["time"] = 1316141517,
@@ -14668,7 +14177,7 @@ WIM3_History = {
 					["msg"] = "|cff71d5ff|Hspell:33206|h[Pain Suppression]|h|r cast on You!",
 					["inbound"] = true,
 					["convo"] = "Leare",
-				}, -- [15]
+				}, -- [11]
 				{
 					["type"] = 1,
 					["time"] = 1316141525,
@@ -14676,7 +14185,7 @@ WIM3_History = {
 					["msg"] = "|cff71d5ff|Hspell:33206|h[Pain Suppression]|h|r on You ended!",
 					["inbound"] = true,
 					["convo"] = "Leare",
-				}, -- [16]
+				}, -- [12]
 				{
 					["type"] = 1,
 					["time"] = 1316574569,
@@ -14684,7 +14193,7 @@ WIM3_History = {
 					["msg"] = "|cff71d5ff|Hspell:33206|h[Pain Suppression]|h|r cast on You!",
 					["inbound"] = true,
 					["convo"] = "Leare",
-				}, -- [17]
+				}, -- [13]
 				{
 					["type"] = 1,
 					["time"] = 1316574577,
@@ -14692,7 +14201,7 @@ WIM3_History = {
 					["msg"] = "|cff71d5ff|Hspell:33206|h[Pain Suppression]|h|r on You ended!",
 					["inbound"] = true,
 					["convo"] = "Leare",
-				}, -- [18]
+				}, -- [14]
 				{
 					["type"] = 1,
 					["time"] = 1316744309,
@@ -14700,7 +14209,7 @@ WIM3_History = {
 					["msg"] = "Rezzing you (don't walk in!)",
 					["inbound"] = false,
 					["convo"] = "Leare",
-				}, -- [19]
+				}, -- [15]
 				["info"] = {
 				},
 			},
@@ -14772,1087 +14281,519 @@ WIM3_History = {
 				["info"] = {
 				},
 			},
-			["|Kf76|k000000000000|k"] = {
+			["|Kf589|k000000000000|k"] = {
 				{
 					["type"] = 1,
-					["time"] = 1315867327,
+					["time"] = 1316130422,
 					["from"] = "Aset",
-					["msg"] = "hai",
+					["msg"] = "uhhhh",
 					["inbound"] = false,
-					["convo"] = "|Kf76|k000000000000|k",
-				}, -- [1]
-				["info"] = {
-				},
-			},
-			["Haliax"] = {
-				{
-					["type"] = 1,
-					["time"] = 1316293845,
-					["from"] = "Aset",
-					["msg"] = " |cffa335ee|Hitem:70228:0:0:0:0:0:0:0:85:0|h[Ruthless Gladiator's Staff]|h|r",
-					["inbound"] = false,
-					["convo"] = "Haliax",
+					["convo"] = "|Kf589|k000000000000|k",
 				}, -- [1]
 				{
 					["type"] = 1,
-					["time"] = 1316293893,
+					["time"] = 1316130424,
 					["from"] = "Aset",
-					["msg"] = " |cffa335ee|Hitem:70225:0:0:0:0:0:0:0:85:0|h[Ruthless Gladiator's Pike]|h|r",
+					["msg"] = "hard to say",
 					["inbound"] = false,
-					["convo"] = "Haliax",
+					["convo"] = "|Kf589|k000000000000|k",
 				}, -- [2]
 				{
 					["type"] = 1,
-					["time"] = 1316293943,
+					["time"] = 1316130433,
 					["from"] = "Aset",
-					["msg"] = " |cffa335ee|Hitem:71361:4227:0:0:0:0:0:1267762752:85:154|h[Ranseur of Hatred]|h|r",
+					["msg"] = "the chest coudl be bigger, will it give you a set bonus?",
 					["inbound"] = false,
-					["convo"] = "Haliax",
+					["convo"] = "|Kf589|k000000000000|k",
 				}, -- [3]
 				{
 					["type"] = 1,
-					["time"] = 1316294177,
-					["from"] = "Haliax",
-					["msg"] = " |cffa335ee|Hitem:70578:0:0:0:0:0:0:0:85:0|h[Vicious Gladiator's Insignia of Dominance]|h|r",
-					["inbound"] = true,
-					["convo"] = "Haliax",
+					["time"] = 1316130443,
+					["from"] = "Aset",
+					["msg"] = "but yeah the trinket is almost certainly more int",
+					["inbound"] = false,
+					["convo"] = "|Kf589|k000000000000|k",
 				}, -- [4]
 				{
 					["type"] = 1,
-					["time"] = 1316315761,
+					["time"] = 1316130444,
 					["from"] = "Aset",
-					["msg"] = "so, Maso's parents are rich, but they make him submit expense reports for what he buys",
+					["msg"] = "so probably best",
 					["inbound"] = false,
-					["convo"] = "Haliax",
+					["convo"] = "|Kf589|k000000000000|k",
 				}, -- [5]
 				{
 					["type"] = 1,
-					["time"] = 1316315767,
-					["from"] = "Haliax",
-					["msg"] = "lol",
-					["inbound"] = true,
-					["convo"] = "Haliax",
+					["time"] = 1316130499,
+					["from"] = "Aset",
+					["msg"] = "um",
+					["inbound"] = false,
+					["convo"] = "|Kf589|k000000000000|k",
 				}, -- [6]
 				{
 					["type"] = 1,
-					["time"] = 1316315786,
+					["time"] = 1316130502,
 					["from"] = "Aset",
-					["msg"] = "but he spens $350/week on weed and has to hide it somehow",
+					["msg"] = "not really honestly",
 					["inbound"] = false,
-					["convo"] = "Haliax",
+					["convo"] = "|Kf589|k000000000000|k",
 				}, -- [7]
 				{
 					["type"] = 1,
-					["time"] = 1316315791,
-					["from"] = "Haliax",
-					["msg"] = "hahahaha",
-					["inbound"] = true,
-					["convo"] = "Haliax",
+					["time"] = 1316130508,
+					["from"] = "Aset",
+					["msg"] = "you could look at my boomkin spec",
+					["inbound"] = false,
+					["convo"] = "|Kf589|k000000000000|k",
 				}, -- [8]
 				{
 					["type"] = 1,
-					["time"] = 1316315812,
+					["time"] = 1316130538,
 					["from"] = "Aset",
-					["msg"] = "But yesterday his dad emailed him and said \"we need to meet tomorrow to discuss your expense reports\"",
+					["msg"] = "honestly i should change my spec, cuz i use it almost exclusively for aoe.. i should pick up  |Htalent:8379:-1|h[Gale Winds]|h hrm",
 					["inbound"] = false,
-					["convo"] = "Haliax",
+					["convo"] = "|Kf589|k000000000000|k",
 				}, -- [9]
 				{
 					["type"] = 1,
-					["time"] = 1316315819,
+					["time"] = 1316130542,
 					["from"] = "Aset",
-					["msg"] = "actually his dad's administrative assistant emailed him",
+					["msg"] = "Yeah it's okay",
 					["inbound"] = false,
-					["convo"] = "Haliax",
+					["convo"] = "|Kf589|k000000000000|k",
 				}, -- [10]
 				{
 					["type"] = 1,
-					["time"] = 1316315821,
+					["time"] = 1316130547,
 					["from"] = "Aset",
-					["msg"] = "so he was pretty nervous",
+					["msg"] = "i mean, it's hard to make a bad spec these days",
 					["inbound"] = false,
-					["convo"] = "Haliax",
+					["convo"] = "|Kf589|k000000000000|k",
 				}, -- [11]
 				{
 					["type"] = 1,
-					["time"] = 1316315822,
+					["time"] = 1316130604,
 					["from"] = "Aset",
-					["msg"] = "lol",
+					["msg"] = "nah should be pretty easy",
 					["inbound"] = false,
-					["convo"] = "Haliax",
+					["convo"] = "|Kf589|k000000000000|k",
 				}, -- [12]
 				{
 					["type"] = 1,
-					["time"] = 1316315836,
+					["time"] = 1316130619,
 					["from"] = "Aset",
-					["msg"] = "no wait, $650/week on weed",
+					["msg"] = "unless i'm using hurricane i almost never even need to innervate myself",
 					["inbound"] = false,
-					["convo"] = "Haliax",
+					["convo"] = "|Kf589|k000000000000|k",
 				}, -- [13]
 				{
 					["type"] = 1,
-					["time"] = 1316315844,
+					["time"] = 1316130668,
 					["from"] = "Aset",
-					["msg"] = "he spends more on weed than I make",
+					["msg"] = "I've heard pepole say spirit gives more hit under some situation, but i don't know if that's true",
 					["inbound"] = false,
-					["convo"] = "Haliax",
+					["convo"] = "|Kf589|k000000000000|k",
 				}, -- [14]
 				{
 					["type"] = 1,
-					["time"] = 1316315851,
-					["from"] = "Haliax",
-					["msg"] = "damn",
-					["inbound"] = true,
-					["convo"] = "Haliax",
+					["time"] = 1316130670,
+					["from"] = "Aset",
+					["msg"] = "it shouldn't be true",
+					["inbound"] = false,
+					["convo"] = "|Kf589|k000000000000|k",
 				}, -- [15]
 				{
 					["type"] = 1,
-					["time"] = 1316315864,
+					["time"] = 1316130673,
 					["from"] = "Aset",
-					["msg"] = "i guess it's high end stuff, it's not that he's smoking 3 pounds a day",
+					["msg"] = "so it shouldn't matter",
 					["inbound"] = false,
-					["convo"] = "Haliax",
+					["convo"] = "|Kf589|k000000000000|k",
 				}, -- [16]
 				{
 					["type"] = 1,
-					["time"] = 1316315864,
+					["time"] = 1316130673,
 					["from"] = "Aset",
-					["msg"] = "lol",
+					["msg"] = "but",
 					["inbound"] = false,
-					["convo"] = "Haliax",
+					["convo"] = "|Kf589|k000000000000|k",
 				}, -- [17]
 				{
 					["type"] = 1,
-					["time"] = 1316315962,
+					["time"] = 1316130680,
 					["from"] = "Aset",
-					["msg"] = "come over to mumble and run TeamViewer",
+					["msg"] = "remember to use it to your advantage",
 					["inbound"] = false,
-					["convo"] = "Haliax",
+					["convo"] = "|Kf589|k000000000000|k",
 				}, -- [18]
 				{
 					["type"] = 1,
-					["time"] = 1316315972,
+					["time"] = 1316130680,
 					["from"] = "Aset",
-					["msg"] = "(download it from ninite.com if you don't have it) and i'll poke around for real",
+					["msg"] = "ie",
 					["inbound"] = false,
-					["convo"] = "Haliax",
+					["convo"] = "|Kf589|k000000000000|k",
 				}, -- [19]
 				{
 					["type"] = 1,
-					["time"] = 1316315998,
+					["time"] = 1316130682,
 					["from"] = "Aset",
-					["msg"] = "Also you should come roll a cow with us, clearly",
+					["msg"] = "if you are low on hit",
 					["inbound"] = false,
-					["convo"] = "Haliax",
+					["convo"] = "|Kf589|k000000000000|k",
 				}, -- [20]
 				{
 					["type"] = 1,
-					["time"] = 1316316023,
-					["from"] = "Haliax",
-					["msg"] = "send me the mumble info?",
-					["inbound"] = true,
-					["convo"] = "Haliax",
+					["time"] = 1316130685,
+					["from"] = "Aset",
+					["msg"] = "and you have a piece with say",
+					["inbound"] = false,
+					["convo"] = "|Kf589|k000000000000|k",
 				}, -- [21]
 				{
 					["type"] = 1,
-					["time"] = 1316316030,
+					["time"] = 1316130691,
 					["from"] = "Aset",
-					["msg"] = "quasarj.com",
+					["msg"] = "spirit, crit, haste",
 					["inbound"] = false,
-					["convo"] = "Haliax",
+					["convo"] = "|Kf589|k000000000000|k",
 				}, -- [22]
 				{
 					["type"] = 1,
-					["time"] = 1316316033,
+					["time"] = 1316130696,
 					["from"] = "Aset",
-					["msg"] = "default everything",
+					["msg"] = "you could reforge the crit to hit",
 					["inbound"] = false,
-					["convo"] = "Haliax",
+					["convo"] = "|Kf589|k000000000000|k",
 				}, -- [23]
 				{
 					["type"] = 1,
-					["time"] = 1316316041,
+					["time"] = 1316130701,
 					["from"] = "Aset",
-					["msg"] = "default port, set the login name to whatever username you want ot use",
+					["msg"] = "and \"double dip\" on reforging",
 					["inbound"] = false,
-					["convo"] = "Haliax",
+					["convo"] = "|Kf589|k000000000000|k",
 				}, -- [24]
 				{
 					["type"] = 1,
-					["time"] = 1316316051,
+					["time"] = 1316130729,
 					["from"] = "Aset",
-					["msg"] = "if it rejects you with \"incorrect password\" let me know",
+					["msg"] = "it's only useful if you need lots of hit.. you usually have enough, but sometimes may need to reforge for it",
 					["inbound"] = false,
-					["convo"] = "Haliax",
+					["convo"] = "|Kf589|k000000000000|k",
 				}, -- [25]
 				{
 					["type"] = 1,
-					["time"] = 1316316245,
+					["time"] = 1316130742,
 					["from"] = "Aset",
-					["msg"] = "WHERE ARE YOU ROAR",
+					["msg"] = "remember ALWAYS reforge for hit (or spirit) first, never gem it unless absolutely needed",
 					["inbound"] = false,
-					["convo"] = "Haliax",
+					["convo"] = "|Kf589|k000000000000|k",
 				}, -- [26]
 				{
 					["type"] = 1,
-					["time"] = 1316575272,
+					["time"] = 1316130757,
 					["from"] = "Aset",
-					["msg"] = "sup",
+					["msg"] = "you should have pure int gems in every gem slot unless the socket bonus is more than 20int",
 					["inbound"] = false,
-					["convo"] = "Haliax",
+					["convo"] = "|Kf589|k000000000000|k",
 				}, -- [27]
 				{
 					["type"] = 1,
-					["time"] = 1316575281,
-					["from"] = "Haliax",
-					["msg"] = "sec, phone",
-					["inbound"] = true,
-					["convo"] = "Haliax",
+					["time"] = 1316130760,
+					["from"] = "Aset",
+					["msg"] = "(well, 20 int or more)",
+					["inbound"] = false,
+					["convo"] = "|Kf589|k000000000000|k",
 				}, -- [28]
 				{
 					["type"] = 1,
-					["time"] = 1316575290,
+					["time"] = 1316130807,
 					["from"] = "Aset",
-					["msg"] = "np, raid boss",
+					["msg"] = "which makes sense.. since a  |Hitem:52207:0:0:0:0:0:0:0:85:0|h[Brilliant Inferno Ruby]|h is 40, if the bonus is 20 and you only have to use ONE non-brilliant gem, then it's a net gain in stats",
 					["inbound"] = false,
-					["convo"] = "Haliax",
+					["convo"] = "|Kf589|k000000000000|k",
 				}, -- [29]
 				{
 					["type"] = 1,
-					["time"] = 1316575291,
+					["time"] = 1316130821,
 					["from"] = "Aset",
-					["msg"] = "kinda",
+					["msg"] = "if you have to use two non-brilliants for only a 20int bonus, don't do it",
 					["inbound"] = false,
-					["convo"] = "Haliax",
+					["convo"] = "|Kf589|k000000000000|k",
 				}, -- [30]
 				{
 					["type"] = 1,
-					["time"] = 1316575381,
+					["time"] = 1316130827,
 					["from"] = "Aset",
-					["msg"] = "jesus",
+					["msg"] = "They don't really have any, which is lame :(",
 					["inbound"] = false,
-					["convo"] = "Haliax",
+					["convo"] = "|Kf589|k000000000000|k",
 				}, -- [31]
 				{
 					["type"] = 1,
-					["time"] = 1316575382,
+					["time"] = 1316130840,
 					["from"] = "Aset",
-					["msg"] = "ugh",
+					["msg"] = "force of nature (the trents) and starfall",
 					["inbound"] = false,
-					["convo"] = "Haliax",
+					["convo"] = "|Kf589|k000000000000|k",
 				}, -- [32]
 				{
 					["type"] = 1,
-					["time"] = 1316575387,
+					["time"] = 1316131131,
 					["from"] = "Aset",
-					["msg"] = "10 kills of Saghelm",
+					["msg"] = "yeah",
 					["inbound"] = false,
-					["convo"] = "Haliax",
+					["convo"] = "|Kf589|k000000000000|k",
 				}, -- [33]
 				{
 					["type"] = 1,
-					["time"] = 1316575389,
+					["time"] = 1316131139,
 					["from"] = "Aset",
-					["msg"] = "still no staff",
+					["msg"] = "i mean, look at what it shows as your miss chance.. and decide if you're happy with it",
 					["inbound"] = false,
-					["convo"] = "Haliax",
+					["convo"] = "|Kf589|k000000000000|k",
 				}, -- [34]
 				{
 					["type"] = 1,
-					["time"] = 1316575393,
+					["time"] = 1316131148,
 					["from"] = "Aset",
-					["msg"] = "8 druid shoulder tokens now",
+					["msg"] = "if you can get to 17 even, that's best, but very close is better than over, imo",
 					["inbound"] = false,
-					["convo"] = "Haliax",
+					["convo"] = "|Kf589|k000000000000|k",
 				}, -- [35]
 				{
 					["type"] = 1,
-					["time"] = 1316575591,
+					["time"] = 1316132936,
 					["from"] = "Aset",
-					["msg"] = "gratsss",
+					["msg"] = "lol aww",
 					["inbound"] = false,
-					["convo"] = "Haliax",
+					["convo"] = "|Kf589|k000000000000|k",
 				}, -- [36]
 				{
 					["type"] = 1,
-					["time"] = 1316575600,
+					["time"] = 1316132947,
 					["from"] = "Aset",
-					["msg"] = "on the phone eh? really killing Coren and ignoreing me",
+					["msg"] = "doesn't sound that bad, what's your ilvl?",
 					["inbound"] = false,
-					["convo"] = "Haliax",
+					["convo"] = "|Kf589|k000000000000|k",
 				}, -- [37]
 				{
 					["type"] = 1,
-					["time"] = 1316575605,
+					["time"] = 1316132952,
 					["from"] = "Aset",
-					["msg"] = " /pout",
+					["msg"] = "and were you doing everything right? :)",
 					["inbound"] = false,
-					["convo"] = "Haliax",
+					["convo"] = "|Kf589|k000000000000|k",
 				}, -- [38]
 				{
 					["type"] = 1,
-					["time"] = 1316575613,
-					["from"] = "Haliax",
-					["msg"] = "both",
-					["inbound"] = true,
-					["convo"] = "Haliax",
+					["time"] = 1316132964,
+					["from"] = "Aset",
+					["msg"] = "k",
+					["inbound"] = false,
+					["convo"] = "|Kf589|k000000000000|k",
 				}, -- [39]
 				{
 					["type"] = 1,
-					["time"] = 1316575621,
-					["from"] = "Haliax",
-					["msg"] = "coren takes no skill",
-					["inbound"] = true,
-					["convo"] = "Haliax",
+					["time"] = 1316132987,
+					["from"] = "Aset",
+					["msg"] = "i get like, 16 to 18k on Ryolith, mostly from AoE, ilvl around 362 maybe",
+					["inbound"] = false,
+					["convo"] = "|Kf589|k000000000000|k",
 				}, -- [40]
 				{
 					["type"] = 1,
-					["time"] = 1316575657,
+					["time"] = 1316133087,
 					["from"] = "Aset",
-					["msg"] = "dude",
+					["msg"] = "Yeah, i think renewing just before the final tick is perfect, but you can't do that when renewing Sunfire outside of a Solar Eclipse, of course, you have to let it fall off completely (or you want to) and renewn it just after (with Moonfire)",
 					["inbound"] = false,
-					["convo"] = "Haliax",
+					["convo"] = "|Kf589|k000000000000|k",
 				}, -- [41]
 				{
 					["type"] = 1,
-					["time"] = 1316575659,
+					["time"] = 1316135679,
 					["from"] = "Aset",
-					["msg"] = "the nerfs today",
+					["msg"] = "yay!",
 					["inbound"] = false,
-					["convo"] = "Haliax",
+					["convo"] = "|Kf589|k000000000000|k",
 				}, -- [42]
 				{
 					["type"] = 1,
-					["time"] = 1316575662,
+					["time"] = 1316143613,
 					["from"] = "Aset",
-					["msg"] = "this entire raid takes no skill",
+					["msg"] = "we gave up for now",
 					["inbound"] = false,
-					["convo"] = "Haliax",
+					["convo"] = "|Kf589|k000000000000|k",
 				}, -- [43]
 				{
 					["type"] = 1,
-					["time"] = 1316575675,
+					["time"] = 1316143618,
 					["from"] = "Aset",
-					["msg"] = "alysrazor.. my god",
+					["msg"] = "he was pissing us off too much",
 					["inbound"] = false,
-					["convo"] = "Haliax",
+					["convo"] = "|Kf589|k000000000000|k",
 				}, -- [44]
 				{
 					["type"] = 1,
-					["time"] = 1316575680,
+					["time"] = 1316143631,
 					["from"] = "Aset",
-					["msg"] = "we killed her in 50% of the time",
+					["msg"] = "we're gonna clear up to Staghelm and maybe try him, but probably just clear on reg this week",
 					["inbound"] = false,
-					["convo"] = "Haliax",
+					["convo"] = "|Kf589|k000000000000|k",
 				}, -- [45]
 				{
 					["type"] = 1,
-					["time"] = 1316575683,
+					["time"] = 1316143704,
 					["from"] = "Aset",
-					["msg"] = "as usual",
+					["msg"] = "yeah i've heard that too",
 					["inbound"] = false,
-					["convo"] = "Haliax",
+					["convo"] = "|Kf589|k000000000000|k",
 				}, -- [46]
 				{
 					["type"] = 1,
-					["time"] = 1316575691,
+					["time"] = 1316143708,
 					["from"] = "Aset",
-					["msg"] = "we killed her before she finished one phase",
+					["msg"] = "we may try that on reg tonight just to test it",
 					["inbound"] = false,
-					["convo"] = "Haliax",
+					["convo"] = "|Kf589|k000000000000|k",
 				}, -- [47]
 				{
 					["type"] = 1,
-					["time"] = 1316575697,
+					["time"] = 1316143710,
 					["from"] = "Aset",
-					["msg"] = "we 9 manned heroic Shannox",
+					["msg"] = "we'll see",
 					["inbound"] = false,
-					["convo"] = "Haliax",
+					["convo"] = "|Kf589|k000000000000|k",
 				}, -- [48]
 				{
 					["type"] = 1,
-					["time"] = 1316575701,
-					["from"] = "Haliax",
-					["msg"] = "lol",
-					["inbound"] = true,
-					["convo"] = "Haliax",
+					["time"] = 1316143730,
+					["from"] = "Aset",
+					["msg"] = "yeah",
+					["inbound"] = false,
+					["convo"] = "|Kf589|k000000000000|k",
 				}, -- [49]
 				{
 					["type"] = 1,
-					["time"] = 1316575712,
+					["time"] = 1316143769,
 					["from"] = "Aset",
-					["msg"] = "beat our record on Ryolith by 1 minute",
+					["msg"] = "on reg shannox? :O",
 					["inbound"] = false,
-					["convo"] = "Haliax",
+					["convo"] = "|Kf589|k000000000000|k",
 				}, -- [50]
 				{
 					["type"] = 1,
-					["time"] = 1316575730,
+					["time"] = 1316143785,
 					["from"] = "Aset",
-					["msg"] = "just killed Staghelm in 2 scorpion phases instead of 4",
+					["msg"] = "eek",
 					["inbound"] = false,
-					["convo"] = "Haliax",
+					["convo"] = "|Kf589|k000000000000|k",
 				}, -- [51]
 				{
 					["type"] = 1,
-					["time"] = 1316575745,
+					["time"] = 1316143787,
 					["from"] = "Aset",
-					["msg"] = "of course, he still didn't drop my staff",
+					["msg"] = "yeah that's what i've heard",
 					["inbound"] = false,
-					["convo"] = "Haliax",
+					["convo"] = "|Kf589|k000000000000|k",
 				}, -- [52]
-				{
-					["type"] = 1,
-					["time"] = 1316575748,
-					["from"] = "Aset",
-					["msg"] = "and now.. Rag",
-					["inbound"] = false,
-					["convo"] = "Haliax",
-				}, -- [53]
-				{
-					["type"] = 1,
-					["time"] = 1316575751,
-					["from"] = "Haliax",
-					["msg"] = ":(",
-					["inbound"] = true,
-					["convo"] = "Haliax",
-				}, -- [54]
-				{
-					["type"] = 1,
-					["time"] = 1316575761,
-					["from"] = "Aset",
-					["msg"] = "25% reduction in damage done and hp.. we should have him in the first attempt",
-					["inbound"] = false,
-					["convo"] = "Haliax",
-				}, -- [55]
-				{
-					["type"] = 1,
-					["time"] = 1316575765,
-					["from"] = "Aset",
-					["msg"] = "but we'll see, we're missing Maso",
-					["inbound"] = false,
-					["convo"] = "Haliax",
-				}, -- [56]
-				{
-					["type"] = 1,
-					["time"] = 1316575775,
-					["from"] = "Aset",
-					["msg"] = "we've got Cleyvan filling in on his hunter.. he's pretty good so it's not a huge loss",
-					["inbound"] = false,
-					["convo"] = "Haliax",
-				}, -- [57]
-				{
-					["type"] = 1,
-					["time"] = 1316575776,
-					["from"] = "Aset",
-					["msg"] = "but anyway",
-					["inbound"] = false,
-					["convo"] = "Haliax",
-				}, -- [58]
-				{
-					["type"] = 1,
-					["time"] = 1316575778,
-					["from"] = "Aset",
-					["msg"] = "welcome home!",
-					["inbound"] = false,
-					["convo"] = "Haliax",
-				}, -- [59]
-				{
-					["type"] = 1,
-					["time"] = 1316575781,
-					["from"] = "Aset",
-					["msg"] = "sorry if you're still on the phone",
-					["inbound"] = false,
-					["convo"] = "Haliax",
-				}, -- [60]
-				{
-					["type"] = 1,
-					["time"] = 1316575782,
-					["from"] = "Aset",
-					["msg"] = "lol",
-					["inbound"] = false,
-					["convo"] = "Haliax",
-				}, -- [61]
-				{
-					["type"] = 1,
-					["time"] = 1316575783,
-					["from"] = "Haliax",
-					["msg"] = "ty!",
-					["inbound"] = true,
-					["convo"] = "Haliax",
-				}, -- [62]
-				{
-					["type"] = 1,
-					["time"] = 1316575794,
-					["from"] = "Haliax",
-					["msg"] = "yes, fuckin phone",
-					["inbound"] = true,
-					["convo"] = "Haliax",
-				}, -- [63]
-				{
-					["type"] = 1,
-					["time"] = 1316575799,
-					["from"] = "Aset",
-					["msg"] = "I ran Coren and got \"Contains No Loot\" when i opened my magic keg",
-					["inbound"] = false,
-					["convo"] = "Haliax",
-				}, -- [64]
-				{
-					["type"] = 1,
-					["time"] = 1316575800,
-					["from"] = "Aset",
-					["msg"] = "i was sad",
-					["inbound"] = false,
-					["convo"] = "Haliax",
-				}, -- [65]
-				{
-					["type"] = 1,
-					["time"] = 1316575819,
-					["from"] = "Aset",
-					["msg"] = "oh but,  |cffa335ee|Hitem:71349:0:0:0:0:0:0:2078342528:85:0|h[Firecat Leggings]|h|r |cffa335ee|Hitem:68915:0:0:0:0:0:0:1876921984:85:0|h[Scales of Life]|h|r",
-					["inbound"] = false,
-					["convo"] = "Haliax",
-				}, -- [66]
-				{
-					["type"] = 1,
-					["time"] = 1316575825,
-					["from"] = "Aset",
-					["msg"] = "legs for boomkin, Scales for my DK",
-					["inbound"] = false,
-					["convo"] = "Haliax",
-				}, -- [67]
-				{
-					["type"] = 1,
-					["time"] = 1316575833,
-					["from"] = "Haliax",
-					["msg"] = "you should be spamming coren before the hotfix",
-					["inbound"] = true,
-					["convo"] = "Haliax",
-				}, -- [68]
-				{
-					["type"] = 1,
-					["time"] = 1316575838,
-					["from"] = "Haliax",
-					["msg"] = "it's 20g per run",
-					["inbound"] = true,
-					["convo"] = "Haliax",
-				}, -- [69]
-				{
-					["type"] = 1,
-					["time"] = 1316575838,
-					["from"] = "Aset",
-					["msg"] = "oh?",
-					["inbound"] = false,
-					["convo"] = "Haliax",
-				}, -- [70]
-				{
-					["type"] = 1,
-					["time"] = 1316575840,
-					["from"] = "Aset",
-					["msg"] = "what's the hotfix?",
-					["inbound"] = false,
-					["convo"] = "Haliax",
-				}, -- [71]
-				{
-					["type"] = 1,
-					["time"] = 1316575841,
-					["from"] = "Aset",
-					["msg"] = "oh",
-					["inbound"] = false,
-					["convo"] = "Haliax",
-				}, -- [72]
-				{
-					["type"] = 1,
-					["time"] = 1316575843,
-					["from"] = "Aset",
-					["msg"] = "pfft",
-					["inbound"] = false,
-					["convo"] = "Haliax",
-				}, -- [73]
-				{
-					["type"] = 1,
-					["time"] = 1316575851,
-					["from"] = "Haliax",
-					["msg"] = "takes like 2 min",
-					["inbound"] = true,
-					["convo"] = "Haliax",
-				}, -- [74]
-				{
-					["type"] = 1,
-					["time"] = 1316575861,
-					["from"] = "Aset",
-					["msg"] = "meh",
-					["inbound"] = false,
-					["convo"] = "Haliax",
-				}, -- [75]
-				{
-					["type"] = 1,
-					["time"] = 1316575865,
-					["from"] = "Aset",
-					["msg"] = "I guess i could",
-					["inbound"] = false,
-					["convo"] = "Haliax",
-				}, -- [76]
-				{
-					["type"] = 1,
-					["time"] = 1316575874,
-					["from"] = "Aset",
-					["msg"] = "cuz the real bonus comes when you get one of the weapons",
-					["inbound"] = false,
-					["convo"] = "Haliax",
-				}, -- [77]
-				{
-					["type"] = 1,
-					["time"] = 1316575879,
-					["from"] = "Haliax",
-					["msg"] = "that's 600g/hr",
-					["inbound"] = true,
-					["convo"] = "Haliax",
-				}, -- [78]
-				{
-					["type"] = 1,
-					["time"] = 1316575879,
-					["from"] = "Aset",
-					["msg"] = "they should sell for.. 2 to 5k i'd say",
-					["inbound"] = false,
-					["convo"] = "Haliax",
-				}, -- [79]
-				{
-					["type"] = 1,
-					["time"] = 1316575902,
-					["from"] = "Aset",
-					["msg"] = "they are 365 maces I think? or one mace one dagger?",
-					["inbound"] = false,
-					["convo"] = "Haliax",
-				}, -- [80]
-				{
-					["type"] = 1,
-					["time"] = 1316575902,
-					["from"] = "Haliax",
-					["msg"] = "<Deadly Boss Mods> Haliax is busy fighting against Coren Direbrew (60%, 5/5 people alive)",
-					["inbound"] = true,
-					["convo"] = "Haliax",
-				}, -- [81]
-				{
-					["type"] = 1,
-					["time"] = 1316575911,
-					["from"] = "Aset",
-					["msg"] = "i guess i'll run him some more",
-					["inbound"] = false,
-					["convo"] = "Haliax",
-				}, -- [82]
-				{
-					["type"] = 1,
-					["time"] = 1316575921,
-					["from"] = "Aset",
-					["msg"] = "at least on my other toons to try to get the mount lol",
-					["inbound"] = false,
-					["convo"] = "Haliax",
-				}, -- [83]
-				{
-					["type"] = 1,
-					["time"] = 1316575924,
-					["from"] = "Aset",
-					["msg"] = "i need the damn Ram on Aset",
-					["inbound"] = false,
-					["convo"] = "Haliax",
-				}, -- [84]
-				{
-					["type"] = 1,
-					["time"] = 1316575934,
-					["from"] = "Aset",
-					["msg"] = "then i'll have all the Brewfest mounts and other rare rewards on Aset",
-					["inbound"] = false,
-					["convo"] = "Haliax",
-				}, -- [85]
-				{
-					["type"] = 1,
-					["time"] = 1316575935,
-					["from"] = "Haliax",
-					["msg"] = "<DBM> Haliax has defeated Coren Direbrew!",
-					["inbound"] = true,
-					["convo"] = "Haliax",
-				}, -- [86]
-				{
-					["type"] = 1,
-					["time"] = 1316576535,
-					["from"] = "Aset",
-					["msg"] = " |cffa335ee|Hitem:68994:0:0:0:0:0:0:-2105310336:85:0|h[Matrix Restabilizer]|h|r",
-					["inbound"] = false,
-					["convo"] = "Haliax",
-				}, -- [87]
-				{
-					["type"] = 1,
-					["time"] = 1316576538,
-					["from"] = "Aset",
-					["msg"] = " |cffa335ee|Hitem:71355:0:0:0:0:0:0:-1836874880:85:0|h[Ko'gun, Hammer of the Firelord]|h|r",
-					["inbound"] = false,
-					["convo"] = "Haliax",
-				}, -- [88]
-				{
-					["type"] = 1,
-					["time"] = 1316576538,
-					["from"] = "Haliax",
-					["msg"] = "<Deadly Boss Mods> Haliax is busy fighting against Coren Direbrew (95%, 5/5 people alive)",
-					["inbound"] = true,
-					["convo"] = "Haliax",
-				}, -- [89]
-				{
-					["type"] = 1,
-					["time"] = 1316576599,
-					["from"] = "Haliax",
-					["msg"] = "<DBM> Haliax has defeated Coren Direbrew!",
-					["inbound"] = true,
-					["convo"] = "Haliax",
-				}, -- [90]
-				{
-					["type"] = 1,
-					["time"] = 1316576606,
-					["from"] = "Aset",
-					["msg"] = "n/m i gave the trinket to Piggy",
-					["inbound"] = false,
-					["convo"] = "Haliax",
-				}, -- [91]
-				{
-					["type"] = 1,
-					["time"] = 1316576610,
-					["from"] = "Aset",
-					["msg"] = " |cffa335ee|Hitem:71668:0:0:0:0:0:0:-1568439424:85:0|h[Helm of the Fiery Vanquisher]|h|r instead",
-					["inbound"] = false,
-					["convo"] = "Haliax",
-				}, -- [92]
-				{
-					["type"] = 1,
-					["time"] = 1316576613,
-					["from"] = "Aset",
-					["msg"] = "lol",
-					["inbound"] = false,
-					["convo"] = "Haliax",
-				}, -- [93]
-				{
-					["type"] = 1,
-					["time"] = 1316835941,
-					["from"] = "Aset",
-					["msg"] = "so what's up?",
-					["inbound"] = false,
-					["convo"] = "Haliax",
-				}, -- [94]
-				{
-					["type"] = 1,
-					["time"] = 1316836000,
-					["from"] = "Haliax",
-					["msg"] = "not much, just checking mail before I have to log",
-					["inbound"] = true,
-					["convo"] = "Haliax",
-				}, -- [95]
-				{
-					["type"] = 1,
-					["time"] = 1316836079,
-					["from"] = "Aset",
-					["msg"] = "nice",
-					["inbound"] = false,
-					["convo"] = "Haliax",
-				}, -- [96]
 				["info"] = {
 				},
 			},
-			["Dîsko"] = {
+			["|Kf585|k0000000000000|k"] = {
 				{
 					["type"] = 1,
-					["time"] = 1315878763,
+					["time"] = 1317068551,
 					["from"] = "Aset",
-					["msg"] = "I invigorate joo! (Innervate)",
+					["msg"] = "Not really nope lol",
 					["inbound"] = false,
-					["convo"] = "Dîsko",
+					["convo"] = "|Kf585|k0000000000000|k",
 				}, -- [1]
 				{
 					["type"] = 1,
-					["time"] = 1315968638,
+					["time"] = 1317068554,
 					["from"] = "Aset",
-					["msg"] = "I invigorate joo! (Innervate)",
+					["msg"] = "Full cleared Firelands",
 					["inbound"] = false,
-					["convo"] = "Dîsko",
+					["convo"] = "|Kf585|k0000000000000|k",
 				}, -- [2]
 				{
 					["type"] = 1,
-					["time"] = 1316135049,
-					["from"] = "Dîsko",
-					["msg"] = "not sure what tns file is ? oracle file ?",
-					["inbound"] = true,
-					["convo"] = "Dîsko",
+					["time"] = 1317068557,
+					["from"] = "Aset",
+					["msg"] = "Working on heroic bosses",
+					["inbound"] = false,
+					["convo"] = "|Kf585|k0000000000000|k",
 				}, -- [3]
 				{
 					["type"] = 1,
-					["time"] = 1316135060,
+					["time"] = 1317068567,
 					["from"] = "Aset",
-					["msg"] = "yeah if you're not familiar with it you won't be able to help lol",
+					["msg"] = "My new job is pretty cool",
 					["inbound"] = false,
-					["convo"] = "Dîsko",
+					["convo"] = "|Kf585|k0000000000000|k",
 				}, -- [4]
 				{
 					["type"] = 1,
-					["time"] = 1316135068,
-					["from"] = "Dîsko",
-					["msg"] = "yea, I'm not",
-					["inbound"] = true,
-					["convo"] = "Dîsko",
+					["time"] = 1317068568,
+					["from"] = "Aset",
+					["msg"] = "Open Ticket",
+					["inbound"] = false,
+					["convo"] = "|Kf585|k0000000000000|k",
 				}, -- [5]
 				{
 					["type"] = 1,
-					["time"] = 1316135075,
+					["time"] = 1317068615,
 					["from"] = "Aset",
-					["msg"] = "it's tnsnames.ora, it contains like, mappings of \"simple\" names to full hostname/ip/schema names",
+					["msg"] = "lol I'm sorry",
 					["inbound"] = false,
-					["convo"] = "Dîsko",
+					["convo"] = "|Kf585|k0000000000000|k",
 				}, -- [6]
 				{
 					["type"] = 1,
-					["time"] = 1316135082,
+					["time"] = 1317068619,
 					["from"] = "Aset",
-					["msg"] = "and i put one in place as per a post i saw",
+					["msg"] = "It's better than nothing! :D",
 					["inbound"] = false,
-					["convo"] = "Dîsko",
+					["convo"] = "|Kf585|k0000000000000|k",
 				}, -- [7]
 				{
 					["type"] = 1,
-					["time"] = 1316135085,
+					["time"] = 1317068629,
 					["from"] = "Aset",
-					["msg"] = "and Toad picks it up",
+					["msg"] = "And.. Open Ticket is pretty crappy overal but my 10 man group is doing pretty well",
 					["inbound"] = false,
-					["convo"] = "Dîsko",
+					["convo"] = "|Kf585|k0000000000000|k",
 				}, -- [8]
 				{
 					["type"] = 1,
-					["time"] = 1316135095,
+					["time"] = 1317068643,
 					["from"] = "Aset",
-					["msg"] = "but.. it won't connect, and in typical Oracle fashion it's crytpic as hell",
+					["msg"] = "Yep",
 					["inbound"] = false,
-					["convo"] = "Dîsko",
+					["convo"] = "|Kf585|k0000000000000|k",
 				}, -- [9]
+				["info"] = {
+				},
+			},
+			["Roor"] = {
 				{
 					["type"] = 1,
-					["time"] = 1316135096,
-					["from"] = "Dîsko",
-					["msg"] = "hmm",
-					["inbound"] = true,
-					["convo"] = "Dîsko",
-				}, -- [10]
-				{
-					["type"] = 1,
-					["time"] = 1316135109,
-					["from"] = "Dîsko",
-					["msg"] = "what do you need oracle for ?",
-					["inbound"] = true,
-					["convo"] = "Dîsko",
-				}, -- [11]
-				{
-					["type"] = 1,
-					["time"] = 1316135110,
-					["from"] = "Aset",
-					["msg"] = "i've verified i can telnet to the port on the server, so it's not being blocked",
-					["inbound"] = false,
-					["convo"] = "Dîsko",
-				}, -- [12]
-				{
-					["type"] = 1,
-					["time"] = 1316135117,
-					["from"] = "Dîsko",
-					["msg"] = "putting it on Quasarj?",
-					["inbound"] = true,
-					["convo"] = "Dîsko",
-				}, -- [13]
-				{
-					["type"] = 1,
-					["time"] = 1316135122,
-					["from"] = "Aset",
-					["msg"] = "ah i'm setting it up for some lessons",
-					["inbound"] = false,
-					["convo"] = "Dîsko",
-				}, -- [14]
-				{
-					["type"] = 1,
-					["time"] = 1316135158,
-					["from"] = "Aset",
-					["msg"] = "i'm setting it up to give lessons toa friend",
-					["inbound"] = false,
-					["convo"] = "Dîsko",
-				}, -- [15]
-				{
-					["type"] = 1,
-					["time"] = 1316135183,
-					["from"] = "Aset",
-					["msg"] = "so he can get some oracle experience",
-					["inbound"] = false,
-					["convo"] = "Dîsko",
-				}, -- [16]
-				{
-					["type"] = 1,
-					["time"] = 1316135190,
-					["from"] = "Aset",
-					["msg"] = "the server is actually up and running on quasarj.com already",
-					["inbound"] = false,
-					["convo"] = "Dîsko",
-				}, -- [17]
-				{
-					["type"] = 1,
-					["time"] = 1316135200,
-					["from"] = "Aset",
-					["msg"] = "(that part was easy loL)",
-					["inbound"] = false,
-					["convo"] = "Dîsko",
-				}, -- [18]
-				{
-					["type"] = 1,
-					["time"] = 1316135391,
-					["from"] = "Aset",
-					["msg"] = "so anyway",
-					["inbound"] = false,
-					["convo"] = "Dîsko",
-				}, -- [19]
-				{
-					["type"] = 1,
-					["time"] = 1316135401,
-					["from"] = "Aset",
-					["msg"] = "i guess it could be because i think my server is 11g and my client is 10g",
-					["inbound"] = false,
-					["convo"] = "Dîsko",
-				}, -- [20]
-				{
-					["type"] = 1,
-					["time"] = 1316135410,
-					["from"] = "Aset",
-					["msg"] = "cuz for some reaosn they don't have a 11g xe client",
-					["inbound"] = false,
-					["convo"] = "Dîsko",
-				}, -- [21]
-				{
-					["type"] = 1,
-					["time"] = 1316135417,
-					["from"] = "Aset",
-					["msg"] = "i could install the full server, i may try that later",
-					["inbound"] = false,
-					["convo"] = "Dîsko",
-				}, -- [22]
-				{
-					["type"] = 1,
-					["time"] = 1316135420,
-					["from"] = "Dîsko",
-					["msg"] = "nice",
-					["inbound"] = true,
-					["convo"] = "Dîsko",
-				}, -- [23]
-				{
-					["type"] = 1,
-					["time"] = 1316135426,
-					["from"] = "Dîsko",
-					["msg"] = "yea, I need to play with oracle",
-					["inbound"] = true,
-					["convo"] = "Dîsko",
-				}, -- [24]
-				{
-					["type"] = 1,
-					["time"] = 1316135454,
-					["from"] = "Aset",
-					["msg"] = "yeah, honestly it's not too bad, and although some things are terrible (everything uppercase, ugh) it's got some nice shortcuts and stuff",
-					["inbound"] = false,
-					["convo"] = "Dîsko",
-				}, -- [25]
-				{
-					["type"] = 1,
-					["time"] = 1316135466,
-					["from"] = "Dîsko",
-					["msg"] = "very cool",
-					["inbound"] = true,
-					["convo"] = "Dîsko",
-				}, -- [26]
-				{
-					["type"] = 1,
-					["time"] = 1316135477,
-					["from"] = "Dîsko",
-					["msg"] = "I had my 3rd interview for that desktop support gig",
-					["inbound"] = true,
-					["convo"] = "Dîsko",
-				}, -- [27]
-				{
-					["type"] = 1,
-					["time"] = 1316135492,
-					["from"] = "Dîsko",
-					["msg"] = "went well, they are making a decision within 2 weeks",
-					["inbound"] = true,
-					["convo"] = "Dîsko",
-				}, -- [28]
-				{
-					["type"] = 1,
-					["time"] = 1316135495,
-					["from"] = "Dîsko",
-					["msg"] = "so we shall see",
-					["inbound"] = true,
-					["convo"] = "Dîsko",
-				}, -- [29]
-				{
-					["type"] = 1,
-					["time"] = 1316135504,
-					["from"] = "Dîsko",
-					["msg"] = "I'm thinkinh positive about it",
-					["inbound"] = true,
-					["convo"] = "Dîsko",
-				}, -- [30]
-				{
-					["type"] = 1,
-					["time"] = 1316135581,
-					["from"] = "Aset",
-					["msg"] = "nice!",
-					["inbound"] = false,
-					["convo"] = "Dîsko",
-				}, -- [31]
-				{
-					["type"] = 1,
-					["time"] = 1316135583,
-					["from"] = "Aset",
-					["msg"] = "good luck man!",
-					["inbound"] = false,
-					["convo"] = "Dîsko",
-				}, -- [32]
-				{
-					["type"] = 1,
-					["time"] = 1316135702,
-					["from"] = "Dîsko",
-					["msg"] = "thanks",
-					["inbound"] = true,
-					["convo"] = "Dîsko",
-				}, -- [33]
-				{
-					["type"] = 1,
-					["time"] = 1316135729,
-					["from"] = "Aset",
-					["msg"] = "too bad there's so much competition, but still sounds pretty good",
-					["inbound"] = false,
-					["convo"] = "Dîsko",
-				}, -- [34]
-				{
-					["type"] = 1,
-					["time"] = 1316135768,
-					["from"] = "Dîsko",
-					["msg"] = "I know, it would be a really good job. If not this one. I'll find another but this would be a really good one so I hope it happens",
-					["inbound"] = true,
-					["convo"] = "Dîsko",
-				}, -- [35]
-				{
-					["type"] = 1,
-					["time"] = 1316135794,
-					["from"] = "Dîsko",
-					["msg"] = "the area I live in has lots of highly educated people",
-					["inbound"] = true,
-					["convo"] = "Dîsko",
-				}, -- [36]
-				{
-					["type"] = 1,
-					["time"] = 1316141485,
+					["time"] = 1315970980,
 					["from"] = "Aset",
 					["msg"] = "I invigorate joo! (Innervate)",
 					["inbound"] = false,
-					["convo"] = "Dîsko",
-				}, -- [37]
+					["convo"] = "Roor",
+				}, -- [1]
+				{
+					["type"] = 1,
+					["time"] = 1316745844,
+					["from"] = "Aset",
+					["msg"] = "Rezzing you (don't walk in!)",
+					["inbound"] = false,
+					["convo"] = "Roor",
+				}, -- [2]
 				["info"] = {
 				},
 			},
@@ -16044,195 +14985,59 @@ WIM3_History = {
 				["info"] = {
 				},
 			},
-			["Roor"] = {
+			["|Kf1444|k00000000000|k"] = {
 				{
 					["type"] = 1,
-					["time"] = 1315880805,
+					["time"] = 1317089588,
 					["from"] = "Aset",
-					["msg"] = "you might try being more aggressive with your mana this time",
+					["msg"] = "k",
 					["inbound"] = false,
-					["convo"] = "Roor",
+					["convo"] = "|Kf1444|k00000000000|k",
 				}, -- [1]
-				{
-					["type"] = 1,
-					["time"] = 1315880830,
-					["from"] = "Aset",
-					["msg"] = "not just at the end, but i mean earlier too",
-					["inbound"] = false,
-					["convo"] = "Roor",
-				}, -- [2]
-				{
-					["type"] = 1,
-					["time"] = 1315880847,
-					["from"] = "Aset",
-					["msg"] = "not sure though, i haven't raided as arcane either so, feel free to ignore me lol :)",
-					["inbound"] = false,
-					["convo"] = "Roor",
-				}, -- [3]
-				{
-					["type"] = 1,
-					["time"] = 1315880860,
-					["from"] = "Roor",
-					["msg"] = "well I'll try, i don't want to run out and not have mana gems or evocation",
-					["inbound"] = true,
-					["convo"] = "Roor",
-				}, -- [4]
-				{
-					["type"] = 1,
-					["time"] = 1315880928,
-					["from"] = "Aset",
-					["msg"] = "yeah",
-					["inbound"] = false,
-					["convo"] = "Roor",
-				}, -- [5]
-				{
-					["type"] = 1,
-					["time"] = 1315880965,
-					["from"] = "Aset",
-					["msg"] = "well I think at the start you wanna just burn your mana completley, then evocate, then do the \"low mana\" rotation for a while (lots of missles, only stack to 2 or so blasts) until you get close toe vocate again, then burn the shit out of it to 0 and ",
-					["inbound"] = false,
-					["convo"] = "Roor",
-				}, -- [6]
-				{
-					["type"] = 1,
-					["time"] = 1315880965,
-					["from"] = "Aset",
-					["msg"] = "evocate ",
-					["inbound"] = false,
-					["convo"] = "Roor",
-				}, -- [7]
-				{
-					["type"] = 1,
-					["time"] = 1315880980,
-					["from"] = "Aset",
-					["msg"] = "though you wanna time that with phase 3 the second time throug (preferably) so you are at full mana going in and can go crazy ",
-					["inbound"] = false,
-					["convo"] = "Roor",
-				}, -- [8]
-				{
-					["type"] = 1,
-					["time"] = 1315970980,
-					["from"] = "Aset",
-					["msg"] = "I invigorate joo! (Innervate)",
-					["inbound"] = false,
-					["convo"] = "Roor",
-				}, -- [9]
-				{
-					["type"] = 1,
-					["time"] = 1316745844,
-					["from"] = "Aset",
-					["msg"] = "Rezzing you (don't walk in!)",
-					["inbound"] = false,
-					["convo"] = "Roor",
-				}, -- [10]
 				["info"] = {
 				},
 			},
-			["|Kf73|k00000000000|k"] = {
+			["|Kf205|k000000000000|k"] = {
 				{
 					["type"] = 1,
-					["time"] = 1316818666,
+					["time"] = 1316219728,
 					["from"] = "Aset",
-					["msg"] = "umami!",
+					["msg"] = "DON'T YOU LEVEL",
 					["inbound"] = false,
-					["convo"] = "|Kf73|k00000000000|k",
+					["convo"] = "|Kf205|k000000000000|k",
 				}, -- [1]
 				{
 					["type"] = 1,
-					["time"] = 1316818934,
+					["time"] = 1316219732,
 					["from"] = "Aset",
-					["msg"] = ":(",
+					["msg"] = "I'LL BE THERE SOON",
 					["inbound"] = false,
-					["convo"] = "|Kf73|k00000000000|k",
+					["convo"] = "|Kf205|k000000000000|k",
 				}, -- [2]
 				{
 					["type"] = 1,
-					["time"] = 1316818936,
+					["time"] = 1316219756,
 					["from"] = "Aset",
-					["msg"] = "Why so depressed?",
+					["msg"] = "well, soonish",
 					["inbound"] = false,
-					["convo"] = "|Kf73|k00000000000|k",
+					["convo"] = "|Kf205|k000000000000|k",
 				}, -- [3]
 				{
 					["type"] = 1,
-					["time"] = 1316818944,
+					["time"] = 1316219760,
 					["from"] = "Aset",
-					["msg"] = "What is it that's so terrible about VA? :O",
+					["msg"] = "i gotta xfer a toon off my account",
 					["inbound"] = false,
-					["convo"] = "|Kf73|k00000000000|k",
+					["convo"] = "|Kf205|k000000000000|k",
 				}, -- [4]
 				{
 					["type"] = 1,
-					["time"] = 1316819007,
+					["time"] = 1316219764,
 					["from"] = "Aset",
-					["msg"] = "lol",
+					["msg"] = "so give me a sec lol",
 					["inbound"] = false,
-					["convo"] = "|Kf73|k00000000000|k",
+					["convo"] = "|Kf205|k000000000000|k",
 				}, -- [5]
-				{
-					["type"] = 1,
-					["time"] = 1316819014,
-					["from"] = "Aset",
-					["msg"] = "alright, that's fair.",
-					["inbound"] = false,
-					["convo"] = "|Kf73|k00000000000|k",
-				}, -- [6]
-				{
-					["type"] = 1,
-					["time"] = 1316819022,
-					["from"] = "Aset",
-					["msg"] = "Well your internet friends love you! And they follow you whereve ryou go!",
-					["inbound"] = false,
-					["convo"] = "|Kf73|k00000000000|k",
-				}, -- [7]
-				{
-					["type"] = 1,
-					["time"] = 1316819029,
-					["from"] = "Aset",
-					["msg"] = "like stalkers! only.. less creepy. Usually.",
-					["inbound"] = false,
-					["convo"] = "|Kf73|k00000000000|k",
-				}, -- [8]
-				{
-					["type"] = 1,
-					["time"] = 1316819090,
-					["from"] = "Aset",
-					["msg"] = "see sometimes you even laugh! :O",
-					["inbound"] = false,
-					["convo"] = "|Kf73|k00000000000|k",
-				}, -- [9]
-				{
-					["type"] = 1,
-					["time"] = 1316819179,
-					["from"] = "Aset",
-					["msg"] = "WELL YOU BETTER NOT",
-					["inbound"] = false,
-					["convo"] = "|Kf73|k00000000000|k",
-				}, -- [10]
-				{
-					["type"] = 1,
-					["time"] = 1316819189,
-					["from"] = "Aset",
-					["msg"] = "I will march up there and smack you in the FAE",
-					["inbound"] = false,
-					["convo"] = "|Kf73|k00000000000|k",
-				}, -- [11]
-				{
-					["type"] = 1,
-					["time"] = 1316819191,
-					["from"] = "Aset",
-					["msg"] = "FACE*",
-					["inbound"] = false,
-					["convo"] = "|Kf73|k00000000000|k",
-				}, -- [12]
-				{
-					["type"] = 1,
-					["time"] = 1316819192,
-					["from"] = "Aset",
-					["msg"] = "!",
-					["inbound"] = false,
-					["convo"] = "|Kf73|k00000000000|k",
-				}, -- [13]
 				["info"] = {
 				},
 			},
@@ -16348,127 +15153,295 @@ WIM3_History = {
 				["info"] = {
 				},
 			},
-			["|Kf581|k00000000000|k"] = {
+			["Dîsko"] = {
 				{
 					["type"] = 1,
-					["time"] = 1316145215,
+					["time"] = 1315968638,
 					["from"] = "Aset",
-					["msg"] = ":O",
+					["msg"] = "I invigorate joo! (Innervate)",
 					["inbound"] = false,
-					["convo"] = "|Kf581|k00000000000|k",
+					["convo"] = "Dîsko",
 				}, -- [1]
 				{
 					["type"] = 1,
-					["time"] = 1316145216,
-					["from"] = "Aset",
-					["msg"] = "FINALLY!",
-					["inbound"] = false,
-					["convo"] = "|Kf581|k00000000000|k",
+					["time"] = 1316135049,
+					["from"] = "Dîsko",
+					["msg"] = "not sure what tns file is ? oracle file ?",
+					["inbound"] = true,
+					["convo"] = "Dîsko",
 				}, -- [2]
 				{
 					["type"] = 1,
-					["time"] = 1316145222,
+					["time"] = 1316135060,
 					["from"] = "Aset",
-					["msg"] = "My heart was so sad",
+					["msg"] = "yeah if you're not familiar with it you won't be able to help lol",
 					["inbound"] = false,
-					["convo"] = "|Kf581|k00000000000|k",
+					["convo"] = "Dîsko",
 				}, -- [3]
 				{
 					["type"] = 1,
-					["time"] = 1316145551,
-					["from"] = "Aset",
-					["msg"] = "aww",
-					["inbound"] = false,
-					["convo"] = "|Kf581|k00000000000|k",
+					["time"] = 1316135068,
+					["from"] = "Dîsko",
+					["msg"] = "yea, I'm not",
+					["inbound"] = true,
+					["convo"] = "Dîsko",
 				}, -- [4]
 				{
 					["type"] = 1,
-					["time"] = 1316145555,
+					["time"] = 1316135075,
 					["from"] = "Aset",
-					["msg"] = "I sowwy! <3",
+					["msg"] = "it's tnsnames.ora, it contains like, mappings of \"simple\" names to full hostname/ip/schema names",
 					["inbound"] = false,
-					["convo"] = "|Kf581|k00000000000|k",
+					["convo"] = "Dîsko",
 				}, -- [5]
 				{
 					["type"] = 1,
-					["time"] = 1316145559,
+					["time"] = 1316135082,
 					["from"] = "Aset",
-					["msg"] = "Are you better now?",
+					["msg"] = "and i put one in place as per a post i saw",
 					["inbound"] = false,
-					["convo"] = "|Kf581|k00000000000|k",
+					["convo"] = "Dîsko",
 				}, -- [6]
 				{
 					["type"] = 1,
-					["time"] = 1316145598,
+					["time"] = 1316135085,
 					["from"] = "Aset",
-					["msg"] = "damn!",
+					["msg"] = "and Toad picks it up",
 					["inbound"] = false,
-					["convo"] = "|Kf581|k00000000000|k",
+					["convo"] = "Dîsko",
 				}, -- [7]
 				{
 					["type"] = 1,
-					["time"] = 1316145600,
+					["time"] = 1316135095,
 					["from"] = "Aset",
-					["msg"] = "I sowwy",
+					["msg"] = "but.. it won't connect, and in typical Oracle fashion it's crytpic as hell",
 					["inbound"] = false,
-					["convo"] = "|Kf581|k00000000000|k",
+					["convo"] = "Dîsko",
 				}, -- [8]
 				{
 					["type"] = 1,
-					["time"] = 1316145806,
-					["from"] = "Aset",
-					["msg"] = "looooves!",
-					["inbound"] = false,
-					["convo"] = "|Kf581|k00000000000|k",
+					["time"] = 1316135096,
+					["from"] = "Dîsko",
+					["msg"] = "hmm",
+					["inbound"] = true,
+					["convo"] = "Dîsko",
 				}, -- [9]
 				{
 					["type"] = 1,
-					["time"] = 1316145891,
-					["from"] = "Aset",
-					["msg"] = "You should be careful not to sleep too much!",
-					["inbound"] = false,
-					["convo"] = "|Kf581|k00000000000|k",
+					["time"] = 1316135109,
+					["from"] = "Dîsko",
+					["msg"] = "what do you need oracle for ?",
+					["inbound"] = true,
+					["convo"] = "Dîsko",
 				}, -- [10]
 				{
 					["type"] = 1,
-					["time"] = 1316145896,
+					["time"] = 1316135110,
 					["from"] = "Aset",
-					["msg"] = "It makes you more sleepy!",
+					["msg"] = "i've verified i can telnet to the port on the server, so it's not being blocked",
 					["inbound"] = false,
-					["convo"] = "|Kf581|k00000000000|k",
+					["convo"] = "Dîsko",
 				}, -- [11]
 				{
 					["type"] = 1,
-					["time"] = 1316145898,
-					["from"] = "Aset",
-					["msg"] = "I know i've done it",
-					["inbound"] = false,
-					["convo"] = "|Kf581|k00000000000|k",
+					["time"] = 1316135117,
+					["from"] = "Dîsko",
+					["msg"] = "putting it on Quasarj?",
+					["inbound"] = true,
+					["convo"] = "Dîsko",
 				}, -- [12]
 				{
 					["type"] = 1,
-					["time"] = 1316145922,
+					["time"] = 1316135122,
 					["from"] = "Aset",
-					["msg"] = "i think that's a terrible plan!",
+					["msg"] = "ah i'm setting it up for some lessons",
 					["inbound"] = false,
-					["convo"] = "|Kf581|k00000000000|k",
+					["convo"] = "Dîsko",
 				}, -- [13]
 				{
 					["type"] = 1,
-					["time"] = 1316145928,
+					["time"] = 1316135158,
 					["from"] = "Aset",
-					["msg"] = "okay :(",
+					["msg"] = "i'm setting it up to give lessons toa friend",
 					["inbound"] = false,
-					["convo"] = "|Kf581|k00000000000|k",
+					["convo"] = "Dîsko",
 				}, -- [14]
 				{
 					["type"] = 1,
-					["time"] = 1316145933,
+					["time"] = 1316135183,
 					["from"] = "Aset",
-					["msg"] = "*hugs* i hope you get better soon!",
+					["msg"] = "so he can get some oracle experience",
 					["inbound"] = false,
-					["convo"] = "|Kf581|k00000000000|k",
+					["convo"] = "Dîsko",
 				}, -- [15]
+				{
+					["type"] = 1,
+					["time"] = 1316135190,
+					["from"] = "Aset",
+					["msg"] = "the server is actually up and running on quasarj.com already",
+					["inbound"] = false,
+					["convo"] = "Dîsko",
+				}, -- [16]
+				{
+					["type"] = 1,
+					["time"] = 1316135200,
+					["from"] = "Aset",
+					["msg"] = "(that part was easy loL)",
+					["inbound"] = false,
+					["convo"] = "Dîsko",
+				}, -- [17]
+				{
+					["type"] = 1,
+					["time"] = 1316135391,
+					["from"] = "Aset",
+					["msg"] = "so anyway",
+					["inbound"] = false,
+					["convo"] = "Dîsko",
+				}, -- [18]
+				{
+					["type"] = 1,
+					["time"] = 1316135401,
+					["from"] = "Aset",
+					["msg"] = "i guess it could be because i think my server is 11g and my client is 10g",
+					["inbound"] = false,
+					["convo"] = "Dîsko",
+				}, -- [19]
+				{
+					["type"] = 1,
+					["time"] = 1316135410,
+					["from"] = "Aset",
+					["msg"] = "cuz for some reaosn they don't have a 11g xe client",
+					["inbound"] = false,
+					["convo"] = "Dîsko",
+				}, -- [20]
+				{
+					["type"] = 1,
+					["time"] = 1316135417,
+					["from"] = "Aset",
+					["msg"] = "i could install the full server, i may try that later",
+					["inbound"] = false,
+					["convo"] = "Dîsko",
+				}, -- [21]
+				{
+					["type"] = 1,
+					["time"] = 1316135420,
+					["from"] = "Dîsko",
+					["msg"] = "nice",
+					["inbound"] = true,
+					["convo"] = "Dîsko",
+				}, -- [22]
+				{
+					["type"] = 1,
+					["time"] = 1316135426,
+					["from"] = "Dîsko",
+					["msg"] = "yea, I need to play with oracle",
+					["inbound"] = true,
+					["convo"] = "Dîsko",
+				}, -- [23]
+				{
+					["type"] = 1,
+					["time"] = 1316135454,
+					["from"] = "Aset",
+					["msg"] = "yeah, honestly it's not too bad, and although some things are terrible (everything uppercase, ugh) it's got some nice shortcuts and stuff",
+					["inbound"] = false,
+					["convo"] = "Dîsko",
+				}, -- [24]
+				{
+					["type"] = 1,
+					["time"] = 1316135466,
+					["from"] = "Dîsko",
+					["msg"] = "very cool",
+					["inbound"] = true,
+					["convo"] = "Dîsko",
+				}, -- [25]
+				{
+					["type"] = 1,
+					["time"] = 1316135477,
+					["from"] = "Dîsko",
+					["msg"] = "I had my 3rd interview for that desktop support gig",
+					["inbound"] = true,
+					["convo"] = "Dîsko",
+				}, -- [26]
+				{
+					["type"] = 1,
+					["time"] = 1316135492,
+					["from"] = "Dîsko",
+					["msg"] = "went well, they are making a decision within 2 weeks",
+					["inbound"] = true,
+					["convo"] = "Dîsko",
+				}, -- [27]
+				{
+					["type"] = 1,
+					["time"] = 1316135495,
+					["from"] = "Dîsko",
+					["msg"] = "so we shall see",
+					["inbound"] = true,
+					["convo"] = "Dîsko",
+				}, -- [28]
+				{
+					["type"] = 1,
+					["time"] = 1316135504,
+					["from"] = "Dîsko",
+					["msg"] = "I'm thinkinh positive about it",
+					["inbound"] = true,
+					["convo"] = "Dîsko",
+				}, -- [29]
+				{
+					["type"] = 1,
+					["time"] = 1316135581,
+					["from"] = "Aset",
+					["msg"] = "nice!",
+					["inbound"] = false,
+					["convo"] = "Dîsko",
+				}, -- [30]
+				{
+					["type"] = 1,
+					["time"] = 1316135583,
+					["from"] = "Aset",
+					["msg"] = "good luck man!",
+					["inbound"] = false,
+					["convo"] = "Dîsko",
+				}, -- [31]
+				{
+					["type"] = 1,
+					["time"] = 1316135702,
+					["from"] = "Dîsko",
+					["msg"] = "thanks",
+					["inbound"] = true,
+					["convo"] = "Dîsko",
+				}, -- [32]
+				{
+					["type"] = 1,
+					["time"] = 1316135729,
+					["from"] = "Aset",
+					["msg"] = "too bad there's so much competition, but still sounds pretty good",
+					["inbound"] = false,
+					["convo"] = "Dîsko",
+				}, -- [33]
+				{
+					["type"] = 1,
+					["time"] = 1316135768,
+					["from"] = "Dîsko",
+					["msg"] = "I know, it would be a really good job. If not this one. I'll find another but this would be a really good one so I hope it happens",
+					["inbound"] = true,
+					["convo"] = "Dîsko",
+				}, -- [34]
+				{
+					["type"] = 1,
+					["time"] = 1316135794,
+					["from"] = "Dîsko",
+					["msg"] = "the area I live in has lots of highly educated people",
+					["inbound"] = true,
+					["convo"] = "Dîsko",
+				}, -- [35]
+				{
+					["type"] = 1,
+					["time"] = 1316141485,
+					["from"] = "Aset",
+					["msg"] = "I invigorate joo! (Innervate)",
+					["inbound"] = false,
+					["convo"] = "Dîsko",
+				}, -- [36]
 				["info"] = {
 				},
 			},
@@ -16885,6 +15858,4686 @@ WIM3_History = {
 					["inbound"] = false,
 					["convo"] = "Aset",
 				}, -- [6]
+				["info"] = {
+				},
+			},
+			["|Kf95|k0000000000000|k"] = {
+				{
+					["type"] = 1,
+					["time"] = 1316748373,
+					["from"] = "Aset",
+					["msg"] = "I'm pretty much going to bed",
+					["inbound"] = false,
+					["convo"] = "|Kf95|k0000000000000|k",
+				}, -- [1]
+				{
+					["type"] = 1,
+					["time"] = 1316748376,
+					["from"] = "Aset",
+					["msg"] = "i feel like so much shit",
+					["inbound"] = false,
+					["convo"] = "|Kf95|k0000000000000|k",
+				}, -- [2]
+				{
+					["type"] = 1,
+					["time"] = 1316748377,
+					["from"] = "Aset",
+					["msg"] = "but",
+					["inbound"] = false,
+					["convo"] = "|Kf95|k0000000000000|k",
+				}, -- [3]
+				{
+					["type"] = 1,
+					["time"] = 1316748383,
+					["from"] = "Aset",
+					["msg"] = "it looks like Group 1 just killed Rag",
+					["inbound"] = false,
+					["convo"] = "|Kf95|k0000000000000|k",
+				}, -- [4]
+				{
+					["type"] = 1,
+					["time"] = 1316748386,
+					["from"] = "Aset",
+					["msg"] = "and got the mount",
+					["inbound"] = false,
+					["convo"] = "|Kf95|k0000000000000|k",
+				}, -- [5]
+				{
+					["type"] = 1,
+					["time"] = 1316748409,
+					["from"] = "Aset",
+					["msg"] = "That's *waaay* too many for it to be coincidence, it must drop at 100% the first time you kill him",
+					["inbound"] = false,
+					["convo"] = "|Kf95|k0000000000000|k",
+				}, -- [6]
+				{
+					["type"] = 1,
+					["time"] = 1316748417,
+					["from"] = "Aset",
+					["msg"] = "not sure how it would be calculated though",
+					["inbound"] = false,
+					["convo"] = "|Kf95|k0000000000000|k",
+				}, -- [7]
+				{
+					["type"] = 1,
+					["time"] = 1316748431,
+					["from"] = "Aset",
+					["msg"] = "but.. our group got it on first kill, pariah got it on first kill, Group 1 got it on frist kill",
+					["inbound"] = false,
+					["convo"] = "|Kf95|k0000000000000|k",
+				}, -- [8]
+				{
+					["type"] = 1,
+					["time"] = 1316748441,
+					["from"] = "Aset",
+					["msg"] = "and none of us have seen another since then, despite having killed him 8 times more each",
+					["inbound"] = false,
+					["convo"] = "|Kf95|k0000000000000|k",
+				}, -- [9]
+				{
+					["type"] = 1,
+					["time"] = 1316748491,
+					["from"] = "Aset",
+					["msg"] = "but anyway",
+					["inbound"] = false,
+					["convo"] = "|Kf95|k0000000000000|k",
+				}, -- [10]
+				{
+					["type"] = 1,
+					["time"] = 1316748555,
+					["from"] = "Aset",
+					["msg"] = "sure",
+					["inbound"] = false,
+					["convo"] = "|Kf95|k0000000000000|k",
+				}, -- [11]
+				{
+					["type"] = 1,
+					["time"] = 1316748558,
+					["from"] = "Aset",
+					["msg"] = "okay so anyway",
+					["inbound"] = false,
+					["convo"] = "|Kf95|k0000000000000|k",
+				}, -- [12]
+				{
+					["type"] = 1,
+					["time"] = 1316748567,
+					["from"] = "Aset",
+					["msg"] = "We did most/all of the achivements in Ulduar",
+					["inbound"] = false,
+					["convo"] = "|Kf95|k0000000000000|k",
+				}, -- [13]
+				{
+					["type"] = 1,
+					["time"] = 1316748568,
+					["from"] = "Aset",
+					["msg"] = "tonight",
+					["inbound"] = false,
+					["convo"] = "|Kf95|k0000000000000|k",
+				}, -- [14]
+				{
+					["type"] = 1,
+					["time"] = 1316748578,
+					["from"] = "Aset",
+					["msg"] = "and! now i'm in the 10,000 club!",
+					["inbound"] = false,
+					["convo"] = "|Kf95|k0000000000000|k",
+				}, -- [15]
+				{
+					["type"] = 1,
+					["time"] = 1316748603,
+					["from"] = "Aset",
+					["msg"] = "10,020 points",
+					["inbound"] = false,
+					["convo"] = "|Kf95|k0000000000000|k",
+				}, -- [16]
+				{
+					["type"] = 1,
+					["time"] = 1316748698,
+					["from"] = "Aset",
+					["msg"] = "got two mounts in Trade right now",
+					["inbound"] = false,
+					["convo"] = "|Kf95|k0000000000000|k",
+				}, -- [17]
+				{
+					["type"] = 1,
+					["time"] = 1316748699,
+					["from"] = "Aset",
+					["msg"] = "lol",
+					["inbound"] = false,
+					["convo"] = "|Kf95|k0000000000000|k",
+				}, -- [18]
+				{
+					["type"] = 1,
+					["time"] = 1316748702,
+					["from"] = "Aset",
+					["msg"] = "two blazing birds",
+					["inbound"] = false,
+					["convo"] = "|Kf95|k0000000000000|k",
+				}, -- [19]
+				{
+					["type"] = 1,
+					["time"] = 1316748704,
+					["from"] = "Aset",
+					["msg"] = "also",
+					["inbound"] = false,
+					["convo"] = "|Kf95|k0000000000000|k",
+				}, -- [20]
+				{
+					["type"] = 1,
+					["time"] = 1316748708,
+					["from"] = "Aset",
+					["msg"] = " |Hitem:45892:0:0:0:0:0:0:1486296384:85:0|h[Legacy of Thunder]|h |Hitem:45661:0:0:0:0:0:0:1754731840:85:0|h[Spaulders of the Wayward Vanquisher]|h",
+					["inbound"] = false,
+					["convo"] = "|Kf95|k0000000000000|k",
+				}, -- [21]
+				{
+					["type"] = 1,
+					["time"] = 1316748715,
+					["from"] = "Aset",
+					["msg"] = "Yep",
+					["inbound"] = false,
+					["convo"] = "|Kf95|k0000000000000|k",
+				}, -- [22]
+				{
+					["type"] = 1,
+					["time"] = 1316748720,
+					["from"] = "Aset",
+					["msg"] = "Got my T8 shoulders from that run",
+					["inbound"] = false,
+					["convo"] = "|Kf95|k0000000000000|k",
+				}, -- [23]
+				{
+					["type"] = 1,
+					["time"] = 1316748721,
+					["from"] = "Aset",
+					["msg"] = "wohoo!",
+					["inbound"] = false,
+					["convo"] = "|Kf95|k0000000000000|k",
+				}, -- [24]
+				{
+					["type"] = 1,
+					["time"] = 1316748729,
+					["from"] = "Aset",
+					["msg"] = "sec switching",
+					["inbound"] = false,
+					["convo"] = "|Kf95|k0000000000000|k",
+				}, -- [25]
+				["info"] = {
+				},
+			},
+			["Tabata"] = {
+				{
+					["type"] = 1,
+					["time"] = 1315963397,
+					["from"] = "Aset",
+					["msg"] = "what's our blocku p to? are you block capped? or close?",
+					["inbound"] = false,
+					["convo"] = "Tabata",
+				}, -- [1]
+				{
+					["type"] = 1,
+					["time"] = 1315966254,
+					["from"] = "Tabata",
+					["msg"] = "what gear can you upgrade",
+					["inbound"] = true,
+					["convo"] = "Tabata",
+				}, -- [2]
+				{
+					["type"] = 1,
+					["time"] = 1315966258,
+					["from"] = "Tabata",
+					["msg"] = "random drops obviously",
+					["inbound"] = true,
+					["convo"] = "Tabata",
+				}, -- [3]
+				{
+					["type"] = 1,
+					["time"] = 1315966261,
+					["from"] = "Tabata",
+					["msg"] = "aything else",
+					["inbound"] = true,
+					["convo"] = "Tabata",
+				}, -- [4]
+				{
+					["type"] = 1,
+					["time"] = 1315966262,
+					["from"] = "Aset",
+					["msg"] = " |cffa335ee|Hitem:71557:0:0:0:0:0:0:0:85:0|h[Ranseur of Hatred]|h|r |cffa335ee|Hitem:69109:0:0:0:0:0:0:0:85:0|h[Scales of Life]|h|r |cffa335ee|Hitem:71567:0:0:0:0:0:0:0:85:0|h[Covenant of the Flame]|h|r",
+					["inbound"] = false,
+					["convo"] = "Tabata",
+				}, -- [5]
+				{
+					["type"] = 1,
+					["time"] = 1315966266,
+					["from"] = "Aset",
+					["msg"] = "those are the only",
+					["inbound"] = false,
+					["convo"] = "Tabata",
+				}, -- [6]
+				{
+					["type"] = 1,
+					["time"] = 1315966278,
+					["from"] = "Tabata",
+					["msg"] = "can you do any non set vp gear?",
+					["inbound"] = true,
+					["convo"] = "Tabata",
+				}, -- [7]
+				{
+					["type"] = 1,
+					["time"] = 1315966279,
+					["from"] = "Aset",
+					["msg"] = "the polearm is iffy, it's nice for now but i will not wear it over the mastery one",
+					["inbound"] = false,
+					["convo"] = "Tabata",
+				}, -- [8]
+				{
+					["type"] = 1,
+					["time"] = 1315966283,
+					["from"] = "Tabata",
+					["msg"] = "i dont mean you personally",
+					["inbound"] = true,
+					["convo"] = "Tabata",
+				}, -- [9]
+				{
+					["type"] = 1,
+					["time"] = 1315966285,
+					["from"] = "Aset",
+					["msg"] = "nope those are the only 3",
+					["inbound"] = false,
+					["convo"] = "Tabata",
+				}, -- [10]
+				{
+					["type"] = 1,
+					["time"] = 1315966287,
+					["from"] = "Tabata",
+					["msg"] = "but in general",
+					["inbound"] = true,
+					["convo"] = "Tabata",
+				}, -- [11]
+				{
+					["type"] = 1,
+					["time"] = 1315966312,
+					["from"] = "Aset",
+					["msg"] = "in general it's all of the random drops you get in here",
+					["inbound"] = false,
+					["convo"] = "Tabata",
+				}, -- [12]
+				{
+					["type"] = 1,
+					["time"] = 1315966316,
+					["from"] = "Aset",
+					["msg"] = "but not vp gear, except for relics",
+					["inbound"] = false,
+					["convo"] = "Tabata",
+				}, -- [13]
+				{
+					["type"] = 1,
+					["time"] = 1315966321,
+					["from"] = "Tabata",
+					["msg"] = "ahh kk",
+					["inbound"] = true,
+					["convo"] = "Tabata",
+				}, -- [14]
+				{
+					["type"] = 1,
+					["time"] = 1315968967,
+					["from"] = "Aset",
+					["msg"] = "Rezzing you (don't walk in!)",
+					["inbound"] = false,
+					["convo"] = "Tabata",
+				}, -- [15]
+				["info"] = {
+				},
+			},
+			["|Kf122|k00000000000|k"] = {
+				{
+					["type"] = 1,
+					["time"] = 1317054425,
+					["from"] = "Aset",
+					["msg"] = "rawr!",
+					["inbound"] = false,
+					["convo"] = "|Kf122|k00000000000|k",
+				}, -- [1]
+				{
+					["type"] = 1,
+					["time"] = 1317054506,
+					["from"] = "Aset",
+					["msg"] = "yes'm",
+					["inbound"] = false,
+					["convo"] = "|Kf122|k00000000000|k",
+				}, -- [2]
+				{
+					["type"] = 1,
+					["time"] = 1317054594,
+					["from"] = "Aset",
+					["msg"] = "yeah now that you finally got up! sheesh!",
+					["inbound"] = false,
+					["convo"] = "|Kf122|k00000000000|k",
+				}, -- [3]
+				{
+					["type"] = 1,
+					["time"] = 1317054617,
+					["from"] = "Aset",
+					["msg"] = "Meh, i'm improving, it's hard to tell which bad feelings are the sick and which are the withdrawls, but overall i feel better than I did yesterday.",
+					["inbound"] = false,
+					["convo"] = "|Kf122|k00000000000|k",
+				}, -- [4]
+				["info"] = {
+				},
+			},
+			["|Kf1076|k0000000000000|k"] = {
+				{
+					["type"] = 1,
+					["time"] = 1316577724,
+					["from"] = "Aset",
+					["msg"] = "haha",
+					["inbound"] = false,
+					["convo"] = "|Kf1076|k0000000000000|k",
+				}, -- [1]
+				{
+					["type"] = 1,
+					["time"] = 1316577727,
+					["from"] = "Aset",
+					["msg"] = "wb",
+					["inbound"] = false,
+					["convo"] = "|Kf1076|k0000000000000|k",
+				}, -- [2]
+				{
+					["type"] = 1,
+					["time"] = 1316577729,
+					["from"] = "Aset",
+					["msg"] = "so i ended up with",
+					["inbound"] = false,
+					["convo"] = "|Kf1076|k0000000000000|k",
+				}, -- [3]
+				{
+					["type"] = 1,
+					["time"] = 1316577732,
+					["from"] = "Aset",
+					["msg"] = " |Hitem:71098:0:4049:3996:0:0:0:0:85:0|h[Obsidian Arborweave Headpiece]|h",
+					["inbound"] = false,
+					["convo"] = "|Kf1076|k0000000000000|k",
+				}, -- [4]
+				{
+					["type"] = 1,
+					["time"] = 1316577745,
+					["from"] = "Aset",
+					["msg"] = "which let me take off my tier gloves and put on  |Hitem:71020:4107:4033:0:0:0:0:912427008:85:0|h[Gloves of Dissolving Smoke]|h which are better itemized",
+					["inbound"] = false,
+					["convo"] = "|Kf1076|k0000000000000|k",
+				}, -- [5]
+				{
+					["type"] = 1,
+					["time"] = 1316577754,
+					["from"] = "Aset",
+					["msg"] = "and also now i have a helm that matches my shoulders, lol",
+					["inbound"] = false,
+					["convo"] = "|Kf1076|k0000000000000|k",
+				}, -- [6]
+				{
+					["type"] = 1,
+					["time"] = 1316577786,
+					["from"] = "Aset",
+					["msg"] = "so how are you? I thought you weren't gonna be here tonight? or was that tomorrow morning?",
+					["inbound"] = false,
+					["convo"] = "|Kf1076|k0000000000000|k",
+				}, -- [7]
+				{
+					["type"] = 1,
+					["time"] = 1316577856,
+					["from"] = "Aset",
+					["msg"] = "ah okay, cool",
+					["inbound"] = false,
+					["convo"] = "|Kf1076|k0000000000000|k",
+				}, -- [8]
+				{
+					["type"] = 1,
+					["time"] = 1316577860,
+					["from"] = "Aset",
+					["msg"] = "well",
+					["inbound"] = false,
+					["convo"] = "|Kf1076|k0000000000000|k",
+				}, -- [9]
+				{
+					["type"] = 1,
+					["time"] = 1316577865,
+					["from"] = "Aset",
+					["msg"] = "i need to finish this gemming",
+					["inbound"] = false,
+					["convo"] = "|Kf1076|k0000000000000|k",
+				}, -- [10]
+				{
+					["type"] = 1,
+					["time"] = 1316577872,
+					["from"] = "Aset",
+					["msg"] = "then i'm gonna.. tank direbrew a bit on my DK i guess",
+					["inbound"] = false,
+					["convo"] = "|Kf1076|k0000000000000|k",
+				}, -- [11]
+				{
+					["type"] = 1,
+					["time"] = 1316577880,
+					["from"] = "Aset",
+					["msg"] = "try to get one of the stam trinks at least",
+					["inbound"] = false,
+					["convo"] = "|Kf1076|k0000000000000|k",
+				}, -- [12]
+				{
+					["type"] = 1,
+					["time"] = 1316577881,
+					["from"] = "Aset",
+					["msg"] = "oh wait",
+					["inbound"] = false,
+					["convo"] = "|Kf1076|k0000000000000|k",
+				}, -- [13]
+				{
+					["type"] = 1,
+					["time"] = 1316577887,
+					["from"] = "Aset",
+					["msg"] = "actually I don't need one cuz i got a scales of life",
+					["inbound"] = false,
+					["convo"] = "|Kf1076|k0000000000000|k",
+				}, -- [14]
+				{
+					["type"] = 1,
+					["time"] = 1316577888,
+					["from"] = "Aset",
+					["msg"] = "hrm",
+					["inbound"] = false,
+					["convo"] = "|Kf1076|k0000000000000|k",
+				}, -- [15]
+				{
+					["type"] = 1,
+					["time"] = 1316577915,
+					["from"] = "Aset",
+					["msg"] = "i just bought the 378 tanking bracers for Deadset cuz I have lots of extra VP on Aset now",
+					["inbound"] = false,
+					["convo"] = "|Kf1076|k0000000000000|k",
+				}, -- [16]
+				{
+					["type"] = 1,
+					["time"] = 1316577964,
+					["from"] = "Aset",
+					["msg"] = "do you have 378 bracers yet?",
+					["inbound"] = false,
+					["convo"] = "|Kf1076|k0000000000000|k",
+				}, -- [17]
+				{
+					["type"] = 1,
+					["time"] = 1316577975,
+					["from"] = "Aset",
+					["msg"] = "would you like a pair?",
+					["inbound"] = false,
+					["convo"] = "|Kf1076|k0000000000000|k",
+				}, -- [18]
+				{
+					["type"] = 1,
+					["time"] = 1316577989,
+					["from"] = "Aset",
+					["msg"] = "lol okay sec, i think i have enough for another pair",
+					["inbound"] = false,
+					["convo"] = "|Kf1076|k0000000000000|k",
+				}, -- [19]
+				{
+					["type"] = 1,
+					["time"] = 1316578017,
+					["from"] = "Aset",
+					["msg"] = "yeah well you know, when you still have peices to buy you want that VP like crazy.. but when you run out of things to buy it piles up lol",
+					["inbound"] = false,
+					["convo"] = "|Kf1076|k0000000000000|k",
+				}, -- [20]
+				{
+					["type"] = 1,
+					["time"] = 1316578054,
+					["from"] = "Aset",
+					["msg"] = "I could spend it on my boomkin.. but i don't need to",
+					["inbound"] = false,
+					["convo"] = "|Kf1076|k0000000000000|k",
+				}, -- [21]
+				{
+					["type"] = 1,
+					["time"] = 1316578069,
+					["from"] = "Aset",
+					["msg"] = " |Hitem:71260:0:0:0:0:0:0:0:85:0|h[Bracers of Imperious Truths]|h ?",
+					["inbound"] = false,
+					["convo"] = "|Kf1076|k0000000000000|k",
+				}, -- [22]
+				{
+					["type"] = 1,
+					["time"] = 1316578086,
+					["from"] = "Aset",
+					["msg"] = "that is the spirit one",
+					["inbound"] = false,
+					["convo"] = "|Kf1076|k0000000000000|k",
+				}, -- [23]
+				{
+					["type"] = 1,
+					["time"] = 1316578089,
+					["from"] = "Aset",
+					["msg"] = "the crit is lame",
+					["inbound"] = false,
+					["convo"] = "|Kf1076|k0000000000000|k",
+				}, -- [24]
+				{
+					["type"] = 1,
+					["time"] = 1316578096,
+					["from"] = "Aset",
+					["msg"] = "but that's the only option, you can add haste to it at least!",
+					["inbound"] = false,
+					["convo"] = "|Kf1076|k0000000000000|k",
+				}, -- [25]
+				{
+					["type"] = 1,
+					["time"] = 1316578101,
+					["from"] = "Aset",
+					["msg"] = "oh, or mastery",
+					["inbound"] = false,
+					["convo"] = "|Kf1076|k0000000000000|k",
+				}, -- [26]
+				{
+					["type"] = 1,
+					["time"] = 1316578103,
+					["from"] = "Aset",
+					["msg"] = "whatever you're after",
+					["inbound"] = false,
+					["convo"] = "|Kf1076|k0000000000000|k",
+				}, -- [27]
+				{
+					["type"] = 1,
+					["time"] = 1316578130,
+					["from"] = "Aset",
+					["msg"] = "yes sec",
+					["inbound"] = false,
+					["convo"] = "|Kf1076|k0000000000000|k",
+				}, -- [28]
+				{
+					["type"] = 1,
+					["time"] = 1316578133,
+					["from"] = "Aset",
+					["msg"] = "i'll join you",
+					["inbound"] = false,
+					["convo"] = "|Kf1076|k0000000000000|k",
+				}, -- [29]
+				["info"] = {
+				},
+			},
+			["|Kf732|k00000000000|k"] = {
+				{
+					["type"] = 1,
+					["time"] = 1317074275,
+					["from"] = "Aset",
+					["msg"] = ":O",
+					["inbound"] = false,
+					["convo"] = "|Kf732|k00000000000|k",
+				}, -- [1]
+				{
+					["type"] = 1,
+					["time"] = 1317074278,
+					["from"] = "Aset",
+					["msg"] = "Congrats!",
+					["inbound"] = false,
+					["convo"] = "|Kf732|k00000000000|k",
+				}, -- [2]
+				{
+					["type"] = 1,
+					["time"] = 1317074281,
+					["from"] = "Aset",
+					["msg"] = "I have not gotten that one yet! :O",
+					["inbound"] = false,
+					["convo"] = "|Kf732|k00000000000|k",
+				}, -- [3]
+				{
+					["type"] = 1,
+					["time"] = 1317074320,
+					["from"] = "Aset",
+					["msg"] = ":D",
+					["inbound"] = false,
+					["convo"] = "|Kf732|k00000000000|k",
+				}, -- [4]
+				{
+					["type"] = 1,
+					["time"] = 1317074322,
+					["from"] = "Aset",
+					["msg"] = "i feel yucky",
+					["inbound"] = false,
+					["convo"] = "|Kf732|k00000000000|k",
+				}, -- [5]
+				{
+					["type"] = 1,
+					["time"] = 1317074597,
+					["from"] = "Aset",
+					["msg"] = "O_o",
+					["inbound"] = false,
+					["convo"] = "|Kf732|k00000000000|k",
+				}, -- [6]
+				{
+					["type"] = 1,
+					["time"] = 1317074608,
+					["from"] = "Aset",
+					["msg"] = "Wait people actually watch that \"Jersey Shore\" show?",
+					["inbound"] = false,
+					["convo"] = "|Kf732|k00000000000|k",
+				}, -- [7]
+				{
+					["type"] = 1,
+					["time"] = 1317074617,
+					["from"] = "Aset",
+					["msg"] = "I thought it was just a joke? o_O",
+					["inbound"] = false,
+					["convo"] = "|Kf732|k00000000000|k",
+				}, -- [8]
+				{
+					["type"] = 1,
+					["time"] = 1317075082,
+					["from"] = "Aset",
+					["msg"] = "Oh wait oyu mean you were expecting \"That 70's Show\" but some evil came on instead?",
+					["inbound"] = false,
+					["convo"] = "|Kf732|k00000000000|k",
+				}, -- [9]
+				{
+					["type"] = 1,
+					["time"] = 1317075173,
+					["from"] = "Aset",
+					["msg"] = ":(",
+					["inbound"] = false,
+					["convo"] = "|Kf732|k00000000000|k",
+				}, -- [10]
+				{
+					["type"] = 1,
+					["time"] = 1317075175,
+					["from"] = "Aset",
+					["msg"] = "*hugs*",
+					["inbound"] = false,
+					["convo"] = "|Kf732|k00000000000|k",
+				}, -- [11]
+				{
+					["type"] = 1,
+					["time"] = 1317075947,
+					["from"] = "Aset",
+					["msg"] = "what?",
+					["inbound"] = false,
+					["convo"] = "|Kf732|k00000000000|k",
+				}, -- [12]
+				{
+					["type"] = 1,
+					["time"] = 1317076440,
+					["from"] = "Aset",
+					["msg"] = "sorry",
+					["inbound"] = false,
+					["convo"] = "|Kf732|k00000000000|k",
+				}, -- [13]
+				{
+					["type"] = 1,
+					["time"] = 1317076445,
+					["from"] = "Aset",
+					["msg"] = "i'm chatting with Rob, sorry lol",
+					["inbound"] = false,
+					["convo"] = "|Kf732|k00000000000|k",
+				}, -- [14]
+				{
+					["type"] = 1,
+					["time"] = 1317076826,
+					["from"] = "Aset",
+					["msg"] = "sorry!",
+					["inbound"] = false,
+					["convo"] = "|Kf732|k00000000000|k",
+				}, -- [15]
+				{
+					["type"] = 1,
+					["time"] = 1317076829,
+					["from"] = "Aset",
+					["msg"] = "What's up?",
+					["inbound"] = false,
+					["convo"] = "|Kf732|k00000000000|k",
+				}, -- [16]
+				{
+					["type"] = 1,
+					["time"] = 1317076839,
+					["from"] = "Aset",
+					["msg"] = "Sorry i have been.. not able to focus well today ><",
+					["inbound"] = false,
+					["convo"] = "|Kf732|k00000000000|k",
+				}, -- [17]
+				{
+					["type"] = 1,
+					["time"] = 1317076845,
+					["from"] = "Aset",
+					["msg"] = "Hrm, nah",
+					["inbound"] = false,
+					["convo"] = "|Kf732|k00000000000|k",
+				}, -- [18]
+				{
+					["type"] = 1,
+					["time"] = 1317076854,
+					["from"] = "Aset",
+					["msg"] = "i should go run them on my lock though",
+					["inbound"] = false,
+					["convo"] = "|Kf732|k00000000000|k",
+				}, -- [19]
+				{
+					["type"] = 1,
+					["time"] = 1317077326,
+					["from"] = "Aset",
+					["msg"] = "ummm",
+					["inbound"] = false,
+					["convo"] = "|Kf732|k00000000000|k",
+				}, -- [20]
+				{
+					["type"] = 1,
+					["time"] = 1317077333,
+					["from"] = "Aset",
+					["msg"] = "what do you need it for?",
+					["inbound"] = false,
+					["convo"] = "|Kf732|k00000000000|k",
+				}, -- [21]
+				{
+					["type"] = 1,
+					["time"] = 1317077440,
+					["from"] = "Aset",
+					["msg"] = "um",
+					["inbound"] = false,
+					["convo"] = "|Kf732|k00000000000|k",
+				}, -- [22]
+				{
+					["type"] = 1,
+					["time"] = 1317077446,
+					["from"] = "Aset",
+					["msg"] = "somehwre in northrend lol",
+					["inbound"] = false,
+					["convo"] = "|Kf732|k00000000000|k",
+				}, -- [23]
+				{
+					["type"] = 1,
+					["time"] = 1317077452,
+					["from"] = "Aset",
+					["msg"] = "humanoids drop cloth",
+					["inbound"] = false,
+					["convo"] = "|Kf732|k00000000000|k",
+				}, -- [24]
+				{
+					["type"] = 1,
+					["time"] = 1317077452,
+					["from"] = "Aset",
+					["msg"] = "so",
+					["inbound"] = false,
+					["convo"] = "|Kf732|k00000000000|k",
+				}, -- [25]
+				{
+					["type"] = 1,
+					["time"] = 1317077464,
+					["from"] = "Aset",
+					["msg"] = "somehwere with dense humanoids that drop loot and respawn quickly",
+					["inbound"] = false,
+					["convo"] = "|Kf732|k00000000000|k",
+				}, -- [26]
+				{
+					["type"] = 1,
+					["time"] = 1317077471,
+					["from"] = "Aset",
+					["msg"] = "possible the ones around Icecrown",
+					["inbound"] = false,
+					["convo"] = "|Kf732|k00000000000|k",
+				}, -- [27]
+				{
+					["type"] = 1,
+					["time"] = 1317077474,
+					["from"] = "Aset",
+					["msg"] = "if they drop loot",
+					["inbound"] = false,
+					["convo"] = "|Kf732|k00000000000|k",
+				}, -- [28]
+				{
+					["type"] = 1,
+					["time"] = 1317077481,
+					["from"] = "Aset",
+					["msg"] = "there's a bunch of undead or something that respawn very quickly",
+					["inbound"] = false,
+					["convo"] = "|Kf732|k00000000000|k",
+				}, -- [29]
+				{
+					["type"] = 1,
+					["time"] = 1317077487,
+					["from"] = "Aset",
+					["msg"] = "but they may not drop cloth",
+					["inbound"] = false,
+					["convo"] = "|Kf732|k00000000000|k",
+				}, -- [30]
+				{
+					["type"] = 1,
+					["time"] = 1317077496,
+					["from"] = "Aset",
+					["msg"] = "i have never tried though, i'd say go rape some stuff and see what you get?",
+					["inbound"] = false,
+					["convo"] = "|Kf732|k00000000000|k",
+				}, -- [31]
+				["info"] = {
+				},
+			},
+			["|Kf74|k00000000000|k"] = {
+				{
+					["type"] = 1,
+					["time"] = 1316738630,
+					["from"] = "Aset",
+					["msg"] = "hmm",
+					["inbound"] = false,
+					["convo"] = "|Kf74|k00000000000|k",
+				}, -- [1]
+				{
+					["type"] = 1,
+					["time"] = 1316738631,
+					["from"] = "Aset",
+					["msg"] = "well",
+					["inbound"] = false,
+					["convo"] = "|Kf74|k00000000000|k",
+				}, -- [2]
+				{
+					["type"] = 1,
+					["time"] = 1316738638,
+					["from"] = "Aset",
+					["msg"] = "If you went to all of the coords and there was nothing",
+					["inbound"] = false,
+					["convo"] = "|Kf74|k00000000000|k",
+				}, -- [3]
+				{
+					["type"] = 1,
+					["time"] = 1316738643,
+					["from"] = "Aset",
+					["msg"] = "then the next step is to use the addon EveryQuest",
+					["inbound"] = false,
+					["convo"] = "|Kf74|k00000000000|k",
+				}, -- [4]
+				{
+					["type"] = 1,
+					["time"] = 1316738663,
+					["from"] = "Aset",
+					["msg"] = "http://wow.curse.com/downloads/wow-addons/details/everyquest.aspx",
+					["inbound"] = false,
+					["convo"] = "|Kf74|k00000000000|k",
+				}, -- [5]
+				{
+					["type"] = 1,
+					["time"] = 1316738674,
+					["from"] = "Aset",
+					["msg"] = "It can query the server and get a list of every quest you have completed",
+					["inbound"] = false,
+					["convo"] = "|Kf74|k00000000000|k",
+				}, -- [6]
+				{
+					["type"] = 1,
+					["time"] = 1316738679,
+					["from"] = "Aset",
+					["msg"] = "and then it can show you which ones you have not",
+					["inbound"] = false,
+					["convo"] = "|Kf74|k00000000000|k",
+				}, -- [7]
+				{
+					["type"] = 1,
+					["time"] = 1316738690,
+					["from"] = "Aset",
+					["msg"] = "and then you can figure out what you need to do lol",
+					["inbound"] = false,
+					["convo"] = "|Kf74|k00000000000|k",
+				}, -- [8]
+				{
+					["type"] = 1,
+					["time"] = 1316738740,
+					["from"] = "Aset",
+					["msg"] = "k",
+					["inbound"] = false,
+					["convo"] = "|Kf74|k00000000000|k",
+				}, -- [9]
+				{
+					["type"] = 1,
+					["time"] = 1316739214,
+					["from"] = "Aset",
+					["msg"] = "sec let me load it and walk you through it",
+					["inbound"] = false,
+					["convo"] = "|Kf74|k00000000000|k",
+				}, -- [10]
+				{
+					["type"] = 1,
+					["time"] = 1316740320,
+					["from"] = "Aset",
+					["msg"] = "yeah",
+					["inbound"] = false,
+					["convo"] = "|Kf74|k00000000000|k",
+				}, -- [11]
+				{
+					["type"] = 1,
+					["time"] = 1316740333,
+					["from"] = "Aset",
+					["msg"] = "what is lowest quest?",
+					["inbound"] = false,
+					["convo"] = "|Kf74|k00000000000|k",
+				}, -- [12]
+				{
+					["type"] = 1,
+					["time"] = 1316741054,
+					["from"] = "Aset",
+					["msg"] = "did you find the gunship?",
+					["inbound"] = false,
+					["convo"] = "|Kf74|k00000000000|k",
+				}, -- [13]
+				{
+					["type"] = 1,
+					["time"] = 1316741077,
+					["from"] = "Aset",
+					["msg"] = "you don't wanna come get some Ulduar achieves with us?",
+					["inbound"] = false,
+					["convo"] = "|Kf74|k00000000000|k",
+				}, -- [14]
+				{
+					["type"] = 1,
+					["time"] = 1316741085,
+					["from"] = "Aset",
+					["msg"] = "Like, you can't find the gunship?",
+					["inbound"] = false,
+					["convo"] = "|Kf74|k00000000000|k",
+				}, -- [15]
+				{
+					["type"] = 1,
+					["time"] = 1316741097,
+					["from"] = "Aset",
+					["msg"] = "oh",
+					["inbound"] = false,
+					["convo"] = "|Kf74|k00000000000|k",
+				}, -- [16]
+				{
+					["type"] = 1,
+					["time"] = 1316741098,
+					["from"] = "Aset",
+					["msg"] = "nah",
+					["inbound"] = false,
+					["convo"] = "|Kf74|k00000000000|k",
+				}, -- [17]
+				{
+					["type"] = 1,
+					["time"] = 1316741099,
+					["from"] = "Aset",
+					["msg"] = "you'd be fine",
+					["inbound"] = false,
+					["convo"] = "|Kf74|k00000000000|k",
+				}, -- [18]
+				{
+					["type"] = 1,
+					["time"] = 1316741100,
+					["from"] = "Aset",
+					["msg"] = "but okay",
+					["inbound"] = false,
+					["convo"] = "|Kf74|k00000000000|k",
+				}, -- [19]
+				{
+					["type"] = 1,
+					["time"] = 1316741112,
+					["from"] = "Aset",
+					["msg"] = "I can't force you :P",
+					["inbound"] = false,
+					["convo"] = "|Kf74|k00000000000|k",
+				}, -- [20]
+				{
+					["type"] = 1,
+					["time"] = 1316741117,
+					["from"] = "Aset",
+					["msg"] = "okay so, you found the gunship:",
+					["inbound"] = false,
+					["convo"] = "|Kf74|k00000000000|k",
+				}, -- [21]
+				{
+					["type"] = 1,
+					["time"] = 1316741136,
+					["from"] = "Aset",
+					["msg"] = "wait, when was that? O_o",
+					["inbound"] = false,
+					["convo"] = "|Kf74|k00000000000|k",
+				}, -- [22]
+				{
+					["type"] = 1,
+					["time"] = 1316741193,
+					["from"] = "Aset",
+					["msg"] = "oh haha",
+					["inbound"] = false,
+					["convo"] = "|Kf74|k00000000000|k",
+				}, -- [23]
+				{
+					["type"] = 1,
+					["time"] = 1316741194,
+					["from"] = "Aset",
+					["msg"] = "well, sorry",
+					["inbound"] = false,
+					["convo"] = "|Kf74|k00000000000|k",
+				}, -- [24]
+				{
+					["type"] = 1,
+					["time"] = 1316741196,
+					["from"] = "Aset",
+					["msg"] = "they were assholes",
+					["inbound"] = false,
+					["convo"] = "|Kf74|k00000000000|k",
+				}, -- [25]
+				{
+					["type"] = 1,
+					["time"] = 1316741199,
+					["from"] = "Aset",
+					["msg"] = "this is just our cozy 10 man",
+					["inbound"] = false,
+					["convo"] = "|Kf74|k00000000000|k",
+				}, -- [26]
+				{
+					["type"] = 1,
+					["time"] = 1316741206,
+					["from"] = "Aset",
+					["msg"] = "no one would yell at you, or i'd kick them in the shin!",
+					["inbound"] = false,
+					["convo"] = "|Kf74|k00000000000|k",
+				}, -- [27]
+				{
+					["type"] = 1,
+					["time"] = 1316741219,
+					["from"] = "Aset",
+					["msg"] = "it's okay",
+					["inbound"] = false,
+					["convo"] = "|Kf74|k00000000000|k",
+				}, -- [28]
+				{
+					["type"] = 1,
+					["time"] = 1316741283,
+					["from"] = "Aset",
+					["msg"] = "oh, you're flying home tomorrow?",
+					["inbound"] = false,
+					["convo"] = "|Kf74|k00000000000|k",
+				}, -- [29]
+				{
+					["type"] = 1,
+					["time"] = 1316741312,
+					["from"] = "Aset",
+					["msg"] = "aww i sowwy :(",
+					["inbound"] = false,
+					["convo"] = "|Kf74|k00000000000|k",
+				}, -- [30]
+				{
+					["type"] = 1,
+					["time"] = 1316741471,
+					["from"] = "Aset",
+					["msg"] = "<3",
+					["inbound"] = false,
+					["convo"] = "|Kf74|k00000000000|k",
+				}, -- [31]
+				{
+					["type"] = 1,
+					["time"] = 1316746360,
+					["from"] = "Aset",
+					["msg"] = "wb!",
+					["inbound"] = false,
+					["convo"] = "|Kf74|k00000000000|k",
+				}, -- [32]
+				{
+					["type"] = 1,
+					["time"] = 1316746400,
+					["from"] = "Aset",
+					["msg"] = "lol yes, i just missed you cuz I'm sad and grumpy",
+					["inbound"] = false,
+					["convo"] = "|Kf74|k00000000000|k",
+				}, -- [33]
+				{
+					["type"] = 1,
+					["time"] = 1316746791,
+					["from"] = "Aset",
+					["msg"] = "Yep",
+					["inbound"] = false,
+					["convo"] = "|Kf74|k00000000000|k",
+				}, -- [34]
+				{
+					["type"] = 1,
+					["time"] = 1316746796,
+					["from"] = "Aset",
+					["msg"] = "omg i feel so freaking bad",
+					["inbound"] = false,
+					["convo"] = "|Kf74|k00000000000|k",
+				}, -- [35]
+				{
+					["type"] = 1,
+					["time"] = 1316746828,
+					["from"] = "Aset",
+					["msg"] = "I wants a hug!",
+					["inbound"] = false,
+					["convo"] = "|Kf74|k00000000000|k",
+				}, -- [36]
+				{
+					["type"] = 1,
+					["time"] = 1316747096,
+					["from"] = "Aset",
+					["msg"] = "k",
+					["inbound"] = false,
+					["convo"] = "|Kf74|k00000000000|k",
+				}, -- [37]
+				{
+					["type"] = 1,
+					["time"] = 1316747271,
+					["from"] = "Aset",
+					["msg"] = "tell him to hurry, the asshole",
+					["inbound"] = false,
+					["convo"] = "|Kf74|k00000000000|k",
+				}, -- [38]
+				{
+					["type"] = 1,
+					["time"] = 1316747979,
+					["from"] = "Aset",
+					["msg"] = "sing to me",
+					["inbound"] = false,
+					["convo"] = "|Kf74|k00000000000|k",
+				}, -- [39]
+				{
+					["type"] = 1,
+					["time"] = 1316747980,
+					["from"] = "Aset",
+					["msg"] = "or",
+					["inbound"] = false,
+					["convo"] = "|Kf74|k00000000000|k",
+				}, -- [40]
+				{
+					["type"] = 1,
+					["time"] = 1316747983,
+					["from"] = "Aset",
+					["msg"] = "say something sweet",
+					["inbound"] = false,
+					["convo"] = "|Kf74|k00000000000|k",
+				}, -- [41]
+				{
+					["type"] = 1,
+					["time"] = 1316748108,
+					["from"] = "Aset",
+					["msg"] = "aesome/ that's like awesome but not as good? :(",
+					["inbound"] = false,
+					["convo"] = "|Kf74|k00000000000|k",
+				}, -- [42]
+				{
+					["type"] = 1,
+					["time"] = 1316748122,
+					["from"] = "Aset",
+					["msg"] = " /cry",
+					["inbound"] = false,
+					["convo"] = "|Kf74|k00000000000|k",
+				}, -- [43]
+				{
+					["type"] = 1,
+					["time"] = 1316748144,
+					["from"] = "Aset",
+					["msg"] = "You're probably getting sick of me being whiney lol",
+					["inbound"] = false,
+					["convo"] = "|Kf74|k00000000000|k",
+				}, -- [44]
+				{
+					["type"] = 1,
+					["time"] = 1316748191,
+					["from"] = "Aset",
+					["msg"] = "ack!",
+					["inbound"] = false,
+					["convo"] = "|Kf74|k00000000000|k",
+				}, -- [45]
+				["info"] = {
+				},
+			},
+			["|Kf1397|k00000000000|k"] = {
+				{
+					["type"] = 1,
+					["time"] = 1316836279,
+					["from"] = "Aset",
+					["msg"] = "the Dark Phoenix mount?",
+					["inbound"] = false,
+					["convo"] = "|Kf1397|k00000000000|k",
+				}, -- [1]
+				{
+					["type"] = 1,
+					["time"] = 1316836307,
+					["from"] = "Aset",
+					["msg"] = "Is that woman-speak for \"I wish my friend Aset would give me 2.7k gold so i could by the phoenix\" ?",
+					["inbound"] = false,
+					["convo"] = "|Kf1397|k00000000000|k",
+				}, -- [2]
+				{
+					["type"] = 1,
+					["time"] = 1316836324,
+					["from"] = "Aset",
+					["msg"] = "k just checking",
+					["inbound"] = false,
+					["convo"] = "|Kf1397|k00000000000|k",
+				}, -- [3]
+				{
+					["type"] = 1,
+					["time"] = 1316836356,
+					["from"] = "Aset",
+					["msg"] = "like, with your own money?",
+					["inbound"] = false,
+					["convo"] = "|Kf1397|k00000000000|k",
+				}, -- [4]
+				{
+					["type"] = 1,
+					["time"] = 1316836372,
+					["from"] = "Aset",
+					["msg"] = "I know!",
+					["inbound"] = false,
+					["convo"] = "|Kf1397|k00000000000|k",
+				}, -- [5]
+				{
+					["type"] = 1,
+					["time"] = 1316836377,
+					["from"] = "Aset",
+					["msg"] = "But it wouldn't have given them to you anyway",
+					["inbound"] = false,
+					["convo"] = "|Kf1397|k00000000000|k",
+				}, -- [6]
+				{
+					["type"] = 1,
+					["time"] = 1316836379,
+					["from"] = "Aset",
+					["msg"] = ":(",
+					["inbound"] = false,
+					["convo"] = "|Kf1397|k00000000000|k",
+				}, -- [7]
+				{
+					["type"] = 1,
+					["time"] = 1316836396,
+					["from"] = "Aset",
+					["msg"] = "it wouldn't give you the ember, so you weren't eligible for any loot :(",
+					["inbound"] = false,
+					["convo"] = "|Kf1397|k00000000000|k",
+				}, -- [8]
+				{
+					["type"] = 1,
+					["time"] = 1316836398,
+					["from"] = "Aset",
+					["msg"] = "And yeah",
+					["inbound"] = false,
+					["convo"] = "|Kf1397|k00000000000|k",
+				}, -- [9]
+				{
+					["type"] = 1,
+					["time"] = 1316836402,
+					["from"] = "Aset",
+					["msg"] = "I don't know this TK person",
+					["inbound"] = false,
+					["convo"] = "|Kf1397|k00000000000|k",
+				}, -- [10]
+				{
+					["type"] = 1,
+					["time"] = 1316836408,
+					["from"] = "Aset",
+					["msg"] = "But she blew me a kiss twice so maybe I should learn about her.",
+					["inbound"] = false,
+					["convo"] = "|Kf1397|k00000000000|k",
+				}, -- [11]
+				{
+					["type"] = 1,
+					["time"] = 1316836426,
+					["from"] = "Aset",
+					["msg"] = "so how much res do you have?",
+					["inbound"] = false,
+					["convo"] = "|Kf1397|k00000000000|k",
+				}, -- [12]
+				{
+					["type"] = 1,
+					["time"] = 1316836433,
+					["from"] = "Aset",
+					["msg"] = "lol I see i see, i sowwy",
+					["inbound"] = false,
+					["convo"] = "|Kf1397|k00000000000|k",
+				}, -- [13]
+				{
+					["type"] = 1,
+					["time"] = 1316836451,
+					["from"] = "Aset",
+					["msg"] = "very nice",
+					["inbound"] = false,
+					["convo"] = "|Kf1397|k00000000000|k",
+				}, -- [14]
+				{
+					["type"] = 1,
+					["time"] = 1316836457,
+					["from"] = "Aset",
+					["msg"] = "3.7! almost 3.8",
+					["inbound"] = false,
+					["convo"] = "|Kf1397|k00000000000|k",
+				}, -- [15]
+				{
+					["type"] = 1,
+					["time"] = 1316836463,
+					["from"] = "Aset",
+					["msg"] = "so BGs is what you had in mind?",
+					["inbound"] = false,
+					["convo"] = "|Kf1397|k00000000000|k",
+				}, -- [16]
+				{
+					["type"] = 1,
+					["time"] = 1316836517,
+					["from"] = "Aset",
+					["msg"] = "bgs is okay, i just respec'd and am about to reglyph for it so we might as well go in for real now :P",
+					["inbound"] = false,
+					["convo"] = "|Kf1397|k00000000000|k",
+				}, -- [17]
+				{
+					["type"] = 1,
+					["time"] = 1316836594,
+					["from"] = "Aset",
+					["msg"] = "I need coqnuest too.. when i get to 3500 i get S10 weapon",
+					["inbound"] = false,
+					["convo"] = "|Kf1397|k00000000000|k",
+				}, -- [18]
+				{
+					["type"] = 1,
+					["time"] = 1316836659,
+					["from"] = "Aset",
+					["msg"] = "I've got res on every piece, i'm proud of that!",
+					["inbound"] = false,
+					["convo"] = "|Kf1397|k00000000000|k",
+				}, -- [19]
+				{
+					["type"] = 1,
+					["time"] = 1316836670,
+					["from"] = "Aset",
+					["msg"] = "I don't usually maintain a real pvp set lol",
+					["inbound"] = false,
+					["convo"] = "|Kf1397|k00000000000|k",
+				}, -- [20]
+				{
+					["type"] = 1,
+					["time"] = 1316836827,
+					["from"] = "Aset",
+					["msg"] = "um",
+					["inbound"] = false,
+					["convo"] = "|Kf1397|k00000000000|k",
+				}, -- [21]
+				{
+					["type"] = 1,
+					["time"] = 1316836829,
+					["from"] = "Aset",
+					["msg"] = "so i'm gay",
+					["inbound"] = false,
+					["convo"] = "|Kf1397|k00000000000|k",
+				}, -- [22]
+				{
+					["type"] = 1,
+					["time"] = 1316836833,
+					["from"] = "Aset",
+					["msg"] = "i just queued without you :(",
+					["inbound"] = false,
+					["convo"] = "|Kf1397|k00000000000|k",
+				}, -- [23]
+				{
+					["type"] = 1,
+					["time"] = 1316836838,
+					["from"] = "Aset",
+					["msg"] = "I haven't done that in a while",
+					["inbound"] = false,
+					["convo"] = "|Kf1397|k00000000000|k",
+				}, -- [24]
+				{
+					["type"] = 1,
+					["time"] = 1316836840,
+					["from"] = "Aset",
+					["msg"] = " /sight",
+					["inbound"] = false,
+					["convo"] = "|Kf1397|k00000000000|k",
+				}, -- [25]
+				{
+					["type"] = 1,
+					["time"] = 1316836845,
+					["from"] = "Aset",
+					["msg"] = " /sigh*",
+					["inbound"] = false,
+					["convo"] = "|Kf1397|k00000000000|k",
+				}, -- [26]
+				{
+					["type"] = 1,
+					["time"] = 1316836857,
+					["from"] = "Aset",
+					["msg"] = "it's WSG.. we may be out soonish, but so far it's gonna be a full game",
+					["inbound"] = false,
+					["convo"] = "|Kf1397|k00000000000|k",
+				}, -- [27]
+				{
+					["type"] = 1,
+					["time"] = 1316836863,
+					["from"] = "Aset",
+					["msg"] = "you can go without me or wait, whtever you want",
+					["inbound"] = false,
+					["convo"] = "|Kf1397|k00000000000|k",
+				}, -- [28]
+				{
+					["type"] = 1,
+					["time"] = 1316836916,
+					["from"] = "Aset",
+					["msg"] = "sowwy",
+					["inbound"] = false,
+					["convo"] = "|Kf1397|k00000000000|k",
+				}, -- [29]
+				{
+					["type"] = 1,
+					["time"] = 1316836918,
+					["from"] = "Aset",
+					["msg"] = "i'm a failure today lol",
+					["inbound"] = false,
+					["convo"] = "|Kf1397|k00000000000|k",
+				}, -- [30]
+				{
+					["type"] = 1,
+					["time"] = 1316837032,
+					["from"] = "Aset",
+					["msg"] = "lol nice",
+					["inbound"] = false,
+					["convo"] = "|Kf1397|k00000000000|k",
+				}, -- [31]
+				{
+					["type"] = 1,
+					["time"] = 1316837141,
+					["from"] = "Aset",
+					["msg"] = "lol this group is helping me try for Ironman, hehe",
+					["inbound"] = false,
+					["convo"] = "|Kf1397|k00000000000|k",
+				}, -- [32]
+				{
+					["type"] = 1,
+					["time"] = 1316837143,
+					["from"] = "Aset",
+					["msg"] = "oh? nice",
+					["inbound"] = false,
+					["convo"] = "|Kf1397|k00000000000|k",
+				}, -- [33]
+				{
+					["type"] = 1,
+					["time"] = 1316837248,
+					["from"] = "Aset",
+					["msg"] = "i'm close, 2 caps nod eaths",
+					["inbound"] = false,
+					["convo"] = "|Kf1397|k00000000000|k",
+				}, -- [34]
+				{
+					["type"] = 1,
+					["time"] = 1316837323,
+					["from"] = "Aset",
+					["msg"] = "damn this might happen",
+					["inbound"] = false,
+					["convo"] = "|Kf1397|k00000000000|k",
+				}, -- [35]
+				{
+					["type"] = 1,
+					["time"] = 1316837326,
+					["from"] = "Aset",
+					["msg"] = "i'm getting excited",
+					["inbound"] = false,
+					["convo"] = "|Kf1397|k00000000000|k",
+				}, -- [36]
+				{
+					["type"] = 1,
+					["time"] = 1316837541,
+					["from"] = "Aset",
+					["msg"] = "You wanna try to sort it out while you wait for debuff?",
+					["inbound"] = false,
+					["convo"] = "|Kf1397|k00000000000|k",
+				}, -- [37]
+				{
+					["type"] = 1,
+					["time"] = 1316837570,
+					["from"] = "Aset",
+					["msg"] = "well you can do that too, but honestly we can find it",
+					["inbound"] = false,
+					["convo"] = "|Kf1397|k00000000000|k",
+				}, -- [38]
+				{
+					["type"] = 1,
+					["time"] = 1316837587,
+					["from"] = "Aset",
+					["msg"] = "You should install TeamViewer so i can control your computer and poke around with the settings for it",
+					["inbound"] = false,
+					["convo"] = "|Kf1397|k00000000000|k",
+				}, -- [39]
+				{
+					["type"] = 1,
+					["time"] = 1316837663,
+					["from"] = "Aset",
+					["msg"] = "oh, why not?",
+					["inbound"] = false,
+					["convo"] = "|Kf1397|k00000000000|k",
+				}, -- [40]
+				{
+					["type"] = 1,
+					["time"] = 1316837718,
+					["from"] = "Aset",
+					["msg"] = "well, you don't have to. I guess I just have this OCD thing where I have to solve problems or they drive me nuts :)",
+					["inbound"] = false,
+					["convo"] = "|Kf1397|k00000000000|k",
+				}, -- [41]
+				{
+					["type"] = 1,
+					["time"] = 1316837744,
+					["from"] = "Aset",
+					["msg"] = "TeamViewer allows me to remotely control your computer but you can cut it off at any time, and it can only be active when you run it",
+					["inbound"] = false,
+					["convo"] = "|Kf1397|k00000000000|k",
+				}, -- [42]
+				{
+					["type"] = 1,
+					["time"] = 1316837748,
+					["from"] = "Aset",
+					["msg"] = "no one left here? like, no friends?",
+					["inbound"] = false,
+					["convo"] = "|Kf1397|k00000000000|k",
+				}, -- [43]
+				{
+					["type"] = 1,
+					["time"] = 1316837844,
+					["from"] = "Aset",
+					["msg"] = "lol",
+					["inbound"] = false,
+					["convo"] = "|Kf1397|k00000000000|k",
+				}, -- [44]
+				{
+					["type"] = 1,
+					["time"] = 1316837846,
+					["from"] = "Aset",
+					["msg"] = "Maybe you should",
+					["inbound"] = false,
+					["convo"] = "|Kf1397|k00000000000|k",
+				}, -- [45]
+				{
+					["type"] = 1,
+					["time"] = 1316837854,
+					["from"] = "Aset",
+					["msg"] = "I'm thinking about getting some Taco Bell",
+					["inbound"] = false,
+					["convo"] = "|Kf1397|k00000000000|k",
+				}, -- [46]
+				{
+					["type"] = 1,
+					["time"] = 1316837861,
+					["from"] = "Aset",
+					["msg"] = "oh, Big Bang Theory! time for that",
+					["inbound"] = false,
+					["convo"] = "|Kf1397|k00000000000|k",
+				}, -- [47]
+				["info"] = {
+				},
+			},
+			["|Kf73|k00000000000|k"] = {
+				{
+					["type"] = 1,
+					["time"] = 1316818666,
+					["from"] = "Aset",
+					["msg"] = "umami!",
+					["inbound"] = false,
+					["convo"] = "|Kf73|k00000000000|k",
+				}, -- [1]
+				{
+					["type"] = 1,
+					["time"] = 1316818934,
+					["from"] = "Aset",
+					["msg"] = ":(",
+					["inbound"] = false,
+					["convo"] = "|Kf73|k00000000000|k",
+				}, -- [2]
+				{
+					["type"] = 1,
+					["time"] = 1316818936,
+					["from"] = "Aset",
+					["msg"] = "Why so depressed?",
+					["inbound"] = false,
+					["convo"] = "|Kf73|k00000000000|k",
+				}, -- [3]
+				{
+					["type"] = 1,
+					["time"] = 1316818944,
+					["from"] = "Aset",
+					["msg"] = "What is it that's so terrible about VA? :O",
+					["inbound"] = false,
+					["convo"] = "|Kf73|k00000000000|k",
+				}, -- [4]
+				{
+					["type"] = 1,
+					["time"] = 1316819007,
+					["from"] = "Aset",
+					["msg"] = "lol",
+					["inbound"] = false,
+					["convo"] = "|Kf73|k00000000000|k",
+				}, -- [5]
+				{
+					["type"] = 1,
+					["time"] = 1316819014,
+					["from"] = "Aset",
+					["msg"] = "alright, that's fair.",
+					["inbound"] = false,
+					["convo"] = "|Kf73|k00000000000|k",
+				}, -- [6]
+				{
+					["type"] = 1,
+					["time"] = 1316819022,
+					["from"] = "Aset",
+					["msg"] = "Well your internet friends love you! And they follow you whereve ryou go!",
+					["inbound"] = false,
+					["convo"] = "|Kf73|k00000000000|k",
+				}, -- [7]
+				{
+					["type"] = 1,
+					["time"] = 1316819029,
+					["from"] = "Aset",
+					["msg"] = "like stalkers! only.. less creepy. Usually.",
+					["inbound"] = false,
+					["convo"] = "|Kf73|k00000000000|k",
+				}, -- [8]
+				{
+					["type"] = 1,
+					["time"] = 1316819090,
+					["from"] = "Aset",
+					["msg"] = "see sometimes you even laugh! :O",
+					["inbound"] = false,
+					["convo"] = "|Kf73|k00000000000|k",
+				}, -- [9]
+				{
+					["type"] = 1,
+					["time"] = 1316819179,
+					["from"] = "Aset",
+					["msg"] = "WELL YOU BETTER NOT",
+					["inbound"] = false,
+					["convo"] = "|Kf73|k00000000000|k",
+				}, -- [10]
+				{
+					["type"] = 1,
+					["time"] = 1316819189,
+					["from"] = "Aset",
+					["msg"] = "I will march up there and smack you in the FAE",
+					["inbound"] = false,
+					["convo"] = "|Kf73|k00000000000|k",
+				}, -- [11]
+				{
+					["type"] = 1,
+					["time"] = 1316819191,
+					["from"] = "Aset",
+					["msg"] = "FACE*",
+					["inbound"] = false,
+					["convo"] = "|Kf73|k00000000000|k",
+				}, -- [12]
+				{
+					["type"] = 1,
+					["time"] = 1316819192,
+					["from"] = "Aset",
+					["msg"] = "!",
+					["inbound"] = false,
+					["convo"] = "|Kf73|k00000000000|k",
+				}, -- [13]
+				["info"] = {
+				},
+			},
+			["|Kf352|k00000000000|k"] = {
+				{
+					["type"] = 1,
+					["time"] = 1316288529,
+					["from"] = "Aset",
+					["msg"] = "wb",
+					["inbound"] = false,
+					["convo"] = "|Kf352|k00000000000|k",
+				}, -- [1]
+				{
+					["type"] = 1,
+					["time"] = 1316288532,
+					["from"] = "Aset",
+					["msg"] = "?",
+					["inbound"] = false,
+					["convo"] = "|Kf352|k00000000000|k",
+				}, -- [2]
+				{
+					["type"] = 1,
+					["time"] = 1316289111,
+					["from"] = "Aset",
+					["msg"] = ":O",
+					["inbound"] = false,
+					["convo"] = "|Kf352|k00000000000|k",
+				}, -- [3]
+				{
+					["type"] = 1,
+					["time"] = 1316289312,
+					["from"] = "Aset",
+					["msg"] = "afk getting clean!",
+					["inbound"] = false,
+					["convo"] = "|Kf352|k00000000000|k",
+				}, -- [4]
+				["info"] = {
+				},
+			},
+			["|Kf321|k0000000000000|k"] = {
+				{
+					["type"] = 1,
+					["time"] = 1316961157,
+					["from"] = "Aset",
+					["msg"] = "Morning man",
+					["inbound"] = false,
+					["convo"] = "|Kf321|k0000000000000|k",
+				}, -- [1]
+				{
+					["type"] = 1,
+					["time"] = 1316961162,
+					["from"] = "Aset",
+					["msg"] = "I'm so f'd up",
+					["inbound"] = false,
+					["convo"] = "|Kf321|k0000000000000|k",
+				}, -- [2]
+				{
+					["type"] = 1,
+					["time"] = 1316961170,
+					["from"] = "Aset",
+					["msg"] = "i slept all day yesterday",
+					["inbound"] = false,
+					["convo"] = "|Kf321|k0000000000000|k",
+				}, -- [3]
+				{
+					["type"] = 1,
+					["time"] = 1316961173,
+					["from"] = "Aset",
+					["msg"] = "had to get up",
+					["inbound"] = false,
+					["convo"] = "|Kf321|k0000000000000|k",
+				}, -- [4]
+				{
+					["type"] = 1,
+					["time"] = 1316961177,
+					["from"] = "Aset",
+					["msg"] = "basically i got sick",
+					["inbound"] = false,
+					["convo"] = "|Kf321|k0000000000000|k",
+				}, -- [5]
+				{
+					["type"] = 1,
+					["time"] = 1316961182,
+					["from"] = "Aset",
+					["msg"] = "a cold or the flu",
+					["inbound"] = false,
+					["convo"] = "|Kf321|k0000000000000|k",
+				}, -- [6]
+				{
+					["type"] = 1,
+					["time"] = 1316961192,
+					["from"] = "Aset",
+					["msg"] = "then i drank too much nyquil",
+					["inbound"] = false,
+					["convo"] = "|Kf321|k0000000000000|k",
+				}, -- [7]
+				{
+					["type"] = 1,
+					["time"] = 1316961194,
+					["from"] = "Aset",
+					["msg"] = "lol",
+					["inbound"] = false,
+					["convo"] = "|Kf321|k0000000000000|k",
+				}, -- [8]
+				{
+					["type"] = 1,
+					["time"] = 1316961217,
+					["from"] = "Aset",
+					["msg"] = "not sure what part of how i feel is from my liver dying, or my brain dying, or just being sick",
+					["inbound"] = false,
+					["convo"] = "|Kf321|k0000000000000|k",
+				}, -- [9]
+				{
+					["type"] = 1,
+					["time"] = 1316961220,
+					["from"] = "Aset",
+					["msg"] = "anyway what's up?",
+					["inbound"] = false,
+					["convo"] = "|Kf321|k0000000000000|k",
+				}, -- [10]
+				{
+					["type"] = 1,
+					["time"] = 1316961256,
+					["from"] = "Aset",
+					["msg"] = "oh nice!",
+					["inbound"] = false,
+					["convo"] = "|Kf321|k0000000000000|k",
+				}, -- [11]
+				{
+					["type"] = 1,
+					["time"] = 1316961267,
+					["from"] = "Aset",
+					["msg"] = "oh nice namew",
+					["inbound"] = false,
+					["convo"] = "|Kf321|k0000000000000|k",
+				}, -- [12]
+				{
+					["type"] = 1,
+					["time"] = 1316961270,
+					["from"] = "Aset",
+					["msg"] = "name*",
+					["inbound"] = false,
+					["convo"] = "|Kf321|k0000000000000|k",
+				}, -- [13]
+				{
+					["type"] = 1,
+					["time"] = 1316961277,
+					["from"] = "Aset",
+					["msg"] = "omg my body feels like, all heavy",
+					["inbound"] = false,
+					["convo"] = "|Kf321|k0000000000000|k",
+				}, -- [14]
+				{
+					["type"] = 1,
+					["time"] = 1316961282,
+					["from"] = "Aset",
+					["msg"] = "it's like i'm swimming",
+					["inbound"] = false,
+					["convo"] = "|Kf321|k0000000000000|k",
+				}, -- [15]
+				{
+					["type"] = 1,
+					["time"] = 1316961299,
+					["from"] = "Aset",
+					["msg"] = "i just retired my \"Gigantique\" Bag",
+					["inbound"] = false,
+					["convo"] = "|Kf321|k0000000000000|k",
+				}, -- [16]
+				{
+					["type"] = 1,
+					["time"] = 1316961309,
+					["from"] = "Aset",
+					["msg"] = "replaced it with an Illusionary Bag",
+					["inbound"] = false,
+					["convo"] = "|Kf321|k0000000000000|k",
+				}, -- [17]
+				{
+					["type"] = 1,
+					["time"] = 1316961319,
+					["from"] = "Aset",
+					["msg"] = "Actually i'm not that nauseated",
+					["inbound"] = false,
+					["convo"] = "|Kf321|k0000000000000|k",
+				}, -- [18]
+				{
+					["type"] = 1,
+					["time"] = 1316961322,
+					["from"] = "Aset",
+					["msg"] = "which is good",
+					["inbound"] = false,
+					["convo"] = "|Kf321|k0000000000000|k",
+				}, -- [19]
+				{
+					["type"] = 1,
+					["time"] = 1316961325,
+					["from"] = "Aset",
+					["msg"] = "yes",
+					["inbound"] = false,
+					["convo"] = "|Kf321|k0000000000000|k",
+				}, -- [20]
+				{
+					["type"] = 1,
+					["time"] = 1316961330,
+					["from"] = "Aset",
+					["msg"] = "i only paid 3k for now! now i'm happy",
+					["inbound"] = false,
+					["convo"] = "|Kf321|k0000000000000|k",
+				}, -- [21]
+				{
+					["type"] = 1,
+					["time"] = 1316961348,
+					["from"] = "Aset",
+					["msg"] = "imma buy a bunch of them, when i can, and when they are listed",
+					["inbound"] = false,
+					["convo"] = "|Kf321|k0000000000000|k",
+				}, -- [22]
+				{
+					["type"] = 1,
+					["time"] = 1316961356,
+					["from"] = "Aset",
+					["msg"] = "but i like having mutliple cool bags",
+					["inbound"] = false,
+					["convo"] = "|Kf321|k0000000000000|k",
+				}, -- [23]
+				{
+					["type"] = 1,
+					["time"] = 1316961361,
+					["from"] = "Aset",
+					["msg"] = "like, before i put that one on, i was wearing:",
+					["inbound"] = false,
+					["convo"] = "|Kf321|k0000000000000|k",
+				}, -- [24]
+				{
+					["type"] = 1,
+					["time"] = 1316961395,
+					["from"] = "Aset",
+					["msg"] = " |Hitem:38082:0:0:0:0:0:0:0:85:0|h[\"Gigantique\" Bag]|h Dragon Hide Bag (from OS), Enlarged Onyxia Hide Backpack, Tattered Hexcloth Bag",
+					["inbound"] = false,
+					["convo"] = "|Kf321|k0000000000000|k",
+				}, -- [25]
+				{
+					["type"] = 1,
+					["time"] = 1316961404,
+					["from"] = "Aset",
+					["msg"] = "(couldn't link them while they were equipped lol)",
+					["inbound"] = false,
+					["convo"] = "|Kf321|k0000000000000|k",
+				}, -- [26]
+				{
+					["type"] = 1,
+					["time"] = 1316961413,
+					["from"] = "Aset",
+					["msg"] = "the last one isa  24 slot, the rest were 22s",
+					["inbound"] = false,
+					["convo"] = "|Kf321|k0000000000000|k",
+				}, -- [27]
+				{
+					["type"] = 1,
+					["time"] = 1316961417,
+					["from"] = "Aset",
+					["msg"] = "the Illusionary is 26 though",
+					["inbound"] = false,
+					["convo"] = "|Kf321|k0000000000000|k",
+				}, -- [28]
+				{
+					["type"] = 1,
+					["time"] = 1316961422,
+					["from"] = "Aset",
+					["msg"] = "that's worth giving up cool bags for",
+					["inbound"] = false,
+					["convo"] = "|Kf321|k0000000000000|k",
+				}, -- [29]
+				{
+					["type"] = 1,
+					["time"] = 1316961474,
+					["from"] = "Aset",
+					["msg"] = "ah at first i liked them all the same",
+					["inbound"] = false,
+					["convo"] = "|Kf321|k0000000000000|k",
+				}, -- [30]
+				{
+					["type"] = 1,
+					["time"] = 1316961480,
+					["from"] = "Aset",
+					["msg"] = "but now i like how colorful the spread is",
+					["inbound"] = false,
+					["convo"] = "|Kf321|k0000000000000|k",
+				}, -- [31]
+				{
+					["type"] = 1,
+					["time"] = 1316961492,
+					["from"] = "Aset",
+					["msg"] = "and before they were bigger than what you could get that was the sae",
+					["inbound"] = false,
+					["convo"] = "|Kf321|k0000000000000|k",
+				}, -- [32]
+				{
+					["type"] = 1,
+					["time"] = 1316961493,
+					["from"] = "Aset",
+					["msg"] = "same*",
+					["inbound"] = false,
+					["convo"] = "|Kf321|k0000000000000|k",
+				}, -- [33]
+				{
+					["type"] = 1,
+					["time"] = 1316961506,
+					["from"] = "Aset",
+					["msg"] = "that is, during Wrath i was sporting 4 Unique bags that were all 22 slotters",
+					["inbound"] = false,
+					["convo"] = "|Kf321|k0000000000000|k",
+				}, -- [34]
+				["info"] = {
+				},
+			},
+			["Nethershade"] = {
+				{
+					["type"] = 1,
+					["time"] = 1317090205,
+					["from"] = "Aset",
+					["msg"] = "again",
+					["inbound"] = false,
+					["convo"] = "Nethershade",
+				}, -- [1]
+				{
+					["type"] = 1,
+					["time"] = 1317090211,
+					["from"] = "Aset",
+					["msg"] = "sorry, tabbed in and it auto-cancelled",
+					["inbound"] = false,
+					["convo"] = "Nethershade",
+				}, -- [2]
+				["info"] = {
+				},
+			},
+			["|Kf747|k00000000000|k"] = {
+				{
+					["type"] = 1,
+					["time"] = 1316567705,
+					["from"] = "Aset",
+					["msg"] = "what woman? O_o",
+					["inbound"] = false,
+					["convo"] = "|Kf747|k00000000000|k",
+				}, -- [1]
+				{
+					["type"] = 1,
+					["time"] = 1316567765,
+					["from"] = "Aset",
+					["msg"] = "ugh i'm sorry",
+					["inbound"] = false,
+					["convo"] = "|Kf747|k00000000000|k",
+				}, -- [2]
+				{
+					["type"] = 1,
+					["time"] = 1316567788,
+					["from"] = "Aset",
+					["msg"] = "lolol",
+					["inbound"] = false,
+					["convo"] = "|Kf747|k00000000000|k",
+				}, -- [3]
+				{
+					["type"] = 1,
+					["time"] = 1316567793,
+					["from"] = "Aset",
+					["msg"] = "you aren't even there! What's going on now?",
+					["inbound"] = false,
+					["convo"] = "|Kf747|k00000000000|k",
+				}, -- [4]
+				{
+					["type"] = 1,
+					["time"] = 1316567922,
+					["from"] = "Aset",
+					["msg"] = "lol",
+					["inbound"] = false,
+					["convo"] = "|Kf747|k00000000000|k",
+				}, -- [5]
+				{
+					["type"] = 1,
+					["time"] = 1316567922,
+					["from"] = "Aset",
+					["msg"] = "wait",
+					["inbound"] = false,
+					["convo"] = "|Kf747|k00000000000|k",
+				}, -- [6]
+				{
+					["type"] = 1,
+					["time"] = 1316567927,
+					["from"] = "Aset",
+					["msg"] = "is there even a problem?",
+					["inbound"] = false,
+					["convo"] = "|Kf747|k00000000000|k",
+				}, -- [7]
+				{
+					["type"] = 1,
+					["time"] = 1316567929,
+					["from"] = "Aset",
+					["msg"] = "i'm so confused now",
+					["inbound"] = false,
+					["convo"] = "|Kf747|k00000000000|k",
+				}, -- [8]
+				{
+					["type"] = 1,
+					["time"] = 1316568029,
+					["from"] = "Aset",
+					["msg"] = "nah we won",
+					["inbound"] = false,
+					["convo"] = "|Kf747|k00000000000|k",
+				}, -- [9]
+				{
+					["type"] = 1,
+					["time"] = 1316569905,
+					["from"] = "Aset",
+					["msg"] = ":O",
+					["inbound"] = false,
+					["convo"] = "|Kf747|k00000000000|k",
+				}, -- [10]
+				{
+					["type"] = 1,
+					["time"] = 1316569907,
+					["from"] = "Aset",
+					["msg"] = "probably",
+					["inbound"] = false,
+					["convo"] = "|Kf747|k00000000000|k",
+				}, -- [11]
+				{
+					["type"] = 1,
+					["time"] = 1316574260,
+					["from"] = "Aset",
+					["msg"] = ":O",
+					["inbound"] = false,
+					["convo"] = "|Kf747|k00000000000|k",
+				}, -- [12]
+				{
+					["type"] = 1,
+					["time"] = 1316574287,
+					["from"] = "Aset",
+					["msg"] = "what was it from?",
+					["inbound"] = false,
+					["convo"] = "|Kf747|k00000000000|k",
+				}, -- [13]
+				["info"] = {
+				},
+			},
+			["|Kf755|k000000000000|k"] = {
+				{
+					["type"] = 1,
+					["time"] = 1316570906,
+					["from"] = "Aset",
+					["msg"] = "not today",
+					["inbound"] = false,
+					["convo"] = "|Kf755|k000000000000|k",
+				}, -- [1]
+				{
+					["type"] = 1,
+					["time"] = 1316570912,
+					["from"] = "Aset",
+					["msg"] = "we're having trouble",
+					["inbound"] = false,
+					["convo"] = "|Kf755|k000000000000|k",
+				}, -- [2]
+				{
+					["type"] = 1,
+					["time"] = 1316570918,
+					["from"] = "Aset",
+					["msg"] = "we're missing maso tonight",
+					["inbound"] = false,
+					["convo"] = "|Kf755|k000000000000|k",
+				}, -- [3]
+				{
+					["type"] = 1,
+					["time"] = 1316570929,
+					["from"] = "Aset",
+					["msg"] = "We're not sure if we want to clear on reg or wait for next night to do more heroics",
+					["inbound"] = false,
+					["convo"] = "|Kf755|k000000000000|k",
+				}, -- [4]
+				{
+					["type"] = 1,
+					["time"] = 1316571062,
+					["from"] = "Aset",
+					["msg"] = "you have Mumble?",
+					["inbound"] = false,
+					["convo"] = "|Kf755|k000000000000|k",
+				}, -- [5]
+				{
+					["type"] = 1,
+					["time"] = 1316571085,
+					["from"] = "Aset",
+					["msg"] = "have a toon who can come dps?",
+					["inbound"] = false,
+					["convo"] = "|Kf755|k000000000000|k",
+				}, -- [6]
+				{
+					["type"] = 1,
+					["time"] = 1316571111,
+					["from"] = "Aset",
+					["msg"] = "FL reg, all kills except Shannox?",
+					["inbound"] = false,
+					["convo"] = "|Kf755|k000000000000|k",
+				}, -- [7]
+				{
+					["type"] = 1,
+					["time"] = 1316571157,
+					["from"] = "Aset",
+					["msg"] = "mumble server is quasarj.com",
+					["inbound"] = false,
+					["convo"] = "|Kf755|k000000000000|k",
+				}, -- [8]
+				{
+					["type"] = 1,
+					["time"] = 1316571159,
+					["from"] = "Aset",
+					["msg"] = "default port",
+					["inbound"] = false,
+					["convo"] = "|Kf755|k000000000000|k",
+				}, -- [9]
+				{
+					["type"] = 1,
+					["time"] = 1316571186,
+					["from"] = "Aset",
+					["msg"] = "and what two are your hunter saved to? cuz he'd be more useful than mage",
+					["inbound"] = false,
+					["convo"] = "|Kf755|k000000000000|k",
+				}, -- [10]
+				{
+					["type"] = 1,
+					["time"] = 1316571209,
+					["from"] = "Aset",
+					["msg"] = "DoP? what?",
+					["inbound"] = false,
+					["convo"] = "|Kf755|k000000000000|k",
+				}, -- [11]
+				["info"] = {
+				},
+			},
+			["Snowguard"] = {
+				{
+					["type"] = 1,
+					["time"] = 1316652415,
+					["from"] = "Snowguard",
+					["msg"] = "join my raid group por un momento?",
+					["inbound"] = true,
+					["convo"] = "Snowguard",
+				}, -- [1]
+				{
+					["type"] = 1,
+					["time"] = 1316652420,
+					["from"] = "Aset",
+					["msg"] = "sec",
+					["inbound"] = false,
+					["convo"] = "Snowguard",
+				}, -- [2]
+				{
+					["type"] = 1,
+					["time"] = 1316652495,
+					["from"] = "Aset",
+					["msg"] = "k",
+					["inbound"] = false,
+					["convo"] = "Snowguard",
+				}, -- [3]
+				{
+					["type"] = 1,
+					["time"] = 1316652529,
+					["from"] = "Snowguard",
+					["msg"] = "tyvm",
+					["inbound"] = true,
+					["convo"] = "Snowguard",
+				}, -- [4]
+				{
+					["type"] = 1,
+					["time"] = 1316652542,
+					["from"] = "Aset",
+					["msg"] = "np",
+					["inbound"] = false,
+					["convo"] = "Snowguard",
+				}, -- [5]
+				{
+					["type"] = 1,
+					["time"] = 1316818847,
+					["from"] = "Snowguard",
+					["msg"] = "can u join my raid group for a second?",
+					["inbound"] = true,
+					["convo"] = "Snowguard",
+				}, -- [6]
+				{
+					["type"] = 1,
+					["time"] = 1316818871,
+					["from"] = "Aset",
+					["msg"] = "sure",
+					["inbound"] = false,
+					["convo"] = "Snowguard",
+				}, -- [7]
+				{
+					["type"] = 1,
+					["time"] = 1316818892,
+					["from"] = "Snowguard",
+					["msg"] = "tyvm",
+					["inbound"] = true,
+					["convo"] = "Snowguard",
+				}, -- [8]
+				["info"] = {
+				},
+			},
+			["|Kf152|k00000000000|k"] = {
+				{
+					["type"] = 1,
+					["time"] = 1316007222,
+					["from"] = "Aset",
+					["msg"] = "haha i'm sorry :(",
+					["inbound"] = false,
+					["convo"] = "|Kf152|k00000000000|k",
+				}, -- [1]
+				{
+					["type"] = 1,
+					["time"] = 1316007225,
+					["from"] = "Aset",
+					["msg"] = "that sucks",
+					["inbound"] = false,
+					["convo"] = "|Kf152|k00000000000|k",
+				}, -- [2]
+				{
+					["type"] = 1,
+					["time"] = 1316007233,
+					["from"] = "Aset",
+					["msg"] = "also damn I need more Heartblossom!",
+					["inbound"] = false,
+					["convo"] = "|Kf152|k00000000000|k",
+				}, -- [3]
+				{
+					["type"] = 1,
+					["time"] = 1316007237,
+					["from"] = "Aset",
+					["msg"] = "there was only 1 stack on the AH",
+					["inbound"] = false,
+					["convo"] = "|Kf152|k00000000000|k",
+				}, -- [4]
+				{
+					["type"] = 1,
+					["time"] = 1316007242,
+					["from"] = "Aset",
+					["msg"] = "and i have like 5 stacks of Carnelian to xmute",
+					["inbound"] = false,
+					["convo"] = "|Kf152|k00000000000|k",
+				}, -- [5]
+				{
+					["type"] = 1,
+					["time"] = 1316007244,
+					["from"] = "Aset",
+					["msg"] = "arggg",
+					["inbound"] = false,
+					["convo"] = "|Kf152|k00000000000|k",
+				}, -- [6]
+				{
+					["type"] = 1,
+					["time"] = 1316007259,
+					["from"] = "Aset",
+					["msg"] = ":D",
+					["inbound"] = false,
+					["convo"] = "|Kf152|k00000000000|k",
+				}, -- [7]
+				{
+					["type"] = 1,
+					["time"] = 1316007268,
+					["from"] = "Aset",
+					["msg"] = "You're moving her back? :O \\o/",
+					["inbound"] = false,
+					["convo"] = "|Kf152|k00000000000|k",
+				}, -- [8]
+				{
+					["type"] = 1,
+					["time"] = 1316007282,
+					["from"] = "Aset",
+					["msg"] = "aww",
+					["inbound"] = false,
+					["convo"] = "|Kf152|k00000000000|k",
+				}, -- [9]
+				{
+					["type"] = 1,
+					["time"] = 1316007290,
+					["from"] = "Aset",
+					["msg"] = "probably pissed someone off in pvp and they came and disappeared him",
+					["inbound"] = false,
+					["convo"] = "|Kf152|k00000000000|k",
+				}, -- [10]
+				["info"] = {
+				},
+			},
+			["Shanaenae"] = {
+				{
+					["type"] = 1,
+					["time"] = 1315956072,
+					["from"] = "Aset",
+					["msg"] = "lol i'm sorry i'm laughing so hard over here i can't breathe",
+					["inbound"] = false,
+					["convo"] = "Shanaenae",
+				}, -- [1]
+				{
+					["type"] = 1,
+					["time"] = 1315956092,
+					["from"] = "Shanaenae",
+					["msg"] = "jerk",
+					["inbound"] = true,
+					["convo"] = "Shanaenae",
+				}, -- [2]
+				{
+					["type"] = 1,
+					["time"] = 1315956092,
+					["from"] = "Aset",
+					["msg"] = "Rezzing you (don't walk in!)",
+					["inbound"] = false,
+					["convo"] = "Shanaenae",
+				}, -- [3]
+				{
+					["type"] = 1,
+					["time"] = 1315956096,
+					["from"] = "Aset",
+					["msg"] = "lol",
+					["inbound"] = false,
+					["convo"] = "Shanaenae",
+				}, -- [4]
+				{
+					["type"] = 1,
+					["time"] = 1315956100,
+					["from"] = "Aset",
+					["msg"] = "i was gonna let you ride me down!",
+					["inbound"] = false,
+					["convo"] = "Shanaenae",
+				}, -- [5]
+				{
+					["type"] = 1,
+					["time"] = 1315956108,
+					["from"] = "Aset",
+					["msg"] = "i couldn't find the button lol",
+					["inbound"] = false,
+					["convo"] = "Shanaenae",
+				}, -- [6]
+				{
+					["type"] = 1,
+					["time"] = 1315956127,
+					["from"] = "Aset",
+					["msg"] = "<3 :)",
+					["inbound"] = false,
+					["convo"] = "Shanaenae",
+				}, -- [7]
+				{
+					["type"] = 1,
+					["time"] = 1315956134,
+					["from"] = "Aset",
+					["msg"] = "Would you like a ride to somewhere in particular?",
+					["inbound"] = false,
+					["convo"] = "Shanaenae",
+				}, -- [8]
+				{
+					["type"] = 1,
+					["time"] = 1315956136,
+					["from"] = "Shanaenae",
+					["msg"] = ">:O",
+					["inbound"] = true,
+					["convo"] = "Shanaenae",
+				}, -- [9]
+				{
+					["type"] = 1,
+					["time"] = 1315956148,
+					["from"] = "Aset",
+					["msg"] = "you have to admit that was funny",
+					["inbound"] = false,
+					["convo"] = "Shanaenae",
+				}, -- [10]
+				{
+					["type"] = 1,
+					["time"] = 1315956156,
+					["from"] = "Aset",
+					["msg"] = "that's only like the second time i've even managed to get on top of that pole",
+					["inbound"] = false,
+					["convo"] = "Shanaenae",
+				}, -- [11]
+				{
+					["type"] = 1,
+					["time"] = 1315956157,
+					["from"] = "Aset",
+					["msg"] = "lol",
+					["inbound"] = false,
+					["convo"] = "Shanaenae",
+				}, -- [12]
+				{
+					["type"] = 1,
+					["time"] = 1315956180,
+					["from"] = "Shanaenae",
+					["msg"] = "check your phone while i get pizza",
+					["inbound"] = true,
+					["convo"] = "Shanaenae",
+				}, -- [13]
+				{
+					["type"] = 1,
+					["time"] = 1315956185,
+					["from"] = "Aset",
+					["msg"] = "awwwwww sad Jamie is sad",
+					["inbound"] = false,
+					["convo"] = "Shanaenae",
+				}, -- [14]
+				{
+					["type"] = 1,
+					["time"] = 1315956188,
+					["from"] = "Aset",
+					["msg"] = "*huuuuuugs*",
+					["inbound"] = false,
+					["convo"] = "Shanaenae",
+				}, -- [15]
+				{
+					["type"] = 1,
+					["time"] = 1315956201,
+					["from"] = "Aset",
+					["msg"] = "That just makes me wanna hug you and make you happy again! :D",
+					["inbound"] = false,
+					["convo"] = "Shanaenae",
+				}, -- [16]
+				["info"] = {
+				},
+			},
+			["|Kf94|k0000000000000000|k"] = {
+				{
+					["type"] = 1,
+					["time"] = 1316738844,
+					["from"] = "Aset",
+					["msg"] = "nope, Third Eye Blind!",
+					["inbound"] = false,
+					["convo"] = "|Kf94|k0000000000000000|k",
+				}, -- [1]
+				{
+					["type"] = 1,
+					["time"] = 1316738881,
+					["from"] = "Aset",
+					["msg"] = "lol",
+					["inbound"] = false,
+					["convo"] = "|Kf94|k0000000000000000|k",
+				}, -- [2]
+				{
+					["type"] = 1,
+					["time"] = 1316738931,
+					["from"] = "Aset",
+					["msg"] = "lol do they?",
+					["inbound"] = false,
+					["convo"] = "|Kf94|k0000000000000000|k",
+				}, -- [3]
+				{
+					["type"] = 1,
+					["time"] = 1316738955,
+					["from"] = "Aset",
+					["msg"] = "I was thinking Tonic, but you're right it's Semisonic. I'm just watching this movie and the guy keeps singing it and saying he thinks it's Third Eye Blind",
+					["inbound"] = false,
+					["convo"] = "|Kf94|k0000000000000000|k",
+				}, -- [4]
+				{
+					["type"] = 1,
+					["time"] = 1316739031,
+					["from"] = "Aset",
+					["msg"] = "yeah its Friends with Benefits",
+					["inbound"] = false,
+					["convo"] = "|Kf94|k0000000000000000|k",
+				}, -- [5]
+				{
+					["type"] = 1,
+					["time"] = 1316739044,
+					["from"] = "Aset",
+					["msg"] = "i mean it's basically just a hot chick having lots of sex, so it's not so bad",
+					["inbound"] = false,
+					["convo"] = "|Kf94|k0000000000000000|k",
+				}, -- [6]
+				{
+					["type"] = 1,
+					["time"] = 1316739098,
+					["from"] = "Aset",
+					["msg"] = "Well, I suppose, but it lacks the story bit, where the person is shown to be a real person. Porn is lacking that, which makes me sad.",
+					["inbound"] = false,
+					["convo"] = "|Kf94|k0000000000000000|k",
+				}, -- [7]
+				{
+					["type"] = 1,
+					["time"] = 1316739157,
+					["from"] = "Aset",
+					["msg"] = "who is they? lol",
+					["inbound"] = false,
+					["convo"] = "|Kf94|k0000000000000000|k",
+				}, -- [8]
+				{
+					["type"] = 1,
+					["time"] = 1316739169,
+					["from"] = "Aset",
+					["msg"] = "I've heard the name but I know nothing about him",
+					["inbound"] = false,
+					["convo"] = "|Kf94|k0000000000000000|k",
+				}, -- [9]
+				{
+					["type"] = 1,
+					["time"] = 1316739206,
+					["from"] = "Aset",
+					["msg"] = "ah okay",
+					["inbound"] = false,
+					["convo"] = "|Kf94|k0000000000000000|k",
+				}, -- [10]
+				{
+					["type"] = 1,
+					["time"] = 1316739262,
+					["from"] = "Aset",
+					["msg"] = "hmm",
+					["inbound"] = false,
+					["convo"] = "|Kf94|k0000000000000000|k",
+				}, -- [11]
+				{
+					["type"] = 1,
+					["time"] = 1316739267,
+					["from"] = "Aset",
+					["msg"] = "lol",
+					["inbound"] = false,
+					["convo"] = "|Kf94|k0000000000000000|k",
+				}, -- [12]
+				{
+					["type"] = 1,
+					["time"] = 1316739281,
+					["from"] = "Aset",
+					["msg"] = "Well he has little-to-no impact on my life, so in my defense, he doesn't matter, lol",
+					["inbound"] = false,
+					["convo"] = "|Kf94|k0000000000000000|k",
+				}, -- [13]
+				{
+					["type"] = 1,
+					["time"] = 1316739448,
+					["from"] = "Aset",
+					["msg"] = "lol",
+					["inbound"] = false,
+					["convo"] = "|Kf94|k0000000000000000|k",
+				}, -- [14]
+				["info"] = {
+				},
+			},
+			["|Kf330|k0000000000000000|k"] = {
+				{
+					["type"] = 1,
+					["time"] = 1315960380,
+					["from"] = "Aset",
+					["msg"] = "hot damn",
+					["inbound"] = false,
+					["convo"] = "|Kf330|k0000000000000000|k",
+				}, -- [1]
+				{
+					["type"] = 1,
+					["time"] = 1315960383,
+					["from"] = "Aset",
+					["msg"] = "id idn't think of that",
+					["inbound"] = false,
+					["convo"] = "|Kf330|k0000000000000000|k",
+				}, -- [2]
+				{
+					["type"] = 1,
+					["time"] = 1315960385,
+					["from"] = "Aset",
+					["msg"] = "my group doesn't",
+					["inbound"] = false,
+					["convo"] = "|Kf330|k0000000000000000|k",
+				}, -- [3]
+				{
+					["type"] = 1,
+					["time"] = 1315960391,
+					["from"] = "Aset",
+					["msg"] = "Maybe they'll finally let ferals DW :)",
+					["inbound"] = false,
+					["convo"] = "|Kf330|k0000000000000000|k",
+				}, -- [4]
+				{
+					["type"] = 1,
+					["time"] = 1315960394,
+					["from"] = "Aset",
+					["msg"] = "yeah",
+					["inbound"] = false,
+					["convo"] = "|Kf330|k0000000000000000|k",
+				}, -- [5]
+				{
+					["type"] = 1,
+					["time"] = 1315960395,
+					["from"] = "Aset",
+					["msg"] = "i agree",
+					["inbound"] = false,
+					["convo"] = "|Kf330|k0000000000000000|k",
+				}, -- [6]
+				{
+					["type"] = 1,
+					["time"] = 1315960397,
+					["from"] = "Aset",
+					["msg"] = "it's pretty lame",
+					["inbound"] = false,
+					["convo"] = "|Kf330|k0000000000000000|k",
+				}, -- [7]
+				{
+					["type"] = 1,
+					["time"] = 1315960410,
+					["from"] = "Aset",
+					["msg"] = "have we heard it's for sure an agi dagger? and not spell power? though that would be even worse, so it must be agi lol",
+					["inbound"] = false,
+					["convo"] = "|Kf330|k0000000000000000|k",
+				}, -- [8]
+				{
+					["type"] = 1,
+					["time"] = 1315960419,
+					["from"] = "Aset",
+					["msg"] = "feral weapon?",
+					["inbound"] = false,
+					["convo"] = "|Kf330|k0000000000000000|k",
+				}, -- [9]
+				{
+					["type"] = 1,
+					["time"] = 1315960427,
+					["from"] = "Aset",
+					["msg"] = "technically the bow was more recent than the glaives",
+					["inbound"] = false,
+					["convo"] = "|Kf330|k0000000000000000|k",
+				}, -- [10]
+				{
+					["type"] = 1,
+					["time"] = 1315960508,
+					["from"] = "Aset",
+					["msg"] = "lol",
+					["inbound"] = false,
+					["convo"] = "|Kf330|k0000000000000000|k",
+				}, -- [11]
+				{
+					["type"] = 1,
+					["time"] = 1315960510,
+					["from"] = "Aset",
+					["msg"] = "if you must",
+					["inbound"] = false,
+					["convo"] = "|Kf330|k0000000000000000|k",
+				}, -- [12]
+				{
+					["type"] = 1,
+					["time"] = 1315960605,
+					["from"] = "Aset",
+					["msg"] = "1. ) Whine",
+					["inbound"] = false,
+					["convo"] = "|Kf330|k0000000000000000|k",
+				}, -- [13]
+				{
+					["type"] = 1,
+					["time"] = 1315960608,
+					["from"] = "Aset",
+					["msg"] = "2. ) whine",
+					["inbound"] = false,
+					["convo"] = "|Kf330|k0000000000000000|k",
+				}, -- [14]
+				{
+					["type"] = 1,
+					["time"] = 1315960614,
+					["from"] = "Aset",
+					["msg"] = "3 ) what?",
+					["inbound"] = false,
+					["convo"] = "|Kf330|k0000000000000000|k",
+				}, -- [15]
+				{
+					["type"] = 1,
+					["time"] = 1315960622,
+					["from"] = "Aset",
+					["msg"] = "i don't know what it is",
+					["inbound"] = false,
+					["convo"] = "|Kf330|k0000000000000000|k",
+				}, -- [16]
+				{
+					["type"] = 1,
+					["time"] = 1315960624,
+					["from"] = "Aset",
+					["msg"] = "so i'm asking what",
+					["inbound"] = false,
+					["convo"] = "|Kf330|k0000000000000000|k",
+				}, -- [17]
+				{
+					["type"] = 1,
+					["time"] = 1315960625,
+					["from"] = "Aset",
+					["msg"] = "lol",
+					["inbound"] = false,
+					["convo"] = "|Kf330|k0000000000000000|k",
+				}, -- [18]
+				{
+					["type"] = 1,
+					["time"] = 1315960636,
+					["from"] = "Aset",
+					["msg"] = "really the last-boss-of-the-xpac is a good point",
+					["inbound"] = false,
+					["convo"] = "|Kf330|k0000000000000000|k",
+				}, -- [19]
+				{
+					["type"] = 1,
+					["time"] = 1315960648,
+					["from"] = "Aset",
+					["msg"] = "though so was Shadowmourne",
+					["inbound"] = false,
+					["convo"] = "|Kf330|k0000000000000000|k",
+				}, -- [20]
+				{
+					["type"] = 1,
+					["time"] = 1315960674,
+					["from"] = "Aset",
+					["msg"] = "well",
+					["inbound"] = false,
+					["convo"] = "|Kf330|k0000000000000000|k",
+				}, -- [21]
+				{
+					["type"] = 1,
+					["time"] = 1315960680,
+					["from"] = "Aset",
+					["msg"] = "that's a stretch",
+					["inbound"] = false,
+					["convo"] = "|Kf330|k0000000000000000|k",
+				}, -- [22]
+				{
+					["type"] = 1,
+					["time"] = 1315960741,
+					["from"] = "Aset",
+					["msg"] = "i mean, everything is getting easier now, so it's not a valid excuse. A bow was created after the glaives, so hoping a bow will be anytime soon is just dilluting yourself",
+					["inbound"] = false,
+					["convo"] = "|Kf330|k0000000000000000|k",
+				}, -- [23]
+				{
+					["type"] = 1,
+					["time"] = 1315960781,
+					["from"] = "Aset",
+					["msg"] = "oh i'm sure",
+					["inbound"] = false,
+					["convo"] = "|Kf330|k0000000000000000|k",
+				}, -- [24]
+				{
+					["type"] = 1,
+					["time"] = 1315960791,
+					["from"] = "Aset",
+					["msg"] = "or more",
+					["inbound"] = false,
+					["convo"] = "|Kf330|k0000000000000000|k",
+				}, -- [25]
+				{
+					["type"] = 1,
+					["time"] = 1315960794,
+					["from"] = "Aset",
+					["msg"] = "yeah",
+					["inbound"] = false,
+					["convo"] = "|Kf330|k0000000000000000|k",
+				}, -- [26]
+				{
+					["type"] = 1,
+					["time"] = 1315960795,
+					["from"] = "Aset",
+					["msg"] = "i agree",
+					["inbound"] = false,
+					["convo"] = "|Kf330|k0000000000000000|k",
+				}, -- [27]
+				{
+					["type"] = 1,
+					["time"] = 1315960797,
+					["from"] = "Aset",
+					["msg"] = "that's what i wanted",
+					["inbound"] = false,
+					["convo"] = "|Kf330|k0000000000000000|k",
+				}, -- [28]
+				{
+					["type"] = 1,
+					["time"] = 1315960805,
+					["from"] = "Aset",
+					["msg"] = "agi polearm cuz.. two of us, and two not-very-loved specs",
+					["inbound"] = false,
+					["convo"] = "|Kf330|k0000000000000000|k",
+				}, -- [29]
+				{
+					["type"] = 1,
+					["time"] = 1315960808,
+					["from"] = "Aset",
+					["msg"] = "yeah",
+					["inbound"] = false,
+					["convo"] = "|Kf330|k0000000000000000|k",
+				}, -- [30]
+				{
+					["type"] = 1,
+					["time"] = 1315960810,
+					["from"] = "Aset",
+					["msg"] = "that's pretty bullshit",
+					["inbound"] = false,
+					["convo"] = "|Kf330|k0000000000000000|k",
+				}, -- [31]
+				{
+					["type"] = 1,
+					["time"] = 1315960939,
+					["from"] = "Aset",
+					["msg"] = "lol",
+					["inbound"] = false,
+					["convo"] = "|Kf330|k0000000000000000|k",
+				}, -- [32]
+				{
+					["type"] = 1,
+					["time"] = 1315960939,
+					["from"] = "Aset",
+					["msg"] = "yep",
+					["inbound"] = false,
+					["convo"] = "|Kf330|k0000000000000000|k",
+				}, -- [33]
+				{
+					["type"] = 1,
+					["time"] = 1315960952,
+					["from"] = "Aset",
+					["msg"] = "maybe they'll let cats DW",
+					["inbound"] = false,
+					["convo"] = "|Kf330|k0000000000000000|k",
+				}, -- [34]
+				{
+					["type"] = 1,
+					["time"] = 1315960964,
+					["from"] = "Aset",
+					["msg"] = "why can't hunters DW daggers anymore?",
+					["inbound"] = false,
+					["convo"] = "|Kf330|k0000000000000000|k",
+				}, -- [35]
+				{
+					["type"] = 1,
+					["time"] = 1315961032,
+					["from"] = "Aset",
+					["msg"] = "oh it is?",
+					["inbound"] = false,
+					["convo"] = "|Kf330|k0000000000000000|k",
+				}, -- [36]
+				{
+					["type"] = 1,
+					["time"] = 1315961033,
+					["from"] = "Aset",
+					["msg"] = "you're sure?",
+					["inbound"] = false,
+					["convo"] = "|Kf330|k0000000000000000|k",
+				}, -- [37]
+				{
+					["type"] = 1,
+					["time"] = 1315961045,
+					["from"] = "Aset",
+					["msg"] = "and.. why don't they ever use daggers anymore?",
+					["inbound"] = false,
+					["convo"] = "|Kf330|k0000000000000000|k",
+				}, -- [38]
+				{
+					["type"] = 1,
+					["time"] = 1315961051,
+					["from"] = "Aset",
+					["msg"] = "we've sharded a lot of nice daggers",
+					["inbound"] = false,
+					["convo"] = "|Kf330|k0000000000000000|k",
+				}, -- [39]
+				{
+					["type"] = 1,
+					["time"] = 1315961056,
+					["from"] = "Aset",
+					["msg"] = "hunter never wants them",
+					["inbound"] = false,
+					["convo"] = "|Kf330|k0000000000000000|k",
+				}, -- [40]
+				{
+					["type"] = 1,
+					["time"] = 1315961083,
+					["from"] = "Aset",
+					["msg"] = "oooh",
+					["inbound"] = false,
+					["convo"] = "|Kf330|k0000000000000000|k",
+				}, -- [41]
+				{
+					["type"] = 1,
+					["time"] = 1315961097,
+					["from"] = "Aset",
+					["msg"] = "lame",
+					["inbound"] = false,
+					["convo"] = "|Kf330|k0000000000000000|k",
+				}, -- [42]
+				{
+					["type"] = 1,
+					["time"] = 1315961266,
+					["from"] = "Aset",
+					["msg"] = "yep, pretty freaking lame man",
+					["inbound"] = false,
+					["convo"] = "|Kf330|k0000000000000000|k",
+				}, -- [43]
+				{
+					["type"] = 1,
+					["time"] = 1315965905,
+					["from"] = "Aset",
+					["msg"] = "nah",
+					["inbound"] = false,
+					["convo"] = "|Kf330|k0000000000000000|k",
+				}, -- [44]
+				{
+					["type"] = 1,
+					["time"] = 1315965907,
+					["from"] = "Aset",
+					["msg"] = " |Hitem:71617:0:0:0:0:0:0:713698352:85:0|h[Crystallized Firestone]|h!",
+					["inbound"] = false,
+					["convo"] = "|Kf330|k0000000000000000|k",
+				}, -- [45]
+				{
+					["type"] = 1,
+					["time"] = 1315965970,
+					["from"] = "Aset",
+					["msg"] = "i got it :D",
+					["inbound"] = false,
+					["convo"] = "|Kf330|k0000000000000000|k",
+				}, -- [46]
+				{
+					["type"] = 1,
+					["time"] = 1315965984,
+					["from"] = "Aset",
+					["msg"] = "i also won the roll on  |Hitem:71440:0:0:0:0:0:0:445262896:85:0|h[Gloves of Dissolving Smoke]|h but passed them to Piggy since I got the stone lol",
+					["inbound"] = false,
+					["convo"] = "|Kf330|k0000000000000000|k",
+				}, -- [47]
+				{
+					["type"] = 1,
+					["time"] = 1315965988,
+					["from"] = "Aset",
+					["msg"] = "but now the quesiton is, what do i upgrade? :O",
+					["inbound"] = false,
+					["convo"] = "|Kf330|k0000000000000000|k",
+				}, -- [48]
+				{
+					["type"] = 1,
+					["time"] = 1315965991,
+					["from"] = "Aset",
+					["msg"] = " |Hitem:71557:0:0:0:0:0:0:0:85:0|h[Ranseur of Hatred]|h ?",
+					["inbound"] = false,
+					["convo"] = "|Kf330|k0000000000000000|k",
+				}, -- [49]
+				{
+					["type"] = 1,
+					["time"] = 1315965999,
+					["from"] = "Aset",
+					["msg"] = "it's not my best weapon so i think not",
+					["inbound"] = false,
+					["convo"] = "|Kf330|k0000000000000000|k",
+				}, -- [50]
+				{
+					["type"] = 1,
+					["time"] = 1315966068,
+					["from"] = "Aset",
+					["msg"] = "I hope so, how hard is he?",
+					["inbound"] = false,
+					["convo"] = "|Kf330|k0000000000000000|k",
+				}, -- [51]
+				{
+					["type"] = 1,
+					["time"] = 1315966080,
+					["from"] = "Aset",
+					["msg"] = " |Hitem:69109:0:0:0:0:0:0:0:85:0|h[Scales of Life]|h that probably makes that worth being one of my main trinkets.. that's a TON of stam..",
+					["inbound"] = false,
+					["convo"] = "|Kf330|k0000000000000000|k",
+				}, -- [52]
+				["info"] = {
+				},
+			},
+			["Piggyslasher"] = {
+				{
+					["type"] = 1,
+					["time"] = 1315968958,
+					["from"] = "Aset",
+					["msg"] = "Rezzing you (don't walk in!)",
+					["inbound"] = false,
+					["convo"] = "Piggyslasher",
+				}, -- [1]
+				{
+					["type"] = 1,
+					["time"] = 1315968982,
+					["from"] = "Aset",
+					["msg"] = "Rezzing you (don't walk in!)",
+					["inbound"] = false,
+					["convo"] = "Piggyslasher",
+				}, -- [2]
+				{
+					["type"] = 1,
+					["time"] = 1316572353,
+					["from"] = "Aset",
+					["msg"] = "Rezzing you (don't walk in!)",
+					["inbound"] = false,
+					["convo"] = "Piggyslasher",
+				}, -- [3]
+				["info"] = {
+				},
+			},
+			["|Kf1032|k00000000000|k"] = {
+				{
+					["type"] = 1,
+					["time"] = 1316298573,
+					["from"] = "Aset",
+					["msg"] = "Rawr!",
+					["inbound"] = false,
+					["convo"] = "|Kf1032|k00000000000|k",
+				}, -- [1]
+				{
+					["type"] = 1,
+					["time"] = 1316298575,
+					["from"] = "Aset",
+					["msg"] = "Dang you beat me",
+					["inbound"] = false,
+					["convo"] = "|Kf1032|k00000000000|k",
+				}, -- [2]
+				{
+					["type"] = 1,
+					["time"] = 1316298576,
+					["from"] = "Aset",
+					["msg"] = "lol",
+					["inbound"] = false,
+					["convo"] = "|Kf1032|k00000000000|k",
+				}, -- [3]
+				{
+					["type"] = 1,
+					["time"] = 1316298581,
+					["from"] = "Aset",
+					["msg"] = "Areanaaaa!",
+					["inbound"] = false,
+					["convo"] = "|Kf1032|k00000000000|k",
+				}, -- [4]
+				{
+					["type"] = 1,
+					["time"] = 1316299035,
+					["from"] = "Aset",
+					["msg"] = "With Haliax",
+					["inbound"] = false,
+					["convo"] = "|Kf1032|k00000000000|k",
+				}, -- [5]
+				{
+					["type"] = 1,
+					["time"] = 1316299038,
+					["from"] = "Aset",
+					["msg"] = "but it's terrible",
+					["inbound"] = false,
+					["convo"] = "|Kf1032|k00000000000|k",
+				}, -- [6]
+				{
+					["type"] = 1,
+					["time"] = 1316299046,
+					["from"] = "Aset",
+					["msg"] = "Holy paladins are useless in arena",
+					["inbound"] = false,
+					["convo"] = "|Kf1032|k00000000000|k",
+				}, -- [7]
+				{
+					["type"] = 1,
+					["time"] = 1316299095,
+					["from"] = "Aset",
+					["msg"] = "it's really annoying being the only one who can cc, and having to do everything yourself lol",
+					["inbound"] = false,
+					["convo"] = "|Kf1032|k00000000000|k",
+				}, -- [8]
+				{
+					["type"] = 1,
+					["time"] = 1316299793,
+					["from"] = "Aset",
+					["msg"] = "yes plz!",
+					["inbound"] = false,
+					["convo"] = "|Kf1032|k00000000000|k",
+				}, -- [9]
+				{
+					["type"] = 1,
+					["time"] = 1316299816,
+					["from"] = "Aset",
+					["msg"] = "oh?",
+					["inbound"] = false,
+					["convo"] = "|Kf1032|k00000000000|k",
+				}, -- [10]
+				{
+					["type"] = 1,
+					["time"] = 1316299818,
+					["from"] = "Aset",
+					["msg"] = "how come? :O",
+					["inbound"] = false,
+					["convo"] = "|Kf1032|k00000000000|k",
+				}, -- [11]
+				{
+					["type"] = 1,
+					["time"] = 1316299878,
+					["from"] = "Aset",
+					["msg"] = "Ahhh I see",
+					["inbound"] = false,
+					["convo"] = "|Kf1032|k00000000000|k",
+				}, -- [12]
+				{
+					["type"] = 1,
+					["time"] = 1316299890,
+					["from"] = "Aset",
+					["msg"] = "Well I hope it goes better this time and you are completely happy and stuff when you return :",
+					["inbound"] = false,
+					["convo"] = "|Kf1032|k00000000000|k",
+				}, -- [13]
+				{
+					["type"] = 1,
+					["time"] = 1316299891,
+					["from"] = "Aset",
+					["msg"] = ":)",
+					["inbound"] = false,
+					["convo"] = "|Kf1032|k00000000000|k",
+				}, -- [14]
+				{
+					["type"] = 1,
+					["time"] = 1316299899,
+					["from"] = "Aset",
+					["msg"] = "uhh",
+					["inbound"] = false,
+					["convo"] = "|Kf1032|k00000000000|k",
+				}, -- [15]
+				{
+					["type"] = 1,
+					["time"] = 1316299900,
+					["from"] = "Aset",
+					["msg"] = "i don't know",
+					["inbound"] = false,
+					["convo"] = "|Kf1032|k00000000000|k",
+				}, -- [16]
+				{
+					["type"] = 1,
+					["time"] = 1316299939,
+					["from"] = "Aset",
+					["msg"] = "did you get anything new?",
+					["inbound"] = false,
+					["convo"] = "|Kf1032|k00000000000|k",
+				}, -- [17]
+				{
+					["type"] = 1,
+					["time"] = 1316299944,
+					["from"] = "Aset",
+					["msg"] = "probably mangle spam and finish with FB",
+					["inbound"] = false,
+					["convo"] = "|Kf1032|k00000000000|k",
+				}, -- [18]
+				{
+					["type"] = 1,
+					["time"] = 1316299996,
+					["from"] = "Aset",
+					["msg"] = "if you're in an instance, then.. shred spam, also keep rake up if you have it",
+					["inbound"] = false,
+					["convo"] = "|Kf1032|k00000000000|k",
+				}, -- [19]
+				{
+					["type"] = 1,
+					["time"] = 1316300000,
+					["from"] = "Aset",
+					["msg"] = "rip at 5 cp if you have it",
+					["inbound"] = false,
+					["convo"] = "|Kf1032|k00000000000|k",
+				}, -- [20]
+				{
+					["type"] = 1,
+					["time"] = 1316300014,
+					["from"] = "Aset",
+					["msg"] = "what *do* you have? :)",
+					["inbound"] = false,
+					["convo"] = "|Kf1032|k00000000000|k",
+				}, -- [21]
+				{
+					["type"] = 1,
+					["time"] = 1316300018,
+					["from"] = "Aset",
+					["msg"] = "k",
+					["inbound"] = false,
+					["convo"] = "|Kf1032|k00000000000|k",
+				}, -- [22]
+				{
+					["type"] = 1,
+					["time"] = 1316300066,
+					["from"] = "Aset",
+					["msg"] = "k",
+					["inbound"] = false,
+					["convo"] = "|Kf1032|k00000000000|k",
+				}, -- [23]
+				{
+					["type"] = 1,
+					["time"] = 1316300073,
+					["from"] = "Aset",
+					["msg"] = "you asking solo? or in a dungeon?",
+					["inbound"] = false,
+					["convo"] = "|Kf1032|k00000000000|k",
+				}, -- [24]
+				{
+					["type"] = 1,
+					["time"] = 1316300117,
+					["from"] = "Aset",
+					["msg"] = "well",
+					["inbound"] = false,
+					["convo"] = "|Kf1032|k00000000000|k",
+				}, -- [25]
+				{
+					["type"] = 1,
+					["time"] = 1316300120,
+					["from"] = "Aset",
+					["msg"] = "solo do whatever works",
+					["inbound"] = false,
+					["convo"] = "|Kf1032|k00000000000|k",
+				}, -- [26]
+				{
+					["type"] = 1,
+					["time"] = 1316300124,
+					["from"] = "Aset",
+					["msg"] = "if ravage is still one shotting, do that",
+					["inbound"] = false,
+					["convo"] = "|Kf1032|k00000000000|k",
+				}, -- [27]
+				{
+					["type"] = 1,
+					["time"] = 1316300132,
+					["from"] = "Aset",
+					["msg"] = "otherwise ravage, mangle a few times, and FB to finish off",
+					["inbound"] = false,
+					["convo"] = "|Kf1032|k00000000000|k",
+				}, -- [28]
+				{
+					["type"] = 1,
+					["time"] = 1316300157,
+					["from"] = "Aset",
+					["msg"] = "for an instance, mangle spam, keep rake up, and FB at 5 cp",
+					["inbound"] = false,
+					["convo"] = "|Kf1032|k00000000000|k",
+				}, -- [29]
+				{
+					["type"] = 1,
+					["time"] = 1316300158,
+					["from"] = "Aset",
+					["msg"] = "and repeat",
+					["inbound"] = false,
+					["convo"] = "|Kf1032|k00000000000|k",
+				}, -- [30]
+				{
+					["type"] = 1,
+					["time"] = 1316300221,
+					["from"] = "Aset",
+					["msg"] = ":D",
+					["inbound"] = false,
+					["convo"] = "|Kf1032|k00000000000|k",
+				}, -- [31]
+				{
+					["type"] = 1,
+					["time"] = 1316300225,
+					["from"] = "Aset",
+					["msg"] = "We are terrible",
+					["inbound"] = false,
+					["convo"] = "|Kf1032|k00000000000|k",
+				}, -- [32]
+				{
+					["type"] = 1,
+					["time"] = 1316300227,
+					["from"] = "Aset",
+					["msg"] = "lol",
+					["inbound"] = false,
+					["convo"] = "|Kf1032|k00000000000|k",
+				}, -- [33]
+				{
+					["type"] = 1,
+					["time"] = 1316300234,
+					["from"] = "Aset",
+					["msg"] = "we're doing 5 naked games",
+					["inbound"] = false,
+					["convo"] = "|Kf1032|k00000000000|k",
+				}, -- [34]
+				{
+					["type"] = 1,
+					["time"] = 1316300284,
+					["from"] = "Aset",
+					["msg"] = "to try to get our rating down",
+					["inbound"] = false,
+					["convo"] = "|Kf1032|k00000000000|k",
+				}, -- [35]
+				{
+					["type"] = 1,
+					["time"] = 1316300289,
+					["from"] = "Aset",
+					["msg"] = "so we don't have to fight teams that are so hard ><",
+					["inbound"] = false,
+					["convo"] = "|Kf1032|k00000000000|k",
+				}, -- [36]
+				{
+					["type"] = 1,
+					["time"] = 1316300345,
+					["from"] = "Aset",
+					["msg"] = "lol okay",
+					["inbound"] = false,
+					["convo"] = "|Kf1032|k00000000000|k",
+				}, -- [37]
+				{
+					["type"] = 1,
+					["time"] = 1316300346,
+					["from"] = "Aset",
+					["msg"] = "<3",
+					["inbound"] = false,
+					["convo"] = "|Kf1032|k00000000000|k",
+				}, -- [38]
+				{
+					["type"] = 1,
+					["time"] = 1316300351,
+					["from"] = "Aset",
+					["msg"] = ":O",
+					["inbound"] = false,
+					["convo"] = "|Kf1032|k00000000000|k",
+				}, -- [39]
+				{
+					["type"] = 1,
+					["time"] = 1316300352,
+					["from"] = "Aset",
+					["msg"] = "kk",
+					["inbound"] = false,
+					["convo"] = "|Kf1032|k00000000000|k",
+				}, -- [40]
+				["info"] = {
+				},
+			},
+			["Kavik"] = {
+				{
+					["type"] = 1,
+					["time"] = 1316570836,
+					["from"] = "Aset",
+					["msg"] = "Thanks for coming!",
+					["inbound"] = false,
+					["convo"] = "Kavik",
+				}, -- [1]
+				{
+					["type"] = 1,
+					["time"] = 1316570842,
+					["from"] = "Kavik",
+					["msg"] = "yep",
+					["inbound"] = true,
+					["convo"] = "Kavik",
+				}, -- [2]
+				["info"] = {
+				},
+			},
+			["|Kf54|k00000000000|k"] = {
+				{
+					["type"] = 1,
+					["time"] = 1316006767,
+					["from"] = "Aset",
+					["msg"] = ":O",
+					["inbound"] = false,
+					["convo"] = "|Kf54|k00000000000|k",
+				}, -- [1]
+				{
+					["type"] = 1,
+					["time"] = 1316006770,
+					["from"] = "Aset",
+					["msg"] = "Leveling is so fast!",
+					["inbound"] = false,
+					["convo"] = "|Kf54|k00000000000|k",
+				}, -- [2]
+				{
+					["type"] = 1,
+					["time"] = 1316006774,
+					["from"] = "Aset",
+					["msg"] = "I'm just sad you're doing it all alone :(",
+					["inbound"] = false,
+					["convo"] = "|Kf54|k00000000000|k",
+				}, -- [3]
+				{
+					["type"] = 1,
+					["time"] = 1316006785,
+					["from"] = "Aset",
+					["msg"] = "I guess I could finish my Goblin",
+					["inbound"] = false,
+					["convo"] = "|Kf54|k00000000000|k",
+				}, -- [4]
+				{
+					["type"] = 1,
+					["time"] = 1316006790,
+					["from"] = "Aset",
+					["msg"] = "or at least get him out of the starting zone lol",
+					["inbound"] = false,
+					["convo"] = "|Kf54|k00000000000|k",
+				}, -- [5]
+				{
+					["type"] = 1,
+					["time"] = 1316006850,
+					["from"] = "Aset",
+					["msg"] = "Well, i have another account!",
+					["inbound"] = false,
+					["convo"] = "|Kf54|k00000000000|k",
+				}, -- [6]
+				{
+					["type"] = 1,
+					["time"] = 1316006889,
+					["from"] = "Aset",
+					["msg"] = "And I need to level a new toon to see the \"cataclysm content\" since there was none for raiders, lol",
+					["inbound"] = false,
+					["convo"] = "|Kf54|k00000000000|k",
+				}, -- [7]
+				["info"] = {
+				},
+			},
+			["|Kf767|k0000000000000000|k"] = {
+				{
+					["type"] = 1,
+					["time"] = 1316572735,
+					["from"] = "Aset",
+					["msg"] = "so yeah?",
+					["inbound"] = false,
+					["convo"] = "|Kf767|k0000000000000000|k",
+				}, -- [1]
+				{
+					["type"] = 1,
+					["time"] = 1316572744,
+					["from"] = "Aset",
+					["msg"] = "lol yeah",
+					["inbound"] = false,
+					["convo"] = "|Kf767|k0000000000000000|k",
+				}, -- [2]
+				{
+					["type"] = 1,
+					["time"] = 1316572746,
+					["from"] = "Aset",
+					["msg"] = "i heard",
+					["inbound"] = false,
+					["convo"] = "|Kf767|k0000000000000000|k",
+				}, -- [3]
+				{
+					["type"] = 1,
+					["time"] = 1316572748,
+					["from"] = "Aset",
+					["msg"] = "talked to her",
+					["inbound"] = false,
+					["convo"] = "|Kf767|k0000000000000000|k",
+				}, -- [4]
+				{
+					["type"] = 1,
+					["time"] = 1316572752,
+					["from"] = "Aset",
+					["msg"] = "Nah she didn't take anything",
+					["inbound"] = false,
+					["convo"] = "|Kf767|k0000000000000000|k",
+				}, -- [5]
+				{
+					["type"] = 1,
+					["time"] = 1316572761,
+					["from"] = "Aset",
+					["msg"] = "She got kicked from our raid group by the leader",
+					["inbound"] = false,
+					["convo"] = "|Kf767|k0000000000000000|k",
+				}, -- [6]
+				{
+					["type"] = 1,
+					["time"] = 1316572763,
+					["from"] = "Aset",
+					["msg"] = "her and her boyfriend",
+					["inbound"] = false,
+					["convo"] = "|Kf767|k0000000000000000|k",
+				}, -- [7]
+				{
+					["type"] = 1,
+					["time"] = 1316572771,
+					["from"] = "Aset",
+					["msg"] = "oh she did",
+					["inbound"] = false,
+					["convo"] = "|Kf767|k0000000000000000|k",
+				}, -- [8]
+				{
+					["type"] = 1,
+					["time"] = 1316572777,
+					["from"] = "Aset",
+					["msg"] = "Well i mean",
+					["inbound"] = false,
+					["convo"] = "|Kf767|k0000000000000000|k",
+				}, -- [9]
+				{
+					["type"] = 1,
+					["time"] = 1316572783,
+					["from"] = "Aset",
+					["msg"] = "She got geared well if that's what you mean",
+					["inbound"] = false,
+					["convo"] = "|Kf767|k0000000000000000|k",
+				}, -- [10]
+				{
+					["type"] = 1,
+					["time"] = 1316572788,
+					["from"] = "Aset",
+					["msg"] = "but it was legit, she didn't steal anything or anything",
+					["inbound"] = false,
+					["convo"] = "|Kf767|k0000000000000000|k",
+				}, -- [11]
+				{
+					["type"] = 1,
+					["time"] = 1316572866,
+					["from"] = "Aset",
+					["msg"] = "and she used to farm fish and cauldrons for us",
+					["inbound"] = false,
+					["convo"] = "|Kf767|k0000000000000000|k",
+				}, -- [12]
+				{
+					["type"] = 1,
+					["time"] = 1316573151,
+					["from"] = "Aset",
+					["msg"] = "ah yeah",
+					["inbound"] = false,
+					["convo"] = "|Kf767|k0000000000000000|k",
+				}, -- [13]
+				{
+					["type"] = 1,
+					["time"] = 1316573155,
+					["from"] = "Aset",
+					["msg"] = "yeah she had farmed a lot for us",
+					["inbound"] = false,
+					["convo"] = "|Kf767|k0000000000000000|k",
+				}, -- [14]
+				{
+					["type"] = 1,
+					["time"] = 1316573175,
+					["from"] = "Aset",
+					["msg"] = "I really like her and think she's pretty cool. Her dps was not as good as it could ahve been.. possibly she was doing something wrong and someone could help her do better? ",
+					["inbound"] = false,
+					["convo"] = "|Kf767|k0000000000000000|k",
+				}, -- [15]
+				{
+					["type"] = 1,
+					["time"] = 1316573182,
+					["from"] = "Aset",
+					["msg"] = "otherwise she's a pretty solid player",
+					["inbound"] = false,
+					["convo"] = "|Kf767|k0000000000000000|k",
+				}, -- [16]
+				{
+					["type"] = 1,
+					["time"] = 1316573185,
+					["from"] = "Aset",
+					["msg"] = "and cute to boot",
+					["inbound"] = false,
+					["convo"] = "|Kf767|k0000000000000000|k",
+				}, -- [17]
+				{
+					["type"] = 1,
+					["time"] = 1316573186,
+					["from"] = "Aset",
+					["msg"] = "!",
+					["inbound"] = false,
+					["convo"] = "|Kf767|k0000000000000000|k",
+				}, -- [18]
+				{
+					["type"] = 1,
+					["time"] = 1316574030,
+					["from"] = "Aset",
+					["msg"] = "yep",
+					["inbound"] = false,
+					["convo"] = "|Kf767|k0000000000000000|k",
+				}, -- [19]
+				{
+					["type"] = 1,
+					["time"] = 1316574071,
+					["from"] = "Aset",
+					["msg"] = "HAHAHAH",
+					["inbound"] = false,
+					["convo"] = "|Kf767|k0000000000000000|k",
+				}, -- [20]
+				{
+					["type"] = 1,
+					["time"] = 1316574075,
+					["from"] = "Aset",
+					["msg"] = "killed her before she finished P1",
+					["inbound"] = false,
+					["convo"] = "|Kf767|k0000000000000000|k",
+				}, -- [21]
+				{
+					["type"] = 1,
+					["time"] = 1316574083,
+					["from"] = "Aset",
+					["msg"] = "haha",
+					["inbound"] = false,
+					["convo"] = "|Kf767|k0000000000000000|k",
+				}, -- [22]
+				{
+					["type"] = 1,
+					["time"] = 1316574087,
+					["from"] = "Aset",
+					["msg"] = "that was pathetic",
+					["inbound"] = false,
+					["convo"] = "|Kf767|k0000000000000000|k",
+				}, -- [23]
+				{
+					["type"] = 1,
+					["time"] = 1316574100,
+					["from"] = "Aset",
+					["msg"] = "oh, yeah",
+					["inbound"] = false,
+					["convo"] = "|Kf767|k0000000000000000|k",
+				}, -- [24]
+				{
+					["type"] = 1,
+					["time"] = 1316574107,
+					["from"] = "Aset",
+					["msg"] = "while she was on the ground",
+					["inbound"] = false,
+					["convo"] = "|Kf767|k0000000000000000|k",
+				}, -- [25]
+				{
+					["type"] = 1,
+					["time"] = 1316574108,
+					["from"] = "Aset",
+					["msg"] = "the first time",
+					["inbound"] = false,
+					["convo"] = "|Kf767|k0000000000000000|k",
+				}, -- [26]
+				{
+					["type"] = 1,
+					["time"] = 1316574127,
+					["from"] = "Aset",
+					["msg"] = "she died before she took off again",
+					["inbound"] = false,
+					["convo"] = "|Kf767|k0000000000000000|k",
+				}, -- [27]
+				{
+					["type"] = 1,
+					["time"] = 1316574165,
+					["from"] = "Aset",
+					["msg"] = "oh",
+					["inbound"] = false,
+					["convo"] = "|Kf767|k0000000000000000|k",
+				}, -- [28]
+				{
+					["type"] = 1,
+					["time"] = 1316574166,
+					["from"] = "Aset",
+					["msg"] = "meh",
+					["inbound"] = false,
+					["convo"] = "|Kf767|k0000000000000000|k",
+				}, -- [29]
+				{
+					["type"] = 1,
+					["time"] = 1316574169,
+					["from"] = "Aset",
+					["msg"] = "not much slower, but a little",
+					["inbound"] = false,
+					["convo"] = "|Kf767|k0000000000000000|k",
+				}, -- [30]
+				{
+					["type"] = 1,
+					["time"] = 1316574177,
+					["from"] = "Aset",
+					["msg"] = "maybe 15%?",
+					["inbound"] = false,
+					["convo"] = "|Kf767|k0000000000000000|k",
+				}, -- [31]
+				{
+					["type"] = 1,
+					["time"] = 1316574179,
+					["from"] = "Aset",
+					["msg"] = "or 20%",
+					["inbound"] = false,
+					["convo"] = "|Kf767|k0000000000000000|k",
+				}, -- [32]
+				{
+					["type"] = 1,
+					["time"] = 1316574188,
+					["from"] = "Aset",
+					["msg"] = "enough to be easier, and enough to be hard if you're used to running wtih 2 feathers lol",
+					["inbound"] = false,
+					["convo"] = "|Kf767|k0000000000000000|k",
+				}, -- [33]
+				["info"] = {
+				},
+			},
+			["|Kf139|k0000000000000|k"] = {
+				{
+					["type"] = 1,
+					["time"] = 1316282715,
+					["from"] = "Aset",
+					["msg"] = "lol you need to get happier",
+					["inbound"] = false,
+					["convo"] = "|Kf139|k0000000000000|k",
+				}, -- [1]
+				{
+					["type"] = 1,
+					["time"] = 1316282716,
+					["from"] = "Aset",
+					["msg"] = "!",
+					["inbound"] = false,
+					["convo"] = "|Kf139|k0000000000000|k",
+				}, -- [2]
+				{
+					["type"] = 1,
+					["time"] = 1316282724,
+					["from"] = "Aset",
+					["msg"] = "if you tank something.. what am I gonna do? haha",
+					["inbound"] = false,
+					["convo"] = "|Kf139|k0000000000000|k",
+				}, -- [3]
+				{
+					["type"] = 1,
+					["time"] = 1316282764,
+					["from"] = "Aset",
+					["msg"] = "what are you gonna tank on? ",
+					["inbound"] = false,
+					["convo"] = "|Kf139|k0000000000000|k",
+				}, -- [4]
+				{
+					["type"] = 1,
+					["time"] = 1316282809,
+					["from"] = "Aset",
+					["msg"] = "k",
+					["inbound"] = false,
+					["convo"] = "|Kf139|k0000000000000|k",
+				}, -- [5]
+				{
+					["type"] = 1,
+					["time"] = 1316282879,
+					["from"] = "Aset",
+					["msg"] = "sec i'm cutting gems",
+					["inbound"] = false,
+					["convo"] = "|Kf139|k0000000000000|k",
+				}, -- [6]
+				{
+					["type"] = 1,
+					["time"] = 1316282919,
+					["from"] = "Aset",
+					["msg"] = "hahaha the loser guy (i can't remember their names for some reason) is so good at just faking it",
+					["inbound"] = false,
+					["convo"] = "|Kf139|k0000000000000|k",
+				}, -- [7]
+				{
+					["type"] = 1,
+					["time"] = 1316282922,
+					["from"] = "Aset",
+					["msg"] = "ah true",
+					["inbound"] = false,
+					["convo"] = "|Kf139|k0000000000000|k",
+				}, -- [8]
+				["info"] = {
+				},
+			},
+			["|Kf765|k0000000000000|k"] = {
+				{
+					["type"] = 1,
+					["time"] = 1316566557,
+					["from"] = "Aset",
+					["msg"] = "You were never a problem for me.",
+					["inbound"] = false,
+					["convo"] = "|Kf765|k0000000000000|k",
+				}, -- [1]
+				{
+					["type"] = 1,
+					["time"] = 1316566720,
+					["from"] = "Aset",
+					["msg"] = "Hey it's true! And I will always keep the Thayan's Room channel around :P",
+					["inbound"] = false,
+					["convo"] = "|Kf765|k0000000000000|k",
+				}, -- [2]
+				{
+					["type"] = 1,
+					["time"] = 1316566795,
+					["from"] = "Aset",
+					["msg"] = "Well, you weren't there. And actually, neither was I.",
+					["inbound"] = false,
+					["convo"] = "|Kf765|k0000000000000|k",
+				}, -- [3]
+				{
+					["type"] = 1,
+					["time"] = 1316566812,
+					["from"] = "Aset",
+					["msg"] = "You shouldn't be muted in any of the groups.. except the Secret Police which mutes everyone who enters it.. and I can't figure out why lol",
+					["inbound"] = false,
+					["convo"] = "|Kf765|k0000000000000|k",
+				}, -- [4]
+				{
+					["type"] = 1,
+					["time"] = 1316566820,
+					["from"] = "Aset",
+					["msg"] = "er, groups=channels",
+					["inbound"] = false,
+					["convo"] = "|Kf765|k0000000000000|k",
+				}, -- [5]
+				{
+					["type"] = 1,
+					["time"] = 1316566898,
+					["from"] = "Aset",
+					["msg"] = "Well, you were supposed to be able to talk, could you really not?",
+					["inbound"] = false,
+					["convo"] = "|Kf765|k0000000000000|k",
+				}, -- [6]
+				{
+					["type"] = 1,
+					["time"] = 1316566919,
+					["from"] = "Aset",
+					["msg"] = "Sorry, that was not supposed to be",
+					["inbound"] = false,
+					["convo"] = "|Kf765|k0000000000000|k",
+				}, -- [7]
+				{
+					["type"] = 1,
+					["time"] = 1316566927,
+					["from"] = "Aset",
+					["msg"] = "Aww :(",
+					["inbound"] = false,
+					["convo"] = "|Kf765|k0000000000000|k",
+				}, -- [8]
+				{
+					["type"] = 1,
+					["time"] = 1316567178,
+					["from"] = "Aset",
+					["msg"] = "He wasn't supposed to tell you you were awful! But again, they didn't really consult me, just that day he was like \"we decided this, and we didn't include you because we knew you would not agree\" and I said \"well, alright I gues\" and that was that",
+					["inbound"] = false,
+					["convo"] = "|Kf765|k0000000000000|k",
+				}, -- [9]
+				{
+					["type"] = 1,
+					["time"] = 1316567751,
+					["from"] = "Aset",
+					["msg"] = "Well I'm sorry. I had no problem with you and i miss you. If you'd prefer I never speak to you again, I can arrange that. But it would make me sad.",
+					["inbound"] = false,
+					["convo"] = "|Kf765|k0000000000000|k",
+				}, -- [10]
+				{
+					["type"] = 1,
+					["time"] = 1316568073,
+					["from"] = "Aset",
+					["msg"] = "I understand. I didn't really see much/any of the stuff everyone was complaining about, but there certainly was complaining.",
+					["inbound"] = false,
+					["convo"] = "|Kf765|k0000000000000|k",
+				}, -- [11]
+				{
+					["type"] = 1,
+					["time"] = 1316568110,
+					["from"] = "Aset",
+					["msg"] = "And.. I know what it's like to have everyone turn on you.. I came to the Alliance side after I broke up with a girl on the Horde side and she and her new group of boys broke up my guild and formed a new one, and said I wasn't welcome :(",
+					["inbound"] = false,
+					["convo"] = "|Kf765|k0000000000000|k",
+				}, -- [12]
+				{
+					["type"] = 1,
+					["time"] = 1316568149,
+					["from"] = "Aset",
+					["msg"] = "Well, I wouldn't say everyone, but people had been complaining for a few weeks, but again, I wasn't really seeing what they were talking about. I mean, I guess you asked if we were done frequently, but it didn't bother me, so id on't know",
+					["inbound"] = false,
+					["convo"] = "|Kf765|k0000000000000|k",
+				}, -- [13]
+				{
+					["type"] = 1,
+					["time"] = 1316568227,
+					["from"] = "Aset",
+					["msg"] = "lol really? No i had no idea about that.",
+					["inbound"] = false,
+					["convo"] = "|Kf765|k0000000000000|k",
+				}, -- [14]
+				{
+					["type"] = 1,
+					["time"] = 1316568270,
+					["from"] = "Aset",
+					["msg"] = "I don't know, i'm usually not in on the little side-talking.. especially the stuff that went on it /o, but I guess you were in that channel too so who knows ><",
+					["inbound"] = false,
+					["convo"] = "|Kf765|k0000000000000|k",
+				}, -- [15]
+				{
+					["type"] = 1,
+					["time"] = 1316568295,
+					["from"] = "Aset",
+					["msg"] = "Well that's pretty shitty :(",
+					["inbound"] = false,
+					["convo"] = "|Kf765|k0000000000000|k",
+				}, -- [16]
+				{
+					["type"] = 1,
+					["time"] = 1316568374,
+					["from"] = "Aset",
+					["msg"] = "eek, that's pretty late",
+					["inbound"] = false,
+					["convo"] = "|Kf765|k0000000000000|k",
+				}, -- [17]
+				{
+					["type"] = 1,
+					["time"] = 1316568396,
+					["from"] = "Aset",
+					["msg"] = "And I'm really honestly sorry, I wish there was another way to solve the issues :(",
+					["inbound"] = false,
+					["convo"] = "|Kf765|k0000000000000|k",
+				}, -- [18]
+				{
+					["type"] = 1,
+					["time"] = 1316568688,
+					["from"] = "Aset",
+					["msg"] = "lol Maso said he had spoken to you and Bacon multiple times about your \"failure to perform\"",
+					["inbound"] = false,
+					["convo"] = "|Kf765|k0000000000000|k",
+				}, -- [19]
+				{
+					["type"] = 1,
+					["time"] = 1316568732,
+					["from"] = "Aset",
+					["msg"] = "Well that's pretty crappy. That's not what I was told, at all.",
+					["inbound"] = false,
+					["convo"] = "|Kf765|k0000000000000|k",
+				}, -- [20]
+				{
+					["type"] = 1,
+					["time"] = 1316568749,
+					["from"] = "Aset",
+					["msg"] = "Also he's not here atm because someone cut his internet line or osme shit, and now everyone is fightning in vent lol",
+					["inbound"] = false,
+					["convo"] = "|Kf765|k0000000000000|k",
+				}, -- [21]
+				{
+					["type"] = 1,
+					["time"] = 1316568803,
+					["from"] = "Aset",
+					["msg"] = "He was supposed to be on by raid time but he said the guys fixing it were idiots and broke it worse and they had to send someone else.. /facepalm",
+					["inbound"] = false,
+					["convo"] = "|Kf765|k0000000000000|k",
+				}, -- [22]
+				{
+					["type"] = 1,
+					["time"] = 1316568813,
+					["from"] = "Aset",
+					["msg"] = "But yeah, I'm sorry :( ",
+					["inbound"] = false,
+					["convo"] = "|Kf765|k0000000000000|k",
+				}, -- [23]
+				{
+					["type"] = 1,
+					["time"] = 1316568867,
+					["from"] = "Aset",
+					["msg"] = "lol could be, aparently he didn't show yesterday either",
+					["inbound"] = false,
+					["convo"] = "|Kf765|k0000000000000|k",
+				}, -- [24]
+				{
+					["type"] = 1,
+					["time"] = 1316568889,
+					["from"] = "Aset",
+					["msg"] = "I was gone yesterday though.. My insurance company made me switch crazy-meds and i'm going through SSRI-withdrawl :(",
+					["inbound"] = false,
+					["convo"] = "|Kf765|k0000000000000|k",
+				}, -- [25]
+				{
+					["type"] = 1,
+					["time"] = 1316568928,
+					["from"] = "Aset",
+					["msg"] = "Yesterday was much worse.. I had a terrible headache yesterday.. today I'm just all out of it and fuzzy in the head ><",
+					["inbound"] = false,
+					["convo"] = "|Kf765|k0000000000000|k",
+				}, -- [26]
+				{
+					["type"] = 1,
+					["time"] = 1316568931,
+					["from"] = "Aset",
+					["msg"] = "eek that sucks",
+					["inbound"] = false,
+					["convo"] = "|Kf765|k0000000000000|k",
+				}, -- [27]
+				{
+					["type"] = 1,
+					["time"] = 1316568946,
+					["from"] = "Aset",
+					["msg"] = "I'm just pissed off that my insurance company is now dealing out medical decisions",
+					["inbound"] = false,
+					["convo"] = "|Kf765|k0000000000000|k",
+				}, -- [28]
+				{
+					["type"] = 1,
+					["time"] = 1316568974,
+					["from"] = "Aset",
+					["msg"] = "ah well that's cool",
+					["inbound"] = false,
+					["convo"] = "|Kf765|k0000000000000|k",
+				}, -- [29]
+				{
+					["type"] = 1,
+					["time"] = 1316569022,
+					["from"] = "Aset",
+					["msg"] = "holy crap",
+					["inbound"] = false,
+					["convo"] = "|Kf765|k0000000000000|k",
+				}, -- [30]
+				{
+					["type"] = 1,
+					["time"] = 1316569027,
+					["from"] = "Aset",
+					["msg"] = "what did they have you on for migraines?",
+					["inbound"] = false,
+					["convo"] = "|Kf765|k0000000000000|k",
+				}, -- [31]
+				{
+					["type"] = 1,
+					["time"] = 1316569063,
+					["from"] = "Aset",
+					["msg"] = "dang",
+					["inbound"] = false,
+					["convo"] = "|Kf765|k0000000000000|k",
+				}, -- [32]
+				{
+					["type"] = 1,
+					["time"] = 1316569073,
+					["from"] = "Aset",
+					["msg"] = "Imitrex.. is that the melt-on-your-tongue one?",
+					["inbound"] = false,
+					["convo"] = "|Kf765|k0000000000000|k",
+				}, -- [33]
+				{
+					["type"] = 1,
+					["time"] = 1316569096,
+					["from"] = "Aset",
+					["msg"] = "k",
+					["inbound"] = false,
+					["convo"] = "|Kf765|k0000000000000|k",
+				}, -- [34]
+				{
+					["type"] = 1,
+					["time"] = 1316569110,
+					["from"] = "Aset",
+					["msg"] = "there was one I had once that I thought sounded similar to that, that you put under your tongue i think and it melted quickly",
+					["inbound"] = false,
+					["convo"] = "|Kf765|k0000000000000|k",
+				}, -- [35]
+				{
+					["type"] = 1,
+					["time"] = 1316569116,
+					["from"] = "Aset",
+					["msg"] = "and you were supposed to take it when you felt one coming on",
+					["inbound"] = false,
+					["convo"] = "|Kf765|k0000000000000|k",
+				}, -- [36]
+				{
+					["type"] = 1,
+					["time"] = 1316569122,
+					["from"] = "Aset",
+					["msg"] = "but it may have been something different",
+					["inbound"] = false,
+					["convo"] = "|Kf765|k0000000000000|k",
+				}, -- [37]
+				{
+					["type"] = 1,
+					["time"] = 1316569125,
+					["from"] = "Aset",
+					["msg"] = "Did you ever try Topomax?",
+					["inbound"] = false,
+					["convo"] = "|Kf765|k0000000000000|k",
+				}, -- [38]
+				{
+					["type"] = 1,
+					["time"] = 1316569171,
+					["from"] = "Aset",
+					["msg"] = "Doctor ever suggest it?",
+					["inbound"] = false,
+					["convo"] = "|Kf765|k0000000000000|k",
+				}, -- [39]
+				{
+					["type"] = 1,
+					["time"] = 1316569184,
+					["from"] = "Aset",
+					["msg"] = "ah could be",
+					["inbound"] = false,
+					["convo"] = "|Kf765|k0000000000000|k",
+				}, -- [40]
+				{
+					["type"] = 1,
+					["time"] = 1316569191,
+					["from"] = "Aset",
+					["msg"] = "Topomax can be a miracle drug.. or it can make you want to die",
+					["inbound"] = false,
+					["convo"] = "|Kf765|k0000000000000|k",
+				}, -- [41]
+				{
+					["type"] = 1,
+					["time"] = 1316569192,
+					["from"] = "Aset",
+					["msg"] = "lol",
+					["inbound"] = false,
+					["convo"] = "|Kf765|k0000000000000|k",
+				}, -- [42]
+				{
+					["type"] = 1,
+					["time"] = 1316569193,
+					["from"] = "Aset",
+					["msg"] = "soo",
+					["inbound"] = false,
+					["convo"] = "|Kf765|k0000000000000|k",
+				}, -- [43]
+				{
+					["type"] = 1,
+					["time"] = 1316569209,
+					["from"] = "Aset",
+					["msg"] = "They put me on it for a bit, but i wanted to kill myself so i stopped after a week",
+					["inbound"] = false,
+					["convo"] = "|Kf765|k0000000000000|k",
+				}, -- [44]
+				{
+					["type"] = 1,
+					["time"] = 1316569229,
+					["from"] = "Aset",
+					["msg"] = "People who don't get the side effects though.. It's usually *extremely* effective at completely preventing migraines",
+					["inbound"] = false,
+					["convo"] = "|Kf765|k0000000000000|k",
+				}, -- [45]
+				{
+					["type"] = 1,
+					["time"] = 1316569234,
+					["from"] = "Aset",
+					["msg"] = "yeah",
+					["inbound"] = false,
+					["convo"] = "|Kf765|k0000000000000|k",
+				}, -- [46]
+				{
+					["type"] = 1,
+					["time"] = 1316569242,
+					["from"] = "Aset",
+					["msg"] = "That's a good point, and I don't know what it would interact badly with.",
+					["inbound"] = false,
+					["convo"] = "|Kf765|k0000000000000|k",
+				}, -- [47]
+				{
+					["type"] = 1,
+					["time"] = 1316569509,
+					["from"] = "Aset",
+					["msg"] = "np",
+					["inbound"] = false,
+					["convo"] = "|Kf765|k0000000000000|k",
+				}, -- [48]
+				["info"] = {
+				},
+			},
+			["|Kf280|k00000000000|k"] = {
+				{
+					["type"] = 1,
+					["time"] = 1316734466,
+					["from"] = "Aset",
+					["msg"] = "lol",
+					["inbound"] = false,
+					["convo"] = "|Kf280|k00000000000|k",
+				}, -- [1]
+				{
+					["type"] = 1,
+					["time"] = 1316734470,
+					["from"] = "Aset",
+					["msg"] = "how'd that go?",
+					["inbound"] = false,
+					["convo"] = "|Kf280|k00000000000|k",
+				}, -- [2]
+				{
+					["type"] = 1,
+					["time"] = 1316734555,
+					["from"] = "Aset",
+					["msg"] = "aww :(",
+					["inbound"] = false,
+					["convo"] = "|Kf280|k00000000000|k",
+				}, -- [3]
+				{
+					["type"] = 1,
+					["time"] = 1316734556,
+					["from"] = "Aset",
+					["msg"] = "that's so mean!",
+					["inbound"] = false,
+					["convo"] = "|Kf280|k00000000000|k",
+				}, -- [4]
+				{
+					["type"] = 1,
+					["time"] = 1316734558,
+					["from"] = "Aset",
+					["msg"] = "poor doggy!",
+					["inbound"] = false,
+					["convo"] = "|Kf280|k00000000000|k",
+				}, -- [5]
+				{
+					["type"] = 1,
+					["time"] = 1316734683,
+					["from"] = "Aset",
+					["msg"] = "possibly",
+					["inbound"] = false,
+					["convo"] = "|Kf280|k00000000000|k",
+				}, -- [6]
+				["info"] = {
+				},
+			},
+			["|Kf207|k0000000000000|k"] = {
+				{
+					["type"] = 1,
+					["time"] = 1316974608,
+					["from"] = "Aset",
+					["msg"] = "lol oh?",
+					["inbound"] = false,
+					["convo"] = "|Kf207|k0000000000000|k",
+				}, -- [1]
+				{
+					["type"] = 1,
+					["time"] = 1316974612,
+					["from"] = "Aset",
+					["msg"] = "back in your caster skin? hehe",
+					["inbound"] = false,
+					["convo"] = "|Kf207|k0000000000000|k",
+				}, -- [2]
+				{
+					["type"] = 1,
+					["time"] = 1316974653,
+					["from"] = "Aset",
+					["msg"] = "True",
+					["inbound"] = false,
+					["convo"] = "|Kf207|k0000000000000|k",
+				}, -- [3]
+				{
+					["type"] = 1,
+					["time"] = 1316974661,
+					["from"] = "Aset",
+					["msg"] = "Oh did you see the T13 bonuses?",
+					["inbound"] = false,
+					["convo"] = "|Kf207|k0000000000000|k",
+				}, -- [4]
+				{
+					["type"] = 1,
+					["time"] = 1316974692,
+					["from"] = "Aset",
+					["msg"] = "some of them were rapey",
+					["inbound"] = false,
+					["convo"] = "|Kf207|k0000000000000|k",
+				}, -- [5]
+				{
+					["type"] = 1,
+					["time"] = 1316974695,
+					["from"] = "Aset",
+					["msg"] = "some were silly",
+					["inbound"] = false,
+					["convo"] = "|Kf207|k0000000000000|k",
+				}, -- [6]
+				{
+					["type"] = 1,
+					["time"] = 1316974707,
+					["from"] = "Aset",
+					["msg"] = "the tanking 4-piece bonuses make me scared, and as a healer, they should you too.",
+					["inbound"] = false,
+					["convo"] = "|Kf207|k0000000000000|k",
+				}, -- [7]
+				{
+					["type"] = 1,
+					["time"] = 1316974737,
+					["from"] = "Aset",
+					["msg"] = "but yeah, some of them were nifty, some were lame",
+					["inbound"] = false,
+					["convo"] = "|Kf207|k0000000000000|k",
+				}, -- [8]
+				{
+					["type"] = 1,
+					["time"] = 1316974746,
+					["from"] = "Aset",
+					["msg"] = "all tanks' 4-piece is some form of Raid Wall",
+					["inbound"] = false,
+					["convo"] = "|Kf207|k0000000000000|k",
+				}, -- [9]
+				{
+					["type"] = 1,
+					["time"] = 1316974750,
+					["from"] = "Aset",
+					["msg"] = "there's only one reason for that",
+					["inbound"] = false,
+					["convo"] = "|Kf207|k0000000000000|k",
+				}, -- [10]
+				{
+					["type"] = 1,
+					["time"] = 1316974757,
+					["from"] = "Aset",
+					["msg"] = "and it's insanely crazy aoe damage in T13",
+					["inbound"] = false,
+					["convo"] = "|Kf207|k0000000000000|k",
+				}, -- [11]
+				{
+					["type"] = 1,
+					["time"] = 1316974765,
+					["from"] = "Aset",
+					["msg"] = "this is backed up by the Holy Paladin bonus.. lol",
+					["inbound"] = false,
+					["convo"] = "|Kf207|k0000000000000|k",
+				}, -- [12]
+				{
+					["type"] = 1,
+					["time"] = 1316974798,
+					["from"] = "Aset",
+					["msg"] = "Ye",
+					["inbound"] = false,
+					["convo"] = "|Kf207|k0000000000000|k",
+				}, -- [13]
+				{
+					["type"] = 1,
+					["time"] = 1316974800,
+					["from"] = "Aset",
+					["msg"] = "Yep",
+					["inbound"] = false,
+					["convo"] = "|Kf207|k0000000000000|k",
+				}, -- [14]
+				{
+					["type"] = 1,
+					["time"] = 1316974802,
+					["from"] = "Aset",
+					["msg"] = "my first thought was",
+					["inbound"] = false,
+					["convo"] = "|Kf207|k0000000000000|k",
+				}, -- [15]
+				{
+					["type"] = 1,
+					["time"] = 1316974810,
+					["from"] = "Aset",
+					["msg"] = "\"well that's silly, i won't push for 4piece cuz it does nothing for me\"",
+					["inbound"] = false,
+					["convo"] = "|Kf207|k0000000000000|k",
+				}, -- [16]
+				{
+					["type"] = 1,
+					["time"] = 1316974822,
+					["from"] = "Aset",
+					["msg"] = "but i suspect Blizz is gonna make it so we want to",
+					["inbound"] = false,
+					["convo"] = "|Kf207|k0000000000000|k",
+				}, -- [17]
+				{
+					["type"] = 1,
+					["time"] = 1316974827,
+					["from"] = "Aset",
+					["msg"] = "in order to survive ",
+					["inbound"] = false,
+					["convo"] = "|Kf207|k0000000000000|k",
+				}, -- [18]
+				{
+					["type"] = 1,
+					["time"] = 1316974834,
+					["from"] = "Aset",
+					["msg"] = "well, for the raid to survive, haha",
+					["inbound"] = false,
+					["convo"] = "|Kf207|k0000000000000|k",
+				}, -- [19]
+				{
+					["type"] = 1,
+					["time"] = 1316974844,
+					["from"] = "Aset",
+					["msg"] = "I figure, it's still pretty early",
+					["inbound"] = false,
+					["convo"] = "|Kf207|k0000000000000|k",
+				}, -- [20]
+				{
+					["type"] = 1,
+					["time"] = 1316974849,
+					["from"] = "Aset",
+					["msg"] = "i expect some to change a bit i think",
+					["inbound"] = false,
+					["convo"] = "|Kf207|k0000000000000|k",
+				}, -- [21]
+				{
+					["type"] = 1,
+					["time"] = 1316974898,
+					["from"] = "Aset",
+					["msg"] = "the tank ones are intersting also because of how different they are",
+					["inbound"] = false,
+					["convo"] = "|Kf207|k0000000000000|k",
+				}, -- [22]
+				{
+					["type"] = 1,
+					["time"] = 1316974905,
+					["from"] = "Aset",
+					["msg"] = "Warrior is 50% of shield wall's effect",
+					["inbound"] = false,
+					["convo"] = "|Kf207|k0000000000000|k",
+				}, -- [23]
+				{
+					["type"] = 1,
+					["time"] = 1316974920,
+					["from"] = "Aset",
+					["msg"] = "that's nice, especially if they are glyph'd into what, 70% damage reduction during shield wall?",
+					["inbound"] = false,
+					["convo"] = "|Kf207|k0000000000000|k",
+				}, -- [24]
+				{
+					["type"] = 1,
+					["time"] = 1316974923,
+					["from"] = "Aset",
+					["msg"] = "maybe it's only 60%",
+					["inbound"] = false,
+					["convo"] = "|Kf207|k0000000000000|k",
+				}, -- [25]
+				{
+					["type"] = 1,
+					["time"] = 1316974950,
+					["from"] = "Aset",
+					["msg"] = "but.. Druid is Frenzied Regen... which is hard to know how it will work",
+					["inbound"] = false,
+					["convo"] = "|Kf207|k0000000000000|k",
+				}, -- [26]
+				{
+					["type"] = 1,
+					["time"] = 1316974959,
+					["from"] = "Aset",
+					["msg"] = "most tanks i assume run glyph'd Frenzied regen",
+					["inbound"] = false,
+					["convo"] = "|Kf207|k0000000000000|k",
+				}, -- [27]
+				{
+					["type"] = 1,
+					["time"] = 1316974970,
+					["from"] = "Aset",
+					["msg"] = "which makes it.. not regen anything, but just boost healing recieved and hp",
+					["inbound"] = false,
+					["convo"] = "|Kf207|k0000000000000|k",
+				}, -- [28]
+				{
+					["type"] = 1,
+					["time"] = 1316974984,
+					["from"] = "Aset",
+					["msg"] = "but that would make it like the base warrior ability that increases raid health",
+					["inbound"] = false,
+					["convo"] = "|Kf207|k0000000000000|k",
+				}, -- [29]
+				{
+					["type"] = 1,
+					["time"] = 1316974992,
+					["from"] = "Aset",
+					["msg"] = "only it would also boost healing recieved by 20 or 30%",
+					["inbound"] = false,
+					["convo"] = "|Kf207|k0000000000000|k",
+				}, -- [30]
+				{
+					["type"] = 1,
+					["time"] = 1316975016,
+					["from"] = "Aset",
+					["msg"] = " |Hspell:22842|h[Frenzied Regeneration]|h",
+					["inbound"] = false,
+					["convo"] = "|Kf207|k0000000000000|k",
+				}, -- [31]
+				{
+					["type"] = 1,
+					["time"] = 1316975027,
+					["from"] = "Aset",
+					["msg"] = "so 15% health and 20% healing recieved",
+					["inbound"] = false,
+					["convo"] = "|Kf207|k0000000000000|k",
+				}, -- [32]
+				{
+					["type"] = 1,
+					["time"] = 1316975035,
+					["from"] = "Aset",
+					["msg"] = "however that's glyphed.. if it's unglyphed it reads",
+					["inbound"] = false,
+					["convo"] = "|Kf207|k0000000000000|k",
+				}, -- [33]
+				{
+					["type"] = 1,
+					["time"] = 1316975061,
+					["from"] = "Aset",
+					["msg"] = " |Hspell:22842|h[Frenzied Regeneration]|h",
+					["inbound"] = false,
+					["convo"] = "|Kf207|k0000000000000|k",
+				}, -- [34]
+				{
+					["type"] = 1,
+					["time"] = 1316975074,
+					["from"] = "Aset",
+					["msg"] = "(i don't know if those show differently for you actually)",
+					["inbound"] = false,
+					["convo"] = "|Kf207|k0000000000000|k",
+				}, -- [35]
+				{
+					["type"] = 1,
+					["time"] = 1316975097,
+					["from"] = "Aset",
+					["msg"] = "but the second one.. would the heal apply to the raid at all? Or would the Bear's self-heal from it also apply to the raid? that could be pretty pro too, if they make it carry over",
+					["inbound"] = false,
+					["convo"] = "|Kf207|k0000000000000|k",
+				}, -- [36]
+				{
+					["type"] = 1,
+					["time"] = 1316975146,
+					["from"] = "Aset",
+					["msg"] = "not sure which way i'd want to run if bothw orked",
+					["inbound"] = false,
+					["convo"] = "|Kf207|k0000000000000|k",
+				}, -- [37]
+				{
+					["type"] = 1,
+					["time"] = 1316975164,
+					["from"] = "Aset",
+					["msg"] = "maybe stick with glyphed.. but since threat isn't much of an issue (oh and 2 pc makes our main threat ability a defensive aiblity instead)",
+					["inbound"] = false,
+					["convo"] = "|Kf207|k0000000000000|k",
+				}, -- [38]
+				{
+					["type"] = 1,
+					["time"] = 1316975172,
+					["from"] = "Aset",
+					["msg"] = "it might be useful to save a full rage bar to heal the entire raid ",
+					["inbound"] = false,
+					["convo"] = "|Kf207|k0000000000000|k",
+				}, -- [39]
+				{
+					["type"] = 1,
+					["time"] = 1316975173,
+					["from"] = "Aset",
+					["msg"] = "lol",
+					["inbound"] = false,
+					["convo"] = "|Kf207|k0000000000000|k",
+				}, -- [40]
+				{
+					["type"] = 1,
+					["time"] = 1316975201,
+					["from"] = "Aset",
+					["msg"] = "i find the fearl 2pc to be prett ygood",
+					["inbound"] = false,
+					["convo"] = "|Kf207|k0000000000000|k",
+				}, -- [41]
+				{
+					["type"] = 1,
+					["time"] = 1316975204,
+					["from"] = "Aset",
+					["msg"] = "a bit op for cat possibly",
+					["inbound"] = false,
+					["convo"] = "|Kf207|k0000000000000|k",
+				}, -- [42]
+				{
+					["type"] = 1,
+					["time"] = 1316975213,
+					["from"] = "Aset",
+					["msg"] = "moves our 'execute' phase from 25% to 60% hp",
+					["inbound"] = false,
+					["convo"] = "|Kf207|k0000000000000|k",
+				}, -- [43]
+				{
+					["type"] = 1,
+					["time"] = 1316975217,
+					["from"] = "Aset",
+					["msg"] = "that's a pretty hefty boost",
+					["inbound"] = false,
+					["convo"] = "|Kf207|k0000000000000|k",
+				}, -- [44]
+				{
+					["type"] = 1,
+					["time"] = 1316975231,
+					["from"] = "Aset",
+					["msg"] = "and it's only 2pc",
+					["inbound"] = false,
+					["convo"] = "|Kf207|k0000000000000|k",
+				}, -- [45]
+				{
+					["type"] = 1,
+					["time"] = 1316975244,
+					["from"] = "Aset",
+					["msg"] = "so wearing 2pc12+2pc13 may be highest dps",
+					["inbound"] = false,
+					["convo"] = "|Kf207|k0000000000000|k",
+				}, -- [46]
+				{
+					["type"] = 1,
+					["time"] = 1316975253,
+					["from"] = "Aset",
+					["msg"] = "hard to say though, 4pc12 is still pretty strong",
+					["inbound"] = false,
+					["convo"] = "|Kf207|k0000000000000|k",
+				}, -- [47]
+				{
+					["type"] = 1,
+					["time"] = 1316975266,
+					["from"] = "Aset",
+					["msg"] = "and the bear one doubles SD absorbs while berserk is up.. that's.. interesting ",
+					["inbound"] = false,
+					["convo"] = "|Kf207|k0000000000000|k",
+				}, -- [48]
+				{
+					["type"] = 1,
+					["time"] = 1316975292,
+					["from"] = "Aset",
+					["msg"] = "not sure how strong it'll be, but couuld be a nifty cooldown",
+					["inbound"] = false,
+					["convo"] = "|Kf207|k0000000000000|k",
+				}, -- [49]
+				["info"] = {
+				},
+			},
+			["|Kf212|k000000000000|k"] = {
+				{
+					["type"] = 1,
+					["time"] = 1316219249,
+					["from"] = "Aset",
+					["msg"] = "Possibly",
+					["inbound"] = false,
+					["convo"] = "|Kf212|k000000000000|k",
+				}, -- [1]
+				{
+					["type"] = 1,
+					["time"] = 1316219257,
+					["from"] = "Aset",
+					["msg"] = "But I think Maso called dibs already, sec i'll find out",
+					["inbound"] = false,
+					["convo"] = "|Kf212|k000000000000|k",
+				}, -- [2]
 				["info"] = {
 				},
 			},
@@ -17796,5150 +21449,6 @@ WIM3_History = {
 				["info"] = {
 				},
 			},
-			["Tabata"] = {
-				{
-					["type"] = 1,
-					["time"] = 1315963397,
-					["from"] = "Aset",
-					["msg"] = "what's our blocku p to? are you block capped? or close?",
-					["inbound"] = false,
-					["convo"] = "Tabata",
-				}, -- [1]
-				{
-					["type"] = 1,
-					["time"] = 1315966254,
-					["from"] = "Tabata",
-					["msg"] = "what gear can you upgrade",
-					["inbound"] = true,
-					["convo"] = "Tabata",
-				}, -- [2]
-				{
-					["type"] = 1,
-					["time"] = 1315966258,
-					["from"] = "Tabata",
-					["msg"] = "random drops obviously",
-					["inbound"] = true,
-					["convo"] = "Tabata",
-				}, -- [3]
-				{
-					["type"] = 1,
-					["time"] = 1315966261,
-					["from"] = "Tabata",
-					["msg"] = "aything else",
-					["inbound"] = true,
-					["convo"] = "Tabata",
-				}, -- [4]
-				{
-					["type"] = 1,
-					["time"] = 1315966262,
-					["from"] = "Aset",
-					["msg"] = " |cffa335ee|Hitem:71557:0:0:0:0:0:0:0:85:0|h[Ranseur of Hatred]|h|r |cffa335ee|Hitem:69109:0:0:0:0:0:0:0:85:0|h[Scales of Life]|h|r |cffa335ee|Hitem:71567:0:0:0:0:0:0:0:85:0|h[Covenant of the Flame]|h|r",
-					["inbound"] = false,
-					["convo"] = "Tabata",
-				}, -- [5]
-				{
-					["type"] = 1,
-					["time"] = 1315966266,
-					["from"] = "Aset",
-					["msg"] = "those are the only",
-					["inbound"] = false,
-					["convo"] = "Tabata",
-				}, -- [6]
-				{
-					["type"] = 1,
-					["time"] = 1315966278,
-					["from"] = "Tabata",
-					["msg"] = "can you do any non set vp gear?",
-					["inbound"] = true,
-					["convo"] = "Tabata",
-				}, -- [7]
-				{
-					["type"] = 1,
-					["time"] = 1315966279,
-					["from"] = "Aset",
-					["msg"] = "the polearm is iffy, it's nice for now but i will not wear it over the mastery one",
-					["inbound"] = false,
-					["convo"] = "Tabata",
-				}, -- [8]
-				{
-					["type"] = 1,
-					["time"] = 1315966283,
-					["from"] = "Tabata",
-					["msg"] = "i dont mean you personally",
-					["inbound"] = true,
-					["convo"] = "Tabata",
-				}, -- [9]
-				{
-					["type"] = 1,
-					["time"] = 1315966285,
-					["from"] = "Aset",
-					["msg"] = "nope those are the only 3",
-					["inbound"] = false,
-					["convo"] = "Tabata",
-				}, -- [10]
-				{
-					["type"] = 1,
-					["time"] = 1315966287,
-					["from"] = "Tabata",
-					["msg"] = "but in general",
-					["inbound"] = true,
-					["convo"] = "Tabata",
-				}, -- [11]
-				{
-					["type"] = 1,
-					["time"] = 1315966312,
-					["from"] = "Aset",
-					["msg"] = "in general it's all of the random drops you get in here",
-					["inbound"] = false,
-					["convo"] = "Tabata",
-				}, -- [12]
-				{
-					["type"] = 1,
-					["time"] = 1315966316,
-					["from"] = "Aset",
-					["msg"] = "but not vp gear, except for relics",
-					["inbound"] = false,
-					["convo"] = "Tabata",
-				}, -- [13]
-				{
-					["type"] = 1,
-					["time"] = 1315966321,
-					["from"] = "Tabata",
-					["msg"] = "ahh kk",
-					["inbound"] = true,
-					["convo"] = "Tabata",
-				}, -- [14]
-				{
-					["type"] = 1,
-					["time"] = 1315968967,
-					["from"] = "Aset",
-					["msg"] = "Rezzing you (don't walk in!)",
-					["inbound"] = false,
-					["convo"] = "Tabata",
-				}, -- [15]
-				["info"] = {
-				},
-			},
-			["|Kf74|k00000000000|k"] = {
-				{
-					["type"] = 1,
-					["time"] = 1316738630,
-					["from"] = "Aset",
-					["msg"] = "hmm",
-					["inbound"] = false,
-					["convo"] = "|Kf74|k00000000000|k",
-				}, -- [1]
-				{
-					["type"] = 1,
-					["time"] = 1316738631,
-					["from"] = "Aset",
-					["msg"] = "well",
-					["inbound"] = false,
-					["convo"] = "|Kf74|k00000000000|k",
-				}, -- [2]
-				{
-					["type"] = 1,
-					["time"] = 1316738638,
-					["from"] = "Aset",
-					["msg"] = "If you went to all of the coords and there was nothing",
-					["inbound"] = false,
-					["convo"] = "|Kf74|k00000000000|k",
-				}, -- [3]
-				{
-					["type"] = 1,
-					["time"] = 1316738643,
-					["from"] = "Aset",
-					["msg"] = "then the next step is to use the addon EveryQuest",
-					["inbound"] = false,
-					["convo"] = "|Kf74|k00000000000|k",
-				}, -- [4]
-				{
-					["type"] = 1,
-					["time"] = 1316738663,
-					["from"] = "Aset",
-					["msg"] = "http://wow.curse.com/downloads/wow-addons/details/everyquest.aspx",
-					["inbound"] = false,
-					["convo"] = "|Kf74|k00000000000|k",
-				}, -- [5]
-				{
-					["type"] = 1,
-					["time"] = 1316738674,
-					["from"] = "Aset",
-					["msg"] = "It can query the server and get a list of every quest you have completed",
-					["inbound"] = false,
-					["convo"] = "|Kf74|k00000000000|k",
-				}, -- [6]
-				{
-					["type"] = 1,
-					["time"] = 1316738679,
-					["from"] = "Aset",
-					["msg"] = "and then it can show you which ones you have not",
-					["inbound"] = false,
-					["convo"] = "|Kf74|k00000000000|k",
-				}, -- [7]
-				{
-					["type"] = 1,
-					["time"] = 1316738690,
-					["from"] = "Aset",
-					["msg"] = "and then you can figure out what you need to do lol",
-					["inbound"] = false,
-					["convo"] = "|Kf74|k00000000000|k",
-				}, -- [8]
-				{
-					["type"] = 1,
-					["time"] = 1316738740,
-					["from"] = "Aset",
-					["msg"] = "k",
-					["inbound"] = false,
-					["convo"] = "|Kf74|k00000000000|k",
-				}, -- [9]
-				{
-					["type"] = 1,
-					["time"] = 1316739214,
-					["from"] = "Aset",
-					["msg"] = "sec let me load it and walk you through it",
-					["inbound"] = false,
-					["convo"] = "|Kf74|k00000000000|k",
-				}, -- [10]
-				{
-					["type"] = 1,
-					["time"] = 1316740320,
-					["from"] = "Aset",
-					["msg"] = "yeah",
-					["inbound"] = false,
-					["convo"] = "|Kf74|k00000000000|k",
-				}, -- [11]
-				{
-					["type"] = 1,
-					["time"] = 1316740333,
-					["from"] = "Aset",
-					["msg"] = "what is lowest quest?",
-					["inbound"] = false,
-					["convo"] = "|Kf74|k00000000000|k",
-				}, -- [12]
-				{
-					["type"] = 1,
-					["time"] = 1316741054,
-					["from"] = "Aset",
-					["msg"] = "did you find the gunship?",
-					["inbound"] = false,
-					["convo"] = "|Kf74|k00000000000|k",
-				}, -- [13]
-				{
-					["type"] = 1,
-					["time"] = 1316741077,
-					["from"] = "Aset",
-					["msg"] = "you don't wanna come get some Ulduar achieves with us?",
-					["inbound"] = false,
-					["convo"] = "|Kf74|k00000000000|k",
-				}, -- [14]
-				{
-					["type"] = 1,
-					["time"] = 1316741085,
-					["from"] = "Aset",
-					["msg"] = "Like, you can't find the gunship?",
-					["inbound"] = false,
-					["convo"] = "|Kf74|k00000000000|k",
-				}, -- [15]
-				{
-					["type"] = 1,
-					["time"] = 1316741097,
-					["from"] = "Aset",
-					["msg"] = "oh",
-					["inbound"] = false,
-					["convo"] = "|Kf74|k00000000000|k",
-				}, -- [16]
-				{
-					["type"] = 1,
-					["time"] = 1316741098,
-					["from"] = "Aset",
-					["msg"] = "nah",
-					["inbound"] = false,
-					["convo"] = "|Kf74|k00000000000|k",
-				}, -- [17]
-				{
-					["type"] = 1,
-					["time"] = 1316741099,
-					["from"] = "Aset",
-					["msg"] = "you'd be fine",
-					["inbound"] = false,
-					["convo"] = "|Kf74|k00000000000|k",
-				}, -- [18]
-				{
-					["type"] = 1,
-					["time"] = 1316741100,
-					["from"] = "Aset",
-					["msg"] = "but okay",
-					["inbound"] = false,
-					["convo"] = "|Kf74|k00000000000|k",
-				}, -- [19]
-				{
-					["type"] = 1,
-					["time"] = 1316741112,
-					["from"] = "Aset",
-					["msg"] = "I can't force you :P",
-					["inbound"] = false,
-					["convo"] = "|Kf74|k00000000000|k",
-				}, -- [20]
-				{
-					["type"] = 1,
-					["time"] = 1316741117,
-					["from"] = "Aset",
-					["msg"] = "okay so, you found the gunship:",
-					["inbound"] = false,
-					["convo"] = "|Kf74|k00000000000|k",
-				}, -- [21]
-				{
-					["type"] = 1,
-					["time"] = 1316741136,
-					["from"] = "Aset",
-					["msg"] = "wait, when was that? O_o",
-					["inbound"] = false,
-					["convo"] = "|Kf74|k00000000000|k",
-				}, -- [22]
-				{
-					["type"] = 1,
-					["time"] = 1316741193,
-					["from"] = "Aset",
-					["msg"] = "oh haha",
-					["inbound"] = false,
-					["convo"] = "|Kf74|k00000000000|k",
-				}, -- [23]
-				{
-					["type"] = 1,
-					["time"] = 1316741194,
-					["from"] = "Aset",
-					["msg"] = "well, sorry",
-					["inbound"] = false,
-					["convo"] = "|Kf74|k00000000000|k",
-				}, -- [24]
-				{
-					["type"] = 1,
-					["time"] = 1316741196,
-					["from"] = "Aset",
-					["msg"] = "they were assholes",
-					["inbound"] = false,
-					["convo"] = "|Kf74|k00000000000|k",
-				}, -- [25]
-				{
-					["type"] = 1,
-					["time"] = 1316741199,
-					["from"] = "Aset",
-					["msg"] = "this is just our cozy 10 man",
-					["inbound"] = false,
-					["convo"] = "|Kf74|k00000000000|k",
-				}, -- [26]
-				{
-					["type"] = 1,
-					["time"] = 1316741206,
-					["from"] = "Aset",
-					["msg"] = "no one would yell at you, or i'd kick them in the shin!",
-					["inbound"] = false,
-					["convo"] = "|Kf74|k00000000000|k",
-				}, -- [27]
-				{
-					["type"] = 1,
-					["time"] = 1316741219,
-					["from"] = "Aset",
-					["msg"] = "it's okay",
-					["inbound"] = false,
-					["convo"] = "|Kf74|k00000000000|k",
-				}, -- [28]
-				{
-					["type"] = 1,
-					["time"] = 1316741283,
-					["from"] = "Aset",
-					["msg"] = "oh, you're flying home tomorrow?",
-					["inbound"] = false,
-					["convo"] = "|Kf74|k00000000000|k",
-				}, -- [29]
-				{
-					["type"] = 1,
-					["time"] = 1316741312,
-					["from"] = "Aset",
-					["msg"] = "aww i sowwy :(",
-					["inbound"] = false,
-					["convo"] = "|Kf74|k00000000000|k",
-				}, -- [30]
-				{
-					["type"] = 1,
-					["time"] = 1316741471,
-					["from"] = "Aset",
-					["msg"] = "<3",
-					["inbound"] = false,
-					["convo"] = "|Kf74|k00000000000|k",
-				}, -- [31]
-				{
-					["type"] = 1,
-					["time"] = 1316746360,
-					["from"] = "Aset",
-					["msg"] = "wb!",
-					["inbound"] = false,
-					["convo"] = "|Kf74|k00000000000|k",
-				}, -- [32]
-				{
-					["type"] = 1,
-					["time"] = 1316746400,
-					["from"] = "Aset",
-					["msg"] = "lol yes, i just missed you cuz I'm sad and grumpy",
-					["inbound"] = false,
-					["convo"] = "|Kf74|k00000000000|k",
-				}, -- [33]
-				{
-					["type"] = 1,
-					["time"] = 1316746791,
-					["from"] = "Aset",
-					["msg"] = "Yep",
-					["inbound"] = false,
-					["convo"] = "|Kf74|k00000000000|k",
-				}, -- [34]
-				{
-					["type"] = 1,
-					["time"] = 1316746796,
-					["from"] = "Aset",
-					["msg"] = "omg i feel so freaking bad",
-					["inbound"] = false,
-					["convo"] = "|Kf74|k00000000000|k",
-				}, -- [35]
-				{
-					["type"] = 1,
-					["time"] = 1316746828,
-					["from"] = "Aset",
-					["msg"] = "I wants a hug!",
-					["inbound"] = false,
-					["convo"] = "|Kf74|k00000000000|k",
-				}, -- [36]
-				{
-					["type"] = 1,
-					["time"] = 1316747096,
-					["from"] = "Aset",
-					["msg"] = "k",
-					["inbound"] = false,
-					["convo"] = "|Kf74|k00000000000|k",
-				}, -- [37]
-				{
-					["type"] = 1,
-					["time"] = 1316747271,
-					["from"] = "Aset",
-					["msg"] = "tell him to hurry, the asshole",
-					["inbound"] = false,
-					["convo"] = "|Kf74|k00000000000|k",
-				}, -- [38]
-				{
-					["type"] = 1,
-					["time"] = 1316747979,
-					["from"] = "Aset",
-					["msg"] = "sing to me",
-					["inbound"] = false,
-					["convo"] = "|Kf74|k00000000000|k",
-				}, -- [39]
-				{
-					["type"] = 1,
-					["time"] = 1316747980,
-					["from"] = "Aset",
-					["msg"] = "or",
-					["inbound"] = false,
-					["convo"] = "|Kf74|k00000000000|k",
-				}, -- [40]
-				{
-					["type"] = 1,
-					["time"] = 1316747983,
-					["from"] = "Aset",
-					["msg"] = "say something sweet",
-					["inbound"] = false,
-					["convo"] = "|Kf74|k00000000000|k",
-				}, -- [41]
-				{
-					["type"] = 1,
-					["time"] = 1316748108,
-					["from"] = "Aset",
-					["msg"] = "aesome/ that's like awesome but not as good? :(",
-					["inbound"] = false,
-					["convo"] = "|Kf74|k00000000000|k",
-				}, -- [42]
-				{
-					["type"] = 1,
-					["time"] = 1316748122,
-					["from"] = "Aset",
-					["msg"] = " /cry",
-					["inbound"] = false,
-					["convo"] = "|Kf74|k00000000000|k",
-				}, -- [43]
-				{
-					["type"] = 1,
-					["time"] = 1316748144,
-					["from"] = "Aset",
-					["msg"] = "You're probably getting sick of me being whiney lol",
-					["inbound"] = false,
-					["convo"] = "|Kf74|k00000000000|k",
-				}, -- [44]
-				{
-					["type"] = 1,
-					["time"] = 1316748191,
-					["from"] = "Aset",
-					["msg"] = "ack!",
-					["inbound"] = false,
-					["convo"] = "|Kf74|k00000000000|k",
-				}, -- [45]
-				["info"] = {
-				},
-			},
-			["|Kf1076|k0000000000000|k"] = {
-				{
-					["type"] = 1,
-					["time"] = 1316577724,
-					["from"] = "Aset",
-					["msg"] = "haha",
-					["inbound"] = false,
-					["convo"] = "|Kf1076|k0000000000000|k",
-				}, -- [1]
-				{
-					["type"] = 1,
-					["time"] = 1316577727,
-					["from"] = "Aset",
-					["msg"] = "wb",
-					["inbound"] = false,
-					["convo"] = "|Kf1076|k0000000000000|k",
-				}, -- [2]
-				{
-					["type"] = 1,
-					["time"] = 1316577729,
-					["from"] = "Aset",
-					["msg"] = "so i ended up with",
-					["inbound"] = false,
-					["convo"] = "|Kf1076|k0000000000000|k",
-				}, -- [3]
-				{
-					["type"] = 1,
-					["time"] = 1316577732,
-					["from"] = "Aset",
-					["msg"] = " |Hitem:71098:0:4049:3996:0:0:0:0:85:0|h[Obsidian Arborweave Headpiece]|h",
-					["inbound"] = false,
-					["convo"] = "|Kf1076|k0000000000000|k",
-				}, -- [4]
-				{
-					["type"] = 1,
-					["time"] = 1316577745,
-					["from"] = "Aset",
-					["msg"] = "which let me take off my tier gloves and put on  |Hitem:71020:4107:4033:0:0:0:0:912427008:85:0|h[Gloves of Dissolving Smoke]|h which are better itemized",
-					["inbound"] = false,
-					["convo"] = "|Kf1076|k0000000000000|k",
-				}, -- [5]
-				{
-					["type"] = 1,
-					["time"] = 1316577754,
-					["from"] = "Aset",
-					["msg"] = "and also now i have a helm that matches my shoulders, lol",
-					["inbound"] = false,
-					["convo"] = "|Kf1076|k0000000000000|k",
-				}, -- [6]
-				{
-					["type"] = 1,
-					["time"] = 1316577786,
-					["from"] = "Aset",
-					["msg"] = "so how are you? I thought you weren't gonna be here tonight? or was that tomorrow morning?",
-					["inbound"] = false,
-					["convo"] = "|Kf1076|k0000000000000|k",
-				}, -- [7]
-				{
-					["type"] = 1,
-					["time"] = 1316577856,
-					["from"] = "Aset",
-					["msg"] = "ah okay, cool",
-					["inbound"] = false,
-					["convo"] = "|Kf1076|k0000000000000|k",
-				}, -- [8]
-				{
-					["type"] = 1,
-					["time"] = 1316577860,
-					["from"] = "Aset",
-					["msg"] = "well",
-					["inbound"] = false,
-					["convo"] = "|Kf1076|k0000000000000|k",
-				}, -- [9]
-				{
-					["type"] = 1,
-					["time"] = 1316577865,
-					["from"] = "Aset",
-					["msg"] = "i need to finish this gemming",
-					["inbound"] = false,
-					["convo"] = "|Kf1076|k0000000000000|k",
-				}, -- [10]
-				{
-					["type"] = 1,
-					["time"] = 1316577872,
-					["from"] = "Aset",
-					["msg"] = "then i'm gonna.. tank direbrew a bit on my DK i guess",
-					["inbound"] = false,
-					["convo"] = "|Kf1076|k0000000000000|k",
-				}, -- [11]
-				{
-					["type"] = 1,
-					["time"] = 1316577880,
-					["from"] = "Aset",
-					["msg"] = "try to get one of the stam trinks at least",
-					["inbound"] = false,
-					["convo"] = "|Kf1076|k0000000000000|k",
-				}, -- [12]
-				{
-					["type"] = 1,
-					["time"] = 1316577881,
-					["from"] = "Aset",
-					["msg"] = "oh wait",
-					["inbound"] = false,
-					["convo"] = "|Kf1076|k0000000000000|k",
-				}, -- [13]
-				{
-					["type"] = 1,
-					["time"] = 1316577887,
-					["from"] = "Aset",
-					["msg"] = "actually I don't need one cuz i got a scales of life",
-					["inbound"] = false,
-					["convo"] = "|Kf1076|k0000000000000|k",
-				}, -- [14]
-				{
-					["type"] = 1,
-					["time"] = 1316577888,
-					["from"] = "Aset",
-					["msg"] = "hrm",
-					["inbound"] = false,
-					["convo"] = "|Kf1076|k0000000000000|k",
-				}, -- [15]
-				{
-					["type"] = 1,
-					["time"] = 1316577915,
-					["from"] = "Aset",
-					["msg"] = "i just bought the 378 tanking bracers for Deadset cuz I have lots of extra VP on Aset now",
-					["inbound"] = false,
-					["convo"] = "|Kf1076|k0000000000000|k",
-				}, -- [16]
-				{
-					["type"] = 1,
-					["time"] = 1316577964,
-					["from"] = "Aset",
-					["msg"] = "do you have 378 bracers yet?",
-					["inbound"] = false,
-					["convo"] = "|Kf1076|k0000000000000|k",
-				}, -- [17]
-				{
-					["type"] = 1,
-					["time"] = 1316577975,
-					["from"] = "Aset",
-					["msg"] = "would you like a pair?",
-					["inbound"] = false,
-					["convo"] = "|Kf1076|k0000000000000|k",
-				}, -- [18]
-				{
-					["type"] = 1,
-					["time"] = 1316577989,
-					["from"] = "Aset",
-					["msg"] = "lol okay sec, i think i have enough for another pair",
-					["inbound"] = false,
-					["convo"] = "|Kf1076|k0000000000000|k",
-				}, -- [19]
-				{
-					["type"] = 1,
-					["time"] = 1316578017,
-					["from"] = "Aset",
-					["msg"] = "yeah well you know, when you still have peices to buy you want that VP like crazy.. but when you run out of things to buy it piles up lol",
-					["inbound"] = false,
-					["convo"] = "|Kf1076|k0000000000000|k",
-				}, -- [20]
-				{
-					["type"] = 1,
-					["time"] = 1316578054,
-					["from"] = "Aset",
-					["msg"] = "I could spend it on my boomkin.. but i don't need to",
-					["inbound"] = false,
-					["convo"] = "|Kf1076|k0000000000000|k",
-				}, -- [21]
-				{
-					["type"] = 1,
-					["time"] = 1316578069,
-					["from"] = "Aset",
-					["msg"] = " |Hitem:71260:0:0:0:0:0:0:0:85:0|h[Bracers of Imperious Truths]|h ?",
-					["inbound"] = false,
-					["convo"] = "|Kf1076|k0000000000000|k",
-				}, -- [22]
-				{
-					["type"] = 1,
-					["time"] = 1316578086,
-					["from"] = "Aset",
-					["msg"] = "that is the spirit one",
-					["inbound"] = false,
-					["convo"] = "|Kf1076|k0000000000000|k",
-				}, -- [23]
-				{
-					["type"] = 1,
-					["time"] = 1316578089,
-					["from"] = "Aset",
-					["msg"] = "the crit is lame",
-					["inbound"] = false,
-					["convo"] = "|Kf1076|k0000000000000|k",
-				}, -- [24]
-				{
-					["type"] = 1,
-					["time"] = 1316578096,
-					["from"] = "Aset",
-					["msg"] = "but that's the only option, you can add haste to it at least!",
-					["inbound"] = false,
-					["convo"] = "|Kf1076|k0000000000000|k",
-				}, -- [25]
-				{
-					["type"] = 1,
-					["time"] = 1316578101,
-					["from"] = "Aset",
-					["msg"] = "oh, or mastery",
-					["inbound"] = false,
-					["convo"] = "|Kf1076|k0000000000000|k",
-				}, -- [26]
-				{
-					["type"] = 1,
-					["time"] = 1316578103,
-					["from"] = "Aset",
-					["msg"] = "whatever you're after",
-					["inbound"] = false,
-					["convo"] = "|Kf1076|k0000000000000|k",
-				}, -- [27]
-				{
-					["type"] = 1,
-					["time"] = 1316578130,
-					["from"] = "Aset",
-					["msg"] = "yes sec",
-					["inbound"] = false,
-					["convo"] = "|Kf1076|k0000000000000|k",
-				}, -- [28]
-				{
-					["type"] = 1,
-					["time"] = 1316578133,
-					["from"] = "Aset",
-					["msg"] = "i'll join you",
-					["inbound"] = false,
-					["convo"] = "|Kf1076|k0000000000000|k",
-				}, -- [29]
-				["info"] = {
-				},
-			},
-			["|Kf269|k00000000000|k"] = {
-				{
-					["type"] = 1,
-					["time"] = 1315875682,
-					["from"] = "Aset",
-					["msg"] = "sorry!",
-					["inbound"] = false,
-					["convo"] = "|Kf269|k00000000000|k",
-				}, -- [1]
-				{
-					["type"] = 1,
-					["time"] = 1315875684,
-					["from"] = "Aset",
-					["msg"] = "no i haven't yet!",
-					["inbound"] = false,
-					["convo"] = "|Kf269|k00000000000|k",
-				}, -- [2]
-				{
-					["type"] = 1,
-					["time"] = 1315875689,
-					["from"] = "Aset",
-					["msg"] = "i downloaded it before i left with Leslie!",
-					["inbound"] = false,
-					["convo"] = "|Kf269|k00000000000|k",
-				}, -- [3]
-				{
-					["type"] = 1,
-					["time"] = 1315875695,
-					["from"] = "Aset",
-					["msg"] = "but she called and made me go out with her",
-					["inbound"] = false,
-					["convo"] = "|Kf269|k00000000000|k",
-				}, -- [4]
-				{
-					["type"] = 1,
-					["time"] = 1315875725,
-					["from"] = "Aset",
-					["msg"] = "and being close to her is almost as good as sex",
-					["inbound"] = false,
-					["convo"] = "|Kf269|k00000000000|k",
-				}, -- [5]
-				{
-					["type"] = 1,
-					["time"] = 1315875727,
-					["from"] = "Aset",
-					["msg"] = "so i can't say no",
-					["inbound"] = false,
-					["convo"] = "|Kf269|k00000000000|k",
-				}, -- [6]
-				{
-					["type"] = 1,
-					["time"] = 1315875731,
-					["from"] = "Aset",
-					["msg"] = "but tonight i'll see it!",
-					["inbound"] = false,
-					["convo"] = "|Kf269|k00000000000|k",
-				}, -- [7]
-				{
-					["type"] = 1,
-					["time"] = 1315875781,
-					["from"] = "Aset",
-					["msg"] = "lol uho h",
-					["inbound"] = false,
-					["convo"] = "|Kf269|k00000000000|k",
-				}, -- [8]
-				{
-					["type"] = 1,
-					["time"] = 1315875783,
-					["from"] = "Aset",
-					["msg"] = "Leslie might flip too then",
-					["inbound"] = false,
-					["convo"] = "|Kf269|k00000000000|k",
-				}, -- [9]
-				{
-					["type"] = 1,
-					["time"] = 1315875786,
-					["from"] = "Aset",
-					["msg"] = "but we'll see",
-					["inbound"] = false,
-					["convo"] = "|Kf269|k00000000000|k",
-				}, -- [10]
-				{
-					["type"] = 1,
-					["time"] = 1315875787,
-					["from"] = "Aset",
-					["msg"] = ":D",
-					["inbound"] = false,
-					["convo"] = "|Kf269|k00000000000|k",
-				}, -- [11]
-				{
-					["type"] = 1,
-					["time"] = 1315875795,
-					["from"] = "Aset",
-					["msg"] = "about TB? or about something else? lol",
-					["inbound"] = false,
-					["convo"] = "|Kf269|k00000000000|k",
-				}, -- [12]
-				{
-					["type"] = 1,
-					["time"] = 1315875974,
-					["from"] = "Aset",
-					["msg"] = "lol",
-					["inbound"] = false,
-					["convo"] = "|Kf269|k00000000000|k",
-				}, -- [13]
-				{
-					["type"] = 1,
-					["time"] = 1315875976,
-					["from"] = "Aset",
-					["msg"] = "Sorrrry!",
-					["inbound"] = false,
-					["convo"] = "|Kf269|k00000000000|k",
-				}, -- [14]
-				{
-					["type"] = 1,
-					["time"] = 1315875993,
-					["from"] = "Aset",
-					["msg"] = "It's gotta be after raid!",
-					["inbound"] = false,
-					["convo"] = "|Kf269|k00000000000|k",
-				}, -- [15]
-				{
-					["type"] = 1,
-					["time"] = 1315876066,
-					["from"] = "Aset",
-					["msg"] = "aww :(",
-					["inbound"] = false,
-					["convo"] = "|Kf269|k00000000000|k",
-				}, -- [16]
-				{
-					["type"] = 1,
-					["time"] = 1315876076,
-					["from"] = "Aset",
-					["msg"] = "Well good you can give me some attention! I miss you after being gone all weekend!",
-					["inbound"] = false,
-					["convo"] = "|Kf269|k00000000000|k",
-				}, -- [17]
-				{
-					["type"] = 1,
-					["time"] = 1315876150,
-					["from"] = "Aset",
-					["msg"] = "then i come home and you want nothing to do with me",
-					["inbound"] = false,
-					["convo"] = "|Kf269|k00000000000|k",
-				}, -- [18]
-				{
-					["type"] = 1,
-					["time"] = 1315876153,
-					["from"] = "Aset",
-					["msg"] = "Aset was a sad panda",
-					["inbound"] = false,
-					["convo"] = "|Kf269|k00000000000|k",
-				}, -- [19]
-				{
-					["type"] = 1,
-					["time"] = 1315876200,
-					["from"] = "Aset",
-					["msg"] = "uh hunh",
-					["inbound"] = false,
-					["convo"] = "|Kf269|k00000000000|k",
-				}, -- [20]
-				{
-					["type"] = 1,
-					["time"] = 1315876392,
-					["from"] = "Aset",
-					["msg"] = "<3",
-					["inbound"] = false,
-					["convo"] = "|Kf269|k00000000000|k",
-				}, -- [21]
-				{
-					["type"] = 1,
-					["time"] = 1315876400,
-					["from"] = "Aset",
-					["msg"] = "i got tossed in the air",
-					["inbound"] = false,
-					["convo"] = "|Kf269|k00000000000|k",
-				}, -- [22]
-				{
-					["type"] = 1,
-					["time"] = 1315876401,
-					["from"] = "Aset",
-					["msg"] = "hehe",
-					["inbound"] = false,
-					["convo"] = "|Kf269|k00000000000|k",
-				}, -- [23]
-				{
-					["type"] = 1,
-					["time"] = 1315876932,
-					["from"] = "Aset",
-					["msg"] = "awww! <3",
-					["inbound"] = false,
-					["convo"] = "|Kf269|k00000000000|k",
-				}, -- [24]
-				{
-					["type"] = 1,
-					["time"] = 1315876938,
-					["from"] = "Aset",
-					["msg"] = "aww poor kitteh!",
-					["inbound"] = false,
-					["convo"] = "|Kf269|k00000000000|k",
-				}, -- [25]
-				{
-					["type"] = 1,
-					["time"] = 1315878225,
-					["from"] = "Aset",
-					["msg"] = "GUESS WHAT",
-					["inbound"] = false,
-					["convo"] = "|Kf269|k00000000000|k",
-				}, -- [26]
-				{
-					["type"] = 1,
-					["time"] = 1315878233,
-					["from"] = "Aset",
-					["msg"] = "Imma be 378 in every slot tonight! :D",
-					["inbound"] = false,
-					["convo"] = "|Kf269|k00000000000|k",
-				}, -- [27]
-				{
-					["type"] = 1,
-					["time"] = 1315878334,
-					["from"] = "Aset",
-					["msg"] = "Well he's got everything already haha",
-					["inbound"] = false,
-					["convo"] = "|Kf269|k00000000000|k",
-				}, -- [28]
-				{
-					["type"] = 1,
-					["time"] = 1315878358,
-					["from"] = "Aset",
-					["msg"] = "He took a few things from me :(",
-					["inbound"] = false,
-					["convo"] = "|Kf269|k00000000000|k",
-				}, -- [29]
-				{
-					["type"] = 1,
-					["time"] = 1315878361,
-					["from"] = "Aset",
-					["msg"] = "but you know",
-					["inbound"] = false,
-					["convo"] = "|Kf269|k00000000000|k",
-				}, -- [30]
-				{
-					["type"] = 1,
-					["time"] = 1315878365,
-					["from"] = "Aset",
-					["msg"] = "He's got the DAMN STAFF",
-					["inbound"] = false,
-					["convo"] = "|Kf269|k00000000000|k",
-				}, -- [31]
-				{
-					["type"] = 1,
-					["time"] = 1315878370,
-					["from"] = "Aset",
-					["msg"] = "which is BiS for me, even though it no turn me into kitteh",
-					["inbound"] = false,
-					["convo"] = "|Kf269|k00000000000|k",
-				}, -- [32]
-				{
-					["type"] = 1,
-					["time"] = 1315878375,
-					["from"] = "Aset",
-					["msg"] = "well it does",
-					["inbound"] = false,
-					["convo"] = "|Kf269|k00000000000|k",
-				}, -- [33]
-				{
-					["type"] = 1,
-					["time"] = 1315878377,
-					["from"] = "Aset",
-					["msg"] = "but not in bear :(",
-					["inbound"] = false,
-					["convo"] = "|Kf269|k00000000000|k",
-				}, -- [34]
-				{
-					["type"] = 1,
-					["time"] = 1315878387,
-					["from"] = "Aset",
-					["msg"] = "it should turn me into a scorpion!",
-					["inbound"] = false,
-					["convo"] = "|Kf269|k00000000000|k",
-				}, -- [35]
-				{
-					["type"] = 1,
-					["time"] = 1315878390,
-					["from"] = "Aset",
-					["msg"] = "like the boss it's from",
-					["inbound"] = false,
-					["convo"] = "|Kf269|k00000000000|k",
-				}, -- [36]
-				{
-					["type"] = 1,
-					["time"] = 1315878399,
-					["from"] = "Aset",
-					["msg"] = "9 kills now",
-					["inbound"] = false,
-					["convo"] = "|Kf269|k00000000000|k",
-				}, -- [37]
-				{
-					["type"] = 1,
-					["time"] = 1315878401,
-					["from"] = "Aset",
-					["msg"] = "and only his staff",
-					["inbound"] = false,
-					["convo"] = "|Kf269|k00000000000|k",
-				}, -- [38]
-				{
-					["type"] = 1,
-					["time"] = 1315878431,
-					["from"] = "Aset",
-					["msg"] = "I know :(",
-					["inbound"] = false,
-					["convo"] = "|Kf269|k00000000000|k",
-				}, -- [39]
-				{
-					["type"] = 1,
-					["time"] = 1315878435,
-					["from"] = "Aset",
-					["msg"] = "I get sadder every week!",
-					["inbound"] = false,
-					["convo"] = "|Kf269|k00000000000|k",
-				}, -- [40]
-				{
-					["type"] = 1,
-					["time"] = 1315878497,
-					["from"] = "Aset",
-					["msg"] = "it'll drop eventually!",
-					["inbound"] = false,
-					["convo"] = "|Kf269|k00000000000|k",
-				}, -- [41]
-				{
-					["type"] = 1,
-					["time"] = 1315878502,
-					["from"] = "Aset",
-					["msg"] = "but my last piece is my relic",
-					["inbound"] = false,
-					["convo"] = "|Kf269|k00000000000|k",
-				}, -- [42]
-				{
-					["type"] = 1,
-					["time"] = 1315878530,
-					["from"] = "Aset",
-					["msg"] = "to be bought with vp",
-					["inbound"] = false,
-					["convo"] = "|Kf269|k00000000000|k",
-				}, -- [43]
-				{
-					["type"] = 1,
-					["time"] = 1315879121,
-					["from"] = "Aset",
-					["msg"] = "lol it's okay, training htese new guys",
-					["inbound"] = false,
-					["convo"] = "|Kf269|k00000000000|k",
-				}, -- [44]
-				{
-					["type"] = 1,
-					["time"] = 1315879248,
-					["from"] = "Aset",
-					["msg"] = "well good!",
-					["inbound"] = false,
-					["convo"] = "|Kf269|k00000000000|k",
-				}, -- [45]
-				{
-					["type"] = 1,
-					["time"] = 1315879633,
-					["from"] = "Aset",
-					["msg"] = ":O",
-					["inbound"] = false,
-					["convo"] = "|Kf269|k00000000000|k",
-				}, -- [46]
-				{
-					["type"] = 1,
-					["time"] = 1315879638,
-					["from"] = "Aset",
-					["msg"] = "I probably *do* belong with you! ;)",
-					["inbound"] = false,
-					["convo"] = "|Kf269|k00000000000|k",
-				}, -- [47]
-				{
-					["type"] = 1,
-					["time"] = 1315879673,
-					["from"] = "Aset",
-					["msg"] = "i dunno if i know it?",
-					["inbound"] = false,
-					["convo"] = "|Kf269|k00000000000|k",
-				}, -- [48]
-				{
-					["type"] = 1,
-					["time"] = 1315879677,
-					["from"] = "Aset",
-					["msg"] = "wat are some more words?",
-					["inbound"] = false,
-					["convo"] = "|Kf269|k00000000000|k",
-				}, -- [49]
-				{
-					["type"] = 1,
-					["time"] = 1315879701,
-					["from"] = "Aset",
-					["msg"] = "well i probably have heard it",
-					["inbound"] = false,
-					["convo"] = "|Kf269|k00000000000|k",
-				}, -- [50]
-				{
-					["type"] = 1,
-					["time"] = 1315879704,
-					["from"] = "Aset",
-					["msg"] = "that line sounds familiar!",
-					["inbound"] = false,
-					["convo"] = "|Kf269|k00000000000|k",
-				}, -- [51]
-				{
-					["type"] = 1,
-					["time"] = 1315879719,
-					["from"] = "Aset",
-					["msg"] = "SING TO MEEEE",
-					["inbound"] = false,
-					["convo"] = "|Kf269|k00000000000|k",
-				}, -- [52]
-				{
-					["type"] = 1,
-					["time"] = 1315879739,
-					["from"] = "Aset",
-					["msg"] = "MY ANGEL",
-					["inbound"] = false,
-					["convo"] = "|Kf269|k00000000000|k",
-				}, -- [53]
-				{
-					["type"] = 1,
-					["time"] = 1315880323,
-					["from"] = "Aset",
-					["msg"] = "lol sorry!",
-					["inbound"] = false,
-					["convo"] = "|Kf269|k00000000000|k",
-				}, -- [54]
-				{
-					["type"] = 1,
-					["time"] = 1315880621,
-					["from"] = "Aset",
-					["msg"] = "kk",
-					["inbound"] = false,
-					["convo"] = "|Kf269|k00000000000|k",
-				}, -- [55]
-				{
-					["type"] = 1,
-					["time"] = 1315880622,
-					["from"] = "Aset",
-					["msg"] = "<3",
-					["inbound"] = false,
-					["convo"] = "|Kf269|k00000000000|k",
-				}, -- [56]
-				["info"] = {
-				},
-			},
-			["|Kf207|k0000000000000|k"] = {
-				{
-					["type"] = 1,
-					["time"] = 1316974608,
-					["from"] = "Aset",
-					["msg"] = "lol oh?",
-					["inbound"] = false,
-					["convo"] = "|Kf207|k0000000000000|k",
-				}, -- [1]
-				{
-					["type"] = 1,
-					["time"] = 1316974612,
-					["from"] = "Aset",
-					["msg"] = "back in your caster skin? hehe",
-					["inbound"] = false,
-					["convo"] = "|Kf207|k0000000000000|k",
-				}, -- [2]
-				{
-					["type"] = 1,
-					["time"] = 1316974653,
-					["from"] = "Aset",
-					["msg"] = "True",
-					["inbound"] = false,
-					["convo"] = "|Kf207|k0000000000000|k",
-				}, -- [3]
-				{
-					["type"] = 1,
-					["time"] = 1316974661,
-					["from"] = "Aset",
-					["msg"] = "Oh did you see the T13 bonuses?",
-					["inbound"] = false,
-					["convo"] = "|Kf207|k0000000000000|k",
-				}, -- [4]
-				{
-					["type"] = 1,
-					["time"] = 1316974692,
-					["from"] = "Aset",
-					["msg"] = "some of them were rapey",
-					["inbound"] = false,
-					["convo"] = "|Kf207|k0000000000000|k",
-				}, -- [5]
-				{
-					["type"] = 1,
-					["time"] = 1316974695,
-					["from"] = "Aset",
-					["msg"] = "some were silly",
-					["inbound"] = false,
-					["convo"] = "|Kf207|k0000000000000|k",
-				}, -- [6]
-				{
-					["type"] = 1,
-					["time"] = 1316974707,
-					["from"] = "Aset",
-					["msg"] = "the tanking 4-piece bonuses make me scared, and as a healer, they should you too.",
-					["inbound"] = false,
-					["convo"] = "|Kf207|k0000000000000|k",
-				}, -- [7]
-				{
-					["type"] = 1,
-					["time"] = 1316974737,
-					["from"] = "Aset",
-					["msg"] = "but yeah, some of them were nifty, some were lame",
-					["inbound"] = false,
-					["convo"] = "|Kf207|k0000000000000|k",
-				}, -- [8]
-				{
-					["type"] = 1,
-					["time"] = 1316974746,
-					["from"] = "Aset",
-					["msg"] = "all tanks' 4-piece is some form of Raid Wall",
-					["inbound"] = false,
-					["convo"] = "|Kf207|k0000000000000|k",
-				}, -- [9]
-				{
-					["type"] = 1,
-					["time"] = 1316974750,
-					["from"] = "Aset",
-					["msg"] = "there's only one reason for that",
-					["inbound"] = false,
-					["convo"] = "|Kf207|k0000000000000|k",
-				}, -- [10]
-				{
-					["type"] = 1,
-					["time"] = 1316974757,
-					["from"] = "Aset",
-					["msg"] = "and it's insanely crazy aoe damage in T13",
-					["inbound"] = false,
-					["convo"] = "|Kf207|k0000000000000|k",
-				}, -- [11]
-				{
-					["type"] = 1,
-					["time"] = 1316974765,
-					["from"] = "Aset",
-					["msg"] = "this is backed up by the Holy Paladin bonus.. lol",
-					["inbound"] = false,
-					["convo"] = "|Kf207|k0000000000000|k",
-				}, -- [12]
-				{
-					["type"] = 1,
-					["time"] = 1316974798,
-					["from"] = "Aset",
-					["msg"] = "Ye",
-					["inbound"] = false,
-					["convo"] = "|Kf207|k0000000000000|k",
-				}, -- [13]
-				{
-					["type"] = 1,
-					["time"] = 1316974800,
-					["from"] = "Aset",
-					["msg"] = "Yep",
-					["inbound"] = false,
-					["convo"] = "|Kf207|k0000000000000|k",
-				}, -- [14]
-				{
-					["type"] = 1,
-					["time"] = 1316974802,
-					["from"] = "Aset",
-					["msg"] = "my first thought was",
-					["inbound"] = false,
-					["convo"] = "|Kf207|k0000000000000|k",
-				}, -- [15]
-				{
-					["type"] = 1,
-					["time"] = 1316974810,
-					["from"] = "Aset",
-					["msg"] = "\"well that's silly, i won't push for 4piece cuz it does nothing for me\"",
-					["inbound"] = false,
-					["convo"] = "|Kf207|k0000000000000|k",
-				}, -- [16]
-				{
-					["type"] = 1,
-					["time"] = 1316974822,
-					["from"] = "Aset",
-					["msg"] = "but i suspect Blizz is gonna make it so we want to",
-					["inbound"] = false,
-					["convo"] = "|Kf207|k0000000000000|k",
-				}, -- [17]
-				{
-					["type"] = 1,
-					["time"] = 1316974827,
-					["from"] = "Aset",
-					["msg"] = "in order to survive ",
-					["inbound"] = false,
-					["convo"] = "|Kf207|k0000000000000|k",
-				}, -- [18]
-				{
-					["type"] = 1,
-					["time"] = 1316974834,
-					["from"] = "Aset",
-					["msg"] = "well, for the raid to survive, haha",
-					["inbound"] = false,
-					["convo"] = "|Kf207|k0000000000000|k",
-				}, -- [19]
-				{
-					["type"] = 1,
-					["time"] = 1316974844,
-					["from"] = "Aset",
-					["msg"] = "I figure, it's still pretty early",
-					["inbound"] = false,
-					["convo"] = "|Kf207|k0000000000000|k",
-				}, -- [20]
-				{
-					["type"] = 1,
-					["time"] = 1316974849,
-					["from"] = "Aset",
-					["msg"] = "i expect some to change a bit i think",
-					["inbound"] = false,
-					["convo"] = "|Kf207|k0000000000000|k",
-				}, -- [21]
-				{
-					["type"] = 1,
-					["time"] = 1316974898,
-					["from"] = "Aset",
-					["msg"] = "the tank ones are intersting also because of how different they are",
-					["inbound"] = false,
-					["convo"] = "|Kf207|k0000000000000|k",
-				}, -- [22]
-				{
-					["type"] = 1,
-					["time"] = 1316974905,
-					["from"] = "Aset",
-					["msg"] = "Warrior is 50% of shield wall's effect",
-					["inbound"] = false,
-					["convo"] = "|Kf207|k0000000000000|k",
-				}, -- [23]
-				{
-					["type"] = 1,
-					["time"] = 1316974920,
-					["from"] = "Aset",
-					["msg"] = "that's nice, especially if they are glyph'd into what, 70% damage reduction during shield wall?",
-					["inbound"] = false,
-					["convo"] = "|Kf207|k0000000000000|k",
-				}, -- [24]
-				{
-					["type"] = 1,
-					["time"] = 1316974923,
-					["from"] = "Aset",
-					["msg"] = "maybe it's only 60%",
-					["inbound"] = false,
-					["convo"] = "|Kf207|k0000000000000|k",
-				}, -- [25]
-				{
-					["type"] = 1,
-					["time"] = 1316974950,
-					["from"] = "Aset",
-					["msg"] = "but.. Druid is Frenzied Regen... which is hard to know how it will work",
-					["inbound"] = false,
-					["convo"] = "|Kf207|k0000000000000|k",
-				}, -- [26]
-				{
-					["type"] = 1,
-					["time"] = 1316974959,
-					["from"] = "Aset",
-					["msg"] = "most tanks i assume run glyph'd Frenzied regen",
-					["inbound"] = false,
-					["convo"] = "|Kf207|k0000000000000|k",
-				}, -- [27]
-				{
-					["type"] = 1,
-					["time"] = 1316974970,
-					["from"] = "Aset",
-					["msg"] = "which makes it.. not regen anything, but just boost healing recieved and hp",
-					["inbound"] = false,
-					["convo"] = "|Kf207|k0000000000000|k",
-				}, -- [28]
-				{
-					["type"] = 1,
-					["time"] = 1316974984,
-					["from"] = "Aset",
-					["msg"] = "but that would make it like the base warrior ability that increases raid health",
-					["inbound"] = false,
-					["convo"] = "|Kf207|k0000000000000|k",
-				}, -- [29]
-				{
-					["type"] = 1,
-					["time"] = 1316974992,
-					["from"] = "Aset",
-					["msg"] = "only it would also boost healing recieved by 20 or 30%",
-					["inbound"] = false,
-					["convo"] = "|Kf207|k0000000000000|k",
-				}, -- [30]
-				{
-					["type"] = 1,
-					["time"] = 1316975016,
-					["from"] = "Aset",
-					["msg"] = " |Hspell:22842|h[Frenzied Regeneration]|h",
-					["inbound"] = false,
-					["convo"] = "|Kf207|k0000000000000|k",
-				}, -- [31]
-				{
-					["type"] = 1,
-					["time"] = 1316975027,
-					["from"] = "Aset",
-					["msg"] = "so 15% health and 20% healing recieved",
-					["inbound"] = false,
-					["convo"] = "|Kf207|k0000000000000|k",
-				}, -- [32]
-				{
-					["type"] = 1,
-					["time"] = 1316975035,
-					["from"] = "Aset",
-					["msg"] = "however that's glyphed.. if it's unglyphed it reads",
-					["inbound"] = false,
-					["convo"] = "|Kf207|k0000000000000|k",
-				}, -- [33]
-				{
-					["type"] = 1,
-					["time"] = 1316975061,
-					["from"] = "Aset",
-					["msg"] = " |Hspell:22842|h[Frenzied Regeneration]|h",
-					["inbound"] = false,
-					["convo"] = "|Kf207|k0000000000000|k",
-				}, -- [34]
-				{
-					["type"] = 1,
-					["time"] = 1316975074,
-					["from"] = "Aset",
-					["msg"] = "(i don't know if those show differently for you actually)",
-					["inbound"] = false,
-					["convo"] = "|Kf207|k0000000000000|k",
-				}, -- [35]
-				{
-					["type"] = 1,
-					["time"] = 1316975097,
-					["from"] = "Aset",
-					["msg"] = "but the second one.. would the heal apply to the raid at all? Or would the Bear's self-heal from it also apply to the raid? that could be pretty pro too, if they make it carry over",
-					["inbound"] = false,
-					["convo"] = "|Kf207|k0000000000000|k",
-				}, -- [36]
-				{
-					["type"] = 1,
-					["time"] = 1316975146,
-					["from"] = "Aset",
-					["msg"] = "not sure which way i'd want to run if bothw orked",
-					["inbound"] = false,
-					["convo"] = "|Kf207|k0000000000000|k",
-				}, -- [37]
-				{
-					["type"] = 1,
-					["time"] = 1316975164,
-					["from"] = "Aset",
-					["msg"] = "maybe stick with glyphed.. but since threat isn't much of an issue (oh and 2 pc makes our main threat ability a defensive aiblity instead)",
-					["inbound"] = false,
-					["convo"] = "|Kf207|k0000000000000|k",
-				}, -- [38]
-				{
-					["type"] = 1,
-					["time"] = 1316975172,
-					["from"] = "Aset",
-					["msg"] = "it might be useful to save a full rage bar to heal the entire raid ",
-					["inbound"] = false,
-					["convo"] = "|Kf207|k0000000000000|k",
-				}, -- [39]
-				{
-					["type"] = 1,
-					["time"] = 1316975173,
-					["from"] = "Aset",
-					["msg"] = "lol",
-					["inbound"] = false,
-					["convo"] = "|Kf207|k0000000000000|k",
-				}, -- [40]
-				{
-					["type"] = 1,
-					["time"] = 1316975201,
-					["from"] = "Aset",
-					["msg"] = "i find the fearl 2pc to be prett ygood",
-					["inbound"] = false,
-					["convo"] = "|Kf207|k0000000000000|k",
-				}, -- [41]
-				{
-					["type"] = 1,
-					["time"] = 1316975204,
-					["from"] = "Aset",
-					["msg"] = "a bit op for cat possibly",
-					["inbound"] = false,
-					["convo"] = "|Kf207|k0000000000000|k",
-				}, -- [42]
-				{
-					["type"] = 1,
-					["time"] = 1316975213,
-					["from"] = "Aset",
-					["msg"] = "moves our 'execute' phase from 25% to 60% hp",
-					["inbound"] = false,
-					["convo"] = "|Kf207|k0000000000000|k",
-				}, -- [43]
-				{
-					["type"] = 1,
-					["time"] = 1316975217,
-					["from"] = "Aset",
-					["msg"] = "that's a pretty hefty boost",
-					["inbound"] = false,
-					["convo"] = "|Kf207|k0000000000000|k",
-				}, -- [44]
-				{
-					["type"] = 1,
-					["time"] = 1316975231,
-					["from"] = "Aset",
-					["msg"] = "and it's only 2pc",
-					["inbound"] = false,
-					["convo"] = "|Kf207|k0000000000000|k",
-				}, -- [45]
-				{
-					["type"] = 1,
-					["time"] = 1316975244,
-					["from"] = "Aset",
-					["msg"] = "so wearing 2pc12+2pc13 may be highest dps",
-					["inbound"] = false,
-					["convo"] = "|Kf207|k0000000000000|k",
-				}, -- [46]
-				{
-					["type"] = 1,
-					["time"] = 1316975253,
-					["from"] = "Aset",
-					["msg"] = "hard to say though, 4pc12 is still pretty strong",
-					["inbound"] = false,
-					["convo"] = "|Kf207|k0000000000000|k",
-				}, -- [47]
-				{
-					["type"] = 1,
-					["time"] = 1316975266,
-					["from"] = "Aset",
-					["msg"] = "and the bear one doubles SD absorbs while berserk is up.. that's.. interesting ",
-					["inbound"] = false,
-					["convo"] = "|Kf207|k0000000000000|k",
-				}, -- [48]
-				{
-					["type"] = 1,
-					["time"] = 1316975292,
-					["from"] = "Aset",
-					["msg"] = "not sure how strong it'll be, but couuld be a nifty cooldown",
-					["inbound"] = false,
-					["convo"] = "|Kf207|k0000000000000|k",
-				}, -- [49]
-				["info"] = {
-				},
-			},
-			["|Kf1397|k00000000000|k"] = {
-				{
-					["type"] = 1,
-					["time"] = 1316836279,
-					["from"] = "Aset",
-					["msg"] = "the Dark Phoenix mount?",
-					["inbound"] = false,
-					["convo"] = "|Kf1397|k00000000000|k",
-				}, -- [1]
-				{
-					["type"] = 1,
-					["time"] = 1316836307,
-					["from"] = "Aset",
-					["msg"] = "Is that woman-speak for \"I wish my friend Aset would give me 2.7k gold so i could by the phoenix\" ?",
-					["inbound"] = false,
-					["convo"] = "|Kf1397|k00000000000|k",
-				}, -- [2]
-				{
-					["type"] = 1,
-					["time"] = 1316836324,
-					["from"] = "Aset",
-					["msg"] = "k just checking",
-					["inbound"] = false,
-					["convo"] = "|Kf1397|k00000000000|k",
-				}, -- [3]
-				{
-					["type"] = 1,
-					["time"] = 1316836356,
-					["from"] = "Aset",
-					["msg"] = "like, with your own money?",
-					["inbound"] = false,
-					["convo"] = "|Kf1397|k00000000000|k",
-				}, -- [4]
-				{
-					["type"] = 1,
-					["time"] = 1316836372,
-					["from"] = "Aset",
-					["msg"] = "I know!",
-					["inbound"] = false,
-					["convo"] = "|Kf1397|k00000000000|k",
-				}, -- [5]
-				{
-					["type"] = 1,
-					["time"] = 1316836377,
-					["from"] = "Aset",
-					["msg"] = "But it wouldn't have given them to you anyway",
-					["inbound"] = false,
-					["convo"] = "|Kf1397|k00000000000|k",
-				}, -- [6]
-				{
-					["type"] = 1,
-					["time"] = 1316836379,
-					["from"] = "Aset",
-					["msg"] = ":(",
-					["inbound"] = false,
-					["convo"] = "|Kf1397|k00000000000|k",
-				}, -- [7]
-				{
-					["type"] = 1,
-					["time"] = 1316836396,
-					["from"] = "Aset",
-					["msg"] = "it wouldn't give you the ember, so you weren't eligible for any loot :(",
-					["inbound"] = false,
-					["convo"] = "|Kf1397|k00000000000|k",
-				}, -- [8]
-				{
-					["type"] = 1,
-					["time"] = 1316836398,
-					["from"] = "Aset",
-					["msg"] = "And yeah",
-					["inbound"] = false,
-					["convo"] = "|Kf1397|k00000000000|k",
-				}, -- [9]
-				{
-					["type"] = 1,
-					["time"] = 1316836402,
-					["from"] = "Aset",
-					["msg"] = "I don't know this TK person",
-					["inbound"] = false,
-					["convo"] = "|Kf1397|k00000000000|k",
-				}, -- [10]
-				{
-					["type"] = 1,
-					["time"] = 1316836408,
-					["from"] = "Aset",
-					["msg"] = "But she blew me a kiss twice so maybe I should learn about her.",
-					["inbound"] = false,
-					["convo"] = "|Kf1397|k00000000000|k",
-				}, -- [11]
-				{
-					["type"] = 1,
-					["time"] = 1316836426,
-					["from"] = "Aset",
-					["msg"] = "so how much res do you have?",
-					["inbound"] = false,
-					["convo"] = "|Kf1397|k00000000000|k",
-				}, -- [12]
-				{
-					["type"] = 1,
-					["time"] = 1316836433,
-					["from"] = "Aset",
-					["msg"] = "lol I see i see, i sowwy",
-					["inbound"] = false,
-					["convo"] = "|Kf1397|k00000000000|k",
-				}, -- [13]
-				{
-					["type"] = 1,
-					["time"] = 1316836451,
-					["from"] = "Aset",
-					["msg"] = "very nice",
-					["inbound"] = false,
-					["convo"] = "|Kf1397|k00000000000|k",
-				}, -- [14]
-				{
-					["type"] = 1,
-					["time"] = 1316836457,
-					["from"] = "Aset",
-					["msg"] = "3.7! almost 3.8",
-					["inbound"] = false,
-					["convo"] = "|Kf1397|k00000000000|k",
-				}, -- [15]
-				{
-					["type"] = 1,
-					["time"] = 1316836463,
-					["from"] = "Aset",
-					["msg"] = "so BGs is what you had in mind?",
-					["inbound"] = false,
-					["convo"] = "|Kf1397|k00000000000|k",
-				}, -- [16]
-				{
-					["type"] = 1,
-					["time"] = 1316836517,
-					["from"] = "Aset",
-					["msg"] = "bgs is okay, i just respec'd and am about to reglyph for it so we might as well go in for real now :P",
-					["inbound"] = false,
-					["convo"] = "|Kf1397|k00000000000|k",
-				}, -- [17]
-				{
-					["type"] = 1,
-					["time"] = 1316836594,
-					["from"] = "Aset",
-					["msg"] = "I need coqnuest too.. when i get to 3500 i get S10 weapon",
-					["inbound"] = false,
-					["convo"] = "|Kf1397|k00000000000|k",
-				}, -- [18]
-				{
-					["type"] = 1,
-					["time"] = 1316836659,
-					["from"] = "Aset",
-					["msg"] = "I've got res on every piece, i'm proud of that!",
-					["inbound"] = false,
-					["convo"] = "|Kf1397|k00000000000|k",
-				}, -- [19]
-				{
-					["type"] = 1,
-					["time"] = 1316836670,
-					["from"] = "Aset",
-					["msg"] = "I don't usually maintain a real pvp set lol",
-					["inbound"] = false,
-					["convo"] = "|Kf1397|k00000000000|k",
-				}, -- [20]
-				{
-					["type"] = 1,
-					["time"] = 1316836827,
-					["from"] = "Aset",
-					["msg"] = "um",
-					["inbound"] = false,
-					["convo"] = "|Kf1397|k00000000000|k",
-				}, -- [21]
-				{
-					["type"] = 1,
-					["time"] = 1316836829,
-					["from"] = "Aset",
-					["msg"] = "so i'm gay",
-					["inbound"] = false,
-					["convo"] = "|Kf1397|k00000000000|k",
-				}, -- [22]
-				{
-					["type"] = 1,
-					["time"] = 1316836833,
-					["from"] = "Aset",
-					["msg"] = "i just queued without you :(",
-					["inbound"] = false,
-					["convo"] = "|Kf1397|k00000000000|k",
-				}, -- [23]
-				{
-					["type"] = 1,
-					["time"] = 1316836838,
-					["from"] = "Aset",
-					["msg"] = "I haven't done that in a while",
-					["inbound"] = false,
-					["convo"] = "|Kf1397|k00000000000|k",
-				}, -- [24]
-				{
-					["type"] = 1,
-					["time"] = 1316836840,
-					["from"] = "Aset",
-					["msg"] = " /sight",
-					["inbound"] = false,
-					["convo"] = "|Kf1397|k00000000000|k",
-				}, -- [25]
-				{
-					["type"] = 1,
-					["time"] = 1316836845,
-					["from"] = "Aset",
-					["msg"] = " /sigh*",
-					["inbound"] = false,
-					["convo"] = "|Kf1397|k00000000000|k",
-				}, -- [26]
-				{
-					["type"] = 1,
-					["time"] = 1316836857,
-					["from"] = "Aset",
-					["msg"] = "it's WSG.. we may be out soonish, but so far it's gonna be a full game",
-					["inbound"] = false,
-					["convo"] = "|Kf1397|k00000000000|k",
-				}, -- [27]
-				{
-					["type"] = 1,
-					["time"] = 1316836863,
-					["from"] = "Aset",
-					["msg"] = "you can go without me or wait, whtever you want",
-					["inbound"] = false,
-					["convo"] = "|Kf1397|k00000000000|k",
-				}, -- [28]
-				{
-					["type"] = 1,
-					["time"] = 1316836916,
-					["from"] = "Aset",
-					["msg"] = "sowwy",
-					["inbound"] = false,
-					["convo"] = "|Kf1397|k00000000000|k",
-				}, -- [29]
-				{
-					["type"] = 1,
-					["time"] = 1316836918,
-					["from"] = "Aset",
-					["msg"] = "i'm a failure today lol",
-					["inbound"] = false,
-					["convo"] = "|Kf1397|k00000000000|k",
-				}, -- [30]
-				{
-					["type"] = 1,
-					["time"] = 1316837032,
-					["from"] = "Aset",
-					["msg"] = "lol nice",
-					["inbound"] = false,
-					["convo"] = "|Kf1397|k00000000000|k",
-				}, -- [31]
-				{
-					["type"] = 1,
-					["time"] = 1316837141,
-					["from"] = "Aset",
-					["msg"] = "lol this group is helping me try for Ironman, hehe",
-					["inbound"] = false,
-					["convo"] = "|Kf1397|k00000000000|k",
-				}, -- [32]
-				{
-					["type"] = 1,
-					["time"] = 1316837143,
-					["from"] = "Aset",
-					["msg"] = "oh? nice",
-					["inbound"] = false,
-					["convo"] = "|Kf1397|k00000000000|k",
-				}, -- [33]
-				{
-					["type"] = 1,
-					["time"] = 1316837248,
-					["from"] = "Aset",
-					["msg"] = "i'm close, 2 caps nod eaths",
-					["inbound"] = false,
-					["convo"] = "|Kf1397|k00000000000|k",
-				}, -- [34]
-				{
-					["type"] = 1,
-					["time"] = 1316837323,
-					["from"] = "Aset",
-					["msg"] = "damn this might happen",
-					["inbound"] = false,
-					["convo"] = "|Kf1397|k00000000000|k",
-				}, -- [35]
-				{
-					["type"] = 1,
-					["time"] = 1316837326,
-					["from"] = "Aset",
-					["msg"] = "i'm getting excited",
-					["inbound"] = false,
-					["convo"] = "|Kf1397|k00000000000|k",
-				}, -- [36]
-				{
-					["type"] = 1,
-					["time"] = 1316837541,
-					["from"] = "Aset",
-					["msg"] = "You wanna try to sort it out while you wait for debuff?",
-					["inbound"] = false,
-					["convo"] = "|Kf1397|k00000000000|k",
-				}, -- [37]
-				{
-					["type"] = 1,
-					["time"] = 1316837570,
-					["from"] = "Aset",
-					["msg"] = "well you can do that too, but honestly we can find it",
-					["inbound"] = false,
-					["convo"] = "|Kf1397|k00000000000|k",
-				}, -- [38]
-				{
-					["type"] = 1,
-					["time"] = 1316837587,
-					["from"] = "Aset",
-					["msg"] = "You should install TeamViewer so i can control your computer and poke around with the settings for it",
-					["inbound"] = false,
-					["convo"] = "|Kf1397|k00000000000|k",
-				}, -- [39]
-				{
-					["type"] = 1,
-					["time"] = 1316837663,
-					["from"] = "Aset",
-					["msg"] = "oh, why not?",
-					["inbound"] = false,
-					["convo"] = "|Kf1397|k00000000000|k",
-				}, -- [40]
-				{
-					["type"] = 1,
-					["time"] = 1316837718,
-					["from"] = "Aset",
-					["msg"] = "well, you don't have to. I guess I just have this OCD thing where I have to solve problems or they drive me nuts :)",
-					["inbound"] = false,
-					["convo"] = "|Kf1397|k00000000000|k",
-				}, -- [41]
-				{
-					["type"] = 1,
-					["time"] = 1316837744,
-					["from"] = "Aset",
-					["msg"] = "TeamViewer allows me to remotely control your computer but you can cut it off at any time, and it can only be active when you run it",
-					["inbound"] = false,
-					["convo"] = "|Kf1397|k00000000000|k",
-				}, -- [42]
-				{
-					["type"] = 1,
-					["time"] = 1316837748,
-					["from"] = "Aset",
-					["msg"] = "no one left here? like, no friends?",
-					["inbound"] = false,
-					["convo"] = "|Kf1397|k00000000000|k",
-				}, -- [43]
-				{
-					["type"] = 1,
-					["time"] = 1316837844,
-					["from"] = "Aset",
-					["msg"] = "lol",
-					["inbound"] = false,
-					["convo"] = "|Kf1397|k00000000000|k",
-				}, -- [44]
-				{
-					["type"] = 1,
-					["time"] = 1316837846,
-					["from"] = "Aset",
-					["msg"] = "Maybe you should",
-					["inbound"] = false,
-					["convo"] = "|Kf1397|k00000000000|k",
-				}, -- [45]
-				{
-					["type"] = 1,
-					["time"] = 1316837854,
-					["from"] = "Aset",
-					["msg"] = "I'm thinking about getting some Taco Bell",
-					["inbound"] = false,
-					["convo"] = "|Kf1397|k00000000000|k",
-				}, -- [46]
-				{
-					["type"] = 1,
-					["time"] = 1316837861,
-					["from"] = "Aset",
-					["msg"] = "oh, Big Bang Theory! time for that",
-					["inbound"] = false,
-					["convo"] = "|Kf1397|k00000000000|k",
-				}, -- [47]
-				["info"] = {
-				},
-			},
-			["|Kf589|k000000000000|k"] = {
-				{
-					["type"] = 1,
-					["time"] = 1316130422,
-					["from"] = "Aset",
-					["msg"] = "uhhhh",
-					["inbound"] = false,
-					["convo"] = "|Kf589|k000000000000|k",
-				}, -- [1]
-				{
-					["type"] = 1,
-					["time"] = 1316130424,
-					["from"] = "Aset",
-					["msg"] = "hard to say",
-					["inbound"] = false,
-					["convo"] = "|Kf589|k000000000000|k",
-				}, -- [2]
-				{
-					["type"] = 1,
-					["time"] = 1316130433,
-					["from"] = "Aset",
-					["msg"] = "the chest coudl be bigger, will it give you a set bonus?",
-					["inbound"] = false,
-					["convo"] = "|Kf589|k000000000000|k",
-				}, -- [3]
-				{
-					["type"] = 1,
-					["time"] = 1316130443,
-					["from"] = "Aset",
-					["msg"] = "but yeah the trinket is almost certainly more int",
-					["inbound"] = false,
-					["convo"] = "|Kf589|k000000000000|k",
-				}, -- [4]
-				{
-					["type"] = 1,
-					["time"] = 1316130444,
-					["from"] = "Aset",
-					["msg"] = "so probably best",
-					["inbound"] = false,
-					["convo"] = "|Kf589|k000000000000|k",
-				}, -- [5]
-				{
-					["type"] = 1,
-					["time"] = 1316130499,
-					["from"] = "Aset",
-					["msg"] = "um",
-					["inbound"] = false,
-					["convo"] = "|Kf589|k000000000000|k",
-				}, -- [6]
-				{
-					["type"] = 1,
-					["time"] = 1316130502,
-					["from"] = "Aset",
-					["msg"] = "not really honestly",
-					["inbound"] = false,
-					["convo"] = "|Kf589|k000000000000|k",
-				}, -- [7]
-				{
-					["type"] = 1,
-					["time"] = 1316130508,
-					["from"] = "Aset",
-					["msg"] = "you could look at my boomkin spec",
-					["inbound"] = false,
-					["convo"] = "|Kf589|k000000000000|k",
-				}, -- [8]
-				{
-					["type"] = 1,
-					["time"] = 1316130538,
-					["from"] = "Aset",
-					["msg"] = "honestly i should change my spec, cuz i use it almost exclusively for aoe.. i should pick up  |Htalent:8379:-1|h[Gale Winds]|h hrm",
-					["inbound"] = false,
-					["convo"] = "|Kf589|k000000000000|k",
-				}, -- [9]
-				{
-					["type"] = 1,
-					["time"] = 1316130542,
-					["from"] = "Aset",
-					["msg"] = "Yeah it's okay",
-					["inbound"] = false,
-					["convo"] = "|Kf589|k000000000000|k",
-				}, -- [10]
-				{
-					["type"] = 1,
-					["time"] = 1316130547,
-					["from"] = "Aset",
-					["msg"] = "i mean, it's hard to make a bad spec these days",
-					["inbound"] = false,
-					["convo"] = "|Kf589|k000000000000|k",
-				}, -- [11]
-				{
-					["type"] = 1,
-					["time"] = 1316130604,
-					["from"] = "Aset",
-					["msg"] = "nah should be pretty easy",
-					["inbound"] = false,
-					["convo"] = "|Kf589|k000000000000|k",
-				}, -- [12]
-				{
-					["type"] = 1,
-					["time"] = 1316130619,
-					["from"] = "Aset",
-					["msg"] = "unless i'm using hurricane i almost never even need to innervate myself",
-					["inbound"] = false,
-					["convo"] = "|Kf589|k000000000000|k",
-				}, -- [13]
-				{
-					["type"] = 1,
-					["time"] = 1316130668,
-					["from"] = "Aset",
-					["msg"] = "I've heard pepole say spirit gives more hit under some situation, but i don't know if that's true",
-					["inbound"] = false,
-					["convo"] = "|Kf589|k000000000000|k",
-				}, -- [14]
-				{
-					["type"] = 1,
-					["time"] = 1316130670,
-					["from"] = "Aset",
-					["msg"] = "it shouldn't be true",
-					["inbound"] = false,
-					["convo"] = "|Kf589|k000000000000|k",
-				}, -- [15]
-				{
-					["type"] = 1,
-					["time"] = 1316130673,
-					["from"] = "Aset",
-					["msg"] = "so it shouldn't matter",
-					["inbound"] = false,
-					["convo"] = "|Kf589|k000000000000|k",
-				}, -- [16]
-				{
-					["type"] = 1,
-					["time"] = 1316130673,
-					["from"] = "Aset",
-					["msg"] = "but",
-					["inbound"] = false,
-					["convo"] = "|Kf589|k000000000000|k",
-				}, -- [17]
-				{
-					["type"] = 1,
-					["time"] = 1316130680,
-					["from"] = "Aset",
-					["msg"] = "remember to use it to your advantage",
-					["inbound"] = false,
-					["convo"] = "|Kf589|k000000000000|k",
-				}, -- [18]
-				{
-					["type"] = 1,
-					["time"] = 1316130680,
-					["from"] = "Aset",
-					["msg"] = "ie",
-					["inbound"] = false,
-					["convo"] = "|Kf589|k000000000000|k",
-				}, -- [19]
-				{
-					["type"] = 1,
-					["time"] = 1316130682,
-					["from"] = "Aset",
-					["msg"] = "if you are low on hit",
-					["inbound"] = false,
-					["convo"] = "|Kf589|k000000000000|k",
-				}, -- [20]
-				{
-					["type"] = 1,
-					["time"] = 1316130685,
-					["from"] = "Aset",
-					["msg"] = "and you have a piece with say",
-					["inbound"] = false,
-					["convo"] = "|Kf589|k000000000000|k",
-				}, -- [21]
-				{
-					["type"] = 1,
-					["time"] = 1316130691,
-					["from"] = "Aset",
-					["msg"] = "spirit, crit, haste",
-					["inbound"] = false,
-					["convo"] = "|Kf589|k000000000000|k",
-				}, -- [22]
-				{
-					["type"] = 1,
-					["time"] = 1316130696,
-					["from"] = "Aset",
-					["msg"] = "you could reforge the crit to hit",
-					["inbound"] = false,
-					["convo"] = "|Kf589|k000000000000|k",
-				}, -- [23]
-				{
-					["type"] = 1,
-					["time"] = 1316130701,
-					["from"] = "Aset",
-					["msg"] = "and \"double dip\" on reforging",
-					["inbound"] = false,
-					["convo"] = "|Kf589|k000000000000|k",
-				}, -- [24]
-				{
-					["type"] = 1,
-					["time"] = 1316130729,
-					["from"] = "Aset",
-					["msg"] = "it's only useful if you need lots of hit.. you usually have enough, but sometimes may need to reforge for it",
-					["inbound"] = false,
-					["convo"] = "|Kf589|k000000000000|k",
-				}, -- [25]
-				{
-					["type"] = 1,
-					["time"] = 1316130742,
-					["from"] = "Aset",
-					["msg"] = "remember ALWAYS reforge for hit (or spirit) first, never gem it unless absolutely needed",
-					["inbound"] = false,
-					["convo"] = "|Kf589|k000000000000|k",
-				}, -- [26]
-				{
-					["type"] = 1,
-					["time"] = 1316130757,
-					["from"] = "Aset",
-					["msg"] = "you should have pure int gems in every gem slot unless the socket bonus is more than 20int",
-					["inbound"] = false,
-					["convo"] = "|Kf589|k000000000000|k",
-				}, -- [27]
-				{
-					["type"] = 1,
-					["time"] = 1316130760,
-					["from"] = "Aset",
-					["msg"] = "(well, 20 int or more)",
-					["inbound"] = false,
-					["convo"] = "|Kf589|k000000000000|k",
-				}, -- [28]
-				{
-					["type"] = 1,
-					["time"] = 1316130807,
-					["from"] = "Aset",
-					["msg"] = "which makes sense.. since a  |Hitem:52207:0:0:0:0:0:0:0:85:0|h[Brilliant Inferno Ruby]|h is 40, if the bonus is 20 and you only have to use ONE non-brilliant gem, then it's a net gain in stats",
-					["inbound"] = false,
-					["convo"] = "|Kf589|k000000000000|k",
-				}, -- [29]
-				{
-					["type"] = 1,
-					["time"] = 1316130821,
-					["from"] = "Aset",
-					["msg"] = "if you have to use two non-brilliants for only a 20int bonus, don't do it",
-					["inbound"] = false,
-					["convo"] = "|Kf589|k000000000000|k",
-				}, -- [30]
-				{
-					["type"] = 1,
-					["time"] = 1316130827,
-					["from"] = "Aset",
-					["msg"] = "They don't really have any, which is lame :(",
-					["inbound"] = false,
-					["convo"] = "|Kf589|k000000000000|k",
-				}, -- [31]
-				{
-					["type"] = 1,
-					["time"] = 1316130840,
-					["from"] = "Aset",
-					["msg"] = "force of nature (the trents) and starfall",
-					["inbound"] = false,
-					["convo"] = "|Kf589|k000000000000|k",
-				}, -- [32]
-				{
-					["type"] = 1,
-					["time"] = 1316131131,
-					["from"] = "Aset",
-					["msg"] = "yeah",
-					["inbound"] = false,
-					["convo"] = "|Kf589|k000000000000|k",
-				}, -- [33]
-				{
-					["type"] = 1,
-					["time"] = 1316131139,
-					["from"] = "Aset",
-					["msg"] = "i mean, look at what it shows as your miss chance.. and decide if you're happy with it",
-					["inbound"] = false,
-					["convo"] = "|Kf589|k000000000000|k",
-				}, -- [34]
-				{
-					["type"] = 1,
-					["time"] = 1316131148,
-					["from"] = "Aset",
-					["msg"] = "if you can get to 17 even, that's best, but very close is better than over, imo",
-					["inbound"] = false,
-					["convo"] = "|Kf589|k000000000000|k",
-				}, -- [35]
-				{
-					["type"] = 1,
-					["time"] = 1316132936,
-					["from"] = "Aset",
-					["msg"] = "lol aww",
-					["inbound"] = false,
-					["convo"] = "|Kf589|k000000000000|k",
-				}, -- [36]
-				{
-					["type"] = 1,
-					["time"] = 1316132947,
-					["from"] = "Aset",
-					["msg"] = "doesn't sound that bad, what's your ilvl?",
-					["inbound"] = false,
-					["convo"] = "|Kf589|k000000000000|k",
-				}, -- [37]
-				{
-					["type"] = 1,
-					["time"] = 1316132952,
-					["from"] = "Aset",
-					["msg"] = "and were you doing everything right? :)",
-					["inbound"] = false,
-					["convo"] = "|Kf589|k000000000000|k",
-				}, -- [38]
-				{
-					["type"] = 1,
-					["time"] = 1316132964,
-					["from"] = "Aset",
-					["msg"] = "k",
-					["inbound"] = false,
-					["convo"] = "|Kf589|k000000000000|k",
-				}, -- [39]
-				{
-					["type"] = 1,
-					["time"] = 1316132987,
-					["from"] = "Aset",
-					["msg"] = "i get like, 16 to 18k on Ryolith, mostly from AoE, ilvl around 362 maybe",
-					["inbound"] = false,
-					["convo"] = "|Kf589|k000000000000|k",
-				}, -- [40]
-				{
-					["type"] = 1,
-					["time"] = 1316133087,
-					["from"] = "Aset",
-					["msg"] = "Yeah, i think renewing just before the final tick is perfect, but you can't do that when renewing Sunfire outside of a Solar Eclipse, of course, you have to let it fall off completely (or you want to) and renewn it just after (with Moonfire)",
-					["inbound"] = false,
-					["convo"] = "|Kf589|k000000000000|k",
-				}, -- [41]
-				{
-					["type"] = 1,
-					["time"] = 1316135679,
-					["from"] = "Aset",
-					["msg"] = "yay!",
-					["inbound"] = false,
-					["convo"] = "|Kf589|k000000000000|k",
-				}, -- [42]
-				{
-					["type"] = 1,
-					["time"] = 1316143613,
-					["from"] = "Aset",
-					["msg"] = "we gave up for now",
-					["inbound"] = false,
-					["convo"] = "|Kf589|k000000000000|k",
-				}, -- [43]
-				{
-					["type"] = 1,
-					["time"] = 1316143618,
-					["from"] = "Aset",
-					["msg"] = "he was pissing us off too much",
-					["inbound"] = false,
-					["convo"] = "|Kf589|k000000000000|k",
-				}, -- [44]
-				{
-					["type"] = 1,
-					["time"] = 1316143631,
-					["from"] = "Aset",
-					["msg"] = "we're gonna clear up to Staghelm and maybe try him, but probably just clear on reg this week",
-					["inbound"] = false,
-					["convo"] = "|Kf589|k000000000000|k",
-				}, -- [45]
-				{
-					["type"] = 1,
-					["time"] = 1316143704,
-					["from"] = "Aset",
-					["msg"] = "yeah i've heard that too",
-					["inbound"] = false,
-					["convo"] = "|Kf589|k000000000000|k",
-				}, -- [46]
-				{
-					["type"] = 1,
-					["time"] = 1316143708,
-					["from"] = "Aset",
-					["msg"] = "we may try that on reg tonight just to test it",
-					["inbound"] = false,
-					["convo"] = "|Kf589|k000000000000|k",
-				}, -- [47]
-				{
-					["type"] = 1,
-					["time"] = 1316143710,
-					["from"] = "Aset",
-					["msg"] = "we'll see",
-					["inbound"] = false,
-					["convo"] = "|Kf589|k000000000000|k",
-				}, -- [48]
-				{
-					["type"] = 1,
-					["time"] = 1316143730,
-					["from"] = "Aset",
-					["msg"] = "yeah",
-					["inbound"] = false,
-					["convo"] = "|Kf589|k000000000000|k",
-				}, -- [49]
-				{
-					["type"] = 1,
-					["time"] = 1316143769,
-					["from"] = "Aset",
-					["msg"] = "on reg shannox? :O",
-					["inbound"] = false,
-					["convo"] = "|Kf589|k000000000000|k",
-				}, -- [50]
-				{
-					["type"] = 1,
-					["time"] = 1316143785,
-					["from"] = "Aset",
-					["msg"] = "eek",
-					["inbound"] = false,
-					["convo"] = "|Kf589|k000000000000|k",
-				}, -- [51]
-				{
-					["type"] = 1,
-					["time"] = 1316143787,
-					["from"] = "Aset",
-					["msg"] = "yeah that's what i've heard",
-					["inbound"] = false,
-					["convo"] = "|Kf589|k000000000000|k",
-				}, -- [52]
-				["info"] = {
-				},
-			},
-			["|Kf755|k000000000000|k"] = {
-				{
-					["type"] = 1,
-					["time"] = 1316570906,
-					["from"] = "Aset",
-					["msg"] = "not today",
-					["inbound"] = false,
-					["convo"] = "|Kf755|k000000000000|k",
-				}, -- [1]
-				{
-					["type"] = 1,
-					["time"] = 1316570912,
-					["from"] = "Aset",
-					["msg"] = "we're having trouble",
-					["inbound"] = false,
-					["convo"] = "|Kf755|k000000000000|k",
-				}, -- [2]
-				{
-					["type"] = 1,
-					["time"] = 1316570918,
-					["from"] = "Aset",
-					["msg"] = "we're missing maso tonight",
-					["inbound"] = false,
-					["convo"] = "|Kf755|k000000000000|k",
-				}, -- [3]
-				{
-					["type"] = 1,
-					["time"] = 1316570929,
-					["from"] = "Aset",
-					["msg"] = "We're not sure if we want to clear on reg or wait for next night to do more heroics",
-					["inbound"] = false,
-					["convo"] = "|Kf755|k000000000000|k",
-				}, -- [4]
-				{
-					["type"] = 1,
-					["time"] = 1316571062,
-					["from"] = "Aset",
-					["msg"] = "you have Mumble?",
-					["inbound"] = false,
-					["convo"] = "|Kf755|k000000000000|k",
-				}, -- [5]
-				{
-					["type"] = 1,
-					["time"] = 1316571085,
-					["from"] = "Aset",
-					["msg"] = "have a toon who can come dps?",
-					["inbound"] = false,
-					["convo"] = "|Kf755|k000000000000|k",
-				}, -- [6]
-				{
-					["type"] = 1,
-					["time"] = 1316571111,
-					["from"] = "Aset",
-					["msg"] = "FL reg, all kills except Shannox?",
-					["inbound"] = false,
-					["convo"] = "|Kf755|k000000000000|k",
-				}, -- [7]
-				{
-					["type"] = 1,
-					["time"] = 1316571157,
-					["from"] = "Aset",
-					["msg"] = "mumble server is quasarj.com",
-					["inbound"] = false,
-					["convo"] = "|Kf755|k000000000000|k",
-				}, -- [8]
-				{
-					["type"] = 1,
-					["time"] = 1316571159,
-					["from"] = "Aset",
-					["msg"] = "default port",
-					["inbound"] = false,
-					["convo"] = "|Kf755|k000000000000|k",
-				}, -- [9]
-				{
-					["type"] = 1,
-					["time"] = 1316571186,
-					["from"] = "Aset",
-					["msg"] = "and what two are your hunter saved to? cuz he'd be more useful than mage",
-					["inbound"] = false,
-					["convo"] = "|Kf755|k000000000000|k",
-				}, -- [10]
-				{
-					["type"] = 1,
-					["time"] = 1316571209,
-					["from"] = "Aset",
-					["msg"] = "DoP? what?",
-					["inbound"] = false,
-					["convo"] = "|Kf755|k000000000000|k",
-				}, -- [11]
-				["info"] = {
-				},
-			},
-			["|Kf321|k0000000000000|k"] = {
-				{
-					["type"] = 1,
-					["time"] = 1316961157,
-					["from"] = "Aset",
-					["msg"] = "Morning man",
-					["inbound"] = false,
-					["convo"] = "|Kf321|k0000000000000|k",
-				}, -- [1]
-				{
-					["type"] = 1,
-					["time"] = 1316961162,
-					["from"] = "Aset",
-					["msg"] = "I'm so f'd up",
-					["inbound"] = false,
-					["convo"] = "|Kf321|k0000000000000|k",
-				}, -- [2]
-				{
-					["type"] = 1,
-					["time"] = 1316961170,
-					["from"] = "Aset",
-					["msg"] = "i slept all day yesterday",
-					["inbound"] = false,
-					["convo"] = "|Kf321|k0000000000000|k",
-				}, -- [3]
-				{
-					["type"] = 1,
-					["time"] = 1316961173,
-					["from"] = "Aset",
-					["msg"] = "had to get up",
-					["inbound"] = false,
-					["convo"] = "|Kf321|k0000000000000|k",
-				}, -- [4]
-				{
-					["type"] = 1,
-					["time"] = 1316961177,
-					["from"] = "Aset",
-					["msg"] = "basically i got sick",
-					["inbound"] = false,
-					["convo"] = "|Kf321|k0000000000000|k",
-				}, -- [5]
-				{
-					["type"] = 1,
-					["time"] = 1316961182,
-					["from"] = "Aset",
-					["msg"] = "a cold or the flu",
-					["inbound"] = false,
-					["convo"] = "|Kf321|k0000000000000|k",
-				}, -- [6]
-				{
-					["type"] = 1,
-					["time"] = 1316961192,
-					["from"] = "Aset",
-					["msg"] = "then i drank too much nyquil",
-					["inbound"] = false,
-					["convo"] = "|Kf321|k0000000000000|k",
-				}, -- [7]
-				{
-					["type"] = 1,
-					["time"] = 1316961194,
-					["from"] = "Aset",
-					["msg"] = "lol",
-					["inbound"] = false,
-					["convo"] = "|Kf321|k0000000000000|k",
-				}, -- [8]
-				{
-					["type"] = 1,
-					["time"] = 1316961217,
-					["from"] = "Aset",
-					["msg"] = "not sure what part of how i feel is from my liver dying, or my brain dying, or just being sick",
-					["inbound"] = false,
-					["convo"] = "|Kf321|k0000000000000|k",
-				}, -- [9]
-				{
-					["type"] = 1,
-					["time"] = 1316961220,
-					["from"] = "Aset",
-					["msg"] = "anyway what's up?",
-					["inbound"] = false,
-					["convo"] = "|Kf321|k0000000000000|k",
-				}, -- [10]
-				{
-					["type"] = 1,
-					["time"] = 1316961256,
-					["from"] = "Aset",
-					["msg"] = "oh nice!",
-					["inbound"] = false,
-					["convo"] = "|Kf321|k0000000000000|k",
-				}, -- [11]
-				{
-					["type"] = 1,
-					["time"] = 1316961267,
-					["from"] = "Aset",
-					["msg"] = "oh nice namew",
-					["inbound"] = false,
-					["convo"] = "|Kf321|k0000000000000|k",
-				}, -- [12]
-				{
-					["type"] = 1,
-					["time"] = 1316961270,
-					["from"] = "Aset",
-					["msg"] = "name*",
-					["inbound"] = false,
-					["convo"] = "|Kf321|k0000000000000|k",
-				}, -- [13]
-				{
-					["type"] = 1,
-					["time"] = 1316961277,
-					["from"] = "Aset",
-					["msg"] = "omg my body feels like, all heavy",
-					["inbound"] = false,
-					["convo"] = "|Kf321|k0000000000000|k",
-				}, -- [14]
-				{
-					["type"] = 1,
-					["time"] = 1316961282,
-					["from"] = "Aset",
-					["msg"] = "it's like i'm swimming",
-					["inbound"] = false,
-					["convo"] = "|Kf321|k0000000000000|k",
-				}, -- [15]
-				{
-					["type"] = 1,
-					["time"] = 1316961299,
-					["from"] = "Aset",
-					["msg"] = "i just retired my \"Gigantique\" Bag",
-					["inbound"] = false,
-					["convo"] = "|Kf321|k0000000000000|k",
-				}, -- [16]
-				{
-					["type"] = 1,
-					["time"] = 1316961309,
-					["from"] = "Aset",
-					["msg"] = "replaced it with an Illusionary Bag",
-					["inbound"] = false,
-					["convo"] = "|Kf321|k0000000000000|k",
-				}, -- [17]
-				{
-					["type"] = 1,
-					["time"] = 1316961319,
-					["from"] = "Aset",
-					["msg"] = "Actually i'm not that nauseated",
-					["inbound"] = false,
-					["convo"] = "|Kf321|k0000000000000|k",
-				}, -- [18]
-				{
-					["type"] = 1,
-					["time"] = 1316961322,
-					["from"] = "Aset",
-					["msg"] = "which is good",
-					["inbound"] = false,
-					["convo"] = "|Kf321|k0000000000000|k",
-				}, -- [19]
-				{
-					["type"] = 1,
-					["time"] = 1316961325,
-					["from"] = "Aset",
-					["msg"] = "yes",
-					["inbound"] = false,
-					["convo"] = "|Kf321|k0000000000000|k",
-				}, -- [20]
-				{
-					["type"] = 1,
-					["time"] = 1316961330,
-					["from"] = "Aset",
-					["msg"] = "i only paid 3k for now! now i'm happy",
-					["inbound"] = false,
-					["convo"] = "|Kf321|k0000000000000|k",
-				}, -- [21]
-				{
-					["type"] = 1,
-					["time"] = 1316961348,
-					["from"] = "Aset",
-					["msg"] = "imma buy a bunch of them, when i can, and when they are listed",
-					["inbound"] = false,
-					["convo"] = "|Kf321|k0000000000000|k",
-				}, -- [22]
-				{
-					["type"] = 1,
-					["time"] = 1316961356,
-					["from"] = "Aset",
-					["msg"] = "but i like having mutliple cool bags",
-					["inbound"] = false,
-					["convo"] = "|Kf321|k0000000000000|k",
-				}, -- [23]
-				{
-					["type"] = 1,
-					["time"] = 1316961361,
-					["from"] = "Aset",
-					["msg"] = "like, before i put that one on, i was wearing:",
-					["inbound"] = false,
-					["convo"] = "|Kf321|k0000000000000|k",
-				}, -- [24]
-				{
-					["type"] = 1,
-					["time"] = 1316961395,
-					["from"] = "Aset",
-					["msg"] = " |Hitem:38082:0:0:0:0:0:0:0:85:0|h[\"Gigantique\" Bag]|h Dragon Hide Bag (from OS), Enlarged Onyxia Hide Backpack, Tattered Hexcloth Bag",
-					["inbound"] = false,
-					["convo"] = "|Kf321|k0000000000000|k",
-				}, -- [25]
-				{
-					["type"] = 1,
-					["time"] = 1316961404,
-					["from"] = "Aset",
-					["msg"] = "(couldn't link them while they were equipped lol)",
-					["inbound"] = false,
-					["convo"] = "|Kf321|k0000000000000|k",
-				}, -- [26]
-				{
-					["type"] = 1,
-					["time"] = 1316961413,
-					["from"] = "Aset",
-					["msg"] = "the last one isa  24 slot, the rest were 22s",
-					["inbound"] = false,
-					["convo"] = "|Kf321|k0000000000000|k",
-				}, -- [27]
-				{
-					["type"] = 1,
-					["time"] = 1316961417,
-					["from"] = "Aset",
-					["msg"] = "the Illusionary is 26 though",
-					["inbound"] = false,
-					["convo"] = "|Kf321|k0000000000000|k",
-				}, -- [28]
-				{
-					["type"] = 1,
-					["time"] = 1316961422,
-					["from"] = "Aset",
-					["msg"] = "that's worth giving up cool bags for",
-					["inbound"] = false,
-					["convo"] = "|Kf321|k0000000000000|k",
-				}, -- [29]
-				{
-					["type"] = 1,
-					["time"] = 1316961474,
-					["from"] = "Aset",
-					["msg"] = "ah at first i liked them all the same",
-					["inbound"] = false,
-					["convo"] = "|Kf321|k0000000000000|k",
-				}, -- [30]
-				{
-					["type"] = 1,
-					["time"] = 1316961480,
-					["from"] = "Aset",
-					["msg"] = "but now i like how colorful the spread is",
-					["inbound"] = false,
-					["convo"] = "|Kf321|k0000000000000|k",
-				}, -- [31]
-				{
-					["type"] = 1,
-					["time"] = 1316961492,
-					["from"] = "Aset",
-					["msg"] = "and before they were bigger than what you could get that was the sae",
-					["inbound"] = false,
-					["convo"] = "|Kf321|k0000000000000|k",
-				}, -- [32]
-				{
-					["type"] = 1,
-					["time"] = 1316961493,
-					["from"] = "Aset",
-					["msg"] = "same*",
-					["inbound"] = false,
-					["convo"] = "|Kf321|k0000000000000|k",
-				}, -- [33]
-				{
-					["type"] = 1,
-					["time"] = 1316961506,
-					["from"] = "Aset",
-					["msg"] = "that is, during Wrath i was sporting 4 Unique bags that were all 22 slotters",
-					["inbound"] = false,
-					["convo"] = "|Kf321|k0000000000000|k",
-				}, -- [34]
-				["info"] = {
-				},
-			},
-			["Snowguard"] = {
-				{
-					["type"] = 1,
-					["time"] = 1316652415,
-					["from"] = "Snowguard",
-					["msg"] = "join my raid group por un momento?",
-					["inbound"] = true,
-					["convo"] = "Snowguard",
-				}, -- [1]
-				{
-					["type"] = 1,
-					["time"] = 1316652420,
-					["from"] = "Aset",
-					["msg"] = "sec",
-					["inbound"] = false,
-					["convo"] = "Snowguard",
-				}, -- [2]
-				{
-					["type"] = 1,
-					["time"] = 1316652495,
-					["from"] = "Aset",
-					["msg"] = "k",
-					["inbound"] = false,
-					["convo"] = "Snowguard",
-				}, -- [3]
-				{
-					["type"] = 1,
-					["time"] = 1316652529,
-					["from"] = "Snowguard",
-					["msg"] = "tyvm",
-					["inbound"] = true,
-					["convo"] = "Snowguard",
-				}, -- [4]
-				{
-					["type"] = 1,
-					["time"] = 1316652542,
-					["from"] = "Aset",
-					["msg"] = "np",
-					["inbound"] = false,
-					["convo"] = "Snowguard",
-				}, -- [5]
-				{
-					["type"] = 1,
-					["time"] = 1316818847,
-					["from"] = "Snowguard",
-					["msg"] = "can u join my raid group for a second?",
-					["inbound"] = true,
-					["convo"] = "Snowguard",
-				}, -- [6]
-				{
-					["type"] = 1,
-					["time"] = 1316818871,
-					["from"] = "Aset",
-					["msg"] = "sure",
-					["inbound"] = false,
-					["convo"] = "Snowguard",
-				}, -- [7]
-				{
-					["type"] = 1,
-					["time"] = 1316818892,
-					["from"] = "Snowguard",
-					["msg"] = "tyvm",
-					["inbound"] = true,
-					["convo"] = "Snowguard",
-				}, -- [8]
-				["info"] = {
-				},
-			},
-			["Kavik"] = {
-				{
-					["type"] = 1,
-					["time"] = 1316570836,
-					["from"] = "Aset",
-					["msg"] = "Thanks for coming!",
-					["inbound"] = false,
-					["convo"] = "Kavik",
-				}, -- [1]
-				{
-					["type"] = 1,
-					["time"] = 1316570842,
-					["from"] = "Kavik",
-					["msg"] = "yep",
-					["inbound"] = true,
-					["convo"] = "Kavik",
-				}, -- [2]
-				["info"] = {
-				},
-			},
-			["|Kf139|k0000000000000|k"] = {
-				{
-					["type"] = 1,
-					["time"] = 1316282715,
-					["from"] = "Aset",
-					["msg"] = "lol you need to get happier",
-					["inbound"] = false,
-					["convo"] = "|Kf139|k0000000000000|k",
-				}, -- [1]
-				{
-					["type"] = 1,
-					["time"] = 1316282716,
-					["from"] = "Aset",
-					["msg"] = "!",
-					["inbound"] = false,
-					["convo"] = "|Kf139|k0000000000000|k",
-				}, -- [2]
-				{
-					["type"] = 1,
-					["time"] = 1316282724,
-					["from"] = "Aset",
-					["msg"] = "if you tank something.. what am I gonna do? haha",
-					["inbound"] = false,
-					["convo"] = "|Kf139|k0000000000000|k",
-				}, -- [3]
-				{
-					["type"] = 1,
-					["time"] = 1316282764,
-					["from"] = "Aset",
-					["msg"] = "what are you gonna tank on? ",
-					["inbound"] = false,
-					["convo"] = "|Kf139|k0000000000000|k",
-				}, -- [4]
-				{
-					["type"] = 1,
-					["time"] = 1316282809,
-					["from"] = "Aset",
-					["msg"] = "k",
-					["inbound"] = false,
-					["convo"] = "|Kf139|k0000000000000|k",
-				}, -- [5]
-				{
-					["type"] = 1,
-					["time"] = 1316282879,
-					["from"] = "Aset",
-					["msg"] = "sec i'm cutting gems",
-					["inbound"] = false,
-					["convo"] = "|Kf139|k0000000000000|k",
-				}, -- [6]
-				{
-					["type"] = 1,
-					["time"] = 1316282919,
-					["from"] = "Aset",
-					["msg"] = "hahaha the loser guy (i can't remember their names for some reason) is so good at just faking it",
-					["inbound"] = false,
-					["convo"] = "|Kf139|k0000000000000|k",
-				}, -- [7]
-				{
-					["type"] = 1,
-					["time"] = 1316282922,
-					["from"] = "Aset",
-					["msg"] = "ah true",
-					["inbound"] = false,
-					["convo"] = "|Kf139|k0000000000000|k",
-				}, -- [8]
-				["info"] = {
-				},
-			},
-			["|Kf351|k0000000000000000000|k"] = {
-				{
-					["type"] = 1,
-					["time"] = 1315879092,
-					["from"] = "Aset",
-					["msg"] = "Well hey there!",
-					["inbound"] = false,
-					["convo"] = "|Kf351|k0000000000000000000|k",
-				}, -- [1]
-				{
-					["type"] = 1,
-					["time"] = 1315879134,
-					["from"] = "Aset",
-					["msg"] = "Hard at work tonight, working on Rag hehe",
-					["inbound"] = false,
-					["convo"] = "|Kf351|k0000000000000000000|k",
-				}, -- [2]
-				{
-					["type"] = 1,
-					["time"] = 1315879188,
-					["from"] = "Aset",
-					["msg"] = "hehe nice",
-					["inbound"] = false,
-					["convo"] = "|Kf351|k0000000000000000000|k",
-				}, -- [3]
-				{
-					["type"] = 1,
-					["time"] = 1315879201,
-					["from"] = "Aset",
-					["msg"] = "haha",
-					["inbound"] = false,
-					["convo"] = "|Kf351|k0000000000000000000|k",
-				}, -- [4]
-				["info"] = {
-				},
-			},
-			["|Kf152|k00000000000|k"] = {
-				{
-					["type"] = 1,
-					["time"] = 1316007222,
-					["from"] = "Aset",
-					["msg"] = "haha i'm sorry :(",
-					["inbound"] = false,
-					["convo"] = "|Kf152|k00000000000|k",
-				}, -- [1]
-				{
-					["type"] = 1,
-					["time"] = 1316007225,
-					["from"] = "Aset",
-					["msg"] = "that sucks",
-					["inbound"] = false,
-					["convo"] = "|Kf152|k00000000000|k",
-				}, -- [2]
-				{
-					["type"] = 1,
-					["time"] = 1316007233,
-					["from"] = "Aset",
-					["msg"] = "also damn I need more Heartblossom!",
-					["inbound"] = false,
-					["convo"] = "|Kf152|k00000000000|k",
-				}, -- [3]
-				{
-					["type"] = 1,
-					["time"] = 1316007237,
-					["from"] = "Aset",
-					["msg"] = "there was only 1 stack on the AH",
-					["inbound"] = false,
-					["convo"] = "|Kf152|k00000000000|k",
-				}, -- [4]
-				{
-					["type"] = 1,
-					["time"] = 1316007242,
-					["from"] = "Aset",
-					["msg"] = "and i have like 5 stacks of Carnelian to xmute",
-					["inbound"] = false,
-					["convo"] = "|Kf152|k00000000000|k",
-				}, -- [5]
-				{
-					["type"] = 1,
-					["time"] = 1316007244,
-					["from"] = "Aset",
-					["msg"] = "arggg",
-					["inbound"] = false,
-					["convo"] = "|Kf152|k00000000000|k",
-				}, -- [6]
-				{
-					["type"] = 1,
-					["time"] = 1316007259,
-					["from"] = "Aset",
-					["msg"] = ":D",
-					["inbound"] = false,
-					["convo"] = "|Kf152|k00000000000|k",
-				}, -- [7]
-				{
-					["type"] = 1,
-					["time"] = 1316007268,
-					["from"] = "Aset",
-					["msg"] = "You're moving her back? :O \\o/",
-					["inbound"] = false,
-					["convo"] = "|Kf152|k00000000000|k",
-				}, -- [8]
-				{
-					["type"] = 1,
-					["time"] = 1316007282,
-					["from"] = "Aset",
-					["msg"] = "aww",
-					["inbound"] = false,
-					["convo"] = "|Kf152|k00000000000|k",
-				}, -- [9]
-				{
-					["type"] = 1,
-					["time"] = 1316007290,
-					["from"] = "Aset",
-					["msg"] = "probably pissed someone off in pvp and they came and disappeared him",
-					["inbound"] = false,
-					["convo"] = "|Kf152|k00000000000|k",
-				}, -- [10]
-				["info"] = {
-				},
-			},
-			["Shanaenae"] = {
-				{
-					["type"] = 1,
-					["time"] = 1315956072,
-					["from"] = "Aset",
-					["msg"] = "lol i'm sorry i'm laughing so hard over here i can't breathe",
-					["inbound"] = false,
-					["convo"] = "Shanaenae",
-				}, -- [1]
-				{
-					["type"] = 1,
-					["time"] = 1315956092,
-					["from"] = "Shanaenae",
-					["msg"] = "jerk",
-					["inbound"] = true,
-					["convo"] = "Shanaenae",
-				}, -- [2]
-				{
-					["type"] = 1,
-					["time"] = 1315956092,
-					["from"] = "Aset",
-					["msg"] = "Rezzing you (don't walk in!)",
-					["inbound"] = false,
-					["convo"] = "Shanaenae",
-				}, -- [3]
-				{
-					["type"] = 1,
-					["time"] = 1315956096,
-					["from"] = "Aset",
-					["msg"] = "lol",
-					["inbound"] = false,
-					["convo"] = "Shanaenae",
-				}, -- [4]
-				{
-					["type"] = 1,
-					["time"] = 1315956100,
-					["from"] = "Aset",
-					["msg"] = "i was gonna let you ride me down!",
-					["inbound"] = false,
-					["convo"] = "Shanaenae",
-				}, -- [5]
-				{
-					["type"] = 1,
-					["time"] = 1315956108,
-					["from"] = "Aset",
-					["msg"] = "i couldn't find the button lol",
-					["inbound"] = false,
-					["convo"] = "Shanaenae",
-				}, -- [6]
-				{
-					["type"] = 1,
-					["time"] = 1315956127,
-					["from"] = "Aset",
-					["msg"] = "<3 :)",
-					["inbound"] = false,
-					["convo"] = "Shanaenae",
-				}, -- [7]
-				{
-					["type"] = 1,
-					["time"] = 1315956134,
-					["from"] = "Aset",
-					["msg"] = "Would you like a ride to somewhere in particular?",
-					["inbound"] = false,
-					["convo"] = "Shanaenae",
-				}, -- [8]
-				{
-					["type"] = 1,
-					["time"] = 1315956136,
-					["from"] = "Shanaenae",
-					["msg"] = ">:O",
-					["inbound"] = true,
-					["convo"] = "Shanaenae",
-				}, -- [9]
-				{
-					["type"] = 1,
-					["time"] = 1315956148,
-					["from"] = "Aset",
-					["msg"] = "you have to admit that was funny",
-					["inbound"] = false,
-					["convo"] = "Shanaenae",
-				}, -- [10]
-				{
-					["type"] = 1,
-					["time"] = 1315956156,
-					["from"] = "Aset",
-					["msg"] = "that's only like the second time i've even managed to get on top of that pole",
-					["inbound"] = false,
-					["convo"] = "Shanaenae",
-				}, -- [11]
-				{
-					["type"] = 1,
-					["time"] = 1315956157,
-					["from"] = "Aset",
-					["msg"] = "lol",
-					["inbound"] = false,
-					["convo"] = "Shanaenae",
-				}, -- [12]
-				{
-					["type"] = 1,
-					["time"] = 1315956180,
-					["from"] = "Shanaenae",
-					["msg"] = "check your phone while i get pizza",
-					["inbound"] = true,
-					["convo"] = "Shanaenae",
-				}, -- [13]
-				{
-					["type"] = 1,
-					["time"] = 1315956185,
-					["from"] = "Aset",
-					["msg"] = "awwwwww sad Jamie is sad",
-					["inbound"] = false,
-					["convo"] = "Shanaenae",
-				}, -- [14]
-				{
-					["type"] = 1,
-					["time"] = 1315956188,
-					["from"] = "Aset",
-					["msg"] = "*huuuuuugs*",
-					["inbound"] = false,
-					["convo"] = "Shanaenae",
-				}, -- [15]
-				{
-					["type"] = 1,
-					["time"] = 1315956201,
-					["from"] = "Aset",
-					["msg"] = "That just makes me wanna hug you and make you happy again! :D",
-					["inbound"] = false,
-					["convo"] = "Shanaenae",
-				}, -- [16]
-				["info"] = {
-				},
-			},
-			["|Kf94|k0000000000000000|k"] = {
-				{
-					["type"] = 1,
-					["time"] = 1316738844,
-					["from"] = "Aset",
-					["msg"] = "nope, Third Eye Blind!",
-					["inbound"] = false,
-					["convo"] = "|Kf94|k0000000000000000|k",
-				}, -- [1]
-				{
-					["type"] = 1,
-					["time"] = 1316738881,
-					["from"] = "Aset",
-					["msg"] = "lol",
-					["inbound"] = false,
-					["convo"] = "|Kf94|k0000000000000000|k",
-				}, -- [2]
-				{
-					["type"] = 1,
-					["time"] = 1316738931,
-					["from"] = "Aset",
-					["msg"] = "lol do they?",
-					["inbound"] = false,
-					["convo"] = "|Kf94|k0000000000000000|k",
-				}, -- [3]
-				{
-					["type"] = 1,
-					["time"] = 1316738955,
-					["from"] = "Aset",
-					["msg"] = "I was thinking Tonic, but you're right it's Semisonic. I'm just watching this movie and the guy keeps singing it and saying he thinks it's Third Eye Blind",
-					["inbound"] = false,
-					["convo"] = "|Kf94|k0000000000000000|k",
-				}, -- [4]
-				{
-					["type"] = 1,
-					["time"] = 1316739031,
-					["from"] = "Aset",
-					["msg"] = "yeah its Friends with Benefits",
-					["inbound"] = false,
-					["convo"] = "|Kf94|k0000000000000000|k",
-				}, -- [5]
-				{
-					["type"] = 1,
-					["time"] = 1316739044,
-					["from"] = "Aset",
-					["msg"] = "i mean it's basically just a hot chick having lots of sex, so it's not so bad",
-					["inbound"] = false,
-					["convo"] = "|Kf94|k0000000000000000|k",
-				}, -- [6]
-				{
-					["type"] = 1,
-					["time"] = 1316739098,
-					["from"] = "Aset",
-					["msg"] = "Well, I suppose, but it lacks the story bit, where the person is shown to be a real person. Porn is lacking that, which makes me sad.",
-					["inbound"] = false,
-					["convo"] = "|Kf94|k0000000000000000|k",
-				}, -- [7]
-				{
-					["type"] = 1,
-					["time"] = 1316739157,
-					["from"] = "Aset",
-					["msg"] = "who is they? lol",
-					["inbound"] = false,
-					["convo"] = "|Kf94|k0000000000000000|k",
-				}, -- [8]
-				{
-					["type"] = 1,
-					["time"] = 1316739169,
-					["from"] = "Aset",
-					["msg"] = "I've heard the name but I know nothing about him",
-					["inbound"] = false,
-					["convo"] = "|Kf94|k0000000000000000|k",
-				}, -- [9]
-				{
-					["type"] = 1,
-					["time"] = 1316739206,
-					["from"] = "Aset",
-					["msg"] = "ah okay",
-					["inbound"] = false,
-					["convo"] = "|Kf94|k0000000000000000|k",
-				}, -- [10]
-				{
-					["type"] = 1,
-					["time"] = 1316739262,
-					["from"] = "Aset",
-					["msg"] = "hmm",
-					["inbound"] = false,
-					["convo"] = "|Kf94|k0000000000000000|k",
-				}, -- [11]
-				{
-					["type"] = 1,
-					["time"] = 1316739267,
-					["from"] = "Aset",
-					["msg"] = "lol",
-					["inbound"] = false,
-					["convo"] = "|Kf94|k0000000000000000|k",
-				}, -- [12]
-				{
-					["type"] = 1,
-					["time"] = 1316739281,
-					["from"] = "Aset",
-					["msg"] = "Well he has little-to-no impact on my life, so in my defense, he doesn't matter, lol",
-					["inbound"] = false,
-					["convo"] = "|Kf94|k0000000000000000|k",
-				}, -- [13]
-				{
-					["type"] = 1,
-					["time"] = 1316739448,
-					["from"] = "Aset",
-					["msg"] = "lol",
-					["inbound"] = false,
-					["convo"] = "|Kf94|k0000000000000000|k",
-				}, -- [14]
-				["info"] = {
-				},
-			},
-			["Piggyslasher"] = {
-				{
-					["type"] = 1,
-					["time"] = 1315968958,
-					["from"] = "Aset",
-					["msg"] = "Rezzing you (don't walk in!)",
-					["inbound"] = false,
-					["convo"] = "Piggyslasher",
-				}, -- [1]
-				{
-					["type"] = 1,
-					["time"] = 1315968982,
-					["from"] = "Aset",
-					["msg"] = "Rezzing you (don't walk in!)",
-					["inbound"] = false,
-					["convo"] = "Piggyslasher",
-				}, -- [2]
-				{
-					["type"] = 1,
-					["time"] = 1316572353,
-					["from"] = "Aset",
-					["msg"] = "Rezzing you (don't walk in!)",
-					["inbound"] = false,
-					["convo"] = "Piggyslasher",
-				}, -- [3]
-				["info"] = {
-				},
-			},
-			["|Kf1037|k00000000000|k"] = {
-				{
-					["type"] = 1,
-					["time"] = 1315889912,
-					["from"] = "Aset",
-					["msg"] = "Yay!",
-					["inbound"] = false,
-					["convo"] = "|Kf1037|k00000000000|k",
-				}, -- [1]
-				{
-					["type"] = 1,
-					["time"] = 1315889915,
-					["from"] = "Aset",
-					["msg"] = "What are we aying for?",
-					["inbound"] = false,
-					["convo"] = "|Kf1037|k00000000000|k",
-				}, -- [2]
-				{
-					["type"] = 1,
-					["time"] = 1315889924,
-					["from"] = "Aset",
-					["msg"] = "the shield?",
-					["inbound"] = false,
-					["convo"] = "|Kf1037|k00000000000|k",
-				}, -- [3]
-				{
-					["type"] = 1,
-					["time"] = 1315889932,
-					["from"] = "Aset",
-					["msg"] = "i also just had to make my own leg armor cuz none of the tanking on ah",
-					["inbound"] = false,
-					["convo"] = "|Kf1037|k00000000000|k",
-				}, -- [4]
-				{
-					["type"] = 1,
-					["time"] = 1315889934,
-					["from"] = "Aset",
-					["msg"] = "and my own ehncahnt",
-					["inbound"] = false,
-					["convo"] = "|Kf1037|k00000000000|k",
-				}, -- [5]
-				{
-					["type"] = 1,
-					["time"] = 1315889939,
-					["from"] = "Aset",
-					["msg"] = "and now i'm buying my helm enchant",
-					["inbound"] = false,
-					["convo"] = "|Kf1037|k00000000000|k",
-				}, -- [6]
-				{
-					["type"] = 1,
-					["time"] = 1315889941,
-					["from"] = "Aset",
-					["msg"] = "gosh",
-					["inbound"] = false,
-					["convo"] = "|Kf1037|k00000000000|k",
-				}, -- [7]
-				{
-					["type"] = 1,
-					["time"] = 1315889944,
-					["from"] = "Aset",
-					["msg"] = "work work owrk",
-					["inbound"] = false,
-					["convo"] = "|Kf1037|k00000000000|k",
-				}, -- [8]
-				{
-					["type"] = 1,
-					["time"] = 1315889947,
-					["from"] = "Aset",
-					["msg"] = "alts are hard",
-					["inbound"] = false,
-					["convo"] = "|Kf1037|k00000000000|k",
-				}, -- [9]
-				{
-					["type"] = 1,
-					["time"] = 1315889967,
-					["from"] = "Aset",
-					["msg"] = " |Hitem:68764:0:0:0:0:0:0:0:85:0|h[Arcanum of the Earthen Ring]|h!",
-					["inbound"] = false,
-					["convo"] = "|Kf1037|k00000000000|k",
-				}, -- [10]
-				{
-					["type"] = 1,
-					["time"] = 1315889971,
-					["from"] = "Aset",
-					["msg"] = "oh i crafted a helm",
-					["inbound"] = false,
-					["convo"] = "|Kf1037|k00000000000|k",
-				}, -- [11]
-				{
-					["type"] = 1,
-					["time"] = 1315889973,
-					["from"] = "Aset",
-					["msg"] = "333 with a socket",
-					["inbound"] = false,
-					["convo"] = "|Kf1037|k00000000000|k",
-				}, -- [12]
-				{
-					["type"] = 1,
-					["time"] = 1315889979,
-					["from"] = "Aset",
-					["msg"] = "meta",
-					["inbound"] = false,
-					["convo"] = "|Kf1037|k00000000000|k",
-				}, -- [13]
-				{
-					["type"] = 1,
-					["time"] = 1315889983,
-					["from"] = "Aset",
-					["msg"] = "not great but has a meta so well worth it",
-					["inbound"] = false,
-					["convo"] = "|Kf1037|k00000000000|k",
-				}, -- [14]
-				{
-					["type"] = 1,
-					["time"] = 1315889999,
-					["from"] = "Aset",
-					["msg"] = "especially since i'm wearing my BoA helm right now.. haha",
-					["inbound"] = false,
-					["convo"] = "|Kf1037|k00000000000|k",
-				}, -- [15]
-				["info"] = {
-				},
-			},
-			["|Kf1032|k00000000000|k"] = {
-				{
-					["type"] = 1,
-					["time"] = 1316298573,
-					["from"] = "Aset",
-					["msg"] = "Rawr!",
-					["inbound"] = false,
-					["convo"] = "|Kf1032|k00000000000|k",
-				}, -- [1]
-				{
-					["type"] = 1,
-					["time"] = 1316298575,
-					["from"] = "Aset",
-					["msg"] = "Dang you beat me",
-					["inbound"] = false,
-					["convo"] = "|Kf1032|k00000000000|k",
-				}, -- [2]
-				{
-					["type"] = 1,
-					["time"] = 1316298576,
-					["from"] = "Aset",
-					["msg"] = "lol",
-					["inbound"] = false,
-					["convo"] = "|Kf1032|k00000000000|k",
-				}, -- [3]
-				{
-					["type"] = 1,
-					["time"] = 1316298581,
-					["from"] = "Aset",
-					["msg"] = "Areanaaaa!",
-					["inbound"] = false,
-					["convo"] = "|Kf1032|k00000000000|k",
-				}, -- [4]
-				{
-					["type"] = 1,
-					["time"] = 1316299035,
-					["from"] = "Aset",
-					["msg"] = "With Haliax",
-					["inbound"] = false,
-					["convo"] = "|Kf1032|k00000000000|k",
-				}, -- [5]
-				{
-					["type"] = 1,
-					["time"] = 1316299038,
-					["from"] = "Aset",
-					["msg"] = "but it's terrible",
-					["inbound"] = false,
-					["convo"] = "|Kf1032|k00000000000|k",
-				}, -- [6]
-				{
-					["type"] = 1,
-					["time"] = 1316299046,
-					["from"] = "Aset",
-					["msg"] = "Holy paladins are useless in arena",
-					["inbound"] = false,
-					["convo"] = "|Kf1032|k00000000000|k",
-				}, -- [7]
-				{
-					["type"] = 1,
-					["time"] = 1316299095,
-					["from"] = "Aset",
-					["msg"] = "it's really annoying being the only one who can cc, and having to do everything yourself lol",
-					["inbound"] = false,
-					["convo"] = "|Kf1032|k00000000000|k",
-				}, -- [8]
-				{
-					["type"] = 1,
-					["time"] = 1316299793,
-					["from"] = "Aset",
-					["msg"] = "yes plz!",
-					["inbound"] = false,
-					["convo"] = "|Kf1032|k00000000000|k",
-				}, -- [9]
-				{
-					["type"] = 1,
-					["time"] = 1316299816,
-					["from"] = "Aset",
-					["msg"] = "oh?",
-					["inbound"] = false,
-					["convo"] = "|Kf1032|k00000000000|k",
-				}, -- [10]
-				{
-					["type"] = 1,
-					["time"] = 1316299818,
-					["from"] = "Aset",
-					["msg"] = "how come? :O",
-					["inbound"] = false,
-					["convo"] = "|Kf1032|k00000000000|k",
-				}, -- [11]
-				{
-					["type"] = 1,
-					["time"] = 1316299878,
-					["from"] = "Aset",
-					["msg"] = "Ahhh I see",
-					["inbound"] = false,
-					["convo"] = "|Kf1032|k00000000000|k",
-				}, -- [12]
-				{
-					["type"] = 1,
-					["time"] = 1316299890,
-					["from"] = "Aset",
-					["msg"] = "Well I hope it goes better this time and you are completely happy and stuff when you return :",
-					["inbound"] = false,
-					["convo"] = "|Kf1032|k00000000000|k",
-				}, -- [13]
-				{
-					["type"] = 1,
-					["time"] = 1316299891,
-					["from"] = "Aset",
-					["msg"] = ":)",
-					["inbound"] = false,
-					["convo"] = "|Kf1032|k00000000000|k",
-				}, -- [14]
-				{
-					["type"] = 1,
-					["time"] = 1316299899,
-					["from"] = "Aset",
-					["msg"] = "uhh",
-					["inbound"] = false,
-					["convo"] = "|Kf1032|k00000000000|k",
-				}, -- [15]
-				{
-					["type"] = 1,
-					["time"] = 1316299900,
-					["from"] = "Aset",
-					["msg"] = "i don't know",
-					["inbound"] = false,
-					["convo"] = "|Kf1032|k00000000000|k",
-				}, -- [16]
-				{
-					["type"] = 1,
-					["time"] = 1316299939,
-					["from"] = "Aset",
-					["msg"] = "did you get anything new?",
-					["inbound"] = false,
-					["convo"] = "|Kf1032|k00000000000|k",
-				}, -- [17]
-				{
-					["type"] = 1,
-					["time"] = 1316299944,
-					["from"] = "Aset",
-					["msg"] = "probably mangle spam and finish with FB",
-					["inbound"] = false,
-					["convo"] = "|Kf1032|k00000000000|k",
-				}, -- [18]
-				{
-					["type"] = 1,
-					["time"] = 1316299996,
-					["from"] = "Aset",
-					["msg"] = "if you're in an instance, then.. shred spam, also keep rake up if you have it",
-					["inbound"] = false,
-					["convo"] = "|Kf1032|k00000000000|k",
-				}, -- [19]
-				{
-					["type"] = 1,
-					["time"] = 1316300000,
-					["from"] = "Aset",
-					["msg"] = "rip at 5 cp if you have it",
-					["inbound"] = false,
-					["convo"] = "|Kf1032|k00000000000|k",
-				}, -- [20]
-				{
-					["type"] = 1,
-					["time"] = 1316300014,
-					["from"] = "Aset",
-					["msg"] = "what *do* you have? :)",
-					["inbound"] = false,
-					["convo"] = "|Kf1032|k00000000000|k",
-				}, -- [21]
-				{
-					["type"] = 1,
-					["time"] = 1316300018,
-					["from"] = "Aset",
-					["msg"] = "k",
-					["inbound"] = false,
-					["convo"] = "|Kf1032|k00000000000|k",
-				}, -- [22]
-				{
-					["type"] = 1,
-					["time"] = 1316300066,
-					["from"] = "Aset",
-					["msg"] = "k",
-					["inbound"] = false,
-					["convo"] = "|Kf1032|k00000000000|k",
-				}, -- [23]
-				{
-					["type"] = 1,
-					["time"] = 1316300073,
-					["from"] = "Aset",
-					["msg"] = "you asking solo? or in a dungeon?",
-					["inbound"] = false,
-					["convo"] = "|Kf1032|k00000000000|k",
-				}, -- [24]
-				{
-					["type"] = 1,
-					["time"] = 1316300117,
-					["from"] = "Aset",
-					["msg"] = "well",
-					["inbound"] = false,
-					["convo"] = "|Kf1032|k00000000000|k",
-				}, -- [25]
-				{
-					["type"] = 1,
-					["time"] = 1316300120,
-					["from"] = "Aset",
-					["msg"] = "solo do whatever works",
-					["inbound"] = false,
-					["convo"] = "|Kf1032|k00000000000|k",
-				}, -- [26]
-				{
-					["type"] = 1,
-					["time"] = 1316300124,
-					["from"] = "Aset",
-					["msg"] = "if ravage is still one shotting, do that",
-					["inbound"] = false,
-					["convo"] = "|Kf1032|k00000000000|k",
-				}, -- [27]
-				{
-					["type"] = 1,
-					["time"] = 1316300132,
-					["from"] = "Aset",
-					["msg"] = "otherwise ravage, mangle a few times, and FB to finish off",
-					["inbound"] = false,
-					["convo"] = "|Kf1032|k00000000000|k",
-				}, -- [28]
-				{
-					["type"] = 1,
-					["time"] = 1316300157,
-					["from"] = "Aset",
-					["msg"] = "for an instance, mangle spam, keep rake up, and FB at 5 cp",
-					["inbound"] = false,
-					["convo"] = "|Kf1032|k00000000000|k",
-				}, -- [29]
-				{
-					["type"] = 1,
-					["time"] = 1316300158,
-					["from"] = "Aset",
-					["msg"] = "and repeat",
-					["inbound"] = false,
-					["convo"] = "|Kf1032|k00000000000|k",
-				}, -- [30]
-				{
-					["type"] = 1,
-					["time"] = 1316300221,
-					["from"] = "Aset",
-					["msg"] = ":D",
-					["inbound"] = false,
-					["convo"] = "|Kf1032|k00000000000|k",
-				}, -- [31]
-				{
-					["type"] = 1,
-					["time"] = 1316300225,
-					["from"] = "Aset",
-					["msg"] = "We are terrible",
-					["inbound"] = false,
-					["convo"] = "|Kf1032|k00000000000|k",
-				}, -- [32]
-				{
-					["type"] = 1,
-					["time"] = 1316300227,
-					["from"] = "Aset",
-					["msg"] = "lol",
-					["inbound"] = false,
-					["convo"] = "|Kf1032|k00000000000|k",
-				}, -- [33]
-				{
-					["type"] = 1,
-					["time"] = 1316300234,
-					["from"] = "Aset",
-					["msg"] = "we're doing 5 naked games",
-					["inbound"] = false,
-					["convo"] = "|Kf1032|k00000000000|k",
-				}, -- [34]
-				{
-					["type"] = 1,
-					["time"] = 1316300284,
-					["from"] = "Aset",
-					["msg"] = "to try to get our rating down",
-					["inbound"] = false,
-					["convo"] = "|Kf1032|k00000000000|k",
-				}, -- [35]
-				{
-					["type"] = 1,
-					["time"] = 1316300289,
-					["from"] = "Aset",
-					["msg"] = "so we don't have to fight teams that are so hard ><",
-					["inbound"] = false,
-					["convo"] = "|Kf1032|k00000000000|k",
-				}, -- [36]
-				{
-					["type"] = 1,
-					["time"] = 1316300345,
-					["from"] = "Aset",
-					["msg"] = "lol okay",
-					["inbound"] = false,
-					["convo"] = "|Kf1032|k00000000000|k",
-				}, -- [37]
-				{
-					["type"] = 1,
-					["time"] = 1316300346,
-					["from"] = "Aset",
-					["msg"] = "<3",
-					["inbound"] = false,
-					["convo"] = "|Kf1032|k00000000000|k",
-				}, -- [38]
-				{
-					["type"] = 1,
-					["time"] = 1316300351,
-					["from"] = "Aset",
-					["msg"] = ":O",
-					["inbound"] = false,
-					["convo"] = "|Kf1032|k00000000000|k",
-				}, -- [39]
-				{
-					["type"] = 1,
-					["time"] = 1316300352,
-					["from"] = "Aset",
-					["msg"] = "kk",
-					["inbound"] = false,
-					["convo"] = "|Kf1032|k00000000000|k",
-				}, -- [40]
-				["info"] = {
-				},
-			},
-			["|Kf765|k0000000000000|k"] = {
-				{
-					["type"] = 1,
-					["time"] = 1316566557,
-					["from"] = "Aset",
-					["msg"] = "You were never a problem for me.",
-					["inbound"] = false,
-					["convo"] = "|Kf765|k0000000000000|k",
-				}, -- [1]
-				{
-					["type"] = 1,
-					["time"] = 1316566720,
-					["from"] = "Aset",
-					["msg"] = "Hey it's true! And I will always keep the Thayan's Room channel around :P",
-					["inbound"] = false,
-					["convo"] = "|Kf765|k0000000000000|k",
-				}, -- [2]
-				{
-					["type"] = 1,
-					["time"] = 1316566795,
-					["from"] = "Aset",
-					["msg"] = "Well, you weren't there. And actually, neither was I.",
-					["inbound"] = false,
-					["convo"] = "|Kf765|k0000000000000|k",
-				}, -- [3]
-				{
-					["type"] = 1,
-					["time"] = 1316566812,
-					["from"] = "Aset",
-					["msg"] = "You shouldn't be muted in any of the groups.. except the Secret Police which mutes everyone who enters it.. and I can't figure out why lol",
-					["inbound"] = false,
-					["convo"] = "|Kf765|k0000000000000|k",
-				}, -- [4]
-				{
-					["type"] = 1,
-					["time"] = 1316566820,
-					["from"] = "Aset",
-					["msg"] = "er, groups=channels",
-					["inbound"] = false,
-					["convo"] = "|Kf765|k0000000000000|k",
-				}, -- [5]
-				{
-					["type"] = 1,
-					["time"] = 1316566898,
-					["from"] = "Aset",
-					["msg"] = "Well, you were supposed to be able to talk, could you really not?",
-					["inbound"] = false,
-					["convo"] = "|Kf765|k0000000000000|k",
-				}, -- [6]
-				{
-					["type"] = 1,
-					["time"] = 1316566919,
-					["from"] = "Aset",
-					["msg"] = "Sorry, that was not supposed to be",
-					["inbound"] = false,
-					["convo"] = "|Kf765|k0000000000000|k",
-				}, -- [7]
-				{
-					["type"] = 1,
-					["time"] = 1316566927,
-					["from"] = "Aset",
-					["msg"] = "Aww :(",
-					["inbound"] = false,
-					["convo"] = "|Kf765|k0000000000000|k",
-				}, -- [8]
-				{
-					["type"] = 1,
-					["time"] = 1316567178,
-					["from"] = "Aset",
-					["msg"] = "He wasn't supposed to tell you you were awful! But again, they didn't really consult me, just that day he was like \"we decided this, and we didn't include you because we knew you would not agree\" and I said \"well, alright I gues\" and that was that",
-					["inbound"] = false,
-					["convo"] = "|Kf765|k0000000000000|k",
-				}, -- [9]
-				{
-					["type"] = 1,
-					["time"] = 1316567751,
-					["from"] = "Aset",
-					["msg"] = "Well I'm sorry. I had no problem with you and i miss you. If you'd prefer I never speak to you again, I can arrange that. But it would make me sad.",
-					["inbound"] = false,
-					["convo"] = "|Kf765|k0000000000000|k",
-				}, -- [10]
-				{
-					["type"] = 1,
-					["time"] = 1316568073,
-					["from"] = "Aset",
-					["msg"] = "I understand. I didn't really see much/any of the stuff everyone was complaining about, but there certainly was complaining.",
-					["inbound"] = false,
-					["convo"] = "|Kf765|k0000000000000|k",
-				}, -- [11]
-				{
-					["type"] = 1,
-					["time"] = 1316568110,
-					["from"] = "Aset",
-					["msg"] = "And.. I know what it's like to have everyone turn on you.. I came to the Alliance side after I broke up with a girl on the Horde side and she and her new group of boys broke up my guild and formed a new one, and said I wasn't welcome :(",
-					["inbound"] = false,
-					["convo"] = "|Kf765|k0000000000000|k",
-				}, -- [12]
-				{
-					["type"] = 1,
-					["time"] = 1316568149,
-					["from"] = "Aset",
-					["msg"] = "Well, I wouldn't say everyone, but people had been complaining for a few weeks, but again, I wasn't really seeing what they were talking about. I mean, I guess you asked if we were done frequently, but it didn't bother me, so id on't know",
-					["inbound"] = false,
-					["convo"] = "|Kf765|k0000000000000|k",
-				}, -- [13]
-				{
-					["type"] = 1,
-					["time"] = 1316568227,
-					["from"] = "Aset",
-					["msg"] = "lol really? No i had no idea about that.",
-					["inbound"] = false,
-					["convo"] = "|Kf765|k0000000000000|k",
-				}, -- [14]
-				{
-					["type"] = 1,
-					["time"] = 1316568270,
-					["from"] = "Aset",
-					["msg"] = "I don't know, i'm usually not in on the little side-talking.. especially the stuff that went on it /o, but I guess you were in that channel too so who knows ><",
-					["inbound"] = false,
-					["convo"] = "|Kf765|k0000000000000|k",
-				}, -- [15]
-				{
-					["type"] = 1,
-					["time"] = 1316568295,
-					["from"] = "Aset",
-					["msg"] = "Well that's pretty shitty :(",
-					["inbound"] = false,
-					["convo"] = "|Kf765|k0000000000000|k",
-				}, -- [16]
-				{
-					["type"] = 1,
-					["time"] = 1316568374,
-					["from"] = "Aset",
-					["msg"] = "eek, that's pretty late",
-					["inbound"] = false,
-					["convo"] = "|Kf765|k0000000000000|k",
-				}, -- [17]
-				{
-					["type"] = 1,
-					["time"] = 1316568396,
-					["from"] = "Aset",
-					["msg"] = "And I'm really honestly sorry, I wish there was another way to solve the issues :(",
-					["inbound"] = false,
-					["convo"] = "|Kf765|k0000000000000|k",
-				}, -- [18]
-				{
-					["type"] = 1,
-					["time"] = 1316568688,
-					["from"] = "Aset",
-					["msg"] = "lol Maso said he had spoken to you and Bacon multiple times about your \"failure to perform\"",
-					["inbound"] = false,
-					["convo"] = "|Kf765|k0000000000000|k",
-				}, -- [19]
-				{
-					["type"] = 1,
-					["time"] = 1316568732,
-					["from"] = "Aset",
-					["msg"] = "Well that's pretty crappy. That's not what I was told, at all.",
-					["inbound"] = false,
-					["convo"] = "|Kf765|k0000000000000|k",
-				}, -- [20]
-				{
-					["type"] = 1,
-					["time"] = 1316568749,
-					["from"] = "Aset",
-					["msg"] = "Also he's not here atm because someone cut his internet line or osme shit, and now everyone is fightning in vent lol",
-					["inbound"] = false,
-					["convo"] = "|Kf765|k0000000000000|k",
-				}, -- [21]
-				{
-					["type"] = 1,
-					["time"] = 1316568803,
-					["from"] = "Aset",
-					["msg"] = "He was supposed to be on by raid time but he said the guys fixing it were idiots and broke it worse and they had to send someone else.. /facepalm",
-					["inbound"] = false,
-					["convo"] = "|Kf765|k0000000000000|k",
-				}, -- [22]
-				{
-					["type"] = 1,
-					["time"] = 1316568813,
-					["from"] = "Aset",
-					["msg"] = "But yeah, I'm sorry :( ",
-					["inbound"] = false,
-					["convo"] = "|Kf765|k0000000000000|k",
-				}, -- [23]
-				{
-					["type"] = 1,
-					["time"] = 1316568867,
-					["from"] = "Aset",
-					["msg"] = "lol could be, aparently he didn't show yesterday either",
-					["inbound"] = false,
-					["convo"] = "|Kf765|k0000000000000|k",
-				}, -- [24]
-				{
-					["type"] = 1,
-					["time"] = 1316568889,
-					["from"] = "Aset",
-					["msg"] = "I was gone yesterday though.. My insurance company made me switch crazy-meds and i'm going through SSRI-withdrawl :(",
-					["inbound"] = false,
-					["convo"] = "|Kf765|k0000000000000|k",
-				}, -- [25]
-				{
-					["type"] = 1,
-					["time"] = 1316568928,
-					["from"] = "Aset",
-					["msg"] = "Yesterday was much worse.. I had a terrible headache yesterday.. today I'm just all out of it and fuzzy in the head ><",
-					["inbound"] = false,
-					["convo"] = "|Kf765|k0000000000000|k",
-				}, -- [26]
-				{
-					["type"] = 1,
-					["time"] = 1316568931,
-					["from"] = "Aset",
-					["msg"] = "eek that sucks",
-					["inbound"] = false,
-					["convo"] = "|Kf765|k0000000000000|k",
-				}, -- [27]
-				{
-					["type"] = 1,
-					["time"] = 1316568946,
-					["from"] = "Aset",
-					["msg"] = "I'm just pissed off that my insurance company is now dealing out medical decisions",
-					["inbound"] = false,
-					["convo"] = "|Kf765|k0000000000000|k",
-				}, -- [28]
-				{
-					["type"] = 1,
-					["time"] = 1316568974,
-					["from"] = "Aset",
-					["msg"] = "ah well that's cool",
-					["inbound"] = false,
-					["convo"] = "|Kf765|k0000000000000|k",
-				}, -- [29]
-				{
-					["type"] = 1,
-					["time"] = 1316569022,
-					["from"] = "Aset",
-					["msg"] = "holy crap",
-					["inbound"] = false,
-					["convo"] = "|Kf765|k0000000000000|k",
-				}, -- [30]
-				{
-					["type"] = 1,
-					["time"] = 1316569027,
-					["from"] = "Aset",
-					["msg"] = "what did they have you on for migraines?",
-					["inbound"] = false,
-					["convo"] = "|Kf765|k0000000000000|k",
-				}, -- [31]
-				{
-					["type"] = 1,
-					["time"] = 1316569063,
-					["from"] = "Aset",
-					["msg"] = "dang",
-					["inbound"] = false,
-					["convo"] = "|Kf765|k0000000000000|k",
-				}, -- [32]
-				{
-					["type"] = 1,
-					["time"] = 1316569073,
-					["from"] = "Aset",
-					["msg"] = "Imitrex.. is that the melt-on-your-tongue one?",
-					["inbound"] = false,
-					["convo"] = "|Kf765|k0000000000000|k",
-				}, -- [33]
-				{
-					["type"] = 1,
-					["time"] = 1316569096,
-					["from"] = "Aset",
-					["msg"] = "k",
-					["inbound"] = false,
-					["convo"] = "|Kf765|k0000000000000|k",
-				}, -- [34]
-				{
-					["type"] = 1,
-					["time"] = 1316569110,
-					["from"] = "Aset",
-					["msg"] = "there was one I had once that I thought sounded similar to that, that you put under your tongue i think and it melted quickly",
-					["inbound"] = false,
-					["convo"] = "|Kf765|k0000000000000|k",
-				}, -- [35]
-				{
-					["type"] = 1,
-					["time"] = 1316569116,
-					["from"] = "Aset",
-					["msg"] = "and you were supposed to take it when you felt one coming on",
-					["inbound"] = false,
-					["convo"] = "|Kf765|k0000000000000|k",
-				}, -- [36]
-				{
-					["type"] = 1,
-					["time"] = 1316569122,
-					["from"] = "Aset",
-					["msg"] = "but it may have been something different",
-					["inbound"] = false,
-					["convo"] = "|Kf765|k0000000000000|k",
-				}, -- [37]
-				{
-					["type"] = 1,
-					["time"] = 1316569125,
-					["from"] = "Aset",
-					["msg"] = "Did you ever try Topomax?",
-					["inbound"] = false,
-					["convo"] = "|Kf765|k0000000000000|k",
-				}, -- [38]
-				{
-					["type"] = 1,
-					["time"] = 1316569171,
-					["from"] = "Aset",
-					["msg"] = "Doctor ever suggest it?",
-					["inbound"] = false,
-					["convo"] = "|Kf765|k0000000000000|k",
-				}, -- [39]
-				{
-					["type"] = 1,
-					["time"] = 1316569184,
-					["from"] = "Aset",
-					["msg"] = "ah could be",
-					["inbound"] = false,
-					["convo"] = "|Kf765|k0000000000000|k",
-				}, -- [40]
-				{
-					["type"] = 1,
-					["time"] = 1316569191,
-					["from"] = "Aset",
-					["msg"] = "Topomax can be a miracle drug.. or it can make you want to die",
-					["inbound"] = false,
-					["convo"] = "|Kf765|k0000000000000|k",
-				}, -- [41]
-				{
-					["type"] = 1,
-					["time"] = 1316569192,
-					["from"] = "Aset",
-					["msg"] = "lol",
-					["inbound"] = false,
-					["convo"] = "|Kf765|k0000000000000|k",
-				}, -- [42]
-				{
-					["type"] = 1,
-					["time"] = 1316569193,
-					["from"] = "Aset",
-					["msg"] = "soo",
-					["inbound"] = false,
-					["convo"] = "|Kf765|k0000000000000|k",
-				}, -- [43]
-				{
-					["type"] = 1,
-					["time"] = 1316569209,
-					["from"] = "Aset",
-					["msg"] = "They put me on it for a bit, but i wanted to kill myself so i stopped after a week",
-					["inbound"] = false,
-					["convo"] = "|Kf765|k0000000000000|k",
-				}, -- [44]
-				{
-					["type"] = 1,
-					["time"] = 1316569229,
-					["from"] = "Aset",
-					["msg"] = "People who don't get the side effects though.. It's usually *extremely* effective at completely preventing migraines",
-					["inbound"] = false,
-					["convo"] = "|Kf765|k0000000000000|k",
-				}, -- [45]
-				{
-					["type"] = 1,
-					["time"] = 1316569234,
-					["from"] = "Aset",
-					["msg"] = "yeah",
-					["inbound"] = false,
-					["convo"] = "|Kf765|k0000000000000|k",
-				}, -- [46]
-				{
-					["type"] = 1,
-					["time"] = 1316569242,
-					["from"] = "Aset",
-					["msg"] = "That's a good point, and I don't know what it would interact badly with.",
-					["inbound"] = false,
-					["convo"] = "|Kf765|k0000000000000|k",
-				}, -- [47]
-				{
-					["type"] = 1,
-					["time"] = 1316569509,
-					["from"] = "Aset",
-					["msg"] = "np",
-					["inbound"] = false,
-					["convo"] = "|Kf765|k0000000000000|k",
-				}, -- [48]
-				["info"] = {
-				},
-			},
-			["|Kf54|k00000000000|k"] = {
-				{
-					["type"] = 1,
-					["time"] = 1316006767,
-					["from"] = "Aset",
-					["msg"] = ":O",
-					["inbound"] = false,
-					["convo"] = "|Kf54|k00000000000|k",
-				}, -- [1]
-				{
-					["type"] = 1,
-					["time"] = 1316006770,
-					["from"] = "Aset",
-					["msg"] = "Leveling is so fast!",
-					["inbound"] = false,
-					["convo"] = "|Kf54|k00000000000|k",
-				}, -- [2]
-				{
-					["type"] = 1,
-					["time"] = 1316006774,
-					["from"] = "Aset",
-					["msg"] = "I'm just sad you're doing it all alone :(",
-					["inbound"] = false,
-					["convo"] = "|Kf54|k00000000000|k",
-				}, -- [3]
-				{
-					["type"] = 1,
-					["time"] = 1316006785,
-					["from"] = "Aset",
-					["msg"] = "I guess I could finish my Goblin",
-					["inbound"] = false,
-					["convo"] = "|Kf54|k00000000000|k",
-				}, -- [4]
-				{
-					["type"] = 1,
-					["time"] = 1316006790,
-					["from"] = "Aset",
-					["msg"] = "or at least get him out of the starting zone lol",
-					["inbound"] = false,
-					["convo"] = "|Kf54|k00000000000|k",
-				}, -- [5]
-				{
-					["type"] = 1,
-					["time"] = 1316006850,
-					["from"] = "Aset",
-					["msg"] = "Well, i have another account!",
-					["inbound"] = false,
-					["convo"] = "|Kf54|k00000000000|k",
-				}, -- [6]
-				{
-					["type"] = 1,
-					["time"] = 1316006889,
-					["from"] = "Aset",
-					["msg"] = "And I need to level a new toon to see the \"cataclysm content\" since there was none for raiders, lol",
-					["inbound"] = false,
-					["convo"] = "|Kf54|k00000000000|k",
-				}, -- [7]
-				["info"] = {
-				},
-			},
-			["|Kf767|k0000000000000000|k"] = {
-				{
-					["type"] = 1,
-					["time"] = 1316572735,
-					["from"] = "Aset",
-					["msg"] = "so yeah?",
-					["inbound"] = false,
-					["convo"] = "|Kf767|k0000000000000000|k",
-				}, -- [1]
-				{
-					["type"] = 1,
-					["time"] = 1316572744,
-					["from"] = "Aset",
-					["msg"] = "lol yeah",
-					["inbound"] = false,
-					["convo"] = "|Kf767|k0000000000000000|k",
-				}, -- [2]
-				{
-					["type"] = 1,
-					["time"] = 1316572746,
-					["from"] = "Aset",
-					["msg"] = "i heard",
-					["inbound"] = false,
-					["convo"] = "|Kf767|k0000000000000000|k",
-				}, -- [3]
-				{
-					["type"] = 1,
-					["time"] = 1316572748,
-					["from"] = "Aset",
-					["msg"] = "talked to her",
-					["inbound"] = false,
-					["convo"] = "|Kf767|k0000000000000000|k",
-				}, -- [4]
-				{
-					["type"] = 1,
-					["time"] = 1316572752,
-					["from"] = "Aset",
-					["msg"] = "Nah she didn't take anything",
-					["inbound"] = false,
-					["convo"] = "|Kf767|k0000000000000000|k",
-				}, -- [5]
-				{
-					["type"] = 1,
-					["time"] = 1316572761,
-					["from"] = "Aset",
-					["msg"] = "She got kicked from our raid group by the leader",
-					["inbound"] = false,
-					["convo"] = "|Kf767|k0000000000000000|k",
-				}, -- [6]
-				{
-					["type"] = 1,
-					["time"] = 1316572763,
-					["from"] = "Aset",
-					["msg"] = "her and her boyfriend",
-					["inbound"] = false,
-					["convo"] = "|Kf767|k0000000000000000|k",
-				}, -- [7]
-				{
-					["type"] = 1,
-					["time"] = 1316572771,
-					["from"] = "Aset",
-					["msg"] = "oh she did",
-					["inbound"] = false,
-					["convo"] = "|Kf767|k0000000000000000|k",
-				}, -- [8]
-				{
-					["type"] = 1,
-					["time"] = 1316572777,
-					["from"] = "Aset",
-					["msg"] = "Well i mean",
-					["inbound"] = false,
-					["convo"] = "|Kf767|k0000000000000000|k",
-				}, -- [9]
-				{
-					["type"] = 1,
-					["time"] = 1316572783,
-					["from"] = "Aset",
-					["msg"] = "She got geared well if that's what you mean",
-					["inbound"] = false,
-					["convo"] = "|Kf767|k0000000000000000|k",
-				}, -- [10]
-				{
-					["type"] = 1,
-					["time"] = 1316572788,
-					["from"] = "Aset",
-					["msg"] = "but it was legit, she didn't steal anything or anything",
-					["inbound"] = false,
-					["convo"] = "|Kf767|k0000000000000000|k",
-				}, -- [11]
-				{
-					["type"] = 1,
-					["time"] = 1316572866,
-					["from"] = "Aset",
-					["msg"] = "and she used to farm fish and cauldrons for us",
-					["inbound"] = false,
-					["convo"] = "|Kf767|k0000000000000000|k",
-				}, -- [12]
-				{
-					["type"] = 1,
-					["time"] = 1316573151,
-					["from"] = "Aset",
-					["msg"] = "ah yeah",
-					["inbound"] = false,
-					["convo"] = "|Kf767|k0000000000000000|k",
-				}, -- [13]
-				{
-					["type"] = 1,
-					["time"] = 1316573155,
-					["from"] = "Aset",
-					["msg"] = "yeah she had farmed a lot for us",
-					["inbound"] = false,
-					["convo"] = "|Kf767|k0000000000000000|k",
-				}, -- [14]
-				{
-					["type"] = 1,
-					["time"] = 1316573175,
-					["from"] = "Aset",
-					["msg"] = "I really like her and think she's pretty cool. Her dps was not as good as it could ahve been.. possibly she was doing something wrong and someone could help her do better? ",
-					["inbound"] = false,
-					["convo"] = "|Kf767|k0000000000000000|k",
-				}, -- [15]
-				{
-					["type"] = 1,
-					["time"] = 1316573182,
-					["from"] = "Aset",
-					["msg"] = "otherwise she's a pretty solid player",
-					["inbound"] = false,
-					["convo"] = "|Kf767|k0000000000000000|k",
-				}, -- [16]
-				{
-					["type"] = 1,
-					["time"] = 1316573185,
-					["from"] = "Aset",
-					["msg"] = "and cute to boot",
-					["inbound"] = false,
-					["convo"] = "|Kf767|k0000000000000000|k",
-				}, -- [17]
-				{
-					["type"] = 1,
-					["time"] = 1316573186,
-					["from"] = "Aset",
-					["msg"] = "!",
-					["inbound"] = false,
-					["convo"] = "|Kf767|k0000000000000000|k",
-				}, -- [18]
-				{
-					["type"] = 1,
-					["time"] = 1316574030,
-					["from"] = "Aset",
-					["msg"] = "yep",
-					["inbound"] = false,
-					["convo"] = "|Kf767|k0000000000000000|k",
-				}, -- [19]
-				{
-					["type"] = 1,
-					["time"] = 1316574071,
-					["from"] = "Aset",
-					["msg"] = "HAHAHAH",
-					["inbound"] = false,
-					["convo"] = "|Kf767|k0000000000000000|k",
-				}, -- [20]
-				{
-					["type"] = 1,
-					["time"] = 1316574075,
-					["from"] = "Aset",
-					["msg"] = "killed her before she finished P1",
-					["inbound"] = false,
-					["convo"] = "|Kf767|k0000000000000000|k",
-				}, -- [21]
-				{
-					["type"] = 1,
-					["time"] = 1316574083,
-					["from"] = "Aset",
-					["msg"] = "haha",
-					["inbound"] = false,
-					["convo"] = "|Kf767|k0000000000000000|k",
-				}, -- [22]
-				{
-					["type"] = 1,
-					["time"] = 1316574087,
-					["from"] = "Aset",
-					["msg"] = "that was pathetic",
-					["inbound"] = false,
-					["convo"] = "|Kf767|k0000000000000000|k",
-				}, -- [23]
-				{
-					["type"] = 1,
-					["time"] = 1316574100,
-					["from"] = "Aset",
-					["msg"] = "oh, yeah",
-					["inbound"] = false,
-					["convo"] = "|Kf767|k0000000000000000|k",
-				}, -- [24]
-				{
-					["type"] = 1,
-					["time"] = 1316574107,
-					["from"] = "Aset",
-					["msg"] = "while she was on the ground",
-					["inbound"] = false,
-					["convo"] = "|Kf767|k0000000000000000|k",
-				}, -- [25]
-				{
-					["type"] = 1,
-					["time"] = 1316574108,
-					["from"] = "Aset",
-					["msg"] = "the first time",
-					["inbound"] = false,
-					["convo"] = "|Kf767|k0000000000000000|k",
-				}, -- [26]
-				{
-					["type"] = 1,
-					["time"] = 1316574127,
-					["from"] = "Aset",
-					["msg"] = "she died before she took off again",
-					["inbound"] = false,
-					["convo"] = "|Kf767|k0000000000000000|k",
-				}, -- [27]
-				{
-					["type"] = 1,
-					["time"] = 1316574165,
-					["from"] = "Aset",
-					["msg"] = "oh",
-					["inbound"] = false,
-					["convo"] = "|Kf767|k0000000000000000|k",
-				}, -- [28]
-				{
-					["type"] = 1,
-					["time"] = 1316574166,
-					["from"] = "Aset",
-					["msg"] = "meh",
-					["inbound"] = false,
-					["convo"] = "|Kf767|k0000000000000000|k",
-				}, -- [29]
-				{
-					["type"] = 1,
-					["time"] = 1316574169,
-					["from"] = "Aset",
-					["msg"] = "not much slower, but a little",
-					["inbound"] = false,
-					["convo"] = "|Kf767|k0000000000000000|k",
-				}, -- [30]
-				{
-					["type"] = 1,
-					["time"] = 1316574177,
-					["from"] = "Aset",
-					["msg"] = "maybe 15%?",
-					["inbound"] = false,
-					["convo"] = "|Kf767|k0000000000000000|k",
-				}, -- [31]
-				{
-					["type"] = 1,
-					["time"] = 1316574179,
-					["from"] = "Aset",
-					["msg"] = "or 20%",
-					["inbound"] = false,
-					["convo"] = "|Kf767|k0000000000000000|k",
-				}, -- [32]
-				{
-					["type"] = 1,
-					["time"] = 1316574188,
-					["from"] = "Aset",
-					["msg"] = "enough to be easier, and enough to be hard if you're used to running wtih 2 feathers lol",
-					["inbound"] = false,
-					["convo"] = "|Kf767|k0000000000000000|k",
-				}, -- [33]
-				["info"] = {
-				},
-			},
-			["|Kf330|k0000000000000000|k"] = {
-				{
-					["type"] = 1,
-					["time"] = 1315960380,
-					["from"] = "Aset",
-					["msg"] = "hot damn",
-					["inbound"] = false,
-					["convo"] = "|Kf330|k0000000000000000|k",
-				}, -- [1]
-				{
-					["type"] = 1,
-					["time"] = 1315960383,
-					["from"] = "Aset",
-					["msg"] = "id idn't think of that",
-					["inbound"] = false,
-					["convo"] = "|Kf330|k0000000000000000|k",
-				}, -- [2]
-				{
-					["type"] = 1,
-					["time"] = 1315960385,
-					["from"] = "Aset",
-					["msg"] = "my group doesn't",
-					["inbound"] = false,
-					["convo"] = "|Kf330|k0000000000000000|k",
-				}, -- [3]
-				{
-					["type"] = 1,
-					["time"] = 1315960391,
-					["from"] = "Aset",
-					["msg"] = "Maybe they'll finally let ferals DW :)",
-					["inbound"] = false,
-					["convo"] = "|Kf330|k0000000000000000|k",
-				}, -- [4]
-				{
-					["type"] = 1,
-					["time"] = 1315960394,
-					["from"] = "Aset",
-					["msg"] = "yeah",
-					["inbound"] = false,
-					["convo"] = "|Kf330|k0000000000000000|k",
-				}, -- [5]
-				{
-					["type"] = 1,
-					["time"] = 1315960395,
-					["from"] = "Aset",
-					["msg"] = "i agree",
-					["inbound"] = false,
-					["convo"] = "|Kf330|k0000000000000000|k",
-				}, -- [6]
-				{
-					["type"] = 1,
-					["time"] = 1315960397,
-					["from"] = "Aset",
-					["msg"] = "it's pretty lame",
-					["inbound"] = false,
-					["convo"] = "|Kf330|k0000000000000000|k",
-				}, -- [7]
-				{
-					["type"] = 1,
-					["time"] = 1315960410,
-					["from"] = "Aset",
-					["msg"] = "have we heard it's for sure an agi dagger? and not spell power? though that would be even worse, so it must be agi lol",
-					["inbound"] = false,
-					["convo"] = "|Kf330|k0000000000000000|k",
-				}, -- [8]
-				{
-					["type"] = 1,
-					["time"] = 1315960419,
-					["from"] = "Aset",
-					["msg"] = "feral weapon?",
-					["inbound"] = false,
-					["convo"] = "|Kf330|k0000000000000000|k",
-				}, -- [9]
-				{
-					["type"] = 1,
-					["time"] = 1315960427,
-					["from"] = "Aset",
-					["msg"] = "technically the bow was more recent than the glaives",
-					["inbound"] = false,
-					["convo"] = "|Kf330|k0000000000000000|k",
-				}, -- [10]
-				{
-					["type"] = 1,
-					["time"] = 1315960508,
-					["from"] = "Aset",
-					["msg"] = "lol",
-					["inbound"] = false,
-					["convo"] = "|Kf330|k0000000000000000|k",
-				}, -- [11]
-				{
-					["type"] = 1,
-					["time"] = 1315960510,
-					["from"] = "Aset",
-					["msg"] = "if you must",
-					["inbound"] = false,
-					["convo"] = "|Kf330|k0000000000000000|k",
-				}, -- [12]
-				{
-					["type"] = 1,
-					["time"] = 1315960605,
-					["from"] = "Aset",
-					["msg"] = "1. ) Whine",
-					["inbound"] = false,
-					["convo"] = "|Kf330|k0000000000000000|k",
-				}, -- [13]
-				{
-					["type"] = 1,
-					["time"] = 1315960608,
-					["from"] = "Aset",
-					["msg"] = "2. ) whine",
-					["inbound"] = false,
-					["convo"] = "|Kf330|k0000000000000000|k",
-				}, -- [14]
-				{
-					["type"] = 1,
-					["time"] = 1315960614,
-					["from"] = "Aset",
-					["msg"] = "3 ) what?",
-					["inbound"] = false,
-					["convo"] = "|Kf330|k0000000000000000|k",
-				}, -- [15]
-				{
-					["type"] = 1,
-					["time"] = 1315960622,
-					["from"] = "Aset",
-					["msg"] = "i don't know what it is",
-					["inbound"] = false,
-					["convo"] = "|Kf330|k0000000000000000|k",
-				}, -- [16]
-				{
-					["type"] = 1,
-					["time"] = 1315960624,
-					["from"] = "Aset",
-					["msg"] = "so i'm asking what",
-					["inbound"] = false,
-					["convo"] = "|Kf330|k0000000000000000|k",
-				}, -- [17]
-				{
-					["type"] = 1,
-					["time"] = 1315960625,
-					["from"] = "Aset",
-					["msg"] = "lol",
-					["inbound"] = false,
-					["convo"] = "|Kf330|k0000000000000000|k",
-				}, -- [18]
-				{
-					["type"] = 1,
-					["time"] = 1315960636,
-					["from"] = "Aset",
-					["msg"] = "really the last-boss-of-the-xpac is a good point",
-					["inbound"] = false,
-					["convo"] = "|Kf330|k0000000000000000|k",
-				}, -- [19]
-				{
-					["type"] = 1,
-					["time"] = 1315960648,
-					["from"] = "Aset",
-					["msg"] = "though so was Shadowmourne",
-					["inbound"] = false,
-					["convo"] = "|Kf330|k0000000000000000|k",
-				}, -- [20]
-				{
-					["type"] = 1,
-					["time"] = 1315960674,
-					["from"] = "Aset",
-					["msg"] = "well",
-					["inbound"] = false,
-					["convo"] = "|Kf330|k0000000000000000|k",
-				}, -- [21]
-				{
-					["type"] = 1,
-					["time"] = 1315960680,
-					["from"] = "Aset",
-					["msg"] = "that's a stretch",
-					["inbound"] = false,
-					["convo"] = "|Kf330|k0000000000000000|k",
-				}, -- [22]
-				{
-					["type"] = 1,
-					["time"] = 1315960741,
-					["from"] = "Aset",
-					["msg"] = "i mean, everything is getting easier now, so it's not a valid excuse. A bow was created after the glaives, so hoping a bow will be anytime soon is just dilluting yourself",
-					["inbound"] = false,
-					["convo"] = "|Kf330|k0000000000000000|k",
-				}, -- [23]
-				{
-					["type"] = 1,
-					["time"] = 1315960781,
-					["from"] = "Aset",
-					["msg"] = "oh i'm sure",
-					["inbound"] = false,
-					["convo"] = "|Kf330|k0000000000000000|k",
-				}, -- [24]
-				{
-					["type"] = 1,
-					["time"] = 1315960791,
-					["from"] = "Aset",
-					["msg"] = "or more",
-					["inbound"] = false,
-					["convo"] = "|Kf330|k0000000000000000|k",
-				}, -- [25]
-				{
-					["type"] = 1,
-					["time"] = 1315960794,
-					["from"] = "Aset",
-					["msg"] = "yeah",
-					["inbound"] = false,
-					["convo"] = "|Kf330|k0000000000000000|k",
-				}, -- [26]
-				{
-					["type"] = 1,
-					["time"] = 1315960795,
-					["from"] = "Aset",
-					["msg"] = "i agree",
-					["inbound"] = false,
-					["convo"] = "|Kf330|k0000000000000000|k",
-				}, -- [27]
-				{
-					["type"] = 1,
-					["time"] = 1315960797,
-					["from"] = "Aset",
-					["msg"] = "that's what i wanted",
-					["inbound"] = false,
-					["convo"] = "|Kf330|k0000000000000000|k",
-				}, -- [28]
-				{
-					["type"] = 1,
-					["time"] = 1315960805,
-					["from"] = "Aset",
-					["msg"] = "agi polearm cuz.. two of us, and two not-very-loved specs",
-					["inbound"] = false,
-					["convo"] = "|Kf330|k0000000000000000|k",
-				}, -- [29]
-				{
-					["type"] = 1,
-					["time"] = 1315960808,
-					["from"] = "Aset",
-					["msg"] = "yeah",
-					["inbound"] = false,
-					["convo"] = "|Kf330|k0000000000000000|k",
-				}, -- [30]
-				{
-					["type"] = 1,
-					["time"] = 1315960810,
-					["from"] = "Aset",
-					["msg"] = "that's pretty bullshit",
-					["inbound"] = false,
-					["convo"] = "|Kf330|k0000000000000000|k",
-				}, -- [31]
-				{
-					["type"] = 1,
-					["time"] = 1315960939,
-					["from"] = "Aset",
-					["msg"] = "lol",
-					["inbound"] = false,
-					["convo"] = "|Kf330|k0000000000000000|k",
-				}, -- [32]
-				{
-					["type"] = 1,
-					["time"] = 1315960939,
-					["from"] = "Aset",
-					["msg"] = "yep",
-					["inbound"] = false,
-					["convo"] = "|Kf330|k0000000000000000|k",
-				}, -- [33]
-				{
-					["type"] = 1,
-					["time"] = 1315960952,
-					["from"] = "Aset",
-					["msg"] = "maybe they'll let cats DW",
-					["inbound"] = false,
-					["convo"] = "|Kf330|k0000000000000000|k",
-				}, -- [34]
-				{
-					["type"] = 1,
-					["time"] = 1315960964,
-					["from"] = "Aset",
-					["msg"] = "why can't hunters DW daggers anymore?",
-					["inbound"] = false,
-					["convo"] = "|Kf330|k0000000000000000|k",
-				}, -- [35]
-				{
-					["type"] = 1,
-					["time"] = 1315961032,
-					["from"] = "Aset",
-					["msg"] = "oh it is?",
-					["inbound"] = false,
-					["convo"] = "|Kf330|k0000000000000000|k",
-				}, -- [36]
-				{
-					["type"] = 1,
-					["time"] = 1315961033,
-					["from"] = "Aset",
-					["msg"] = "you're sure?",
-					["inbound"] = false,
-					["convo"] = "|Kf330|k0000000000000000|k",
-				}, -- [37]
-				{
-					["type"] = 1,
-					["time"] = 1315961045,
-					["from"] = "Aset",
-					["msg"] = "and.. why don't they ever use daggers anymore?",
-					["inbound"] = false,
-					["convo"] = "|Kf330|k0000000000000000|k",
-				}, -- [38]
-				{
-					["type"] = 1,
-					["time"] = 1315961051,
-					["from"] = "Aset",
-					["msg"] = "we've sharded a lot of nice daggers",
-					["inbound"] = false,
-					["convo"] = "|Kf330|k0000000000000000|k",
-				}, -- [39]
-				{
-					["type"] = 1,
-					["time"] = 1315961056,
-					["from"] = "Aset",
-					["msg"] = "hunter never wants them",
-					["inbound"] = false,
-					["convo"] = "|Kf330|k0000000000000000|k",
-				}, -- [40]
-				{
-					["type"] = 1,
-					["time"] = 1315961083,
-					["from"] = "Aset",
-					["msg"] = "oooh",
-					["inbound"] = false,
-					["convo"] = "|Kf330|k0000000000000000|k",
-				}, -- [41]
-				{
-					["type"] = 1,
-					["time"] = 1315961097,
-					["from"] = "Aset",
-					["msg"] = "lame",
-					["inbound"] = false,
-					["convo"] = "|Kf330|k0000000000000000|k",
-				}, -- [42]
-				{
-					["type"] = 1,
-					["time"] = 1315961266,
-					["from"] = "Aset",
-					["msg"] = "yep, pretty freaking lame man",
-					["inbound"] = false,
-					["convo"] = "|Kf330|k0000000000000000|k",
-				}, -- [43]
-				{
-					["type"] = 1,
-					["time"] = 1315965905,
-					["from"] = "Aset",
-					["msg"] = "nah",
-					["inbound"] = false,
-					["convo"] = "|Kf330|k0000000000000000|k",
-				}, -- [44]
-				{
-					["type"] = 1,
-					["time"] = 1315965907,
-					["from"] = "Aset",
-					["msg"] = " |Hitem:71617:0:0:0:0:0:0:713698352:85:0|h[Crystallized Firestone]|h!",
-					["inbound"] = false,
-					["convo"] = "|Kf330|k0000000000000000|k",
-				}, -- [45]
-				{
-					["type"] = 1,
-					["time"] = 1315965970,
-					["from"] = "Aset",
-					["msg"] = "i got it :D",
-					["inbound"] = false,
-					["convo"] = "|Kf330|k0000000000000000|k",
-				}, -- [46]
-				{
-					["type"] = 1,
-					["time"] = 1315965984,
-					["from"] = "Aset",
-					["msg"] = "i also won the roll on  |Hitem:71440:0:0:0:0:0:0:445262896:85:0|h[Gloves of Dissolving Smoke]|h but passed them to Piggy since I got the stone lol",
-					["inbound"] = false,
-					["convo"] = "|Kf330|k0000000000000000|k",
-				}, -- [47]
-				{
-					["type"] = 1,
-					["time"] = 1315965988,
-					["from"] = "Aset",
-					["msg"] = "but now the quesiton is, what do i upgrade? :O",
-					["inbound"] = false,
-					["convo"] = "|Kf330|k0000000000000000|k",
-				}, -- [48]
-				{
-					["type"] = 1,
-					["time"] = 1315965991,
-					["from"] = "Aset",
-					["msg"] = " |Hitem:71557:0:0:0:0:0:0:0:85:0|h[Ranseur of Hatred]|h ?",
-					["inbound"] = false,
-					["convo"] = "|Kf330|k0000000000000000|k",
-				}, -- [49]
-				{
-					["type"] = 1,
-					["time"] = 1315965999,
-					["from"] = "Aset",
-					["msg"] = "it's not my best weapon so i think not",
-					["inbound"] = false,
-					["convo"] = "|Kf330|k0000000000000000|k",
-				}, -- [50]
-				{
-					["type"] = 1,
-					["time"] = 1315966068,
-					["from"] = "Aset",
-					["msg"] = "I hope so, how hard is he?",
-					["inbound"] = false,
-					["convo"] = "|Kf330|k0000000000000000|k",
-				}, -- [51]
-				{
-					["type"] = 1,
-					["time"] = 1315966080,
-					["from"] = "Aset",
-					["msg"] = " |Hitem:69109:0:0:0:0:0:0:0:85:0|h[Scales of Life]|h that probably makes that worth being one of my main trinkets.. that's a TON of stam..",
-					["inbound"] = false,
-					["convo"] = "|Kf330|k0000000000000000|k",
-				}, -- [52]
-				["info"] = {
-				},
-			},
-			["Crimsonmyst"] = {
-				{
-					["type"] = 1,
-					["time"] = 1315889840,
-					["from"] = "Crimsonmyst",
-					["msg"] = "you busy?",
-					["inbound"] = true,
-					["convo"] = "Crimsonmyst",
-				}, -- [1]
-				{
-					["type"] = 1,
-					["time"] = 1315889848,
-					["from"] = "Aset",
-					["msg"] = "a bit, what's up?",
-					["inbound"] = false,
-					["convo"] = "Crimsonmyst",
-				}, -- [2]
-				{
-					["type"] = 1,
-					["time"] = 1315889861,
-					["from"] = "Crimsonmyst",
-					["msg"] = "would you mind doing Blackwing Lair with me? (get your T2 for transmog)",
-					["inbound"] = true,
-					["convo"] = "Crimsonmyst",
-				}, -- [3]
-				{
-					["type"] = 1,
-					["time"] = 1315889870,
-					["from"] = "Aset",
-					["msg"] = "a no thanks, not tonight, sorry",
-					["inbound"] = false,
-					["convo"] = "Crimsonmyst",
-				}, -- [4]
-				{
-					["type"] = 1,
-					["time"] = 1315889888,
-					["from"] = "Aset",
-					["msg"] = "ty for the invite though",
-					["inbound"] = false,
-					["convo"] = "Crimsonmyst",
-				}, -- [5]
-				{
-					["type"] = 1,
-					["time"] = 1315889893,
-					["from"] = "Crimsonmyst",
-					["msg"] = "ok",
-					["inbound"] = true,
-					["convo"] = "Crimsonmyst",
-				}, -- [6]
-				["info"] = {
-				},
-			},
-			["|Kf280|k00000000000|k"] = {
-				{
-					["type"] = 1,
-					["time"] = 1316734466,
-					["from"] = "Aset",
-					["msg"] = "lol",
-					["inbound"] = false,
-					["convo"] = "|Kf280|k00000000000|k",
-				}, -- [1]
-				{
-					["type"] = 1,
-					["time"] = 1316734470,
-					["from"] = "Aset",
-					["msg"] = "how'd that go?",
-					["inbound"] = false,
-					["convo"] = "|Kf280|k00000000000|k",
-				}, -- [2]
-				{
-					["type"] = 1,
-					["time"] = 1316734555,
-					["from"] = "Aset",
-					["msg"] = "aww :(",
-					["inbound"] = false,
-					["convo"] = "|Kf280|k00000000000|k",
-				}, -- [3]
-				{
-					["type"] = 1,
-					["time"] = 1316734556,
-					["from"] = "Aset",
-					["msg"] = "that's so mean!",
-					["inbound"] = false,
-					["convo"] = "|Kf280|k00000000000|k",
-				}, -- [4]
-				{
-					["type"] = 1,
-					["time"] = 1316734558,
-					["from"] = "Aset",
-					["msg"] = "poor doggy!",
-					["inbound"] = false,
-					["convo"] = "|Kf280|k00000000000|k",
-				}, -- [5]
-				{
-					["type"] = 1,
-					["time"] = 1316734683,
-					["from"] = "Aset",
-					["msg"] = "possibly",
-					["inbound"] = false,
-					["convo"] = "|Kf280|k00000000000|k",
-				}, -- [6]
-				["info"] = {
-				},
-			},
-			["|Kf352|k00000000000|k"] = {
-				{
-					["type"] = 1,
-					["time"] = 1316288529,
-					["from"] = "Aset",
-					["msg"] = "wb",
-					["inbound"] = false,
-					["convo"] = "|Kf352|k00000000000|k",
-				}, -- [1]
-				{
-					["type"] = 1,
-					["time"] = 1316288532,
-					["from"] = "Aset",
-					["msg"] = "?",
-					["inbound"] = false,
-					["convo"] = "|Kf352|k00000000000|k",
-				}, -- [2]
-				{
-					["type"] = 1,
-					["time"] = 1316289111,
-					["from"] = "Aset",
-					["msg"] = ":O",
-					["inbound"] = false,
-					["convo"] = "|Kf352|k00000000000|k",
-				}, -- [3]
-				{
-					["type"] = 1,
-					["time"] = 1316289312,
-					["from"] = "Aset",
-					["msg"] = "afk getting clean!",
-					["inbound"] = false,
-					["convo"] = "|Kf352|k00000000000|k",
-				}, -- [4]
-				["info"] = {
-				},
-			},
-			["|Kf212|k000000000000|k"] = {
-				{
-					["type"] = 1,
-					["time"] = 1316219249,
-					["from"] = "Aset",
-					["msg"] = "Possibly",
-					["inbound"] = false,
-					["convo"] = "|Kf212|k000000000000|k",
-				}, -- [1]
-				{
-					["type"] = 1,
-					["time"] = 1316219257,
-					["from"] = "Aset",
-					["msg"] = "But I think Maso called dibs already, sec i'll find out",
-					["inbound"] = false,
-					["convo"] = "|Kf212|k000000000000|k",
-				}, -- [2]
-				["info"] = {
-				},
-			},
-			["|Kf747|k00000000000|k"] = {
-				{
-					["type"] = 1,
-					["time"] = 1316567705,
-					["from"] = "Aset",
-					["msg"] = "what woman? O_o",
-					["inbound"] = false,
-					["convo"] = "|Kf747|k00000000000|k",
-				}, -- [1]
-				{
-					["type"] = 1,
-					["time"] = 1316567765,
-					["from"] = "Aset",
-					["msg"] = "ugh i'm sorry",
-					["inbound"] = false,
-					["convo"] = "|Kf747|k00000000000|k",
-				}, -- [2]
-				{
-					["type"] = 1,
-					["time"] = 1316567788,
-					["from"] = "Aset",
-					["msg"] = "lolol",
-					["inbound"] = false,
-					["convo"] = "|Kf747|k00000000000|k",
-				}, -- [3]
-				{
-					["type"] = 1,
-					["time"] = 1316567793,
-					["from"] = "Aset",
-					["msg"] = "you aren't even there! What's going on now?",
-					["inbound"] = false,
-					["convo"] = "|Kf747|k00000000000|k",
-				}, -- [4]
-				{
-					["type"] = 1,
-					["time"] = 1316567922,
-					["from"] = "Aset",
-					["msg"] = "lol",
-					["inbound"] = false,
-					["convo"] = "|Kf747|k00000000000|k",
-				}, -- [5]
-				{
-					["type"] = 1,
-					["time"] = 1316567922,
-					["from"] = "Aset",
-					["msg"] = "wait",
-					["inbound"] = false,
-					["convo"] = "|Kf747|k00000000000|k",
-				}, -- [6]
-				{
-					["type"] = 1,
-					["time"] = 1316567927,
-					["from"] = "Aset",
-					["msg"] = "is there even a problem?",
-					["inbound"] = false,
-					["convo"] = "|Kf747|k00000000000|k",
-				}, -- [7]
-				{
-					["type"] = 1,
-					["time"] = 1316567929,
-					["from"] = "Aset",
-					["msg"] = "i'm so confused now",
-					["inbound"] = false,
-					["convo"] = "|Kf747|k00000000000|k",
-				}, -- [8]
-				{
-					["type"] = 1,
-					["time"] = 1316568029,
-					["from"] = "Aset",
-					["msg"] = "nah we won",
-					["inbound"] = false,
-					["convo"] = "|Kf747|k00000000000|k",
-				}, -- [9]
-				{
-					["type"] = 1,
-					["time"] = 1316569905,
-					["from"] = "Aset",
-					["msg"] = ":O",
-					["inbound"] = false,
-					["convo"] = "|Kf747|k00000000000|k",
-				}, -- [10]
-				{
-					["type"] = 1,
-					["time"] = 1316569907,
-					["from"] = "Aset",
-					["msg"] = "probably",
-					["inbound"] = false,
-					["convo"] = "|Kf747|k00000000000|k",
-				}, -- [11]
-				{
-					["type"] = 1,
-					["time"] = 1316574260,
-					["from"] = "Aset",
-					["msg"] = ":O",
-					["inbound"] = false,
-					["convo"] = "|Kf747|k00000000000|k",
-				}, -- [12]
-				{
-					["type"] = 1,
-					["time"] = 1316574287,
-					["from"] = "Aset",
-					["msg"] = "what was it from?",
-					["inbound"] = false,
-					["convo"] = "|Kf747|k00000000000|k",
-				}, -- [13]
-				["info"] = {
-				},
-			},
 			["Jkkiller"] = {
 				{
 					["type"] = 1,
@@ -23220,247 +21729,127 @@ WIM3_History = {
 				["info"] = {
 				},
 			},
-			["|Kf276|k000000000000|k"] = {
+			["|Kf581|k00000000000|k"] = {
 				{
 					["type"] = 1,
-					["time"] = 1315882216,
+					["time"] = 1316145215,
 					["from"] = "Aset",
-					["msg"] = "sup",
+					["msg"] = ":O",
 					["inbound"] = false,
-					["convo"] = "|Kf276|k000000000000|k",
+					["convo"] = "|Kf581|k00000000000|k",
 				}, -- [1]
 				{
 					["type"] = 1,
-					["time"] = 1315882602,
+					["time"] = 1316145216,
 					["from"] = "Aset",
-					["msg"] = "lol ty",
+					["msg"] = "FINALLY!",
 					["inbound"] = false,
-					["convo"] = "|Kf276|k000000000000|k",
+					["convo"] = "|Kf581|k00000000000|k",
 				}, -- [2]
 				{
 					["type"] = 1,
-					["time"] = 1315882727,
+					["time"] = 1316145222,
 					["from"] = "Aset",
-					["msg"] = " |Hitem:71354:0:0:0:0:0:0:2111272448:85:0|h[Choker of the Vanquished Lord]|h for me probably",
+					["msg"] = "My heart was so sad",
 					["inbound"] = false,
-					["convo"] = "|Kf276|k000000000000|k",
+					["convo"] = "|Kf581|k00000000000|k",
 				}, -- [3]
 				{
 					["type"] = 1,
-					["time"] = 1315882748,
+					["time"] = 1316145551,
 					["from"] = "Aset",
-					["msg"] = "lol yep",
+					["msg"] = "aww",
 					["inbound"] = false,
-					["convo"] = "|Kf276|k000000000000|k",
+					["convo"] = "|Kf581|k00000000000|k",
 				}, -- [4]
 				{
 					["type"] = 1,
-					["time"] = 1315882751,
+					["time"] = 1316145555,
 					["from"] = "Aset",
-					["msg"] = "helm token went to the mage",
+					["msg"] = "I sowwy! <3",
 					["inbound"] = false,
-					["convo"] = "|Kf276|k000000000000|k",
+					["convo"] = "|Kf581|k00000000000|k",
 				}, -- [5]
 				{
 					["type"] = 1,
-					["time"] = 1315882758,
+					["time"] = 1316145559,
 					["from"] = "Aset",
-					["msg"] = "i rolled an 18, piggy rolled an 18, Roor rolled 21",
+					["msg"] = "Are you better now?",
 					["inbound"] = false,
-					["convo"] = "|Kf276|k000000000000|k",
+					["convo"] = "|Kf581|k00000000000|k",
 				}, -- [6]
 				{
 					["type"] = 1,
-					["time"] = 1315882759,
+					["time"] = 1316145598,
 					["from"] = "Aset",
-					["msg"] = "hahah",
+					["msg"] = "damn!",
 					["inbound"] = false,
-					["convo"] = "|Kf276|k000000000000|k",
+					["convo"] = "|Kf581|k00000000000|k",
 				}, -- [7]
 				{
 					["type"] = 1,
-					["time"] = 1315882841,
+					["time"] = 1316145600,
 					["from"] = "Aset",
-					["msg"] = " |Hitem:71798:0:0:0:0:0:0:-1915259392:85:0|h[Sho'ravon, Greatstaff of Annihilation]|h as well, but not for me",
+					["msg"] = "I sowwy",
 					["inbound"] = false,
-					["convo"] = "|Kf276|k000000000000|k",
-				}, -- [8]
-				["info"] = {
-				},
-			},
-			["|Kf122|k00000000000|k"] = {
-				{
-					["type"] = 1,
-					["time"] = 1317054425,
-					["from"] = "Aset",
-					["msg"] = "rawr!",
-					["inbound"] = false,
-					["convo"] = "|Kf122|k00000000000|k",
-				}, -- [1]
-				{
-					["type"] = 1,
-					["time"] = 1317054506,
-					["from"] = "Aset",
-					["msg"] = "yes'm",
-					["inbound"] = false,
-					["convo"] = "|Kf122|k00000000000|k",
-				}, -- [2]
-				{
-					["type"] = 1,
-					["time"] = 1317054594,
-					["from"] = "Aset",
-					["msg"] = "yeah now that you finally got up! sheesh!",
-					["inbound"] = false,
-					["convo"] = "|Kf122|k00000000000|k",
-				}, -- [3]
-				{
-					["type"] = 1,
-					["time"] = 1317054617,
-					["from"] = "Aset",
-					["msg"] = "Meh, i'm improving, it's hard to tell which bad feelings are the sick and which are the withdrawls, but overall i feel better than I did yesterday.",
-					["inbound"] = false,
-					["convo"] = "|Kf122|k00000000000|k",
-				}, -- [4]
-				["info"] = {
-				},
-			},
-			["Âerith"] = {
-				{
-					["type"] = 1,
-					["time"] = 1315882775,
-					["from"] = "Âerith",
-					["msg"] = "how much for an inferno ruby?",
-					["inbound"] = true,
-					["convo"] = "Âerith",
-				}, -- [1]
-				{
-					["type"] = 1,
-					["time"] = 1315882782,
-					["from"] = "Aset",
-					["msg"] = "you want it cut?",
-					["inbound"] = false,
-					["convo"] = "Âerith",
-				}, -- [2]
-				{
-					["type"] = 1,
-					["time"] = 1315882783,
-					["from"] = "Aset",
-					["msg"] = "int?",
-					["inbound"] = false,
-					["convo"] = "Âerith",
-				}, -- [3]
-				{
-					["type"] = 1,
-					["time"] = 1315882786,
-					["from"] = "Âerith",
-					["msg"] = "yes plox",
-					["inbound"] = true,
-					["convo"] = "Âerith",
-				}, -- [4]
-				{
-					["type"] = 1,
-					["time"] = 1315882810,
-					["from"] = "Aset",
-					["msg"] = "already back in sw?",
-					["inbound"] = false,
-					["convo"] = "Âerith",
-				}, -- [5]
-				{
-					["type"] = 1,
-					["time"] = 1315882815,
-					["from"] = "Âerith",
-					["msg"] = "yeah",
-					["inbound"] = true,
-					["convo"] = "Âerith",
-				}, -- [6]
-				{
-					["type"] = 1,
-					["time"] = 1315882871,
-					["from"] = "Aset",
-					["msg"] = " nah it's cool you can have it free",
-					["inbound"] = false,
-					["convo"] = "Âerith",
-				}, -- [7]
-				{
-					["type"] = 1,
-					["time"] = 1315962614,
-					["from"] = "Âerith",
-					["msg"] = "how many feast's do you have?",
-					["inbound"] = true,
-					["convo"] = "Âerith",
+					["convo"] = "|Kf581|k00000000000|k",
 				}, -- [8]
 				{
 					["type"] = 1,
-					["time"] = 1315962618,
+					["time"] = 1316145806,
 					["from"] = "Aset",
-					["msg"] = "11 now",
+					["msg"] = "looooves!",
 					["inbound"] = false,
-					["convo"] = "Âerith",
+					["convo"] = "|Kf581|k00000000000|k",
 				}, -- [9]
 				{
 					["type"] = 1,
-					["time"] = 1315962621,
-					["from"] = "Âerith",
-					["msg"] = "I got 20",
-					["inbound"] = true,
-					["convo"] = "Âerith",
+					["time"] = 1316145891,
+					["from"] = "Aset",
+					["msg"] = "You should be careful not to sleep too much!",
+					["inbound"] = false,
+					["convo"] = "|Kf581|k00000000000|k",
 				}, -- [10]
 				{
 					["type"] = 1,
-					["time"] = 1315962641,
+					["time"] = 1316145896,
 					["from"] = "Aset",
-					["msg"] = "k",
+					["msg"] = "It makes you more sleepy!",
 					["inbound"] = false,
-					["convo"] = "Âerith",
+					["convo"] = "|Kf581|k00000000000|k",
 				}, -- [11]
 				{
 					["type"] = 1,
-					["time"] = 1315968443,
-					["from"] = "Âerith",
-					["msg"] = "how many more fish?",
-					["inbound"] = true,
-					["convo"] = "Âerith",
+					["time"] = 1316145898,
+					["from"] = "Aset",
+					["msg"] = "I know i've done it",
+					["inbound"] = false,
+					["convo"] = "|Kf581|k00000000000|k",
 				}, -- [12]
 				{
 					["type"] = 1,
-					["time"] = 1315968447,
+					["time"] = 1316145922,
 					["from"] = "Aset",
-					["msg"] = "5",
+					["msg"] = "i think that's a terrible plan!",
 					["inbound"] = false,
-					["convo"] = "Âerith",
+					["convo"] = "|Kf581|k00000000000|k",
 				}, -- [13]
 				{
 					["type"] = 1,
-					["time"] = 1315968450,
-					["from"] = "Âerith",
-					["msg"] = "kay",
-					["inbound"] = true,
-					["convo"] = "Âerith",
+					["time"] = 1316145928,
+					["from"] = "Aset",
+					["msg"] = "okay :(",
+					["inbound"] = false,
+					["convo"] = "|Kf581|k00000000000|k",
 				}, -- [14]
 				{
 					["type"] = 1,
-					["time"] = 1315968995,
+					["time"] = 1316145933,
 					["from"] = "Aset",
-					["msg"] = "Rezzing you (don't walk in!)",
+					["msg"] = "*hugs* i hope you get better soon!",
 					["inbound"] = false,
-					["convo"] = "Âerith",
+					["convo"] = "|Kf581|k00000000000|k",
 				}, -- [15]
-				{
-					["type"] = 1,
-					["time"] = 1315971086,
-					["from"] = "Âerith",
-					["msg"] = "is that your last one?",
-					["inbound"] = true,
-					["convo"] = "Âerith",
-				}, -- [16]
-				{
-					["type"] = 1,
-					["time"] = 1315971090,
-					["from"] = "Aset",
-					["msg"] = "one more",
-					["inbound"] = false,
-					["convo"] = "Âerith",
-				}, -- [17]
 				["info"] = {
 				},
 			},
@@ -23684,6 +22073,862 @@ WIM3_History = {
 				["info"] = {
 				},
 			},
+			["Âerith"] = {
+				{
+					["type"] = 1,
+					["time"] = 1315962614,
+					["from"] = "Âerith",
+					["msg"] = "how many feast's do you have?",
+					["inbound"] = true,
+					["convo"] = "Âerith",
+				}, -- [1]
+				{
+					["type"] = 1,
+					["time"] = 1315962618,
+					["from"] = "Aset",
+					["msg"] = "11 now",
+					["inbound"] = false,
+					["convo"] = "Âerith",
+				}, -- [2]
+				{
+					["type"] = 1,
+					["time"] = 1315962621,
+					["from"] = "Âerith",
+					["msg"] = "I got 20",
+					["inbound"] = true,
+					["convo"] = "Âerith",
+				}, -- [3]
+				{
+					["type"] = 1,
+					["time"] = 1315962641,
+					["from"] = "Aset",
+					["msg"] = "k",
+					["inbound"] = false,
+					["convo"] = "Âerith",
+				}, -- [4]
+				{
+					["type"] = 1,
+					["time"] = 1315968443,
+					["from"] = "Âerith",
+					["msg"] = "how many more fish?",
+					["inbound"] = true,
+					["convo"] = "Âerith",
+				}, -- [5]
+				{
+					["type"] = 1,
+					["time"] = 1315968447,
+					["from"] = "Aset",
+					["msg"] = "5",
+					["inbound"] = false,
+					["convo"] = "Âerith",
+				}, -- [6]
+				{
+					["type"] = 1,
+					["time"] = 1315968450,
+					["from"] = "Âerith",
+					["msg"] = "kay",
+					["inbound"] = true,
+					["convo"] = "Âerith",
+				}, -- [7]
+				{
+					["type"] = 1,
+					["time"] = 1315968995,
+					["from"] = "Aset",
+					["msg"] = "Rezzing you (don't walk in!)",
+					["inbound"] = false,
+					["convo"] = "Âerith",
+				}, -- [8]
+				{
+					["type"] = 1,
+					["time"] = 1315971086,
+					["from"] = "Âerith",
+					["msg"] = "is that your last one?",
+					["inbound"] = true,
+					["convo"] = "Âerith",
+				}, -- [9]
+				{
+					["type"] = 1,
+					["time"] = 1315971090,
+					["from"] = "Aset",
+					["msg"] = "one more",
+					["inbound"] = false,
+					["convo"] = "Âerith",
+				}, -- [10]
+				["info"] = {
+				},
+			},
+			["Haliax"] = {
+				{
+					["type"] = 1,
+					["time"] = 1316293845,
+					["from"] = "Aset",
+					["msg"] = " |cffa335ee|Hitem:70228:0:0:0:0:0:0:0:85:0|h[Ruthless Gladiator's Staff]|h|r",
+					["inbound"] = false,
+					["convo"] = "Haliax",
+				}, -- [1]
+				{
+					["type"] = 1,
+					["time"] = 1316293893,
+					["from"] = "Aset",
+					["msg"] = " |cffa335ee|Hitem:70225:0:0:0:0:0:0:0:85:0|h[Ruthless Gladiator's Pike]|h|r",
+					["inbound"] = false,
+					["convo"] = "Haliax",
+				}, -- [2]
+				{
+					["type"] = 1,
+					["time"] = 1316293943,
+					["from"] = "Aset",
+					["msg"] = " |cffa335ee|Hitem:71361:4227:0:0:0:0:0:1267762752:85:154|h[Ranseur of Hatred]|h|r",
+					["inbound"] = false,
+					["convo"] = "Haliax",
+				}, -- [3]
+				{
+					["type"] = 1,
+					["time"] = 1316294177,
+					["from"] = "Haliax",
+					["msg"] = " |cffa335ee|Hitem:70578:0:0:0:0:0:0:0:85:0|h[Vicious Gladiator's Insignia of Dominance]|h|r",
+					["inbound"] = true,
+					["convo"] = "Haliax",
+				}, -- [4]
+				{
+					["type"] = 1,
+					["time"] = 1316315761,
+					["from"] = "Aset",
+					["msg"] = "so, Maso's parents are rich, but they make him submit expense reports for what he buys",
+					["inbound"] = false,
+					["convo"] = "Haliax",
+				}, -- [5]
+				{
+					["type"] = 1,
+					["time"] = 1316315767,
+					["from"] = "Haliax",
+					["msg"] = "lol",
+					["inbound"] = true,
+					["convo"] = "Haliax",
+				}, -- [6]
+				{
+					["type"] = 1,
+					["time"] = 1316315786,
+					["from"] = "Aset",
+					["msg"] = "but he spens $350/week on weed and has to hide it somehow",
+					["inbound"] = false,
+					["convo"] = "Haliax",
+				}, -- [7]
+				{
+					["type"] = 1,
+					["time"] = 1316315791,
+					["from"] = "Haliax",
+					["msg"] = "hahahaha",
+					["inbound"] = true,
+					["convo"] = "Haliax",
+				}, -- [8]
+				{
+					["type"] = 1,
+					["time"] = 1316315812,
+					["from"] = "Aset",
+					["msg"] = "But yesterday his dad emailed him and said \"we need to meet tomorrow to discuss your expense reports\"",
+					["inbound"] = false,
+					["convo"] = "Haliax",
+				}, -- [9]
+				{
+					["type"] = 1,
+					["time"] = 1316315819,
+					["from"] = "Aset",
+					["msg"] = "actually his dad's administrative assistant emailed him",
+					["inbound"] = false,
+					["convo"] = "Haliax",
+				}, -- [10]
+				{
+					["type"] = 1,
+					["time"] = 1316315821,
+					["from"] = "Aset",
+					["msg"] = "so he was pretty nervous",
+					["inbound"] = false,
+					["convo"] = "Haliax",
+				}, -- [11]
+				{
+					["type"] = 1,
+					["time"] = 1316315822,
+					["from"] = "Aset",
+					["msg"] = "lol",
+					["inbound"] = false,
+					["convo"] = "Haliax",
+				}, -- [12]
+				{
+					["type"] = 1,
+					["time"] = 1316315836,
+					["from"] = "Aset",
+					["msg"] = "no wait, $650/week on weed",
+					["inbound"] = false,
+					["convo"] = "Haliax",
+				}, -- [13]
+				{
+					["type"] = 1,
+					["time"] = 1316315844,
+					["from"] = "Aset",
+					["msg"] = "he spends more on weed than I make",
+					["inbound"] = false,
+					["convo"] = "Haliax",
+				}, -- [14]
+				{
+					["type"] = 1,
+					["time"] = 1316315851,
+					["from"] = "Haliax",
+					["msg"] = "damn",
+					["inbound"] = true,
+					["convo"] = "Haliax",
+				}, -- [15]
+				{
+					["type"] = 1,
+					["time"] = 1316315864,
+					["from"] = "Aset",
+					["msg"] = "i guess it's high end stuff, it's not that he's smoking 3 pounds a day",
+					["inbound"] = false,
+					["convo"] = "Haliax",
+				}, -- [16]
+				{
+					["type"] = 1,
+					["time"] = 1316315864,
+					["from"] = "Aset",
+					["msg"] = "lol",
+					["inbound"] = false,
+					["convo"] = "Haliax",
+				}, -- [17]
+				{
+					["type"] = 1,
+					["time"] = 1316315962,
+					["from"] = "Aset",
+					["msg"] = "come over to mumble and run TeamViewer",
+					["inbound"] = false,
+					["convo"] = "Haliax",
+				}, -- [18]
+				{
+					["type"] = 1,
+					["time"] = 1316315972,
+					["from"] = "Aset",
+					["msg"] = "(download it from ninite.com if you don't have it) and i'll poke around for real",
+					["inbound"] = false,
+					["convo"] = "Haliax",
+				}, -- [19]
+				{
+					["type"] = 1,
+					["time"] = 1316315998,
+					["from"] = "Aset",
+					["msg"] = "Also you should come roll a cow with us, clearly",
+					["inbound"] = false,
+					["convo"] = "Haliax",
+				}, -- [20]
+				{
+					["type"] = 1,
+					["time"] = 1316316023,
+					["from"] = "Haliax",
+					["msg"] = "send me the mumble info?",
+					["inbound"] = true,
+					["convo"] = "Haliax",
+				}, -- [21]
+				{
+					["type"] = 1,
+					["time"] = 1316316030,
+					["from"] = "Aset",
+					["msg"] = "quasarj.com",
+					["inbound"] = false,
+					["convo"] = "Haliax",
+				}, -- [22]
+				{
+					["type"] = 1,
+					["time"] = 1316316033,
+					["from"] = "Aset",
+					["msg"] = "default everything",
+					["inbound"] = false,
+					["convo"] = "Haliax",
+				}, -- [23]
+				{
+					["type"] = 1,
+					["time"] = 1316316041,
+					["from"] = "Aset",
+					["msg"] = "default port, set the login name to whatever username you want ot use",
+					["inbound"] = false,
+					["convo"] = "Haliax",
+				}, -- [24]
+				{
+					["type"] = 1,
+					["time"] = 1316316051,
+					["from"] = "Aset",
+					["msg"] = "if it rejects you with \"incorrect password\" let me know",
+					["inbound"] = false,
+					["convo"] = "Haliax",
+				}, -- [25]
+				{
+					["type"] = 1,
+					["time"] = 1316316245,
+					["from"] = "Aset",
+					["msg"] = "WHERE ARE YOU ROAR",
+					["inbound"] = false,
+					["convo"] = "Haliax",
+				}, -- [26]
+				{
+					["type"] = 1,
+					["time"] = 1316575272,
+					["from"] = "Aset",
+					["msg"] = "sup",
+					["inbound"] = false,
+					["convo"] = "Haliax",
+				}, -- [27]
+				{
+					["type"] = 1,
+					["time"] = 1316575281,
+					["from"] = "Haliax",
+					["msg"] = "sec, phone",
+					["inbound"] = true,
+					["convo"] = "Haliax",
+				}, -- [28]
+				{
+					["type"] = 1,
+					["time"] = 1316575290,
+					["from"] = "Aset",
+					["msg"] = "np, raid boss",
+					["inbound"] = false,
+					["convo"] = "Haliax",
+				}, -- [29]
+				{
+					["type"] = 1,
+					["time"] = 1316575291,
+					["from"] = "Aset",
+					["msg"] = "kinda",
+					["inbound"] = false,
+					["convo"] = "Haliax",
+				}, -- [30]
+				{
+					["type"] = 1,
+					["time"] = 1316575381,
+					["from"] = "Aset",
+					["msg"] = "jesus",
+					["inbound"] = false,
+					["convo"] = "Haliax",
+				}, -- [31]
+				{
+					["type"] = 1,
+					["time"] = 1316575382,
+					["from"] = "Aset",
+					["msg"] = "ugh",
+					["inbound"] = false,
+					["convo"] = "Haliax",
+				}, -- [32]
+				{
+					["type"] = 1,
+					["time"] = 1316575387,
+					["from"] = "Aset",
+					["msg"] = "10 kills of Saghelm",
+					["inbound"] = false,
+					["convo"] = "Haliax",
+				}, -- [33]
+				{
+					["type"] = 1,
+					["time"] = 1316575389,
+					["from"] = "Aset",
+					["msg"] = "still no staff",
+					["inbound"] = false,
+					["convo"] = "Haliax",
+				}, -- [34]
+				{
+					["type"] = 1,
+					["time"] = 1316575393,
+					["from"] = "Aset",
+					["msg"] = "8 druid shoulder tokens now",
+					["inbound"] = false,
+					["convo"] = "Haliax",
+				}, -- [35]
+				{
+					["type"] = 1,
+					["time"] = 1316575591,
+					["from"] = "Aset",
+					["msg"] = "gratsss",
+					["inbound"] = false,
+					["convo"] = "Haliax",
+				}, -- [36]
+				{
+					["type"] = 1,
+					["time"] = 1316575600,
+					["from"] = "Aset",
+					["msg"] = "on the phone eh? really killing Coren and ignoreing me",
+					["inbound"] = false,
+					["convo"] = "Haliax",
+				}, -- [37]
+				{
+					["type"] = 1,
+					["time"] = 1316575605,
+					["from"] = "Aset",
+					["msg"] = " /pout",
+					["inbound"] = false,
+					["convo"] = "Haliax",
+				}, -- [38]
+				{
+					["type"] = 1,
+					["time"] = 1316575613,
+					["from"] = "Haliax",
+					["msg"] = "both",
+					["inbound"] = true,
+					["convo"] = "Haliax",
+				}, -- [39]
+				{
+					["type"] = 1,
+					["time"] = 1316575621,
+					["from"] = "Haliax",
+					["msg"] = "coren takes no skill",
+					["inbound"] = true,
+					["convo"] = "Haliax",
+				}, -- [40]
+				{
+					["type"] = 1,
+					["time"] = 1316575657,
+					["from"] = "Aset",
+					["msg"] = "dude",
+					["inbound"] = false,
+					["convo"] = "Haliax",
+				}, -- [41]
+				{
+					["type"] = 1,
+					["time"] = 1316575659,
+					["from"] = "Aset",
+					["msg"] = "the nerfs today",
+					["inbound"] = false,
+					["convo"] = "Haliax",
+				}, -- [42]
+				{
+					["type"] = 1,
+					["time"] = 1316575662,
+					["from"] = "Aset",
+					["msg"] = "this entire raid takes no skill",
+					["inbound"] = false,
+					["convo"] = "Haliax",
+				}, -- [43]
+				{
+					["type"] = 1,
+					["time"] = 1316575675,
+					["from"] = "Aset",
+					["msg"] = "alysrazor.. my god",
+					["inbound"] = false,
+					["convo"] = "Haliax",
+				}, -- [44]
+				{
+					["type"] = 1,
+					["time"] = 1316575680,
+					["from"] = "Aset",
+					["msg"] = "we killed her in 50% of the time",
+					["inbound"] = false,
+					["convo"] = "Haliax",
+				}, -- [45]
+				{
+					["type"] = 1,
+					["time"] = 1316575683,
+					["from"] = "Aset",
+					["msg"] = "as usual",
+					["inbound"] = false,
+					["convo"] = "Haliax",
+				}, -- [46]
+				{
+					["type"] = 1,
+					["time"] = 1316575691,
+					["from"] = "Aset",
+					["msg"] = "we killed her before she finished one phase",
+					["inbound"] = false,
+					["convo"] = "Haliax",
+				}, -- [47]
+				{
+					["type"] = 1,
+					["time"] = 1316575697,
+					["from"] = "Aset",
+					["msg"] = "we 9 manned heroic Shannox",
+					["inbound"] = false,
+					["convo"] = "Haliax",
+				}, -- [48]
+				{
+					["type"] = 1,
+					["time"] = 1316575701,
+					["from"] = "Haliax",
+					["msg"] = "lol",
+					["inbound"] = true,
+					["convo"] = "Haliax",
+				}, -- [49]
+				{
+					["type"] = 1,
+					["time"] = 1316575712,
+					["from"] = "Aset",
+					["msg"] = "beat our record on Ryolith by 1 minute",
+					["inbound"] = false,
+					["convo"] = "Haliax",
+				}, -- [50]
+				{
+					["type"] = 1,
+					["time"] = 1316575730,
+					["from"] = "Aset",
+					["msg"] = "just killed Staghelm in 2 scorpion phases instead of 4",
+					["inbound"] = false,
+					["convo"] = "Haliax",
+				}, -- [51]
+				{
+					["type"] = 1,
+					["time"] = 1316575745,
+					["from"] = "Aset",
+					["msg"] = "of course, he still didn't drop my staff",
+					["inbound"] = false,
+					["convo"] = "Haliax",
+				}, -- [52]
+				{
+					["type"] = 1,
+					["time"] = 1316575748,
+					["from"] = "Aset",
+					["msg"] = "and now.. Rag",
+					["inbound"] = false,
+					["convo"] = "Haliax",
+				}, -- [53]
+				{
+					["type"] = 1,
+					["time"] = 1316575751,
+					["from"] = "Haliax",
+					["msg"] = ":(",
+					["inbound"] = true,
+					["convo"] = "Haliax",
+				}, -- [54]
+				{
+					["type"] = 1,
+					["time"] = 1316575761,
+					["from"] = "Aset",
+					["msg"] = "25% reduction in damage done and hp.. we should have him in the first attempt",
+					["inbound"] = false,
+					["convo"] = "Haliax",
+				}, -- [55]
+				{
+					["type"] = 1,
+					["time"] = 1316575765,
+					["from"] = "Aset",
+					["msg"] = "but we'll see, we're missing Maso",
+					["inbound"] = false,
+					["convo"] = "Haliax",
+				}, -- [56]
+				{
+					["type"] = 1,
+					["time"] = 1316575775,
+					["from"] = "Aset",
+					["msg"] = "we've got Cleyvan filling in on his hunter.. he's pretty good so it's not a huge loss",
+					["inbound"] = false,
+					["convo"] = "Haliax",
+				}, -- [57]
+				{
+					["type"] = 1,
+					["time"] = 1316575776,
+					["from"] = "Aset",
+					["msg"] = "but anyway",
+					["inbound"] = false,
+					["convo"] = "Haliax",
+				}, -- [58]
+				{
+					["type"] = 1,
+					["time"] = 1316575778,
+					["from"] = "Aset",
+					["msg"] = "welcome home!",
+					["inbound"] = false,
+					["convo"] = "Haliax",
+				}, -- [59]
+				{
+					["type"] = 1,
+					["time"] = 1316575781,
+					["from"] = "Aset",
+					["msg"] = "sorry if you're still on the phone",
+					["inbound"] = false,
+					["convo"] = "Haliax",
+				}, -- [60]
+				{
+					["type"] = 1,
+					["time"] = 1316575782,
+					["from"] = "Aset",
+					["msg"] = "lol",
+					["inbound"] = false,
+					["convo"] = "Haliax",
+				}, -- [61]
+				{
+					["type"] = 1,
+					["time"] = 1316575783,
+					["from"] = "Haliax",
+					["msg"] = "ty!",
+					["inbound"] = true,
+					["convo"] = "Haliax",
+				}, -- [62]
+				{
+					["type"] = 1,
+					["time"] = 1316575794,
+					["from"] = "Haliax",
+					["msg"] = "yes, fuckin phone",
+					["inbound"] = true,
+					["convo"] = "Haliax",
+				}, -- [63]
+				{
+					["type"] = 1,
+					["time"] = 1316575799,
+					["from"] = "Aset",
+					["msg"] = "I ran Coren and got \"Contains No Loot\" when i opened my magic keg",
+					["inbound"] = false,
+					["convo"] = "Haliax",
+				}, -- [64]
+				{
+					["type"] = 1,
+					["time"] = 1316575800,
+					["from"] = "Aset",
+					["msg"] = "i was sad",
+					["inbound"] = false,
+					["convo"] = "Haliax",
+				}, -- [65]
+				{
+					["type"] = 1,
+					["time"] = 1316575819,
+					["from"] = "Aset",
+					["msg"] = "oh but,  |cffa335ee|Hitem:71349:0:0:0:0:0:0:2078342528:85:0|h[Firecat Leggings]|h|r |cffa335ee|Hitem:68915:0:0:0:0:0:0:1876921984:85:0|h[Scales of Life]|h|r",
+					["inbound"] = false,
+					["convo"] = "Haliax",
+				}, -- [66]
+				{
+					["type"] = 1,
+					["time"] = 1316575825,
+					["from"] = "Aset",
+					["msg"] = "legs for boomkin, Scales for my DK",
+					["inbound"] = false,
+					["convo"] = "Haliax",
+				}, -- [67]
+				{
+					["type"] = 1,
+					["time"] = 1316575833,
+					["from"] = "Haliax",
+					["msg"] = "you should be spamming coren before the hotfix",
+					["inbound"] = true,
+					["convo"] = "Haliax",
+				}, -- [68]
+				{
+					["type"] = 1,
+					["time"] = 1316575838,
+					["from"] = "Haliax",
+					["msg"] = "it's 20g per run",
+					["inbound"] = true,
+					["convo"] = "Haliax",
+				}, -- [69]
+				{
+					["type"] = 1,
+					["time"] = 1316575838,
+					["from"] = "Aset",
+					["msg"] = "oh?",
+					["inbound"] = false,
+					["convo"] = "Haliax",
+				}, -- [70]
+				{
+					["type"] = 1,
+					["time"] = 1316575840,
+					["from"] = "Aset",
+					["msg"] = "what's the hotfix?",
+					["inbound"] = false,
+					["convo"] = "Haliax",
+				}, -- [71]
+				{
+					["type"] = 1,
+					["time"] = 1316575841,
+					["from"] = "Aset",
+					["msg"] = "oh",
+					["inbound"] = false,
+					["convo"] = "Haliax",
+				}, -- [72]
+				{
+					["type"] = 1,
+					["time"] = 1316575843,
+					["from"] = "Aset",
+					["msg"] = "pfft",
+					["inbound"] = false,
+					["convo"] = "Haliax",
+				}, -- [73]
+				{
+					["type"] = 1,
+					["time"] = 1316575851,
+					["from"] = "Haliax",
+					["msg"] = "takes like 2 min",
+					["inbound"] = true,
+					["convo"] = "Haliax",
+				}, -- [74]
+				{
+					["type"] = 1,
+					["time"] = 1316575861,
+					["from"] = "Aset",
+					["msg"] = "meh",
+					["inbound"] = false,
+					["convo"] = "Haliax",
+				}, -- [75]
+				{
+					["type"] = 1,
+					["time"] = 1316575865,
+					["from"] = "Aset",
+					["msg"] = "I guess i could",
+					["inbound"] = false,
+					["convo"] = "Haliax",
+				}, -- [76]
+				{
+					["type"] = 1,
+					["time"] = 1316575874,
+					["from"] = "Aset",
+					["msg"] = "cuz the real bonus comes when you get one of the weapons",
+					["inbound"] = false,
+					["convo"] = "Haliax",
+				}, -- [77]
+				{
+					["type"] = 1,
+					["time"] = 1316575879,
+					["from"] = "Haliax",
+					["msg"] = "that's 600g/hr",
+					["inbound"] = true,
+					["convo"] = "Haliax",
+				}, -- [78]
+				{
+					["type"] = 1,
+					["time"] = 1316575879,
+					["from"] = "Aset",
+					["msg"] = "they should sell for.. 2 to 5k i'd say",
+					["inbound"] = false,
+					["convo"] = "Haliax",
+				}, -- [79]
+				{
+					["type"] = 1,
+					["time"] = 1316575902,
+					["from"] = "Aset",
+					["msg"] = "they are 365 maces I think? or one mace one dagger?",
+					["inbound"] = false,
+					["convo"] = "Haliax",
+				}, -- [80]
+				{
+					["type"] = 1,
+					["time"] = 1316575902,
+					["from"] = "Haliax",
+					["msg"] = "<Deadly Boss Mods> Haliax is busy fighting against Coren Direbrew (60%, 5/5 people alive)",
+					["inbound"] = true,
+					["convo"] = "Haliax",
+				}, -- [81]
+				{
+					["type"] = 1,
+					["time"] = 1316575911,
+					["from"] = "Aset",
+					["msg"] = "i guess i'll run him some more",
+					["inbound"] = false,
+					["convo"] = "Haliax",
+				}, -- [82]
+				{
+					["type"] = 1,
+					["time"] = 1316575921,
+					["from"] = "Aset",
+					["msg"] = "at least on my other toons to try to get the mount lol",
+					["inbound"] = false,
+					["convo"] = "Haliax",
+				}, -- [83]
+				{
+					["type"] = 1,
+					["time"] = 1316575924,
+					["from"] = "Aset",
+					["msg"] = "i need the damn Ram on Aset",
+					["inbound"] = false,
+					["convo"] = "Haliax",
+				}, -- [84]
+				{
+					["type"] = 1,
+					["time"] = 1316575934,
+					["from"] = "Aset",
+					["msg"] = "then i'll have all the Brewfest mounts and other rare rewards on Aset",
+					["inbound"] = false,
+					["convo"] = "Haliax",
+				}, -- [85]
+				{
+					["type"] = 1,
+					["time"] = 1316575935,
+					["from"] = "Haliax",
+					["msg"] = "<DBM> Haliax has defeated Coren Direbrew!",
+					["inbound"] = true,
+					["convo"] = "Haliax",
+				}, -- [86]
+				{
+					["type"] = 1,
+					["time"] = 1316576535,
+					["from"] = "Aset",
+					["msg"] = " |cffa335ee|Hitem:68994:0:0:0:0:0:0:-2105310336:85:0|h[Matrix Restabilizer]|h|r",
+					["inbound"] = false,
+					["convo"] = "Haliax",
+				}, -- [87]
+				{
+					["type"] = 1,
+					["time"] = 1316576538,
+					["from"] = "Aset",
+					["msg"] = " |cffa335ee|Hitem:71355:0:0:0:0:0:0:-1836874880:85:0|h[Ko'gun, Hammer of the Firelord]|h|r",
+					["inbound"] = false,
+					["convo"] = "Haliax",
+				}, -- [88]
+				{
+					["type"] = 1,
+					["time"] = 1316576538,
+					["from"] = "Haliax",
+					["msg"] = "<Deadly Boss Mods> Haliax is busy fighting against Coren Direbrew (95%, 5/5 people alive)",
+					["inbound"] = true,
+					["convo"] = "Haliax",
+				}, -- [89]
+				{
+					["type"] = 1,
+					["time"] = 1316576599,
+					["from"] = "Haliax",
+					["msg"] = "<DBM> Haliax has defeated Coren Direbrew!",
+					["inbound"] = true,
+					["convo"] = "Haliax",
+				}, -- [90]
+				{
+					["type"] = 1,
+					["time"] = 1316576606,
+					["from"] = "Aset",
+					["msg"] = "n/m i gave the trinket to Piggy",
+					["inbound"] = false,
+					["convo"] = "Haliax",
+				}, -- [91]
+				{
+					["type"] = 1,
+					["time"] = 1316576610,
+					["from"] = "Aset",
+					["msg"] = " |cffa335ee|Hitem:71668:0:0:0:0:0:0:-1568439424:85:0|h[Helm of the Fiery Vanquisher]|h|r instead",
+					["inbound"] = false,
+					["convo"] = "Haliax",
+				}, -- [92]
+				{
+					["type"] = 1,
+					["time"] = 1316576613,
+					["from"] = "Aset",
+					["msg"] = "lol",
+					["inbound"] = false,
+					["convo"] = "Haliax",
+				}, -- [93]
+				{
+					["type"] = 1,
+					["time"] = 1316835941,
+					["from"] = "Aset",
+					["msg"] = "so what's up?",
+					["inbound"] = false,
+					["convo"] = "Haliax",
+				}, -- [94]
+				{
+					["type"] = 1,
+					["time"] = 1316836000,
+					["from"] = "Haliax",
+					["msg"] = "not much, just checking mail before I have to log",
+					["inbound"] = true,
+					["convo"] = "Haliax",
+				}, -- [95]
+				{
+					["type"] = 1,
+					["time"] = 1316836079,
+					["from"] = "Aset",
+					["msg"] = "nice",
+					["inbound"] = false,
+					["convo"] = "Haliax",
+				}, -- [96]
+				["info"] = {
+				},
+			},
 			["Kiva"] = {
 				{
 					["type"] = 1,
@@ -23765,6 +23010,286 @@ WIM3_History = {
 					["inbound"] = false,
 					["convo"] = "Kiva",
 				}, -- [10]
+				{
+					["type"] = 1,
+					["time"] = 1317073246,
+					["from"] = "Aset",
+					["msg"] = "i was gonna go help TB",
+					["inbound"] = false,
+					["convo"] = "Kiva",
+				}, -- [11]
+				{
+					["type"] = 1,
+					["time"] = 1317073252,
+					["from"] = "Aset",
+					["msg"] = "But I don't really feel like it",
+					["inbound"] = false,
+					["convo"] = "Kiva",
+				}, -- [12]
+				{
+					["type"] = 1,
+					["time"] = 1317073263,
+					["from"] = "Kiva",
+					["msg"] = "lol",
+					["inbound"] = true,
+					["convo"] = "Kiva",
+				}, -- [13]
+				{
+					["type"] = 1,
+					["time"] = 1317095829,
+					["from"] = "Aset",
+					["msg"] = "why you no come in with us? :(",
+					["inbound"] = false,
+					["convo"] = "Kiva",
+				}, -- [14]
+				{
+					["type"] = 1,
+					["time"] = 1317096089,
+					["from"] = "Kiva",
+					["msg"] = "I was afk",
+					["inbound"] = true,
+					["convo"] = "Kiva",
+				}, -- [15]
+				{
+					["type"] = 1,
+					["time"] = 1317096106,
+					["from"] = "Kiva",
+					["msg"] = "I had to go talk to cyndi and I'm feeling kind of down",
+					["inbound"] = true,
+					["convo"] = "Kiva",
+				}, -- [16]
+				{
+					["type"] = 1,
+					["time"] = 1317096115,
+					["from"] = "Kiva",
+					["msg"] = "so I'm gonna log for a bit",
+					["inbound"] = true,
+					["convo"] = "Kiva",
+				}, -- [17]
+				{
+					["type"] = 1,
+					["time"] = 1317096124,
+					["from"] = "Aset",
+					["msg"] = "oh",
+					["inbound"] = false,
+					["convo"] = "Kiva",
+				}, -- [18]
+				{
+					["type"] = 1,
+					["time"] = 1317096126,
+					["from"] = "Aset",
+					["msg"] = "well",
+					["inbound"] = false,
+					["convo"] = "Kiva",
+				}, -- [19]
+				{
+					["type"] = 1,
+					["time"] = 1317096127,
+					["from"] = "Aset",
+					["msg"] = "!",
+					["inbound"] = false,
+					["convo"] = "Kiva",
+				}, -- [20]
+				{
+					["type"] = 1,
+					["time"] = 1317096130,
+					["from"] = "Aset",
+					["msg"] = "I <3 you?",
+					["inbound"] = false,
+					["convo"] = "Kiva",
+				}, -- [21]
+				{
+					["type"] = 1,
+					["time"] = 1317096135,
+					["from"] = "Aset",
+					["msg"] = "I wanted you to come have fun",
+					["inbound"] = false,
+					["convo"] = "Kiva",
+				}, -- [22]
+				{
+					["type"] = 1,
+					["time"] = 1317096137,
+					["from"] = "Aset",
+					["msg"] = "but you didn't :(",
+					["inbound"] = false,
+					["convo"] = "Kiva",
+				}, -- [23]
+				{
+					["type"] = 1,
+					["time"] = 1317096138,
+					["from"] = "Kiva",
+					["msg"] = "i<3 you too. have fun.",
+					["inbound"] = true,
+					["convo"] = "Kiva",
+				}, -- [24]
+				{
+					["type"] = 1,
+					["time"] = 1317096142,
+					["from"] = "Aset",
+					["msg"] = "So.. hope your nap helps!",
+					["inbound"] = false,
+					["convo"] = "Kiva",
+				}, -- [25]
+				{
+					["type"] = 1,
+					["time"] = 1317096152,
+					["from"] = "Kiva",
+					["msg"] = "I'm not gonna nap",
+					["inbound"] = true,
+					["convo"] = "Kiva",
+				}, -- [26]
+				{
+					["type"] = 1,
+					["time"] = 1317096157,
+					["from"] = "Aset",
+					["msg"] = "oh",
+					["inbound"] = false,
+					["convo"] = "Kiva",
+				}, -- [27]
+				{
+					["type"] = 1,
+					["time"] = 1317096158,
+					["from"] = "Aset",
+					["msg"] = "just log",
+					["inbound"] = false,
+					["convo"] = "Kiva",
+				}, -- [28]
+				{
+					["type"] = 1,
+					["time"] = 1317096159,
+					["from"] = "Aset",
+					["msg"] = "okay",
+					["inbound"] = false,
+					["convo"] = "Kiva",
+				}, -- [29]
+				{
+					["type"] = 1,
+					["time"] = 1317096161,
+					["from"] = "Kiva",
+					["msg"] = "I'm just going to lay in bed and wish I was elsewhere",
+					["inbound"] = true,
+					["convo"] = "Kiva",
+				}, -- [30]
+				{
+					["type"] = 1,
+					["time"] = 1317096162,
+					["from"] = "Aset",
+					["msg"] = "you mad about something?",
+					["inbound"] = false,
+					["convo"] = "Kiva",
+				}, -- [31]
+				{
+					["type"] = 1,
+					["time"] = 1317096165,
+					["from"] = "Aset",
+					["msg"] = "aww",
+					["inbound"] = false,
+					["convo"] = "Kiva",
+				}, -- [32]
+				{
+					["type"] = 1,
+					["time"] = 1317096167,
+					["from"] = "Aset",
+					["msg"] = "What's wrong?",
+					["inbound"] = false,
+					["convo"] = "Kiva",
+				}, -- [33]
+				{
+					["type"] = 1,
+					["time"] = 1317096172,
+					["from"] = "Kiva",
+					["msg"] = "kind of. cyndi doesn't get it",
+					["inbound"] = true,
+					["convo"] = "Kiva",
+				}, -- [34]
+				{
+					["type"] = 1,
+					["time"] = 1317096183,
+					["from"] = "Kiva",
+					["msg"] = "like me being depressed is a joke",
+					["inbound"] = true,
+					["convo"] = "Kiva",
+				}, -- [35]
+				{
+					["type"] = 1,
+					["time"] = 1317096191,
+					["from"] = "Aset",
+					["msg"] = ":(",
+					["inbound"] = false,
+					["convo"] = "Kiva",
+				}, -- [36]
+				{
+					["type"] = 1,
+					["time"] = 1317096192,
+					["from"] = "Aset",
+					["msg"] = "I'm sorry",
+					["inbound"] = false,
+					["convo"] = "Kiva",
+				}, -- [37]
+				{
+					["type"] = 1,
+					["time"] = 1317096215,
+					["from"] = "Aset",
+					["msg"] = "*hugs*",
+					["inbound"] = false,
+					["convo"] = "Kiva",
+				}, -- [38]
+				{
+					["type"] = 1,
+					["time"] = 1317096229,
+					["from"] = "Aset",
+					["msg"] = "Well, some people don't understand",
+					["inbound"] = false,
+					["convo"] = "Kiva",
+				}, -- [39]
+				{
+					["type"] = 1,
+					["time"] = 1317096284,
+					["from"] = "Kiva",
+					["msg"] = "yeah",
+					["inbound"] = true,
+					["convo"] = "Kiva",
+				}, -- [40]
+				{
+					["type"] = 1,
+					["time"] = 1317096288,
+					["from"] = "Kiva",
+					["msg"] = "sounds about right",
+					["inbound"] = true,
+					["convo"] = "Kiva",
+				}, -- [41]
+				{
+					["type"] = 1,
+					["time"] = 1317096304,
+					["from"] = "Aset",
+					["msg"] = "Not sure there's anything that can be done about it.",
+					["inbound"] = false,
+					["convo"] = "Kiva",
+				}, -- [42]
+				{
+					["type"] = 1,
+					["time"] = 1317096312,
+					["from"] = "Aset",
+					["msg"] = "Except surround yourself with people who do :)",
+					["inbound"] = false,
+					["convo"] = "Kiva",
+				}, -- [43]
+				{
+					["type"] = 1,
+					["time"] = 1317096538,
+					["from"] = "Aset",
+					["msg"] = "<3",
+					["inbound"] = false,
+					["convo"] = "Kiva",
+				}, -- [44]
+				{
+					["type"] = 1,
+					["time"] = 1317096552,
+					["from"] = "Kiva",
+					["msg"] = "<3",
+					["inbound"] = true,
+					["convo"] = "Kiva",
+				}, -- [45]
 				["info"] = {
 				},
 			},
@@ -26619,6 +26144,14 @@ WIM3_History = {
 					["inbound"] = false,
 					["convo"] = "Kiva",
 				}, -- [356]
+				{
+					["type"] = 1,
+					["time"] = 1317071497,
+					["from"] = "Deadset",
+					["msg"] = "had to put that warrior down",
+					["inbound"] = false,
+					["convo"] = "Kiva",
+				}, -- [357]
 				["info"] = {
 				},
 			},
@@ -27754,99 +27287,375 @@ WIM3_History = {
 				["info"] = {
 				},
 			},
-			["|Kf286|k00000000000|k"] = {
+			["|Kf628|k00000000000|k"] = {
 				{
 					["type"] = 1,
-					["time"] = 1316051829,
+					["time"] = 1317069426,
 					["from"] = "Deadset",
-					["msg"] = "aww",
+					["msg"] = "eh?",
 					["inbound"] = false,
-					["convo"] = "|Kf286|k00000000000|k",
+					["convo"] = "|Kf628|k00000000000|k",
 				}, -- [1]
 				{
 					["type"] = 1,
-					["time"] = 1316051831,
+					["time"] = 1317069429,
 					["from"] = "Deadset",
-					["msg"] = "like, physically?",
+					["msg"] = "oh",
 					["inbound"] = false,
-					["convo"] = "|Kf286|k00000000000|k",
+					["convo"] = "|Kf628|k00000000000|k",
 				}, -- [2]
 				{
 					["type"] = 1,
-					["time"] = 1316051911,
+					["time"] = 1317069430,
 					["from"] = "Deadset",
-					["msg"] = "aww :(",
+					["msg"] = "the mobs",
 					["inbound"] = false,
-					["convo"] = "|Kf286|k00000000000|k",
+					["convo"] = "|Kf628|k00000000000|k",
 				}, -- [3]
 				{
 					["type"] = 1,
-					["time"] = 1316051912,
+					["time"] = 1317069430,
 					["from"] = "Deadset",
-					["msg"] = "*hugs*",
+					["msg"] = "hehe",
 					["inbound"] = false,
-					["convo"] = "|Kf286|k00000000000|k",
+					["convo"] = "|Kf628|k00000000000|k",
 				}, -- [4]
 				{
 					["type"] = 1,
-					["time"] = 1316051914,
+					["time"] = 1317069434,
 					["from"] = "Deadset",
-					["msg"] = "don't puke on me",
+					["msg"] = "yeah",
 					["inbound"] = false,
-					["convo"] = "|Kf286|k00000000000|k",
+					["convo"] = "|Kf628|k00000000000|k",
 				}, -- [5]
 				{
 					["type"] = 1,
-					["time"] = 1316051916,
+					["time"] = 1317069443,
 					["from"] = "Deadset",
-					["msg"] = "but i'll hug you",
+					["msg"] = "they were like \"wtf JOe isnt coming what do we do?!\"",
 					["inbound"] = false,
-					["convo"] = "|Kf286|k00000000000|k",
+					["convo"] = "|Kf628|k00000000000|k",
 				}, -- [6]
 				{
 					["type"] = 1,
-					["time"] = 1316051918,
+					["time"] = 1317070049,
 					["from"] = "Deadset",
-					["msg"] = "lol",
+					["msg"] = "holy shit!",
 					["inbound"] = false,
-					["convo"] = "|Kf286|k00000000000|k",
+					["convo"] = "|Kf628|k00000000000|k",
 				}, -- [7]
 				{
 					["type"] = 1,
-					["time"] = 1316051937,
+					["time"] = 1317070052,
 					["from"] = "Deadset",
-					["msg"] = ":O",
+					["msg"] = "how you get so good?!",
 					["inbound"] = false,
-					["convo"] = "|Kf286|k00000000000|k",
+					["convo"] = "|Kf628|k00000000000|k",
 				}, -- [8]
 				{
 					["type"] = 1,
-					["time"] = 1316051939,
+					["time"] = 1317070471,
 					["from"] = "Deadset",
-					["msg"] = "did you eat something evil? ",
+					["msg"] = "again?",
 					["inbound"] = false,
-					["convo"] = "|Kf286|k00000000000|k",
+					["convo"] = "|Kf628|k00000000000|k",
 				}, -- [9]
 				{
 					["type"] = 1,
-					["time"] = 1316051952,
+					["time"] = 1317070635,
 					["from"] = "Deadset",
-					["msg"] = "get a pan, or a bag next to you so you don't have to stop dpsing! :O",
+					["msg"] = "so do i honestly",
 					["inbound"] = false,
-					["convo"] = "|Kf286|k00000000000|k",
+					["convo"] = "|Kf628|k00000000000|k",
 				}, -- [10]
-				["info"] = {
-				},
-			},
-			["Animalchin"] = {
 				{
 					["type"] = 1,
-					["time"] = 1316664156,
+					["time"] = 1317070642,
 					["from"] = "Deadset",
-					["msg"] = "Hello there, friend!",
+					["msg"] = "i've never done them, so i don't have my geode pet yet!",
 					["inbound"] = false,
-					["convo"] = "Animalchin",
-				}, -- [1]
+					["convo"] = "|Kf628|k00000000000|k",
+				}, -- [11]
+				{
+					["type"] = 1,
+					["time"] = 1317070646,
+					["from"] = "Deadset",
+					["msg"] = "er, my rock ele",
+					["inbound"] = false,
+					["convo"] = "|Kf628|k00000000000|k",
+				}, -- [12]
+				{
+					["type"] = 1,
+					["time"] = 1317070649,
+					["from"] = "Deadset",
+					["msg"] = "geode is something else",
+					["inbound"] = false,
+					["convo"] = "|Kf628|k00000000000|k",
+				}, -- [13]
+				{
+					["type"] = 1,
+					["time"] = 1317071505,
+					["from"] = "Deadset",
+					["msg"] = "lol i'm sorry!",
+					["inbound"] = false,
+					["convo"] = "|Kf628|k00000000000|k",
+				}, -- [14]
+				{
+					["type"] = 1,
+					["time"] = 1317071510,
+					["from"] = "Deadset",
+					["msg"] = "You've always got some kinda people-related problem",
+					["inbound"] = false,
+					["convo"] = "|Kf628|k00000000000|k",
+				}, -- [15]
+				{
+					["type"] = 1,
+					["time"] = 1317071524,
+					["from"] = "Deadset",
+					["msg"] = "you make me happy to be alone sometimes ;)",
+					["inbound"] = false,
+					["convo"] = "|Kf628|k00000000000|k",
+				}, -- [16]
+				{
+					["type"] = 1,
+					["time"] = 1317071554,
+					["from"] = "Deadset",
+					["msg"] = "haha",
+					["inbound"] = false,
+					["convo"] = "|Kf628|k00000000000|k",
+				}, -- [17]
+				{
+					["type"] = 1,
+					["time"] = 1317071599,
+					["from"] = "Deadset",
+					["msg"] = "lol",
+					["inbound"] = false,
+					["convo"] = "|Kf628|k00000000000|k",
+				}, -- [18]
+				{
+					["type"] = 1,
+					["time"] = 1317071601,
+					["from"] = "Deadset",
+					["msg"] = "i'll trade!",
+					["inbound"] = false,
+					["convo"] = "|Kf628|k00000000000|k",
+				}, -- [19]
+				{
+					["type"] = 1,
+					["time"] = 1317071604,
+					["from"] = "Deadset",
+					["msg"] = "but i only take hot women",
+					["inbound"] = false,
+					["convo"] = "|Kf628|k00000000000|k",
+				}, -- [20]
+				{
+					["type"] = 1,
+					["time"] = 1317071636,
+					["from"] = "Deadset",
+					["msg"] = "or cute",
+					["inbound"] = false,
+					["convo"] = "|Kf628|k00000000000|k",
+				}, -- [21]
+				{
+					["type"] = 1,
+					["time"] = 1317071640,
+					["from"] = "Deadset",
+					["msg"] = "or young but of age",
+					["inbound"] = false,
+					["convo"] = "|Kf628|k00000000000|k",
+				}, -- [22]
+				{
+					["type"] = 1,
+					["time"] = 1317071767,
+					["from"] = "Deadset",
+					["msg"] = "I'll take cyndi if oyu tie her up and gag her first",
+					["inbound"] = false,
+					["convo"] = "|Kf628|k00000000000|k",
+				}, -- [23]
+				{
+					["type"] = 1,
+					["time"] = 1317071771,
+					["from"] = "Deadset",
+					["msg"] = "and then deliver her to me",
+					["inbound"] = false,
+					["convo"] = "|Kf628|k00000000000|k",
+				}, -- [24]
+				{
+					["type"] = 1,
+					["time"] = 1317071772,
+					["from"] = "Deadset",
+					["msg"] = ":)",
+					["inbound"] = false,
+					["convo"] = "|Kf628|k00000000000|k",
+				}, -- [25]
+				{
+					["type"] = 1,
+					["time"] = 1317072595,
+					["from"] = "Deadset",
+					["msg"] = "nice",
+					["inbound"] = false,
+					["convo"] = "|Kf628|k00000000000|k",
+				}, -- [26]
+				{
+					["type"] = 1,
+					["time"] = 1317072597,
+					["from"] = "Deadset",
+					["msg"] = "i need a break",
+					["inbound"] = false,
+					["convo"] = "|Kf628|k00000000000|k",
+				}, -- [27]
+				{
+					["type"] = 1,
+					["time"] = 1317072599,
+					["from"] = "Deadset",
+					["msg"] = "also i'm capped",
+					["inbound"] = false,
+					["convo"] = "|Kf628|k00000000000|k",
+				}, -- [28]
+				{
+					["type"] = 1,
+					["time"] = 1317072600,
+					["from"] = "Deadset",
+					["msg"] = ":P",
+					["inbound"] = false,
+					["convo"] = "|Kf628|k00000000000|k",
+				}, -- [29]
+				{
+					["type"] = 1,
+					["time"] = 1317072602,
+					["from"] = "Deadset",
+					["msg"] = "i need to decide",
+					["inbound"] = false,
+					["convo"] = "|Kf628|k00000000000|k",
+				}, -- [30]
+				{
+					["type"] = 1,
+					["time"] = 1317072607,
+					["from"] = "Deadset",
+					["msg"] = "About what tier i should get",
+					["inbound"] = false,
+					["convo"] = "|Kf628|k00000000000|k",
+				}, -- [31]
+				{
+					["type"] = 1,
+					["time"] = 1317072609,
+					["from"] = "Deadset",
+					["msg"] = "*sigh*",
+					["inbound"] = false,
+					["convo"] = "|Kf628|k00000000000|k",
+				}, -- [32]
+				{
+					["type"] = 1,
+					["time"] = 1317072612,
+					["from"] = "Deadset",
+					["msg"] = "I wonder",
+					["inbound"] = false,
+					["convo"] = "|Kf628|k00000000000|k",
+				}, -- [33]
+				{
+					["type"] = 1,
+					["time"] = 1317072624,
+					["from"] = "Deadset",
+					["msg"] = "aha i'm not saved to Baradin Hold",
+					["inbound"] = false,
+					["convo"] = "|Kf628|k00000000000|k",
+				}, -- [34]
+				{
+					["type"] = 1,
+					["time"] = 1317072628,
+					["from"] = "Deadset",
+					["msg"] = "We should get a gropu together today",
+					["inbound"] = false,
+					["convo"] = "|Kf628|k00000000000|k",
+				}, -- [35]
+				{
+					["type"] = 1,
+					["time"] = 1317072632,
+					["from"] = "Deadset",
+					["msg"] = "Or areyou saved?",
+					["inbound"] = false,
+					["convo"] = "|Kf628|k00000000000|k",
+				}, -- [36]
+				{
+					["type"] = 1,
+					["time"] = 1317072634,
+					["from"] = "Deadset",
+					["msg"] = "you are aren't you?",
+					["inbound"] = false,
+					["convo"] = "|Kf628|k00000000000|k",
+				}, -- [37]
+				{
+					["type"] = 1,
+					["time"] = 1317072636,
+					["from"] = "Deadset",
+					["msg"] = "AREN'T YOU",
+					["inbound"] = false,
+					["convo"] = "|Kf628|k00000000000|k",
+				}, -- [38]
+				{
+					["type"] = 1,
+					["time"] = 1317072639,
+					["from"] = "Deadset",
+					["msg"] = "BLAH!",
+					["inbound"] = false,
+					["convo"] = "|Kf628|k00000000000|k",
+				}, -- [39]
+				{
+					["type"] = 1,
+					["time"] = 1317072642,
+					["from"] = "Deadset",
+					["msg"] = "I HATE YOU",
+					["inbound"] = false,
+					["convo"] = "|Kf628|k00000000000|k",
+				}, -- [40]
+				{
+					["type"] = 1,
+					["time"] = 1317073142,
+					["from"] = "Deadset",
+					["msg"] = "OH you and your pheonix!",
+					["inbound"] = false,
+					["convo"] = "|Kf628|k00000000000|k",
+				}, -- [41]
+				{
+					["type"] = 1,
+					["time"] = 1317073145,
+					["from"] = "Deadset",
+					["msg"] = "Phoenix",
+					["inbound"] = false,
+					["convo"] = "|Kf628|k00000000000|k",
+				}, -- [42]
+				{
+					["type"] = 1,
+					["time"] = 1317073147,
+					["from"] = "Deadset",
+					["msg"] = "whatever",
+					["inbound"] = false,
+					["convo"] = "|Kf628|k00000000000|k",
+				}, -- [43]
+				{
+					["type"] = 1,
+					["time"] = 1317073152,
+					["from"] = "Deadset",
+					["msg"] = "okay",
+					["inbound"] = false,
+					["convo"] = "|Kf628|k00000000000|k",
+				}, -- [44]
+				{
+					["type"] = 1,
+					["time"] = 1317073154,
+					["from"] = "Deadset",
+					["msg"] = "Hm",
+					["inbound"] = false,
+					["convo"] = "|Kf628|k00000000000|k",
+				}, -- [45]
+				{
+					["type"] = 1,
+					["time"] = 1317073167,
+					["from"] = "Deadset",
+					["msg"] = "oh damn TB in sin progress right now",
+					["inbound"] = false,
+					["convo"] = "|Kf628|k00000000000|k",
+				}, -- [46]
 				["info"] = {
 				},
 			},
@@ -28422,103 +28231,271 @@ WIM3_History = {
 				["info"] = {
 				},
 			},
-			["|Kf423|k0000000000000000|k"] = {
+			["|Kf69|k00000000000|k"] = {
 				{
 					["type"] = 1,
-					["time"] = 1316749495,
+					["time"] = 1316653239,
 					["from"] = "Deadset",
-					["msg"] = "nice!",
+					["msg"] = "somethign to sleep?",
 					["inbound"] = false,
-					["convo"] = "|Kf423|k0000000000000000|k",
+					["convo"] = "|Kf69|k00000000000|k",
 				}, -- [1]
 				{
 					["type"] = 1,
-					["time"] = 1316749501,
+					["time"] = 1316653270,
 					["from"] = "Deadset",
-					["msg"] = "our Group 1 just downed Rag for the first time",
+					["msg"] = "oh haha",
 					["inbound"] = false,
-					["convo"] = "|Kf423|k0000000000000000|k",
+					["convo"] = "|Kf69|k00000000000|k",
 				}, -- [2]
 				{
 					["type"] = 1,
-					["time"] = 1316749503,
+					["time"] = 1316653831,
 					["from"] = "Deadset",
-					["msg"] = "got another mount",
+					["msg"] = "boo",
 					["inbound"] = false,
-					["convo"] = "|Kf423|k0000000000000000|k",
+					["convo"] = "|Kf69|k00000000000|k",
 				}, -- [3]
 				{
 					["type"] = 1,
-					["time"] = 1316749514,
+					["time"] = 1316653878,
 					["from"] = "Deadset",
-					["msg"] = "it certianly seems like the drop rate is 100% for your first kill",
+					["msg"] = "who the hell is totes?",
 					["inbound"] = false,
-					["convo"] = "|Kf423|k0000000000000000|k",
+					["convo"] = "|Kf69|k00000000000|k",
 				}, -- [4]
 				{
 					["type"] = 1,
-					["time"] = 1316749528,
+					["time"] = 1316653915,
 					["from"] = "Deadset",
-					["msg"] = "you guys got one, we've gotten one on both of our kills",
+					["msg"] = "oh",
 					["inbound"] = false,
-					["convo"] = "|Kf423|k0000000000000000|k",
+					["convo"] = "|Kf69|k00000000000|k",
 				}, -- [5]
 				{
 					["type"] = 1,
-					["time"] = 1316749532,
+					["time"] = 1316653917,
 					["from"] = "Deadset",
-					["msg"] = "i thought you got one on your first kill?",
+					["msg"] = "that makes more sense",
 					["inbound"] = false,
-					["convo"] = "|Kf423|k0000000000000000|k",
+					["convo"] = "|Kf69|k00000000000|k",
+				}, -- [6]
+				["info"] = {
+				},
+			},
+			["|Kf286|k00000000000|k"] = {
+				{
+					["type"] = 1,
+					["time"] = 1316051829,
+					["from"] = "Deadset",
+					["msg"] = "aww",
+					["inbound"] = false,
+					["convo"] = "|Kf286|k00000000000|k",
+				}, -- [1]
+				{
+					["type"] = 1,
+					["time"] = 1316051831,
+					["from"] = "Deadset",
+					["msg"] = "like, physically?",
+					["inbound"] = false,
+					["convo"] = "|Kf286|k00000000000|k",
+				}, -- [2]
+				{
+					["type"] = 1,
+					["time"] = 1316051911,
+					["from"] = "Deadset",
+					["msg"] = "aww :(",
+					["inbound"] = false,
+					["convo"] = "|Kf286|k00000000000|k",
+				}, -- [3]
+				{
+					["type"] = 1,
+					["time"] = 1316051912,
+					["from"] = "Deadset",
+					["msg"] = "*hugs*",
+					["inbound"] = false,
+					["convo"] = "|Kf286|k00000000000|k",
+				}, -- [4]
+				{
+					["type"] = 1,
+					["time"] = 1316051914,
+					["from"] = "Deadset",
+					["msg"] = "don't puke on me",
+					["inbound"] = false,
+					["convo"] = "|Kf286|k00000000000|k",
+				}, -- [5]
+				{
+					["type"] = 1,
+					["time"] = 1316051916,
+					["from"] = "Deadset",
+					["msg"] = "but i'll hug you",
+					["inbound"] = false,
+					["convo"] = "|Kf286|k00000000000|k",
 				}, -- [6]
 				{
 					["type"] = 1,
-					["time"] = 1316749539,
-					["from"] = "Deadset",
-					["msg"] = "oh really?",
-					["inbound"] = false,
-					["convo"] = "|Kf423|k0000000000000000|k",
-				}, -- [7]
-				{
-					["type"] = 1,
-					["time"] = 1316749541,
-					["from"] = "Deadset",
-					["msg"] = "dang",
-					["inbound"] = false,
-					["convo"] = "|Kf423|k0000000000000000|k",
-				}, -- [8]
-				{
-					["type"] = 1,
-					["time"] = 1316749546,
-					["from"] = "Deadset",
-					["msg"] = "ahh",
-					["inbound"] = false,
-					["convo"] = "|Kf423|k0000000000000000|k",
-				}, -- [9]
-				{
-					["type"] = 1,
-					["time"] = 1316749550,
-					["from"] = "Deadset",
-					["msg"] = "well that changes my theory then",
-					["inbound"] = false,
-					["convo"] = "|Kf423|k0000000000000000|k",
-				}, -- [10]
-				{
-					["type"] = 1,
-					["time"] = 1316749550,
+					["time"] = 1316051918,
 					["from"] = "Deadset",
 					["msg"] = "lol",
 					["inbound"] = false,
-					["convo"] = "|Kf423|k0000000000000000|k",
-				}, -- [11]
+					["convo"] = "|Kf286|k00000000000|k",
+				}, -- [7]
 				{
 					["type"] = 1,
-					["time"] = 1316749558,
+					["time"] = 1316051937,
 					["from"] = "Deadset",
-					["msg"] = "beddtime, 'night",
+					["msg"] = ":O",
 					["inbound"] = false,
-					["convo"] = "|Kf423|k0000000000000000|k",
-				}, -- [12]
+					["convo"] = "|Kf286|k00000000000|k",
+				}, -- [8]
+				{
+					["type"] = 1,
+					["time"] = 1316051939,
+					["from"] = "Deadset",
+					["msg"] = "did you eat something evil? ",
+					["inbound"] = false,
+					["convo"] = "|Kf286|k00000000000|k",
+				}, -- [9]
+				{
+					["type"] = 1,
+					["time"] = 1316051952,
+					["from"] = "Deadset",
+					["msg"] = "get a pan, or a bag next to you so you don't have to stop dpsing! :O",
+					["inbound"] = false,
+					["convo"] = "|Kf286|k00000000000|k",
+				}, -- [10]
+				["info"] = {
+				},
+			},
+			["Animalchin"] = {
+				{
+					["type"] = 1,
+					["time"] = 1316664156,
+					["from"] = "Deadset",
+					["msg"] = "Hello there, friend!",
+					["inbound"] = false,
+					["convo"] = "Animalchin",
+				}, -- [1]
+				["info"] = {
+				},
+			},
+			["|Kf109|k00000000000000000|k"] = {
+				{
+					["type"] = 1,
+					["time"] = 1316395847,
+					["from"] = "Deadset",
+					["msg"] = "I've got about.. 90 stacks of dust, but not really any essences cuz they sell like hot cakes",
+					["inbound"] = false,
+					["convo"] = "|Kf109|k00000000000000000|k",
+				}, -- [1]
+				{
+					["type"] = 1,
+					["time"] = 1316395909,
+					["from"] = "Deadset",
+					["msg"] = "Yep. I'd be happy to give you all the dust you need, but essences are a huge money maker and hard to come by lol",
+					["inbound"] = false,
+					["convo"] = "|Kf109|k00000000000000000|k",
+				}, -- [2]
+				{
+					["type"] = 1,
+					["time"] = 1316396117,
+					["from"] = "Deadset",
+					["msg"] = "k",
+					["inbound"] = false,
+					["convo"] = "|Kf109|k00000000000000000|k",
+				}, -- [3]
+				{
+					["type"] = 1,
+					["time"] = 1316396307,
+					["from"] = "Deadset",
+					["msg"] = "um yeah",
+					["inbound"] = false,
+					["convo"] = "|Kf109|k00000000000000000|k",
+				}, -- [4]
+				{
+					["type"] = 1,
+					["time"] = 1316396324,
+					["from"] = "Deadset",
+					["msg"] = "oh nah you can have it",
+					["inbound"] = false,
+					["convo"] = "|Kf109|k00000000000000000|k",
+				}, -- [5]
+				{
+					["type"] = 1,
+					["time"] = 1316396342,
+					["from"] = "Deadset",
+					["msg"] = "nah it's worthless,i only have it because i don't feel like taking the time to delete it",
+					["inbound"] = false,
+					["convo"] = "|Kf109|k00000000000000000|k",
+				}, -- [6]
+				{
+					["type"] = 1,
+					["time"] = 1316396450,
+					["from"] = "Deadset",
+					["msg"] = "k omw",
+					["inbound"] = false,
+					["convo"] = "|Kf109|k00000000000000000|k",
+				}, -- [7]
+				["info"] = {
+				},
+			},
+			["Nehiholyguy"] = {
+				{
+					["type"] = 1,
+					["time"] = 1316656994,
+					["from"] = "Nehiholyguy",
+					["msg"] = "alright, as per our healer assignments, i am on you for theraid unless otherwise instructed",
+					["inbound"] = true,
+					["convo"] = "Nehiholyguy",
+				}, -- [1]
+				{
+					["type"] = 1,
+					["time"] = 1316657001,
+					["from"] = "Deadset",
+					["msg"] = "k",
+					["inbound"] = false,
+					["convo"] = "Nehiholyguy",
+				}, -- [2]
+				{
+					["type"] = 1,
+					["time"] = 1316657006,
+					["from"] = "Deadset",
+					["msg"] = "i will try not to run too crazy",
+					["inbound"] = false,
+					["convo"] = "Nehiholyguy",
+				}, -- [3]
+				{
+					["type"] = 1,
+					["time"] = 1316657009,
+					["from"] = "Deadset",
+					["msg"] = "but this is gonna be rough lol",
+					["inbound"] = false,
+					["convo"] = "Nehiholyguy",
+				}, -- [4]
+				{
+					["type"] = 1,
+					["time"] = 1316657023,
+					["from"] = "Nehiholyguy",
+					["msg"] = "just keep me in range and you wont die",
+					["inbound"] = true,
+					["convo"] = "Nehiholyguy",
+				}, -- [5]
+				{
+					["type"] = 1,
+					["time"] = 1316657033,
+					["from"] = "Nehiholyguy",
+					["msg"] = "call out if you need an Lgrip",
+					["inbound"] = true,
+					["convo"] = "Nehiholyguy",
+				}, -- [6]
+				{
+					["type"] = 1,
+					["time"] = 1316657036,
+					["from"] = "Deadset",
+					["msg"] = "k",
+					["inbound"] = false,
+					["convo"] = "Nehiholyguy",
+				}, -- [7]
 				["info"] = {
 				},
 			},
@@ -28678,55 +28655,239 @@ WIM3_History = {
 				["info"] = {
 				},
 			},
-			["|Kf69|k00000000000|k"] = {
+			["|Kf901|k00000000000000000000|k"] = {
 				{
 					["type"] = 1,
-					["time"] = 1316653239,
+					["time"] = 1316826996,
 					["from"] = "Deadset",
-					["msg"] = "somethign to sleep?",
+					["msg"] = "woah Globalzen!",
 					["inbound"] = false,
-					["convo"] = "|Kf69|k00000000000|k",
+					["convo"] = "|Kf901|k00000000000000000000|k",
 				}, -- [1]
 				{
 					["type"] = 1,
-					["time"] = 1316653270,
+					["time"] = 1316827040,
 					["from"] = "Deadset",
-					["msg"] = "oh haha",
+					["msg"] = "Nothing much! About to raid!",
 					["inbound"] = false,
-					["convo"] = "|Kf69|k00000000000|k",
+					["convo"] = "|Kf901|k00000000000000000000|k",
 				}, -- [2]
 				{
 					["type"] = 1,
-					["time"] = 1316653831,
+					["time"] = 1316827047,
 					["from"] = "Deadset",
-					["msg"] = "boo",
+					["msg"] = "Haven't seen you in these parts in a while!",
 					["inbound"] = false,
-					["convo"] = "|Kf69|k00000000000|k",
+					["convo"] = "|Kf901|k00000000000000000000|k",
 				}, -- [3]
 				{
 					["type"] = 1,
-					["time"] = 1316653878,
+					["time"] = 1316827061,
 					["from"] = "Deadset",
-					["msg"] = "who the hell is totes?",
+					["msg"] = "8pm on a friday! Man shouldn't you be out having a life? haha",
 					["inbound"] = false,
-					["convo"] = "|Kf69|k00000000000|k",
+					["convo"] = "|Kf901|k00000000000000000000|k",
 				}, -- [4]
 				{
 					["type"] = 1,
-					["time"] = 1316653915,
+					["time"] = 1316827096,
 					["from"] = "Deadset",
-					["msg"] = "oh",
+					["msg"] = "ahhhh sounds good!",
 					["inbound"] = false,
-					["convo"] = "|Kf69|k00000000000|k",
+					["convo"] = "|Kf901|k00000000000000000000|k",
 				}, -- [5]
 				{
 					["type"] = 1,
-					["time"] = 1316653917,
+					["time"] = 1316827101,
 					["from"] = "Deadset",
-					["msg"] = "that makes more sense",
+					["msg"] = "Congrats!",
 					["inbound"] = false,
-					["convo"] = "|Kf69|k00000000000|k",
+					["convo"] = "|Kf901|k00000000000000000000|k",
 				}, -- [6]
+				{
+					["type"] = 1,
+					["time"] = 1316827217,
+					["from"] = "Deadset",
+					["msg"] = "Ahh nice",
+					["inbound"] = false,
+					["convo"] = "|Kf901|k00000000000000000000|k",
+				}, -- [7]
+				{
+					["type"] = 1,
+					["time"] = 1316827223,
+					["from"] = "Deadset",
+					["msg"] = "I've got a job!",
+					["inbound"] = false,
+					["convo"] = "|Kf901|k00000000000000000000|k",
+				}, -- [8]
+				{
+					["type"] = 1,
+					["time"] = 1316827231,
+					["from"] = "Deadset",
+					["msg"] = "Not sure if we've talked since that happened lol",
+					["inbound"] = false,
+					["convo"] = "|Kf901|k00000000000000000000|k",
+				}, -- [9]
+				{
+					["type"] = 1,
+					["time"] = 1316827267,
+					["from"] = "Deadset",
+					["msg"] = "Oh good point, hehe",
+					["inbound"] = false,
+					["convo"] = "|Kf901|k00000000000000000000|k",
+				}, -- [10]
+				{
+					["type"] = 1,
+					["time"] = 1316827269,
+					["from"] = "Deadset",
+					["msg"] = "ty!",
+					["inbound"] = false,
+					["convo"] = "|Kf901|k00000000000000000000|k",
+				}, -- [11]
+				{
+					["type"] = 1,
+					["time"] = 1316827284,
+					["from"] = "Deadset",
+					["msg"] = "It doesn't pay great, but good enough and so far it's been a great place to work!",
+					["inbound"] = false,
+					["convo"] = "|Kf901|k00000000000000000000|k",
+				}, -- [12]
+				{
+					["type"] = 1,
+					["time"] = 1316827381,
+					["from"] = "Deadset",
+					["msg"] = "Yeah mostly, lol. I'm making 45k, which i'm very happy with, but you know there's the house and other debt and silly stuff, so i'm struggling still but making it.",
+					["inbound"] = false,
+					["convo"] = "|Kf901|k00000000000000000000|k",
+				}, -- [13]
+				{
+					["type"] = 1,
+					["time"] = 1316827409,
+					["from"] = "Deadset",
+					["msg"] = "Yep!",
+					["inbound"] = false,
+					["convo"] = "|Kf901|k00000000000000000000|k",
+				}, -- [14]
+				{
+					["type"] = 1,
+					["time"] = 1316827415,
+					["from"] = "Deadset",
+					["msg"] = "And working for a real IT dept",
+					["inbound"] = false,
+					["convo"] = "|Kf901|k00000000000000000000|k",
+				}, -- [15]
+				{
+					["type"] = 1,
+					["time"] = 1316827495,
+					["from"] = "Deadset",
+					["msg"] = "It'll be *excellent* on my resume",
+					["inbound"] = false,
+					["convo"] = "|Kf901|k00000000000000000000|k",
+				}, -- [16]
+				{
+					["type"] = 1,
+					["time"] = 1316827498,
+					["from"] = "Deadset",
+					["msg"] = "in the future",
+					["inbound"] = false,
+					["convo"] = "|Kf901|k00000000000000000000|k",
+				}, -- [17]
+				{
+					["type"] = 1,
+					["time"] = 1316827501,
+					["from"] = "Deadset",
+					["msg"] = ":D",
+					["inbound"] = false,
+					["convo"] = "|Kf901|k00000000000000000000|k",
+				}, -- [18]
+				{
+					["type"] = 1,
+					["time"] = 1316827556,
+					["from"] = "Deadset",
+					["msg"] = "So what have you been up to man? And what brings you back to Azeroth tonight? hehe",
+					["inbound"] = false,
+					["convo"] = "|Kf901|k00000000000000000000|k",
+				}, -- [19]
+				{
+					["type"] = 1,
+					["time"] = 1316827606,
+					["from"] = "Deadset",
+					["msg"] = "Haha, sounds good.",
+					["inbound"] = false,
+					["convo"] = "|Kf901|k00000000000000000000|k",
+				}, -- [20]
+				{
+					["type"] = 1,
+					["time"] = 1316827632,
+					["from"] = "Deadset",
+					["msg"] = "I'm changing my medicine up (partially because of insurance company).. i've been having bad SSRI withdrawls all week, feeling like SHIT. And now i'm sick to boot! possibly with the flu :(",
+					["inbound"] = false,
+					["convo"] = "|Kf901|k00000000000000000000|k",
+				}, -- [21]
+				{
+					["type"] = 1,
+					["time"] = 1316827650,
+					["from"] = "Deadset",
+					["msg"] = "but doing alright, and maybe i'll feel up to doing some working out once my head clears lol",
+					["inbound"] = false,
+					["convo"] = "|Kf901|k00000000000000000000|k",
+				}, -- [22]
+				{
+					["type"] = 1,
+					["time"] = 1316827659,
+					["from"] = "Deadset",
+					["msg"] = "i'm hoping i'll be less dizzy all the time at least",
+					["inbound"] = false,
+					["convo"] = "|Kf901|k00000000000000000000|k",
+				}, -- [23]
+				{
+					["type"] = 1,
+					["time"] = 1316827666,
+					["from"] = "Deadset",
+					["msg"] = "ah it's alright",
+					["inbound"] = false,
+					["convo"] = "|Kf901|k00000000000000000000|k",
+				}, -- [24]
+				{
+					["type"] = 1,
+					["time"] = 1316827844,
+					["from"] = "Deadset",
+					["msg"] = "yep hope so",
+					["inbound"] = false,
+					["convo"] = "|Kf901|k00000000000000000000|k",
+				}, -- [25]
+				{
+					["type"] = 1,
+					["time"] = 1316827845,
+					["from"] = "Deadset",
+					["msg"] = "lol",
+					["inbound"] = false,
+					["convo"] = "|Kf901|k00000000000000000000|k",
+				}, -- [26]
+				{
+					["type"] = 1,
+					["time"] = 1316827864,
+					["from"] = "Deadset",
+					["msg"] = "So after the recent nerf (like this week) Firelands is pretty accecable now",
+					["inbound"] = false,
+					["convo"] = "|Kf901|k00000000000000000000|k",
+				}, -- [27]
+				{
+					["type"] = 1,
+					["time"] = 1316827888,
+					["from"] = "Deadset",
+					["msg"] = "my team (10 man) is 7/7 reg 1/7 heroic, but we expect to be 6/7 heroic within 2 weeks",
+					["inbound"] = false,
+					["convo"] = "|Kf901|k00000000000000000000|k",
+				}, -- [28]
+				{
+					["type"] = 1,
+					["time"] = 1316827932,
+					["from"] = "Deadset",
+					["msg"] = "and all of the fights are pretty cool in FL! :D",
+					["inbound"] = false,
+					["convo"] = "|Kf901|k00000000000000000000|k",
+				}, -- [29]
 				["info"] = {
 				},
 			},
@@ -29746,63 +29907,15 @@ WIM3_History = {
 				["info"] = {
 				},
 			},
-			["|Kf109|k00000000000000000|k"] = {
+			["|Kf1275|k00000000000|k"] = {
 				{
 					["type"] = 1,
-					["time"] = 1316395847,
+					["time"] = 1316833639,
 					["from"] = "Deadset",
-					["msg"] = "I've got about.. 90 stacks of dust, but not really any essences cuz they sell like hot cakes",
+					["msg"] = "did he do it again?!",
 					["inbound"] = false,
-					["convo"] = "|Kf109|k00000000000000000|k",
+					["convo"] = "|Kf1275|k00000000000|k",
 				}, -- [1]
-				{
-					["type"] = 1,
-					["time"] = 1316395909,
-					["from"] = "Deadset",
-					["msg"] = "Yep. I'd be happy to give you all the dust you need, but essences are a huge money maker and hard to come by lol",
-					["inbound"] = false,
-					["convo"] = "|Kf109|k00000000000000000|k",
-				}, -- [2]
-				{
-					["type"] = 1,
-					["time"] = 1316396117,
-					["from"] = "Deadset",
-					["msg"] = "k",
-					["inbound"] = false,
-					["convo"] = "|Kf109|k00000000000000000|k",
-				}, -- [3]
-				{
-					["type"] = 1,
-					["time"] = 1316396307,
-					["from"] = "Deadset",
-					["msg"] = "um yeah",
-					["inbound"] = false,
-					["convo"] = "|Kf109|k00000000000000000|k",
-				}, -- [4]
-				{
-					["type"] = 1,
-					["time"] = 1316396324,
-					["from"] = "Deadset",
-					["msg"] = "oh nah you can have it",
-					["inbound"] = false,
-					["convo"] = "|Kf109|k00000000000000000|k",
-				}, -- [5]
-				{
-					["type"] = 1,
-					["time"] = 1316396342,
-					["from"] = "Deadset",
-					["msg"] = "nah it's worthless,i only have it because i don't feel like taking the time to delete it",
-					["inbound"] = false,
-					["convo"] = "|Kf109|k00000000000000000|k",
-				}, -- [6]
-				{
-					["type"] = 1,
-					["time"] = 1316396450,
-					["from"] = "Deadset",
-					["msg"] = "k omw",
-					["inbound"] = false,
-					["convo"] = "|Kf109|k00000000000000000|k",
-				}, -- [7]
 				["info"] = {
 				},
 			},
@@ -31026,6 +31139,518 @@ WIM3_History = {
 				["info"] = {
 				},
 			},
+			["|Kf346|k00000000000|k"] = {
+				{
+					["type"] = 1,
+					["time"] = 1316734848,
+					["from"] = "Deadset",
+					["msg"] = "k, well, what is your rep at? any?",
+					["inbound"] = false,
+					["convo"] = "|Kf346|k00000000000|k",
+				}, -- [1]
+				{
+					["type"] = 1,
+					["time"] = 1316734885,
+					["from"] = "Deadset",
+					["msg"] = "k, Step 1) go to Deepholme.",
+					["inbound"] = false,
+					["convo"] = "|Kf346|k00000000000|k",
+				}, -- [2]
+				{
+					["type"] = 1,
+					["time"] = 1316734942,
+					["from"] = "Deadset",
+					["msg"] = "Step 2) look in the building for quests. If you find none, tell me and i'll give you coords to fly to",
+					["inbound"] = false,
+					["convo"] = "|Kf346|k00000000000|k",
+				}, -- [3]
+				{
+					["type"] = 1,
+					["time"] = 1316735264,
+					["from"] = "Deadset",
+					["msg"] = "k",
+					["inbound"] = false,
+					["convo"] = "|Kf346|k00000000000|k",
+				}, -- [4]
+				{
+					["type"] = 1,
+					["time"] = 1316735265,
+					["from"] = "Deadset",
+					["msg"] = "sorry",
+					["inbound"] = false,
+					["convo"] = "|Kf346|k00000000000|k",
+				}, -- [5]
+				{
+					["type"] = 1,
+					["time"] = 1316735267,
+					["from"] = "Deadset",
+					["msg"] = "okay",
+					["inbound"] = false,
+					["convo"] = "|Kf346|k00000000000|k",
+				}, -- [6]
+				{
+					["type"] = 1,
+					["time"] = 1316735285,
+					["from"] = "Deadset",
+					["msg"] = "do you have a coords adodn? or a map addon? or Tomtom?",
+					["inbound"] = false,
+					["convo"] = "|Kf346|k00000000000|k",
+				}, -- [7]
+				{
+					["type"] = 1,
+					["time"] = 1316735367,
+					["from"] = "Deadset",
+					["msg"] = "Hrm",
+					["inbound"] = false,
+					["convo"] = "|Kf346|k00000000000|k",
+				}, -- [8]
+				{
+					["type"] = 1,
+					["time"] = 1316735370,
+					["from"] = "Deadset",
+					["msg"] = "well",
+					["inbound"] = false,
+					["convo"] = "|Kf346|k00000000000|k",
+				}, -- [9]
+				{
+					["type"] = 1,
+					["time"] = 1316735388,
+					["from"] = "Deadset",
+					["msg"] = "This is probably best",
+					["inbound"] = false,
+					["convo"] = "|Kf346|k00000000000|k",
+				}, -- [10]
+				{
+					["type"] = 1,
+					["time"] = 1316735390,
+					["from"] = "Deadset",
+					["msg"] = "http://www.wowhead.com/zone=5042/deepholm#show:alliance:quest.map",
+					["inbound"] = false,
+					["convo"] = "|Kf346|k00000000000|k",
+				}, -- [11]
+				{
+					["type"] = 1,
+					["time"] = 1316735400,
+					["from"] = "Deadset",
+					["msg"] = "um, I can paste that into vent or mumble if it cut it off",
+					["inbound"] = false,
+					["convo"] = "|Kf346|k00000000000|k",
+				}, -- [12]
+				{
+					["type"] = 1,
+					["time"] = 1316735404,
+					["from"] = "Deadset",
+					["msg"] = "cuz you want the whole url",
+					["inbound"] = false,
+					["convo"] = "|Kf346|k00000000000|k",
+				}, -- [13]
+				{
+					["type"] = 1,
+					["time"] = 1316735409,
+					["from"] = "Deadset",
+					["msg"] = "but it shows all quest givers in Deepholme",
+					["inbound"] = false,
+					["convo"] = "|Kf346|k00000000000|k",
+				}, -- [14]
+				{
+					["type"] = 1,
+					["time"] = 1316735419,
+					["from"] = "Deadset",
+					["msg"] = "Basicaly you wanna fly to those areas, pretty much all of them, honestly",
+					["inbound"] = false,
+					["convo"] = "|Kf346|k00000000000|k",
+				}, -- [15]
+				{
+					["type"] = 1,
+					["time"] = 1316735442,
+					["from"] = "Deadset",
+					["msg"] = "The ones in the bottom-left may be the best to start with, around 27, 68",
+					["inbound"] = false,
+					["convo"] = "|Kf346|k00000000000|k",
+				}, -- [16]
+				{
+					["type"] = 1,
+					["time"] = 1316735448,
+					["from"] = "Deadset",
+					["msg"] = "also i'd highly reccomend the addon Tomtom",
+					["inbound"] = false,
+					["convo"] = "|Kf346|k00000000000|k",
+				}, -- [17]
+				{
+					["type"] = 1,
+					["time"] = 1316735464,
+					["from"] = "Deadset",
+					["msg"] = "k",
+					["inbound"] = false,
+					["convo"] = "|Kf346|k00000000000|k",
+				}, -- [18]
+				["info"] = {
+				},
+			},
+			["|Kf584|k00000000000000000|k"] = {
+				{
+					["type"] = 1,
+					["time"] = 1316565508,
+					["from"] = "Deadset",
+					["msg"] = "I think so",
+					["inbound"] = false,
+					["convo"] = "|Kf584|k00000000000000000|k",
+				}, -- [1]
+				{
+					["type"] = 1,
+					["time"] = 1316565528,
+					["from"] = "Deadset",
+					["msg"] = "Yep, we'll be out of here soon.",
+					["inbound"] = false,
+					["convo"] = "|Kf584|k00000000000000000|k",
+				}, -- [2]
+				{
+					["type"] = 1,
+					["time"] = 1316565531,
+					["from"] = "Deadset",
+					["msg"] = "comeon mumble",
+					["inbound"] = false,
+					["convo"] = "|Kf584|k00000000000000000|k",
+				}, -- [3]
+				["info"] = {
+				},
+			},
+			["|Kf294|k000000000000|k"] = {
+				{
+					["type"] = 1,
+					["time"] = 1316051225,
+					["from"] = "Deadset",
+					["msg"] = "lol sorry everyone was here",
+					["inbound"] = false,
+					["convo"] = "|Kf294|k000000000000|k",
+				}, -- [1]
+				["info"] = {
+				},
+			},
+			["|Kf570|k0000000000000000|k"] = {
+				{
+					["type"] = 1,
+					["time"] = 1316563897,
+					["from"] = "Deadset",
+					["msg"] = "nice, we'll try tonight since it got nerfed to the ground lol",
+					["inbound"] = false,
+					["convo"] = "|Kf570|k0000000000000000|k",
+				}, -- [1]
+				["info"] = {
+				},
+			},
+			["|Kf510|k00000000000|k"] = {
+				{
+					["type"] = 1,
+					["time"] = 1317068419,
+					["from"] = "Deadset",
+					["msg"] = "i'll play wit you first1",
+					["inbound"] = false,
+					["convo"] = "|Kf510|k00000000000|k",
+				}, -- [1]
+				{
+					["type"] = 1,
+					["time"] = 1317068424,
+					["from"] = "Deadset",
+					["msg"] = "let me go buy this helm thing first",
+					["inbound"] = false,
+					["convo"] = "|Kf510|k00000000000|k",
+				}, -- [2]
+				["info"] = {
+				},
+			},
+			["|Kf285|k00000000000|k"] = {
+				{
+					["type"] = 1,
+					["time"] = 1316285251,
+					["from"] = "Deadset",
+					["msg"] = "WELL HELLOOOOO",
+					["inbound"] = false,
+					["convo"] = "|Kf285|k00000000000|k",
+				}, -- [1]
+				{
+					["type"] = 1,
+					["time"] = 1316285259,
+					["from"] = "Deadset",
+					["msg"] = "You were busy calling people names over realid! :O",
+					["inbound"] = false,
+					["convo"] = "|Kf285|k00000000000|k",
+				}, -- [2]
+				{
+					["type"] = 1,
+					["time"] = 1316285313,
+					["from"] = "Deadset",
+					["msg"] = "but good morning cutie :)",
+					["inbound"] = false,
+					["convo"] = "|Kf285|k00000000000|k",
+				}, -- [3]
+				{
+					["type"] = 1,
+					["time"] = 1316285345,
+					["from"] = "Deadset",
+					["msg"] = "lol k",
+					["inbound"] = false,
+					["convo"] = "|Kf285|k00000000000|k",
+				}, -- [4]
+				{
+					["type"] = 1,
+					["time"] = 1316285401,
+					["from"] = "Deadset",
+					["msg"] = "makeup bag? O_o",
+					["inbound"] = false,
+					["convo"] = "|Kf285|k00000000000|k",
+				}, -- [5]
+				{
+					["type"] = 1,
+					["time"] = 1316285418,
+					["from"] = "Deadset",
+					["msg"] = "to cover the black eye from last night? :O",
+					["inbound"] = false,
+					["convo"] = "|Kf285|k00000000000|k",
+				}, -- [6]
+				{
+					["type"] = 1,
+					["time"] = 1316285487,
+					["from"] = "Deadset",
+					["msg"] = "no? lol",
+					["inbound"] = false,
+					["convo"] = "|Kf285|k00000000000|k",
+				}, -- [7]
+				["info"] = {
+				},
+			},
+			["|Kf266|k00000000000|k"] = {
+				{
+					["type"] = 1,
+					["time"] = 1317057355,
+					["from"] = "Deadset",
+					["msg"] = "well hold on",
+					["inbound"] = false,
+					["convo"] = "|Kf266|k00000000000|k",
+				}, -- [1]
+				{
+					["type"] = 1,
+					["time"] = 1317057365,
+					["from"] = "Deadset",
+					["msg"] = "I guess coren is quick",
+					["inbound"] = false,
+					["convo"] = "|Kf266|k00000000000|k",
+				}, -- [2]
+				{
+					["type"] = 1,
+					["time"] = 1317057369,
+					["from"] = "Deadset",
+					["msg"] = "DO IT",
+					["inbound"] = false,
+					["convo"] = "|Kf266|k00000000000|k",
+				}, -- [3]
+				{
+					["type"] = 1,
+					["time"] = 1317057609,
+					["from"] = "Deadset",
+					["msg"] = "none for me either :(",
+					["inbound"] = false,
+					["convo"] = "|Kf266|k00000000000|k",
+				}, -- [4]
+				{
+					["type"] = 1,
+					["time"] = 1317057612,
+					["from"] = "Deadset",
+					["msg"] = "is",
+					["inbound"] = false,
+					["convo"] = "|Kf266|k00000000000|k",
+				}, -- [5]
+				{
+					["type"] = 1,
+					["time"] = 1317057613,
+					["from"] = "Deadset",
+					["msg"] = "is",
+					["inbound"] = false,
+					["convo"] = "|Kf266|k00000000000|k",
+				}, -- [6]
+				{
+					["type"] = 1,
+					["time"] = 1317057616,
+					["from"] = "Deadset",
+					["msg"] = "there is no loot",
+					["inbound"] = false,
+					["convo"] = "|Kf266|k00000000000|k",
+				}, -- [7]
+				{
+					["type"] = 1,
+					["time"] = 1317057620,
+					["from"] = "Deadset",
+					["msg"] = "where you drunk or did you type that yourself? lol",
+					["inbound"] = false,
+					["convo"] = "|Kf266|k00000000000|k",
+				}, -- [8]
+				{
+					["type"] = 1,
+					["time"] = 1317058290,
+					["from"] = "Deadset",
+					["msg"] = ":O",
+					["inbound"] = false,
+					["convo"] = "|Kf266|k00000000000|k",
+				}, -- [9]
+				{
+					["type"] = 1,
+					["time"] = 1317058296,
+					["from"] = "Deadset",
+					["msg"] = "I went to look for food",
+					["inbound"] = false,
+					["convo"] = "|Kf266|k00000000000|k",
+				}, -- [10]
+				{
+					["type"] = 1,
+					["time"] = 1317058299,
+					["from"] = "Deadset",
+					["msg"] = "saw nothing great",
+					["inbound"] = false,
+					["convo"] = "|Kf266|k00000000000|k",
+				}, -- [11]
+				{
+					["type"] = 1,
+					["time"] = 1317058304,
+					["from"] = "Deadset",
+					["msg"] = "drank some soda, and came back",
+					["inbound"] = false,
+					["convo"] = "|Kf266|k00000000000|k",
+				}, -- [12]
+				["info"] = {
+				},
+			},
+			["Piggyslasher"] = {
+				{
+					["type"] = 1,
+					["time"] = 1316578504,
+					["from"] = "Piggyslasher",
+					["msg"] = "Recount - Damage Done for Overall Data",
+					["inbound"] = true,
+					["convo"] = "Piggyslasher",
+				}, -- [1]
+				{
+					["type"] = 1,
+					["time"] = 1316578504,
+					["from"] = "Piggyslasher",
+					["msg"] = "1. Piggyslasher  1284294 (31270.9, 56.3%)",
+					["inbound"] = true,
+					["convo"] = "Piggyslasher",
+				}, -- [2]
+				{
+					["type"] = 1,
+					["time"] = 1316578504,
+					["from"] = "Piggyslasher",
+					["msg"] = "2. Piemaster-Kel'Thuzad  458528 (15654.8, 20.1%)",
+					["inbound"] = true,
+					["convo"] = "Piggyslasher",
+				}, -- [3]
+				{
+					["type"] = 1,
+					["time"] = 1316578504,
+					["from"] = "Piggyslasher",
+					["msg"] = "3. Leiaa-Kel'Thuzad  356030 (8535.8, 15.6%)",
+					["inbound"] = true,
+					["convo"] = "Piggyslasher",
+				}, -- [4]
+				{
+					["type"] = 1,
+					["time"] = 1316578504,
+					["from"] = "Piggyslasher",
+					["msg"] = "4. Badmeetsevil-Kel'Thuzad  180788 (4867.7, 7.9%)",
+					["inbound"] = true,
+					["convo"] = "Piggyslasher",
+				}, -- [5]
+				{
+					["type"] = 1,
+					["time"] = 1316578504,
+					["from"] = "Piggyslasher",
+					["msg"] = "5. Mononokè-Kel'Thuzad  1308 (45.0, 0%)",
+					["inbound"] = true,
+					["convo"] = "Piggyslasher",
+				}, -- [6]
+				{
+					["type"] = 1,
+					["time"] = 1316578522,
+					["from"] = "Piggyslasher",
+					["msg"] = "that was just on corin direbrew",
+					["inbound"] = true,
+					["convo"] = "Piggyslasher",
+				}, -- [7]
+				{
+					["type"] = 1,
+					["time"] = 1316578558,
+					["from"] = "Deadset",
+					["msg"] = "haha nice",
+					["inbound"] = false,
+					["convo"] = "Piggyslasher",
+				}, -- [8]
+				["info"] = {
+				},
+			},
+			["|Kf2039|k00000000000|k"] = {
+				{
+					["type"] = 1,
+					["time"] = 1316583418,
+					["from"] = "Deadset",
+					["msg"] = "haha okay",
+					["inbound"] = false,
+					["convo"] = "|Kf2039|k00000000000|k",
+				}, -- [1]
+				["info"] = {
+				},
+			},
+			["Alabasiter"] = {
+				{
+					["type"] = 1,
+					["time"] = 1316222163,
+					["from"] = "Deadset",
+					["msg"] = "lol so the girl you asked about, Jamie, she's hot in my book, but mine is pretty skewed. I'd give her a 9, but she's probably like a 5 or something on the \"traditional scale\" lol",
+					["inbound"] = false,
+					["convo"] = "Alabasiter",
+				}, -- [1]
+				{
+					["type"] = 1,
+					["time"] = 1316222175,
+					["from"] = "Alabasiter",
+					["msg"] = "lol",
+					["inbound"] = true,
+					["convo"] = "Alabasiter",
+				}, -- [2]
+				{
+					["type"] = 1,
+					["time"] = 1316222187,
+					["from"] = "Alabasiter",
+					["msg"] = "so like a 3 on my scale lol",
+					["inbound"] = true,
+					["convo"] = "Alabasiter",
+				}, -- [3]
+				{
+					["type"] = 1,
+					["time"] = 1316222198,
+					["from"] = "Deadset",
+					["msg"] = "hahaha possibly",
+					["inbound"] = false,
+					["convo"] = "Alabasiter",
+				}, -- [4]
+				{
+					["type"] = 1,
+					["time"] = 1316222346,
+					["from"] = "Deadset",
+					["msg"] = "My scale isn't bad. really bitch women are at the bottom, regardless of attractiveness, your \"traditional\" hot skinny girl with orange skin is around 4, someone with a little meat on their bones and a cute face goes up to 6.5, and if i like their hands ",
+					["inbound"] = false,
+					["convo"] = "Alabasiter",
+				}, -- [5]
+				{
+					["type"] = 1,
+					["time"] = 1316222346,
+					["from"] = "Deadset",
+					["msg"] = "and eyebrows they move on up to 9 or 10. ;) ",
+					["inbound"] = false,
+					["convo"] = "Alabasiter",
+				}, -- [6]
+				["info"] = {
+				},
+			},
 			["|Kf77|k000000000000|k"] = {
 				{
 					["type"] = 1,
@@ -31182,567 +31807,103 @@ WIM3_History = {
 				["info"] = {
 				},
 			},
-			["|Kf584|k00000000000000000|k"] = {
+			["|Kf423|k0000000000000000|k"] = {
 				{
 					["type"] = 1,
-					["time"] = 1316565508,
+					["time"] = 1316749495,
 					["from"] = "Deadset",
-					["msg"] = "I think so",
+					["msg"] = "nice!",
 					["inbound"] = false,
-					["convo"] = "|Kf584|k00000000000000000|k",
+					["convo"] = "|Kf423|k0000000000000000|k",
 				}, -- [1]
 				{
 					["type"] = 1,
-					["time"] = 1316565528,
+					["time"] = 1316749501,
 					["from"] = "Deadset",
-					["msg"] = "Yep, we'll be out of here soon.",
+					["msg"] = "our Group 1 just downed Rag for the first time",
 					["inbound"] = false,
-					["convo"] = "|Kf584|k00000000000000000|k",
+					["convo"] = "|Kf423|k0000000000000000|k",
 				}, -- [2]
 				{
 					["type"] = 1,
-					["time"] = 1316565531,
+					["time"] = 1316749503,
 					["from"] = "Deadset",
-					["msg"] = "comeon mumble",
+					["msg"] = "got another mount",
 					["inbound"] = false,
-					["convo"] = "|Kf584|k00000000000000000|k",
-				}, -- [3]
-				["info"] = {
-				},
-			},
-			["|Kf294|k000000000000|k"] = {
-				{
-					["type"] = 1,
-					["time"] = 1316051225,
-					["from"] = "Deadset",
-					["msg"] = "lol sorry everyone was here",
-					["inbound"] = false,
-					["convo"] = "|Kf294|k000000000000|k",
-				}, -- [1]
-				["info"] = {
-				},
-			},
-			["|Kf570|k0000000000000000|k"] = {
-				{
-					["type"] = 1,
-					["time"] = 1316563897,
-					["from"] = "Deadset",
-					["msg"] = "nice, we'll try tonight since it got nerfed to the ground lol",
-					["inbound"] = false,
-					["convo"] = "|Kf570|k0000000000000000|k",
-				}, -- [1]
-				["info"] = {
-				},
-			},
-			["|Kf346|k00000000000|k"] = {
-				{
-					["type"] = 1,
-					["time"] = 1316734848,
-					["from"] = "Deadset",
-					["msg"] = "k, well, what is your rep at? any?",
-					["inbound"] = false,
-					["convo"] = "|Kf346|k00000000000|k",
-				}, -- [1]
-				{
-					["type"] = 1,
-					["time"] = 1316734885,
-					["from"] = "Deadset",
-					["msg"] = "k, Step 1) go to Deepholme.",
-					["inbound"] = false,
-					["convo"] = "|Kf346|k00000000000|k",
-				}, -- [2]
-				{
-					["type"] = 1,
-					["time"] = 1316734942,
-					["from"] = "Deadset",
-					["msg"] = "Step 2) look in the building for quests. If you find none, tell me and i'll give you coords to fly to",
-					["inbound"] = false,
-					["convo"] = "|Kf346|k00000000000|k",
+					["convo"] = "|Kf423|k0000000000000000|k",
 				}, -- [3]
 				{
 					["type"] = 1,
-					["time"] = 1316735264,
+					["time"] = 1316749514,
 					["from"] = "Deadset",
-					["msg"] = "k",
+					["msg"] = "it certianly seems like the drop rate is 100% for your first kill",
 					["inbound"] = false,
-					["convo"] = "|Kf346|k00000000000|k",
+					["convo"] = "|Kf423|k0000000000000000|k",
 				}, -- [4]
 				{
 					["type"] = 1,
-					["time"] = 1316735265,
+					["time"] = 1316749528,
 					["from"] = "Deadset",
-					["msg"] = "sorry",
+					["msg"] = "you guys got one, we've gotten one on both of our kills",
 					["inbound"] = false,
-					["convo"] = "|Kf346|k00000000000|k",
+					["convo"] = "|Kf423|k0000000000000000|k",
 				}, -- [5]
 				{
 					["type"] = 1,
-					["time"] = 1316735267,
+					["time"] = 1316749532,
 					["from"] = "Deadset",
-					["msg"] = "okay",
+					["msg"] = "i thought you got one on your first kill?",
 					["inbound"] = false,
-					["convo"] = "|Kf346|k00000000000|k",
+					["convo"] = "|Kf423|k0000000000000000|k",
 				}, -- [6]
 				{
 					["type"] = 1,
-					["time"] = 1316735285,
+					["time"] = 1316749539,
 					["from"] = "Deadset",
-					["msg"] = "do you have a coords adodn? or a map addon? or Tomtom?",
+					["msg"] = "oh really?",
 					["inbound"] = false,
-					["convo"] = "|Kf346|k00000000000|k",
+					["convo"] = "|Kf423|k0000000000000000|k",
 				}, -- [7]
 				{
 					["type"] = 1,
-					["time"] = 1316735367,
+					["time"] = 1316749541,
 					["from"] = "Deadset",
-					["msg"] = "Hrm",
+					["msg"] = "dang",
 					["inbound"] = false,
-					["convo"] = "|Kf346|k00000000000|k",
+					["convo"] = "|Kf423|k0000000000000000|k",
 				}, -- [8]
 				{
 					["type"] = 1,
-					["time"] = 1316735370,
+					["time"] = 1316749546,
 					["from"] = "Deadset",
-					["msg"] = "well",
+					["msg"] = "ahh",
 					["inbound"] = false,
-					["convo"] = "|Kf346|k00000000000|k",
+					["convo"] = "|Kf423|k0000000000000000|k",
 				}, -- [9]
 				{
 					["type"] = 1,
-					["time"] = 1316735388,
+					["time"] = 1316749550,
 					["from"] = "Deadset",
-					["msg"] = "This is probably best",
+					["msg"] = "well that changes my theory then",
 					["inbound"] = false,
-					["convo"] = "|Kf346|k00000000000|k",
+					["convo"] = "|Kf423|k0000000000000000|k",
 				}, -- [10]
 				{
 					["type"] = 1,
-					["time"] = 1316735390,
+					["time"] = 1316749550,
 					["from"] = "Deadset",
-					["msg"] = "http://www.wowhead.com/zone=5042/deepholm#show:alliance:quest.map",
-					["inbound"] = false,
-					["convo"] = "|Kf346|k00000000000|k",
-				}, -- [11]
-				{
-					["type"] = 1,
-					["time"] = 1316735400,
-					["from"] = "Deadset",
-					["msg"] = "um, I can paste that into vent or mumble if it cut it off",
-					["inbound"] = false,
-					["convo"] = "|Kf346|k00000000000|k",
-				}, -- [12]
-				{
-					["type"] = 1,
-					["time"] = 1316735404,
-					["from"] = "Deadset",
-					["msg"] = "cuz you want the whole url",
-					["inbound"] = false,
-					["convo"] = "|Kf346|k00000000000|k",
-				}, -- [13]
-				{
-					["type"] = 1,
-					["time"] = 1316735409,
-					["from"] = "Deadset",
-					["msg"] = "but it shows all quest givers in Deepholme",
-					["inbound"] = false,
-					["convo"] = "|Kf346|k00000000000|k",
-				}, -- [14]
-				{
-					["type"] = 1,
-					["time"] = 1316735419,
-					["from"] = "Deadset",
-					["msg"] = "Basicaly you wanna fly to those areas, pretty much all of them, honestly",
-					["inbound"] = false,
-					["convo"] = "|Kf346|k00000000000|k",
-				}, -- [15]
-				{
-					["type"] = 1,
-					["time"] = 1316735442,
-					["from"] = "Deadset",
-					["msg"] = "The ones in the bottom-left may be the best to start with, around 27, 68",
-					["inbound"] = false,
-					["convo"] = "|Kf346|k00000000000|k",
-				}, -- [16]
-				{
-					["type"] = 1,
-					["time"] = 1316735448,
-					["from"] = "Deadset",
-					["msg"] = "also i'd highly reccomend the addon Tomtom",
-					["inbound"] = false,
-					["convo"] = "|Kf346|k00000000000|k",
-				}, -- [17]
-				{
-					["type"] = 1,
-					["time"] = 1316735464,
-					["from"] = "Deadset",
-					["msg"] = "k",
-					["inbound"] = false,
-					["convo"] = "|Kf346|k00000000000|k",
-				}, -- [18]
-				["info"] = {
-				},
-			},
-			["|Kf1275|k00000000000|k"] = {
-				{
-					["type"] = 1,
-					["time"] = 1316833639,
-					["from"] = "Deadset",
-					["msg"] = "did he do it again?!",
-					["inbound"] = false,
-					["convo"] = "|Kf1275|k00000000000|k",
-				}, -- [1]
-				["info"] = {
-				},
-			},
-			["|Kf266|k00000000000|k"] = {
-				{
-					["type"] = 1,
-					["time"] = 1317057355,
-					["from"] = "Deadset",
-					["msg"] = "well hold on",
-					["inbound"] = false,
-					["convo"] = "|Kf266|k00000000000|k",
-				}, -- [1]
-				{
-					["type"] = 1,
-					["time"] = 1317057365,
-					["from"] = "Deadset",
-					["msg"] = "I guess coren is quick",
-					["inbound"] = false,
-					["convo"] = "|Kf266|k00000000000|k",
-				}, -- [2]
-				{
-					["type"] = 1,
-					["time"] = 1317057369,
-					["from"] = "Deadset",
-					["msg"] = "DO IT",
-					["inbound"] = false,
-					["convo"] = "|Kf266|k00000000000|k",
-				}, -- [3]
-				{
-					["type"] = 1,
-					["time"] = 1317057609,
-					["from"] = "Deadset",
-					["msg"] = "none for me either :(",
-					["inbound"] = false,
-					["convo"] = "|Kf266|k00000000000|k",
-				}, -- [4]
-				{
-					["type"] = 1,
-					["time"] = 1317057612,
-					["from"] = "Deadset",
-					["msg"] = "is",
-					["inbound"] = false,
-					["convo"] = "|Kf266|k00000000000|k",
-				}, -- [5]
-				{
-					["type"] = 1,
-					["time"] = 1317057613,
-					["from"] = "Deadset",
-					["msg"] = "is",
-					["inbound"] = false,
-					["convo"] = "|Kf266|k00000000000|k",
-				}, -- [6]
-				{
-					["type"] = 1,
-					["time"] = 1317057616,
-					["from"] = "Deadset",
-					["msg"] = "there is no loot",
-					["inbound"] = false,
-					["convo"] = "|Kf266|k00000000000|k",
-				}, -- [7]
-				{
-					["type"] = 1,
-					["time"] = 1317057620,
-					["from"] = "Deadset",
-					["msg"] = "where you drunk or did you type that yourself? lol",
-					["inbound"] = false,
-					["convo"] = "|Kf266|k00000000000|k",
-				}, -- [8]
-				{
-					["type"] = 1,
-					["time"] = 1317058290,
-					["from"] = "Deadset",
-					["msg"] = ":O",
-					["inbound"] = false,
-					["convo"] = "|Kf266|k00000000000|k",
-				}, -- [9]
-				{
-					["type"] = 1,
-					["time"] = 1317058296,
-					["from"] = "Deadset",
-					["msg"] = "I went to look for food",
-					["inbound"] = false,
-					["convo"] = "|Kf266|k00000000000|k",
-				}, -- [10]
-				{
-					["type"] = 1,
-					["time"] = 1317058299,
-					["from"] = "Deadset",
-					["msg"] = "saw nothing great",
-					["inbound"] = false,
-					["convo"] = "|Kf266|k00000000000|k",
-				}, -- [11]
-				{
-					["type"] = 1,
-					["time"] = 1317058304,
-					["from"] = "Deadset",
-					["msg"] = "drank some soda, and came back",
-					["inbound"] = false,
-					["convo"] = "|Kf266|k00000000000|k",
-				}, -- [12]
-				["info"] = {
-				},
-			},
-			["|Kf285|k00000000000|k"] = {
-				{
-					["type"] = 1,
-					["time"] = 1316285251,
-					["from"] = "Deadset",
-					["msg"] = "WELL HELLOOOOO",
-					["inbound"] = false,
-					["convo"] = "|Kf285|k00000000000|k",
-				}, -- [1]
-				{
-					["type"] = 1,
-					["time"] = 1316285259,
-					["from"] = "Deadset",
-					["msg"] = "You were busy calling people names over realid! :O",
-					["inbound"] = false,
-					["convo"] = "|Kf285|k00000000000|k",
-				}, -- [2]
-				{
-					["type"] = 1,
-					["time"] = 1316285313,
-					["from"] = "Deadset",
-					["msg"] = "but good morning cutie :)",
-					["inbound"] = false,
-					["convo"] = "|Kf285|k00000000000|k",
-				}, -- [3]
-				{
-					["type"] = 1,
-					["time"] = 1316285345,
-					["from"] = "Deadset",
-					["msg"] = "lol k",
-					["inbound"] = false,
-					["convo"] = "|Kf285|k00000000000|k",
-				}, -- [4]
-				{
-					["type"] = 1,
-					["time"] = 1316285401,
-					["from"] = "Deadset",
-					["msg"] = "makeup bag? O_o",
-					["inbound"] = false,
-					["convo"] = "|Kf285|k00000000000|k",
-				}, -- [5]
-				{
-					["type"] = 1,
-					["time"] = 1316285418,
-					["from"] = "Deadset",
-					["msg"] = "to cover the black eye from last night? :O",
-					["inbound"] = false,
-					["convo"] = "|Kf285|k00000000000|k",
-				}, -- [6]
-				{
-					["type"] = 1,
-					["time"] = 1316285487,
-					["from"] = "Deadset",
-					["msg"] = "no? lol",
-					["inbound"] = false,
-					["convo"] = "|Kf285|k00000000000|k",
-				}, -- [7]
-				["info"] = {
-				},
-			},
-			["|Kf2039|k00000000000|k"] = {
-				{
-					["type"] = 1,
-					["time"] = 1316583418,
-					["from"] = "Deadset",
-					["msg"] = "haha okay",
-					["inbound"] = false,
-					["convo"] = "|Kf2039|k00000000000|k",
-				}, -- [1]
-				["info"] = {
-				},
-			},
-			["Piggyslasher"] = {
-				{
-					["type"] = 1,
-					["time"] = 1316578504,
-					["from"] = "Piggyslasher",
-					["msg"] = "Recount - Damage Done for Overall Data",
-					["inbound"] = true,
-					["convo"] = "Piggyslasher",
-				}, -- [1]
-				{
-					["type"] = 1,
-					["time"] = 1316578504,
-					["from"] = "Piggyslasher",
-					["msg"] = "1. Piggyslasher  1284294 (31270.9, 56.3%)",
-					["inbound"] = true,
-					["convo"] = "Piggyslasher",
-				}, -- [2]
-				{
-					["type"] = 1,
-					["time"] = 1316578504,
-					["from"] = "Piggyslasher",
-					["msg"] = "2. Piemaster-Kel'Thuzad  458528 (15654.8, 20.1%)",
-					["inbound"] = true,
-					["convo"] = "Piggyslasher",
-				}, -- [3]
-				{
-					["type"] = 1,
-					["time"] = 1316578504,
-					["from"] = "Piggyslasher",
-					["msg"] = "3. Leiaa-Kel'Thuzad  356030 (8535.8, 15.6%)",
-					["inbound"] = true,
-					["convo"] = "Piggyslasher",
-				}, -- [4]
-				{
-					["type"] = 1,
-					["time"] = 1316578504,
-					["from"] = "Piggyslasher",
-					["msg"] = "4. Badmeetsevil-Kel'Thuzad  180788 (4867.7, 7.9%)",
-					["inbound"] = true,
-					["convo"] = "Piggyslasher",
-				}, -- [5]
-				{
-					["type"] = 1,
-					["time"] = 1316578504,
-					["from"] = "Piggyslasher",
-					["msg"] = "5. Mononokè-Kel'Thuzad  1308 (45.0, 0%)",
-					["inbound"] = true,
-					["convo"] = "Piggyslasher",
-				}, -- [6]
-				{
-					["type"] = 1,
-					["time"] = 1316578522,
-					["from"] = "Piggyslasher",
-					["msg"] = "that was just on corin direbrew",
-					["inbound"] = true,
-					["convo"] = "Piggyslasher",
-				}, -- [7]
-				{
-					["type"] = 1,
-					["time"] = 1316578558,
-					["from"] = "Deadset",
-					["msg"] = "haha nice",
-					["inbound"] = false,
-					["convo"] = "Piggyslasher",
-				}, -- [8]
-				["info"] = {
-				},
-			},
-			["Alabasiter"] = {
-				{
-					["type"] = 1,
-					["time"] = 1316222163,
-					["from"] = "Deadset",
-					["msg"] = "lol so the girl you asked about, Jamie, she's hot in my book, but mine is pretty skewed. I'd give her a 9, but she's probably like a 5 or something on the \"traditional scale\" lol",
-					["inbound"] = false,
-					["convo"] = "Alabasiter",
-				}, -- [1]
-				{
-					["type"] = 1,
-					["time"] = 1316222175,
-					["from"] = "Alabasiter",
 					["msg"] = "lol",
-					["inbound"] = true,
-					["convo"] = "Alabasiter",
-				}, -- [2]
-				{
-					["type"] = 1,
-					["time"] = 1316222187,
-					["from"] = "Alabasiter",
-					["msg"] = "so like a 3 on my scale lol",
-					["inbound"] = true,
-					["convo"] = "Alabasiter",
-				}, -- [3]
-				{
-					["type"] = 1,
-					["time"] = 1316222198,
-					["from"] = "Deadset",
-					["msg"] = "hahaha possibly",
 					["inbound"] = false,
-					["convo"] = "Alabasiter",
-				}, -- [4]
+					["convo"] = "|Kf423|k0000000000000000|k",
+				}, -- [11]
 				{
 					["type"] = 1,
-					["time"] = 1316222346,
+					["time"] = 1316749558,
 					["from"] = "Deadset",
-					["msg"] = "My scale isn't bad. really bitch women are at the bottom, regardless of attractiveness, your \"traditional\" hot skinny girl with orange skin is around 4, someone with a little meat on their bones and a cute face goes up to 6.5, and if i like their hands ",
+					["msg"] = "beddtime, 'night",
 					["inbound"] = false,
-					["convo"] = "Alabasiter",
-				}, -- [5]
-				{
-					["type"] = 1,
-					["time"] = 1316222346,
-					["from"] = "Deadset",
-					["msg"] = "and eyebrows they move on up to 9 or 10. ;) ",
-					["inbound"] = false,
-					["convo"] = "Alabasiter",
-				}, -- [6]
-				["info"] = {
-				},
-			},
-			["Nehiholyguy"] = {
-				{
-					["type"] = 1,
-					["time"] = 1316656994,
-					["from"] = "Nehiholyguy",
-					["msg"] = "alright, as per our healer assignments, i am on you for theraid unless otherwise instructed",
-					["inbound"] = true,
-					["convo"] = "Nehiholyguy",
-				}, -- [1]
-				{
-					["type"] = 1,
-					["time"] = 1316657001,
-					["from"] = "Deadset",
-					["msg"] = "k",
-					["inbound"] = false,
-					["convo"] = "Nehiholyguy",
-				}, -- [2]
-				{
-					["type"] = 1,
-					["time"] = 1316657006,
-					["from"] = "Deadset",
-					["msg"] = "i will try not to run too crazy",
-					["inbound"] = false,
-					["convo"] = "Nehiholyguy",
-				}, -- [3]
-				{
-					["type"] = 1,
-					["time"] = 1316657009,
-					["from"] = "Deadset",
-					["msg"] = "but this is gonna be rough lol",
-					["inbound"] = false,
-					["convo"] = "Nehiholyguy",
-				}, -- [4]
-				{
-					["type"] = 1,
-					["time"] = 1316657023,
-					["from"] = "Nehiholyguy",
-					["msg"] = "just keep me in range and you wont die",
-					["inbound"] = true,
-					["convo"] = "Nehiholyguy",
-				}, -- [5]
-				{
-					["type"] = 1,
-					["time"] = 1316657033,
-					["from"] = "Nehiholyguy",
-					["msg"] = "call out if you need an Lgrip",
-					["inbound"] = true,
-					["convo"] = "Nehiholyguy",
-				}, -- [6]
-				{
-					["type"] = 1,
-					["time"] = 1316657036,
-					["from"] = "Deadset",
-					["msg"] = "k",
-					["inbound"] = false,
-					["convo"] = "Nehiholyguy",
-				}, -- [7]
+					["convo"] = "|Kf423|k0000000000000000|k",
+				}, -- [12]
 				["info"] = {
 				},
 			},
@@ -31763,6 +31924,266 @@ WIM3_History = {
 					["inbound"] = false,
 					["convo"] = "|Kf347|k000000000000|k",
 				}, -- [2]
+				["info"] = {
+				},
+			},
+			["|Kf101|k00000000000|k"] = {
+				{
+					["type"] = 1,
+					["time"] = 1316396361,
+					["from"] = "Deadset",
+					["msg"] = "Yes I do actually",
+					["inbound"] = false,
+					["convo"] = "|Kf101|k00000000000|k",
+				}, -- [1]
+				{
+					["type"] = 1,
+					["time"] = 1316396367,
+					["from"] = "Deadset",
+					["msg"] = "I just bought it the other day",
+					["inbound"] = false,
+					["convo"] = "|Kf101|k00000000000|k",
+				}, -- [2]
+				{
+					["type"] = 1,
+					["time"] = 1316396382,
+					["from"] = "Deadset",
+					["msg"] = "oooh okay",
+					["inbound"] = false,
+					["convo"] = "|Kf101|k00000000000|k",
+				}, -- [3]
+				{
+					["type"] = 1,
+					["time"] = 1316396383,
+					["from"] = "Deadset",
+					["msg"] = "haha",
+					["inbound"] = false,
+					["convo"] = "|Kf101|k00000000000|k",
+				}, -- [4]
+				{
+					["type"] = 1,
+					["time"] = 1316396389,
+					["from"] = "Deadset",
+					["msg"] = "ummm try Piggy if you're trying to sell it",
+					["inbound"] = false,
+					["convo"] = "|Kf101|k00000000000|k",
+				}, -- [5]
+				{
+					["type"] = 1,
+					["time"] = 1316396396,
+					["from"] = "Deadset",
+					["msg"] = "I know he has the other and wants it",
+					["inbound"] = false,
+					["convo"] = "|Kf101|k00000000000|k",
+				}, -- [6]
+				{
+					["type"] = 1,
+					["time"] = 1316396400,
+					["from"] = "Deadset",
+					["msg"] = "the others*",
+					["inbound"] = false,
+					["convo"] = "|Kf101|k00000000000|k",
+				}, -- [7]
+				{
+					["type"] = 1,
+					["time"] = 1316396410,
+					["from"] = "Deadset",
+					["msg"] = "lol good plan",
+					["inbound"] = false,
+					["convo"] = "|Kf101|k00000000000|k",
+				}, -- [8]
+				{
+					["type"] = 1,
+					["time"] = 1316396431,
+					["from"] = "Deadset",
+					["msg"] = "lol sorry, i am leveling a new cow right now, to see the whole cata changes",
+					["inbound"] = false,
+					["convo"] = "|Kf101|k00000000000|k",
+				}, -- [9]
+				["info"] = {
+				},
+			},
+			["|Kf1342|k00000000000|k"] = {
+				{
+					["type"] = 1,
+					["time"] = 1317088156,
+					["from"] = "Deadset",
+					["msg"] = "I guess not, Piggy is busy with his silly game",
+					["inbound"] = false,
+					["convo"] = "|Kf1342|k00000000000|k",
+				}, -- [1]
+				{
+					["type"] = 1,
+					["time"] = 1317088250,
+					["from"] = "Deadset",
+					["msg"] = "I want people for BH",
+					["inbound"] = false,
+					["convo"] = "|Kf1342|k00000000000|k",
+				}, -- [2]
+				{
+					["type"] = 1,
+					["time"] = 1317088257,
+					["from"] = "Deadset",
+					["msg"] = "but i don't think anyone is unsaved",
+					["inbound"] = false,
+					["convo"] = "|Kf1342|k00000000000|k",
+				}, -- [3]
+				{
+					["type"] = 1,
+					["time"] = 1317089421,
+					["from"] = "Deadset",
+					["msg"] = "Let's do something!",
+					["inbound"] = false,
+					["convo"] = "|Kf1342|k00000000000|k",
+				}, -- [4]
+				{
+					["type"] = 1,
+					["time"] = 1317089428,
+					["from"] = "Deadset",
+					["msg"] = "i feel all lonely and shit",
+					["inbound"] = false,
+					["convo"] = "|Kf1342|k00000000000|k",
+				}, -- [5]
+				{
+					["type"] = 1,
+					["time"] = 1317089429,
+					["from"] = "Deadset",
+					["msg"] = ":(",
+					["inbound"] = false,
+					["convo"] = "|Kf1342|k00000000000|k",
+				}, -- [6]
+				{
+					["type"] = 1,
+					["time"] = 1317089436,
+					["from"] = "Deadset",
+					["msg"] = "is that what you're doing?",
+					["inbound"] = false,
+					["convo"] = "|Kf1342|k00000000000|k",
+				}, -- [7]
+				{
+					["type"] = 1,
+					["time"] = 1317089438,
+					["from"] = "Deadset",
+					["msg"] = "i suppose I could",
+					["inbound"] = false,
+					["convo"] = "|Kf1342|k00000000000|k",
+				}, -- [8]
+				["info"] = {
+				},
+			},
+			["Âerith"] = {
+				{
+					["type"] = 1,
+					["time"] = 1316228719,
+					["from"] = "Âerith",
+					["msg"] = "Hey",
+					["inbound"] = true,
+					["convo"] = "Âerith",
+				}, -- [1]
+				{
+					["type"] = 1,
+					["time"] = 1316228731,
+					["from"] = "Deadset",
+					["msg"] = "sup?",
+					["inbound"] = false,
+					["convo"] = "Âerith",
+				}, -- [2]
+				{
+					["type"] = 1,
+					["time"] = 1316228770,
+					["from"] = "Âerith",
+					["msg"] = "My 3v3 partners wanto start a rbg group to get |cffffff00|Hachievement:5328:070000000394E0B4:0:0:0:-1:0:0:0:0|h[Veteran of the Alliance]|h|r",
+					["inbound"] = true,
+					["convo"] = "Âerith",
+				}, -- [3]
+				{
+					["type"] = 1,
+					["time"] = 1316228786,
+					["from"] = "Deadset",
+					["msg"] = "rbg?",
+					["inbound"] = false,
+					["convo"] = "Âerith",
+				}, -- [4]
+				{
+					["type"] = 1,
+					["time"] = 1316228795,
+					["from"] = "Âerith",
+					["msg"] = "Rated Battlegrounds.",
+					["inbound"] = true,
+					["convo"] = "Âerith",
+				}, -- [5]
+				{
+					["type"] = 1,
+					["time"] = 1316228814,
+					["from"] = "Deadset",
+					["msg"] = "oooh",
+					["inbound"] = false,
+					["convo"] = "Âerith",
+				}, -- [6]
+				{
+					["type"] = 1,
+					["time"] = 1316228815,
+					["from"] = "Deadset",
+					["msg"] = "of course",
+					["inbound"] = false,
+					["convo"] = "Âerith",
+				}, -- [7]
+				{
+					["type"] = 1,
+					["time"] = 1316228818,
+					["from"] = "Deadset",
+					["msg"] = "75 wins? sheeeeit",
+					["inbound"] = false,
+					["convo"] = "Âerith",
+				}, -- [8]
+				{
+					["type"] = 1,
+					["time"] = 1316228819,
+					["from"] = "Âerith",
+					["msg"] = "We need a flag carrier",
+					["inbound"] = true,
+					["convo"] = "Âerith",
+				}, -- [9]
+				{
+					["type"] = 1,
+					["time"] = 1316228828,
+					["from"] = "Deadset",
+					["msg"] = "I'd be up for it on Aset though, if you want",
+					["inbound"] = false,
+					["convo"] = "Âerith",
+				}, -- [10]
+				{
+					["type"] = 1,
+					["time"] = 1316228837,
+					["from"] = "Âerith",
+					["msg"] = "ty.",
+					["inbound"] = true,
+					["convo"] = "Âerith",
+				}, -- [11]
+				{
+					["type"] = 1,
+					["time"] = 1316228840,
+					["from"] = "Âerith",
+					["msg"] = ":)",
+					["inbound"] = true,
+					["convo"] = "Âerith",
+				}, -- [12]
+				{
+					["type"] = 1,
+					["time"] = 1316228840,
+					["from"] = "Deadset",
+					["msg"] = "I need to check his new res with the Ruthless belt I just got, should be around 3300 i think now",
+					["inbound"] = false,
+					["convo"] = "Âerith",
+				}, -- [13]
+				{
+					["type"] = 1,
+					["time"] = 1316228888,
+					["from"] = "Âerith",
+					["msg"] = "we are trying to be selective on who we invite, try to limit on the bads.",
+					["inbound"] = true,
+					["convo"] = "Âerith",
+				}, -- [14]
 				["info"] = {
 				},
 			},
@@ -31919,434 +32340,6 @@ WIM3_History = {
 					["inbound"] = false,
 					["convo"] = "|Kf573|k00000000000|k",
 				}, -- [19]
-				["info"] = {
-				},
-			},
-			["|Kf101|k00000000000|k"] = {
-				{
-					["type"] = 1,
-					["time"] = 1316396361,
-					["from"] = "Deadset",
-					["msg"] = "Yes I do actually",
-					["inbound"] = false,
-					["convo"] = "|Kf101|k00000000000|k",
-				}, -- [1]
-				{
-					["type"] = 1,
-					["time"] = 1316396367,
-					["from"] = "Deadset",
-					["msg"] = "I just bought it the other day",
-					["inbound"] = false,
-					["convo"] = "|Kf101|k00000000000|k",
-				}, -- [2]
-				{
-					["type"] = 1,
-					["time"] = 1316396382,
-					["from"] = "Deadset",
-					["msg"] = "oooh okay",
-					["inbound"] = false,
-					["convo"] = "|Kf101|k00000000000|k",
-				}, -- [3]
-				{
-					["type"] = 1,
-					["time"] = 1316396383,
-					["from"] = "Deadset",
-					["msg"] = "haha",
-					["inbound"] = false,
-					["convo"] = "|Kf101|k00000000000|k",
-				}, -- [4]
-				{
-					["type"] = 1,
-					["time"] = 1316396389,
-					["from"] = "Deadset",
-					["msg"] = "ummm try Piggy if you're trying to sell it",
-					["inbound"] = false,
-					["convo"] = "|Kf101|k00000000000|k",
-				}, -- [5]
-				{
-					["type"] = 1,
-					["time"] = 1316396396,
-					["from"] = "Deadset",
-					["msg"] = "I know he has the other and wants it",
-					["inbound"] = false,
-					["convo"] = "|Kf101|k00000000000|k",
-				}, -- [6]
-				{
-					["type"] = 1,
-					["time"] = 1316396400,
-					["from"] = "Deadset",
-					["msg"] = "the others*",
-					["inbound"] = false,
-					["convo"] = "|Kf101|k00000000000|k",
-				}, -- [7]
-				{
-					["type"] = 1,
-					["time"] = 1316396410,
-					["from"] = "Deadset",
-					["msg"] = "lol good plan",
-					["inbound"] = false,
-					["convo"] = "|Kf101|k00000000000|k",
-				}, -- [8]
-				{
-					["type"] = 1,
-					["time"] = 1316396431,
-					["from"] = "Deadset",
-					["msg"] = "lol sorry, i am leveling a new cow right now, to see the whole cata changes",
-					["inbound"] = false,
-					["convo"] = "|Kf101|k00000000000|k",
-				}, -- [9]
-				["info"] = {
-				},
-			},
-			["Âerith"] = {
-				{
-					["type"] = 1,
-					["time"] = 1316228719,
-					["from"] = "Âerith",
-					["msg"] = "Hey",
-					["inbound"] = true,
-					["convo"] = "Âerith",
-				}, -- [1]
-				{
-					["type"] = 1,
-					["time"] = 1316228731,
-					["from"] = "Deadset",
-					["msg"] = "sup?",
-					["inbound"] = false,
-					["convo"] = "Âerith",
-				}, -- [2]
-				{
-					["type"] = 1,
-					["time"] = 1316228770,
-					["from"] = "Âerith",
-					["msg"] = "My 3v3 partners wanto start a rbg group to get |cffffff00|Hachievement:5328:070000000394E0B4:0:0:0:-1:0:0:0:0|h[Veteran of the Alliance]|h|r",
-					["inbound"] = true,
-					["convo"] = "Âerith",
-				}, -- [3]
-				{
-					["type"] = 1,
-					["time"] = 1316228786,
-					["from"] = "Deadset",
-					["msg"] = "rbg?",
-					["inbound"] = false,
-					["convo"] = "Âerith",
-				}, -- [4]
-				{
-					["type"] = 1,
-					["time"] = 1316228795,
-					["from"] = "Âerith",
-					["msg"] = "Rated Battlegrounds.",
-					["inbound"] = true,
-					["convo"] = "Âerith",
-				}, -- [5]
-				{
-					["type"] = 1,
-					["time"] = 1316228814,
-					["from"] = "Deadset",
-					["msg"] = "oooh",
-					["inbound"] = false,
-					["convo"] = "Âerith",
-				}, -- [6]
-				{
-					["type"] = 1,
-					["time"] = 1316228815,
-					["from"] = "Deadset",
-					["msg"] = "of course",
-					["inbound"] = false,
-					["convo"] = "Âerith",
-				}, -- [7]
-				{
-					["type"] = 1,
-					["time"] = 1316228818,
-					["from"] = "Deadset",
-					["msg"] = "75 wins? sheeeeit",
-					["inbound"] = false,
-					["convo"] = "Âerith",
-				}, -- [8]
-				{
-					["type"] = 1,
-					["time"] = 1316228819,
-					["from"] = "Âerith",
-					["msg"] = "We need a flag carrier",
-					["inbound"] = true,
-					["convo"] = "Âerith",
-				}, -- [9]
-				{
-					["type"] = 1,
-					["time"] = 1316228828,
-					["from"] = "Deadset",
-					["msg"] = "I'd be up for it on Aset though, if you want",
-					["inbound"] = false,
-					["convo"] = "Âerith",
-				}, -- [10]
-				{
-					["type"] = 1,
-					["time"] = 1316228837,
-					["from"] = "Âerith",
-					["msg"] = "ty.",
-					["inbound"] = true,
-					["convo"] = "Âerith",
-				}, -- [11]
-				{
-					["type"] = 1,
-					["time"] = 1316228840,
-					["from"] = "Âerith",
-					["msg"] = ":)",
-					["inbound"] = true,
-					["convo"] = "Âerith",
-				}, -- [12]
-				{
-					["type"] = 1,
-					["time"] = 1316228840,
-					["from"] = "Deadset",
-					["msg"] = "I need to check his new res with the Ruthless belt I just got, should be around 3300 i think now",
-					["inbound"] = false,
-					["convo"] = "Âerith",
-				}, -- [13]
-				{
-					["type"] = 1,
-					["time"] = 1316228888,
-					["from"] = "Âerith",
-					["msg"] = "we are trying to be selective on who we invite, try to limit on the bads.",
-					["inbound"] = true,
-					["convo"] = "Âerith",
-				}, -- [14]
-				["info"] = {
-				},
-			},
-			["|Kf901|k00000000000000000000|k"] = {
-				{
-					["type"] = 1,
-					["time"] = 1316826996,
-					["from"] = "Deadset",
-					["msg"] = "woah Globalzen!",
-					["inbound"] = false,
-					["convo"] = "|Kf901|k00000000000000000000|k",
-				}, -- [1]
-				{
-					["type"] = 1,
-					["time"] = 1316827040,
-					["from"] = "Deadset",
-					["msg"] = "Nothing much! About to raid!",
-					["inbound"] = false,
-					["convo"] = "|Kf901|k00000000000000000000|k",
-				}, -- [2]
-				{
-					["type"] = 1,
-					["time"] = 1316827047,
-					["from"] = "Deadset",
-					["msg"] = "Haven't seen you in these parts in a while!",
-					["inbound"] = false,
-					["convo"] = "|Kf901|k00000000000000000000|k",
-				}, -- [3]
-				{
-					["type"] = 1,
-					["time"] = 1316827061,
-					["from"] = "Deadset",
-					["msg"] = "8pm on a friday! Man shouldn't you be out having a life? haha",
-					["inbound"] = false,
-					["convo"] = "|Kf901|k00000000000000000000|k",
-				}, -- [4]
-				{
-					["type"] = 1,
-					["time"] = 1316827096,
-					["from"] = "Deadset",
-					["msg"] = "ahhhh sounds good!",
-					["inbound"] = false,
-					["convo"] = "|Kf901|k00000000000000000000|k",
-				}, -- [5]
-				{
-					["type"] = 1,
-					["time"] = 1316827101,
-					["from"] = "Deadset",
-					["msg"] = "Congrats!",
-					["inbound"] = false,
-					["convo"] = "|Kf901|k00000000000000000000|k",
-				}, -- [6]
-				{
-					["type"] = 1,
-					["time"] = 1316827217,
-					["from"] = "Deadset",
-					["msg"] = "Ahh nice",
-					["inbound"] = false,
-					["convo"] = "|Kf901|k00000000000000000000|k",
-				}, -- [7]
-				{
-					["type"] = 1,
-					["time"] = 1316827223,
-					["from"] = "Deadset",
-					["msg"] = "I've got a job!",
-					["inbound"] = false,
-					["convo"] = "|Kf901|k00000000000000000000|k",
-				}, -- [8]
-				{
-					["type"] = 1,
-					["time"] = 1316827231,
-					["from"] = "Deadset",
-					["msg"] = "Not sure if we've talked since that happened lol",
-					["inbound"] = false,
-					["convo"] = "|Kf901|k00000000000000000000|k",
-				}, -- [9]
-				{
-					["type"] = 1,
-					["time"] = 1316827267,
-					["from"] = "Deadset",
-					["msg"] = "Oh good point, hehe",
-					["inbound"] = false,
-					["convo"] = "|Kf901|k00000000000000000000|k",
-				}, -- [10]
-				{
-					["type"] = 1,
-					["time"] = 1316827269,
-					["from"] = "Deadset",
-					["msg"] = "ty!",
-					["inbound"] = false,
-					["convo"] = "|Kf901|k00000000000000000000|k",
-				}, -- [11]
-				{
-					["type"] = 1,
-					["time"] = 1316827284,
-					["from"] = "Deadset",
-					["msg"] = "It doesn't pay great, but good enough and so far it's been a great place to work!",
-					["inbound"] = false,
-					["convo"] = "|Kf901|k00000000000000000000|k",
-				}, -- [12]
-				{
-					["type"] = 1,
-					["time"] = 1316827381,
-					["from"] = "Deadset",
-					["msg"] = "Yeah mostly, lol. I'm making 45k, which i'm very happy with, but you know there's the house and other debt and silly stuff, so i'm struggling still but making it.",
-					["inbound"] = false,
-					["convo"] = "|Kf901|k00000000000000000000|k",
-				}, -- [13]
-				{
-					["type"] = 1,
-					["time"] = 1316827409,
-					["from"] = "Deadset",
-					["msg"] = "Yep!",
-					["inbound"] = false,
-					["convo"] = "|Kf901|k00000000000000000000|k",
-				}, -- [14]
-				{
-					["type"] = 1,
-					["time"] = 1316827415,
-					["from"] = "Deadset",
-					["msg"] = "And working for a real IT dept",
-					["inbound"] = false,
-					["convo"] = "|Kf901|k00000000000000000000|k",
-				}, -- [15]
-				{
-					["type"] = 1,
-					["time"] = 1316827495,
-					["from"] = "Deadset",
-					["msg"] = "It'll be *excellent* on my resume",
-					["inbound"] = false,
-					["convo"] = "|Kf901|k00000000000000000000|k",
-				}, -- [16]
-				{
-					["type"] = 1,
-					["time"] = 1316827498,
-					["from"] = "Deadset",
-					["msg"] = "in the future",
-					["inbound"] = false,
-					["convo"] = "|Kf901|k00000000000000000000|k",
-				}, -- [17]
-				{
-					["type"] = 1,
-					["time"] = 1316827501,
-					["from"] = "Deadset",
-					["msg"] = ":D",
-					["inbound"] = false,
-					["convo"] = "|Kf901|k00000000000000000000|k",
-				}, -- [18]
-				{
-					["type"] = 1,
-					["time"] = 1316827556,
-					["from"] = "Deadset",
-					["msg"] = "So what have you been up to man? And what brings you back to Azeroth tonight? hehe",
-					["inbound"] = false,
-					["convo"] = "|Kf901|k00000000000000000000|k",
-				}, -- [19]
-				{
-					["type"] = 1,
-					["time"] = 1316827606,
-					["from"] = "Deadset",
-					["msg"] = "Haha, sounds good.",
-					["inbound"] = false,
-					["convo"] = "|Kf901|k00000000000000000000|k",
-				}, -- [20]
-				{
-					["type"] = 1,
-					["time"] = 1316827632,
-					["from"] = "Deadset",
-					["msg"] = "I'm changing my medicine up (partially because of insurance company).. i've been having bad SSRI withdrawls all week, feeling like SHIT. And now i'm sick to boot! possibly with the flu :(",
-					["inbound"] = false,
-					["convo"] = "|Kf901|k00000000000000000000|k",
-				}, -- [21]
-				{
-					["type"] = 1,
-					["time"] = 1316827650,
-					["from"] = "Deadset",
-					["msg"] = "but doing alright, and maybe i'll feel up to doing some working out once my head clears lol",
-					["inbound"] = false,
-					["convo"] = "|Kf901|k00000000000000000000|k",
-				}, -- [22]
-				{
-					["type"] = 1,
-					["time"] = 1316827659,
-					["from"] = "Deadset",
-					["msg"] = "i'm hoping i'll be less dizzy all the time at least",
-					["inbound"] = false,
-					["convo"] = "|Kf901|k00000000000000000000|k",
-				}, -- [23]
-				{
-					["type"] = 1,
-					["time"] = 1316827666,
-					["from"] = "Deadset",
-					["msg"] = "ah it's alright",
-					["inbound"] = false,
-					["convo"] = "|Kf901|k00000000000000000000|k",
-				}, -- [24]
-				{
-					["type"] = 1,
-					["time"] = 1316827844,
-					["from"] = "Deadset",
-					["msg"] = "yep hope so",
-					["inbound"] = false,
-					["convo"] = "|Kf901|k00000000000000000000|k",
-				}, -- [25]
-				{
-					["type"] = 1,
-					["time"] = 1316827845,
-					["from"] = "Deadset",
-					["msg"] = "lol",
-					["inbound"] = false,
-					["convo"] = "|Kf901|k00000000000000000000|k",
-				}, -- [26]
-				{
-					["type"] = 1,
-					["time"] = 1316827864,
-					["from"] = "Deadset",
-					["msg"] = "So after the recent nerf (like this week) Firelands is pretty accecable now",
-					["inbound"] = false,
-					["convo"] = "|Kf901|k00000000000000000000|k",
-				}, -- [27]
-				{
-					["type"] = 1,
-					["time"] = 1316827888,
-					["from"] = "Deadset",
-					["msg"] = "my team (10 man) is 7/7 reg 1/7 heroic, but we expect to be 6/7 heroic within 2 weeks",
-					["inbound"] = false,
-					["convo"] = "|Kf901|k00000000000000000000|k",
-				}, -- [28]
-				{
-					["type"] = 1,
-					["time"] = 1316827932,
-					["from"] = "Deadset",
-					["msg"] = "and all of the fights are pretty cool in FL! :D",
-					["inbound"] = false,
-					["convo"] = "|Kf901|k00000000000000000000|k",
-				}, -- [29]
 				["info"] = {
 				},
 			},
@@ -32633,6 +32626,274 @@ WIM3_History = {
 					["inbound"] = false,
 					["convo"] = "|Kf498|k000000000000|k",
 				}, -- [2]
+				["info"] = {
+				},
+			},
+			["|Kf856|k00000000000|k"] = {
+				{
+					["type"] = 1,
+					["time"] = 1317078115,
+					["from"] = "Sadr",
+					["msg"] = "I think I need to get into big time pot dealing",
+					["inbound"] = false,
+					["convo"] = "|Kf856|k00000000000|k",
+				}, -- [1]
+				{
+					["type"] = 1,
+					["time"] = 1317078134,
+					["from"] = "Sadr",
+					["msg"] = "Pouncy House on Weeds makes me want to try",
+					["inbound"] = false,
+					["convo"] = "|Kf856|k00000000000|k",
+				}, -- [2]
+				{
+					["type"] = 1,
+					["time"] = 1317079939,
+					["from"] = "Sadr",
+					["msg"] = "Jamieee",
+					["inbound"] = false,
+					["convo"] = "|Kf856|k00000000000|k",
+				}, -- [3]
+				{
+					["type"] = 1,
+					["time"] = 1317079944,
+					["from"] = "Sadr",
+					["msg"] = "My dps is low you should help me",
+					["inbound"] = false,
+					["convo"] = "|Kf856|k00000000000|k",
+				}, -- [4]
+				{
+					["type"] = 1,
+					["time"] = 1317079964,
+					["from"] = "Sadr",
+					["msg"] = "affliction!",
+					["inbound"] = false,
+					["convo"] = "|Kf856|k00000000000|k",
+				}, -- [5]
+				{
+					["type"] = 1,
+					["time"] = 1317080036,
+					["from"] = "Sadr",
+					["msg"] = "Hmm, maybe i should try using corruption before ua",
+					["inbound"] = false,
+					["convo"] = "|Kf856|k00000000000|k",
+				}, -- [6]
+				{
+					["type"] = 1,
+					["time"] = 1317080039,
+					["from"] = "Sadr",
+					["msg"] = "coe?",
+					["inbound"] = false,
+					["convo"] = "|Kf856|k00000000000|k",
+				}, -- [7]
+				{
+					["type"] = 1,
+					["time"] = 1317080044,
+					["from"] = "Sadr",
+					["msg"] = "curse of elements?",
+					["inbound"] = false,
+					["convo"] = "|Kf856|k00000000000|k",
+				}, -- [8]
+				{
+					["type"] = 1,
+					["time"] = 1317080048,
+					["from"] = "Sadr",
+					["msg"] = "oh",
+					["inbound"] = false,
+					["convo"] = "|Kf856|k00000000000|k",
+				}, -- [9]
+				{
+					["type"] = 1,
+					["time"] = 1317080055,
+					["from"] = "Sadr",
+					["msg"] = "when doy ou get that? i haven't been using it at all lol",
+					["inbound"] = false,
+					["convo"] = "|Kf856|k00000000000|k",
+				}, -- [10]
+				{
+					["type"] = 1,
+					["time"] = 1317080074,
+					["from"] = "Sadr",
+					["msg"] = "ua refreshes corruption? really?",
+					["inbound"] = false,
+					["convo"] = "|Kf856|k00000000000|k",
+				}, -- [11]
+				{
+					["type"] = 1,
+					["time"] = 1317080074,
+					["from"] = "Sadr",
+					["msg"] = "wtf",
+					["inbound"] = false,
+					["convo"] = "|Kf856|k00000000000|k",
+				}, -- [12]
+				{
+					["type"] = 1,
+					["time"] = 1317080081,
+					["from"] = "Sadr",
+					["msg"] = "i didn't notice that",
+					["inbound"] = false,
+					["convo"] = "|Kf856|k00000000000|k",
+				}, -- [13]
+				{
+					["type"] = 1,
+					["time"] = 1317080169,
+					["from"] = "Sadr",
+					["msg"] = "what are the other debuffs that provide Curse fo the Elements?",
+					["inbound"] = false,
+					["convo"] = "|Kf856|k00000000000|k",
+				}, -- [14]
+				{
+					["type"] = 1,
+					["time"] = 1317080303,
+					["from"] = "Sadr",
+					["msg"] = "okay it's Haunt refreshes corruption",
+					["inbound"] = false,
+					["convo"] = "|Kf856|k00000000000|k",
+				}, -- [15]
+				{
+					["type"] = 1,
+					["time"] = 1317080313,
+					["from"] = "Sadr",
+					["msg"] = "not UA",
+					["inbound"] = false,
+					["convo"] = "|Kf856|k00000000000|k",
+				}, -- [16]
+				{
+					["type"] = 1,
+					["time"] = 1317080314,
+					["from"] = "Sadr",
+					["msg"] = ":P",
+					["inbound"] = false,
+					["convo"] = "|Kf856|k00000000000|k",
+				}, -- [17]
+				{
+					["type"] = 1,
+					["time"] = 1317080325,
+					["from"] = "Sadr",
+					["msg"] = "Haunt refreshes corruption",
+					["inbound"] = false,
+					["convo"] = "|Kf856|k00000000000|k",
+				}, -- [18]
+				{
+					["type"] = 1,
+					["time"] = 1317080328,
+					["from"] = "Sadr",
+					["msg"] = "well, it's haunt for me",
+					["inbound"] = false,
+					["convo"] = "|Kf856|k00000000000|k",
+				}, -- [19]
+				{
+					["type"] = 1,
+					["time"] = 1317080329,
+					["from"] = "Sadr",
+					["msg"] = "lol",
+					["inbound"] = false,
+					["convo"] = "|Kf856|k00000000000|k",
+				}, -- [20]
+				{
+					["type"] = 1,
+					["time"] = 1317080335,
+					["from"] = "Sadr",
+					["msg"] = "i could have sworn ua didn't refresh anything",
+					["inbound"] = false,
+					["convo"] = "|Kf856|k00000000000|k",
+				}, -- [21]
+				{
+					["type"] = 1,
+					["time"] = 1317080336,
+					["from"] = "Sadr",
+					["msg"] = ":P",
+					["inbound"] = false,
+					["convo"] = "|Kf856|k00000000000|k",
+				}, -- [22]
+				{
+					["type"] = 1,
+					["time"] = 1317080353,
+					["from"] = "Sadr",
+					["msg"] = "Fel Fire will add a few seconds to ua, and when under 25% every tick of drain soul will refresh ua which is sweet",
+					["inbound"] = false,
+					["convo"] = "|Kf856|k00000000000|k",
+				}, -- [23]
+				{
+					["type"] = 1,
+					["time"] = 1317080406,
+					["from"] = "Sadr",
+					["msg"] = "meh, it's okay",
+					["inbound"] = false,
+					["convo"] = "|Kf856|k00000000000|k",
+				}, -- [24]
+				{
+					["type"] = 1,
+					["time"] = 1317080415,
+					["from"] = "Sadr",
+					["msg"] = "it refreshes as long asy ou're doing your shit right, which is the important bit :)",
+					["inbound"] = false,
+					["convo"] = "|Kf856|k00000000000|k",
+				}, -- [25]
+				{
+					["type"] = 1,
+					["time"] = 1317083246,
+					["from"] = "Sadr",
+					["msg"] = "rawr",
+					["inbound"] = false,
+					["convo"] = "|Kf856|k00000000000|k",
+				}, -- [26]
+				{
+					["type"] = 1,
+					["time"] = 1317083255,
+					["from"] = "Sadr",
+					["msg"] = "how are you?",
+					["inbound"] = false,
+					["convo"] = "|Kf856|k00000000000|k",
+				}, -- [27]
+				{
+					["type"] = 1,
+					["time"] = 1317083258,
+					["from"] = "Sadr",
+					["msg"] = "i eated too much",
+					["inbound"] = false,
+					["convo"] = "|Kf856|k00000000000|k",
+				}, -- [28]
+				{
+					["type"] = 1,
+					["time"] = 1317083260,
+					["from"] = "Sadr",
+					["msg"] = ":(",
+					["inbound"] = false,
+					["convo"] = "|Kf856|k00000000000|k",
+				}, -- [29]
+				{
+					["type"] = 1,
+					["time"] = 1317083295,
+					["from"] = "Sadr",
+					["msg"] = "oh no!",
+					["inbound"] = false,
+					["convo"] = "|Kf856|k00000000000|k",
+				}, -- [30]
+				{
+					["type"] = 1,
+					["time"] = 1317083298,
+					["from"] = "Sadr",
+					["msg"] = "*tummy rub*",
+					["inbound"] = false,
+					["convo"] = "|Kf856|k00000000000|k",
+				}, -- [31]
+				{
+					["type"] = 1,
+					["time"] = 1317083327,
+					["from"] = "Sadr",
+					["msg"] = "mm beautiful girl on the tv",
+					["inbound"] = false,
+					["convo"] = "|Kf856|k00000000000|k",
+				}, -- [32]
+				{
+					["type"] = 1,
+					["time"] = 1317083330,
+					["from"] = "Sadr",
+					["msg"] = "on this movie",
+					["inbound"] = false,
+					["convo"] = "|Kf856|k00000000000|k",
+				}, -- [33]
 				["info"] = {
 				},
 			},
@@ -34018,59 +34279,99 @@ WIM3_History = {
 				["info"] = {
 				},
 			},
-			["|Kf145|k00000000000|k"] = {
+			["|Kf782|k0000000000000000|k"] = {
 				{
 					["type"] = 1,
-					["time"] = 1316820004,
+					["time"] = 1316146382,
 					["from"] = "Aonah",
-					["msg"] = "lol i lost my wim history somehow, so piggy has to go look again afterall",
+					["msg"] = "WAT",
 					["inbound"] = false,
-					["convo"] = "|Kf145|k00000000000|k",
-				}, -- [1]
-				["info"] = {
-				},
-			},
-			["|Kf146|k000000000000|k"] = {
-				{
-					["type"] = 1,
-					["time"] = 1316819950,
-					["from"] = "Aonah",
-					["msg"] = "test",
-					["inbound"] = false,
-					["convo"] = "|Kf146|k000000000000|k",
+					["convo"] = "|Kf782|k0000000000000000|k",
 				}, -- [1]
 				{
 					["type"] = 1,
-					["time"] = 1316819954,
+					["time"] = 1316146384,
 					["from"] = "Aonah",
-					["msg"] = "shit wehre is my history",
+					["msg"] = "jerk",
 					["inbound"] = false,
-					["convo"] = "|Kf146|k000000000000|k",
+					["convo"] = "|Kf782|k0000000000000000|k",
 				}, -- [2]
 				{
 					["type"] = 1,
-					["time"] = 1316819976,
+					["time"] = 1316146385,
 					["from"] = "Aonah",
-					["msg"] = "I don't know where it went! D:",
+					["msg"] = "lol",
 					["inbound"] = false,
-					["convo"] = "|Kf146|k000000000000|k",
+					["convo"] = "|Kf782|k0000000000000000|k",
 				}, -- [3]
 				{
 					["type"] = 1,
-					["time"] = 1316820078,
+					["time"] = 1316146399,
 					["from"] = "Aonah",
-					["msg"] = "k sec",
+					["msg"] = "3 of them? ",
 					["inbound"] = false,
-					["convo"] = "|Kf146|k000000000000|k",
+					["convo"] = "|Kf782|k0000000000000000|k",
 				}, -- [4]
 				{
 					["type"] = 1,
-					["time"] = 1316820157,
+					["time"] = 1316146411,
 					["from"] = "Aonah",
-					["msg"] = "damn man, 500g each!",
+					["msg"] = "lol i got one this week off Shannox! :D",
 					["inbound"] = false,
-					["convo"] = "|Kf146|k000000000000|k",
+					["convo"] = "|Kf782|k0000000000000000|k",
 				}, -- [5]
+				{
+					["type"] = 1,
+					["time"] = 1316146423,
+					["from"] = "Aonah",
+					["msg"] = "Killed Staghelm, #9, no staff again :(",
+					["inbound"] = false,
+					["convo"] = "|Kf782|k0000000000000000|k",
+				}, -- [6]
+				{
+					["type"] = 1,
+					["time"] = 1316146426,
+					["from"] = "Aonah",
+					["msg"] = "but another druid shoulder token",
+					["inbound"] = false,
+					["convo"] = "|Kf782|k0000000000000000|k",
+				}, -- [7]
+				{
+					["type"] = 1,
+					["time"] = 1316146427,
+					["from"] = "Aonah",
+					["msg"] = "lol..",
+					["inbound"] = false,
+					["convo"] = "|Kf782|k0000000000000000|k",
+				}, -- [8]
+				{
+					["type"] = 1,
+					["time"] = 1316146431,
+					["from"] = "Aonah",
+					["msg"] = "that makes 6 druid tokens",
+					["inbound"] = false,
+					["convo"] = "|Kf782|k0000000000000000|k",
+				}, -- [9]
+				["info"] = {
+				},
+			},
+			["|Kf177|k00000000000000000|k"] = {
+				{
+					["type"] = 1,
+					["time"] = 1316396570,
+					["from"] = "Aonah",
+					["msg"] = "Think you'll need more than 20 stacks?",
+					["inbound"] = false,
+					["convo"] = "|Kf177|k00000000000000000|k",
+				}, -- [1]
+				{
+					["type"] = 1,
+					["time"] = 1316396585,
+					["from"] = "Aonah",
+					["msg"] = "k, sent. if you do, i have lots more lol",
+					["inbound"] = false,
+					["convo"] = "|Kf177|k00000000000000000|k",
+				}, -- [2]
 				["info"] = {
 				},
 			},
@@ -34131,6 +34432,614 @@ WIM3_History = {
 					["inbound"] = false,
 					["convo"] = "|Kf256|k00000000000|k",
 				}, -- [7]
+				["info"] = {
+				},
+			},
+			["|Kf1661|k00000000000|k"] = {
+				{
+					["type"] = 1,
+					["time"] = 1317013572,
+					["from"] = "Aonah",
+					["msg"] = "Jamieeeeeeee",
+					["inbound"] = false,
+					["convo"] = "|Kf1661|k00000000000|k",
+				}, -- [1]
+				{
+					["type"] = 1,
+					["time"] = 1317013584,
+					["from"] = "Aonah",
+					["msg"] = "I heart you",
+					["inbound"] = false,
+					["convo"] = "|Kf1661|k00000000000|k",
+				}, -- [2]
+				{
+					["type"] = 1,
+					["time"] = 1317013628,
+					["from"] = "Aonah",
+					["msg"] = "Hope you feel better! and have a great night!",
+					["inbound"] = false,
+					["convo"] = "|Kf1661|k00000000000|k",
+				}, -- [3]
+				{
+					["type"] = 1,
+					["time"] = 1317013677,
+					["from"] = "Aonah",
+					["msg"] = "OH FINE BE TOO BUSY",
+					["inbound"] = false,
+					["convo"] = "|Kf1661|k00000000000|k",
+				}, -- [4]
+				["info"] = {
+				},
+			},
+			["|Kf683|k0000000000000|k"] = {
+				{
+					["type"] = 1,
+					["time"] = 1316566382,
+					["from"] = "Aonah",
+					["msg"] = "Thayaaaaan :(",
+					["inbound"] = false,
+					["convo"] = "|Kf683|k0000000000000|k",
+				}, -- [1]
+				{
+					["type"] = 1,
+					["time"] = 1316566405,
+					["from"] = "Aonah",
+					["msg"] = "It was sad to see you go :( But in good news i'm #2 in achievement points now! :O",
+					["inbound"] = false,
+					["convo"] = "|Kf683|k0000000000000|k",
+				}, -- [2]
+				{
+					["type"] = 1,
+					["time"] = 1316566473,
+					["from"] = "Aonah",
+					["msg"] = "I know. And I understand. And I'm sitll sorry, even if you don't believe me. I hope you make new ones over there on the horde side! I know many of them over there too :)",
+					["inbound"] = false,
+					["convo"] = "|Kf683|k0000000000000|k",
+				}, -- [3]
+				{
+					["type"] = 1,
+					["time"] = 1316566506,
+					["from"] = "Aonah",
+					["msg"] = ":(",
+					["inbound"] = false,
+					["convo"] = "|Kf683|k0000000000000|k",
+				}, -- [4]
+				["info"] = {
+				},
+			},
+			["|Kf427|k00000000000|k"] = {
+				{
+					["type"] = 1,
+					["time"] = 1317064741,
+					["from"] = "Aonah",
+					["msg"] = "rawr!",
+					["inbound"] = false,
+					["convo"] = "|Kf427|k00000000000|k",
+				}, -- [1]
+				{
+					["type"] = 1,
+					["time"] = 1317064760,
+					["from"] = "Aonah",
+					["msg"] = "Okay heading to CFA then i will play wit joo! :O",
+					["inbound"] = false,
+					["convo"] = "|Kf427|k00000000000|k",
+				}, -- [2]
+				{
+					["type"] = 1,
+					["time"] = 1317064765,
+					["from"] = "Aonah",
+					["msg"] = "with your hair",
+					["inbound"] = false,
+					["convo"] = "|Kf427|k00000000000|k",
+				}, -- [3]
+				{
+					["type"] = 1,
+					["time"] = 1317065082,
+					["from"] = "Aonah",
+					["msg"] = "i was showering!",
+					["inbound"] = false,
+					["convo"] = "|Kf427|k00000000000|k",
+				}, -- [4]
+				{
+					["type"] = 1,
+					["time"] = 1317065083,
+					["from"] = "Aonah",
+					["msg"] = ":'(",
+					["inbound"] = false,
+					["convo"] = "|Kf427|k00000000000|k",
+				}, -- [5]
+				{
+					["type"] = 1,
+					["time"] = 1317066128,
+					["from"] = "Aonah",
+					["msg"] = "oh!",
+					["inbound"] = false,
+					["convo"] = "|Kf427|k00000000000|k",
+				}, -- [6]
+				{
+					["type"] = 1,
+					["time"] = 1317066137,
+					["from"] = "Aonah",
+					["msg"] = "I have returned!",
+					["inbound"] = false,
+					["convo"] = "|Kf427|k00000000000|k",
+				}, -- [7]
+				{
+					["type"] = 1,
+					["time"] = 1317066151,
+					["from"] = "Aonah",
+					["msg"] = "Also i wonder if chik-fil-a has some odd hiring practice where they hire exchange students",
+					["inbound"] = false,
+					["convo"] = "|Kf427|k00000000000|k",
+				}, -- [8]
+				{
+					["type"] = 1,
+					["time"] = 1317066166,
+					["from"] = "Aonah",
+					["msg"] = "cuz i swear they always have weird kids working there",
+					["inbound"] = false,
+					["convo"] = "|Kf427|k00000000000|k",
+				}, -- [9]
+				{
+					["type"] = 1,
+					["time"] = 1317066172,
+					["from"] = "Aonah",
+					["msg"] = "like, weird nationalities lol",
+					["inbound"] = false,
+					["convo"] = "|Kf427|k00000000000|k",
+				}, -- [10]
+				{
+					["type"] = 1,
+					["time"] = 1317066386,
+					["from"] = "Aonah",
+					["msg"] = "MUTATION!!!! HES A MUTAAAANT!",
+					["inbound"] = false,
+					["convo"] = "|Kf427|k00000000000|k",
+				}, -- [11]
+				{
+					["type"] = 1,
+					["time"] = 1317066398,
+					["from"] = "Aonah",
+					["msg"] = "sorry",
+					["inbound"] = false,
+					["convo"] = "|Kf427|k00000000000|k",
+				}, -- [12]
+				{
+					["type"] = 1,
+					["time"] = 1317066404,
+					["from"] = "Aonah",
+					["msg"] = "random lines from Waterworld slip out sometimes",
+					["inbound"] = false,
+					["convo"] = "|Kf427|k00000000000|k",
+				}, -- [13]
+				{
+					["type"] = 1,
+					["time"] = 1317066413,
+					["from"] = "Aonah",
+					["msg"] = "down to 6?",
+					["inbound"] = false,
+					["convo"] = "|Kf427|k00000000000|k",
+				}, -- [14]
+				{
+					["type"] = 1,
+					["time"] = 1317066416,
+					["from"] = "Aonah",
+					["msg"] = "6 degrees?!",
+					["inbound"] = false,
+					["convo"] = "|Kf427|k00000000000|k",
+				}, -- [15]
+				{
+					["type"] = 1,
+					["time"] = 1317066442,
+					["from"] = "Aonah",
+					["msg"] = "O_o",
+					["inbound"] = false,
+					["convo"] = "|Kf427|k00000000000|k",
+				}, -- [16]
+				{
+					["type"] = 1,
+					["time"] = 1317066445,
+					["from"] = "Aonah",
+					["msg"] = "are you okay? lol",
+					["inbound"] = false,
+					["convo"] = "|Kf427|k00000000000|k",
+				}, -- [17]
+				{
+					["type"] = 1,
+					["time"] = 1317066449,
+					["from"] = "Aonah",
+					["msg"] = "I have seen some pretty bad typing mistakes",
+					["inbound"] = false,
+					["convo"] = "|Kf427|k00000000000|k",
+				}, -- [18]
+				{
+					["type"] = 1,
+					["time"] = 1317066462,
+					["from"] = "Aonah",
+					["msg"] = "but that 9 was.. EIGHT keystrokes out of place!",
+					["inbound"] = false,
+					["convo"] = "|Kf427|k00000000000|k",
+				}, -- [19]
+				{
+					["type"] = 1,
+					["time"] = 1317066514,
+					["from"] = "Aonah",
+					["msg"] = "oooooh okay",
+					["inbound"] = false,
+					["convo"] = "|Kf427|k00000000000|k",
+				}, -- [20]
+				{
+					["type"] = 1,
+					["time"] = 1317066514,
+					["from"] = "Aonah",
+					["msg"] = "shew",
+					["inbound"] = false,
+					["convo"] = "|Kf427|k00000000000|k",
+				}, -- [21]
+				{
+					["type"] = 1,
+					["time"] = 1317066518,
+					["from"] = "Aonah",
+					["msg"] = "that makes a LOT more sense",
+					["inbound"] = false,
+					["convo"] = "|Kf427|k00000000000|k",
+				}, -- [22]
+				{
+					["type"] = 1,
+					["time"] = 1317066519,
+					["from"] = "Aonah",
+					["msg"] = ":)",
+					["inbound"] = false,
+					["convo"] = "|Kf427|k00000000000|k",
+				}, -- [23]
+				{
+					["type"] = 1,
+					["time"] = 1317066524,
+					["from"] = "Aonah",
+					["msg"] = "You had me worried haha",
+					["inbound"] = false,
+					["convo"] = "|Kf427|k00000000000|k",
+				}, -- [24]
+				{
+					["type"] = 1,
+					["time"] = 1317066579,
+					["from"] = "Aonah",
+					["msg"] = "lol, this is another First World Problem",
+					["inbound"] = false,
+					["convo"] = "|Kf427|k00000000000|k",
+				}, -- [25]
+				{
+					["type"] = 1,
+					["time"] = 1317066586,
+					["from"] = "Aonah",
+					["msg"] = "but I agree, you lazy loser girl!",
+					["inbound"] = false,
+					["convo"] = "|Kf427|k00000000000|k",
+				}, -- [26]
+				{
+					["type"] = 1,
+					["time"] = 1317066619,
+					["from"] = "Aonah",
+					["msg"] = "lol kiddddding but man my back would be hurt so bad.. i can't use a computer in bed >< how do you do it?! :O",
+					["inbound"] = false,
+					["convo"] = "|Kf427|k00000000000|k",
+				}, -- [27]
+				{
+					["type"] = 1,
+					["time"] = 1317066703,
+					["from"] = "Aonah",
+					["msg"] = "lol",
+					["inbound"] = false,
+					["convo"] = "|Kf427|k00000000000|k",
+				}, -- [28]
+				{
+					["type"] = 1,
+					["time"] = 1317066705,
+					["from"] = "Aonah",
+					["msg"] = "yep",
+					["inbound"] = false,
+					["convo"] = "|Kf427|k00000000000|k",
+				}, -- [29]
+				{
+					["type"] = 1,
+					["time"] = 1317066711,
+					["from"] = "Aonah",
+					["msg"] = "ugh i can't even do that cuz i'm too fat lol",
+					["inbound"] = false,
+					["convo"] = "|Kf427|k00000000000|k",
+				}, -- [30]
+				{
+					["type"] = 1,
+					["time"] = 1317066847,
+					["from"] = "Aonah",
+					["msg"] = "lol",
+					["inbound"] = false,
+					["convo"] = "|Kf427|k00000000000|k",
+				}, -- [31]
+				{
+					["type"] = 1,
+					["time"] = 1317066850,
+					["from"] = "Aonah",
+					["msg"] = "well that's good <3",
+					["inbound"] = false,
+					["convo"] = "|Kf427|k00000000000|k",
+				}, -- [32]
+				{
+					["type"] = 1,
+					["time"] = 1317066856,
+					["from"] = "Aonah",
+					["msg"] = "When i finish my salad we can do something!",
+					["inbound"] = false,
+					["convo"] = "|Kf427|k00000000000|k",
+				}, -- [33]
+				{
+					["type"] = 1,
+					["time"] = 1317066879,
+					["from"] = "Aonah",
+					["msg"] = "lol yes",
+					["inbound"] = false,
+					["convo"] = "|Kf427|k00000000000|k",
+				}, -- [34]
+				{
+					["type"] = 1,
+					["time"] = 1317067065,
+					["from"] = "Aonah",
+					["msg"] = "lol. oh, you meant \"quit\", i read that entirely different.",
+					["inbound"] = false,
+					["convo"] = "|Kf427|k00000000000|k",
+				}, -- [35]
+				{
+					["type"] = 1,
+					["time"] = 1317067076,
+					["from"] = "Aonah",
+					["msg"] = "You should keep going places that make you happy, because that's what life is about!",
+					["inbound"] = false,
+					["convo"] = "|Kf427|k00000000000|k",
+				}, -- [36]
+				{
+					["type"] = 1,
+					["time"] = 1317067078,
+					["from"] = "Aonah",
+					["msg"] = "Being happy",
+					["inbound"] = false,
+					["convo"] = "|Kf427|k00000000000|k",
+				}, -- [37]
+				{
+					["type"] = 1,
+					["time"] = 1317067181,
+					["from"] = "Aonah",
+					["msg"] = "lol i'm eating! hush!",
+					["inbound"] = false,
+					["convo"] = "|Kf427|k00000000000|k",
+				}, -- [38]
+				{
+					["type"] = 1,
+					["time"] = 1317067369,
+					["from"] = "Aonah",
+					["msg"] = "half done!",
+					["inbound"] = false,
+					["convo"] = "|Kf427|k00000000000|k",
+				}, -- [39]
+				{
+					["type"] = 1,
+					["time"] = 1317067372,
+					["from"] = "Aonah",
+					["msg"] = "big salad!",
+					["inbound"] = false,
+					["convo"] = "|Kf427|k00000000000|k",
+				}, -- [40]
+				{
+					["type"] = 1,
+					["time"] = 1317067376,
+					["from"] = "Aonah",
+					["msg"] = "nom noming like crazy!",
+					["inbound"] = false,
+					["convo"] = "|Kf427|k00000000000|k",
+				}, -- [41]
+				{
+					["type"] = 1,
+					["time"] = 1317067907,
+					["from"] = "Aonah",
+					["msg"] = "JAMMMIE",
+					["inbound"] = false,
+					["convo"] = "|Kf427|k00000000000|k",
+				}, -- [42]
+				{
+					["type"] = 1,
+					["time"] = 1317067913,
+					["from"] = "Aonah",
+					["msg"] = "My friend Jammie is on haha",
+					["inbound"] = false,
+					["convo"] = "|Kf427|k00000000000|k",
+				}, -- [43]
+				{
+					["type"] = 1,
+					["time"] = 1317067951,
+					["from"] = "Aonah",
+					["msg"] = "I'm ready!",
+					["inbound"] = false,
+					["convo"] = "|Kf427|k00000000000|k",
+				}, -- [44]
+				{
+					["type"] = 1,
+					["time"] = 1317067953,
+					["from"] = "Aonah",
+					["msg"] = "What od you want to do?",
+					["inbound"] = false,
+					["convo"] = "|Kf427|k00000000000|k",
+				}, -- [45]
+				{
+					["type"] = 1,
+					["time"] = 1317067969,
+					["from"] = "Aonah",
+					["msg"] = "alright! i coming!",
+					["inbound"] = false,
+					["convo"] = "|Kf427|k00000000000|k",
+				}, -- [46]
+				{
+					["type"] = 1,
+					["time"] = 1317067972,
+					["from"] = "Aonah",
+					["msg"] = "gotta repost!",
+					["inbound"] = false,
+					["convo"] = "|Kf427|k00000000000|k",
+				}, -- [47]
+				{
+					["type"] = 1,
+					["time"] = 1317068002,
+					["from"] = "Aonah",
+					["msg"] = "ahhh good point! I need at least one heroic",
+					["inbound"] = false,
+					["convo"] = "|Kf427|k00000000000|k",
+				}, -- [48]
+				{
+					["type"] = 1,
+					["time"] = 1317068311,
+					["from"] = "Aonah",
+					["msg"] = "okaaaay",
+					["inbound"] = false,
+					["convo"] = "|Kf427|k00000000000|k",
+				}, -- [49]
+				{
+					["type"] = 1,
+					["time"] = 1317068316,
+					["from"] = "Aonah",
+					["msg"] = "i is getting light headed again",
+					["inbound"] = false,
+					["convo"] = "|Kf427|k00000000000|k",
+				}, -- [50]
+				{
+					["type"] = 1,
+					["time"] = 1317068320,
+					["from"] = "Aonah",
+					["msg"] = "might be time for sleep again soon",
+					["inbound"] = false,
+					["convo"] = "|Kf427|k00000000000|k",
+				}, -- [51]
+				["info"] = {
+				},
+			},
+			["|Kf509|k00000000000000|k"] = {
+				{
+					["type"] = 1,
+					["time"] = 1316665652,
+					["from"] = "Aonah",
+					["msg"] = "Yes, if tanking",
+					["inbound"] = false,
+					["convo"] = "|Kf509|k00000000000000|k",
+				}, -- [1]
+				{
+					["type"] = 1,
+					["time"] = 1316665653,
+					["from"] = "Aonah",
+					["msg"] = "yeah",
+					["inbound"] = false,
+					["convo"] = "|Kf509|k00000000000000|k",
+				}, -- [2]
+				{
+					["type"] = 1,
+					["time"] = 1316665670,
+					["from"] = "Aonah",
+					["msg"] = "mastery=block, they want to block cap if possible, but don't sacirfice too much dodge/parry for it, cuz that would be bad",
+					["inbound"] = false,
+					["convo"] = "|Kf509|k00000000000000|k",
+				}, -- [3]
+				{
+					["type"] = 1,
+					["time"] = 1316665672,
+					["from"] = "Aonah",
+					["msg"] = "but otherwise yes :)",
+					["inbound"] = false,
+					["convo"] = "|Kf509|k00000000000000|k",
+				}, -- [4]
+				["info"] = {
+				},
+			},
+			["|Kf398|k00000000000|k"] = {
+				{
+					["type"] = 1,
+					["time"] = 1316563066,
+					["from"] = "Aonah",
+					["msg"] = "nah thanks but i'm about to do a troll and then raid tonight :(",
+					["inbound"] = false,
+					["convo"] = "|Kf398|k00000000000|k",
+				}, -- [1]
+				["info"] = {
+				},
+			},
+			["|Kf729|k00000000000|k"] = {
+				{
+					["type"] = 1,
+					["time"] = 1316408132,
+					["from"] = "Aonah",
+					["msg"] = "wb! :D",
+					["inbound"] = false,
+					["convo"] = "|Kf729|k00000000000|k",
+				}, -- [1]
+				{
+					["type"] = 1,
+					["time"] = 1316408169,
+					["from"] = "Aonah",
+					["msg"] = "You were gone for 1 minute and 23 seconds, and I MISSED YOU",
+					["inbound"] = false,
+					["convo"] = "|Kf729|k00000000000|k",
+				}, -- [2]
+				{
+					["type"] = 1,
+					["time"] = 1316408206,
+					["from"] = "Aonah",
+					["msg"] = ":P",
+					["inbound"] = false,
+					["convo"] = "|Kf729|k00000000000|k",
+				}, -- [3]
+				{
+					["type"] = 1,
+					["time"] = 1316408211,
+					["from"] = "Aonah",
+					["msg"] = "but yeah, imma go to sleeps soon too",
+					["inbound"] = false,
+					["convo"] = "|Kf729|k00000000000|k",
+				}, -- [4]
+				{
+					["type"] = 1,
+					["time"] = 1316408212,
+					["from"] = "Aonah",
+					["msg"] = "after this movie",
+					["inbound"] = false,
+					["convo"] = "|Kf729|k00000000000|k",
+				}, -- [5]
+				{
+					["type"] = 1,
+					["time"] = 1316408218,
+					["from"] = "Aonah",
+					["msg"] = "brb switching!",
+					["inbound"] = false,
+					["convo"] = "|Kf729|k00000000000|k",
+				}, -- [6]
+				{
+					["type"] = 1,
+					["time"] = 1316408222,
+					["from"] = "Aonah",
+					["msg"] = "i've got like.. 300 things to DE",
+					["inbound"] = false,
+					["convo"] = "|Kf729|k00000000000|k",
+				}, -- [7]
+				{
+					["type"] = 1,
+					["time"] = 1316408222,
+					["from"] = "Aonah",
+					["msg"] = "ugh",
+					["inbound"] = false,
+					["convo"] = "|Kf729|k00000000000|k",
+				}, -- [8]
+				{
+					["type"] = 1,
+					["time"] = 1316408223,
+					["from"] = "Aonah",
+					["msg"] = "!",
+					["inbound"] = false,
+					["convo"] = "|Kf729|k00000000000|k",
+				}, -- [9]
 				["info"] = {
 				},
 			},
@@ -35042,403 +35951,2091 @@ WIM3_History = {
 				["info"] = {
 				},
 			},
-			["|Kf428|k00000000000000000|k"] = {
+			["|Kf25|k0000000000000000|k"] = {
 				{
 					["type"] = 1,
-					["time"] = 1316563503,
-					["from"] = "Aonah",
-					["msg"] = "Yes sir!",
-					["inbound"] = false,
-					["convo"] = "|Kf428|k00000000000000000|k",
-				}, -- [1]
-				["info"] = {
-				},
-			},
-			["|Kf1661|k00000000000|k"] = {
-				{
-					["type"] = 1,
-					["time"] = 1317013572,
-					["from"] = "Aonah",
-					["msg"] = "Jamieeeeeeee",
-					["inbound"] = false,
-					["convo"] = "|Kf1661|k00000000000|k",
-				}, -- [1]
-				{
-					["type"] = 1,
-					["time"] = 1317013584,
-					["from"] = "Aonah",
-					["msg"] = "I heart you",
-					["inbound"] = false,
-					["convo"] = "|Kf1661|k00000000000|k",
-				}, -- [2]
-				{
-					["type"] = 1,
-					["time"] = 1317013628,
-					["from"] = "Aonah",
-					["msg"] = "Hope you feel better! and have a great night!",
-					["inbound"] = false,
-					["convo"] = "|Kf1661|k00000000000|k",
-				}, -- [3]
-				{
-					["type"] = 1,
-					["time"] = 1317013677,
-					["from"] = "Aonah",
-					["msg"] = "OH FINE BE TOO BUSY",
-					["inbound"] = false,
-					["convo"] = "|Kf1661|k00000000000|k",
-				}, -- [4]
-				["info"] = {
-				},
-			},
-			["|Kf509|k00000000000000|k"] = {
-				{
-					["type"] = 1,
-					["time"] = 1316665652,
-					["from"] = "Aonah",
-					["msg"] = "Yes, if tanking",
-					["inbound"] = false,
-					["convo"] = "|Kf509|k00000000000000|k",
-				}, -- [1]
-				{
-					["type"] = 1,
-					["time"] = 1316665653,
-					["from"] = "Aonah",
-					["msg"] = "yeah",
-					["inbound"] = false,
-					["convo"] = "|Kf509|k00000000000000|k",
-				}, -- [2]
-				{
-					["type"] = 1,
-					["time"] = 1316665670,
-					["from"] = "Aonah",
-					["msg"] = "mastery=block, they want to block cap if possible, but don't sacirfice too much dodge/parry for it, cuz that would be bad",
-					["inbound"] = false,
-					["convo"] = "|Kf509|k00000000000000|k",
-				}, -- [3]
-				{
-					["type"] = 1,
-					["time"] = 1316665672,
-					["from"] = "Aonah",
-					["msg"] = "but otherwise yes :)",
-					["inbound"] = false,
-					["convo"] = "|Kf509|k00000000000000|k",
-				}, -- [4]
-				["info"] = {
-				},
-			},
-			["|Kf782|k0000000000000000|k"] = {
-				{
-					["type"] = 1,
-					["time"] = 1316146382,
-					["from"] = "Aonah",
-					["msg"] = "WAT",
-					["inbound"] = false,
-					["convo"] = "|Kf782|k0000000000000000|k",
-				}, -- [1]
-				{
-					["type"] = 1,
-					["time"] = 1316146384,
-					["from"] = "Aonah",
-					["msg"] = "jerk",
-					["inbound"] = false,
-					["convo"] = "|Kf782|k0000000000000000|k",
-				}, -- [2]
-				{
-					["type"] = 1,
-					["time"] = 1316146385,
+					["time"] = 1316731204,
 					["from"] = "Aonah",
 					["msg"] = "lol",
 					["inbound"] = false,
-					["convo"] = "|Kf782|k0000000000000000|k",
+					["convo"] = "|Kf25|k0000000000000000|k",
+				}, -- [1]
+				{
+					["type"] = 1,
+					["time"] = 1316731207,
+					["from"] = "Aonah",
+					["msg"] = "Which guild?",
+					["inbound"] = false,
+					["convo"] = "|Kf25|k0000000000000000|k",
+				}, -- [2]
+				{
+					["type"] = 1,
+					["time"] = 1316731234,
+					["from"] = "Aonah",
+					["msg"] = "k, well you whispered aonah and she's not, so i wasn't certian lol",
+					["inbound"] = false,
+					["convo"] = "|Kf25|k0000000000000000|k",
 				}, -- [3]
 				{
 					["type"] = 1,
-					["time"] = 1316146399,
+					["time"] = 1316731314,
 					["from"] = "Aonah",
-					["msg"] = "3 of them? ",
+					["msg"] = "Aonah is in Terokkar Florist lol",
 					["inbound"] = false,
-					["convo"] = "|Kf782|k0000000000000000|k",
+					["convo"] = "|Kf25|k0000000000000000|k",
 				}, -- [4]
 				{
 					["type"] = 1,
-					["time"] = 1316146411,
+					["time"] = 1316731354,
 					["from"] = "Aonah",
-					["msg"] = "lol i got one this week off Shannox! :D",
+					["msg"] = "Nah, just my bank guild hehe",
 					["inbound"] = false,
-					["convo"] = "|Kf782|k0000000000000000|k",
+					["convo"] = "|Kf25|k0000000000000000|k",
 				}, -- [5]
 				{
 					["type"] = 1,
-					["time"] = 1316146423,
+					["time"] = 1316731363,
 					["from"] = "Aonah",
-					["msg"] = "Killed Staghelm, #9, no staff again :(",
+					["msg"] = "it was just a clever name i heard once and really liked",
 					["inbound"] = false,
-					["convo"] = "|Kf782|k0000000000000000|k",
+					["convo"] = "|Kf25|k0000000000000000|k",
 				}, -- [6]
 				{
 					["type"] = 1,
-					["time"] = 1316146426,
+					["time"] = 1316731413,
 					["from"] = "Aonah",
-					["msg"] = "but another druid shoulder token",
+					["msg"] = "lol sounds good",
 					["inbound"] = false,
-					["convo"] = "|Kf782|k0000000000000000|k",
+					["convo"] = "|Kf25|k0000000000000000|k",
 				}, -- [7]
 				{
 					["type"] = 1,
-					["time"] = 1316146427,
+					["time"] = 1316731514,
 					["from"] = "Aonah",
-					["msg"] = "lol..",
+					["msg"] = "aww",
 					["inbound"] = false,
-					["convo"] = "|Kf782|k0000000000000000|k",
+					["convo"] = "|Kf25|k0000000000000000|k",
 				}, -- [8]
 				{
 					["type"] = 1,
-					["time"] = 1316146431,
+					["time"] = 1316731520,
 					["from"] = "Aonah",
-					["msg"] = "that makes 6 druid tokens",
+					["msg"] = "so you're getting beaten now?",
 					["inbound"] = false,
-					["convo"] = "|Kf782|k0000000000000000|k",
+					["convo"] = "|Kf25|k0000000000000000|k",
 				}, -- [9]
+				{
+					["type"] = 1,
+					["time"] = 1316731537,
+					["from"] = "Aonah",
+					["msg"] = "I need to look up the steps to getting it.. i'm not sure what's left for our first one",
+					["inbound"] = false,
+					["convo"] = "|Kf25|k0000000000000000|k",
+				}, -- [10]
+				{
+					["type"] = 1,
+					["time"] = 1316731538,
+					["from"] = "Aonah",
+					["msg"] = "gotcha",
+					["inbound"] = false,
+					["convo"] = "|Kf25|k0000000000000000|k",
+				}, -- [11]
+				{
+					["type"] = 1,
+					["time"] = 1316731562,
+					["from"] = "Aonah",
+					["msg"] = "ahh nice",
+					["inbound"] = false,
+					["convo"] = "|Kf25|k0000000000000000|k",
+				}, -- [12]
+				{
+					["type"] = 1,
+					["time"] = 1316731568,
+					["from"] = "Aonah",
+					["msg"] = "gotcha",
+					["inbound"] = false,
+					["convo"] = "|Kf25|k0000000000000000|k",
+				}, -- [13]
+				{
+					["type"] = 1,
+					["time"] = 1316731672,
+					["from"] = "Aonah",
+					["msg"] = "ah",
+					["inbound"] = false,
+					["convo"] = "|Kf25|k0000000000000000|k",
+				}, -- [14]
+				{
+					["type"] = 1,
+					["time"] = 1316731676,
+					["from"] = "Aonah",
+					["msg"] = "who is the mage?",
+					["inbound"] = false,
+					["convo"] = "|Kf25|k0000000000000000|k",
+				}, -- [15]
+				{
+					["type"] = 1,
+					["time"] = 1316731795,
+					["from"] = "Aonah",
+					["msg"] = "oh well, \"fancy\" letters immediately loses my respect",
+					["inbound"] = false,
+					["convo"] = "|Kf25|k0000000000000000|k",
+				}, -- [16]
+				{
+					["type"] = 1,
+					["time"] = 1316731797,
+					["from"] = "Aonah",
+					["msg"] = "lol",
+					["inbound"] = false,
+					["convo"] = "|Kf25|k0000000000000000|k",
+				}, -- [17]
+				{
+					["type"] = 1,
+					["time"] = 1316731860,
+					["from"] = "Aonah",
+					["msg"] = "oh that's extra nifty",
+					["inbound"] = false,
+					["convo"] = "|Kf25|k0000000000000000|k",
+				}, -- [18]
+				{
+					["type"] = 1,
+					["time"] = 1316731865,
+					["from"] = "Aonah",
+					["msg"] = "but.. what class is normal Bake?",
+					["inbound"] = false,
+					["convo"] = "|Kf25|k0000000000000000|k",
+				}, -- [19]
+				{
+					["type"] = 1,
+					["time"] = 1316731868,
+					["from"] = "Aonah",
+					["msg"] = "if not a Mage.. why?",
+					["inbound"] = false,
+					["convo"] = "|Kf25|k0000000000000000|k",
+				}, -- [20]
+				{
+					["type"] = 1,
+					["time"] = 1316731893,
+					["from"] = "Aonah",
+					["msg"] = "Say aparently posting auctions before work is good. 3800g income since this morning.",
+					["inbound"] = false,
+					["convo"] = "|Kf25|k0000000000000000|k",
+				}, -- [21]
+				{
+					["type"] = 1,
+					["time"] = 1316732111,
+					["from"] = "Aonah",
+					["msg"] = "Hmm I sold some Bloodthirsty gear.. I need to get that into my craft queue I guess so i can keep up my supply",
+					["inbound"] = false,
+					["convo"] = "|Kf25|k0000000000000000|k",
+				}, -- [22]
+				{
+					["type"] = 1,
+					["time"] = 1316732182,
+					["from"] = "Aonah",
+					["msg"] = "oh, actually it looks like a lot of my auctions got bought out by this guy who is trying ot take over the entire server",
+					["inbound"] = false,
+					["convo"] = "|Kf25|k0000000000000000|k",
+				}, -- [23]
+				{
+					["type"] = 1,
+					["time"] = 1316732204,
+					["from"] = "Aonah",
+					["msg"] = "I'm happy for him to buy, but he'll have to quit eventually because I can keep turning these things out forever.. lol",
+					["inbound"] = false,
+					["convo"] = "|Kf25|k0000000000000000|k",
+				}, -- [24]
+				{
+					["type"] = 1,
+					["time"] = 1316732213,
+					["from"] = "Aonah",
+					["msg"] = "he's trying to buy and raise prices, lol, but that's not gonna work.",
+					["inbound"] = false,
+					["convo"] = "|Kf25|k0000000000000000|k",
+				}, -- [25]
+				{
+					["type"] = 1,
+					["time"] = 1316732253,
+					["from"] = "Aonah",
+					["msg"] = "Nope",
+					["inbound"] = false,
+					["convo"] = "|Kf25|k0000000000000000|k",
+				}, -- [26]
+				{
+					["type"] = 1,
+					["time"] = 1316732263,
+					["from"] = "Aonah",
+					["msg"] = "I mean, it can if you also control the raw mateirals markets",
+					["inbound"] = false,
+					["convo"] = "|Kf25|k0000000000000000|k",
+				}, -- [27]
+				{
+					["type"] = 1,
+					["time"] = 1316732287,
+					["from"] = "Aonah",
+					["msg"] = "but so long as UJ sends me emails at 2am to wake me up because someone just posted elementium for less than 30g/stack..",
+					["inbound"] = false,
+					["convo"] = "|Kf25|k0000000000000000|k",
+				}, -- [28]
+				{
+					["type"] = 1,
+					["time"] = 1316732303,
+					["from"] = "Aonah",
+					["msg"] = "if he doesn't buy it before i get to it, then he's gonna be buying my crafted items lol",
+					["inbound"] = false,
+					["convo"] = "|Kf25|k0000000000000000|k",
+				}, -- [29]
+				{
+					["type"] = 1,
+					["time"] = 1316732310,
+					["from"] = "Aonah",
+					["msg"] = "The Undermine Journal",
+					["inbound"] = false,
+					["convo"] = "|Kf25|k0000000000000000|k",
+				}, -- [30]
+				{
+					["type"] = 1,
+					["time"] = 1316732338,
+					["from"] = "Aonah",
+					["msg"] = "google it, it's a site that posts details about all realms' economies",
+					["inbound"] = false,
+					["convo"] = "|Kf25|k0000000000000000|k",
+				}, -- [31]
+				{
+					["type"] = 1,
+					["time"] = 1316732350,
+					["from"] = "Aonah",
+					["msg"] = "among many things it can do, you can set it to email you alerts when certain things happen",
+					["inbound"] = false,
+					["convo"] = "|Kf25|k0000000000000000|k",
+				}, -- [32]
+				{
+					["type"] = 1,
+					["time"] = 1316732358,
+					["from"] = "Aonah",
+					["msg"] = "like when elementium drops under 30g/stack",
+					["inbound"] = false,
+					["convo"] = "|Kf25|k0000000000000000|k",
+				}, -- [33]
+				{
+					["type"] = 1,
+					["time"] = 1316732359,
+					["from"] = "Aonah",
+					["msg"] = "lol",
+					["inbound"] = false,
+					["convo"] = "|Kf25|k0000000000000000|k",
+				}, -- [34]
+				{
+					["type"] = 1,
+					["time"] = 1316732390,
+					["from"] = "Aonah",
+					["msg"] = "I also have my own site that does about the same thing, but allows me to have a little more control over it",
+					["inbound"] = false,
+					["convo"] = "|Kf25|k0000000000000000|k",
+				}, -- [35]
+				{
+					["type"] = 1,
+					["time"] = 1316732662,
+					["from"] = "Aonah",
+					["msg"] = "lol good job",
+					["inbound"] = false,
+					["convo"] = "|Kf25|k0000000000000000|k",
+				}, -- [36]
 				["info"] = {
 				},
 			},
-			["|Kf398|k00000000000|k"] = {
+			["|Kf5|k00000000000|k"] = {
 				{
 					["type"] = 1,
-					["time"] = 1316563066,
+					["time"] = 1315955556,
 					["from"] = "Aonah",
-					["msg"] = "nah thanks but i'm about to do a troll and then raid tonight :(",
+					["msg"] = "Jamie!",
 					["inbound"] = false,
-					["convo"] = "|Kf398|k00000000000|k",
-				}, -- [1]
-				["info"] = {
-				},
-			},
-			["|Kf177|k00000000000000000|k"] = {
-				{
-					["type"] = 1,
-					["time"] = 1316396570,
-					["from"] = "Aonah",
-					["msg"] = "Think you'll need more than 20 stacks?",
-					["inbound"] = false,
-					["convo"] = "|Kf177|k00000000000000000|k",
+					["convo"] = "|Kf5|k00000000000|k",
 				}, -- [1]
 				{
 					["type"] = 1,
-					["time"] = 1316396585,
+					["time"] = 1315955572,
 					["from"] = "Aonah",
-					["msg"] = "k, sent. if you do, i have lots more lol",
+					["msg"] = "Oooh 29! congrats!",
 					["inbound"] = false,
-					["convo"] = "|Kf177|k00000000000000000|k",
+					["convo"] = "|Kf5|k00000000000|k",
 				}, -- [2]
-				["info"] = {
-				},
-			},
-			["|Kf729|k00000000000|k"] = {
 				{
 					["type"] = 1,
-					["time"] = 1316408132,
+					["time"] = 1315955573,
 					["from"] = "Aonah",
-					["msg"] = "wb! :D",
+					["msg"] = "uh oh",
 					["inbound"] = false,
-					["convo"] = "|Kf729|k00000000000|k",
-				}, -- [1]
-				{
-					["type"] = 1,
-					["time"] = 1316408169,
-					["from"] = "Aonah",
-					["msg"] = "You were gone for 1 minute and 23 seconds, and I MISSED YOU",
-					["inbound"] = false,
-					["convo"] = "|Kf729|k00000000000|k",
-				}, -- [2]
-				{
-					["type"] = 1,
-					["time"] = 1316408206,
-					["from"] = "Aonah",
-					["msg"] = ":P",
-					["inbound"] = false,
-					["convo"] = "|Kf729|k00000000000|k",
+					["convo"] = "|Kf5|k00000000000|k",
 				}, -- [3]
 				{
 					["type"] = 1,
-					["time"] = 1316408211,
+					["time"] = 1315955576,
 					["from"] = "Aonah",
-					["msg"] = "but yeah, imma go to sleeps soon too",
+					["msg"] = "lol",
 					["inbound"] = false,
-					["convo"] = "|Kf729|k00000000000|k",
+					["convo"] = "|Kf5|k00000000000|k",
 				}, -- [4]
 				{
 					["type"] = 1,
-					["time"] = 1316408212,
+					["time"] = 1315955578,
 					["from"] = "Aonah",
-					["msg"] = "after this movie",
+					["msg"] = "what?",
 					["inbound"] = false,
-					["convo"] = "|Kf729|k00000000000|k",
+					["convo"] = "|Kf5|k00000000000|k",
 				}, -- [5]
 				{
 					["type"] = 1,
-					["time"] = 1316408218,
+					["time"] = 1315955588,
 					["from"] = "Aonah",
-					["msg"] = "brb switching!",
+					["msg"] = ":O",
 					["inbound"] = false,
-					["convo"] = "|Kf729|k00000000000|k",
+					["convo"] = "|Kf5|k00000000000|k",
 				}, -- [6]
 				{
 					["type"] = 1,
-					["time"] = 1316408222,
+					["time"] = 1315955592,
 					["from"] = "Aonah",
-					["msg"] = "i've got like.. 300 things to DE",
+					["msg"] = "why?!",
 					["inbound"] = false,
-					["convo"] = "|Kf729|k00000000000|k",
+					["convo"] = "|Kf5|k00000000000|k",
 				}, -- [7]
 				{
 					["type"] = 1,
-					["time"] = 1316408222,
+					["time"] = 1315955674,
 					["from"] = "Aonah",
-					["msg"] = "ugh",
+					["msg"] = "lol",
 					["inbound"] = false,
-					["convo"] = "|Kf729|k00000000000|k",
+					["convo"] = "|Kf5|k00000000000|k",
 				}, -- [8]
 				{
 					["type"] = 1,
-					["time"] = 1316408223,
+					["time"] = 1315955676,
 					["from"] = "Aonah",
-					["msg"] = "!",
+					["msg"] = "that sucks! :O",
 					["inbound"] = false,
-					["convo"] = "|Kf729|k00000000000|k",
+					["convo"] = "|Kf5|k00000000000|k",
 				}, -- [9]
-				["info"] = {
-				},
-			},
-			["|Kf514|k000000000000|k"] = {
 				{
 					["type"] = 1,
-					["time"] = 1315973282,
+					["time"] = 1315955730,
 					["from"] = "Aonah",
-					["msg"] = "Well",
+					["msg"] = "*hugs* all better now!",
 					["inbound"] = false,
-					["convo"] = "|Kf514|k000000000000|k",
-				}, -- [1]
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [10]
 				{
 					["type"] = 1,
-					["time"] = 1315973309,
+					["time"] = 1315955744,
 					["from"] = "Aonah",
-					["msg"] = "Decimus is #1 on server",
+					["msg"] = "http://i.imgur.com/Rmbdf.jpg",
 					["inbound"] = false,
-					["convo"] = "|Kf514|k000000000000|k",
-				}, -- [2]
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [11]
 				{
 					["type"] = 1,
-					["time"] = 1315973312,
+					["time"] = 1315955754,
 					["from"] = "Aonah",
-					["msg"] = "i'm #5",
+					["msg"] = "Look at that cutie! (sfw, no nudity)",
 					["inbound"] = false,
-					["convo"] = "|Kf514|k000000000000|k",
-				}, -- [3]
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [12]
 				{
 					["type"] = 1,
-					["time"] = 1315973315,
+					["time"] = 1315955779,
 					["from"] = "Aonah",
-					["msg"] = "top alliance",
+					["msg"] = "She's cute!",
 					["inbound"] = false,
-					["convo"] = "|Kf514|k000000000000|k",
-				}, -- [4]
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [13]
 				{
 					["type"] = 1,
-					["time"] = 1315973316,
+					["time"] = 1315955788,
 					["from"] = "Aonah",
-					["msg"] = "wohoo",
+					["msg"] = "Well why would he care if you were looking at chicks anyway? lol",
 					["inbound"] = false,
-					["convo"] = "|Kf514|k000000000000|k",
-				}, -- [5]
-				["info"] = {
-				},
-			},
-			["|Kf683|k0000000000000|k"] = {
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [14]
 				{
 					["type"] = 1,
-					["time"] = 1316566382,
+					["time"] = 1315955789,
 					["from"] = "Aonah",
-					["msg"] = "Thayaaaaan :(",
+					["msg"] = "sure",
 					["inbound"] = false,
-					["convo"] = "|Kf683|k0000000000000|k",
-				}, -- [1]
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [15]
 				{
 					["type"] = 1,
-					["time"] = 1316566405,
+					["time"] = 1315955794,
 					["from"] = "Aonah",
-					["msg"] = "It was sad to see you go :( But in good news i'm #2 in achievement points now! :O",
+					["msg"] = "invite me",
 					["inbound"] = false,
-					["convo"] = "|Kf683|k0000000000000|k",
-				}, -- [2]
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [16]
 				{
 					["type"] = 1,
-					["time"] = 1316566473,
+					["time"] = 1315955805,
 					["from"] = "Aonah",
-					["msg"] = "I know. And I understand. And I'm sitll sorry, even if you don't believe me. I hope you make new ones over there on the horde side! I know many of them over there too :)",
+					["msg"] = "n/m found you",
 					["inbound"] = false,
-					["convo"] = "|Kf683|k0000000000000|k",
-				}, -- [3]
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [17]
 				{
 					["type"] = 1,
-					["time"] = 1316566506,
+					["time"] = 1315955810,
+					["from"] = "Aonah",
+					["msg"] = "wim still doesn't work right with realid",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [18]
+				{
+					["type"] = 1,
+					["time"] = 1315955820,
+					["from"] = "Aonah",
+					["msg"] = "wtf wiat i can't summon on this girl",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [19]
+				{
+					["type"] = 1,
+					["time"] = 1315955824,
+					["from"] = "Aonah",
+					["msg"] = "sorry i'm a fool",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [20]
+				{
+					["type"] = 1,
+					["time"] = 1315955830,
+					["from"] = "Aonah",
+					["msg"] = "sec",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [21]
+				{
+					["type"] = 1,
+					["time"] = 1315955834,
+					["from"] = "Aonah",
+					["msg"] = "i'll summonxor you",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [22]
+				{
+					["type"] = 1,
+					["time"] = 1315955837,
+					["from"] = "Aonah",
+					["msg"] = "she's in her own guild!",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [23]
+				{
+					["type"] = 1,
+					["time"] = 1315955839,
+					["from"] = "Aonah",
+					["msg"] = "and it's level 1",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [24]
+				{
+					["type"] = 1,
+					["time"] = 1315955840,
+					["from"] = "Aonah",
+					["msg"] = "which you know",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [25]
+				{
+					["type"] = 1,
+					["time"] = 1315955841,
+					["from"] = "Aonah",
+					["msg"] = "no summon",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [26]
+				{
+					["type"] = 1,
+					["time"] = 1315955842,
+					["from"] = "Aonah",
+					["msg"] = "lol",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [27]
+				{
+					["type"] = 1,
+					["time"] = 1316006320,
+					["from"] = "Aonah",
+					["msg"] = ":O",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [28]
+				{
+					["type"] = 1,
+					["time"] = 1316006325,
+					["from"] = "Aonah",
+					["msg"] = "What are you doing awake?!",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [29]
+				{
+					["type"] = 1,
+					["time"] = 1316006326,
+					["from"] = "Aonah",
+					["msg"] = "lol",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [30]
+				{
+					["type"] = 1,
+					["time"] = 1316006328,
+					["from"] = "Aonah",
+					["msg"] = "Well good morning :)",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [31]
+				{
+					["type"] = 1,
+					["time"] = 1316006333,
+					["from"] = "Aonah",
+					["msg"] = "I had to get up early to dry my clothes",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [32]
+				{
+					["type"] = 1,
+					["time"] = 1316006334,
+					["from"] = "Aonah",
+					["msg"] = "lol",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [33]
+				{
+					["type"] = 1,
+					["time"] = 1316006390,
+					["from"] = "Aonah",
+					["msg"] = "You are aging petty fast! :O",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [34]
+				{
+					["type"] = 1,
+					["time"] = 1316006396,
+					["from"] = "Aonah",
+					["msg"] = "lol",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [35]
+				{
+					["type"] = 1,
+					["time"] = 1316006398,
+					["from"] = "Aonah",
+					["msg"] = "aww <3",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [36]
+				{
+					["type"] = 1,
+					["time"] = 1316006402,
+					["from"] = "Aonah",
+					["msg"] = "I mean congrats! :O",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [37]
+				{
+					["type"] = 1,
+					["time"] = 1316006413,
+					["from"] = "Aonah",
+					["msg"] = "You're gonna be 85 before you konw it! :O",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [38]
+				{
+					["type"] = 1,
+					["time"] = 1316006427,
+					["from"] = "Aonah",
+					["msg"] = "there is a troll corpse in the AH this morning",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [39]
+				{
+					["type"] = 1,
+					["time"] = 1316006427,
+					["from"] = "Aonah",
+					["msg"] = "lol",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [40]
+				{
+					["type"] = 1,
+					["time"] = 1316006508,
+					["from"] = "Aonah",
+					["msg"] = "Your sleep schedule is a bit off though",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [41]
+				{
+					["type"] = 1,
+					["time"] = 1316006513,
+					["from"] = "Aonah",
+					["msg"] = "Do you feel rested?",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [42]
+				{
+					["type"] = 1,
+					["time"] = 1316006523,
+					["from"] = "Aonah",
+					["msg"] = "lol",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [43]
+				{
+					["type"] = 1,
+					["time"] = 1316006526,
+					["from"] = "Aonah",
+					["msg"] = "I didn't get enough sleep",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [44]
+				{
+					["type"] = 1,
+					["time"] = 1316006529,
+					["from"] = "Aonah",
+					["msg"] = "so i feel tired",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [45]
+				{
+					["type"] = 1,
+					["time"] = 1316006535,
+					["from"] = "Aonah",
+					["msg"] = "but i am always awake at night",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [46]
+				{
+					["type"] = 1,
+					["time"] = 1316006537,
+					["from"] = "Aonah",
+					["msg"] = "i'm silly",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [47]
+				{
+					["type"] = 1,
+					["time"] = 1316006552,
+					["from"] = "Aonah",
+					["msg"] = "I'm thinking about taking a nap in my car over lunch.. lol",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [48]
+				{
+					["type"] = 1,
+					["time"] = 1316006556,
+					["from"] = "Aonah",
+					["msg"] = "but naps are bad!",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [49]
+				{
+					["type"] = 1,
+					["time"] = 1316395253,
+					["from"] = "Aonah",
+					["msg"] = "what the f where is piggy?",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [50]
+				{
+					["type"] = 1,
+					["time"] = 1316395311,
+					["from"] = "Aonah",
+					["msg"] = "oh okay",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [51]
+				{
+					["type"] = 1,
+					["time"] = 1316395367,
+					["from"] = "Aonah",
+					["msg"] = ":O",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [52]
+				{
+					["type"] = 1,
+					["time"] = 1316395367,
+					["from"] = "Aonah",
+					["msg"] = "yay!",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [53]
+				{
+					["type"] = 1,
+					["time"] = 1316395501,
+					["from"] = "Aonah",
+					["msg"] = ":O",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [54]
+				{
+					["type"] = 1,
+					["time"] = 1316395502,
 					["from"] = "Aonah",
 					["msg"] = ":(",
 					["inbound"] = false,
-					["convo"] = "|Kf683|k0000000000000|k",
-				}, -- [4]
-				["info"] = {
-				},
-			},
-			["|Kf766|k00000000000|k"] = {
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [55]
 				{
 					["type"] = 1,
-					["time"] = 1315889135,
+					["time"] = 1316395505,
 					["from"] = "Aonah",
-					["msg"] = "gud",
+					["msg"] = "That makes me le sad",
 					["inbound"] = false,
-					["convo"] = "|Kf766|k00000000000|k",
-				}, -- [1]
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [56]
 				{
 					["type"] = 1,
-					["time"] = 1315889148,
+					["time"] = 1316560995,
 					["from"] = "Aonah",
-					["msg"] = "yeah I wasn't sure wtf you meant there",
+					["msg"] = "rawr!",
 					["inbound"] = false,
-					["convo"] = "|Kf766|k00000000000|k",
-				}, -- [2]
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [57]
 				{
 					["type"] = 1,
-					["time"] = 1315889151,
+					["time"] = 1316561441,
 					["from"] = "Aonah",
-					["msg"] = "it was confuxoring me",
+					["msg"] = "OH FINE YOU ARE BOTH AWAY",
 					["inbound"] = false,
-					["convo"] = "|Kf766|k00000000000|k",
-				}, -- [3]
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [58]
 				{
 					["type"] = 1,
-					["time"] = 1315889363,
+					["time"] = 1316561446,
 					["from"] = "Aonah",
-					["msg"] = "I may have a spending problem",
+					["msg"] = "IT BETTER BE SEX AND NOT TV",
 					["inbound"] = false,
-					["convo"] = "|Kf766|k00000000000|k",
-				}, -- [4]
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [59]
 				{
 					["type"] = 1,
-					["time"] = 1315889366,
+					["time"] = 1316561456,
 					["from"] = "Aonah",
-					["msg"] = "BUT",
+					["msg"] = "oh hey!",
 					["inbound"] = false,
-					["convo"] = "|Kf766|k00000000000|k",
-				}, -- [5]
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [60]
 				{
 					["type"] = 1,
-					["time"] = 1315889372,
+					["time"] = 1316561458,
 					["from"] = "Aonah",
-					["msg"] = " |Hitem:67145:0:0:0:0:0:0:1152040640:85:0|h[Blockade's Lost Shield]|h!",
+					["msg"] = "hiiii!",
 					["inbound"] = false,
-					["convo"] = "|Kf766|k00000000000|k",
-				}, -- [6]
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [61]
+				{
+					["type"] = 1,
+					["time"] = 1316561464,
+					["from"] = "Aonah",
+					["msg"] = "NO EXCUSE",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [62]
+				{
+					["type"] = 1,
+					["time"] = 1316561467,
+					["from"] = "Aonah",
+					["msg"] = "arg",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [63]
+				{
+					["type"] = 1,
+					["time"] = 1316561477,
+					["from"] = "Aonah",
+					["msg"] = "kk",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [64]
+				{
+					["type"] = 1,
+					["time"] = 1316650984,
+					["from"] = "Aonah",
+					["msg"] = "You!",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [65]
+				{
+					["type"] = 1,
+					["time"] = 1316651091,
+					["from"] = "Aonah",
+					["msg"] = "Like someone sat on my brain",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [66]
+				{
+					["type"] = 1,
+					["time"] = 1316651095,
+					["from"] = "Aonah",
+					["msg"] = "but i'm alive sitll",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [67]
+				{
+					["type"] = 1,
+					["time"] = 1316651106,
+					["from"] = "Aonah",
+					["msg"] = "how many days did the awful last for you when you did this?",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [68]
+				{
+					["type"] = 1,
+					["time"] = 1316651178,
+					["from"] = "Aonah",
+					["msg"] = "Yeah, that's what I'm afraid of. Hopefully takng the prozac will help stop it sooner.. it should, but then i also thought it would lesson the effects.. and it hasn't really too much lol",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [69]
+				{
+					["type"] = 1,
+					["time"] = 1316651188,
+					["from"] = "Aonah",
+					["msg"] = "also it's only the third day today, so..",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [70]
+				{
+					["type"] = 1,
+					["time"] = 1316651283,
+					["from"] = "Aonah",
+					["msg"] = "It's okay",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [71]
+				{
+					["type"] = 1,
+					["time"] = 1316651292,
+					["from"] = "Aonah",
+					["msg"] = "Give me a hug, kiss me on the forehead, and tell me to man up!",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [72]
+				{
+					["type"] = 1,
+					["time"] = 1316651663,
+					["from"] = "Aonah",
+					["msg"] = "Were you online the other night when i read off the numbers from my Accounting tracking addon?",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [73]
+				{
+					["type"] = 1,
+					["time"] = 1316651684,
+					["from"] = "Aonah",
+					["msg"] = ":D",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [74]
+				{
+					["type"] = 1,
+					["time"] = 1316651718,
+					["from"] = "Aonah",
+					["msg"] = "So in the past 4 months or so since i started recording the data",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [75]
+				{
+					["type"] = 1,
+					["time"] = 1316651737,
+					["from"] = "Aonah",
+					["msg"] = "I've had 157,000 gold flow in and 177,157 gold flow out",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [76]
+				{
+					["type"] = 1,
+					["time"] = 1316651773,
+					["from"] = "Aonah",
+					["msg"] = "And the fact that the second number is bigger than the first is why I don't ahve a huge savings in the bank",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [77]
+				{
+					["type"] = 1,
+					["time"] = 1316651773,
+					["from"] = "Aonah",
+					["msg"] = "lol",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [78]
+				{
+					["type"] = 1,
+					["time"] = 1316651795,
+					["from"] = "Aonah",
+					["msg"] = "I'm spending more than I'm making from auctions, probably from income from raiding/questing/etc",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [79]
+				{
+					["type"] = 1,
+					["time"] = 1316651808,
+					["from"] = "Aonah",
+					["msg"] = "but the funny thing is, this really isn't enough gold to put me into the \"middle class\" of wow",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [80]
+				{
+					["type"] = 1,
+					["time"] = 1316651816,
+					["from"] = "Aonah",
+					["msg"] = "most in the Middle Class have 200k on hand",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [81]
+				{
+					["type"] = 1,
+					["time"] = 1316651835,
+					["from"] = "Aonah",
+					["msg"] = "and the 'upper class' has 1 million+ on hand, may with around 4 million",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [82]
+				{
+					["type"] = 1,
+					["time"] = 1316651844,
+					["from"] = "Aonah",
+					["msg"] = "many*",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [83]
+				{
+					["type"] = 1,
+					["time"] = 1316651864,
+					["from"] = "Aonah",
+					["msg"] = "though that requires living on a high pop realm where there is enough money floating around the economy",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [84]
+				{
+					["type"] = 1,
+					["time"] = 1316651877,
+					["from"] = "Aonah",
+					["msg"] = "i really don't think I could do much to make money faster. ",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [85]
+				{
+					["type"] = 1,
+					["time"] = 1316651890,
+					["from"] = "Aonah",
+					["msg"] = "If i didn't spend it on stuff and people i'd have probably 100k in the bank",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [86]
+				{
+					["type"] = 1,
+					["time"] = 1316651898,
+					["from"] = "Aonah",
+					["msg"] = "I have 9.2k today lol",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [87]
+				{
+					["type"] = 1,
+					["time"] = 1316651900,
+					["from"] = "Aonah",
+					["msg"] = "not so good",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [88]
+				{
+					["type"] = 1,
+					["time"] = 1316651905,
+					["from"] = "Aonah",
+					["msg"] = "okay switching",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [89]
+				{
+					["type"] = 1,
+					["time"] = 1316651915,
+					["from"] = "Aonah",
+					["msg"] = "I'm getting into the \"deep depression\" part of the withdrawls :(",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [90]
+				{
+					["type"] = 1,
+					["time"] = 1316651936,
+					["from"] = "Aonah",
+					["msg"] = "I took the afternoon off work to sleep more",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [91]
+				{
+					["type"] = 1,
+					["time"] = 1316731164,
+					["from"] = "Aonah",
+					["msg"] = "blaaaah",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [92]
+				{
+					["type"] = 1,
+					["time"] = 1316731319,
+					["from"] = "Aonah",
+					["msg"] = ":(",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [93]
+				{
+					["type"] = 1,
+					["time"] = 1316731323,
+					["from"] = "Aonah",
+					["msg"] = "*cry*",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [94]
+				{
+					["type"] = 1,
+					["time"] = 1316731345,
+					["from"] = "Aonah",
+					["msg"] = "lol aww <3",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [95]
+				{
+					["type"] = 1,
+					["time"] = 1316731499,
+					["from"] = "Aonah",
+					["msg"] = "oooh this month's house payment: $5,286.28",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [96]
+				{
+					["type"] = 1,
+					["time"] = 1316731546,
+					["from"] = "Aonah",
+					["msg"] = "lol",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [97]
+				{
+					["type"] = 1,
+					["time"] = 1316731555,
+					["from"] = "Aonah",
+					["msg"] = "maybe it's time to end it",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [98]
+				{
+					["type"] = 1,
+					["time"] = 1316731682,
+					["from"] = "Aonah",
+					["msg"] = "nah i meant my life lol",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [99]
+				{
+					["type"] = 1,
+					["time"] = 1316731711,
+					["from"] = "Aonah",
+					["msg"] = "the ownership would be okay too, but it would mess up my credit pretty bad, could mean i'd have trouble getting a job and getting an aparment",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [100]
+				{
+					["type"] = 1,
+					["time"] = 1316731732,
+					["from"] = "Aonah",
+					["msg"] = "don't worry I'm not there yet. But honestly I wonder why.. I've nothing going for me other than luck.",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [101]
+				{
+					["type"] = 1,
+					["time"] = 1316731738,
+					["from"] = "Aonah",
+					["msg"] = "The luck will have to run out eventually.",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [102]
+				{
+					["type"] = 1,
+					["time"] = 1316731750,
+					["from"] = "Aonah",
+					["msg"] = "And to sleep forever would shure be good",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [103]
+				{
+					["type"] = 1,
+					["time"] = 1316731761,
+					["from"] = "Aonah",
+					["msg"] = "well true but in general boobies on men is considered undesirable.",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [104]
+				{
+					["type"] = 1,
+					["time"] = 1316731837,
+					["from"] = "Aonah",
+					["msg"] = "lol okay. But I have none of those! haven't in.. well a long time. ",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [105]
+				{
+					["type"] = 1,
+					["time"] = 1316731851,
+					["from"] = "Aonah",
+					["msg"] = "I wouldn't know what to do with them! :O",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [106]
+				{
+					["type"] = 1,
+					["time"] = 1316731963,
+					["from"] = "Aonah",
+					["msg"] = "Nah I would. But the first bit is still true. Girls don't like losers :(",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [107]
+				{
+					["type"] = 1,
+					["time"] = 1316732433,
+					["from"] = "Aonah",
+					["msg"] = "so did Piggy buy some plate pvp gear for his warrior this morning?",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [108]
+				{
+					["type"] = 1,
+					["time"] = 1316732465,
+					["from"] = "Aonah",
+					["msg"] = "7 hours and 38 minutes ago he bought a few Bloodthirsty Pyrium pieces from me",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [109]
+				{
+					["type"] = 1,
+					["time"] = 1316732474,
+					["from"] = "Aonah",
+					["msg"] = " |Hitem:70004:0:0:0:0:0:0:0:85:0|h[Bloodthirsty Pyrium Breastplate]|h",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [110]
+				{
+					["type"] = 1,
+					["time"] = 1316732481,
+					["from"] = "Aonah",
+					["msg"] = " |Hitem:70009:0:0:0:0:0:0:0:85:0|h[Bloodthirsty Pyrium Shoulders]|h",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [111]
+				{
+					["type"] = 1,
+					["time"] = 1316732489,
+					["from"] = "Aonah",
+					["msg"] = " |Hitem:70007:0:0:0:0:0:0:0:85:0|h[Bloodthirsty Pyrium Helm]|h",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [112]
+				{
+					["type"] = 1,
+					["time"] = 1316732504,
+					["from"] = "Aonah",
+					["msg"] = " |Hitem:70008:0:0:0:0:0:0:0:85:0|h[Bloodthirsty Pyrium Legguards]|h",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [113]
+				{
+					["type"] = 1,
+					["time"] = 1316732510,
+					["from"] = "Aonah",
+					["msg"] = "He pretty much bought a whole set",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [114]
+				{
+					["type"] = 1,
+					["time"] = 1316732510,
+					["from"] = "Aonah",
+					["msg"] = "lol",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [115]
+				{
+					["type"] = 1,
+					["time"] = 1316732525,
+					["from"] = "Aonah",
+					["msg"] = "he accounted for a large portion of the 3800g i made since this morning",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [116]
+				{
+					["type"] = 1,
+					["time"] = 1316732542,
+					["from"] = "Aonah",
+					["msg"] = "Yep, go do it",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [117]
+				{
+					["type"] = 1,
+					["time"] = 1316732545,
+					["from"] = "Aonah",
+					["msg"] = "I need to get shot in the head",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [118]
+				{
+					["type"] = 1,
+					["time"] = 1316732554,
+					["from"] = "Aonah",
+					["msg"] = "Actually i should come up with a more fun way to go",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [119]
+				{
+					["type"] = 1,
+					["time"] = 1316732562,
+					["from"] = "Aonah",
+					["msg"] = "I want to have a sexy girl sit on my face until i suffocate",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [120]
+				{
+					["type"] = 1,
+					["time"] = 1316732564,
+					["from"] = "Aonah",
+					["msg"] = "i like that better",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [121]
+				{
+					["type"] = 1,
+					["time"] = 1316732565,
+					["from"] = "Aonah",
+					["msg"] = ":)",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [122]
+				{
+					["type"] = 1,
+					["time"] = 1316737551,
+					["from"] = "Aonah",
+					["msg"] = "No quests?",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [123]
+				{
+					["type"] = 1,
+					["time"] = 1316737588,
+					["from"] = "Aonah",
+					["msg"] = "you can't possibly have checked them all, or you would ahve found it!",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [124]
+				{
+					["type"] = 1,
+					["time"] = 1316737597,
+					["from"] = "Aonah",
+					["msg"] = "Make sure you have Track Low Level Quests on?",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [125]
+				{
+					["type"] = 1,
+					["time"] = 1316737627,
+					["from"] = "Aonah",
+					["msg"] = "There *may* be an item or something, but I have managed to find it every time.. except once when I had to use EveryQuest",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [126]
+				{
+					["type"] = 1,
+					["time"] = 1316818070,
+					["from"] = "Aonah",
+					["msg"] = "Oh hi there! Wifi in the airport? :O",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [127]
+				{
+					["type"] = 1,
+					["time"] = 1316818084,
+					["from"] = "Aonah",
+					["msg"] = "ooh you're home!",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [128]
+				{
+					["type"] = 1,
+					["time"] = 1316818163,
+					["from"] = "Aonah",
+					["msg"] = "aha! there you are!",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [129]
+				{
+					["type"] = 1,
+					["time"] = 1316818210,
+					["from"] = "Aonah",
+					["msg"] = "so i just bought a salad at Chik fil a",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [130]
+				{
+					["type"] = 1,
+					["time"] = 1316818214,
+					["from"] = "Aonah",
+					["msg"] = "and it's pretty huge and awesome",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [131]
+				{
+					["type"] = 1,
+					["time"] = 1316818235,
+					["from"] = "Aonah",
+					["msg"] = "this is my first one!",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [132]
+				{
+					["type"] = 1,
+					["time"] = 1316818241,
+					["from"] = "Aonah",
+					["msg"] = "chicken and fruit! yuuum! :O",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [133]
+				{
+					["type"] = 1,
+					["time"] = 1316818298,
+					["from"] = "Aonah",
+					["msg"] = "MMM this is freaking goo",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [134]
+				{
+					["type"] = 1,
+					["time"] = 1316818300,
+					["from"] = "Aonah",
+					["msg"] = "good*",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [135]
+				{
+					["type"] = 1,
+					["time"] = 1316818308,
+					["from"] = "Aonah",
+					["msg"] = "Yeah, I'm so sorry :(",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [136]
+				{
+					["type"] = 1,
+					["time"] = 1316818317,
+					["from"] = "Aonah",
+					["msg"] = "Time to take a tirp to the Natural State!",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [137]
+				{
+					["type"] = 1,
+					["time"] = 1316818360,
+					["from"] = "Aonah",
+					["msg"] = "eek save him!",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [138]
+				{
+					["type"] = 1,
+					["time"] = 1316818482,
+					["from"] = "Aonah",
+					["msg"] = "Wb!",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [139]
+				{
+					["type"] = 1,
+					["time"] = 1316818484,
+					["from"] = "Aonah",
+					["msg"] = "Rat is okay?",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [140]
+				{
+					["type"] = 1,
+					["time"] = 1316818492,
+					["from"] = "Aonah",
+					["msg"] = "Good",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [141]
+				{
+					["type"] = 1,
+					["time"] = 1316818527,
+					["from"] = "Aonah",
+					["msg"] = "Welllll you're home safe! that's good!",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [142]
+				{
+					["type"] = 1,
+					["time"] = 1316891604,
+					["from"] = "Aonah",
+					["msg"] = ":O",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [143]
+				{
+					["type"] = 1,
+					["time"] = 1316891607,
+					["from"] = "Aonah",
+					["msg"] = "I'ts me!",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [144]
+				{
+					["type"] = 1,
+					["time"] = 1316891613,
+					["from"] = "Aonah",
+					["msg"] = "Holy shit you know",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [145]
+				{
+					["type"] = 1,
+					["time"] = 1316891620,
+					["from"] = "Aonah",
+					["msg"] = "I thought I felt bad this past week",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [146]
+				{
+					["type"] = 1,
+					["time"] = 1316891624,
+					["from"] = "Aonah",
+					["msg"] = "today I feel even worse",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [147]
+				{
+					["type"] = 1,
+					["time"] = 1316891629,
+					["from"] = "Aonah",
+					["msg"] = "not from the withdrawls though",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [148]
+				{
+					["type"] = 1,
+					["time"] = 1316891632,
+					["from"] = "Aonah",
+					["msg"] = "they are getting better!",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [149]
+				{
+					["type"] = 1,
+					["time"] = 1316891642,
+					["from"] = "Aonah",
+					["msg"] = "but toaday i'm freaking sick! Jesus christ my luck is bad this week",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [150]
+				{
+					["type"] = 1,
+					["time"] = 1316891647,
+					["from"] = "Aonah",
+					["msg"] = "i am drinking NyQuil",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [151]
+				{
+					["type"] = 1,
+					["time"] = 1316891651,
+					["from"] = "Aonah",
+					["msg"] = "mmm",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [152]
+				{
+					["type"] = 1,
+					["time"] = 1316891655,
+					["from"] = "Aonah",
+					["msg"] = "it may help",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [153]
+				{
+					["type"] = 1,
+					["time"] = 1316891679,
+					["from"] = "Aonah",
+					["msg"] = "nah",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [154]
+				{
+					["type"] = 1,
+					["time"] = 1316891683,
+					["from"] = "Aonah",
+					["msg"] = "i been asleep for hours",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [155]
+				{
+					["type"] = 1,
+					["time"] = 1316891692,
+					["from"] = "Aonah",
+					["msg"] = "It wont' make me any more sleepy",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [156]
+				{
+					["type"] = 1,
+					["time"] = 1316891713,
+					["from"] = "Aonah",
+					["msg"] = "In fact it has no sleep aid except alcohol",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [157]
+				{
+					["type"] = 1,
+					["time"] = 1316891749,
+					["from"] = "Aonah",
+					["msg"] = "it's freaking rough on your liver though, it's got alcohol and acetaminophen.. gotta resist the urge to drink the whole bottole",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [158]
+				{
+					["type"] = 1,
+					["time"] = 1316891751,
+					["from"] = "Aonah",
+					["msg"] = "bottle*",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [159]
+				{
+					["type"] = 1,
+					["time"] = 1316891758,
+					["from"] = "Aonah",
+					["msg"] = "aww cuz i haven't started it in a while, here i'll do it right now!",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [160]
+				{
+					["type"] = 1,
+					["time"] = 1316891893,
+					["from"] = "Aonah",
+					["msg"] = "well, when my phone decides the internet exists again",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [161]
+				{
+					["type"] = 1,
+					["time"] = 1316892040,
+					["from"] = "Aonah",
+					["msg"] = "wtf it just keeps breaking at every stage",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [162]
+				{
+					["type"] = 1,
+					["time"] = 1316892042,
+					["from"] = "Aonah",
+					["msg"] = "i'll get there!",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [163]
+				{
+					["type"] = 1,
+					["time"] = 1316892077,
+					["from"] = "Aonah",
+					["msg"] = "it's making me upgrade",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [164]
+				{
+					["type"] = 1,
+					["time"] = 1316892086,
+					["from"] = "Aonah",
+					["msg"] = "so i'm watching this weirdo British movie The Guard",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [165]
+				{
+					["type"] = 1,
+					["time"] = 1316892115,
+					["from"] = "Aonah",
+					["msg"] = "and this fat ugly cap is sitting in this cafe with this cute hooker and drinking a giant milkshake, and it sooooo made me want to go to The Purple Cow, a restaurnt here with amazing cafe-stype milkshakes",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [166]
+				{
+					["type"] = 1,
+					["time"] = 1316892119,
+					["from"] = "Aonah",
+					["msg"] = "lol",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [167]
+				{
+					["type"] = 1,
+					["time"] = 1316892120,
+					["from"] = "Aonah",
+					["msg"] = ":(",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [168]
+				{
+					["type"] = 1,
+					["time"] = 1316892193,
+					["from"] = "Aonah",
+					["msg"] = "aha!",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [169]
+				{
+					["type"] = 1,
+					["time"] = 1316892201,
+					["from"] = "Aonah",
+					["msg"] = "If you were here, I'd take you out and buy you one",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [170]
+				{
+					["type"] = 1,
+					["time"] = 1316892206,
+					["from"] = "Aonah",
+					["msg"] = "you'd only have to stay a few feet away",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [171]
+				{
+					["type"] = 1,
+					["time"] = 1316892210,
+					["from"] = "Aonah",
+					["msg"] = "to avoid my sick aura",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [172]
+				{
+					["type"] = 1,
+					["time"] = 1316892211,
+					["from"] = "Aonah",
+					["msg"] = "lol",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [173]
+				{
+					["type"] = 1,
+					["time"] = 1316892219,
+					["from"] = "Aonah",
+					["msg"] = "word played! and i'm winning now! muahaha!",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [174]
+				{
+					["type"] = 1,
+					["time"] = 1316892237,
+					["from"] = "Aonah",
+					["msg"] = "ooh don't say that. It's when you least expect it that shit hit sthe fan.",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [175]
+				{
+					["type"] = 1,
+					["time"] = 1316892255,
+					["from"] = "Aonah",
+					["msg"] = "I don't get sick too often, though in recent years it's been more so.. I'm getting old and fat.",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [176]
+				{
+					["type"] = 1,
+					["time"] = 1316892271,
+					["from"] = "Aonah",
+					["msg"] = "okay now quit it! you're tempting fate! And she's not that nice of a gal!",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [177]
+				{
+					["type"] = 1,
+					["time"] = 1316892577,
+					["from"] = "Aonah",
+					["msg"] = "sec, movie",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [178]
+				{
+					["type"] = 1,
+					["time"] = 1316892642,
+					["from"] = "Aonah",
+					["msg"] = "hahah",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [179]
+				{
+					["type"] = 1,
+					["time"] = 1316892651,
+					["from"] = "Aonah",
+					["msg"] = "the old bastard in this movie really *is* awesome",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [180]
+				{
+					["type"] = 1,
+					["time"] = 1316892659,
+					["from"] = "Aonah",
+					["msg"] = "this guy shows up to kill him",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [181]
+				{
+					["type"] = 1,
+					["time"] = 1316892672,
+					["from"] = "Aonah",
+					["msg"] = "from an organized crime bit",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [182]
+				{
+					["type"] = 1,
+					["time"] = 1316892682,
+					["from"] = "Aonah",
+					["msg"] = "and they're sitting there having a drink",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [183]
+				{
+					["type"] = 1,
+					["time"] = 1316892703,
+					["from"] = "Aonah",
+					["msg"] = "the old guy pretends he's got crabs, so he's got his hand down his pants to scratch, but instead pulls out a small gun and shoots the other guy lol",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [184]
+				{
+					["type"] = 1,
+					["time"] = 1316892744,
+					["from"] = "Aonah",
+					["msg"] = "hahaha",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [185]
+				{
+					["type"] = 1,
+					["time"] = 1316892790,
+					["from"] = "Aonah",
+					["msg"] = "he calls the FBI agent to tell him, he's like \"I ran into O'leary. I shot him\" fbi agent: \"is he diead?\" other guy: walks into the room, pokes the dead guy with the phone, his head lolls, replies \"uhh yeah he is now\"",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [186]
+				{
+					["type"] = 1,
+					["time"] = 1316892872,
+					["from"] = "Aonah",
+					["msg"] = "lol he's got an AK-47 now",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [187]
+				{
+					["type"] = 1,
+					["time"] = 1316892876,
+					["from"] = "Aonah",
+					["msg"] = "shit's gonna get real",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [188]
+				{
+					["type"] = 1,
+					["time"] = 1316893194,
+					["from"] = "Aonah",
+					["msg"] = "alright",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [189]
+				{
+					["type"] = 1,
+					["time"] = 1316893198,
+					["from"] = "Aonah",
+					["msg"] = "find where you need to be yet?",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [190]
+				{
+					["type"] = 1,
+					["time"] = 1316893217,
+					["from"] = "Aonah",
+					["msg"] = "k",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [191]
+				{
+					["type"] = 1,
+					["time"] = 1316893249,
+					["from"] = "Aonah",
+					["msg"] = "you should install teamviewer for real, it won't take long, won't hurt, and i'll be able to sort it out quickly (if it's sortable)",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [192]
+				{
+					["type"] = 1,
+					["time"] = 1316893315,
+					["from"] = "Aonah",
+					["msg"] = "k, go to ninite.com",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [193]
+				{
+					["type"] = 1,
+					["time"] = 1316893320,
+					["from"] = "Aonah",
+					["msg"] = "scroll down find where it says TeamViewer 6",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [194]
+				{
+					["type"] = 1,
+					["time"] = 1316893322,
+					["from"] = "Aonah",
+					["msg"] = "click on it",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [195]
+				{
+					["type"] = 1,
+					["time"] = 1316893328,
+					["from"] = "Aonah",
+					["msg"] = "then scroll to the very bottom and click Get Installer",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [196]
+				{
+					["type"] = 1,
+					["time"] = 1316893341,
+					["from"] = "Aonah",
+					["msg"] = "then run that when it downloads, it'll install it nicely for you",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [197]
+				{
+					["type"] = 1,
+					["time"] = 1316893554,
+					["from"] = "Aonah",
+					["msg"] = "weird freaking movie",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [198]
+				{
+					["type"] = 1,
+					["time"] = 1316893557,
+					["from"] = "Aonah",
+					["msg"] = "it was pretty good though",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [199]
+				{
+					["type"] = 1,
+					["time"] = 1316893565,
+					["from"] = "Aonah",
+					["msg"] = "winnnning!",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [200]
+				{
+					["type"] = 1,
+					["time"] = 1316893569,
+					["from"] = "Aonah",
+					["msg"] = "imma come back just you wait!",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [201]
+				{
+					["type"] = 1,
+					["time"] = 1316893701,
+					["from"] = "Aonah",
+					["msg"] = "okay run it, it'll give you two numbers",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [202]
+				{
+					["type"] = 1,
+					["time"] = 1316893704,
+					["from"] = "Aonah",
+					["msg"] = "give me the numbers",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [203]
+				{
+					["type"] = 1,
+					["time"] = 1316893784,
+					["from"] = "Aonah",
+					["msg"] = "lol sorry, do it for real",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [204]
+				{
+					["type"] = 1,
+					["time"] = 1316893792,
+					["from"] = "Aonah",
+					["msg"] = "i'm seeing your screen",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [205]
+				{
+					["type"] = 1,
+					["time"] = 1316893796,
+					["from"] = "Aonah",
+					["msg"] = "and motion makes it lag like hell",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [206]
+				{
+					["type"] = 1,
+					["time"] = 1316893797,
+					["from"] = "Aonah",
+					["msg"] = "lol",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [207]
+				{
+					["type"] = 1,
+					["time"] = 1316893807,
+					["from"] = "Aonah",
+					["msg"] = "if you land and face a wall there wont' be any movement and it'll work better",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [208]
+				{
+					["type"] = 1,
+					["time"] = 1316893832,
+					["from"] = "Aonah",
+					["msg"] = "get off the drake, too much idle movement",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [209]
+				{
+					["type"] = 1,
+					["time"] = 1316893993,
+					["from"] = "Aonah",
+					["msg"] = "this thing is actually working better than i expected. It's not lagging exactly, it's just fading between frames tht are like 7 seconds appart",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [210]
+				{
+					["type"] = 1,
+					["time"] = 1316893998,
+					["from"] = "Aonah",
+					["msg"] = "it's kinda eery watching you, honestly",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [211]
+				{
+					["type"] = 1,
+					["time"] = 1316894099,
+					["from"] = "Aonah",
+					["msg"] = "get on the gunship",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [212]
+				{
+					["type"] = 1,
+					["time"] = 1316894106,
+					["from"] = "Aonah",
+					["msg"] = "it's up in the freaking air, i can't get it for you too laggy",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [213]
+				{
+					["type"] = 1,
+					["time"] = 1316894169,
+					["from"] = "Aonah",
+					["msg"] = "yeah you weren't supposed to get stuck undre there",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [214]
+				{
+					["type"] = 1,
+					["time"] = 1316894170,
+					["from"] = "Aonah",
+					["msg"] = "lol",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [215]
+				{
+					["type"] = 1,
+					["time"] = 1316894173,
+					["from"] = "Aonah",
+					["msg"] = "keep trying, there's a way out",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [216]
+				{
+					["type"] = 1,
+					["time"] = 1316894178,
+					["from"] = "Aonah",
+					["msg"] = "it's just.. tricky",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [217]
+				{
+					["type"] = 1,
+					["time"] = 1316894320,
+					["from"] = "Aonah",
+					["msg"] = "mumble works",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [218]
+				{
+					["type"] = 1,
+					["time"] = 1316894321,
+					["from"] = "Aonah",
+					["msg"] = "i'm there",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [219]
+				{
+					["type"] = 1,
+					["time"] = 1316972024,
+					["from"] = "Aonah",
+					["msg"] = "Tada!",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [220]
+				{
+					["type"] = 1,
+					["time"] = 1316972105,
+					["from"] = "Aonah",
+					["msg"] = "silly bnet is lame, i was trying ot talk to Haliax earlier and i thought he left, but i've been broken the whole time",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [221]
+				{
+					["type"] = 1,
+					["time"] = 1316972163,
+					["from"] = "Aonah",
+					["msg"] = "I kinda feel like shit",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [222]
+				{
+					["type"] = 1,
+					["time"] = 1316972165,
+					["from"] = "Aonah",
+					["msg"] = ":)",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [223]
+				{
+					["type"] = 1,
+					["time"] = 1316972679,
+					["from"] = "Aonah",
+					["msg"] = ":O",
+					["inbound"] = false,
+					["convo"] = "|Kf5|k00000000000|k",
+				}, -- [224]
 				["info"] = {
 				},
 			},
@@ -35502,6 +38099,290 @@ WIM3_History = {
 					["msg"] = "Rain is not so bad!",
 					["inbound"] = false,
 					["convo"] = "|Kf317|k00000000000|k",
+				}, -- [6]
+				["info"] = {
+				},
+			},
+			["|Kf195|k000000000000|k"] = {
+				{
+					["type"] = 1,
+					["time"] = 1316127542,
+					["from"] = "Aonah",
+					["msg"] = "lol what did you say?",
+					["inbound"] = false,
+					["convo"] = "|Kf195|k000000000000|k",
+				}, -- [1]
+				{
+					["type"] = 1,
+					["time"] = 1316127543,
+					["from"] = "Aonah",
+					["msg"] = "sorry",
+					["inbound"] = false,
+					["convo"] = "|Kf195|k000000000000|k",
+				}, -- [2]
+				{
+					["type"] = 1,
+					["time"] = 1316127599,
+					["from"] = "Aonah",
+					["msg"] = "I have.. i don't think I have any orbs, sec i'll check",
+					["inbound"] = false,
+					["convo"] = "|Kf195|k000000000000|k",
+				}, -- [3]
+				{
+					["type"] = 1,
+					["time"] = 1316127612,
+					["from"] = "Aonah",
+					["msg"] = "do you have a LW with Sons of HOdir - Honored? lol",
+					["inbound"] = false,
+					["convo"] = "|Kf195|k000000000000|k",
+				}, -- [4]
+				{
+					["type"] = 1,
+					["time"] = 1316127654,
+					["from"] = "Aonah",
+					["msg"] = "k",
+					["inbound"] = false,
+					["convo"] = "|Kf195|k000000000000|k",
+				}, -- [5]
+				["info"] = {
+				},
+			},
+			["|Kf472|k00000000000|k"] = {
+				{
+					["type"] = 1,
+					["time"] = 1316383643,
+					["from"] = "Aonah",
+					["msg"] = "hahaha :(",
+					["inbound"] = false,
+					["convo"] = "|Kf472|k00000000000|k",
+				}, -- [1]
+				{
+					["type"] = 1,
+					["time"] = 1316383645,
+					["from"] = "Aonah",
+					["msg"] = "We did great! ;)",
+					["inbound"] = false,
+					["convo"] = "|Kf472|k00000000000|k",
+				}, -- [2]
+				{
+					["type"] = 1,
+					["time"] = 1316383656,
+					["from"] = "Aonah",
+					["msg"] = "level 18 now",
+					["inbound"] = false,
+					["convo"] = "|Kf472|k00000000000|k",
+				}, -- [3]
+				{
+					["type"] = 1,
+					["time"] = 1316383663,
+					["from"] = "Aonah",
+					["msg"] = "but now it's time for shoppin",
+					["inbound"] = false,
+					["convo"] = "|Kf472|k00000000000|k",
+				}, -- [4]
+				{
+					["type"] = 1,
+					["time"] = 1316383665,
+					["from"] = "Aonah",
+					["msg"] = "for food",
+					["inbound"] = false,
+					["convo"] = "|Kf472|k00000000000|k",
+				}, -- [5]
+				{
+					["type"] = 1,
+					["time"] = 1316383669,
+					["from"] = "Aonah",
+					["msg"] = "before my brother gets home lol",
+					["inbound"] = false,
+					["convo"] = "|Kf472|k00000000000|k",
+				}, -- [6]
+				{
+					["type"] = 1,
+					["time"] = 1316383672,
+					["from"] = "Aonah",
+					["msg"] = "cuz i eated his food",
+					["inbound"] = false,
+					["convo"] = "|Kf472|k00000000000|k",
+				}, -- [7]
+				{
+					["type"] = 1,
+					["time"] = 1316383676,
+					["from"] = "Aonah",
+					["msg"] = "and he'll rage if i don't replace it",
+					["inbound"] = false,
+					["convo"] = "|Kf472|k00000000000|k",
+				}, -- [8]
+				["info"] = {
+				},
+			},
+			["|Kf514|k000000000000|k"] = {
+				{
+					["type"] = 1,
+					["time"] = 1315973282,
+					["from"] = "Aonah",
+					["msg"] = "Well",
+					["inbound"] = false,
+					["convo"] = "|Kf514|k000000000000|k",
+				}, -- [1]
+				{
+					["type"] = 1,
+					["time"] = 1315973309,
+					["from"] = "Aonah",
+					["msg"] = "Decimus is #1 on server",
+					["inbound"] = false,
+					["convo"] = "|Kf514|k000000000000|k",
+				}, -- [2]
+				{
+					["type"] = 1,
+					["time"] = 1315973312,
+					["from"] = "Aonah",
+					["msg"] = "i'm #5",
+					["inbound"] = false,
+					["convo"] = "|Kf514|k000000000000|k",
+				}, -- [3]
+				{
+					["type"] = 1,
+					["time"] = 1315973315,
+					["from"] = "Aonah",
+					["msg"] = "top alliance",
+					["inbound"] = false,
+					["convo"] = "|Kf514|k000000000000|k",
+				}, -- [4]
+				{
+					["type"] = 1,
+					["time"] = 1315973316,
+					["from"] = "Aonah",
+					["msg"] = "wohoo",
+					["inbound"] = false,
+					["convo"] = "|Kf514|k000000000000|k",
+				}, -- [5]
+				["info"] = {
+				},
+			},
+			["|Kf103|k00000000000|k"] = {
+				{
+					["type"] = 1,
+					["time"] = 1316006986,
+					["from"] = "Aonah",
+					["msg"] = "don't worry i'll level something with you next time,w hen you get bored again",
+					["inbound"] = false,
+					["convo"] = "|Kf103|k00000000000|k",
+				}, -- [1]
+				{
+					["type"] = 1,
+					["time"] = 1316007058,
+					["from"] = "Aonah",
+					["msg"] = "ah okay",
+					["inbound"] = false,
+					["convo"] = "|Kf103|k00000000000|k",
+				}, -- [2]
+				{
+					["type"] = 1,
+					["time"] = 1316007065,
+					["from"] = "Aonah",
+					["msg"] = "well how does a new toon help with Jer withdrawls?",
+					["inbound"] = false,
+					["convo"] = "|Kf103|k00000000000|k",
+				}, -- [3]
+				{
+					["type"] = 1,
+					["time"] = 1316007071,
+					["from"] = "Aonah",
+					["msg"] = "just keeps you away from him?",
+					["inbound"] = false,
+					["convo"] = "|Kf103|k00000000000|k",
+				}, -- [4]
+				{
+					["type"] = 1,
+					["time"] = 1316007077,
+					["from"] = "Aonah",
+					["msg"] = "ahh okay",
+					["inbound"] = false,
+					["convo"] = "|Kf103|k00000000000|k",
+				}, -- [5]
+				{
+					["type"] = 1,
+					["time"] = 1316007078,
+					["from"] = "Aonah",
+					["msg"] = "gotcha",
+					["inbound"] = false,
+					["convo"] = "|Kf103|k00000000000|k",
+				}, -- [6]
+				{
+					["type"] = 1,
+					["time"] = 1316007092,
+					["from"] = "Aonah",
+					["msg"] = "ugh i have to go to work",
+					["inbound"] = false,
+					["convo"] = "|Kf103|k00000000000|k",
+				}, -- [7]
+				{
+					["type"] = 1,
+					["time"] = 1316007098,
+					["from"] = "Aonah",
+					["msg"] = "in like, 3 minutes",
+					["inbound"] = false,
+					["convo"] = "|Kf103|k00000000000|k",
+				}, -- [8]
+				{
+					["type"] = 1,
+					["time"] = 1316007116,
+					["from"] = "Aonah",
+					["msg"] = "I could never work in the afternoon.. i hate the feeling of having to go to work \"soon\" that i have all day lol",
+					["inbound"] = false,
+					["convo"] = "|Kf103|k00000000000|k",
+				}, -- [9]
+				["info"] = {
+				},
+			},
+			["|Kf1337|k0000000000000|k"] = {
+				{
+					["type"] = 1,
+					["time"] = 1316579465,
+					["from"] = "Aonah",
+					["msg"] = "lol",
+					["inbound"] = false,
+					["convo"] = "|Kf1337|k0000000000000|k",
+				}, -- [1]
+				{
+					["type"] = 1,
+					["time"] = 1316579467,
+					["from"] = "Aonah",
+					["msg"] = "I see that",
+					["inbound"] = false,
+					["convo"] = "|Kf1337|k0000000000000|k",
+				}, -- [2]
+				{
+					["type"] = 1,
+					["time"] = 1316579473,
+					["from"] = "Aonah",
+					["msg"] = "I'm not certain that's what it is, but probably",
+					["inbound"] = false,
+					["convo"] = "|Kf1337|k0000000000000|k",
+				}, -- [3]
+				{
+					["type"] = 1,
+					["time"] = 1316579485,
+					["from"] = "Aonah",
+					["msg"] = "or he's just very good, that could be it too",
+					["inbound"] = false,
+					["convo"] = "|Kf1337|k0000000000000|k",
+				}, -- [4]
+				{
+					["type"] = 1,
+					["time"] = 1316579489,
+					["from"] = "Aonah",
+					["msg"] = "i'm probably pretty bad still",
+					["inbound"] = false,
+					["convo"] = "|Kf1337|k0000000000000|k",
+				}, -- [5]
+				{
+					["type"] = 1,
+					["time"] = 1316579533,
+					["from"] = "Aonah",
+					["msg"] = "well that's good at least, lol",
+					["inbound"] = false,
+					["convo"] = "|Kf1337|k0000000000000|k",
 				}, -- [6]
 				["info"] = {
 				},
@@ -35814,343 +38695,195 @@ WIM3_History = {
 				["info"] = {
 				},
 			},
-			["|Kf472|k00000000000|k"] = {
+			["|Kf443|k0000000000000|k"] = {
 				{
 					["type"] = 1,
-					["time"] = 1316383643,
+					["time"] = 1317066528,
 					["from"] = "Aonah",
-					["msg"] = "hahaha :(",
+					["msg"] = "Hey there!",
 					["inbound"] = false,
-					["convo"] = "|Kf472|k00000000000|k",
+					["convo"] = "|Kf443|k0000000000000|k",
 				}, -- [1]
 				{
 					["type"] = 1,
-					["time"] = 1316383645,
+					["time"] = 1317066532,
 					["from"] = "Aonah",
-					["msg"] = "We did great! ;)",
+					["msg"] = "It's pretty awesome!",
 					["inbound"] = false,
-					["convo"] = "|Kf472|k00000000000|k",
+					["convo"] = "|Kf443|k0000000000000|k",
 				}, -- [2]
 				{
 					["type"] = 1,
-					["time"] = 1316383656,
+					["time"] = 1317066536,
 					["from"] = "Aonah",
-					["msg"] = "level 18 now",
+					["msg"] = "I'm home sick today though lol :(",
 					["inbound"] = false,
-					["convo"] = "|Kf472|k00000000000|k",
+					["convo"] = "|Kf443|k0000000000000|k",
 				}, -- [3]
 				{
 					["type"] = 1,
-					["time"] = 1316383663,
+					["time"] = 1317066591,
 					["from"] = "Aonah",
-					["msg"] = "but now it's time for shoppin",
+					["msg"] = ":O Yay! :D",
 					["inbound"] = false,
-					["convo"] = "|Kf472|k00000000000|k",
+					["convo"] = "|Kf443|k0000000000000|k",
 				}, -- [4]
 				{
 					["type"] = 1,
-					["time"] = 1316383665,
+					["time"] = 1317066596,
 					["from"] = "Aonah",
-					["msg"] = "for food",
+					["msg"] = "What do you do now? :)",
 					["inbound"] = false,
-					["convo"] = "|Kf472|k00000000000|k",
+					["convo"] = "|Kf443|k0000000000000|k",
 				}, -- [5]
 				{
 					["type"] = 1,
-					["time"] = 1316383669,
+					["time"] = 1317066624,
 					["from"] = "Aonah",
-					["msg"] = "before my brother gets home lol",
+					["msg"] = "Ahh, what do they do?",
 					["inbound"] = false,
-					["convo"] = "|Kf472|k00000000000|k",
+					["convo"] = "|Kf443|k0000000000000|k",
 				}, -- [6]
 				{
 					["type"] = 1,
-					["time"] = 1316383672,
+					["time"] = 1317066700,
 					["from"] = "Aonah",
-					["msg"] = "cuz i eated his food",
+					["msg"] = "Ah okay! nifty!",
 					["inbound"] = false,
-					["convo"] = "|Kf472|k00000000000|k",
+					["convo"] = "|Kf443|k0000000000000|k",
 				}, -- [7]
 				{
 					["type"] = 1,
-					["time"] = 1316383676,
+					["time"] = 1317066841,
 					["from"] = "Aonah",
-					["msg"] = "and he'll rage if i don't replace it",
+					["msg"] = "Nice! nah nothing much here, lol. Just trucking along. Trying to get off Effexor this past week, it's been hard",
 					["inbound"] = false,
-					["convo"] = "|Kf472|k00000000000|k",
-				}, -- [8]
-				["info"] = {
-				},
-			},
-			["|Kf544|k000000000000|k"] = {
-				{
-					["type"] = 1,
-					["time"] = 1315883468,
-					["from"] = "Aonah",
-					["msg"] = "wohoo I reclaimed #1 druid on the server",
-					["inbound"] = false,
-					["convo"] = "|Kf544|k000000000000|k",
-				}, -- [1]
-				{
-					["type"] = 1,
-					["time"] = 1315883507,
-					["from"] = "Aonah",
-					["msg"] = "378 in every slot and the 384 neck",
-					["inbound"] = false,
-					["convo"] = "|Kf544|k000000000000|k",
-				}, -- [2]
-				{
-					["type"] = 1,
-					["time"] = 1315883512,
-					["from"] = "Aonah",
-					["msg"] = "i just need that damn staff still",
-					["inbound"] = false,
-					["convo"] = "|Kf544|k000000000000|k",
-				}, -- [3]
-				{
-					["type"] = 1,
-					["time"] = 1315883524,
-					["from"] = "Aonah",
-					["msg"] = "9 bloody kills of Staghelm and only one staff :(",
-					["inbound"] = false,
-					["convo"] = "|Kf544|k000000000000|k",
-				}, -- [4]
-				{
-					["type"] = 1,
-					["time"] = 1315883526,
-					["from"] = "Aonah",
-					["msg"] = "yeah",
-					["inbound"] = false,
-					["convo"] = "|Kf544|k000000000000|k",
-				}, -- [5]
-				{
-					["type"] = 1,
-					["time"] = 1315883530,
-					["from"] = "Aonah",
-					["msg"] = "i need some trinkets too honestly",
-					["inbound"] = false,
-					["convo"] = "|Kf544|k000000000000|k",
-				}, -- [6]
-				["info"] = {
-				},
-			},
-			["|Kf103|k00000000000|k"] = {
-				{
-					["type"] = 1,
-					["time"] = 1316006986,
-					["from"] = "Aonah",
-					["msg"] = "don't worry i'll level something with you next time,w hen you get bored again",
-					["inbound"] = false,
-					["convo"] = "|Kf103|k00000000000|k",
-				}, -- [1]
-				{
-					["type"] = 1,
-					["time"] = 1316007058,
-					["from"] = "Aonah",
-					["msg"] = "ah okay",
-					["inbound"] = false,
-					["convo"] = "|Kf103|k00000000000|k",
-				}, -- [2]
-				{
-					["type"] = 1,
-					["time"] = 1316007065,
-					["from"] = "Aonah",
-					["msg"] = "well how does a new toon help with Jer withdrawls?",
-					["inbound"] = false,
-					["convo"] = "|Kf103|k00000000000|k",
-				}, -- [3]
-				{
-					["type"] = 1,
-					["time"] = 1316007071,
-					["from"] = "Aonah",
-					["msg"] = "just keeps you away from him?",
-					["inbound"] = false,
-					["convo"] = "|Kf103|k00000000000|k",
-				}, -- [4]
-				{
-					["type"] = 1,
-					["time"] = 1316007077,
-					["from"] = "Aonah",
-					["msg"] = "ahh okay",
-					["inbound"] = false,
-					["convo"] = "|Kf103|k00000000000|k",
-				}, -- [5]
-				{
-					["type"] = 1,
-					["time"] = 1316007078,
-					["from"] = "Aonah",
-					["msg"] = "gotcha",
-					["inbound"] = false,
-					["convo"] = "|Kf103|k00000000000|k",
-				}, -- [6]
-				{
-					["type"] = 1,
-					["time"] = 1316007092,
-					["from"] = "Aonah",
-					["msg"] = "ugh i have to go to work",
-					["inbound"] = false,
-					["convo"] = "|Kf103|k00000000000|k",
-				}, -- [7]
-				{
-					["type"] = 1,
-					["time"] = 1316007098,
-					["from"] = "Aonah",
-					["msg"] = "in like, 3 minutes",
-					["inbound"] = false,
-					["convo"] = "|Kf103|k00000000000|k",
+					["convo"] = "|Kf443|k0000000000000|k",
 				}, -- [8]
 				{
 					["type"] = 1,
-					["time"] = 1316007116,
+					["time"] = 1317066893,
 					["from"] = "Aonah",
-					["msg"] = "I could never work in the afternoon.. i hate the feeling of having to go to work \"soon\" that i have all day lol",
+					["msg"] = "a head med",
 					["inbound"] = false,
-					["convo"] = "|Kf103|k00000000000|k",
+					["convo"] = "|Kf443|k0000000000000|k",
 				}, -- [9]
+				{
+					["type"] = 1,
+					["time"] = 1317066901,
+					["from"] = "Aonah",
+					["msg"] = "an SSRI, like.. Zoloft, Prozac, Paxil, etc",
+					["inbound"] = false,
+					["convo"] = "|Kf443|k0000000000000|k",
+				}, -- [10]
+				{
+					["type"] = 1,
+					["time"] = 1317066907,
+					["from"] = "Aonah",
+					["msg"] = "Only.. possibly stronger, lol",
+					["inbound"] = false,
+					["convo"] = "|Kf443|k0000000000000|k",
+				}, -- [11]
+				{
+					["type"] = 1,
+					["time"] = 1317066997,
+					["from"] = "Aonah",
+					["msg"] = "lol well that's good at least! For me.. I don't think it's making me happy, and i'm pretty sure it's making my head.. fuzzy and hard to concentrate and some other stuff",
+					["inbound"] = false,
+					["convo"] = "|Kf443|k0000000000000|k",
+				}, -- [12]
+				{
+					["type"] = 1,
+					["time"] = 1317067090,
+					["from"] = "Aonah",
+					["msg"] = "Well, i am basically, i'm trying Prozac now",
+					["inbound"] = false,
+					["convo"] = "|Kf443|k0000000000000|k",
+				}, -- [13]
+				{
+					["type"] = 1,
+					["time"] = 1317067096,
+					["from"] = "Aonah",
+					["msg"] = "I've been on it.. I don't know, 5 years or more",
+					["inbound"] = false,
+					["convo"] = "|Kf443|k0000000000000|k",
+				}, -- [14]
+				{
+					["type"] = 1,
+					["time"] = 1317067106,
+					["from"] = "Aonah",
+					["msg"] = "I've been on an SSRI of some type for the past 10 years",
+					["inbound"] = false,
+					["convo"] = "|Kf443|k0000000000000|k",
+				}, -- [15]
+				{
+					["type"] = 1,
+					["time"] = 1317067156,
+					["from"] = "Aonah",
+					["msg"] = "Paxil, Lexapro, Effexor.. and something else, i forget what it was",
+					["inbound"] = false,
+					["convo"] = "|Kf443|k0000000000000|k",
+				}, -- [16]
+				{
+					["type"] = 1,
+					["time"] = 1317067172,
+					["from"] = "Aonah",
+					["msg"] = "The Effexor is the hardest to stop.. though it seems to be good for anxiety (which is what i'm taking it for)",
+					["inbound"] = false,
+					["convo"] = "|Kf443|k0000000000000|k",
+				}, -- [17]
+				{
+					["type"] = 1,
+					["time"] = 1317067315,
+					["from"] = "Aonah",
+					["msg"] = "nice, well i'm glad it's working! :D",
+					["inbound"] = false,
+					["convo"] = "|Kf443|k0000000000000|k",
+				}, -- [18]
+				{
+					["type"] = 1,
+					["time"] = 1317067755,
+					["from"] = "Aonah",
+					["msg"] = "hahah",
+					["inbound"] = false,
+					["convo"] = "|Kf443|k0000000000000|k",
+				}, -- [19]
+				{
+					["type"] = 1,
+					["time"] = 1317067756,
+					["from"] = "Aonah",
+					["msg"] = "nice",
+					["inbound"] = false,
+					["convo"] = "|Kf443|k0000000000000|k",
+				}, -- [20]
+				{
+					["type"] = 1,
+					["time"] = 1317067761,
+					["from"] = "Aonah",
+					["msg"] = "Dealer got a good deal ;)",
+					["inbound"] = false,
+					["convo"] = "|Kf443|k0000000000000|k",
+				}, -- [21]
+				{
+					["type"] = 1,
+					["time"] = 1317067776,
+					["from"] = "Aonah",
+					["msg"] = "lol okay",
+					["inbound"] = false,
+					["convo"] = "|Kf443|k0000000000000|k",
+				}, -- [22]
 				["info"] = {
 				},
 			},
-			["|Kf1337|k0000000000000|k"] = {
+			["|Kf428|k00000000000000000|k"] = {
 				{
 					["type"] = 1,
-					["time"] = 1316579465,
+					["time"] = 1316563503,
 					["from"] = "Aonah",
-					["msg"] = "lol",
+					["msg"] = "Yes sir!",
 					["inbound"] = false,
-					["convo"] = "|Kf1337|k0000000000000|k",
+					["convo"] = "|Kf428|k00000000000000000|k",
 				}, -- [1]
-				{
-					["type"] = 1,
-					["time"] = 1316579467,
-					["from"] = "Aonah",
-					["msg"] = "I see that",
-					["inbound"] = false,
-					["convo"] = "|Kf1337|k0000000000000|k",
-				}, -- [2]
-				{
-					["type"] = 1,
-					["time"] = 1316579473,
-					["from"] = "Aonah",
-					["msg"] = "I'm not certain that's what it is, but probably",
-					["inbound"] = false,
-					["convo"] = "|Kf1337|k0000000000000|k",
-				}, -- [3]
-				{
-					["type"] = 1,
-					["time"] = 1316579485,
-					["from"] = "Aonah",
-					["msg"] = "or he's just very good, that could be it too",
-					["inbound"] = false,
-					["convo"] = "|Kf1337|k0000000000000|k",
-				}, -- [4]
-				{
-					["type"] = 1,
-					["time"] = 1316579489,
-					["from"] = "Aonah",
-					["msg"] = "i'm probably pretty bad still",
-					["inbound"] = false,
-					["convo"] = "|Kf1337|k0000000000000|k",
-				}, -- [5]
-				{
-					["type"] = 1,
-					["time"] = 1316579533,
-					["from"] = "Aonah",
-					["msg"] = "well that's good at least, lol",
-					["inbound"] = false,
-					["convo"] = "|Kf1337|k0000000000000|k",
-				}, -- [6]
-				["info"] = {
-				},
-			},
-			["|Kf186|k00000000000|k"] = {
-				{
-					["type"] = 1,
-					["time"] = 1315867903,
-					["from"] = "Aonah",
-					["msg"] = "k",
-					["inbound"] = false,
-					["convo"] = "|Kf186|k00000000000|k",
-				}, -- [1]
-				["info"] = {
-				},
-			},
-			["|Kf195|k000000000000|k"] = {
-				{
-					["type"] = 1,
-					["time"] = 1316127542,
-					["from"] = "Aonah",
-					["msg"] = "lol what did you say?",
-					["inbound"] = false,
-					["convo"] = "|Kf195|k000000000000|k",
-				}, -- [1]
-				{
-					["type"] = 1,
-					["time"] = 1316127543,
-					["from"] = "Aonah",
-					["msg"] = "sorry",
-					["inbound"] = false,
-					["convo"] = "|Kf195|k000000000000|k",
-				}, -- [2]
-				{
-					["type"] = 1,
-					["time"] = 1316127599,
-					["from"] = "Aonah",
-					["msg"] = "I have.. i don't think I have any orbs, sec i'll check",
-					["inbound"] = false,
-					["convo"] = "|Kf195|k000000000000|k",
-				}, -- [3]
-				{
-					["type"] = 1,
-					["time"] = 1316127612,
-					["from"] = "Aonah",
-					["msg"] = "do you have a LW with Sons of HOdir - Honored? lol",
-					["inbound"] = false,
-					["convo"] = "|Kf195|k000000000000|k",
-				}, -- [4]
-				{
-					["type"] = 1,
-					["time"] = 1316127654,
-					["from"] = "Aonah",
-					["msg"] = "k",
-					["inbound"] = false,
-					["convo"] = "|Kf195|k000000000000|k",
-				}, -- [5]
-				["info"] = {
-				},
-			},
-			["|Kf71|k00000000000|k"] = {
-				{
-					["type"] = 1,
-					["time"] = 1315875225,
-					["from"] = "Aonah",
-					["msg"] = "Hey!",
-					["inbound"] = false,
-					["convo"] = "|Kf71|k00000000000|k",
-				}, -- [1]
-				{
-					["type"] = 1,
-					["time"] = 1315875226,
-					["from"] = "Aonah",
-					["msg"] = "Yay!",
-					["inbound"] = false,
-					["convo"] = "|Kf71|k00000000000|k",
-				}, -- [2]
-				{
-					["type"] = 1,
-					["time"] = 1315875227,
-					["from"] = "Aonah",
-					["msg"] = ":D",
-					["inbound"] = false,
-					["convo"] = "|Kf71|k00000000000|k",
-				}, -- [3]
-				{
-					["type"] = 1,
-					["time"] = 1315875237,
-					["from"] = "Aonah",
-					["msg"] = "It's always a good day when Jamie is happy! :D",
-					["inbound"] = false,
-					["convo"] = "|Kf71|k00000000000|k",
-				}, -- [4]
 				["info"] = {
 				},
 			},
@@ -36470,2123 +39203,59 @@ WIM3_History = {
 				["info"] = {
 				},
 			},
-			["|Kf5|k00000000000|k"] = {
+			["|Kf146|k000000000000|k"] = {
 				{
 					["type"] = 1,
-					["time"] = 1315875038,
+					["time"] = 1316819950,
 					["from"] = "Aonah",
-					["msg"] = ":O",
+					["msg"] = "test",
 					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
+					["convo"] = "|Kf146|k000000000000|k",
 				}, -- [1]
 				{
 					["type"] = 1,
-					["time"] = 1315875046,
+					["time"] = 1316819954,
 					["from"] = "Aonah",
-					["msg"] = ":D",
+					["msg"] = "shit wehre is my history",
 					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
+					["convo"] = "|Kf146|k000000000000|k",
 				}, -- [2]
 				{
 					["type"] = 1,
-					["time"] = 1315875066,
+					["time"] = 1316819976,
 					["from"] = "Aonah",
-					["msg"] = "I'm back! :D",
+					["msg"] = "I don't know where it went! D:",
 					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
+					["convo"] = "|Kf146|k000000000000|k",
 				}, -- [3]
 				{
 					["type"] = 1,
-					["time"] = 1315875067,
+					["time"] = 1316820078,
 					["from"] = "Aonah",
-					["msg"] = "<3",
+					["msg"] = "k sec",
 					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
+					["convo"] = "|Kf146|k000000000000|k",
 				}, -- [4]
 				{
 					["type"] = 1,
-					["time"] = 1315955556,
+					["time"] = 1316820157,
 					["from"] = "Aonah",
-					["msg"] = "Jamie!",
+					["msg"] = "damn man, 500g each!",
 					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
+					["convo"] = "|Kf146|k000000000000|k",
 				}, -- [5]
-				{
-					["type"] = 1,
-					["time"] = 1315955572,
-					["from"] = "Aonah",
-					["msg"] = "Oooh 29! congrats!",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [6]
-				{
-					["type"] = 1,
-					["time"] = 1315955573,
-					["from"] = "Aonah",
-					["msg"] = "uh oh",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [7]
-				{
-					["type"] = 1,
-					["time"] = 1315955576,
-					["from"] = "Aonah",
-					["msg"] = "lol",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [8]
-				{
-					["type"] = 1,
-					["time"] = 1315955578,
-					["from"] = "Aonah",
-					["msg"] = "what?",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [9]
-				{
-					["type"] = 1,
-					["time"] = 1315955588,
-					["from"] = "Aonah",
-					["msg"] = ":O",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [10]
-				{
-					["type"] = 1,
-					["time"] = 1315955592,
-					["from"] = "Aonah",
-					["msg"] = "why?!",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [11]
-				{
-					["type"] = 1,
-					["time"] = 1315955674,
-					["from"] = "Aonah",
-					["msg"] = "lol",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [12]
-				{
-					["type"] = 1,
-					["time"] = 1315955676,
-					["from"] = "Aonah",
-					["msg"] = "that sucks! :O",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [13]
-				{
-					["type"] = 1,
-					["time"] = 1315955730,
-					["from"] = "Aonah",
-					["msg"] = "*hugs* all better now!",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [14]
-				{
-					["type"] = 1,
-					["time"] = 1315955744,
-					["from"] = "Aonah",
-					["msg"] = "http://i.imgur.com/Rmbdf.jpg",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [15]
-				{
-					["type"] = 1,
-					["time"] = 1315955754,
-					["from"] = "Aonah",
-					["msg"] = "Look at that cutie! (sfw, no nudity)",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [16]
-				{
-					["type"] = 1,
-					["time"] = 1315955779,
-					["from"] = "Aonah",
-					["msg"] = "She's cute!",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [17]
-				{
-					["type"] = 1,
-					["time"] = 1315955788,
-					["from"] = "Aonah",
-					["msg"] = "Well why would he care if you were looking at chicks anyway? lol",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [18]
-				{
-					["type"] = 1,
-					["time"] = 1315955789,
-					["from"] = "Aonah",
-					["msg"] = "sure",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [19]
-				{
-					["type"] = 1,
-					["time"] = 1315955794,
-					["from"] = "Aonah",
-					["msg"] = "invite me",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [20]
-				{
-					["type"] = 1,
-					["time"] = 1315955805,
-					["from"] = "Aonah",
-					["msg"] = "n/m found you",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [21]
-				{
-					["type"] = 1,
-					["time"] = 1315955810,
-					["from"] = "Aonah",
-					["msg"] = "wim still doesn't work right with realid",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [22]
-				{
-					["type"] = 1,
-					["time"] = 1315955820,
-					["from"] = "Aonah",
-					["msg"] = "wtf wiat i can't summon on this girl",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [23]
-				{
-					["type"] = 1,
-					["time"] = 1315955824,
-					["from"] = "Aonah",
-					["msg"] = "sorry i'm a fool",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [24]
-				{
-					["type"] = 1,
-					["time"] = 1315955830,
-					["from"] = "Aonah",
-					["msg"] = "sec",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [25]
-				{
-					["type"] = 1,
-					["time"] = 1315955834,
-					["from"] = "Aonah",
-					["msg"] = "i'll summonxor you",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [26]
-				{
-					["type"] = 1,
-					["time"] = 1315955837,
-					["from"] = "Aonah",
-					["msg"] = "she's in her own guild!",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [27]
-				{
-					["type"] = 1,
-					["time"] = 1315955839,
-					["from"] = "Aonah",
-					["msg"] = "and it's level 1",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [28]
-				{
-					["type"] = 1,
-					["time"] = 1315955840,
-					["from"] = "Aonah",
-					["msg"] = "which you know",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [29]
-				{
-					["type"] = 1,
-					["time"] = 1315955841,
-					["from"] = "Aonah",
-					["msg"] = "no summon",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [30]
-				{
-					["type"] = 1,
-					["time"] = 1315955842,
-					["from"] = "Aonah",
-					["msg"] = "lol",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [31]
-				{
-					["type"] = 1,
-					["time"] = 1316006320,
-					["from"] = "Aonah",
-					["msg"] = ":O",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [32]
-				{
-					["type"] = 1,
-					["time"] = 1316006325,
-					["from"] = "Aonah",
-					["msg"] = "What are you doing awake?!",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [33]
-				{
-					["type"] = 1,
-					["time"] = 1316006326,
-					["from"] = "Aonah",
-					["msg"] = "lol",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [34]
-				{
-					["type"] = 1,
-					["time"] = 1316006328,
-					["from"] = "Aonah",
-					["msg"] = "Well good morning :)",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [35]
-				{
-					["type"] = 1,
-					["time"] = 1316006333,
-					["from"] = "Aonah",
-					["msg"] = "I had to get up early to dry my clothes",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [36]
-				{
-					["type"] = 1,
-					["time"] = 1316006334,
-					["from"] = "Aonah",
-					["msg"] = "lol",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [37]
-				{
-					["type"] = 1,
-					["time"] = 1316006390,
-					["from"] = "Aonah",
-					["msg"] = "You are aging petty fast! :O",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [38]
-				{
-					["type"] = 1,
-					["time"] = 1316006396,
-					["from"] = "Aonah",
-					["msg"] = "lol",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [39]
-				{
-					["type"] = 1,
-					["time"] = 1316006398,
-					["from"] = "Aonah",
-					["msg"] = "aww <3",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [40]
-				{
-					["type"] = 1,
-					["time"] = 1316006402,
-					["from"] = "Aonah",
-					["msg"] = "I mean congrats! :O",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [41]
-				{
-					["type"] = 1,
-					["time"] = 1316006413,
-					["from"] = "Aonah",
-					["msg"] = "You're gonna be 85 before you konw it! :O",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [42]
-				{
-					["type"] = 1,
-					["time"] = 1316006427,
-					["from"] = "Aonah",
-					["msg"] = "there is a troll corpse in the AH this morning",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [43]
-				{
-					["type"] = 1,
-					["time"] = 1316006427,
-					["from"] = "Aonah",
-					["msg"] = "lol",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [44]
-				{
-					["type"] = 1,
-					["time"] = 1316006508,
-					["from"] = "Aonah",
-					["msg"] = "Your sleep schedule is a bit off though",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [45]
-				{
-					["type"] = 1,
-					["time"] = 1316006513,
-					["from"] = "Aonah",
-					["msg"] = "Do you feel rested?",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [46]
-				{
-					["type"] = 1,
-					["time"] = 1316006523,
-					["from"] = "Aonah",
-					["msg"] = "lol",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [47]
-				{
-					["type"] = 1,
-					["time"] = 1316006526,
-					["from"] = "Aonah",
-					["msg"] = "I didn't get enough sleep",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [48]
-				{
-					["type"] = 1,
-					["time"] = 1316006529,
-					["from"] = "Aonah",
-					["msg"] = "so i feel tired",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [49]
-				{
-					["type"] = 1,
-					["time"] = 1316006535,
-					["from"] = "Aonah",
-					["msg"] = "but i am always awake at night",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [50]
-				{
-					["type"] = 1,
-					["time"] = 1316006537,
-					["from"] = "Aonah",
-					["msg"] = "i'm silly",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [51]
-				{
-					["type"] = 1,
-					["time"] = 1316006552,
-					["from"] = "Aonah",
-					["msg"] = "I'm thinking about taking a nap in my car over lunch.. lol",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [52]
-				{
-					["type"] = 1,
-					["time"] = 1316006556,
-					["from"] = "Aonah",
-					["msg"] = "but naps are bad!",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [53]
-				{
-					["type"] = 1,
-					["time"] = 1316395253,
-					["from"] = "Aonah",
-					["msg"] = "what the f where is piggy?",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [54]
-				{
-					["type"] = 1,
-					["time"] = 1316395311,
-					["from"] = "Aonah",
-					["msg"] = "oh okay",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [55]
-				{
-					["type"] = 1,
-					["time"] = 1316395367,
-					["from"] = "Aonah",
-					["msg"] = ":O",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [56]
-				{
-					["type"] = 1,
-					["time"] = 1316395367,
-					["from"] = "Aonah",
-					["msg"] = "yay!",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [57]
-				{
-					["type"] = 1,
-					["time"] = 1316395501,
-					["from"] = "Aonah",
-					["msg"] = ":O",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [58]
-				{
-					["type"] = 1,
-					["time"] = 1316395502,
-					["from"] = "Aonah",
-					["msg"] = ":(",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [59]
-				{
-					["type"] = 1,
-					["time"] = 1316395505,
-					["from"] = "Aonah",
-					["msg"] = "That makes me le sad",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [60]
-				{
-					["type"] = 1,
-					["time"] = 1316560995,
-					["from"] = "Aonah",
-					["msg"] = "rawr!",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [61]
-				{
-					["type"] = 1,
-					["time"] = 1316561441,
-					["from"] = "Aonah",
-					["msg"] = "OH FINE YOU ARE BOTH AWAY",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [62]
-				{
-					["type"] = 1,
-					["time"] = 1316561446,
-					["from"] = "Aonah",
-					["msg"] = "IT BETTER BE SEX AND NOT TV",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [63]
-				{
-					["type"] = 1,
-					["time"] = 1316561456,
-					["from"] = "Aonah",
-					["msg"] = "oh hey!",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [64]
-				{
-					["type"] = 1,
-					["time"] = 1316561458,
-					["from"] = "Aonah",
-					["msg"] = "hiiii!",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [65]
-				{
-					["type"] = 1,
-					["time"] = 1316561464,
-					["from"] = "Aonah",
-					["msg"] = "NO EXCUSE",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [66]
-				{
-					["type"] = 1,
-					["time"] = 1316561467,
-					["from"] = "Aonah",
-					["msg"] = "arg",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [67]
-				{
-					["type"] = 1,
-					["time"] = 1316561477,
-					["from"] = "Aonah",
-					["msg"] = "kk",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [68]
-				{
-					["type"] = 1,
-					["time"] = 1316650984,
-					["from"] = "Aonah",
-					["msg"] = "You!",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [69]
-				{
-					["type"] = 1,
-					["time"] = 1316651091,
-					["from"] = "Aonah",
-					["msg"] = "Like someone sat on my brain",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [70]
-				{
-					["type"] = 1,
-					["time"] = 1316651095,
-					["from"] = "Aonah",
-					["msg"] = "but i'm alive sitll",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [71]
-				{
-					["type"] = 1,
-					["time"] = 1316651106,
-					["from"] = "Aonah",
-					["msg"] = "how many days did the awful last for you when you did this?",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [72]
-				{
-					["type"] = 1,
-					["time"] = 1316651178,
-					["from"] = "Aonah",
-					["msg"] = "Yeah, that's what I'm afraid of. Hopefully takng the prozac will help stop it sooner.. it should, but then i also thought it would lesson the effects.. and it hasn't really too much lol",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [73]
-				{
-					["type"] = 1,
-					["time"] = 1316651188,
-					["from"] = "Aonah",
-					["msg"] = "also it's only the third day today, so..",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [74]
-				{
-					["type"] = 1,
-					["time"] = 1316651283,
-					["from"] = "Aonah",
-					["msg"] = "It's okay",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [75]
-				{
-					["type"] = 1,
-					["time"] = 1316651292,
-					["from"] = "Aonah",
-					["msg"] = "Give me a hug, kiss me on the forehead, and tell me to man up!",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [76]
-				{
-					["type"] = 1,
-					["time"] = 1316651663,
-					["from"] = "Aonah",
-					["msg"] = "Were you online the other night when i read off the numbers from my Accounting tracking addon?",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [77]
-				{
-					["type"] = 1,
-					["time"] = 1316651684,
-					["from"] = "Aonah",
-					["msg"] = ":D",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [78]
-				{
-					["type"] = 1,
-					["time"] = 1316651718,
-					["from"] = "Aonah",
-					["msg"] = "So in the past 4 months or so since i started recording the data",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [79]
-				{
-					["type"] = 1,
-					["time"] = 1316651737,
-					["from"] = "Aonah",
-					["msg"] = "I've had 157,000 gold flow in and 177,157 gold flow out",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [80]
-				{
-					["type"] = 1,
-					["time"] = 1316651773,
-					["from"] = "Aonah",
-					["msg"] = "And the fact that the second number is bigger than the first is why I don't ahve a huge savings in the bank",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [81]
-				{
-					["type"] = 1,
-					["time"] = 1316651773,
-					["from"] = "Aonah",
-					["msg"] = "lol",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [82]
-				{
-					["type"] = 1,
-					["time"] = 1316651795,
-					["from"] = "Aonah",
-					["msg"] = "I'm spending more than I'm making from auctions, probably from income from raiding/questing/etc",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [83]
-				{
-					["type"] = 1,
-					["time"] = 1316651808,
-					["from"] = "Aonah",
-					["msg"] = "but the funny thing is, this really isn't enough gold to put me into the \"middle class\" of wow",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [84]
-				{
-					["type"] = 1,
-					["time"] = 1316651816,
-					["from"] = "Aonah",
-					["msg"] = "most in the Middle Class have 200k on hand",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [85]
-				{
-					["type"] = 1,
-					["time"] = 1316651835,
-					["from"] = "Aonah",
-					["msg"] = "and the 'upper class' has 1 million+ on hand, may with around 4 million",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [86]
-				{
-					["type"] = 1,
-					["time"] = 1316651844,
-					["from"] = "Aonah",
-					["msg"] = "many*",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [87]
-				{
-					["type"] = 1,
-					["time"] = 1316651864,
-					["from"] = "Aonah",
-					["msg"] = "though that requires living on a high pop realm where there is enough money floating around the economy",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [88]
-				{
-					["type"] = 1,
-					["time"] = 1316651877,
-					["from"] = "Aonah",
-					["msg"] = "i really don't think I could do much to make money faster. ",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [89]
-				{
-					["type"] = 1,
-					["time"] = 1316651890,
-					["from"] = "Aonah",
-					["msg"] = "If i didn't spend it on stuff and people i'd have probably 100k in the bank",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [90]
-				{
-					["type"] = 1,
-					["time"] = 1316651898,
-					["from"] = "Aonah",
-					["msg"] = "I have 9.2k today lol",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [91]
-				{
-					["type"] = 1,
-					["time"] = 1316651900,
-					["from"] = "Aonah",
-					["msg"] = "not so good",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [92]
-				{
-					["type"] = 1,
-					["time"] = 1316651905,
-					["from"] = "Aonah",
-					["msg"] = "okay switching",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [93]
-				{
-					["type"] = 1,
-					["time"] = 1316651915,
-					["from"] = "Aonah",
-					["msg"] = "I'm getting into the \"deep depression\" part of the withdrawls :(",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [94]
-				{
-					["type"] = 1,
-					["time"] = 1316651936,
-					["from"] = "Aonah",
-					["msg"] = "I took the afternoon off work to sleep more",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [95]
-				{
-					["type"] = 1,
-					["time"] = 1316731164,
-					["from"] = "Aonah",
-					["msg"] = "blaaaah",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [96]
-				{
-					["type"] = 1,
-					["time"] = 1316731319,
-					["from"] = "Aonah",
-					["msg"] = ":(",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [97]
-				{
-					["type"] = 1,
-					["time"] = 1316731323,
-					["from"] = "Aonah",
-					["msg"] = "*cry*",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [98]
-				{
-					["type"] = 1,
-					["time"] = 1316731345,
-					["from"] = "Aonah",
-					["msg"] = "lol aww <3",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [99]
-				{
-					["type"] = 1,
-					["time"] = 1316731499,
-					["from"] = "Aonah",
-					["msg"] = "oooh this month's house payment: $5,286.28",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [100]
-				{
-					["type"] = 1,
-					["time"] = 1316731546,
-					["from"] = "Aonah",
-					["msg"] = "lol",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [101]
-				{
-					["type"] = 1,
-					["time"] = 1316731555,
-					["from"] = "Aonah",
-					["msg"] = "maybe it's time to end it",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [102]
-				{
-					["type"] = 1,
-					["time"] = 1316731682,
-					["from"] = "Aonah",
-					["msg"] = "nah i meant my life lol",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [103]
-				{
-					["type"] = 1,
-					["time"] = 1316731711,
-					["from"] = "Aonah",
-					["msg"] = "the ownership would be okay too, but it would mess up my credit pretty bad, could mean i'd have trouble getting a job and getting an aparment",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [104]
-				{
-					["type"] = 1,
-					["time"] = 1316731732,
-					["from"] = "Aonah",
-					["msg"] = "don't worry I'm not there yet. But honestly I wonder why.. I've nothing going for me other than luck.",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [105]
-				{
-					["type"] = 1,
-					["time"] = 1316731738,
-					["from"] = "Aonah",
-					["msg"] = "The luck will have to run out eventually.",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [106]
-				{
-					["type"] = 1,
-					["time"] = 1316731750,
-					["from"] = "Aonah",
-					["msg"] = "And to sleep forever would shure be good",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [107]
-				{
-					["type"] = 1,
-					["time"] = 1316731761,
-					["from"] = "Aonah",
-					["msg"] = "well true but in general boobies on men is considered undesirable.",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [108]
-				{
-					["type"] = 1,
-					["time"] = 1316731837,
-					["from"] = "Aonah",
-					["msg"] = "lol okay. But I have none of those! haven't in.. well a long time. ",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [109]
-				{
-					["type"] = 1,
-					["time"] = 1316731851,
-					["from"] = "Aonah",
-					["msg"] = "I wouldn't know what to do with them! :O",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [110]
-				{
-					["type"] = 1,
-					["time"] = 1316731963,
-					["from"] = "Aonah",
-					["msg"] = "Nah I would. But the first bit is still true. Girls don't like losers :(",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [111]
-				{
-					["type"] = 1,
-					["time"] = 1316732433,
-					["from"] = "Aonah",
-					["msg"] = "so did Piggy buy some plate pvp gear for his warrior this morning?",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [112]
-				{
-					["type"] = 1,
-					["time"] = 1316732465,
-					["from"] = "Aonah",
-					["msg"] = "7 hours and 38 minutes ago he bought a few Bloodthirsty Pyrium pieces from me",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [113]
-				{
-					["type"] = 1,
-					["time"] = 1316732474,
-					["from"] = "Aonah",
-					["msg"] = " |Hitem:70004:0:0:0:0:0:0:0:85:0|h[Bloodthirsty Pyrium Breastplate]|h",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [114]
-				{
-					["type"] = 1,
-					["time"] = 1316732481,
-					["from"] = "Aonah",
-					["msg"] = " |Hitem:70009:0:0:0:0:0:0:0:85:0|h[Bloodthirsty Pyrium Shoulders]|h",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [115]
-				{
-					["type"] = 1,
-					["time"] = 1316732489,
-					["from"] = "Aonah",
-					["msg"] = " |Hitem:70007:0:0:0:0:0:0:0:85:0|h[Bloodthirsty Pyrium Helm]|h",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [116]
-				{
-					["type"] = 1,
-					["time"] = 1316732504,
-					["from"] = "Aonah",
-					["msg"] = " |Hitem:70008:0:0:0:0:0:0:0:85:0|h[Bloodthirsty Pyrium Legguards]|h",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [117]
-				{
-					["type"] = 1,
-					["time"] = 1316732510,
-					["from"] = "Aonah",
-					["msg"] = "He pretty much bought a whole set",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [118]
-				{
-					["type"] = 1,
-					["time"] = 1316732510,
-					["from"] = "Aonah",
-					["msg"] = "lol",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [119]
-				{
-					["type"] = 1,
-					["time"] = 1316732525,
-					["from"] = "Aonah",
-					["msg"] = "he accounted for a large portion of the 3800g i made since this morning",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [120]
-				{
-					["type"] = 1,
-					["time"] = 1316732542,
-					["from"] = "Aonah",
-					["msg"] = "Yep, go do it",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [121]
-				{
-					["type"] = 1,
-					["time"] = 1316732545,
-					["from"] = "Aonah",
-					["msg"] = "I need to get shot in the head",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [122]
-				{
-					["type"] = 1,
-					["time"] = 1316732554,
-					["from"] = "Aonah",
-					["msg"] = "Actually i should come up with a more fun way to go",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [123]
-				{
-					["type"] = 1,
-					["time"] = 1316732562,
-					["from"] = "Aonah",
-					["msg"] = "I want to have a sexy girl sit on my face until i suffocate",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [124]
-				{
-					["type"] = 1,
-					["time"] = 1316732564,
-					["from"] = "Aonah",
-					["msg"] = "i like that better",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [125]
-				{
-					["type"] = 1,
-					["time"] = 1316732565,
-					["from"] = "Aonah",
-					["msg"] = ":)",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [126]
-				{
-					["type"] = 1,
-					["time"] = 1316737551,
-					["from"] = "Aonah",
-					["msg"] = "No quests?",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [127]
-				{
-					["type"] = 1,
-					["time"] = 1316737588,
-					["from"] = "Aonah",
-					["msg"] = "you can't possibly have checked them all, or you would ahve found it!",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [128]
-				{
-					["type"] = 1,
-					["time"] = 1316737597,
-					["from"] = "Aonah",
-					["msg"] = "Make sure you have Track Low Level Quests on?",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [129]
-				{
-					["type"] = 1,
-					["time"] = 1316737627,
-					["from"] = "Aonah",
-					["msg"] = "There *may* be an item or something, but I have managed to find it every time.. except once when I had to use EveryQuest",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [130]
-				{
-					["type"] = 1,
-					["time"] = 1316818070,
-					["from"] = "Aonah",
-					["msg"] = "Oh hi there! Wifi in the airport? :O",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [131]
-				{
-					["type"] = 1,
-					["time"] = 1316818084,
-					["from"] = "Aonah",
-					["msg"] = "ooh you're home!",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [132]
-				{
-					["type"] = 1,
-					["time"] = 1316818163,
-					["from"] = "Aonah",
-					["msg"] = "aha! there you are!",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [133]
-				{
-					["type"] = 1,
-					["time"] = 1316818210,
-					["from"] = "Aonah",
-					["msg"] = "so i just bought a salad at Chik fil a",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [134]
-				{
-					["type"] = 1,
-					["time"] = 1316818214,
-					["from"] = "Aonah",
-					["msg"] = "and it's pretty huge and awesome",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [135]
-				{
-					["type"] = 1,
-					["time"] = 1316818235,
-					["from"] = "Aonah",
-					["msg"] = "this is my first one!",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [136]
-				{
-					["type"] = 1,
-					["time"] = 1316818241,
-					["from"] = "Aonah",
-					["msg"] = "chicken and fruit! yuuum! :O",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [137]
-				{
-					["type"] = 1,
-					["time"] = 1316818298,
-					["from"] = "Aonah",
-					["msg"] = "MMM this is freaking goo",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [138]
-				{
-					["type"] = 1,
-					["time"] = 1316818300,
-					["from"] = "Aonah",
-					["msg"] = "good*",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [139]
-				{
-					["type"] = 1,
-					["time"] = 1316818308,
-					["from"] = "Aonah",
-					["msg"] = "Yeah, I'm so sorry :(",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [140]
-				{
-					["type"] = 1,
-					["time"] = 1316818317,
-					["from"] = "Aonah",
-					["msg"] = "Time to take a tirp to the Natural State!",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [141]
-				{
-					["type"] = 1,
-					["time"] = 1316818360,
-					["from"] = "Aonah",
-					["msg"] = "eek save him!",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [142]
-				{
-					["type"] = 1,
-					["time"] = 1316818482,
-					["from"] = "Aonah",
-					["msg"] = "Wb!",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [143]
-				{
-					["type"] = 1,
-					["time"] = 1316818484,
-					["from"] = "Aonah",
-					["msg"] = "Rat is okay?",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [144]
-				{
-					["type"] = 1,
-					["time"] = 1316818492,
-					["from"] = "Aonah",
-					["msg"] = "Good",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [145]
-				{
-					["type"] = 1,
-					["time"] = 1316818527,
-					["from"] = "Aonah",
-					["msg"] = "Welllll you're home safe! that's good!",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [146]
-				{
-					["type"] = 1,
-					["time"] = 1316891604,
-					["from"] = "Aonah",
-					["msg"] = ":O",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [147]
-				{
-					["type"] = 1,
-					["time"] = 1316891607,
-					["from"] = "Aonah",
-					["msg"] = "I'ts me!",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [148]
-				{
-					["type"] = 1,
-					["time"] = 1316891613,
-					["from"] = "Aonah",
-					["msg"] = "Holy shit you know",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [149]
-				{
-					["type"] = 1,
-					["time"] = 1316891620,
-					["from"] = "Aonah",
-					["msg"] = "I thought I felt bad this past week",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [150]
-				{
-					["type"] = 1,
-					["time"] = 1316891624,
-					["from"] = "Aonah",
-					["msg"] = "today I feel even worse",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [151]
-				{
-					["type"] = 1,
-					["time"] = 1316891629,
-					["from"] = "Aonah",
-					["msg"] = "not from the withdrawls though",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [152]
-				{
-					["type"] = 1,
-					["time"] = 1316891632,
-					["from"] = "Aonah",
-					["msg"] = "they are getting better!",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [153]
-				{
-					["type"] = 1,
-					["time"] = 1316891642,
-					["from"] = "Aonah",
-					["msg"] = "but toaday i'm freaking sick! Jesus christ my luck is bad this week",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [154]
-				{
-					["type"] = 1,
-					["time"] = 1316891647,
-					["from"] = "Aonah",
-					["msg"] = "i am drinking NyQuil",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [155]
-				{
-					["type"] = 1,
-					["time"] = 1316891651,
-					["from"] = "Aonah",
-					["msg"] = "mmm",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [156]
-				{
-					["type"] = 1,
-					["time"] = 1316891655,
-					["from"] = "Aonah",
-					["msg"] = "it may help",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [157]
-				{
-					["type"] = 1,
-					["time"] = 1316891679,
-					["from"] = "Aonah",
-					["msg"] = "nah",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [158]
-				{
-					["type"] = 1,
-					["time"] = 1316891683,
-					["from"] = "Aonah",
-					["msg"] = "i been asleep for hours",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [159]
-				{
-					["type"] = 1,
-					["time"] = 1316891692,
-					["from"] = "Aonah",
-					["msg"] = "It wont' make me any more sleepy",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [160]
-				{
-					["type"] = 1,
-					["time"] = 1316891713,
-					["from"] = "Aonah",
-					["msg"] = "In fact it has no sleep aid except alcohol",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [161]
-				{
-					["type"] = 1,
-					["time"] = 1316891749,
-					["from"] = "Aonah",
-					["msg"] = "it's freaking rough on your liver though, it's got alcohol and acetaminophen.. gotta resist the urge to drink the whole bottole",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [162]
-				{
-					["type"] = 1,
-					["time"] = 1316891751,
-					["from"] = "Aonah",
-					["msg"] = "bottle*",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [163]
-				{
-					["type"] = 1,
-					["time"] = 1316891758,
-					["from"] = "Aonah",
-					["msg"] = "aww cuz i haven't started it in a while, here i'll do it right now!",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [164]
-				{
-					["type"] = 1,
-					["time"] = 1316891893,
-					["from"] = "Aonah",
-					["msg"] = "well, when my phone decides the internet exists again",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [165]
-				{
-					["type"] = 1,
-					["time"] = 1316892040,
-					["from"] = "Aonah",
-					["msg"] = "wtf it just keeps breaking at every stage",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [166]
-				{
-					["type"] = 1,
-					["time"] = 1316892042,
-					["from"] = "Aonah",
-					["msg"] = "i'll get there!",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [167]
-				{
-					["type"] = 1,
-					["time"] = 1316892077,
-					["from"] = "Aonah",
-					["msg"] = "it's making me upgrade",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [168]
-				{
-					["type"] = 1,
-					["time"] = 1316892086,
-					["from"] = "Aonah",
-					["msg"] = "so i'm watching this weirdo British movie The Guard",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [169]
-				{
-					["type"] = 1,
-					["time"] = 1316892115,
-					["from"] = "Aonah",
-					["msg"] = "and this fat ugly cap is sitting in this cafe with this cute hooker and drinking a giant milkshake, and it sooooo made me want to go to The Purple Cow, a restaurnt here with amazing cafe-stype milkshakes",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [170]
-				{
-					["type"] = 1,
-					["time"] = 1316892119,
-					["from"] = "Aonah",
-					["msg"] = "lol",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [171]
-				{
-					["type"] = 1,
-					["time"] = 1316892120,
-					["from"] = "Aonah",
-					["msg"] = ":(",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [172]
-				{
-					["type"] = 1,
-					["time"] = 1316892193,
-					["from"] = "Aonah",
-					["msg"] = "aha!",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [173]
-				{
-					["type"] = 1,
-					["time"] = 1316892201,
-					["from"] = "Aonah",
-					["msg"] = "If you were here, I'd take you out and buy you one",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [174]
-				{
-					["type"] = 1,
-					["time"] = 1316892206,
-					["from"] = "Aonah",
-					["msg"] = "you'd only have to stay a few feet away",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [175]
-				{
-					["type"] = 1,
-					["time"] = 1316892210,
-					["from"] = "Aonah",
-					["msg"] = "to avoid my sick aura",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [176]
-				{
-					["type"] = 1,
-					["time"] = 1316892211,
-					["from"] = "Aonah",
-					["msg"] = "lol",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [177]
-				{
-					["type"] = 1,
-					["time"] = 1316892219,
-					["from"] = "Aonah",
-					["msg"] = "word played! and i'm winning now! muahaha!",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [178]
-				{
-					["type"] = 1,
-					["time"] = 1316892237,
-					["from"] = "Aonah",
-					["msg"] = "ooh don't say that. It's when you least expect it that shit hit sthe fan.",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [179]
-				{
-					["type"] = 1,
-					["time"] = 1316892255,
-					["from"] = "Aonah",
-					["msg"] = "I don't get sick too often, though in recent years it's been more so.. I'm getting old and fat.",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [180]
-				{
-					["type"] = 1,
-					["time"] = 1316892271,
-					["from"] = "Aonah",
-					["msg"] = "okay now quit it! you're tempting fate! And she's not that nice of a gal!",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [181]
-				{
-					["type"] = 1,
-					["time"] = 1316892577,
-					["from"] = "Aonah",
-					["msg"] = "sec, movie",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [182]
-				{
-					["type"] = 1,
-					["time"] = 1316892642,
-					["from"] = "Aonah",
-					["msg"] = "hahah",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [183]
-				{
-					["type"] = 1,
-					["time"] = 1316892651,
-					["from"] = "Aonah",
-					["msg"] = "the old bastard in this movie really *is* awesome",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [184]
-				{
-					["type"] = 1,
-					["time"] = 1316892659,
-					["from"] = "Aonah",
-					["msg"] = "this guy shows up to kill him",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [185]
-				{
-					["type"] = 1,
-					["time"] = 1316892672,
-					["from"] = "Aonah",
-					["msg"] = "from an organized crime bit",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [186]
-				{
-					["type"] = 1,
-					["time"] = 1316892682,
-					["from"] = "Aonah",
-					["msg"] = "and they're sitting there having a drink",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [187]
-				{
-					["type"] = 1,
-					["time"] = 1316892703,
-					["from"] = "Aonah",
-					["msg"] = "the old guy pretends he's got crabs, so he's got his hand down his pants to scratch, but instead pulls out a small gun and shoots the other guy lol",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [188]
-				{
-					["type"] = 1,
-					["time"] = 1316892744,
-					["from"] = "Aonah",
-					["msg"] = "hahaha",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [189]
-				{
-					["type"] = 1,
-					["time"] = 1316892790,
-					["from"] = "Aonah",
-					["msg"] = "he calls the FBI agent to tell him, he's like \"I ran into O'leary. I shot him\" fbi agent: \"is he diead?\" other guy: walks into the room, pokes the dead guy with the phone, his head lolls, replies \"uhh yeah he is now\"",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [190]
-				{
-					["type"] = 1,
-					["time"] = 1316892872,
-					["from"] = "Aonah",
-					["msg"] = "lol he's got an AK-47 now",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [191]
-				{
-					["type"] = 1,
-					["time"] = 1316892876,
-					["from"] = "Aonah",
-					["msg"] = "shit's gonna get real",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [192]
-				{
-					["type"] = 1,
-					["time"] = 1316893194,
-					["from"] = "Aonah",
-					["msg"] = "alright",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [193]
-				{
-					["type"] = 1,
-					["time"] = 1316893198,
-					["from"] = "Aonah",
-					["msg"] = "find where you need to be yet?",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [194]
-				{
-					["type"] = 1,
-					["time"] = 1316893217,
-					["from"] = "Aonah",
-					["msg"] = "k",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [195]
-				{
-					["type"] = 1,
-					["time"] = 1316893249,
-					["from"] = "Aonah",
-					["msg"] = "you should install teamviewer for real, it won't take long, won't hurt, and i'll be able to sort it out quickly (if it's sortable)",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [196]
-				{
-					["type"] = 1,
-					["time"] = 1316893315,
-					["from"] = "Aonah",
-					["msg"] = "k, go to ninite.com",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [197]
-				{
-					["type"] = 1,
-					["time"] = 1316893320,
-					["from"] = "Aonah",
-					["msg"] = "scroll down find where it says TeamViewer 6",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [198]
-				{
-					["type"] = 1,
-					["time"] = 1316893322,
-					["from"] = "Aonah",
-					["msg"] = "click on it",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [199]
-				{
-					["type"] = 1,
-					["time"] = 1316893328,
-					["from"] = "Aonah",
-					["msg"] = "then scroll to the very bottom and click Get Installer",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [200]
-				{
-					["type"] = 1,
-					["time"] = 1316893341,
-					["from"] = "Aonah",
-					["msg"] = "then run that when it downloads, it'll install it nicely for you",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [201]
-				{
-					["type"] = 1,
-					["time"] = 1316893554,
-					["from"] = "Aonah",
-					["msg"] = "weird freaking movie",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [202]
-				{
-					["type"] = 1,
-					["time"] = 1316893557,
-					["from"] = "Aonah",
-					["msg"] = "it was pretty good though",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [203]
-				{
-					["type"] = 1,
-					["time"] = 1316893565,
-					["from"] = "Aonah",
-					["msg"] = "winnnning!",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [204]
-				{
-					["type"] = 1,
-					["time"] = 1316893569,
-					["from"] = "Aonah",
-					["msg"] = "imma come back just you wait!",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [205]
-				{
-					["type"] = 1,
-					["time"] = 1316893701,
-					["from"] = "Aonah",
-					["msg"] = "okay run it, it'll give you two numbers",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [206]
-				{
-					["type"] = 1,
-					["time"] = 1316893704,
-					["from"] = "Aonah",
-					["msg"] = "give me the numbers",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [207]
-				{
-					["type"] = 1,
-					["time"] = 1316893784,
-					["from"] = "Aonah",
-					["msg"] = "lol sorry, do it for real",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [208]
-				{
-					["type"] = 1,
-					["time"] = 1316893792,
-					["from"] = "Aonah",
-					["msg"] = "i'm seeing your screen",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [209]
-				{
-					["type"] = 1,
-					["time"] = 1316893796,
-					["from"] = "Aonah",
-					["msg"] = "and motion makes it lag like hell",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [210]
-				{
-					["type"] = 1,
-					["time"] = 1316893797,
-					["from"] = "Aonah",
-					["msg"] = "lol",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [211]
-				{
-					["type"] = 1,
-					["time"] = 1316893807,
-					["from"] = "Aonah",
-					["msg"] = "if you land and face a wall there wont' be any movement and it'll work better",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [212]
-				{
-					["type"] = 1,
-					["time"] = 1316893832,
-					["from"] = "Aonah",
-					["msg"] = "get off the drake, too much idle movement",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [213]
-				{
-					["type"] = 1,
-					["time"] = 1316893993,
-					["from"] = "Aonah",
-					["msg"] = "this thing is actually working better than i expected. It's not lagging exactly, it's just fading between frames tht are like 7 seconds appart",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [214]
-				{
-					["type"] = 1,
-					["time"] = 1316893998,
-					["from"] = "Aonah",
-					["msg"] = "it's kinda eery watching you, honestly",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [215]
-				{
-					["type"] = 1,
-					["time"] = 1316894099,
-					["from"] = "Aonah",
-					["msg"] = "get on the gunship",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [216]
-				{
-					["type"] = 1,
-					["time"] = 1316894106,
-					["from"] = "Aonah",
-					["msg"] = "it's up in the freaking air, i can't get it for you too laggy",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [217]
-				{
-					["type"] = 1,
-					["time"] = 1316894169,
-					["from"] = "Aonah",
-					["msg"] = "yeah you weren't supposed to get stuck undre there",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [218]
-				{
-					["type"] = 1,
-					["time"] = 1316894170,
-					["from"] = "Aonah",
-					["msg"] = "lol",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [219]
-				{
-					["type"] = 1,
-					["time"] = 1316894173,
-					["from"] = "Aonah",
-					["msg"] = "keep trying, there's a way out",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [220]
-				{
-					["type"] = 1,
-					["time"] = 1316894178,
-					["from"] = "Aonah",
-					["msg"] = "it's just.. tricky",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [221]
-				{
-					["type"] = 1,
-					["time"] = 1316894320,
-					["from"] = "Aonah",
-					["msg"] = "mumble works",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [222]
-				{
-					["type"] = 1,
-					["time"] = 1316894321,
-					["from"] = "Aonah",
-					["msg"] = "i'm there",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [223]
-				{
-					["type"] = 1,
-					["time"] = 1316972024,
-					["from"] = "Aonah",
-					["msg"] = "Tada!",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [224]
-				{
-					["type"] = 1,
-					["time"] = 1316972105,
-					["from"] = "Aonah",
-					["msg"] = "silly bnet is lame, i was trying ot talk to Haliax earlier and i thought he left, but i've been broken the whole time",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [225]
-				{
-					["type"] = 1,
-					["time"] = 1316972163,
-					["from"] = "Aonah",
-					["msg"] = "I kinda feel like shit",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [226]
-				{
-					["type"] = 1,
-					["time"] = 1316972165,
-					["from"] = "Aonah",
-					["msg"] = ":)",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [227]
-				{
-					["type"] = 1,
-					["time"] = 1316972679,
-					["from"] = "Aonah",
-					["msg"] = ":O",
-					["inbound"] = false,
-					["convo"] = "|Kf5|k00000000000|k",
-				}, -- [228]
 				["info"] = {
 				},
 			},
-			["|Kf25|k0000000000000000|k"] = {
+			["|Kf145|k00000000000|k"] = {
 				{
 					["type"] = 1,
-					["time"] = 1316731204,
+					["time"] = 1316820004,
 					["from"] = "Aonah",
-					["msg"] = "lol",
+					["msg"] = "lol i lost my wim history somehow, so piggy has to go look again afterall",
 					["inbound"] = false,
-					["convo"] = "|Kf25|k0000000000000000|k",
+					["convo"] = "|Kf145|k00000000000|k",
 				}, -- [1]
-				{
-					["type"] = 1,
-					["time"] = 1316731207,
-					["from"] = "Aonah",
-					["msg"] = "Which guild?",
-					["inbound"] = false,
-					["convo"] = "|Kf25|k0000000000000000|k",
-				}, -- [2]
-				{
-					["type"] = 1,
-					["time"] = 1316731234,
-					["from"] = "Aonah",
-					["msg"] = "k, well you whispered aonah and she's not, so i wasn't certian lol",
-					["inbound"] = false,
-					["convo"] = "|Kf25|k0000000000000000|k",
-				}, -- [3]
-				{
-					["type"] = 1,
-					["time"] = 1316731314,
-					["from"] = "Aonah",
-					["msg"] = "Aonah is in Terokkar Florist lol",
-					["inbound"] = false,
-					["convo"] = "|Kf25|k0000000000000000|k",
-				}, -- [4]
-				{
-					["type"] = 1,
-					["time"] = 1316731354,
-					["from"] = "Aonah",
-					["msg"] = "Nah, just my bank guild hehe",
-					["inbound"] = false,
-					["convo"] = "|Kf25|k0000000000000000|k",
-				}, -- [5]
-				{
-					["type"] = 1,
-					["time"] = 1316731363,
-					["from"] = "Aonah",
-					["msg"] = "it was just a clever name i heard once and really liked",
-					["inbound"] = false,
-					["convo"] = "|Kf25|k0000000000000000|k",
-				}, -- [6]
-				{
-					["type"] = 1,
-					["time"] = 1316731413,
-					["from"] = "Aonah",
-					["msg"] = "lol sounds good",
-					["inbound"] = false,
-					["convo"] = "|Kf25|k0000000000000000|k",
-				}, -- [7]
-				{
-					["type"] = 1,
-					["time"] = 1316731514,
-					["from"] = "Aonah",
-					["msg"] = "aww",
-					["inbound"] = false,
-					["convo"] = "|Kf25|k0000000000000000|k",
-				}, -- [8]
-				{
-					["type"] = 1,
-					["time"] = 1316731520,
-					["from"] = "Aonah",
-					["msg"] = "so you're getting beaten now?",
-					["inbound"] = false,
-					["convo"] = "|Kf25|k0000000000000000|k",
-				}, -- [9]
-				{
-					["type"] = 1,
-					["time"] = 1316731537,
-					["from"] = "Aonah",
-					["msg"] = "I need to look up the steps to getting it.. i'm not sure what's left for our first one",
-					["inbound"] = false,
-					["convo"] = "|Kf25|k0000000000000000|k",
-				}, -- [10]
-				{
-					["type"] = 1,
-					["time"] = 1316731538,
-					["from"] = "Aonah",
-					["msg"] = "gotcha",
-					["inbound"] = false,
-					["convo"] = "|Kf25|k0000000000000000|k",
-				}, -- [11]
-				{
-					["type"] = 1,
-					["time"] = 1316731562,
-					["from"] = "Aonah",
-					["msg"] = "ahh nice",
-					["inbound"] = false,
-					["convo"] = "|Kf25|k0000000000000000|k",
-				}, -- [12]
-				{
-					["type"] = 1,
-					["time"] = 1316731568,
-					["from"] = "Aonah",
-					["msg"] = "gotcha",
-					["inbound"] = false,
-					["convo"] = "|Kf25|k0000000000000000|k",
-				}, -- [13]
-				{
-					["type"] = 1,
-					["time"] = 1316731672,
-					["from"] = "Aonah",
-					["msg"] = "ah",
-					["inbound"] = false,
-					["convo"] = "|Kf25|k0000000000000000|k",
-				}, -- [14]
-				{
-					["type"] = 1,
-					["time"] = 1316731676,
-					["from"] = "Aonah",
-					["msg"] = "who is the mage?",
-					["inbound"] = false,
-					["convo"] = "|Kf25|k0000000000000000|k",
-				}, -- [15]
-				{
-					["type"] = 1,
-					["time"] = 1316731795,
-					["from"] = "Aonah",
-					["msg"] = "oh well, \"fancy\" letters immediately loses my respect",
-					["inbound"] = false,
-					["convo"] = "|Kf25|k0000000000000000|k",
-				}, -- [16]
-				{
-					["type"] = 1,
-					["time"] = 1316731797,
-					["from"] = "Aonah",
-					["msg"] = "lol",
-					["inbound"] = false,
-					["convo"] = "|Kf25|k0000000000000000|k",
-				}, -- [17]
-				{
-					["type"] = 1,
-					["time"] = 1316731860,
-					["from"] = "Aonah",
-					["msg"] = "oh that's extra nifty",
-					["inbound"] = false,
-					["convo"] = "|Kf25|k0000000000000000|k",
-				}, -- [18]
-				{
-					["type"] = 1,
-					["time"] = 1316731865,
-					["from"] = "Aonah",
-					["msg"] = "but.. what class is normal Bake?",
-					["inbound"] = false,
-					["convo"] = "|Kf25|k0000000000000000|k",
-				}, -- [19]
-				{
-					["type"] = 1,
-					["time"] = 1316731868,
-					["from"] = "Aonah",
-					["msg"] = "if not a Mage.. why?",
-					["inbound"] = false,
-					["convo"] = "|Kf25|k0000000000000000|k",
-				}, -- [20]
-				{
-					["type"] = 1,
-					["time"] = 1316731893,
-					["from"] = "Aonah",
-					["msg"] = "Say aparently posting auctions before work is good. 3800g income since this morning.",
-					["inbound"] = false,
-					["convo"] = "|Kf25|k0000000000000000|k",
-				}, -- [21]
-				{
-					["type"] = 1,
-					["time"] = 1316732111,
-					["from"] = "Aonah",
-					["msg"] = "Hmm I sold some Bloodthirsty gear.. I need to get that into my craft queue I guess so i can keep up my supply",
-					["inbound"] = false,
-					["convo"] = "|Kf25|k0000000000000000|k",
-				}, -- [22]
-				{
-					["type"] = 1,
-					["time"] = 1316732182,
-					["from"] = "Aonah",
-					["msg"] = "oh, actually it looks like a lot of my auctions got bought out by this guy who is trying ot take over the entire server",
-					["inbound"] = false,
-					["convo"] = "|Kf25|k0000000000000000|k",
-				}, -- [23]
-				{
-					["type"] = 1,
-					["time"] = 1316732204,
-					["from"] = "Aonah",
-					["msg"] = "I'm happy for him to buy, but he'll have to quit eventually because I can keep turning these things out forever.. lol",
-					["inbound"] = false,
-					["convo"] = "|Kf25|k0000000000000000|k",
-				}, -- [24]
-				{
-					["type"] = 1,
-					["time"] = 1316732213,
-					["from"] = "Aonah",
-					["msg"] = "he's trying to buy and raise prices, lol, but that's not gonna work.",
-					["inbound"] = false,
-					["convo"] = "|Kf25|k0000000000000000|k",
-				}, -- [25]
-				{
-					["type"] = 1,
-					["time"] = 1316732253,
-					["from"] = "Aonah",
-					["msg"] = "Nope",
-					["inbound"] = false,
-					["convo"] = "|Kf25|k0000000000000000|k",
-				}, -- [26]
-				{
-					["type"] = 1,
-					["time"] = 1316732263,
-					["from"] = "Aonah",
-					["msg"] = "I mean, it can if you also control the raw mateirals markets",
-					["inbound"] = false,
-					["convo"] = "|Kf25|k0000000000000000|k",
-				}, -- [27]
-				{
-					["type"] = 1,
-					["time"] = 1316732287,
-					["from"] = "Aonah",
-					["msg"] = "but so long as UJ sends me emails at 2am to wake me up because someone just posted elementium for less than 30g/stack..",
-					["inbound"] = false,
-					["convo"] = "|Kf25|k0000000000000000|k",
-				}, -- [28]
-				{
-					["type"] = 1,
-					["time"] = 1316732303,
-					["from"] = "Aonah",
-					["msg"] = "if he doesn't buy it before i get to it, then he's gonna be buying my crafted items lol",
-					["inbound"] = false,
-					["convo"] = "|Kf25|k0000000000000000|k",
-				}, -- [29]
-				{
-					["type"] = 1,
-					["time"] = 1316732310,
-					["from"] = "Aonah",
-					["msg"] = "The Undermine Journal",
-					["inbound"] = false,
-					["convo"] = "|Kf25|k0000000000000000|k",
-				}, -- [30]
-				{
-					["type"] = 1,
-					["time"] = 1316732338,
-					["from"] = "Aonah",
-					["msg"] = "google it, it's a site that posts details about all realms' economies",
-					["inbound"] = false,
-					["convo"] = "|Kf25|k0000000000000000|k",
-				}, -- [31]
-				{
-					["type"] = 1,
-					["time"] = 1316732350,
-					["from"] = "Aonah",
-					["msg"] = "among many things it can do, you can set it to email you alerts when certain things happen",
-					["inbound"] = false,
-					["convo"] = "|Kf25|k0000000000000000|k",
-				}, -- [32]
-				{
-					["type"] = 1,
-					["time"] = 1316732358,
-					["from"] = "Aonah",
-					["msg"] = "like when elementium drops under 30g/stack",
-					["inbound"] = false,
-					["convo"] = "|Kf25|k0000000000000000|k",
-				}, -- [33]
-				{
-					["type"] = 1,
-					["time"] = 1316732359,
-					["from"] = "Aonah",
-					["msg"] = "lol",
-					["inbound"] = false,
-					["convo"] = "|Kf25|k0000000000000000|k",
-				}, -- [34]
-				{
-					["type"] = 1,
-					["time"] = 1316732390,
-					["from"] = "Aonah",
-					["msg"] = "I also have my own site that does about the same thing, but allows me to have a little more control over it",
-					["inbound"] = false,
-					["convo"] = "|Kf25|k0000000000000000|k",
-				}, -- [35]
-				{
-					["type"] = 1,
-					["time"] = 1316732662,
-					["from"] = "Aonah",
-					["msg"] = "lol good job",
-					["inbound"] = false,
-					["convo"] = "|Kf25|k0000000000000000|k",
-				}, -- [36]
 				["info"] = {
 				},
 			},
@@ -39171,1628 +39840,476 @@ WIM3_History = {
 				},
 			},
 		},
-		["Oxshield"] = {
-			["|Kf283|k00000000000|k"] = {
+		["Gacrux"] = {
+			["|Kf459|k000000000000|k"] = {
 				{
 					["type"] = 1,
-					["time"] = 1316373892,
-					["from"] = "Oxshield",
-					["msg"] = "A wild Jamie appears! :O",
+					["time"] = 1316129520,
+					["from"] = "Gacrux",
+					["msg"] = "It's exactly the same as all of the others, and it's.. worth it for sure, if you can get it",
 					["inbound"] = false,
-					["convo"] = "|Kf283|k00000000000|k",
+					["convo"] = "|Kf459|k000000000000|k",
 				}, -- [1]
 				{
 					["type"] = 1,
-					["time"] = 1316374023,
-					["from"] = "Oxshield",
-					["msg"] = "a flat tire?!",
+					["time"] = 1316129528,
+					["from"] = "Gacrux",
+					["msg"] = "not as good as the T12 4pc though",
 					["inbound"] = false,
-					["convo"] = "|Kf283|k00000000000|k",
+					["convo"] = "|Kf459|k000000000000|k",
+				}, -- [2]
+				["info"] = {
+				},
+			},
+			["|Kf207|k00000000000|k"] = {
+				{
+					["type"] = 1,
+					["time"] = 1315956583,
+					["from"] = "Gacrux",
+					["msg"] = "Are you still getting pizza?",
+					["inbound"] = false,
+					["convo"] = "|Kf207|k00000000000|k",
+				}, -- [1]
+				{
+					["type"] = 1,
+					["time"] = 1315956956,
+					["from"] = "Gacrux",
+					["msg"] = "ahh",
+					["inbound"] = false,
+					["convo"] = "|Kf207|k00000000000|k",
 				}, -- [2]
 				{
 					["type"] = 1,
-					["time"] = 1316374049,
-					["from"] = "Oxshield",
-					["msg"] = "Well that sucks",
+					["time"] = 1315956960,
+					["from"] = "Gacrux",
+					["msg"] = "candles? why? O_o",
 					["inbound"] = false,
-					["convo"] = "|Kf283|k00000000000|k",
+					["convo"] = "|Kf207|k00000000000|k",
 				}, -- [3]
 				{
 					["type"] = 1,
-					["time"] = 1316374059,
-					["from"] = "Oxshield",
-					["msg"] = "I met a cute girl!",
+					["time"] = 1315956971,
+					["from"] = "Gacrux",
+					["msg"] = "Also you were soooooo cute. you *are* sooooo cute, you make my heart hurt.",
 					["inbound"] = false,
-					["convo"] = "|Kf283|k00000000000|k",
+					["convo"] = "|Kf207|k00000000000|k",
 				}, -- [4]
 				{
 					["type"] = 1,
-					["time"] = 1316374066,
-					["from"] = "Oxshield",
-					["msg"] = "No",
+					["time"] = 1315956973,
+					["from"] = "Gacrux",
+					["msg"] = "oh okay",
 					["inbound"] = false,
-					["convo"] = "|Kf283|k00000000000|k",
+					["convo"] = "|Kf207|k00000000000|k",
 				}, -- [5]
 				{
 					["type"] = 1,
-					["time"] = 1316374066,
-					["from"] = "Oxshield",
-					["msg"] = "wait",
+					["time"] = 1315956975,
+					["from"] = "Gacrux",
+					["msg"] = "just wondering!",
 					["inbound"] = false,
-					["convo"] = "|Kf283|k00000000000|k",
+					["convo"] = "|Kf207|k00000000000|k",
 				}, -- [6]
 				{
 					["type"] = 1,
-					["time"] = 1316374069,
-					["from"] = "Oxshield",
-					["msg"] = "it was you",
+					["time"] = 1315956976,
+					["from"] = "Gacrux",
+					["msg"] = ":O",
 					["inbound"] = false,
-					["convo"] = "|Kf283|k00000000000|k",
+					["convo"] = "|Kf207|k00000000000|k",
 				}, -- [7]
 				{
 					["type"] = 1,
-					["time"] = 1316374129,
-					["from"] = "Oxshield",
-					["msg"] = "You changed your own tire?!",
+					["time"] = 1315957121,
+					["from"] = "Gacrux",
+					["msg"] = "i'm getting all my buffs/debuffs setup",
 					["inbound"] = false,
-					["convo"] = "|Kf283|k00000000000|k",
+					["convo"] = "|Kf207|k00000000000|k",
 				}, -- [8]
 				{
 					["type"] = 1,
-					["time"] = 1316374147,
-					["from"] = "Oxshield",
-					["msg"] = "lol",
+					["time"] = 1315957126,
+					["from"] = "Gacrux",
+					["msg"] = "then i'm gonna go tank another heroic! :O",
 					["inbound"] = false,
-					["convo"] = "|Kf283|k00000000000|k",
+					["convo"] = "|Kf207|k00000000000|k",
 				}, -- [9]
 				{
 					["type"] = 1,
-					["time"] = 1316374150,
-					["from"] = "Oxshield",
-					["msg"] = "i'm sure it wasn't :(",
+					["time"] = 1315957198,
+					["from"] = "Gacrux",
+					["msg"] = "ugh you know what, i need to go fishing after the heroic :(",
 					["inbound"] = false,
-					["convo"] = "|Kf283|k00000000000|k",
+					["convo"] = "|Kf207|k00000000000|k",
 				}, -- [10]
 				{
 					["type"] = 1,
-					["time"] = 1316374152,
-					["from"] = "Oxshield",
-					["msg"] = "but good jbo!",
+					["time"] = 1315957458,
+					["from"] = "Gacrux",
+					["msg"] = "lol",
 					["inbound"] = false,
-					["convo"] = "|Kf283|k00000000000|k",
+					["convo"] = "|Kf207|k00000000000|k",
 				}, -- [11]
 				{
 					["type"] = 1,
-					["time"] = 1316374153,
-					["from"] = "Oxshield",
-					["msg"] = "job*",
+					["time"] = 1315957461,
+					["from"] = "Gacrux",
+					["msg"] = "yeah it *is* nice",
 					["inbound"] = false,
-					["convo"] = "|Kf283|k00000000000|k",
+					["convo"] = "|Kf207|k00000000000|k",
 				}, -- [12]
 				{
 					["type"] = 1,
-					["time"] = 1316374156,
-					["from"] = "Oxshield",
-					["msg"] = "i am impressed! :O",
+					["time"] = 1315957469,
+					["from"] = "Gacrux",
+					["msg"] = "So does this mean you are a new druid convert?! :O",
 					["inbound"] = false,
-					["convo"] = "|Kf283|k00000000000|k",
+					["convo"] = "|Kf207|k00000000000|k",
 				}, -- [13]
 				{
 					["type"] = 1,
-					["time"] = 1316374160,
-					["from"] = "Oxshield",
-					["msg"] = "Jamie is pretty awesome <3",
+					["time"] = 1315957524,
+					["from"] = "Gacrux",
+					["msg"] = ":O",
 					["inbound"] = false,
-					["convo"] = "|Kf283|k00000000000|k",
+					["convo"] = "|Kf207|k00000000000|k",
 				}, -- [14]
 				{
 					["type"] = 1,
-					["time"] = 1316374405,
-					["from"] = "Oxshield",
-					["msg"] = "lol",
+					["time"] = 1315957528,
+					["from"] = "Gacrux",
+					["msg"] = "Poor mobs1",
 					["inbound"] = false,
-					["convo"] = "|Kf283|k00000000000|k",
+					["convo"] = "|Kf207|k00000000000|k",
 				}, -- [15]
 				{
 					["type"] = 1,
-					["time"] = 1316374414,
-					["from"] = "Oxshield",
-					["msg"] = "did you have a full size spare? Or a doughnut?",
+					["time"] = 1315957531,
+					["from"] = "Gacrux",
+					["msg"] = "you're raping them in the back!",
 					["inbound"] = false,
-					["convo"] = "|Kf283|k00000000000|k",
+					["convo"] = "|Kf207|k00000000000|k",
 				}, -- [16]
 				{
 					["type"] = 1,
-					["time"] = 1316374416,
-					["from"] = "Oxshield",
-					["msg"] = "and sowwwy!",
+					["time"] = 1315957660,
+					["from"] = "Gacrux",
+					["msg"] = ":O",
 					["inbound"] = false,
-					["convo"] = "|Kf283|k00000000000|k",
+					["convo"] = "|Kf207|k00000000000|k",
 				}, -- [17]
 				{
 					["type"] = 1,
-					["time"] = 1316374420,
-					["from"] = "Oxshield",
-					["msg"] = "I slept all day haha",
+					["time"] = 1315957664,
+					["from"] = "Gacrux",
+					["msg"] = "EarlyCongrats :)",
 					["inbound"] = false,
-					["convo"] = "|Kf283|k00000000000|k",
+					["convo"] = "|Kf207|k00000000000|k",
 				}, -- [18]
 				{
 					["type"] = 1,
-					["time"] = 1316374579,
-					["from"] = "Oxshield",
-					["msg"] = "lol holy shit",
+					["time"] = 1315957708,
+					["from"] = "Gacrux",
+					["msg"] = ":O",
 					["inbound"] = false,
-					["convo"] = "|Kf283|k00000000000|k",
+					["convo"] = "|Kf207|k00000000000|k",
 				}, -- [19]
 				{
 					["type"] = 1,
-					["time"] = 1316374584,
-					["from"] = "Oxshield",
-					["msg"] = "you slept again from 8am to 12pm?",
+					["time"] = 1315958144,
+					["from"] = "Gacrux",
+					["msg"] = "No didn't get a chance",
 					["inbound"] = false,
-					["convo"] = "|Kf283|k00000000000|k",
+					["convo"] = "|Kf207|k00000000000|k",
 				}, -- [20]
 				{
 					["type"] = 1,
-					["time"] = 1316374591,
-					["from"] = "Oxshield",
-					["msg"] = "did you take your medicine?",
+					["time"] = 1315958213,
+					["from"] = "Gacrux",
+					["msg"] = "oh :(",
 					["inbound"] = false,
-					["convo"] = "|Kf283|k00000000000|k",
+					["convo"] = "|Kf207|k00000000000|k",
 				}, -- [21]
 				{
 					["type"] = 1,
-					["time"] = 1316374603,
-					["from"] = "Oxshield",
-					["msg"] = "go do it",
+					["time"] = 1315958314,
+					["from"] = "Gacrux",
+					["msg"] = "hrm",
 					["inbound"] = false,
-					["convo"] = "|Kf283|k00000000000|k",
+					["convo"] = "|Kf207|k00000000000|k",
 				}, -- [22]
 				{
 					["type"] = 1,
-					["time"] = 1316374608,
-					["from"] = "Oxshield",
-					["msg"] = "and DO NOT go back to sleep",
+					["time"] = 1315958320,
+					["from"] = "Gacrux",
+					["msg"] = "the ticket you mean?",
 					["inbound"] = false,
-					["convo"] = "|Kf283|k00000000000|k",
+					["convo"] = "|Kf207|k00000000000|k",
 				}, -- [23]
 				{
 					["type"] = 1,
-					["time"] = 1316374611,
-					["from"] = "Oxshield",
-					["msg"] = "you slept waaaay too much",
+					["time"] = 1315958328,
+					["from"] = "Gacrux",
+					["msg"] = "gotcha",
 					["inbound"] = false,
-					["convo"] = "|Kf283|k00000000000|k",
+					["convo"] = "|Kf207|k00000000000|k",
 				}, -- [24]
 				{
 					["type"] = 1,
-					["time"] = 1316374628,
-					["from"] = "Oxshield",
-					["msg"] = "I'm serious1",
+					["time"] = 1315958334,
+					["from"] = "Gacrux",
+					["msg"] = "I just wanted to meeet you",
 					["inbound"] = false,
-					["convo"] = "|Kf283|k00000000000|k",
+					["convo"] = "|Kf207|k00000000000|k",
 				}, -- [25]
 				{
 					["type"] = 1,
-					["time"] = 1316374650,
-					["from"] = "Oxshield",
-					["msg"] = "lol",
+					["time"] = 1315958347,
+					["from"] = "Gacrux",
+					["msg"] = "I was using Jer to bribe you",
 					["inbound"] = false,
-					["convo"] = "|Kf283|k00000000000|k",
+					["convo"] = "|Kf207|k00000000000|k",
 				}, -- [26]
 				{
 					["type"] = 1,
-					["time"] = 1316374686,
-					["from"] = "Oxshield",
-					["msg"] = "I don't understand the whole \"i'm honry\" thing, maybe it's mostly a girl thing. I only get that way when I see someone who is hot, if i don't see a human for a few days, i never feel it",
+					["time"] = 1315958348,
+					["from"] = "Gacrux",
+					["msg"] = ":)",
 					["inbound"] = false,
-					["convo"] = "|Kf283|k00000000000|k",
+					["convo"] = "|Kf207|k00000000000|k",
 				}, -- [27]
 				{
 					["type"] = 1,
-					["time"] = 1316374745,
-					["from"] = "Oxshield",
-					["msg"] = "Well, that makes sense",
+					["time"] = 1315958359,
+					["from"] = "Gacrux",
+					["msg"] = "i know",
 					["inbound"] = false,
-					["convo"] = "|Kf283|k00000000000|k",
+					["convo"] = "|Kf207|k00000000000|k",
 				}, -- [28]
 				{
 					["type"] = 1,
-					["time"] = 1316374762,
-					["from"] = "Oxshield",
-					["msg"] = "so, go masturbate",
+					["time"] = 1315958362,
+					["from"] = "Gacrux",
+					["msg"] = "neither does he!",
 					["inbound"] = false,
-					["convo"] = "|Kf283|k00000000000|k",
+					["convo"] = "|Kf207|k00000000000|k",
 				}, -- [29]
 				{
 					["type"] = 1,
-					["time"] = 1316374777,
-					["from"] = "Oxshield",
-					["msg"] = "of course, that does nothing for me.. since what I miss is another person lol..",
+					["time"] = 1315958363,
+					["from"] = "Gacrux",
+					["msg"] = "lol",
 					["inbound"] = false,
-					["convo"] = "|Kf283|k00000000000|k",
+					["convo"] = "|Kf207|k00000000000|k",
 				}, -- [30]
 				{
 					["type"] = 1,
-					["time"] = 1316374796,
-					["from"] = "Oxshield",
-					["msg"] = "vibrators are evil! D:",
+					["time"] = 1315958394,
+					["from"] = "Gacrux",
+					["msg"] = "who is that?",
 					["inbound"] = false,
-					["convo"] = "|Kf283|k00000000000|k",
+					["convo"] = "|Kf207|k00000000000|k",
 				}, -- [31]
 				{
 					["type"] = 1,
-					["time"] = 1316374894,
-					["from"] = "Oxshield",
-					["msg"] = "Well, they are quite effective. They just spoil you. Men don't have vibrating dicks yet ><",
+					["time"] = 1315958396,
+					["from"] = "Gacrux",
+					["msg"] = "nooti?",
 					["inbound"] = false,
-					["convo"] = "|Kf283|k00000000000|k",
+					["convo"] = "|Kf207|k00000000000|k",
 				}, -- [32]
 				{
 					["type"] = 1,
-					["time"] = 1316375361,
-					["from"] = "Oxshield",
-					["msg"] = "?",
+					["time"] = 1315958399,
+					["from"] = "Gacrux",
+					["msg"] = "or some ex?",
 					["inbound"] = false,
-					["convo"] = "|Kf283|k00000000000|k",
+					["convo"] = "|Kf207|k00000000000|k",
 				}, -- [33]
 				{
 					["type"] = 1,
-					["time"] = 1316375367,
-					["from"] = "Oxshield",
-					["msg"] = "on your computer?",
+					["time"] = 1315958444,
+					["from"] = "Gacrux",
+					["msg"] = "oh, lol nice",
 					["inbound"] = false,
-					["convo"] = "|Kf283|k00000000000|k",
+					["convo"] = "|Kf207|k00000000000|k",
 				}, -- [34]
 				{
 					["type"] = 1,
-					["time"] = 1316375372,
-					["from"] = "Oxshield",
-					["msg"] = "or the vibrator?",
+					["time"] = 1315958555,
+					["from"] = "Gacrux",
+					["msg"] = "lol",
 					["inbound"] = false,
-					["convo"] = "|Kf283|k00000000000|k",
+					["convo"] = "|Kf207|k00000000000|k",
 				}, -- [35]
 				{
 					["type"] = 1,
-					["time"] = 1316375385,
-					["from"] = "Oxshield",
-					["msg"] = "lol",
+					["time"] = 1315958557,
+					["from"] = "Gacrux",
+					["msg"] = "well do it then",
 					["inbound"] = false,
-					["convo"] = "|Kf283|k00000000000|k",
+					["convo"] = "|Kf207|k00000000000|k",
 				}, -- [36]
 				{
 					["type"] = 1,
-					["time"] = 1316375387,
-					["from"] = "Oxshield",
-					["msg"] = "hrm i don't know",
+					["time"] = 1315958579,
+					["from"] = "Gacrux",
+					["msg"] = "having something that will make you happy within your grasp.. i wouldn't be able to say no, i don't think",
 					["inbound"] = false,
-					["convo"] = "|Kf283|k00000000000|k",
+					["convo"] = "|Kf207|k00000000000|k",
 				}, -- [37]
 				{
 					["type"] = 1,
-					["time"] = 1316375404,
-					["from"] = "Oxshield",
-					["msg"] = "k",
+					["time"] = 1315958697,
+					["from"] = "Gacrux",
+					["msg"] = "which one?",
 					["inbound"] = false,
-					["convo"] = "|Kf283|k00000000000|k",
+					["convo"] = "|Kf207|k00000000000|k",
 				}, -- [38]
 				{
 					["type"] = 1,
-					["time"] = 1316375406,
-					["from"] = "Oxshield",
-					["msg"] = "good plan",
+					["time"] = 1315958726,
+					["from"] = "Gacrux",
+					["msg"] = "yeah i guess",
 					["inbound"] = false,
-					["convo"] = "|Kf283|k00000000000|k",
+					["convo"] = "|Kf207|k00000000000|k",
 				}, -- [39]
 				{
 					["type"] = 1,
-					["time"] = 1316377052,
-					["from"] = "Oxshield",
-					["msg"] = ":O",
+					["time"] = 1315958727,
+					["from"] = "Gacrux",
+					["msg"] = "lol",
 					["inbound"] = false,
-					["convo"] = "|Kf283|k00000000000|k",
+					["convo"] = "|Kf207|k00000000000|k",
 				}, -- [40]
 				{
 					["type"] = 1,
-					["time"] = 1316377056,
-					["from"] = "Oxshield",
-					["msg"] = "sound better now?",
+					["time"] = 1315958731,
+					["from"] = "Gacrux",
+					["msg"] = "lol",
 					["inbound"] = false,
-					["convo"] = "|Kf283|k00000000000|k",
+					["convo"] = "|Kf207|k00000000000|k",
 				}, -- [41]
 				{
 					["type"] = 1,
-					["time"] = 1316377222,
-					["from"] = "Oxshield",
-					["msg"] = "yay!",
+					["time"] = 1315958732,
+					["from"] = "Gacrux",
+					["msg"] = "It's okay",
 					["inbound"] = false,
-					["convo"] = "|Kf283|k00000000000|k",
+					["convo"] = "|Kf207|k00000000000|k",
 				}, -- [42]
 				{
 					["type"] = 1,
-					["time"] = 1316377314,
-					["from"] = "Oxshield",
-					["msg"] = "ummm no?",
+					["time"] = 1315958734,
+					["from"] = "Gacrux",
+					["msg"] = "I have more",
 					["inbound"] = false,
-					["convo"] = "|Kf283|k00000000000|k",
+					["convo"] = "|Kf207|k00000000000|k",
 				}, -- [43]
 				{
 					["type"] = 1,
-					["time"] = 1316377328,
-					["from"] = "Oxshield",
-					["msg"] = "ent?",
+					["time"] = 1315958788,
+					["from"] = "Gacrux",
+					["msg"] = "I have just as many problems.. but i lack the cute",
 					["inbound"] = false,
-					["convo"] = "|Kf283|k00000000000|k",
+					["convo"] = "|Kf207|k00000000000|k",
 				}, -- [44]
 				{
 					["type"] = 1,
-					["time"] = 1316377331,
-					["from"] = "Oxshield",
-					["msg"] = "oh",
+					["time"] = 1315958830,
+					["from"] = "Gacrux",
+					["msg"] = "It's true!",
 					["inbound"] = false,
-					["convo"] = "|Kf283|k00000000000|k",
+					["convo"] = "|Kf207|k00000000000|k",
 				}, -- [45]
 				{
 					["type"] = 1,
-					["time"] = 1316377334,
-					["from"] = "Oxshield",
-					["msg"] = "hunh",
+					["time"] = 1315958840,
+					["from"] = "Gacrux",
+					["msg"] = "never understimate how powerful being attractive is",
 					["inbound"] = false,
-					["convo"] = "|Kf283|k00000000000|k",
+					["convo"] = "|Kf207|k00000000000|k",
 				}, -- [46]
 				{
 					["type"] = 1,
-					["time"] = 1316377336,
-					["from"] = "Oxshield",
-					["msg"] = "i don't know",
+					["time"] = 1315959568,
+					["from"] = "Gacrux",
+					["msg"] = "it smells like beautiful woman? :O",
 					["inbound"] = false,
-					["convo"] = "|Kf283|k00000000000|k",
+					["convo"] = "|Kf207|k00000000000|k",
 				}, -- [47]
 				{
 					["type"] = 1,
-					["time"] = 1316377341,
-					["from"] = "Oxshield",
-					["msg"] = "wasn't me!",
+					["time"] = 1315959578,
+					["from"] = "Gacrux",
+					["msg"] = "And.. I'm not sure, depends on which abilities you have, it's probably not too bad",
 					["inbound"] = false,
-					["convo"] = "|Kf283|k00000000000|k",
+					["convo"] = "|Kf207|k00000000000|k",
 				}, -- [48]
 				{
 					["type"] = 1,
-					["time"] = 1316377536,
-					["from"] = "Oxshield",
-					["msg"] = "stephen? ",
+					["time"] = 1315959589,
+					["from"] = "Gacrux",
+					["msg"] = "do you have swipe?",
 					["inbound"] = false,
-					["convo"] = "|Kf283|k00000000000|k",
+					["convo"] = "|Kf207|k00000000000|k",
 				}, -- [49]
 				{
 					["type"] = 1,
-					["time"] = 1316377541,
-					["from"] = "Oxshield",
-					["msg"] = "oh",
+					["time"] = 1315959619,
+					["from"] = "Gacrux",
+					["msg"] = "k you'll be fine then",
 					["inbound"] = false,
-					["convo"] = "|Kf283|k00000000000|k",
+					["convo"] = "|Kf207|k00000000000|k",
 				}, -- [50]
 				{
 					["type"] = 1,
-					["time"] = 1316377543,
-					["from"] = "Oxshield",
-					["msg"] = "i didn't know he was in the guild!",
+					["time"] = 1315959664,
+					["from"] = "Gacrux",
+					["msg"] = "just use it a lot haha",
 					["inbound"] = false,
-					["convo"] = "|Kf283|k00000000000|k",
+					["convo"] = "|Kf207|k00000000000|k",
 				}, -- [51]
 				{
 					["type"] = 1,
-					["time"] = 1316377554,
-					["from"] = "Oxshield",
-					["msg"] = "what was his toon name? lol",
+					["time"] = 1315959698,
+					["from"] = "Gacrux",
+					["msg"] = "swipe* ?",
 					["inbound"] = false,
-					["convo"] = "|Kf283|k00000000000|k",
+					["convo"] = "|Kf207|k00000000000|k",
 				}, -- [52]
 				{
 					["type"] = 1,
-					["time"] = 1316377605,
-					["from"] = "Oxshield",
-					["msg"] = "lol wait so you asked him to get kicked?",
+					["time"] = 1315959729,
+					["from"] = "Gacrux",
+					["msg"] = "and yeah, just use mangle on cooldown, maul when you have lots of rage, and swipe the rest of the time",
 					["inbound"] = false,
-					["convo"] = "|Kf283|k00000000000|k",
+					["convo"] = "|Kf207|k00000000000|k",
 				}, -- [53]
 				{
 					["type"] = 1,
-					["time"] = 1316377607,
-					["from"] = "Oxshield",
-					["msg"] = "i'm confused lol",
+					["time"] = 1315959734,
+					["from"] = "Gacrux",
+					["msg"] = "haha",
 					["inbound"] = false,
-					["convo"] = "|Kf283|k00000000000|k",
+					["convo"] = "|Kf207|k00000000000|k",
 				}, -- [54]
 				{
 					["type"] = 1,
-					["time"] = 1316377617,
-					["from"] = "Oxshield",
-					["msg"] = "wtf",
+					["time"] = 1315959736,
+					["from"] = "Gacrux",
+					["msg"] = "alright :)",
 					["inbound"] = false,
-					["convo"] = "|Kf283|k00000000000|k",
+					["convo"] = "|Kf207|k00000000000|k",
 				}, -- [55]
 				{
 					["type"] = 1,
-					["time"] = 1316377624,
-					["from"] = "Oxshield",
-					["msg"] = "did you say he played freuqently? or infrequently?",
+					["time"] = 1315959737,
+					["from"] = "Gacrux",
+					["msg"] = "sec",
 					["inbound"] = false,
-					["convo"] = "|Kf283|k00000000000|k",
+					["convo"] = "|Kf207|k00000000000|k",
 				}, -- [56]
-				{
-					["type"] = 1,
-					["time"] = 1316377640,
-					["from"] = "Oxshield",
-					["msg"] = "lol",
-					["inbound"] = false,
-					["convo"] = "|Kf283|k00000000000|k",
-				}, -- [57]
-				{
-					["type"] = 1,
-					["time"] = 1316377647,
-					["from"] = "Oxshield",
-					["msg"] = "why didn't i ever notice that?",
-					["inbound"] = false,
-					["convo"] = "|Kf283|k00000000000|k",
-				}, -- [58]
-				{
-					["type"] = 1,
-					["time"] = 1316377675,
-					["from"] = "Oxshield",
-					["msg"] = "oh gotcha",
-					["inbound"] = false,
-					["convo"] = "|Kf283|k00000000000|k",
-				}, -- [59]
-				{
-					["type"] = 1,
-					["time"] = 1316377681,
-					["from"] = "Oxshield",
-					["msg"] = "well does he know yet?",
-					["inbound"] = false,
-					["convo"] = "|Kf283|k00000000000|k",
-				}, -- [60]
-				{
-					["type"] = 1,
-					["time"] = 1316377684,
-					["from"] = "Oxshield",
-					["msg"] = "that he got kicked out? lol",
-					["inbound"] = false,
-					["convo"] = "|Kf283|k00000000000|k",
-				}, -- [61]
-				{
-					["type"] = 1,
-					["time"] = 1316377709,
-					["from"] = "Oxshield",
-					["msg"] = "lol isn't he gonna be like \"um Jamie, why did i get kicked out of your guild?\"",
-					["inbound"] = false,
-					["convo"] = "|Kf283|k00000000000|k",
-				}, -- [62]
-				{
-					["type"] = 1,
-					["time"] = 1316377750,
-					["from"] = "Oxshield",
-					["msg"] = "lol /facepalm",
-					["inbound"] = false,
-					["convo"] = "|Kf283|k00000000000|k",
-				}, -- [63]
-				{
-					["type"] = 1,
-					["time"] = 1316377754,
-					["from"] = "Oxshield",
-					["msg"] = "he's gonna know you're lying to him",
-					["inbound"] = false,
-					["convo"] = "|Kf283|k00000000000|k",
-				}, -- [64]
-				{
-					["type"] = 1,
-					["time"] = 1316377760,
-					["from"] = "Oxshield",
-					["msg"] = "and being mean",
-					["inbound"] = false,
-					["convo"] = "|Kf283|k00000000000|k",
-				}, -- [65]
-				{
-					["type"] = 1,
-					["time"] = 1316377767,
-					["from"] = "Oxshield",
-					["msg"] = "i'm starting to feel bad for him",
-					["inbound"] = false,
-					["convo"] = "|Kf283|k00000000000|k",
-				}, -- [66]
-				{
-					["type"] = 1,
-					["time"] = 1316377806,
-					["from"] = "Oxshield",
-					["msg"] = "well",
-					["inbound"] = false,
-					["convo"] = "|Kf283|k00000000000|k",
-				}, -- [67]
-				{
-					["type"] = 1,
-					["time"] = 1316377809,
-					["from"] = "Oxshield",
-					["msg"] = "he was obviously mad at you",
-					["inbound"] = false,
-					["convo"] = "|Kf283|k00000000000|k",
-				}, -- [68]
-				{
-					["type"] = 1,
-					["time"] = 1316377817,
-					["from"] = "Oxshield",
-					["msg"] = "though that was a little overboard lol",
-					["inbound"] = false,
-					["convo"] = "|Kf283|k00000000000|k",
-				}, -- [69]
-				{
-					["type"] = 1,
-					["time"] = 1316377837,
-					["from"] = "Oxshield",
-					["msg"] = "but he's kinda getting screwed, and rather than leave him you're just being a jerk to him and leeching off him",
-					["inbound"] = false,
-					["convo"] = "|Kf283|k00000000000|k",
-				}, -- [70]
-				{
-					["type"] = 1,
-					["time"] = 1316377903,
-					["from"] = "Oxshield",
-					["msg"] = "well no, but you shouldn't be a jerk about it.",
-					["inbound"] = false,
-					["convo"] = "|Kf283|k00000000000|k",
-				}, -- [71]
-				{
-					["type"] = 1,
-					["time"] = 1316377922,
-					["from"] = "Oxshield",
-					["msg"] = "Okay, that's fair",
-					["inbound"] = false,
-					["convo"] = "|Kf283|k00000000000|k",
-				}, -- [72]
-				{
-					["type"] = 1,
-					["time"] = 1316377927,
-					["from"] = "Oxshield",
-					["msg"] = "I didn't know he was treating you like shit",
-					["inbound"] = false,
-					["convo"] = "|Kf283|k00000000000|k",
-				}, -- [73]
-				{
-					["type"] = 1,
-					["time"] = 1316377968,
-					["from"] = "Oxshield",
-					["msg"] = "oh",
-					["inbound"] = false,
-					["convo"] = "|Kf283|k00000000000|k",
-				}, -- [74]
-				{
-					["type"] = 1,
-					["time"] = 1316377975,
-					["from"] = "Oxshield",
-					["msg"] = "Don't you do the same to him now?",
-					["inbound"] = false,
-					["convo"] = "|Kf283|k00000000000|k",
-				}, -- [75]
-				{
-					["type"] = 1,
-					["time"] = 1316377981,
-					["from"] = "Oxshield",
-					["msg"] = "And I thought he didn't play much, lol",
-					["inbound"] = false,
-					["convo"] = "|Kf283|k00000000000|k",
-				}, -- [76]
-				{
-					["type"] = 1,
-					["time"] = 1316377994,
-					["from"] = "Oxshield",
-					["msg"] = "oh okay",
-					["inbound"] = false,
-					["convo"] = "|Kf283|k00000000000|k",
-				}, -- [77]
-				{
-					["type"] = 1,
-					["time"] = 1316378003,
-					["from"] = "Oxshield",
-					["msg"] = "and wait a second, I thought he wouldn't sleep with *you*? O_o",
-					["inbound"] = false,
-					["convo"] = "|Kf283|k00000000000|k",
-				}, -- [78]
-				{
-					["type"] = 1,
-					["time"] = 1316378020,
-					["from"] = "Oxshield",
-					["msg"] = "oh",
-					["inbound"] = false,
-					["convo"] = "|Kf283|k00000000000|k",
-				}, -- [79]
-				{
-					["type"] = 1,
-					["time"] = 1316378023,
-					["from"] = "Oxshield",
-					["msg"] = "but now you don't want to?",
-					["inbound"] = false,
-					["convo"] = "|Kf283|k00000000000|k",
-				}, -- [80]
-				{
-					["type"] = 1,
-					["time"] = 1316378028,
-					["from"] = "Oxshield",
-					["msg"] = "or not with him? lol",
-					["inbound"] = false,
-					["convo"] = "|Kf283|k00000000000|k",
-				}, -- [81]
-				{
-					["type"] = 1,
-					["time"] = 1316378068,
-					["from"] = "Oxshield",
-					["msg"] = "lol ugh",
-					["inbound"] = false,
-					["convo"] = "|Kf283|k00000000000|k",
-				}, -- [82]
-				{
-					["type"] = 1,
-					["time"] = 1316378076,
-					["from"] = "Oxshield",
-					["msg"] = "Well, i hope you are communicating to him and telling him that",
-					["inbound"] = false,
-					["convo"] = "|Kf283|k00000000000|k",
-				}, -- [83]
-				{
-					["type"] = 1,
-					["time"] = 1316378089,
-					["from"] = "Oxshield",
-					["msg"] = "and not letting him just be like \"i don't know what's wrong\" and then one day you'll be like \"oh by the way, goodbye!\"",
-					["inbound"] = false,
-					["convo"] = "|Kf283|k00000000000|k",
-				}, -- [84]
-				{
-					["type"] = 1,
-					["time"] = 1316378180,
-					["from"] = "Oxshield",
-					["msg"] = "ah",
-					["inbound"] = false,
-					["convo"] = "|Kf283|k00000000000|k",
-				}, -- [85]
-				{
-					["type"] = 1,
-					["time"] = 1316378204,
-					["from"] = "Oxshield",
-					["msg"] = "Well I guess what i'm saying is, if you have given up on making things work, you should probably tell him so he doesn't think otherwise",
-					["inbound"] = false,
-					["convo"] = "|Kf283|k00000000000|k",
-				}, -- [86]
-				{
-					["type"] = 1,
-					["time"] = 1316378208,
-					["from"] = "Oxshield",
-					["msg"] = "but yeah",
-					["inbound"] = false,
-					["convo"] = "|Kf283|k00000000000|k",
-				}, -- [87]
-				{
-					["type"] = 1,
-					["time"] = 1316378239,
-					["from"] = "Oxshield",
-					["msg"] = "me and my ex Kristine fought a lot like that, and it was dumb, and i never did anything on purpose to hurt her, but she obviously hated what iw as (or wasn't) doing",
-					["inbound"] = false,
-					["convo"] = "|Kf283|k00000000000|k",
-				}, -- [88]
-				{
-					["type"] = 1,
-					["time"] = 1316378264,
-					["from"] = "Oxshield",
-					["msg"] = "of course, now she dated a guy who was actually crazy, and she realized i wans't so bad ;)",
-					["inbound"] = false,
-					["convo"] = "|Kf283|k00000000000|k",
-				}, -- [89]
-				{
-					["type"] = 1,
-					["time"] = 1316378364,
-					["from"] = "Oxshield",
-					["msg"] = "Well, i'm just saying",
-					["inbound"] = false,
-					["convo"] = "|Kf283|k00000000000|k",
-				}, -- [90]
-				{
-					["type"] = 1,
-					["time"] = 1316378366,
-					["from"] = "Oxshield",
-					["msg"] = "communicate",
-					["inbound"] = false,
-					["convo"] = "|Kf283|k00000000000|k",
-				}, -- [91]
-				{
-					["type"] = 1,
-					["time"] = 1316378370,
-					["from"] = "Oxshield",
-					["msg"] = "it's the best thing",
-					["inbound"] = false,
-					["convo"] = "|Kf283|k00000000000|k",
-				}, -- [92]
-				{
-					["type"] = 1,
-					["time"] = 1316378371,
-					["from"] = "Oxshield",
-					["msg"] = "lol",
-					["inbound"] = false,
-					["convo"] = "|Kf283|k00000000000|k",
-				}, -- [93]
-				{
-					["type"] = 1,
-					["time"] = 1316378377,
-					["from"] = "Oxshield",
-					["msg"] = "or if you're done, then be done",
-					["inbound"] = false,
-					["convo"] = "|Kf283|k00000000000|k",
-				}, -- [94]
-				{
-					["type"] = 1,
-					["time"] = 1316378380,
-					["from"] = "Oxshield",
-					["msg"] = "don't let him think otherwise",
-					["inbound"] = false,
-					["convo"] = "|Kf283|k00000000000|k",
-				}, -- [95]
-				{
-					["type"] = 1,
-					["time"] = 1316378395,
-					["from"] = "Oxshield",
-					["msg"] = "I know",
-					["inbound"] = false,
-					["convo"] = "|Kf283|k00000000000|k",
-				}, -- [96]
-				{
-					["type"] = 1,
-					["time"] = 1316378401,
-					["from"] = "Oxshield",
-					["msg"] = "Well",
-					["inbound"] = false,
-					["convo"] = "|Kf283|k00000000000|k",
-				}, -- [97]
-				{
-					["type"] = 1,
-					["time"] = 1316378407,
-					["from"] = "Oxshield",
-					["msg"] = "go live with one of the people who have offered",
-					["inbound"] = false,
-					["convo"] = "|Kf283|k00000000000|k",
-				}, -- [98]
-				{
-					["type"] = 1,
-					["time"] = 1316378420,
-					["from"] = "Oxshield",
-					["msg"] = "oh, i thought others had",
-					["inbound"] = false,
-					["convo"] = "|Kf283|k00000000000|k",
-				}, -- [99]
-				{
-					["type"] = 1,
-					["time"] = 1316378461,
-					["from"] = "Oxshield",
-					["msg"] = "well blah",
-					["inbound"] = false,
-					["convo"] = "|Kf283|k00000000000|k",
-				}, -- [100]
-				{
-					["type"] = 1,
-					["time"] = 1316378466,
-					["from"] = "Oxshield",
-					["msg"] = "Make Jer invite you",
-					["inbound"] = false,
-					["convo"] = "|Kf283|k00000000000|k",
-				}, -- [101]
-				{
-					["type"] = 1,
-					["time"] = 1316378467,
-					["from"] = "Oxshield",
-					["msg"] = "lol",
-					["inbound"] = false,
-					["convo"] = "|Kf283|k00000000000|k",
-				}, -- [102]
-				{
-					["type"] = 1,
-					["time"] = 1316378539,
-					["from"] = "Oxshield",
-					["msg"] = "Jer doesnt'? lol",
-					["inbound"] = false,
-					["convo"] = "|Kf283|k00000000000|k",
-				}, -- [103]
-				{
-					["type"] = 1,
-					["time"] = 1316378546,
-					["from"] = "Oxshield",
-					["msg"] = "go live with Piggy",
-					["inbound"] = false,
-					["convo"] = "|Kf283|k00000000000|k",
-				}, -- [104]
-				{
-					["type"] = 1,
-					["time"] = 1316378573,
-					["from"] = "Oxshield",
-					["msg"] = "It sounds like Piggy has his own place.. haha",
-					["inbound"] = false,
-					["convo"] = "|Kf283|k00000000000|k",
-				}, -- [105]
-				{
-					["type"] = 1,
-					["time"] = 1316378659,
-					["from"] = "Oxshield",
-					["msg"] = "well he is right now",
-					["inbound"] = false,
-					["convo"] = "|Kf283|k00000000000|k",
-				}, -- [106]
-				{
-					["type"] = 1,
-					["time"] = 1316378671,
-					["from"] = "Oxshield",
-					["msg"] = "but doesn't he have his own place?",
-					["inbound"] = false,
-					["convo"] = "|Kf283|k00000000000|k",
-				}, -- [107]
-				{
-					["type"] = 1,
-					["time"] = 1316378676,
-					["from"] = "Oxshield",
-					["msg"] = "maybe not.. i've never asked",
-					["inbound"] = false,
-					["convo"] = "|Kf283|k00000000000|k",
-				}, -- [108]
-				{
-					["type"] = 1,
-					["time"] = 1316378682,
-					["from"] = "Oxshield",
-					["msg"] = "why doesn't he have a girlfriend? lol",
-					["inbound"] = false,
-					["convo"] = "|Kf283|k00000000000|k",
-				}, -- [109]
-				{
-					["type"] = 1,
-					["time"] = 1316378802,
-					["from"] = "Oxshield",
-					["msg"] = "where was he when you visited him last? lol",
-					["inbound"] = false,
-					["convo"] = "|Kf283|k00000000000|k",
-				}, -- [110]
-				{
-					["type"] = 1,
-					["time"] = 1316378838,
-					["from"] = "Oxshield",
-					["msg"] = "oooh i didn't realize he was living with his mom",
-					["inbound"] = false,
-					["convo"] = "|Kf283|k00000000000|k",
-				}, -- [111]
-				{
-					["type"] = 1,
-					["time"] = 1316378839,
-					["from"] = "Oxshield",
-					["msg"] = "lawl",
-					["inbound"] = false,
-					["convo"] = "|Kf283|k00000000000|k",
-				}, -- [112]
-				{
-					["type"] = 1,
-					["time"] = 1316378841,
-					["from"] = "Oxshield",
-					["msg"] = " /facepalm",
-					["inbound"] = false,
-					["convo"] = "|Kf283|k00000000000|k",
-				}, -- [113]
-				{
-					["type"] = 1,
-					["time"] = 1316379059,
-					["from"] = "Oxshield",
-					["msg"] = "Ah well, I don't know.",
-					["inbound"] = false,
-					["convo"] = "|Kf283|k00000000000|k",
-				}, -- [114]
-				{
-					["type"] = 1,
-					["time"] = 1316379065,
-					["from"] = "Oxshield",
-					["msg"] = "I'd help you if I could :(",
-					["inbound"] = false,
-					["convo"] = "|Kf283|k00000000000|k",
-				}, -- [115]
-				{
-					["type"] = 1,
-					["time"] = 1316379076,
-					["from"] = "Oxshield",
-					["msg"] = "If i was skinny and much better looking, lol ;)",
-					["inbound"] = false,
-					["convo"] = "|Kf283|k00000000000|k",
-				}, -- [116]
-				{
-					["type"] = 1,
-					["time"] = 1316380062,
-					["from"] = "Oxshield",
-					["msg"] = "test",
-					["inbound"] = false,
-					["convo"] = "|Kf283|k00000000000|k",
-				}, -- [117]
-				{
-					["type"] = 1,
-					["time"] = 1316380068,
-					["from"] = "Oxshield",
-					["msg"] = "sorry, just checking the time",
-					["inbound"] = false,
-					["convo"] = "|Kf283|k00000000000|k",
-				}, -- [118]
-				{
-					["type"] = 1,
-					["time"] = 1316380083,
-					["from"] = "Oxshield",
-					["msg"] = "O_O",
-					["inbound"] = false,
-					["convo"] = "|Kf283|k00000000000|k",
-				}, -- [119]
-				{
-					["type"] = 1,
-					["time"] = 1316380087,
-					["from"] = "Oxshield",
-					["msg"] = "Are you high again? :P",
-					["inbound"] = false,
-					["convo"] = "|Kf283|k00000000000|k",
-				}, -- [120]
-				{
-					["type"] = 1,
-					["time"] = 1316380101,
-					["from"] = "Oxshield",
-					["msg"] = "ah pretty good!",
-					["inbound"] = false,
-					["convo"] = "|Kf283|k00000000000|k",
-				}, -- [121]
-				{
-					["type"] = 1,
-					["time"] = 1316380107,
-					["from"] = "Oxshield",
-					["msg"] = "my head is wonky from too much sleep and too many drugs",
-					["inbound"] = false,
-					["convo"] = "|Kf283|k00000000000|k",
-				}, -- [122]
-				{
-					["type"] = 1,
-					["time"] = 1316380112,
-					["from"] = "Oxshield",
-					["msg"] = "but i'm good otherwise :)",
-					["inbound"] = false,
-					["convo"] = "|Kf283|k00000000000|k",
-				}, -- [123]
-				{
-					["type"] = 1,
-					["time"] = 1316380131,
-					["from"] = "Oxshield",
-					["msg"] = "my ex, Kristine, has expressed possible interest in dating me again",
-					["inbound"] = false,
-					["convo"] = "|Kf283|k00000000000|k",
-				}, -- [124]
-				{
-					["type"] = 1,
-					["time"] = 1316380144,
-					["from"] = "Oxshield",
-					["msg"] = "and I finally got the phone number of this cute girl Mercades",
-					["inbound"] = false,
-					["convo"] = "|Kf283|k00000000000|k",
-				}, -- [125]
-				{
-					["type"] = 1,
-					["time"] = 1316380205,
-					["from"] = "Oxshield",
-					["msg"] = "yeah but i guess she's gonna get married on monday haha",
-					["inbound"] = false,
-					["convo"] = "|Kf283|k00000000000|k",
-				}, -- [126]
-				{
-					["type"] = 1,
-					["time"] = 1316380214,
-					["from"] = "Oxshield",
-					["msg"] = "and her boyfriend just got her named tattooed on his chest",
-					["inbound"] = false,
-					["convo"] = "|Kf283|k00000000000|k",
-				}, -- [127]
-				{
-					["type"] = 1,
-					["time"] = 1316380218,
-					["from"] = "Oxshield",
-					["msg"] = "so ig uess i should leave that alone..",
-					["inbound"] = false,
-					["convo"] = "|Kf283|k00000000000|k",
-				}, -- [128]
-				{
-					["type"] = 1,
-					["time"] = 1316380258,
-					["from"] = "Oxshield",
-					["msg"] = ":O",
-					["inbound"] = false,
-					["convo"] = "|Kf283|k00000000000|k",
-				}, -- [129]
-				{
-					["type"] = 1,
-					["time"] = 1316380260,
-					["from"] = "Oxshield",
-					["msg"] = "you should!",
-					["inbound"] = false,
-					["convo"] = "|Kf283|k00000000000|k",
-				}, -- [130]
-				{
-					["type"] = 1,
-					["time"] = 1316380365,
-					["from"] = "Oxshield",
-					["msg"] = "Aww, why?",
-					["inbound"] = false,
-					["convo"] = "|Kf283|k00000000000|k",
-				}, -- [131]
-				{
-					["type"] = 1,
-					["time"] = 1316380434,
-					["from"] = "Oxshield",
-					["msg"] = "You can come live in my spare room, and I won't molest you, and you can find me women!",
-					["inbound"] = false,
-					["convo"] = "|Kf283|k00000000000|k",
-				}, -- [132]
-				{
-					["type"] = 1,
-					["time"] = 1316382651,
-					["from"] = "Oxshield",
-					["msg"] = ":O",
-					["inbound"] = false,
-					["convo"] = "|Kf283|k00000000000|k",
-				}, -- [133]
-				{
-					["type"] = 1,
-					["time"] = 1316382954,
-					["from"] = "Oxshield",
-					["msg"] = "yum",
-					["inbound"] = false,
-					["convo"] = "|Kf283|k00000000000|k",
-				}, -- [134]
-				{
-					["type"] = 1,
-					["time"] = 1316382956,
-					["from"] = "Oxshield",
-					["msg"] = "*hugs*",
-					["inbound"] = false,
-					["convo"] = "|Kf283|k00000000000|k",
-				}, -- [135]
-				{
-					["type"] = 1,
-					["time"] = 1316383596,
-					["from"] = "Oxshield",
-					["msg"] = " /lick :O",
-					["inbound"] = false,
-					["convo"] = "|Kf283|k00000000000|k",
-				}, -- [136]
-				["info"] = {
-				},
-			},
-			["Thislilpiggy"] = {
-				{
-					["type"] = 1,
-					["time"] = 1316379828,
-					["from"] = "Thislilpiggy",
-					["msg"] = "poke poke mofo",
-					["inbound"] = true,
-					["convo"] = "Thislilpiggy",
-				}, -- [1]
-				["info"] = {
-				},
-			},
-			["|Kf303|k0000000000000000|k"] = {
-				{
-					["type"] = 1,
-					["time"] = 1316369980,
-					["from"] = "Oxshield",
-					["msg"] = "nice!",
-					["inbound"] = false,
-					["convo"] = "|Kf303|k0000000000000000|k",
-				}, -- [1]
-				{
-					["type"] = 1,
-					["time"] = 1316369984,
-					["from"] = "Oxshield",
-					["msg"] = " |Hachievement:73:0700000004971D0B:1:9:18:11:4294967295:4294967295:4294967295:4294967295|h[Disgracin' The Basin]|h lol",
-					["inbound"] = false,
-					["convo"] = "|Kf303|k0000000000000000|k",
-				}, -- [2]
-				["info"] = {
-				},
-			},
-			["|Kf1394|k00000000000|k"] = {
-				{
-					["type"] = 1,
-					["time"] = 1317007508,
-					["from"] = "Oxshield",
-					["msg"] = "nope :(",
-					["inbound"] = false,
-					["convo"] = "|Kf1394|k00000000000|k",
-				}, -- [1]
-				{
-					["type"] = 1,
-					["time"] = 1317007510,
-					["from"] = "Oxshield",
-					["msg"] = "reconnect?",
-					["inbound"] = false,
-					["convo"] = "|Kf1394|k00000000000|k",
-				}, -- [2]
-				["info"] = {
-				},
-			},
-			["|Kf304|k0000000000000|k"] = {
-				{
-					["type"] = 1,
-					["time"] = 1316380316,
-					["from"] = "Oxshield",
-					["msg"] = "Hey man!",
-					["inbound"] = false,
-					["convo"] = "|Kf304|k0000000000000|k",
-				}, -- [1]
-				{
-					["type"] = 1,
-					["time"] = 1316380331,
-					["from"] = "Oxshield",
-					["msg"] = "good morning",
-					["inbound"] = false,
-					["convo"] = "|Kf304|k0000000000000|k",
-				}, -- [2]
-				{
-					["type"] = 1,
-					["time"] = 1316380402,
-					["from"] = "Oxshield",
-					["msg"] = "Leveling cows again!",
-					["inbound"] = false,
-					["convo"] = "|Kf304|k0000000000000|k",
-				}, -- [3]
-				{
-					["type"] = 1,
-					["time"] = 1316380409,
-					["from"] = "Oxshield",
-					["msg"] = "but we'll probably be done in an hour",
-					["inbound"] = false,
-					["convo"] = "|Kf304|k0000000000000|k",
-				}, -- [4]
-				{
-					["type"] = 1,
-					["time"] = 1316380513,
-					["from"] = "Oxshield",
-					["msg"] = "haha",
-					["inbound"] = false,
-					["convo"] = "|Kf304|k0000000000000|k",
-				}, -- [5]
-				{
-					["type"] = 1,
-					["time"] = 1316380517,
-					["from"] = "Oxshield",
-					["msg"] = "alright fair enough",
-					["inbound"] = false,
-					["convo"] = "|Kf304|k0000000000000|k",
-				}, -- [6]
-				{
-					["type"] = 1,
-					["time"] = 1316381338,
-					["from"] = "Oxshield",
-					["msg"] = "so",
-					["inbound"] = false,
-					["convo"] = "|Kf304|k0000000000000|k",
-				}, -- [7]
-				{
-					["type"] = 1,
-					["time"] = 1316381342,
-					["from"] = "Oxshield",
-					["msg"] = "imo",
-					["inbound"] = false,
-					["convo"] = "|Kf304|k0000000000000|k",
-				}, -- [8]
-				{
-					["type"] = 1,
-					["time"] = 1316381344,
-					["from"] = "Oxshield",
-					["msg"] = "after xmog",
-					["inbound"] = false,
-					["convo"] = "|Kf304|k0000000000000|k",
-				}, -- [9]
-				{
-					["type"] = 1,
-					["time"] = 1316381350,
-					["from"] = "Oxshield",
-					["msg"] = "any shield tank using a one hand mace",
-					["inbound"] = false,
-					["convo"] = "|Kf304|k0000000000000|k",
-				}, -- [10]
-				{
-					["type"] = 1,
-					["time"] = 1316381355,
-					["from"] = "Oxshield",
-					["msg"] = "has got to be using this:  |Hitem:68194:0:0:0:0:0:0:445999728:16:0|h[Oggleflint's Inspirer]|h",
-					["inbound"] = false,
-					["convo"] = "|Kf304|k0000000000000|k",
-				}, -- [11]
-				{
-					["type"] = 1,
-					["time"] = 1316381378,
-					["from"] = "Oxshield",
-					["msg"] = "lol i laughed pretty good when i saw someone with it",
-					["inbound"] = false,
-					["convo"] = "|Kf304|k0000000000000|k",
-				}, -- [12]
-				{
-					["type"] = 1,
-					["time"] = 1316381417,
-					["from"] = "Oxshield",
-					["msg"] = "so how are you today? otherwise",
-					["inbound"] = false,
-					["convo"] = "|Kf304|k0000000000000|k",
-				}, -- [13]
-				{
-					["type"] = 1,
-					["time"] = 1316381450,
-					["from"] = "Oxshield",
-					["msg"] = "lol oh?",
-					["inbound"] = false,
-					["convo"] = "|Kf304|k0000000000000|k",
-				}, -- [14]
-				{
-					["type"] = 1,
-					["time"] = 1316381453,
-					["from"] = "Oxshield",
-					["msg"] = "why was it wasted?",
-					["inbound"] = false,
-					["convo"] = "|Kf304|k0000000000000|k",
-				}, -- [15]
-				{
-					["type"] = 1,
-					["time"] = 1316381508,
-					["from"] = "Oxshield",
-					["msg"] = "hahaha",
-					["inbound"] = false,
-					["convo"] = "|Kf304|k0000000000000|k",
-				}, -- [16]
-				{
-					["type"] = 1,
-					["time"] = 1316381509,
-					["from"] = "Oxshield",
-					["msg"] = "sorry",
-					["inbound"] = false,
-					["convo"] = "|Kf304|k0000000000000|k",
-				}, -- [17]
-				{
-					["type"] = 1,
-					["time"] = 1316381515,
-					["from"] = "Oxshield",
-					["msg"] = "what exactly qualifies as the history of graphic design/",
-					["inbound"] = false,
-					["convo"] = "|Kf304|k0000000000000|k",
-				}, -- [18]
-				{
-					["type"] = 1,
-					["time"] = 1316381517,
-					["from"] = "Oxshield",
-					["msg"] = "?",
-					["inbound"] = false,
-					["convo"] = "|Kf304|k0000000000000|k",
-				}, -- [19]
-				{
-					["type"] = 1,
-					["time"] = 1316381540,
-					["from"] = "Oxshield",
-					["msg"] = "\"So like, first there was ascii art. And then like.. we got 4 bit GIF and the world rejoiced, except for the guys still on the 400 baud modems.\"",
-					["inbound"] = false,
-					["convo"] = "|Kf304|k0000000000000|k",
-				}, -- [20]
-				{
-					["type"] = 1,
-					["time"] = 1316381581,
-					["from"] = "Oxshield",
-					["msg"] = "oh okay",
-					["inbound"] = false,
-					["convo"] = "|Kf304|k0000000000000|k",
-				}, -- [21]
-				{
-					["type"] = 1,
-					["time"] = 1316381589,
-					["from"] = "Oxshield",
-					["msg"] = "is a \"win press\" a real thing? lol",
-					["inbound"] = false,
-					["convo"] = "|Kf304|k0000000000000|k",
-				}, -- [22]
-				{
-					["type"] = 1,
-					["time"] = 1316381594,
-					["from"] = "Oxshield",
-					["msg"] = "lolol",
-					["inbound"] = false,
-					["convo"] = "|Kf304|k0000000000000|k",
-				}, -- [23]
-				{
-					["type"] = 1,
-					["time"] = 1316381654,
-					["from"] = "Oxshield",
-					["msg"] = "haha",
-					["inbound"] = false,
-					["convo"] = "|Kf304|k0000000000000|k",
-				}, -- [24]
-				{
-					["type"] = 1,
-					["time"] = 1316381659,
-					["from"] = "Oxshield",
-					["msg"] = "well it's an online quiz.. google it",
-					["inbound"] = false,
-					["convo"] = "|Kf304|k0000000000000|k",
-				}, -- [25]
-				{
-					["type"] = 1,
-					["time"] = 1316381703,
-					["from"] = "Oxshield",
-					["msg"] = "oh okay, lol",
-					["inbound"] = false,
-					["convo"] = "|Kf304|k0000000000000|k",
-				}, -- [26]
-				{
-					["type"] = 1,
-					["time"] = 1316381706,
-					["from"] = "Oxshield",
-					["msg"] = "that sucks man, i'm sorry",
-					["inbound"] = false,
-					["convo"] = "|Kf304|k0000000000000|k",
-				}, -- [27]
-				{
-					["type"] = 1,
-					["time"] = 1316381750,
-					["from"] = "Oxshield",
-					["msg"] = "lol yeah",
-					["inbound"] = false,
-					["convo"] = "|Kf304|k0000000000000|k",
-				}, -- [28]
-				{
-					["type"] = 1,
-					["time"] = 1316381753,
-					["from"] = "Oxshield",
-					["msg"] = "I understand",
-					["inbound"] = false,
-					["convo"] = "|Kf304|k0000000000000|k",
-				}, -- [29]
-				{
-					["type"] = 1,
-					["time"] = 1316381758,
-					["from"] = "Oxshield",
-					["msg"] = "you could have been installing Oracle! :O",
-					["inbound"] = false,
-					["convo"] = "|Kf304|k0000000000000|k",
-				}, -- [30]
-				{
-					["type"] = 1,
-					["time"] = 1316381787,
-					["from"] = "Oxshield",
-					["msg"] = "haha",
-					["inbound"] = false,
-					["convo"] = "|Kf304|k0000000000000|k",
-				}, -- [31]
-				{
-					["type"] = 1,
-					["time"] = 1316381836,
-					["from"] = "Oxshield",
-					["msg"] = "This is important for your future!",
-					["inbound"] = false,
-					["convo"] = "|Kf304|k0000000000000|k",
-				}, -- [32]
-				{
-					["type"] = 1,
-					["time"] = 1316381840,
-					["from"] = "Oxshield",
-					["msg"] = "and.. *I* find it fun",
-					["inbound"] = false,
-					["convo"] = "|Kf304|k0000000000000|k",
-				}, -- [33]
-				{
-					["type"] = 1,
-					["time"] = 1316381914,
-					["from"] = "Oxshield",
-					["msg"] = "lol",
-					["inbound"] = false,
-					["convo"] = "|Kf304|k0000000000000|k",
-				}, -- [34]
-				{
-					["type"] = 1,
-					["time"] = 1316381922,
-					["from"] = "Oxshield",
-					["msg"] = "Well, that'll be better than the guy who says \"um, none\"",
-					["inbound"] = false,
-					["convo"] = "|Kf304|k0000000000000|k",
-				}, -- [35]
-				{
-					["type"] = 1,
-					["time"] = 1316381941,
-					["from"] = "Oxshield",
-					["msg"] = "but I'd suggest something more like \"well I have used Toad to pull reports from a databae, and wrote a few queries myself\"",
-					["inbound"] = false,
-					["convo"] = "|Kf304|k0000000000000|k",
-				}, -- [36]
-				{
-					["type"] = 1,
-					["time"] = 1316382048,
-					["from"] = "Oxshield",
-					["msg"] = "haha",
-					["inbound"] = false,
-					["convo"] = "|Kf304|k0000000000000|k",
-				}, -- [37]
-				["info"] = {
-				},
-			},
-			["|Kf1415|k0000000000000|k"] = {
-				{
-					["type"] = 1,
-					["time"] = 1317007361,
-					["from"] = "Oxshield",
-					["msg"] = "dude terrible timing, right when we get on the cows!",
-					["inbound"] = false,
-					["convo"] = "|Kf1415|k0000000000000|k",
-				}, -- [1]
-				{
-					["type"] = 1,
-					["time"] = 1317007372,
-					["from"] = "Oxshield",
-					["msg"] = "Oh good you're playing that lowbie anyway",
-					["inbound"] = false,
-					["convo"] = "|Kf1415|k0000000000000|k",
-				}, -- [2]
-				{
-					["type"] = 1,
-					["time"] = 1317007377,
-					["from"] = "Oxshield",
-					["msg"] = "our cow alts",
-					["inbound"] = false,
-					["convo"] = "|Kf1415|k0000000000000|k",
-				}, -- [3]
-				{
-					["type"] = 1,
-					["time"] = 1317007384,
-					["from"] = "Oxshield",
-					["msg"] = "me, maso and piggy lol",
-					["inbound"] = false,
-					["convo"] = "|Kf1415|k0000000000000|k",
-				}, -- [4]
-				{
-					["type"] = 1,
-					["time"] = 1317007397,
-					["from"] = "Oxshield",
-					["msg"] = "I played on my lock a bit today",
-					["inbound"] = false,
-					["convo"] = "|Kf1415|k0000000000000|k",
-				}, -- [5]
-				{
-					["type"] = 1,
-					["time"] = 1317007399,
-					["from"] = "Oxshield",
-					["msg"] = "it was fun!",
-					["inbound"] = false,
-					["convo"] = "|Kf1415|k0000000000000|k",
-				}, -- [6]
-				{
-					["type"] = 1,
-					["time"] = 1317007401,
-					["from"] = "Oxshield",
-					["msg"] = "i did well",
-					["inbound"] = false,
-					["convo"] = "|Kf1415|k0000000000000|k",
-				}, -- [7]
-				{
-					["type"] = 1,
-					["time"] = 1317007405,
-					["from"] = "Oxshield",
-					["msg"] = "it felt.. evil, but in a good way",
-					["inbound"] = false,
-					["convo"] = "|Kf1415|k0000000000000|k",
-				}, -- [8]
-				{
-					["type"] = 1,
-					["time"] = 1317007411,
-					["from"] = "Oxshield",
-					["msg"] = "also neverending mana made me happy",
-					["inbound"] = false,
-					["convo"] = "|Kf1415|k0000000000000|k",
-				}, -- [9]
-				{
-					["type"] = 1,
-					["time"] = 1317007412,
-					["from"] = "Oxshield",
-					["msg"] = "84",
-					["inbound"] = false,
-					["convo"] = "|Kf1415|k0000000000000|k",
-				}, -- [10]
-				{
-					["type"] = 1,
-					["time"] = 1317007475,
-					["from"] = "Oxshield",
-					["msg"] = "not really",
-					["inbound"] = false,
-					["convo"] = "|Kf1415|k0000000000000|k",
-				}, -- [11]
-				{
-					["type"] = 1,
-					["time"] = 1317007652,
-					["from"] = "Oxshield",
-					["msg"] = "but, it's fun that in affliction life tap takes 10% hp and restores 60% mana lol",
-					["inbound"] = false,
-					["convo"] = "|Kf1415|k0000000000000|k",
-				}, -- [12]
-				{
-					["type"] = 1,
-					["time"] = 1317007702,
-					["from"] = "Oxshield",
-					["msg"] = "I don't know, it was jsut fun",
-					["inbound"] = false,
-					["convo"] = "|Kf1415|k0000000000000|k",
-				}, -- [13]
-				{
-					["type"] = 1,
-					["time"] = 1317007707,
-					["from"] = "Oxshield",
-					["msg"] = "she's 84 and 70% now",
-					["inbound"] = false,
-					["convo"] = "|Kf1415|k0000000000000|k",
-				}, -- [14]
-				{
-					["type"] = 1,
-					["time"] = 1317007711,
-					["from"] = "Oxshield",
-					["msg"] = "i'll join you when you get there!",
-					["inbound"] = false,
-					["convo"] = "|Kf1415|k0000000000000|k",
-				}, -- [15]
-				{
-					["type"] = 1,
-					["time"] = 1317007793,
-					["from"] = "Oxshield",
-					["msg"] = "sweet!",
-					["inbound"] = false,
-					["convo"] = "|Kf1415|k0000000000000|k",
-				}, -- [16]
-				{
-					["type"] = 1,
-					["time"] = 1317007936,
-					["from"] = "Oxshield",
-					["msg"] = "cool",
-					["inbound"] = false,
-					["convo"] = "|Kf1415|k0000000000000|k",
-				}, -- [17]
-				{
-					["type"] = 1,
-					["time"] = 1317007941,
-					["from"] = "Oxshield",
-					["msg"] = "oh i was sayign earlier about the t13s",
-					["inbound"] = false,
-					["convo"] = "|Kf1415|k0000000000000|k",
-				}, -- [18]
-				{
-					["type"] = 1,
-					["time"] = 1317007966,
-					["from"] = "Oxshield",
-					["msg"] = "people were saying it would allow a rotaitonw here you spammed mind spike and mind blast only while fiend was up",
-					["inbound"] = false,
-					["convo"] = "|Kf1415|k0000000000000|k",
-				}, -- [19]
-				{
-					["type"] = 1,
-					["time"] = 1317007973,
-					["from"] = "Oxshield",
-					["msg"] = "because of all the orbs it would make",
-					["inbound"] = false,
-					["convo"] = "|Kf1415|k0000000000000|k",
-				}, -- [20]
-				{
-					["type"] = 1,
-					["time"] = 1317007977,
-					["from"] = "Oxshield",
-					["msg"] = "sounded fun",
-					["inbound"] = false,
-					["convo"] = "|Kf1415|k0000000000000|k",
-				}, -- [21]
-				{
-					["type"] = 1,
-					["time"] = 1317007978,
-					["from"] = "Oxshield",
-					["msg"] = "lol",
-					["inbound"] = false,
-					["convo"] = "|Kf1415|k0000000000000|k",
-				}, -- [22]
 				["info"] = {
 				},
 			},

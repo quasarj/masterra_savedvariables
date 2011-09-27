@@ -2,6 +2,7 @@
 ACP_Data = {
 	["sorter"] = "Group By Name",
 	["NoRecurse"] = false,
+	["NoChildren"] = true,
 	["AddonSet"] = {
 		{
 			"Altoholic_Agenda", -- [1]
@@ -644,7 +645,6 @@ ACP_Data = {
 			["name"] = "AsetTest",
 		},
 	},
-	["NoChildren"] = true,
 	["collapsed"] = {
 		["DoTimer"] = true,
 		["Overachiever"] = true,

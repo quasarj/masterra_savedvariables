@@ -322,14 +322,21 @@ MBFDB = {
 			},
 		},
 		["Aset - Auchindoun"] = {
-			["MBF_FrameLocation"] = {
-				[3] = -0.0007294638430595603,
-			},
-			["MBFHideMinimapZoomIn"] = true,
-			["altTitle"] = true,
 			["MBFHideMiniMapVoiceChatFrame"] = true,
 			["MBFHideMiniMapWorldMapButton"] = true,
 			["columns_or_rows"] = 1,
+			["MBFHideGameTimeFrame"] = true,
+			["minimapButton"] = {
+				["minimapPos"] = 0,
+				["radius"] = 80,
+			},
+			["disabledMail"] = false,
+			["MBFHideMinimapZoomIn"] = true,
+			["altTitle"] = true,
+			["MBFHideMiniMapTracking"] = true,
+			["MBF_FrameLocation"] = {
+				[3] = -0.0007294638430595603,
+			},
 			["customChildren"] = {
 				"MinimapButtonFrameDragButton", -- [1]
 				"MiniMapMailFrameDisabled", -- [2]
@@ -407,14 +414,7 @@ MBFDB = {
 				"LibDBIcon10_Skada", -- [74]
 				"DroodFocusMinimapButton", -- [75]
 			},
-			["MBFHideGameTimeFrame"] = true,
-			["MBFHideMiniMapTracking"] = true,
 			["grabBlizzButtons"] = true,
-			["minimapButton"] = {
-				["minimapPos"] = 0,
-				["radius"] = 80,
-			},
-			["disabledMail"] = false,
 		},
 		["Pulari - Auchindoun"] = {
 			["MBFHideMiniMapWorldMapButton"] = true,

@@ -6,15 +6,15 @@ RecountDB = {
 		["Chukk - Auchindoun"] = "Chukk - Auchindoun",
 		["Deadset - Auchindoun"] = "Deadset - Auchindoun",
 		["Gacrux - Auchindoun"] = "Gacrux - Auchindoun",
-		["Aonah - Auchindoun"] = "Aonah - Auchindoun",
-		["Pooshield - Thrall"] = "Pooshield - Thrall",
+		["Itsashaman - Arthas"] = "Itsashaman - Arthas",
 		["Wezen - Auchindoun"] = "Wezen - Auchindoun",
+		["Sadr - Auchindoun"] = "Sadr - Auchindoun",
 		["Pooshield - Arthas"] = "Pooshield - Arthas",
+		["Pulari - Auchindoun"] = "Pulari - Auchindoun",
 		["Aset - Auchindoun"] = "Aset - Auchindoun",
 		["Promitto - Auchindoun"] = "Promitto - Auchindoun",
-		["Pulari - Auchindoun"] = "Pulari - Auchindoun",
-		["Sadr - Auchindoun"] = "Sadr - Auchindoun",
-		["Itsashaman - Arthas"] = "Itsashaman - Arthas",
+		["Pooshield - Thrall"] = "Pooshield - Thrall",
+		["Aonah - Auchindoun"] = "Aonah - Auchindoun",
 	},
 	["profiles"] = {
 		["Kernelpanic - Auchindoun"] = {
@@ -38,9 +38,9 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = -306.6665716539953,
-			["GraphWindowX"] = 0,
-			["MainWindowWidth"] = 232.4445548062518,
 			["MainWindowHeight"] = 146.4444389582681,
+			["MainWindowWidth"] = 232.4445548062518,
+			["GraphWindowX"] = 0,
 		},
 		["Oxshield - Auchindoun"] = {
 			["GraphWindowY"] = 0,
@@ -61,20 +61,23 @@ RecountDB = {
 			},
 			["DetailWindowY"] = 0,
 			["LastInstanceName"] = "Shadowfang Keep",
-			["CurDataSet"] = "LastFightData",
-			["GraphWindowX"] = 0,
 			["DetailWindowX"] = 0,
+			["GraphWindowX"] = 0,
+			["CurDataSet"] = "LastFightData",
 		},
 		["Chukk - Auchindoun"] = {
 			["GraphWindowY"] = 0,
 			["MainWindow"] = {
 				["Position"] = {
-					["y"] = -491.4280679421753,
-					["x"] = 650.2855195970132,
-					["w"] = 140.0001157112092,
-					["h"] = 200.0000727640228,
+					["y"] = -492.6665750733572,
+					["x"] = 756.6663545928974,
+					["w"] = 226.6667456311325,
+					["h"] = 203.3333609161866,
 				},
 			},
+			["DetailWindowX"] = 0,
+			["MainWindowHeight"] = 203.3333609161866,
+			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -83,10 +86,9 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = 0,
-			["LastInstanceName"] = "The Bastion of Twilight",
-			["DetailWindowX"] = 0,
+			["LastInstanceName"] = "The Vortex Pinnacle",
+			["MainWindowWidth"] = 226.6667456311325,
 			["GraphWindowX"] = 0,
-			["CurDataSet"] = "LastFightData",
 		},
 		["Deadset - Auchindoun"] = {
 			["GraphWindowY"] = 0,
@@ -98,7 +100,9 @@ RecountDB = {
 					["x"] = 923.2778906585151,
 				},
 			},
-			["ReportLines"] = 2,
+			["DetailWindowX"] = 600.3333265174051,
+			["LastInstanceName"] = "Baradin Hold",
+			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -110,10 +114,8 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = -368.7778539687611,
-			["DetailWindowX"] = 600.3333265174051,
-			["LastInstanceName"] = "Firelands",
-			["CurDataSet"] = "CurrentFightData",
 			["GraphWindowX"] = 0,
+			["ReportLines"] = 2,
 			["MainWindowWidth"] = 265.4446257238191,
 			["MainWindowHeight"] = 206.1111302215452,
 		},
@@ -138,23 +140,20 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = 0,
-			["MainWindowHeight"] = 183.3333343819377,
+			["GraphWindowX"] = 0,
 			["MainWindowWidth"] = 234.444744786003,
-			["GraphWindowX"] = 0,
+			["MainWindowHeight"] = 183.3333343819377,
 		},
-		["Aonah - Auchindoun"] = {
+		["Itsashaman - Arthas"] = {
 			["GraphWindowY"] = 0,
 			["MainWindow"] = {
 				["Position"] = {
-					["y"] = -487.6506413252736,
-					["x"] = 650.4757170932058,
-					["w"] = 232.5713064513581,
-					["h"] = 198.8572071020695,
+					["y"] = -445.5549099952122,
+					["x"] = 935.5541726439964,
+					["w"] = 140.000019421976,
+					["h"] = 200.0000027354896,
 				},
 			},
-			["DetailWindowX"] = 0,
-			["LastInstanceName"] = "The Vortex Pinnacle",
-			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -163,37 +162,9 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = 0,
-			["GraphWindowX"] = 0,
-			["MainWindowWidth"] = 232.5713605721945,
-			["MainWindowHeight"] = 198.8572153146847,
-		},
-		["Pooshield - Thrall"] = {
-			["GraphWindowY"] = 0,
-			["MainWindow"] = {
-				["Position"] = {
-					["y"] = -146.5555392262025,
-					["x"] = 692.6111852390794,
-					["w"] = 272.999794086022,
-					["h"] = 196.0000254400531,
-				},
-			},
 			["DetailWindowX"] = 0,
-			["LastInstanceName"] = "Zul'Aman",
-			["CurDataSet"] = "LastFightData",
-			["Colors"] = {
-				["Bar"] = {
-					["Bar Text"] = {
-						["a"] = 1,
-					},
-					["Total Bar"] = {
-						["a"] = 1,
-					},
-				},
-			},
-			["DetailWindowY"] = 0,
-			["MainWindowHeight"] = 195.5554843112492,
-			["MainWindowWidth"] = 273.3333399896913,
 			["GraphWindowX"] = 0,
+			["CurDataSet"] = "OverallData",
 		},
 		["Wezen - Auchindoun"] = {
 			["GraphWindowY"] = 0,
@@ -214,9 +185,37 @@ RecountDB = {
 			},
 			["DetailWindowY"] = 0,
 			["LastInstanceName"] = "Blackrock Caverns",
-			["DetailWindowX"] = 0,
-			["GraphWindowX"] = 0,
 			["CurDataSet"] = "LastFightData",
+			["GraphWindowX"] = 0,
+			["DetailWindowX"] = 0,
+		},
+		["Sadr - Auchindoun"] = {
+			["GraphWindowY"] = 0,
+			["MainWindow"] = {
+				["Position"] = {
+					["y"] = -498.9999381095483,
+					["x"] = 722.6667314065866,
+					["w"] = 227.9998438035451,
+					["h"] = 191.9999956232167,
+				},
+			},
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+					["Total Bar"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["DetailWindowY"] = 0,
+			["DetailWindowX"] = 0,
+			["LastInstanceName"] = "Halls of Origination",
+			["CurDataSet"] = "LastFightData",
+			["GraphWindowX"] = 0,
+			["MainWindowWidth"] = 227.7777308033429,
+			["MainWindowHeight"] = 192.2222661876186,
 		},
 		["Pooshield - Arthas"] = {
 			["GraphWindowY"] = 0,
@@ -239,9 +238,35 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = 0,
-			["MainWindowHeight"] = 201.1110754433665,
-			["MainWindowWidth"] = 214.4444381376213,
 			["GraphWindowX"] = 0,
+			["MainWindowWidth"] = 214.4444381376213,
+			["MainWindowHeight"] = 201.1110754433665,
+		},
+		["Pulari - Auchindoun"] = {
+			["GraphWindowY"] = 0,
+			["MainWindow"] = {
+				["Position"] = {
+					["y"] = -502.5716909244184,
+					["x"] = 510.1424581423934,
+					["w"] = 235.9999034372179,
+					["h"] = 205.7141734810562,
+				},
+			},
+			["DetailWindowX"] = 497.7775200338708,
+			["LastInstanceName"] = "Baradin Hold",
+			["CurDataSet"] = "LastFightData",
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["DetailWindowY"] = -354.4445538488304,
+			["GraphWindowX"] = 0,
+			["ReportLines"] = 3,
+			["MainWindowWidth"] = 235.9998445215386,
+			["MainWindowHeight"] = 205.7142192011542,
 		},
 		["Aset - Auchindoun"] = {
 			["GraphWindowY"] = 0,
@@ -254,7 +279,7 @@ RecountDB = {
 				},
 			},
 			["DetailWindowX"] = 252.999995144506,
-			["LastInstanceName"] = "Blackrock Depths",
+			["LastInstanceName"] = "Strand of the Ancients",
 			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Window"] = {
@@ -305,48 +330,22 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = -321.143010095803,
-			["GraphWindowX"] = 0,
-			["MainWindowWidth"] = 222.2856028280211,
 			["MainWindowHeight"] = 236.5713664764398,
-		},
-		["Pulari - Auchindoun"] = {
-			["GraphWindowY"] = 0,
-			["MainWindow"] = {
-				["Position"] = {
-					["y"] = -502.5716909244184,
-					["x"] = 510.1424581423934,
-					["w"] = 235.9999034372179,
-					["h"] = 205.7141734810562,
-				},
-			},
-			["DetailWindowX"] = 497.7775200338708,
-			["LastInstanceName"] = "Baradin Hold",
-			["CurDataSet"] = "LastFightData",
-			["Colors"] = {
-				["Bar"] = {
-					["Bar Text"] = {
-						["a"] = 1,
-					},
-				},
-			},
-			["DetailWindowY"] = -354.4445538488304,
+			["MainWindowWidth"] = 222.2856028280211,
 			["GraphWindowX"] = 0,
-			["ReportLines"] = 3,
-			["MainWindowWidth"] = 235.9998445215386,
-			["MainWindowHeight"] = 205.7142192011542,
 		},
-		["Sadr - Auchindoun"] = {
+		["Pooshield - Thrall"] = {
 			["GraphWindowY"] = 0,
 			["MainWindow"] = {
 				["Position"] = {
-					["y"] = -498.9999381095483,
-					["x"] = 722.6667314065866,
-					["w"] = 227.9998438035451,
-					["h"] = 191.9999956232167,
+					["y"] = -146.5555392262025,
+					["x"] = 692.6111852390794,
+					["w"] = 272.999794086022,
+					["h"] = 196.0000254400531,
 				},
 			},
 			["DetailWindowX"] = 0,
-			["LastInstanceName"] = "Throne of the Tides",
+			["LastInstanceName"] = "Zul'Aman",
 			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
@@ -359,20 +358,23 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = 0,
-			["MainWindowHeight"] = 192.2222661876186,
-			["MainWindowWidth"] = 227.7777308033429,
 			["GraphWindowX"] = 0,
+			["MainWindowWidth"] = 273.3333399896913,
+			["MainWindowHeight"] = 195.5554843112492,
 		},
-		["Itsashaman - Arthas"] = {
+		["Aonah - Auchindoun"] = {
 			["GraphWindowY"] = 0,
 			["MainWindow"] = {
 				["Position"] = {
-					["y"] = -445.5549099952122,
-					["x"] = 935.5541726439964,
-					["w"] = 140.000019421976,
-					["h"] = 200.0000027354896,
+					["y"] = -487.6506413252736,
+					["x"] = 650.4757170932058,
+					["w"] = 232.5713064513581,
+					["h"] = 198.8572071020695,
 				},
 			},
+			["DetailWindowX"] = 0,
+			["LastInstanceName"] = "The Vortex Pinnacle",
+			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -381,9 +383,9 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = 0,
-			["CurDataSet"] = "OverallData",
+			["MainWindowHeight"] = 198.8572153146847,
+			["MainWindowWidth"] = 232.5713605721945,
 			["GraphWindowX"] = 0,
-			["DetailWindowX"] = 0,
 		},
 	},
 }

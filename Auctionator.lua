@@ -1,12 +1,12 @@
 
 AUCTIONATOR_SAVEDVARS = {
-	["_10000"] = 200,
+	["_5000000"] = 10000,
 	["_50000"] = 500,
-	["_500"] = 5,
+	["STARTING_DISCOUNT"] = 5,
 	["_1000000"] = 2500,
 	["_200000"] = 1000,
-	["STARTING_DISCOUNT"] = 5,
-	["_5000000"] = 10000,
+	["_500"] = 5,
+	["_10000"] = 200,
 	["_2000"] = 100,
 }
 AUCTIONATOR_PRICING_HISTORY = {
@@ -288,11 +288,11 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H238"] = 1653,
 		},
 		["Elementium Bar"] = {
-			["mr"] = 40000,
+			["mr"] = 44500,
 			["sc"] = 4,
 			["id"] = "52186",
+			["H315"] = 44500,
 			["cc"] = 6,
-			["H296"] = 40000,
 		},
 		["Enchant Cloak - Protection"] = {
 			["H238"] = 4052572,
@@ -309,30 +309,32 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H238"] = 249298,
 		},
 		["Bolt of Embersilk Cloth"] = {
-			["mr"] = 140000,
+			["mr"] = 100000,
 			["cc"] = 6,
-			["H218"] = 140000,
 			["id"] = "53643",
+			["H315"] = 100000,
 			["sc"] = 2,
 		},
 		["Elementium Ore"] = {
 			["H311"] = 13505,
 			["H313"] = 16500,
 			["id"] = "52185",
+			["H315"] = 16999,
 			["L312"] = 12700,
 			["H314"] = 30400,
-			["mr"] = 17200,
+			["mr"] = 14600,
 			["sc"] = 4,
 			["H312"] = 12873,
 			["L314"] = 16500,
 			["cc"] = 6,
+			["L315"] = 14600,
 		},
 		["Hardened Elementium Bar"] = {
-			["mr"] = 929025,
+			["mr"] = 820000,
 			["sc"] = 4,
 			["id"] = "53039",
+			["H315"] = 820000,
 			["cc"] = 6,
-			["H296"] = 929025,
 		},
 		["Perfect Brilliant Carnelian"] = {
 			["mr"] = 50000,
@@ -342,19 +344,18 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H263"] = 50000,
 		},
 		["Pyrite Ore"] = {
-			["L309"] = 59500,
-			["mr"] = 59500,
+			["mr"] = 41198,
 			["cc"] = 6,
 			["id"] = "52183",
+			["H315"] = 41198,
 			["sc"] = 4,
-			["H309"] = 71998,
 		},
 		["Volatile Fire"] = {
-			["mr"] = 43750,
-			["sc"] = 1,
-			["id"] = "52325",
-			["H307"] = 43750,
+			["mr"] = 61000,
 			["cc"] = 6,
+			["id"] = "52325",
+			["H315"] = 61000,
+			["sc"] = 1,
 		},
 		["Triple-Loop Belt"] = {
 			["mr"] = 1990000,
@@ -379,9 +380,10 @@ AUCTIONATOR_PRICE_DATABASE = {
 		},
 		["Volatile Water"] = {
 			["H311"] = 148499,
-			["mr"] = 148499,
+			["mr"] = 167500,
 			["cc"] = 6,
 			["id"] = "52326",
+			["H315"] = 167500,
 			["sc"] = 1,
 		},
 		["Defender's Demonseye"] = {
@@ -422,9 +424,10 @@ AUCTIONATOR_PRICE_DATABASE = {
 		},
 		["Embersilk Cloth"] = {
 			["H311"] = 34500,
-			["mr"] = 34500,
+			["mr"] = 153500,
 			["cc"] = 6,
 			["id"] = "53010",
+			["H315"] = 153500,
 			["sc"] = 2,
 		},
 		["Pyrium Bar"] = {
@@ -718,8 +721,8 @@ AUCTIONATOR_LAST_SCAN_TIME = nil
 AUCTIONATOR_TOONS = {
 	["Chukk"] = {
 		["firstSeen"] = 1306794359,
-		["firstVersion"] = "2.9.4",
 		["guid"] = "0x07000000038A862D",
+		["firstVersion"] = "2.9.4",
 	},
 	["Pulari"] = {
 		["firstSeen"] = 1307259481,
@@ -733,9 +736,10 @@ AUCTIONATOR_TOONS = {
 		["firstSeen"] = 1307131917,
 		["firstVersion"] = "2.9.4",
 	},
-	["Promitto"] = {
-		["firstSeen"] = 1306638326,
+	["Deadset"] = {
+		["firstSeen"] = 1307478618,
 		["firstVersion"] = "2.9.4",
+		["guid"] = "0x07000000038DD7AE",
 	},
 	["Wezen"] = {
 		["firstSeen"] = 1306954562,
@@ -757,10 +761,11 @@ AUCTIONATOR_TOONS = {
 	},
 	["Aonah"] = {
 		["firstSeen"] = 1306615330,
+		["guid"] = "0x07000000038DD9B8",
 		["firstVersion"] = "2.9.4",
 	},
-	["Deadset"] = {
-		["firstSeen"] = 1307478618,
+	["Promitto"] = {
+		["firstSeen"] = 1306638326,
 		["firstVersion"] = "2.9.4",
 	},
 }
