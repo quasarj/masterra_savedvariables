@@ -26,22 +26,22 @@ BankStackDB = {
 	["profileKeys"] = {
 		["Kernelpanic - Auchindoun"] = "Default",
 		["Unlok - Auchindoun"] = "Unlok - Auchindoun",
-		["Pandohra - Zuluhed"] = "Pandohra - Zuluhed",
-		["Deadset - Auchindoun"] = "Default",
-		["Chukk - Auchindoun"] = "Chukk - Auchindoun",
+		["Promitto - Thorium Brotherhood"] = "Default",
 		["Meowfest - Auchindoun"] = "Default",
+		["Chukk - Auchindoun"] = "Chukk - Auchindoun",
+		["Deadset - Auchindoun"] = "Default",
 		["Karrl - Auchindoun"] = "Default",
-		["Drybeard - Shadow Council"] = "Default",
+		["Totemtusk - Auchindoun"] = "Default",
 		["Relok - Auchindoun"] = "Relok - Auchindoun",
 		["Sadr - Auchindoun"] = "Default",
 		["Pooshield - Arthas"] = "Default",
+		["Pulari - Auchindoun"] = "Pulari - Auchindoun",
 		["Gacrux - Thorium Brotherhood"] = "Default",
-		["Totemtusk - Auchindoun"] = "Default",
 		["Zik - Zuluhed"] = "Zik - Zuluhed",
 		["Promitto - Auchindoun"] = "Promitto - Auchindoun",
 		["Aonah - Auchindoun"] = "Aonah - Auchindoun",
-		["Gacrux - Zuluhed"] = "Default",
 		["Freezeforu - Zuluhed"] = "Freezeforu - Zuluhed",
+		["Gacrux - Zuluhed"] = "Default",
 		["Idsapme - Auchindoun"] = "Default",
 		["Wezen - Thorium Brotherhood"] = "Default",
 		["Gacrux - Auchindoun"] = "Default",
@@ -53,14 +53,14 @@ BankStackDB = {
 		["Knasbank - Auchindoun"] = "Knasbank - Auchindoun",
 		["Yttrium - Auchindoun"] = "Default",
 		["Aset - Auchindoun"] = "Aset - Auchindoun",
-		["Pulari - Auchindoun"] = "Pulari - Auchindoun",
+		["Drybeard - Shadow Council"] = "Default",
 		["Knas - Auchindoun"] = "Knas - Auchindoun",
-		["Promitto - Thorium Brotherhood"] = "Default",
+		["Pandohra - Zuluhed"] = "Pandohra - Zuluhed",
 	},
 	["profiles"] = {
 		["Zik - Zuluhed"] = {
 		},
-		["Pandohra - Zuluhed"] = {
+		["Aonah - Auchindoun"] = {
 		},
 		["Chukk - Auchindoun"] = {
 		},
@@ -68,24 +68,24 @@ BankStackDB = {
 		},
 		["Pandohra - Auchindoun"] = {
 		},
-		["Unlok - Auchindoun"] = {
+		["Aset - Auchindoun"] = {
+			["conjured"] = true,
 		},
 		["Relok - Auchindoun"] = {
 		},
-		["Pulari - Auchindoun"] = {
+		["Promitto - Auchindoun"] = {
 		},
 		["Default"] = {
 		},
 		["Knasbank - Auchindoun"] = {
 		},
-		["Aset - Auchindoun"] = {
-			["conjured"] = true,
+		["Pulari - Auchindoun"] = {
 		},
-		["Promitto - Auchindoun"] = {
+		["Unlok - Auchindoun"] = {
 		},
 		["Knas - Auchindoun"] = {
 		},
-		["Aonah - Auchindoun"] = {
+		["Pandohra - Zuluhed"] = {
 		},
 	},
 }

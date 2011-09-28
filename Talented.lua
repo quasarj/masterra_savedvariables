@@ -3,8 +3,9 @@ TalentedDB = {
 	["global"] = {
 		["cata"] = true,
 		["templates"] = {
-			["Feral PVP"] = "0ZDC23cnC123123n",
 			["Empty"] = "0",
+			["Boomkin PVE-AOE"] = "0pD2Bco2bc1Z23n",
+			["Feral PVP"] = "0ZDC23cnC123123n",
 		},
 	},
 	["profileKeys"] = {
@@ -14,7 +15,7 @@ TalentedDB = {
 	},
 	["profiles"] = {
 		["Aset - Auchindoun"] = {
-			["last_template"] = "Feral PVP",
+			["last_template"] = "Boomkin PVE-AOE",
 		},
 		["Deadset - Auchindoun"] = {
 		},
