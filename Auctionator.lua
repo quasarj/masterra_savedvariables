@@ -319,14 +319,12 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H313"] = 16500,
 			["id"] = "52185",
 			["H315"] = 16999,
-			["L312"] = 12700,
 			["H314"] = 30400,
-			["mr"] = 14600,
-			["sc"] = 4,
-			["H312"] = 12873,
-			["L314"] = 16500,
 			["L315"] = 14600,
 			["cc"] = 6,
+			["L314"] = 16500,
+			["mr"] = 14600,
+			["sc"] = 4,
 		},
 		["Hardened Elementium Bar"] = {
 			["mr"] = 820000,
@@ -732,11 +730,13 @@ AUCTIONATOR_TOONS = {
 	},
 	["Promitto"] = {
 		["firstSeen"] = 1306638326,
+		["guid"] = "0x07000000038DD80C",
 		["firstVersion"] = "2.9.4",
 	},
 	["Deadset"] = {
 		["firstSeen"] = 1307478618,
 		["firstVersion"] = "2.9.4",
+		["guid"] = "0x07000000038DD7AE",
 	},
 	["Wezen"] = {
 		["firstSeen"] = 1306954562,
@@ -749,6 +749,7 @@ AUCTIONATOR_TOONS = {
 	},
 	["Aonah"] = {
 		["firstSeen"] = 1306615330,
+		["guid"] = "0x07000000038DD9B8",
 		["firstVersion"] = "2.9.4",
 	},
 	["Sadr"] = {

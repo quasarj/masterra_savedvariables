@@ -75,11 +75,11 @@ Gladius2DB = {
 		["Promitto - Auchindoun"] = {
 			["auraVersion"] = 1,
 			["tagsVersion"] = 1,
-			["y"] = {
-				["arena1"] = 490.9508307221755,
-			},
 			["x"] = {
 				["arena1"] = 854.043859689873,
+			},
+			["y"] = {
+				["arena1"] = 490.9508307221755,
 			},
 		},
 		["Aset - Auchindoun"] = {

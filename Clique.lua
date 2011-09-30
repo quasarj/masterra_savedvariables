@@ -18,10 +18,10 @@ CliqueDB = {
 		["Freezeforu - Zuluhed"] = "Freezeforu - Zuluhed",
 		["Carrl - Auchindoun"] = "Carrl - Auchindoun",
 		["Scid - Auchindoun"] = "Scid - Auchindoun",
-		["Chukk - Hellscream"] = "off",
-		["Gacrux - Zuluhed"] = "Gacrux - Zuluhed",
-		["Wezen - Thorium Brotherhood"] = "Wezen - Thorium Brotherhood",
 		["Japhaar - Hellscream"] = "Japhaar - Hellscream",
+		["Gacrux - Zuluhed"] = "Gacrux - Zuluhed",
+		["Chukk - Hellscream"] = "off",
+		["Wezen - Thorium Brotherhood"] = "Wezen - Thorium Brotherhood",
 		["Aonah - Auchindoun"] = "Aonah - Auchindoun",
 		["Pandohra - Auchindoun"] = "Pandohra - Auchindoun",
 		["Barimuri - Hellscream"] = "Barimuri - Hellscream",
@@ -1035,6 +1035,7 @@ CliqueDB3 = {
 			["alerthidden"] = true,
 		},
 		["Promitto - Auchindoun"] = {
+			["alerthidden"] = true,
 			["blacklist"] = {
 				["SUFUnittarget"] = true,
 				["SUFUnitfocustarget"] = true,
@@ -1097,7 +1098,6 @@ CliqueDB3 = {
 				["CompactPartyFrameMember4Debuff3"] = true,
 				["CompactPartyFrameMember3Debuff2"] = true,
 			},
-			["alerthidden"] = true,
 		},
 		["Aset - Auchindoun"] = {
 			["alerthidden"] = true,

@@ -934,14 +934,14 @@ DominosDB = {
 					["point"] = "BOTTOMLEFT",
 				},
 				["xp"] = {
-					["y"] = -52.57145475896596,
 					["alwaysShowXP"] = false,
 					["point"] = "TOPLEFT",
-					["texture"] = "blizzard",
-					["height"] = 14,
-					["x"] = 72.91423640781213,
-					["alwaysShowText"] = true,
 					["width"] = 0.23,
+					["y"] = -52.57145475896596,
+					["x"] = 72.91423640781213,
+					["height"] = 14,
+					["alwaysShowText"] = true,
+					["texture"] = "blizzard",
 				},
 				["vehicle"] = {
 					["y"] = 372.4286957290025,
@@ -1196,6 +1196,13 @@ DominosDB = {
 					}, -- [4]
 				},
 			},
+			["petStyle"] = {
+				nil, -- [1]
+				nil, -- [2]
+				false, -- [3]
+				{
+				}, -- [4]
+			},
 			["frames"] = {
 				{
 					["point"] = "BOTTOMLEFT",
@@ -1367,21 +1374,21 @@ DominosDB = {
 				["roll"] = {
 					["y"] = -390.1425294672803,
 					["x"] = -333.0008424092948,
-					["columns"] = 1,
+					["point"] = "TOPRIGHT",
 					["spacing"] = 2,
 					["scale"] = 1,
 					["numButtons"] = 4,
-					["point"] = "TOPRIGHT",
+					["columns"] = 1,
 				},
 				["xp"] = {
 					["y"] = -19.42857954188821,
 					["alwaysShowXP"] = false,
 					["point"] = "TOPLEFT",
-					["texture"] = "blizzard",
+					["width"] = 0.29,
 					["height"] = 14,
 					["x"] = 19.42855704952488,
 					["alwaysShowText"] = true,
-					["width"] = 0.29,
+					["texture"] = "blizzard",
 				},
 				["vehicle"] = {
 					["y"] = 386.1430633797546,
@@ -1408,19 +1415,12 @@ DominosDB = {
 				},
 				["bags"] = {
 					["numButtons"] = 5,
-					["hidden"] = true,
 					["point"] = "BOTTOMRIGHT",
+					["hidden"] = true,
 					["spacing"] = 2,
 				},
 			},
 			["classStyle"] = {
-				nil, -- [1]
-				nil, -- [2]
-				false, -- [3]
-				{
-				}, -- [4]
-			},
-			["petStyle"] = {
 				nil, -- [1]
 				nil, -- [2]
 				false, -- [3]
@@ -1628,14 +1628,14 @@ DominosDB = {
 					["showstates"] = "[@vehicle,exists]",
 				},
 				["xp"] = {
-					["point"] = "TOPLEFT",
-					["scale"] = 1,
-					["width"] = 0.24,
 					["y"] = -48.00043072875747,
 					["x"] = 74.05730730845065,
+					["point"] = "TOPLEFT",
+					["texture"] = "blizzard",
+					["scale"] = 1,
 					["height"] = 14,
 					["alwaysShowText"] = true,
-					["texture"] = "blizzard",
+					["width"] = 0.24,
 				},
 				["roll"] = {
 					["y"] = -384.4288214050824,
@@ -1843,9 +1843,9 @@ DominosDB = {
 					["showstates"] = "[@vehicle,exists]",
 				},
 				["bags"] = {
-					["point"] = "BOTTOMRIGHT",
-					["numButtons"] = 5,
 					["hidden"] = true,
+					["numButtons"] = 5,
+					["point"] = "BOTTOMRIGHT",
 					["spacing"] = 2,
 				},
 				["pet"] = {

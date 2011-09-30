@@ -3520,9 +3520,6 @@ GridDB = {
 				["char/Chukk - Auchindoun"] = {
 					["party_state"] = "raid",
 				},
-				["Default"] = {
-					["party_state"] = "raid_10",
-				},
 				["DRUID"] = {
 					["party_state"] = "raid_10",
 				},
@@ -4976,7 +4973,7 @@ GridDB = {
 					["Spacing"] = 0,
 					["BackgroundG"] = 0.1019607843137255,
 					["PosY"] = -257.0111649580404,
-					["layout"] = "By Group 10",
+					["layout"] = "By Group 5",
 					["BackgroundA"] = 0,
 					["BorderG"] = 0.5019607843137255,
 					["BackgroundB"] = 0.1019607843137255,

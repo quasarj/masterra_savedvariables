@@ -72,12 +72,12 @@ ThreatPlatesDB = {
 					5, -- [3]
 				}, -- [2]
 			},
+			["welcome"] = true,
 			["specName"] = {
 				"Blood", -- [1]
 				"Frost", -- [2]
 				"Unholy", -- [3]
 			},
-			["welcome"] = true,
 		},
 		["Gacrux - Auchindoun"] = {
 			["specInfo"] = {
@@ -194,11 +194,11 @@ ThreatPlatesDB = {
 			},
 		},
 		["Promitto - Auchindoun"] = {
+			["welcome"] = true,
 			["spec"] = {
 				["primary"] = false,
 				["secondary"] = true,
 			},
-			["welcome"] = true,
 			["specInfo"] = {
 				{
 					34, -- [1]
@@ -241,10 +241,10 @@ ThreatPlatesDB = {
 			},
 		},
 		["Aset - Auchindoun"] = {
+			["welcome"] = true,
 			["spec"] = {
 				["secondary"] = true,
 			},
-			["welcome"] = true,
 			["specInfo"] = {
 				{
 					nil, -- [1]
