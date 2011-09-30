@@ -59,19 +59,19 @@ Omen3DB = {
 			["VGrip2"] = 147.1999561308923,
 			["PositionY"] = 743.9522542178002,
 			["PositionW"] = 255.9998074215337,
-			["Bar"] = {
-				["Texture"] = "Flat",
-			},
-			["PositionX"] = 1850.547407709882,
+			["PositionH"] = 135.7143169574846,
+			["VGrip1"] = 108.7999675750073,
 			["Background"] = {
 				["Color"] = {
 					["a"] = 0,
 				},
-				["Texture"] = "Solid",
 				["BorderTexture"] = "None",
+				["Texture"] = "Solid",
 			},
-			["VGrip1"] = 108.7999675750073,
-			["PositionH"] = 135.7143169574846,
+			["PositionX"] = 1850.547407709882,
+			["Bar"] = {
+				["Texture"] = "Flat",
+			},
 		},
 		["Sadr - Auchindoun"] = {
 			["VGrip2"] = 145.8859523224855,
@@ -269,8 +269,8 @@ Omen3DB = {
 			["ShowWith"] = {
 				["HideWhenOOC"] = true,
 			},
-			["PositionH"] = 196.8570684114368,
 			["VGrip1"] = 145.2284446606219,
+			["PositionH"] = 196.8570684114368,
 			["VGrip2"] = 196.4855427761355,
 			["PositionY"] = 831.1427035722301,
 			["PositionX"] = 1566.859342529945,
@@ -279,13 +279,13 @@ Omen3DB = {
 			},
 			["Locked"] = true,
 			["Background"] = {
-				["BorderTexture"] = "None",
 				["Texture"] = "None",
+				["BorderTexture"] = "None",
 			},
 			["CollapseHide"] = true,
 			["Bar"] = {
-				["Texture"] = "Flat",
 				["Spacing"] = 1,
+				["Texture"] = "Flat",
 			},
 		},
 		["Unlok - Auchindoun"] = {

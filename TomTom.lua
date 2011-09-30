@@ -4,22 +4,22 @@ TomTomDB = {
 		["Zik - Zuluhed"] = "Zik - Zuluhed",
 		["Ciid - Hellscream"] = "Ciid - Hellscream",
 		["Irone - Hellscream"] = "Irone - Hellscream",
-		["Idsapme - Auchindoun"] = "Default",
+		["Japhaar - Hellscream"] = "Japhaar - Hellscream",
 		["Sadr - Auchindoun"] = "Default",
 		["Thunderdome - Laughing Skull"] = "Thunderdome - Laughing Skull",
-		["Tamori - ChaosWoW Funserver"] = "Tamori - ChaosWoW Funserver",
-		["Japhaar - Hellscream"] = "Japhaar - Hellscream",
-		["Anabnak - Hellscream"] = "Anabnak - Hellscream",
 		["Aonarah - Hellscream"] = "Aonarah - Hellscream",
+		["Oxshield - Auchindoun"] = "Default",
+		["Anabnak - Hellscream"] = "Anabnak - Hellscream",
+		["Abeninka - Hellscream"] = "Abeninka - Hellscream",
 		["Aonah - Auchindoun"] = "Default",
 		["Dolivis - Hellscream"] = "Dolivis - Hellscream",
 		["Pandohra - Auchindoun"] = "Default",
 		["Xanaomi - Hellscream"] = "Xanaomi - Hellscream",
-		["Oxshield - Auchindoun"] = "Default",
+		["Idsapme - Auchindoun"] = "Default",
 		["Tyrela - Hellscream"] = "Tyrela - Hellscream",
 		["Aonarap - Hellscream"] = "Aonarap - Hellscream",
 		["Barimuri - Hellscream"] = "Barimuri - Hellscream",
-		["Gacrux - Thorium Brotherhood"] = "Default",
+		["Pulari - Auchindoun"] = "Default",
 		["Prudey - Laughing Skull"] = "Prudey - Laughing Skull",
 		["Pooshield - Thrall"] = "Default",
 		["Knasbank - Auchindoun"] = "Default",
@@ -35,12 +35,12 @@ TomTomDB = {
 		["Chukk - Auchindoun"] = "Default",
 		["Deadset - Auchindoun"] = "Default",
 		["Karrl - Auchindoun"] = "Default",
-		["Totemtusk - Auchindoun"] = "Default",
+		["Promitto - Auchindoun"] = "Default",
 		["Vanisa - Hellscream"] = "Vanisa - Hellscream",
 		["Aniak - Garona"] = "Aniak - Garona",
 		["Pooshield - Arthas"] = "Default",
 		["Wezen - Thorium Brotherhood"] = "Default",
-		["Pulari - Auchindoun"] = "Default",
+		["Gacrux - Thorium Brotherhood"] = "Default",
 		["Anokank - Hellscream"] = "Anokank - Hellscream",
 		["Aona - Hellscream"] = "Aona - Hellscream",
 		["Phoebeldia - Laughing Skull"] = "Phoebeldia - Laughing Skull",
@@ -49,14 +49,14 @@ TomTomDB = {
 		["Chukk - Hellscream"] = "Chukk - Hellscream",
 		["Nohsk - Hellscream"] = "Nohsk - Hellscream",
 		["Kabun - Laughing Skull"] = "Kabun - Laughing Skull",
-		["Promitto - Auchindoun"] = "Default",
+		["Totemtusk - Auchindoun"] = "Default",
 		["Gacrux - Auchindoun"] = "Default",
 		["Xuyxee - Hellscream"] = "Xuyxee - Hellscream",
 		["Itsashaman - Arthas"] = "Default",
 		["Wezen - Auchindoun"] = "Default",
 		["Ankra - Medivh"] = "Ankra - Medivh",
 		["Yttrium - Auchindoun"] = "Default",
-		["Abeninka - Hellscream"] = "Abeninka - Hellscream",
+		["Tamori - ChaosWoW Funserver"] = "Tamori - ChaosWoW Funserver",
 		["Bairra - Alterac valley (PVP - INSTA 70)"] = "Bairra - Alterac valley (PVP - INSTA 70)",
 		["Knas - Auchindoun"] = "Default",
 		["Pandohra - Zuluhed"] = "Default",
@@ -271,9 +271,9 @@ TomTomWaypointsMF = {
 		["Pooshield - Thrall"] = "Pooshield - Thrall",
 		["Wezen - Auchindoun"] = "Wezen - Auchindoun",
 		["Pooshield - Arthas"] = "Pooshield - Arthas",
+		["Promitto - Auchindoun"] = "Promitto - Auchindoun",
 		["Pulari - Auchindoun"] = "Pulari - Auchindoun",
 		["Aset - Auchindoun"] = "Aset - Auchindoun",
-		["Promitto - Auchindoun"] = "Promitto - Auchindoun",
 		["Sadr - Auchindoun"] = "Sadr - Auchindoun",
 		["Itsashaman - Arthas"] = "Itsashaman - Arthas",
 	},
@@ -322,23 +322,6 @@ TomTomWaypointsMF = {
 		},
 		["Pooshield - Arthas"] = {
 		},
-		["Pulari - Auchindoun"] = {
-		},
-		["Aset - Auchindoun"] = {
-			[700] = {
-				["700:0:479225226:305363470:nil"] = {
-					700, -- [1]
-					0, -- [2]
-					0.4792252265750294, -- [3]
-					0.3053634705138246, -- [4]
-					["silent"] = true,
-					["crazy"] = true,
-					["minimap"] = true,
-					["persistent"] = true,
-					["world"] = true,
-				},
-			},
-		},
 		["Promitto - Auchindoun"] = {
 			[467] = {
 				["467:0:683261628:485004204:nil"] = {
@@ -351,6 +334,23 @@ TomTomWaypointsMF = {
 					["minimap"] = true,
 					["persistent"] = true,
 					["world"] = true,
+				},
+			},
+		},
+		["Pulari - Auchindoun"] = {
+		},
+		["Aset - Auchindoun"] = {
+			[700] = {
+				["700:0:479225226:305363470:nil"] = {
+					700, -- [1]
+					0, -- [2]
+					0.4792252265750294, -- [3]
+					0.3053634705138246, -- [4]
+					["silent"] = true,
+					["crazy"] = true,
+					["world"] = true,
+					["persistent"] = true,
+					["minimap"] = true,
 				},
 			},
 		},

@@ -2,11 +2,11 @@
 AUCTIONATOR_SAVEDVARS = {
 	["_200000"] = 1000,
 	["_50000"] = 500,
-	["_10000"] = 200,
-	["_1000000"] = 2500,
 	["_5000000"] = 10000,
-	["STARTING_DISCOUNT"] = 5,
+	["_1000000"] = 2500,
+	["_10000"] = 200,
 	["_500"] = 5,
+	["STARTING_DISCOUNT"] = 5,
 	["_2000"] = 100,
 }
 AUCTIONATOR_PRICING_HISTORY = {
@@ -316,15 +316,14 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["sc"] = 2,
 		},
 		["Elementium Ore"] = {
-			["H313"] = 16500,
-			["id"] = "52185",
-			["H315"] = 16999,
 			["H314"] = 30400,
 			["L315"] = 14600,
 			["cc"] = 6,
-			["L314"] = 16500,
 			["mr"] = 14600,
+			["id"] = "52185",
+			["H315"] = 16999,
 			["sc"] = 4,
+			["L314"] = 16500,
 		},
 		["Hardened Elementium Bar"] = {
 			["mr"] = 820000,
@@ -728,15 +727,13 @@ AUCTIONATOR_TOONS = {
 		["firstSeen"] = 1306648601,
 		["firstVersion"] = "2.9.4",
 	},
-	["Promitto"] = {
-		["firstSeen"] = 1306638326,
-		["guid"] = "0x07000000038DD80C",
-		["firstVersion"] = "2.9.4",
-	},
 	["Deadset"] = {
 		["firstSeen"] = 1307478618,
 		["firstVersion"] = "2.9.4",
-		["guid"] = "0x07000000038DD7AE",
+	},
+	["Promitto"] = {
+		["firstSeen"] = 1306638326,
+		["firstVersion"] = "2.9.4",
 	},
 	["Wezen"] = {
 		["firstSeen"] = 1306954562,

@@ -1,8 +1,5 @@
 
 SexyCooldownDB = {
-	["global"] = {
-		["dbVersion"] = 3,
-	},
 	["profileKeys"] = {
 		["Kernelpanic - Auchindoun"] = "Kernelpanic - Auchindoun",
 		["Oxshield - Auchindoun"] = "Oxshield - Auchindoun",
@@ -11,17 +8,30 @@ SexyCooldownDB = {
 		["Gacrux - Auchindoun"] = "Gacrux - Auchindoun",
 		["Wezen - Auchindoun"] = "Wezen - Auchindoun",
 		["Pooshield - Thrall"] = "Pooshield - Thrall",
-		["Sadr - Auchindoun"] = "Sadr - Auchindoun",
 		["Aset - Auchindoun"] = "Aset - Auchindoun",
-		["Pulari - Auchindoun"] = "Pulari - Auchindoun",
 		["Promitto - Auchindoun"] = "Promitto - Auchindoun",
+		["Pulari - Auchindoun"] = "Pulari - Auchindoun",
+		["Sadr - Auchindoun"] = "Sadr - Auchindoun",
 		["Aonah - Auchindoun"] = "Aonah - Auchindoun",
+	},
+	["global"] = {
+		["dbVersion"] = 3,
 	},
 	["profiles"] = {
 		["Kernelpanic - Auchindoun"] = {
 			["bars"] = {
 				{
 					["events"] = {
+					},
+					["blacklist"] = {
+					},
+					["eventColors"] = {
+					},
+					["icon"] = {
+						["fontColor"] = {
+						},
+						["borderColor"] = {
+						},
 					},
 					["bar"] = {
 						["fontColor"] = {
@@ -33,16 +43,6 @@ SexyCooldownDB = {
 						["backgroundColor"] = {
 						},
 						["width"] = 449.9999930245016,
-					},
-					["eventColors"] = {
-					},
-					["icon"] = {
-						["fontColor"] = {
-						},
-						["borderColor"] = {
-						},
-					},
-					["blacklist"] = {
 					},
 				}, -- [1]
 			},
@@ -52,6 +52,16 @@ SexyCooldownDB = {
 				{
 					["events"] = {
 					},
+					["blacklist"] = {
+					},
+					["eventColors"] = {
+					},
+					["icon"] = {
+						["fontColor"] = {
+						},
+						["borderColor"] = {
+						},
+					},
 					["bar"] = {
 						["name"] = "Bar 0",
 						["borderColor"] = {
@@ -63,16 +73,6 @@ SexyCooldownDB = {
 						},
 						["width"] = 449.9999930245016,
 					},
-					["eventColors"] = {
-					},
-					["icon"] = {
-						["fontColor"] = {
-						},
-						["borderColor"] = {
-						},
-					},
-					["blacklist"] = {
-					},
 				}, -- [1]
 			},
 		},
@@ -80,16 +80,6 @@ SexyCooldownDB = {
 			["bars"] = {
 				{
 					["events"] = {
-					},
-					["blacklist"] = {
-					},
-					["eventColors"] = {
-					},
-					["icon"] = {
-						["fontColor"] = {
-						},
-						["borderColor"] = {
-						},
 					},
 					["bar"] = {
 						["y"] = -337.9444133472469,
@@ -104,6 +94,16 @@ SexyCooldownDB = {
 						},
 						["width"] = 449.9999930245016,
 					},
+					["eventColors"] = {
+					},
+					["icon"] = {
+						["fontColor"] = {
+						},
+						["borderColor"] = {
+						},
+					},
+					["blacklist"] = {
+					},
 				}, -- [1]
 			},
 		},
@@ -111,6 +111,16 @@ SexyCooldownDB = {
 			["bars"] = {
 				{
 					["events"] = {
+					},
+					["blacklist"] = {
+					},
+					["eventColors"] = {
+					},
+					["icon"] = {
+						["fontColor"] = {
+						},
+						["borderColor"] = {
+						},
 					},
 					["bar"] = {
 						["fontColor"] = {
@@ -122,16 +132,6 @@ SexyCooldownDB = {
 						["backgroundColor"] = {
 						},
 						["width"] = 449.9999930245016,
-					},
-					["eventColors"] = {
-					},
-					["icon"] = {
-						["fontColor"] = {
-						},
-						["borderColor"] = {
-						},
-					},
-					["blacklist"] = {
 					},
 				}, -- [1]
 			},
@@ -141,6 +141,16 @@ SexyCooldownDB = {
 				{
 					["events"] = {
 					},
+					["blacklist"] = {
+					},
+					["eventColors"] = {
+					},
+					["icon"] = {
+						["fontColor"] = {
+						},
+						["borderColor"] = {
+						},
+					},
 					["bar"] = {
 						["name"] = "Bar 0",
 						["borderColor"] = {
@@ -151,16 +161,6 @@ SexyCooldownDB = {
 						["backgroundColor"] = {
 						},
 						["width"] = 449.9999930245016,
-					},
-					["eventColors"] = {
-					},
-					["icon"] = {
-						["fontColor"] = {
-						},
-						["borderColor"] = {
-						},
-					},
-					["blacklist"] = {
 					},
 				}, -- [1]
 			},
@@ -170,16 +170,6 @@ SexyCooldownDB = {
 				{
 					["events"] = {
 					},
-					["blacklist"] = {
-					},
-					["eventColors"] = {
-					},
-					["icon"] = {
-						["fontColor"] = {
-						},
-						["borderColor"] = {
-						},
-					},
 					["bar"] = {
 						["fontColor"] = {
 						},
@@ -190,6 +180,16 @@ SexyCooldownDB = {
 						["backgroundColor"] = {
 						},
 						["width"] = 449.9999930245016,
+					},
+					["eventColors"] = {
+					},
+					["icon"] = {
+						["fontColor"] = {
+						},
+						["borderColor"] = {
+						},
+					},
+					["blacklist"] = {
 					},
 				}, -- [1]
 			},
@@ -199,16 +199,6 @@ SexyCooldownDB = {
 				{
 					["events"] = {
 					},
-					["blacklist"] = {
-					},
-					["eventColors"] = {
-					},
-					["icon"] = {
-						["fontColor"] = {
-						},
-						["borderColor"] = {
-						},
-					},
 					["bar"] = {
 						["name"] = "Bar 0",
 						["borderColor"] = {
@@ -220,16 +210,6 @@ SexyCooldownDB = {
 						},
 						["width"] = 449.9999930245016,
 					},
-				}, -- [1]
-			},
-		},
-		["Sadr - Auchindoun"] = {
-			["bars"] = {
-				{
-					["events"] = {
-					},
-					["blacklist"] = {
-					},
 					["eventColors"] = {
 					},
 					["icon"] = {
@@ -238,22 +218,7 @@ SexyCooldownDB = {
 						["borderColor"] = {
 						},
 					},
-					["bar"] = {
-						["fontColor"] = {
-						},
-						["flexible"] = false,
-						["advancedOptions"] = true,
-						["width"] = 449.9999930245016,
-						["y"] = -354.8573556108008,
-						["x"] = -9.142695840480201,
-						["name"] = "Bar 0",
-						["borderColor"] = {
-						},
-						["height"] = 32.99999870064245,
-						["lock"] = true,
-						["backgroundColor"] = {
-						},
-						["inactiveAlpha"] = 0.2,
+					["blacklist"] = {
 					},
 				}, -- [1]
 			},
@@ -267,6 +232,22 @@ SexyCooldownDB = {
 						["PET_SPELL_COOLDOWN"] = true,
 						["SPELL_COOLDOWN"] = true,
 					},
+					["blacklist"] = {
+					},
+					["eventColors"] = {
+						["SPELL_COOLDOWN"] = {
+							["a"] = 1,
+							["r"] = 1,
+							["g"] = 0.2705882352941176,
+							["b"] = 0.5058823529411765,
+						},
+					},
+					["icon"] = {
+						["fontColor"] = {
+						},
+						["borderColor"] = {
+						},
+					},
 					["bar"] = {
 						["fontColor"] = {
 						},
@@ -277,18 +258,31 @@ SexyCooldownDB = {
 						["borderColor"] = {
 						},
 						["height"] = 32.99999870064245,
-						["inactiveAlpha"] = 0.3,
+						["lock"] = true,
 						["backgroundColor"] = {
 						},
-						["lock"] = true,
+						["inactiveAlpha"] = 0.3,
+					},
+				}, -- [1]
+			},
+		},
+		["Promitto - Auchindoun"] = {
+			["bars"] = {
+				{
+					["events"] = {
+					},
+					["bar"] = {
+						["fontColor"] = {
+						},
+						["borderColor"] = {
+						},
+						["height"] = 32.99999870064245,
+						["name"] = "Bar 0",
+						["backgroundColor"] = {
+						},
+						["width"] = 449.9999930245016,
 					},
 					["eventColors"] = {
-						["SPELL_COOLDOWN"] = {
-							["a"] = 1,
-							["b"] = 0.5058823529411765,
-							["g"] = 0.2705882352941176,
-							["r"] = 1,
-						},
 					},
 					["icon"] = {
 						["fontColor"] = {
@@ -306,18 +300,7 @@ SexyCooldownDB = {
 				{
 					["events"] = {
 					},
-					["bar"] = {
-						["borderColor"] = {
-						},
-						["height"] = 32.99999870064245,
-						["fontColor"] = {
-						},
-						["lock"] = true,
-						["inactiveAlpha"] = 0.2,
-						["name"] = "Bar 0",
-						["backgroundColor"] = {
-						},
-						["width"] = 449.9999930245016,
+					["blacklist"] = {
 					},
 					["eventColors"] = {
 					},
@@ -327,17 +310,43 @@ SexyCooldownDB = {
 						["borderColor"] = {
 						},
 					},
-					["blacklist"] = {
+					["bar"] = {
+						["lock"] = true,
+						["inactiveAlpha"] = 0.2,
+						["fontColor"] = {
+						},
+						["borderColor"] = {
+						},
+						["height"] = 32.99999870064245,
+						["name"] = "Bar 0",
+						["backgroundColor"] = {
+						},
+						["width"] = 449.9999930245016,
 					},
 				}, -- [1]
 			},
 		},
-		["Promitto - Auchindoun"] = {
+		["Sadr - Auchindoun"] = {
 			["bars"] = {
 				{
 					["events"] = {
 					},
-					["blacklist"] = {
+					["bar"] = {
+						["fontColor"] = {
+						},
+						["height"] = 32.99999870064245,
+						["backgroundColor"] = {
+						},
+						["width"] = 449.9999930245016,
+						["y"] = -354.8573556108008,
+						["x"] = -9.142695840480201,
+						["name"] = "Bar 0",
+						["borderColor"] = {
+						},
+						["inactiveAlpha"] = 0.2,
+						["lock"] = true,
+						["advancedOptions"] = true,
+						["flexible"] = false,
 					},
 					["eventColors"] = {
 					},
@@ -347,16 +356,7 @@ SexyCooldownDB = {
 						["borderColor"] = {
 						},
 					},
-					["bar"] = {
-						["fontColor"] = {
-						},
-						["borderColor"] = {
-						},
-						["height"] = 32.99999870064245,
-						["name"] = "Bar 0",
-						["backgroundColor"] = {
-						},
-						["width"] = 449.9999930245016,
+					["blacklist"] = {
 					},
 				}, -- [1]
 			},
@@ -365,6 +365,16 @@ SexyCooldownDB = {
 			["bars"] = {
 				{
 					["events"] = {
+					},
+					["blacklist"] = {
+					},
+					["eventColors"] = {
+					},
+					["icon"] = {
+						["fontColor"] = {
+						},
+						["borderColor"] = {
+						},
 					},
 					["bar"] = {
 						["fontColor"] = {
@@ -376,20 +386,10 @@ SexyCooldownDB = {
 						["borderColor"] = {
 						},
 						["height"] = 32.99999870064245,
-						["inactiveAlpha"] = 0.25,
+						["lock"] = true,
 						["backgroundColor"] = {
 						},
-						["lock"] = true,
-					},
-					["eventColors"] = {
-					},
-					["icon"] = {
-						["fontColor"] = {
-						},
-						["borderColor"] = {
-						},
-					},
-					["blacklist"] = {
+						["inactiveAlpha"] = 0.25,
 					},
 				}, -- [1]
 			},

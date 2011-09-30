@@ -323,6 +323,7 @@ MBFDB = {
 			["MBFHideMiniMapVoiceChatFrame"] = true,
 			["MBFHideMiniMapWorldMapButton"] = true,
 			["columns_or_rows"] = 1,
+			["MBFHideMiniMapTracking"] = true,
 			["customChildren"] = {
 				"MinimapButtonFrameDragButton", -- [1]
 				"MiniMapMailFrameDisabled", -- [2]
@@ -401,7 +402,6 @@ MBFDB = {
 				"DroodFocusMinimapButton", -- [75]
 			},
 			["MBFHideGameTimeFrame"] = true,
-			["MBFHideMiniMapTracking"] = true,
 			["grabBlizzButtons"] = true,
 			["minimapButton"] = {
 				["minimapPos"] = 0,
