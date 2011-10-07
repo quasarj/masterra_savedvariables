@@ -8,8 +8,8 @@ SexyMapDB = {
 		["Buttons"] = {
 			["profiles"] = {
 				["Kernelpanic - Auchindoun"] = {
-					["controlVisibility"] = false,
 					["allowDragging"] = false,
+					["controlVisibility"] = false,
 				},
 				["Oxshield - Auchindoun"] = {
 					["dragPositions"] = {
@@ -40,10 +40,10 @@ SexyMapDB = {
 					["calendar"] = {
 						["hide"] = "always",
 					},
-					["tracking"] = {
-						["hide"] = "hover",
+					["LibDBIcon10_BankStack"] = {
+						["hide"] = "always",
 					},
-					["LibDBIcon10_Grid"] = {
+					["MiniMapInstanceDifficulty"] = {
 						["hide"] = "always",
 					},
 					["worldmap"] = {
@@ -55,59 +55,59 @@ SexyMapDB = {
 					["mapclock"] = {
 						["hide"] = "always",
 					},
-					["DBMMinimapButton"] = {
+					["DominosMinimapButton"] = {
 						["hide"] = "always",
 					},
-					["DominosMinimapButton"] = {
+					["DBMMinimapButton"] = {
 						["hide"] = "always",
 					},
 					["mail"] = {
 						["hide"] = "always",
 					},
-					["MiniMapInstanceDifficulty"] = {
+					["LibDBIcon10_Grid"] = {
 						["hide"] = "always",
 					},
-					["LibDBIcon10_BankStack"] = {
-						["hide"] = "always",
+					["tracking"] = {
+						["hide"] = "hover",
 					},
 					["LibFuBarPlugin-3.0_CooldownTimers3_FrameMinimapButton"] = {
 						["hide"] = "always",
 					},
 				},
 				["Deadset - Auchindoun"] = {
+					["calendar"] = {
+						["hide"] = "hover",
+					},
+					["LibDBIcon10_PitBull4"] = {
+						["hide"] = "always",
+					},
+					["MiniMapLFGFrame"] = {
+						["hide"] = "always",
+					},
 					["SmartBuff_MiniMapButton"] = {
 						["hide"] = "always",
 					},
 					["lockDragging"] = false,
-					["calendar"] = {
-						["hide"] = "hover",
-					},
-					["Gatherer_MinimapOptionsButton"] = {
+					["LibFuBarPlugin-3.0_CooldownTimers3_FrameMinimapButton"] = {
 						["hide"] = "always",
 					},
 					["MiniMapInstanceDifficulty"] = {
 						["hide"] = "always",
 					},
-					["DominosMinimapButton"] = {
-						["hide"] = "always",
-					},
-					["DBMMinimapButton"] = {
-						["hide"] = "always",
-					},
-					["allowDragging"] = false,
-					["mapclock"] = {
-						["hide"] = "always",
-					},
-					["LibFuBarPlugin-3.0_CooldownTimers3_FrameMinimapButton"] = {
-						["hide"] = "always",
-					},
-					["LibDBIcon10_PitBull4"] = {
-						["hide"] = "always",
-					},
 					["MiniMapRecordingButton"] = {
 						["hide"] = "always",
 					},
-					["MiniMapLFGFrame"] = {
+					["Gatherer_MinimapOptionsButton"] = {
+						["hide"] = "always",
+					},
+					["mapclock"] = {
+						["hide"] = "always",
+					},
+					["allowDragging"] = false,
+					["DBMMinimapButton"] = {
+						["hide"] = "always",
+					},
+					["DominosMinimapButton"] = {
 						["hide"] = "always",
 					},
 					["LibDBIcon10_BankStack"] = {
@@ -116,20 +116,82 @@ SexyMapDB = {
 					["controlVisibility"] = false,
 				},
 				["Karrl - Auchindoun"] = {
-					["allowDragging"] = false,
 					["controlVisibility"] = false,
+					["allowDragging"] = false,
 				},
 				["Wezen - Auchindoun"] = {
-					["controlVisibility"] = false,
 					["allowDragging"] = false,
+					["controlVisibility"] = false,
 				},
 				["Gacrux - Auchindoun"] = {
+					["allowDragging"] = false,
+					["controlVisibility"] = false,
+				},
+				["Promitto - Auchindoun"] = {
+					["MiniMapRecordingButton"] = {
+						["hide"] = "always",
+					},
+					["allowDragging"] = false,
+					["MiniMapLFGFrame"] = {
+						["hide"] = "always",
+					},
+					["LibDBIcon10_VanasKoSMinimapButton"] = {
+						["hide"] = "always",
+					},
+					["SmartBuff_MiniMapButton"] = {
+						["hide"] = "always",
+					},
+					["pvp"] = {
+						["hide"] = "always",
+					},
+					["lfg"] = {
+						["hide"] = "always",
+					},
+					["LibDBIcon10_BankStack"] = {
+						["hide"] = "always",
+					},
+					["MiniMapInstanceDifficulty"] = {
+						["hide"] = "always",
+					},
+					["calendar"] = {
+						["hide"] = "always",
+					},
+					["worldmap"] = {
+						["hide"] = "never",
+					},
+					["difficulty"] = {
+						["hide"] = "always",
+					},
+					["mapclock"] = {
+						["hide"] = "always",
+					},
+					["DominosMinimapButton"] = {
+						["hide"] = "always",
+					},
+					["DBMMinimapButton"] = {
+						["hide"] = "always",
+					},
+					["mail"] = {
+						["hide"] = "always",
+					},
+					["dragPositions"] = {
+						["DHUD3_MinimapButton"] = 24.57767261166489,
+						["NeatFreakMinimapButton"] = 212.0014849475789,
+					},
+					["tracking"] = {
+						["hide"] = "hover",
+					},
+					["LibFuBarPlugin-3.0_CooldownTimers3_FrameMinimapButton"] = {
+						["hide"] = "always",
+					},
+				},
+				["Pulari - Auchindoun"] = {
 					["controlVisibility"] = false,
 					["allowDragging"] = false,
 				},
-				["Pulari - Auchindoun"] = {
-					["allowDragging"] = false,
+				["Pandohra - Auchindoun"] = {
 					["controlVisibility"] = false,
+					["allowDragging"] = false,
 				},
 				["Aset - Auchindoun"] = {
 					["direction"] = {
@@ -154,7 +216,7 @@ SexyMapDB = {
 					["zoom"] = {
 						["hide"] = "never",
 					},
-					["pvp"] = {
+					["LibFuBarPlugin-3.0_CooldownTimers3_FrameMinimapButton"] = {
 						["hide"] = "always",
 					},
 					["lfg"] = {
@@ -163,7 +225,7 @@ SexyMapDB = {
 					["calendar"] = {
 						["hide"] = "always",
 					},
-					["MiniMapLFGFrame"] = {
+					["MiniMapRecordingButton"] = {
 						["hide"] = "always",
 					},
 					["MiniMapInstanceDifficulty"] = {
@@ -178,79 +240,17 @@ SexyMapDB = {
 					["mapclock"] = {
 						["hide"] = "always",
 					},
-					["DBMMinimapButton"] = {
+					["DominosMinimapButton"] = {
 						["hide"] = "always",
 					},
-					["DominosMinimapButton"] = {
+					["DBMMinimapButton"] = {
 						["hide"] = "always",
 					},
 					["mail"] = {
 						["hide"] = "always",
 					},
-					["MiniMapRecordingButton"] = {
-						["hide"] = "always",
-					},
-					["LibDBIcon10_BankStack"] = {
-						["hide"] = "always",
-					},
-					["LibFuBarPlugin-3.0_CooldownTimers3_FrameMinimapButton"] = {
-						["hide"] = "always",
-					},
-				},
-				["Pandohra - Auchindoun"] = {
-					["allowDragging"] = false,
-					["controlVisibility"] = false,
-				},
-				["Promitto - Auchindoun"] = {
-					["MiniMapRecordingButton"] = {
-						["hide"] = "always",
-					},
-					["allowDragging"] = false,
 					["MiniMapLFGFrame"] = {
 						["hide"] = "always",
-					},
-					["LibDBIcon10_VanasKoSMinimapButton"] = {
-						["hide"] = "always",
-					},
-					["SmartBuff_MiniMapButton"] = {
-						["hide"] = "always",
-					},
-					["LibFuBarPlugin-3.0_CooldownTimers3_FrameMinimapButton"] = {
-						["hide"] = "always",
-					},
-					["lfg"] = {
-						["hide"] = "always",
-					},
-					["tracking"] = {
-						["hide"] = "hover",
-					},
-					["MiniMapInstanceDifficulty"] = {
-						["hide"] = "always",
-					},
-					["calendar"] = {
-						["hide"] = "always",
-					},
-					["worldmap"] = {
-						["hide"] = "never",
-					},
-					["difficulty"] = {
-						["hide"] = "always",
-					},
-					["mapclock"] = {
-						["hide"] = "always",
-					},
-					["DBMMinimapButton"] = {
-						["hide"] = "always",
-					},
-					["DominosMinimapButton"] = {
-						["hide"] = "always",
-					},
-					["mail"] = {
-						["hide"] = "always",
-					},
-					["dragPositions"] = {
-						["DHUD3_MinimapButton"] = 24.57767261166489,
-						["NeatFreakMinimapButton"] = 212.0014849475789,
 					},
 					["LibDBIcon10_BankStack"] = {
 						["hide"] = "always",
@@ -260,8 +260,8 @@ SexyMapDB = {
 					},
 				},
 				["Aonah - Auchindoun"] = {
-					["controlVisibility"] = false,
 					["allowDragging"] = false,
+					["controlVisibility"] = false,
 				},
 			},
 		},
@@ -293,17 +293,17 @@ SexyMapDB = {
 				["Knasbank - Auchindoun"] = {
 					["shape"] = "Textures\\MinimapMask",
 				},
-				["Pulari - Auchindoun"] = {
-					["shape"] = "Interface\\BUTTONS\\WHITE8X8",
+				["Pandohra - Auchindoun"] = {
+					["shape"] = "Textures\\MinimapMask",
 				},
-				["Aset - Auchindoun"] = {
+				["Pulari - Auchindoun"] = {
 					["shape"] = "Interface\\BUTTONS\\WHITE8X8",
 				},
 				["Promitto - Auchindoun"] = {
 					["shape"] = "Interface\\BUTTONS\\WHITE8X8",
 				},
-				["Pandohra - Auchindoun"] = {
-					["shape"] = "Textures\\MinimapMask",
+				["Aset - Auchindoun"] = {
+					["shape"] = "Interface\\BUTTONS\\WHITE8X8",
 				},
 				["Aonah - Auchindoun"] = {
 					["shape"] = "Textures\\MinimapMask",
@@ -314,10 +314,6 @@ SexyMapDB = {
 		},
 		["Movers"] = {
 			["profiles"] = {
-				["Promitto - Auchindoun"] = {
-					["clamp"] = false,
-					["lock"] = false,
-				},
 				["Aset - Auchindoun"] = {
 					["clamp"] = false,
 					["scale"] = 1,
@@ -326,7 +322,12 @@ SexyMapDB = {
 				["Chukk - Auchindoun"] = {
 					["clamp"] = false,
 				},
+				["Promitto - Auchindoun"] = {
+					["clamp"] = false,
+					["lock"] = false,
+				},
 				["Deadset - Auchindoun"] = {
+					["lock"] = false,
 					["scale"] = 1,
 					["framePositions"] = {
 						["Boss1TargetFrame"] = {
@@ -342,7 +343,6 @@ SexyMapDB = {
 							["x"] = 1646.571414413289,
 						},
 					},
-					["lock"] = false,
 				},
 				["Pandohra - Auchindoun"] = {
 					["scale"] = 1.26,
@@ -371,9 +371,9 @@ SexyMapDB = {
 					["borders"] = {
 						{
 							["a"] = 1,
-							["b"] = 1,
-							["name"] = "Rune 1",
 							["r"] = 0.3098039215686275,
+							["name"] = "Rune 1",
+							["b"] = 1,
 							["scale"] = 1.4,
 							["rotSpeed"] = -16,
 							["g"] = 0.4784313725490196,
@@ -381,9 +381,9 @@ SexyMapDB = {
 						}, -- [1]
 						{
 							["a"] = 0.3799999952316284,
-							["b"] = 1,
-							["rotSpeed"] = 4,
 							["r"] = 0.196078431372549,
+							["rotSpeed"] = 4,
+							["b"] = 1,
 							["scale"] = 2.1,
 							["name"] = "Rune 2",
 							["g"] = 0.2901960784313725,
@@ -425,9 +425,9 @@ SexyMapDB = {
 					["borders"] = {
 						{
 							["a"] = 1,
-							["r"] = 0.3098039215686275,
-							["name"] = "Rune 1",
 							["b"] = 1,
+							["name"] = "Rune 1",
+							["r"] = 0.3098039215686275,
 							["scale"] = 1.4,
 							["rotSpeed"] = -16,
 							["g"] = 0.4784313725490196,
@@ -435,9 +435,9 @@ SexyMapDB = {
 						}, -- [1]
 						{
 							["a"] = 0.3799999952316284,
-							["r"] = 0.196078431372549,
-							["rotSpeed"] = 4,
 							["b"] = 1,
+							["rotSpeed"] = 4,
+							["r"] = 0.196078431372549,
 							["scale"] = 2.1,
 							["name"] = "Rune 2",
 							["g"] = 0.2901960784313725,
@@ -469,9 +469,9 @@ SexyMapDB = {
 					["borders"] = {
 						{
 							["a"] = 1,
-							["b"] = 1,
-							["name"] = "Rune 1",
 							["r"] = 0.3098039215686275,
+							["name"] = "Rune 1",
+							["b"] = 1,
 							["scale"] = 1.4,
 							["rotSpeed"] = -16,
 							["g"] = 0.4784313725490196,
@@ -479,9 +479,9 @@ SexyMapDB = {
 						}, -- [1]
 						{
 							["a"] = 0.3799999952316284,
-							["b"] = 1,
-							["rotSpeed"] = 4,
 							["r"] = 0.196078431372549,
+							["rotSpeed"] = 4,
+							["b"] = 1,
 							["scale"] = 2.1,
 							["name"] = "Rune 2",
 							["g"] = 0.2901960784313725,
@@ -499,6 +499,40 @@ SexyMapDB = {
 					},
 				},
 				["Knasbank - Auchindoun"] = {
+					["applyPreset"] = false,
+					["borders"] = {
+						{
+							["a"] = 1,
+							["r"] = 0.3098039215686275,
+							["name"] = "Rune 1",
+							["b"] = 1,
+							["scale"] = 1.4,
+							["rotSpeed"] = -16,
+							["g"] = 0.4784313725490196,
+							["texture"] = "SPELLS\\AURARUNE256.BLP",
+						}, -- [1]
+						{
+							["a"] = 0.3799999952316284,
+							["r"] = 0.196078431372549,
+							["rotSpeed"] = 4,
+							["b"] = 1,
+							["scale"] = 2.1,
+							["name"] = "Rune 2",
+							["g"] = 0.2901960784313725,
+							["texture"] = "SPELLS\\AuraRune_A.blp",
+						}, -- [2]
+						{
+							["a"] = 0.3,
+							["name"] = "Fade",
+							["b"] = 1,
+							["scale"] = 1.6,
+							["r"] = 0,
+							["g"] = 0.2235294117647059,
+							["texture"] = "SPELLS\\T_VFX_HERO_CIRCLE.BLP",
+						}, -- [3]
+					},
+				},
+				["Pandohra - Auchindoun"] = {
 					["applyPreset"] = false,
 					["borders"] = {
 						{
@@ -542,16 +576,6 @@ SexyMapDB = {
 						["scale"] = 1.07,
 					},
 				},
-				["Aset - Auchindoun"] = {
-					["applyPreset"] = false,
-					["backdrop"] = {
-						["show"] = true,
-						["settings"] = {
-							["edgeSize"] = 17,
-						},
-						["scale"] = 1.07,
-					},
-				},
 				["Promitto - Auchindoun"] = {
 					["applyPreset"] = false,
 					["backdrop"] = {
@@ -562,38 +586,14 @@ SexyMapDB = {
 						["scale"] = 1.07,
 					},
 				},
-				["Pandohra - Auchindoun"] = {
+				["Aset - Auchindoun"] = {
 					["applyPreset"] = false,
-					["borders"] = {
-						{
-							["a"] = 1,
-							["r"] = 0.3098039215686275,
-							["name"] = "Rune 1",
-							["b"] = 1,
-							["scale"] = 1.4,
-							["rotSpeed"] = -16,
-							["g"] = 0.4784313725490196,
-							["texture"] = "SPELLS\\AURARUNE256.BLP",
-						}, -- [1]
-						{
-							["a"] = 0.3799999952316284,
-							["r"] = 0.196078431372549,
-							["rotSpeed"] = 4,
-							["b"] = 1,
-							["scale"] = 2.1,
-							["name"] = "Rune 2",
-							["g"] = 0.2901960784313725,
-							["texture"] = "SPELLS\\AuraRune_A.blp",
-						}, -- [2]
-						{
-							["a"] = 0.3,
-							["name"] = "Fade",
-							["b"] = 1,
-							["scale"] = 1.6,
-							["r"] = 0,
-							["g"] = 0.2235294117647059,
-							["texture"] = "SPELLS\\T_VFX_HERO_CIRCLE.BLP",
-						}, -- [3]
+					["backdrop"] = {
+						["show"] = true,
+						["settings"] = {
+							["edgeSize"] = 17,
+						},
+						["scale"] = 1.07,
 					},
 				},
 				["Aonah - Auchindoun"] = {
@@ -601,9 +601,9 @@ SexyMapDB = {
 					["borders"] = {
 						{
 							["a"] = 1,
-							["r"] = 0.3098039215686275,
-							["name"] = "Rune 1",
 							["b"] = 1,
+							["name"] = "Rune 1",
+							["r"] = 0.3098039215686275,
 							["scale"] = 1.4,
 							["rotSpeed"] = -16,
 							["g"] = 0.4784313725490196,
@@ -611,9 +611,9 @@ SexyMapDB = {
 						}, -- [1]
 						{
 							["a"] = 0.3799999952316284,
-							["r"] = 0.196078431372549,
-							["rotSpeed"] = 4,
 							["b"] = 1,
+							["rotSpeed"] = 4,
+							["r"] = 0.196078431372549,
 							["scale"] = 2.1,
 							["name"] = "Rune 2",
 							["g"] = 0.2901960784313725,
@@ -649,8 +649,8 @@ SexyMapDB = {
 				["Deadset - Auchindoun"] = {
 					["useQuestHelper"] = false,
 					["setNewScale"] = true,
-					["alpha"] = 1,
 					["scale"] = 2.2,
+					["alpha"] = 1,
 				},
 				["Karrl - Auchindoun"] = {
 					["scale"] = 1.4,
@@ -668,19 +668,19 @@ SexyMapDB = {
 					["scale"] = 1.4,
 					["setNewScale"] = true,
 				},
+				["Pandohra - Auchindoun"] = {
+					["scale"] = 1.4,
+					["setNewScale"] = true,
+				},
 				["Pulari - Auchindoun"] = {
 					["scale"] = 1.4,
 					["setNewScale"] = true,
 				},
-				["Aset - Auchindoun"] = {
-					["scale"] = 1.4,
-					["setNewScale"] = true,
-				},
 				["Promitto - Auchindoun"] = {
-					["setNewScale"] = true,
 					["scale"] = 1.4,
+					["setNewScale"] = true,
 				},
-				["Pandohra - Auchindoun"] = {
+				["Aset - Auchindoun"] = {
 					["scale"] = 1.4,
 					["setNewScale"] = true,
 				},
@@ -696,13 +696,13 @@ SexyMapDB = {
 					["show"] = "hover",
 					["yOffset"] = -20,
 				},
-				["Aset - Auchindoun"] = {
-					["show"] = "hover",
-					["yOffset"] = -25,
-				},
 				["Promitto - Auchindoun"] = {
 					["show"] = "hover",
 					["yOffset"] = -20,
+				},
+				["Aset - Auchindoun"] = {
+					["show"] = "hover",
+					["yOffset"] = -25,
 				},
 			},
 		},
@@ -716,10 +716,10 @@ SexyMapDB = {
 		["Gacrux - Auchindoun"] = "Gacrux - Auchindoun",
 		["Wezen - Auchindoun"] = "Wezen - Auchindoun",
 		["Knasbank - Auchindoun"] = "Knasbank - Auchindoun",
-		["Pulari - Auchindoun"] = "Pulari - Auchindoun",
-		["Aset - Auchindoun"] = "Aset - Auchindoun",
-		["Promitto - Auchindoun"] = "Promitto - Auchindoun",
 		["Pandohra - Auchindoun"] = "Pandohra - Auchindoun",
+		["Pulari - Auchindoun"] = "Pulari - Auchindoun",
+		["Promitto - Auchindoun"] = "Promitto - Auchindoun",
+		["Aset - Auchindoun"] = "Aset - Auchindoun",
 		["Aonah - Auchindoun"] = "Aonah - Auchindoun",
 	},
 }
