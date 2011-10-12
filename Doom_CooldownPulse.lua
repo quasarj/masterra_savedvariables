@@ -11,7 +11,7 @@ DCP_Saved = {
 	["maxAlpha"] = 0.7,
 	["x"] = 684.8000188201684,
 	["iconSize"] = 125,
-	["y"] = 411.7333474849328,
-	["ignoredSpells"] = "",
 	["animScale"] = 2,
+	["ignoredSpells"] = "",
+	["y"] = 411.7333474849328,
 }

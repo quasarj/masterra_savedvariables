@@ -25,6 +25,7 @@ CarouselDB = {
 				["EveryQuest"] = true,
 				["AdiBags"] = true,
 				["AsetHaste"] = true,
+				["LoggerHead"] = true,
 				["Atlas"] = true,
 				["TradeSkillMaster"] = true,
 				["GearScore"] = true,
