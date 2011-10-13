@@ -66,7 +66,12 @@ MBFDB = {
 			["disabledMail"] = false,
 		},
 		["Chukk - Auchindoun"] = {
-			["disabledMail"] = false,
+			["MBFHideMiniMapMailFrame"] = true,
+			["MBFHideMiniMapVoiceChatFrame"] = true,
+			["MBFHideMinimapZoomIn"] = true,
+			["altTitle"] = true,
+			["padding"] = 0,
+			["currentTexture"] = "simple Square",
 			["customChildren"] = {
 				"MinimapButtonFrameDragButton", -- [1]
 				"MiniMapMailFrameDisabled", -- [2]
@@ -97,23 +102,19 @@ MBFDB = {
 				"LibDBIcon10_AutoProfitX", -- [27]
 				"LibDBIcon10_AtlasLoot", -- [28]
 				"TenTonHammer_MinimapButton", -- [29]
+				"LibDBIcon10_LoggerHead", -- [30]
 			},
-			["MBFHideMinimapZoomIn"] = true,
-			["altTitle"] = true,
-			["padding"] = 0,
-			["currentTexture"] = "simple Square",
-			["MBFHideMiniMapVoiceChatFrame"] = true,
 			["MBFHideMiniMapWorldMapButton"] = true,
 			["columns_or_rows"] = 1,
-			["locked"] = true,
-			["MBFHideMiniMapTracking"] = true,
 			["MBFHideGameTimeFrame"] = true,
+			["MBFHideMiniMapTracking"] = true,
+			["locked"] = true,
 			["grabBlizzButtons"] = true,
 			["minimapButton"] = {
 				["minimapPos"] = 57,
 				["radius"] = 80,
 			},
-			["MBFHideMiniMapMailFrame"] = true,
+			["disabledMail"] = false,
 		},
 		["Deadset - Auchindoun"] = {
 			["MBF_FrameLocation"] = {
@@ -170,106 +171,6 @@ MBFDB = {
 				"TenTonHammer_MinimapButton", -- [16]
 				"LibDBIcon10_TradeSkillMaster", -- [17]
 				"SexyMapPingFrame", -- [18]
-			},
-		},
-		["Knasbank - Auchindoun"] = {
-			["MBF_FrameLocation"] = {
-				"RIGHT", -- [1]
-				"RIGHT", -- [2]
-				-36.57106451646234, -- [3]
-				-66.71430642935069, -- [4]
-			},
-			["minimapButton"] = {
-				["minimapPos"] = 211,
-				["radius"] = 80,
-			},
-			["customChildren"] = {
-				"MinimapButtonFrameDragButton", -- [1]
-				"MiniMapMailFrameDisabled", -- [2]
-				"LibDBIcon10_PitBull4", -- [3]
-				"LibDBIcon10_VanasKoSMinimapButton", -- [4]
-				"BEMB_MinimapButton", -- [5]
-				"NeatFreakMinimapButton", -- [6]
-				"LibFuBarPlugin-3.0_CooldownTimers3_FrameMinimapButton", -- [7]
-				"LibDBIcon10_BankStack", -- [8]
-			},
-		},
-		["Promitto - Auchindoun"] = {
-			["MBFHideMinimapZoomIn"] = true,
-			["altTitle"] = true,
-			["MBFHideMiniMapVoiceChatFrame"] = true,
-			["currentTexture"] = "Blizzard Square",
-			["customChildren"] = {
-				"MinimapButtonFrameDragButton", -- [1]
-				"MiniMapMailFrameDisabled", -- [2]
-				"SmartBuff_MiniMapButton", -- [3]
-				"LibDBIcon10_oRA2", -- [4]
-				"MacaroonMinimapButton", -- [5]
-				"LibDBIcon10_PitBull4", -- [6]
-				"LibDBIcon10_VanasKoSMinimapButton", -- [7]
-				"LibFuBarPlugin-3.0_ZooKeeper_FrameMinimapButton", -- [8]
-				"LibDBIcon10_Omen", -- [9]
-				"AtlasButtonFrame", -- [10]
-				"BEMB_MinimapButton", -- [11]
-				"DBMMinimapButton", -- [12]
-				"DHUD3_MinimapButton", -- [13]
-				"DominosMinimapButton", -- [14]
-				"ItemRackMinimapFrame", -- [15]
-				"NeatFreakMinimapButton", -- [16]
-				"LibFuBarPlugin-3.0_CooldownTimers3_FrameMinimapButton", -- [17]
-				"FuBarPluginAtlasLootFuFrameMinimapButton", -- [18]
-				"FuBarPluginGridFrameMinimapButton", -- [19]
-				"LibDBIcon10_MBF", -- [20]
-				"MiniMapMailFrame", -- [21]
-				"GameTimeFrame", -- [22]
-				"MiniMapWorldMapButton", -- [23]
-				"MinimapZoomIn", -- [24]
-				"MinimapZoomOut", -- [25]
-				"FuBarPluginIceHUDFrameMinimapButton", -- [26]
-				"MiniMapBattlefieldFrame", -- [27]
-				"LibDBIcon10_BankStack", -- [28]
-				"LibDBIcon10_Grid", -- [29]
-				"MiniMapLFGFrame", -- [30]
-				"FuBarPluginZOMGBuffsFrameMinimapButton", -- [31]
-				"AltoholicMinimapButton", -- [32]
-				"RBSMinimapButton", -- [33]
-				"LibDBIcon10_Archy", -- [34]
-				"LibDBIcon10_AutoProfitX", -- [35]
-				"SexyMapPingFrame", -- [36]
-				"LibDBIcon10_AtlasLoot", -- [37]
-				"LibDBIcon10_TradeSkillMaster", -- [38]
-			},
-			["MBFHideMiniMapWorldMapButton"] = true,
-			["columns_or_rows"] = 1,
-			["MBFHideMiniMapTracking"] = true,
-			["padding"] = 0,
-			["locked"] = true,
-			["grabBlizzButtons"] = true,
-			["minimapButton"] = {
-				["minimapPos"] = 109,
-				["radius"] = 80,
-			},
-			["disabledMail"] = false,
-		},
-		["Sadr - Auchindoun"] = {
-			["MBF_FrameLocation"] = {
-				"BOTTOMRIGHT", -- [1]
-				"BOTTOMRIGHT", -- [2]
-				-240.8559277674621, -- [3]
-			},
-			["customChildren"] = {
-				"MinimapButtonFrameDragButton", -- [1]
-				"MiniMapMailFrameDisabled", -- [2]
-				"AtlasButtonFrame", -- [3]
-				"LibDBIcon10_BankStack", -- [4]
-				"DBMMinimapButton", -- [5]
-				"DominosMinimapButton", -- [6]
-				"SmartBuff_MiniMapButton", -- [7]
-				"LibDBIcon10_VanasKoSMinimapButton", -- [8]
-				"LibDBIcon10_Grid", -- [9]
-				"LibDBIcon10_Omen", -- [10]
-				"FuBarPluginAtlasLootFuFrameMinimapButton", -- [11]
-				"LibFuBarPlugin-3.0_CooldownTimers3_FrameMinimapButton", -- [12]
 			},
 		},
 		["Default"] = {
@@ -349,22 +250,149 @@ MBFDB = {
 			},
 			["MBFHideMiniMapVoiceChatFrame"] = true,
 		},
-		["Aset - Auchindoun"] = {
+		["Wezen - Auchindoun"] = {
+			["MBF_FrameLocation"] = {
+				nil, -- [1]
+				"BOTTOMRIGHT", -- [2]
+				-15.71507573846469, -- [3]
+				393.4286997354546, -- [4]
+			},
+			["MBFHideMinimapZoomIn"] = true,
+			["customChildren"] = {
+				"MinimapButtonFrameDragButton", -- [1]
+				"MiniMapMailFrameDisabled", -- [2]
+				"LibDBIcon10_VanasKoSMinimapButton", -- [3]
+				"LibFuBarPlugin-3.0_ZooKeeper_FrameMinimapButton", -- [4]
+				"LibDBIcon10_Omen", -- [5]
+				"SmartBuff_MiniMapButton", -- [6]
+				"AtlasButtonFrame", -- [7]
+				"BEMB_MinimapButton", -- [8]
+				"DBMMinimapButton", -- [9]
+				"DominosMinimapButton", -- [10]
+				"FuBarPluginGridFrameMinimapButton", -- [11]
+				"FuBarPluginIceHUDFrameMinimapButton", -- [12]
+				"LibFuBarPlugin-3.0_CooldownTimers3_FrameMinimapButton", -- [13]
+				"MiniMapMailFrame", -- [14]
+				"GameTimeFrame", -- [15]
+				"MiniMapWorldMapButton", -- [16]
+				"MinimapZoomIn", -- [17]
+				"MinimapZoomOut", -- [18]
+				"MiniMapMeetingStoneFrame", -- [19]
+				"LibDBIcon10_BankStack", -- [20]
+				"MiniMapBattlefieldFrame", -- [21]
+				"Gatherer_MinimapOptionsButton", -- [22]
+				"LibDBIcon10_Grid", -- [23]
+				"MiniMapLFGFrame", -- [24]
+				"FuBarPluginZOMGBuffsFrameMinimapButton", -- [25]
+				"AltoholicMinimapButton", -- [26]
+				"LibDBIcon10_IceHUD", -- [27]
+				"RBSMinimapButton", -- [28]
+				"LibDBIcon10_Archy", -- [29]
+				"LibDBIcon10_TradeSkillMaster", -- [30]
+				"LibDBIcon10_AtlasLoot", -- [31]
+				"LibDBIcon10_TidyPlates", -- [32]
+			},
+			["MBFHideMiniMapWorldMapButton"] = true,
 			["MBFHideMiniMapVoiceChatFrame"] = true,
+			["MBFHideGameTimeFrame"] = true,
+			["MBFHideMiniMapTracking"] = true,
+			["grabBlizzButtons"] = true,
+			["minimapButton"] = {
+				["minimapPos"] = 339,
+				["radius"] = 80,
+			},
+			["disabledMail"] = false,
+		},
+		["Knasbank - Auchindoun"] = {
+			["MBF_FrameLocation"] = {
+				"RIGHT", -- [1]
+				"RIGHT", -- [2]
+				-36.57106451646234, -- [3]
+				-66.71430642935069, -- [4]
+			},
+			["minimapButton"] = {
+				["minimapPos"] = 211,
+				["radius"] = 80,
+			},
+			["customChildren"] = {
+				"MinimapButtonFrameDragButton", -- [1]
+				"MiniMapMailFrameDisabled", -- [2]
+				"LibDBIcon10_PitBull4", -- [3]
+				"LibDBIcon10_VanasKoSMinimapButton", -- [4]
+				"BEMB_MinimapButton", -- [5]
+				"NeatFreakMinimapButton", -- [6]
+				"LibFuBarPlugin-3.0_CooldownTimers3_FrameMinimapButton", -- [7]
+				"LibDBIcon10_BankStack", -- [8]
+			},
+		},
+		["Promitto - Auchindoun"] = {
 			["MBFHideMiniMapWorldMapButton"] = true,
 			["columns_or_rows"] = 1,
-			["MBFHideGameTimeFrame"] = true,
+			["locked"] = true,
 			["minimapButton"] = {
-				["minimapPos"] = 0,
+				["minimapPos"] = 109,
 				["radius"] = 80,
 			},
 			["disabledMail"] = false,
 			["MBFHideMinimapZoomIn"] = true,
 			["altTitle"] = true,
 			["MBFHideMiniMapTracking"] = true,
+			["currentTexture"] = "Blizzard Square",
+			["customChildren"] = {
+				"MinimapButtonFrameDragButton", -- [1]
+				"MiniMapMailFrameDisabled", -- [2]
+				"SmartBuff_MiniMapButton", -- [3]
+				"LibDBIcon10_oRA2", -- [4]
+				"MacaroonMinimapButton", -- [5]
+				"LibDBIcon10_PitBull4", -- [6]
+				"LibDBIcon10_VanasKoSMinimapButton", -- [7]
+				"LibFuBarPlugin-3.0_ZooKeeper_FrameMinimapButton", -- [8]
+				"LibDBIcon10_Omen", -- [9]
+				"AtlasButtonFrame", -- [10]
+				"BEMB_MinimapButton", -- [11]
+				"DBMMinimapButton", -- [12]
+				"DHUD3_MinimapButton", -- [13]
+				"DominosMinimapButton", -- [14]
+				"ItemRackMinimapFrame", -- [15]
+				"NeatFreakMinimapButton", -- [16]
+				"LibFuBarPlugin-3.0_CooldownTimers3_FrameMinimapButton", -- [17]
+				"FuBarPluginAtlasLootFuFrameMinimapButton", -- [18]
+				"FuBarPluginGridFrameMinimapButton", -- [19]
+				"LibDBIcon10_MBF", -- [20]
+				"MiniMapMailFrame", -- [21]
+				"GameTimeFrame", -- [22]
+				"MiniMapWorldMapButton", -- [23]
+				"MinimapZoomIn", -- [24]
+				"MinimapZoomOut", -- [25]
+				"FuBarPluginIceHUDFrameMinimapButton", -- [26]
+				"MiniMapBattlefieldFrame", -- [27]
+				"LibDBIcon10_BankStack", -- [28]
+				"LibDBIcon10_Grid", -- [29]
+				"MiniMapLFGFrame", -- [30]
+				"FuBarPluginZOMGBuffsFrameMinimapButton", -- [31]
+				"AltoholicMinimapButton", -- [32]
+				"RBSMinimapButton", -- [33]
+				"LibDBIcon10_Archy", -- [34]
+				"LibDBIcon10_AutoProfitX", -- [35]
+				"SexyMapPingFrame", -- [36]
+				"LibDBIcon10_AtlasLoot", -- [37]
+				"LibDBIcon10_TradeSkillMaster", -- [38]
+				"LibDBIcon10_LoggerHead", -- [39]
+			},
+			["padding"] = 0,
+			["grabBlizzButtons"] = true,
+			["MBFHideMiniMapVoiceChatFrame"] = true,
+		},
+		["Aset - Auchindoun"] = {
 			["MBF_FrameLocation"] = {
 				[3] = -0.0007294638430595603,
 			},
+			["MBFHideMinimapZoomIn"] = true,
+			["altTitle"] = true,
+			["MBFHideMiniMapVoiceChatFrame"] = true,
+			["MBFHideMiniMapWorldMapButton"] = true,
+			["columns_or_rows"] = 1,
+			["MBFHideMiniMapTracking"] = true,
 			["customChildren"] = {
 				"MinimapButtonFrameDragButton", -- [1]
 				"MiniMapMailFrameDisabled", -- [2]
@@ -443,60 +471,34 @@ MBFDB = {
 				"DroodFocusMinimapButton", -- [75]
 				"LibDBIcon10_LoggerHead", -- [76]
 			},
-			["grabBlizzButtons"] = true,
-		},
-		["Wezen - Auchindoun"] = {
-			["MBF_FrameLocation"] = {
-				nil, -- [1]
-				"BOTTOMRIGHT", -- [2]
-				-15.71507573846469, -- [3]
-				393.4286997354546, -- [4]
-			},
-			["MBFHideMinimapZoomIn"] = true,
-			["customChildren"] = {
-				"MinimapButtonFrameDragButton", -- [1]
-				"MiniMapMailFrameDisabled", -- [2]
-				"LibDBIcon10_VanasKoSMinimapButton", -- [3]
-				"LibFuBarPlugin-3.0_ZooKeeper_FrameMinimapButton", -- [4]
-				"LibDBIcon10_Omen", -- [5]
-				"SmartBuff_MiniMapButton", -- [6]
-				"AtlasButtonFrame", -- [7]
-				"BEMB_MinimapButton", -- [8]
-				"DBMMinimapButton", -- [9]
-				"DominosMinimapButton", -- [10]
-				"FuBarPluginGridFrameMinimapButton", -- [11]
-				"FuBarPluginIceHUDFrameMinimapButton", -- [12]
-				"LibFuBarPlugin-3.0_CooldownTimers3_FrameMinimapButton", -- [13]
-				"MiniMapMailFrame", -- [14]
-				"GameTimeFrame", -- [15]
-				"MiniMapWorldMapButton", -- [16]
-				"MinimapZoomIn", -- [17]
-				"MinimapZoomOut", -- [18]
-				"MiniMapMeetingStoneFrame", -- [19]
-				"LibDBIcon10_BankStack", -- [20]
-				"MiniMapBattlefieldFrame", -- [21]
-				"Gatherer_MinimapOptionsButton", -- [22]
-				"LibDBIcon10_Grid", -- [23]
-				"MiniMapLFGFrame", -- [24]
-				"FuBarPluginZOMGBuffsFrameMinimapButton", -- [25]
-				"AltoholicMinimapButton", -- [26]
-				"LibDBIcon10_IceHUD", -- [27]
-				"RBSMinimapButton", -- [28]
-				"LibDBIcon10_Archy", -- [29]
-				"LibDBIcon10_TradeSkillMaster", -- [30]
-				"LibDBIcon10_AtlasLoot", -- [31]
-				"LibDBIcon10_TidyPlates", -- [32]
-			},
-			["MBFHideMiniMapWorldMapButton"] = true,
-			["MBFHideMiniMapVoiceChatFrame"] = true,
 			["MBFHideGameTimeFrame"] = true,
-			["MBFHideMiniMapTracking"] = true,
 			["grabBlizzButtons"] = true,
 			["minimapButton"] = {
-				["minimapPos"] = 339,
+				["minimapPos"] = 0,
 				["radius"] = 80,
 			},
 			["disabledMail"] = false,
+		},
+		["Sadr - Auchindoun"] = {
+			["MBF_FrameLocation"] = {
+				"BOTTOMRIGHT", -- [1]
+				"BOTTOMRIGHT", -- [2]
+				-240.8559277674621, -- [3]
+			},
+			["customChildren"] = {
+				"MinimapButtonFrameDragButton", -- [1]
+				"MiniMapMailFrameDisabled", -- [2]
+				"AtlasButtonFrame", -- [3]
+				"LibDBIcon10_BankStack", -- [4]
+				"DBMMinimapButton", -- [5]
+				"DominosMinimapButton", -- [6]
+				"SmartBuff_MiniMapButton", -- [7]
+				"LibDBIcon10_VanasKoSMinimapButton", -- [8]
+				"LibDBIcon10_Grid", -- [9]
+				"LibDBIcon10_Omen", -- [10]
+				"FuBarPluginAtlasLootFuFrameMinimapButton", -- [11]
+				"LibFuBarPlugin-3.0_CooldownTimers3_FrameMinimapButton", -- [12]
+			},
 		},
 		["Pandohra - Auchindoun"] = {
 			["MBF_FrameLocation"] = {

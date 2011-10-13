@@ -628,6 +628,10 @@ ACP_Data = {
 			"Toki's Simple Command Line Calculator", -- [68]
 			"WIM", -- [69]
 		},
+		[25] = {
+			"SexyCooldown", -- [1]
+			["name"] = "AsetTest",
+		},
 		["Mage"] = {
 			"Bagnon", -- [1]
 			"Dominos", -- [2]
@@ -638,10 +642,6 @@ ACP_Data = {
 			"ShadowedUnitFrames", -- [7]
 			"Talented", -- [8]
 			"Talented_Inspect", -- [9]
-		},
-		[25] = {
-			"SexyCooldown", -- [1]
-			["name"] = "AsetTest",
 		},
 	},
 	["NoChildren"] = true,
@@ -657,13 +657,13 @@ ACP_Data = {
 		["EveryQuest"] = true,
 		["Atlas"] = true,
 		["BigWigs"] = true,
-		["Bagnon"] = true,
+		["DataStore"] = true,
 		["Auctioneer"] = true,
 		["OmniCC"] = true,
-		["Altoholic"] = true,
 		["PitBull4"] = true,
+		["Altoholic"] = true,
 		["ZOMGBuffs"] = true,
-		["DataStore"] = true,
+		["Bagnon"] = true,
 	},
 	["ProtectedAddons"] = {
 		["ACP"] = true,

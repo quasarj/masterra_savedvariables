@@ -1,5 +1,28 @@
 
 Postal3DB = {
+	["profileKeys"] = {
+		["Kernelpanic - Auchindoun"] = "Kernelpanic - Auchindoun",
+		["Chukk - Auchindoun"] = "Chukk - Auchindoun",
+		["Meowfest - Auchindoun"] = "Meowfest - Auchindoun",
+		["Karrl - Auchindoun"] = "Karrl - Auchindoun",
+		["Sadr - Auchindoun"] = "Sadr - Auchindoun",
+		["Pooshield - Arthas"] = "Pooshield - Arthas",
+		["Gacrux - Thorium Brotherhood"] = "Gacrux - Thorium Brotherhood",
+		["Aonah - Auchindoun"] = "Aonah - Auchindoun",
+		["Gacrux - Zuluhed"] = "Gacrux - Zuluhed",
+		["Idsapme - Auchindoun"] = "Idsapme - Auchindoun",
+		["Itsashaman - Arthas"] = "Itsashaman - Arthas",
+		["Gacrux - Auchindoun"] = "Gacrux - Auchindoun",
+		["Promitto - Auchindoun"] = "Promitto - Auchindoun",
+		["Pulari - Auchindoun"] = "Pulari - Auchindoun",
+		["Wezen - Auchindoun"] = "Wezen - Auchindoun",
+		["Wezen - Thorium Brotherhood"] = "Wezen - Thorium Brotherhood",
+		["Deadset - Auchindoun"] = "Deadset - Auchindoun",
+		["Aset - Auchindoun"] = "Aset - Auchindoun",
+		["Pooshield - Thrall"] = "Pooshield - Thrall",
+		["Oxshield - Auchindoun"] = "Oxshield - Auchindoun",
+		["Promitto - Thorium Brotherhood"] = "Promitto - Thorium Brotherhood",
+	},
 	["global"] = {
 		["BlackBook"] = {
 			["alts"] = {
@@ -35,29 +58,6 @@ Postal3DB = {
 			},
 		},
 	},
-	["profileKeys"] = {
-		["Kernelpanic - Auchindoun"] = "Kernelpanic - Auchindoun",
-		["Chukk - Auchindoun"] = "Chukk - Auchindoun",
-		["Meowfest - Auchindoun"] = "Meowfest - Auchindoun",
-		["Karrl - Auchindoun"] = "Karrl - Auchindoun",
-		["Sadr - Auchindoun"] = "Sadr - Auchindoun",
-		["Pooshield - Arthas"] = "Pooshield - Arthas",
-		["Gacrux - Thorium Brotherhood"] = "Gacrux - Thorium Brotherhood",
-		["Aonah - Auchindoun"] = "Aonah - Auchindoun",
-		["Gacrux - Zuluhed"] = "Gacrux - Zuluhed",
-		["Idsapme - Auchindoun"] = "Idsapme - Auchindoun",
-		["Promitto - Thorium Brotherhood"] = "Promitto - Thorium Brotherhood",
-		["Gacrux - Auchindoun"] = "Gacrux - Auchindoun",
-		["Oxshield - Auchindoun"] = "Oxshield - Auchindoun",
-		["Pooshield - Thrall"] = "Pooshield - Thrall",
-		["Wezen - Auchindoun"] = "Wezen - Auchindoun",
-		["Wezen - Thorium Brotherhood"] = "Wezen - Thorium Brotherhood",
-		["Deadset - Auchindoun"] = "Deadset - Auchindoun",
-		["Aset - Auchindoun"] = "Aset - Auchindoun",
-		["Pulari - Auchindoun"] = "Pulari - Auchindoun",
-		["Promitto - Auchindoun"] = "Promitto - Auchindoun",
-		["Itsashaman - Arthas"] = "Itsashaman - Arthas",
-	},
 	["profiles"] = {
 		["Kernelpanic - Auchindoun"] = {
 			["BlackBook"] = {
@@ -71,8 +71,8 @@ Postal3DB = {
 		["Chukk - Auchindoun"] = {
 			["BlackBook"] = {
 				["recent"] = {
-					"Haliax|Auchindoun|Alliance", -- [1]
-					"Kernelpanic|Auchindoun|Alliance", -- [2]
+					"Kernelpanic|Auchindoun|Alliance", -- [1]
+					"Haliax|Auchindoun|Alliance", -- [2]
 					"Aset|Auchindoun|Alliance", -- [3]
 					"Deadset|Auchindoun|Alliance", -- [4]
 					"aonah|Auchindoun|Alliance", -- [5]
@@ -127,13 +127,13 @@ Postal3DB = {
 			["BlackBook"] = {
 				["recent"] = {
 					"Aset|Auchindoun|Alliance", -- [1]
-					"Promitto|Auchindoun|Alliance", -- [2]
-					"aset|Auchindoun|Alliance", -- [3]
-					"Pulari|Auchindoun|Alliance", -- [4]
-					"pulari|Auchindoun|Alliance", -- [5]
-					"Kiva|Auchindoun|Alliance", -- [6]
-					"Mawl|Auchindoun|Alliance", -- [7]
-					"Chukk|Auchindoun|Alliance", -- [8]
+					"Pulari|Auchindoun|Alliance", -- [2]
+					"Chukk|Auchindoun|Alliance", -- [3]
+					"Promitto|Auchindoun|Alliance", -- [4]
+					"aset|Auchindoun|Alliance", -- [5]
+					"pulari|Auchindoun|Alliance", -- [6]
+					"Kiva|Auchindoun|Alliance", -- [7]
+					"Mawl|Auchindoun|Alliance", -- [8]
 					"deadset|Auchindoun|Alliance", -- [9]
 					"Haliax|Auchindoun|Alliance", -- [10]
 					"promitto|Auchindoun|Alliance", -- [11]
@@ -161,12 +161,7 @@ Postal3DB = {
 				},
 			},
 		},
-		["Promitto - Thorium Brotherhood"] = {
-			["BlackBook"] = {
-				["recent"] = {
-					"Wezen", -- [1]
-				},
-			},
+		["Itsashaman - Arthas"] = {
 		},
 		["Gacrux - Auchindoun"] = {
 			["BlackBook"] = {
@@ -177,14 +172,44 @@ Postal3DB = {
 				},
 			},
 		},
-		["Oxshield - Auchindoun"] = {
+		["Promitto - Auchindoun"] = {
 			["BlackBook"] = {
 				["recent"] = {
-					"Mawl|Auchindoun|Horde", -- [1]
+					"aonah|Auchindoun|Alliance", -- [1]
+					"Aset|Auchindoun|Alliance", -- [2]
+					"aonahr|Auchindoun|Alliance", -- [3]
+					"Deadset|Auchindoun|Alliance", -- [4]
+					"Kernelpanic|Auchindoun|Alliance", -- [5]
+					"chukk|Auchindoun|Alliance", -- [6]
+					"Aonah|Auchindoun|Alliance", -- [7]
+					"Wezen|Auchindoun|Alliance", -- [8]
+					"Gacrux|Auchindoun|Alliance", -- [9]
+					"Piggyslasher|Auchindoun|Alliance", -- [10]
+					"Pulari|Auchindoun|Alliance", -- [11]
+					"Isolei|Auchindoun|Alliance", -- [12]
+					"chukkr|Auchindoun|Alliance", -- [13]
+					"````````````|Auchindoun|Alliance", -- [14]
+					"chukk```````|Auchindoun|Alliance", -- [15]
+					"Calada|Auchindoun|Alliance", -- [16]
+					"Chukk|Auchindoun|Alliance", -- [17]
 				},
 			},
 		},
-		["Pooshield - Thrall"] = {
+		["Pulari - Auchindoun"] = {
+			["BlackBook"] = {
+				["recent"] = {
+					"Aset|Auchindoun|Alliance", -- [1]
+					"aonah|Auchindoun|Alliance", -- [2]
+					"Aonah|Auchindoun|Alliance", -- [3]
+					"Chukk|Auchindoun|Alliance", -- [4]
+					"Heïmdall|Auchindoun|Alliance", -- [5]
+					"Mawl|Auchindoun|Alliance", -- [6]
+					"aonah`|Auchindoun|Alliance", -- [7]
+					"Tabata|Auchindoun|Alliance", -- [8]
+					"promitto|Auchindoun|Alliance", -- [9]
+					"Deadset|Auchindoun|Alliance", -- [10]
+				},
+			},
 		},
 		["Wezen - Auchindoun"] = {
 			["BlackBook"] = {
@@ -229,14 +254,14 @@ Postal3DB = {
 		["Aset - Auchindoun"] = {
 			["BlackBook"] = {
 				["recent"] = {
-					"Isoldia|Auchindoun|Alliance", -- [1]
-					"aonah|Auchindoun|Alliance", -- [2]
+					"aonah|Auchindoun|Alliance", -- [1]
+					"Promitto|Auchindoun|Alliance", -- [2]
 					"promitto|Auchindoun|Alliance", -- [3]
-					"Promitto|Auchindoun|Alliance", -- [4]
-					"Pulari|Auchindoun|Alliance", -- [5]
-					"Kernelpanic|Auchindoun|Alliance", -- [6]
-					"Holyann|Auchindoun|Alliance", -- [7]
-					"Aonah|Auchindoun|Alliance", -- [8]
+					"Aonah|Auchindoun|Alliance", -- [4]
+					"Kernelpanic|Auchindoun|Alliance", -- [5]
+					"Isoldia|Auchindoun|Alliance", -- [6]
+					"Pulari|Auchindoun|Alliance", -- [7]
+					"Holyann|Auchindoun|Alliance", -- [8]
 					"Kiva|Auchindoun|Alliance", -- [9]
 					"Heïmdall|Auchindoun|Alliance", -- [10]
 					"Cuttíe|Auchindoun|Alliance", -- [11]
@@ -252,46 +277,21 @@ Postal3DB = {
 				},
 			},
 		},
-		["Pulari - Auchindoun"] = {
+		["Pooshield - Thrall"] = {
+		},
+		["Oxshield - Auchindoun"] = {
 			["BlackBook"] = {
 				["recent"] = {
-					"Aset|Auchindoun|Alliance", -- [1]
-					"aonah|Auchindoun|Alliance", -- [2]
-					"Aonah|Auchindoun|Alliance", -- [3]
-					"Chukk|Auchindoun|Alliance", -- [4]
-					"Heïmdall|Auchindoun|Alliance", -- [5]
-					"Mawl|Auchindoun|Alliance", -- [6]
-					"aonah`|Auchindoun|Alliance", -- [7]
-					"Tabata|Auchindoun|Alliance", -- [8]
-					"promitto|Auchindoun|Alliance", -- [9]
-					"Deadset|Auchindoun|Alliance", -- [10]
+					"Mawl|Auchindoun|Horde", -- [1]
 				},
 			},
 		},
-		["Promitto - Auchindoun"] = {
+		["Promitto - Thorium Brotherhood"] = {
 			["BlackBook"] = {
 				["recent"] = {
-					"aonah|Auchindoun|Alliance", -- [1]
-					"Aset|Auchindoun|Alliance", -- [2]
-					"aonahr|Auchindoun|Alliance", -- [3]
-					"Deadset|Auchindoun|Alliance", -- [4]
-					"Kernelpanic|Auchindoun|Alliance", -- [5]
-					"chukk|Auchindoun|Alliance", -- [6]
-					"Aonah|Auchindoun|Alliance", -- [7]
-					"Wezen|Auchindoun|Alliance", -- [8]
-					"Gacrux|Auchindoun|Alliance", -- [9]
-					"Piggyslasher|Auchindoun|Alliance", -- [10]
-					"Pulari|Auchindoun|Alliance", -- [11]
-					"Isolei|Auchindoun|Alliance", -- [12]
-					"chukkr|Auchindoun|Alliance", -- [13]
-					"````````````|Auchindoun|Alliance", -- [14]
-					"chukk```````|Auchindoun|Alliance", -- [15]
-					"Calada|Auchindoun|Alliance", -- [16]
-					"Chukk|Auchindoun|Alliance", -- [17]
+					"Wezen", -- [1]
 				},
 			},
-		},
-		["Itsashaman - Arthas"] = {
 		},
 	},
 }
