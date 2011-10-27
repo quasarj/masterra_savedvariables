@@ -12,6 +12,7 @@ TalentedDB = {
 		["Aset - Auchindoun"] = "Aset - Auchindoun",
 		["Deadset - Auchindoun"] = "Deadset - Auchindoun",
 		["Sadr - Auchindoun"] = "Sadr - Auchindoun",
+		["Promitto - Auchindoun"] = "Promitto - Auchindoun",
 	},
 	["profiles"] = {
 		["Aset - Auchindoun"] = {
@@ -20,6 +21,8 @@ TalentedDB = {
 		["Deadset - Auchindoun"] = {
 		},
 		["Sadr - Auchindoun"] = {
+		},
+		["Promitto - Auchindoun"] = {
 		},
 	},
 }

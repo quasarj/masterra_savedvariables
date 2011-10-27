@@ -38,10 +38,10 @@ ThreatPlatesDB = {
 			},
 		},
 		["Chukk - Auchindoun"] = {
+			["welcome"] = true,
 			["spec"] = {
 				["primary"] = false,
 			},
-			["welcome"] = true,
 			["specInfo"] = {
 				{
 					6, -- [1]
@@ -194,10 +194,10 @@ ThreatPlatesDB = {
 			},
 		},
 		["Aset - Auchindoun"] = {
+			["welcome"] = true,
 			["spec"] = {
 				["secondary"] = true,
 			},
-			["welcome"] = true,
 			["specInfo"] = {
 				{
 					nil, -- [1]
@@ -217,11 +217,11 @@ ThreatPlatesDB = {
 			},
 		},
 		["Promitto - Auchindoun"] = {
-			["welcome"] = true,
 			["spec"] = {
 				["primary"] = false,
 				["secondary"] = true,
 			},
+			["welcome"] = true,
 			["specInfo"] = {
 				{
 					34, -- [1]

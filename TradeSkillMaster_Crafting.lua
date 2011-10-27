@@ -1,17 +1,5 @@
 
 TradeSkillMaster_CraftingDB = {
-	["profileKeys"] = {
-		["Kernelpanic - Auchindoun"] = "Default",
-		["Chukk - Auchindoun"] = "Default",
-		["Deadset - Auchindoun"] = "Default",
-		["Gacrux - Auchindoun"] = "Default",
-		["Wezen - Auchindoun"] = "Default",
-		["Sadr - Auchindoun"] = "Default",
-		["Promitto - Auchindoun"] = "Default",
-		["Pulari - Auchindoun"] = "Default",
-		["Aset - Auchindoun"] = "Default",
-		["Aonah - Auchindoun"] = "Default",
-	},
 	["global"] = {
 		[52186] = "Elementium Bar",
 		[43116] = "Lion's Ink",
@@ -24,18 +12,20 @@ TradeSkillMaster_CraftingDB = {
 		[51950] = "Pyrium Bar",
 		[22578] = "Mote of Water",
 		[39354] = "Light Parchment",
-		[22452] = "Primal Earth",
-		[52196] = "Chimera's Eye",
-		[43126] = "Ink of the Sea",
-		[39502] = "Resilient Parchment",
-		[36931] = "Ametrine",
+		[23079] = "Deep Peridot",
+		[41163] = "Titanium Bar",
+		[23077] = "Blood Garnet",
+		[36919] = "Cardinal Ruby",
+		[52303] = "Shadowspirit Diamond",
 		[24478] = "Jaggal Pearl",
 		[24479] = "Shadow Pearl",
-		[36919] = "Cardinal Ruby",
+		[39502] = "Resilient Parchment",
 		[36921] = "Autumn's Glow",
 		[52988] = "Whiptail",
 		[36925] = "Majestic Zircon",
 		[36927] = "Twilight Opal",
+		[42225] = "Dragon's Eye",
+		[36931] = "Ametrine",
 		["treeStatus"] = {
 			true, -- [1]
 			nil, -- [2]
@@ -53,66 +43,76 @@ TradeSkillMaster_CraftingDB = {
 			true, -- [14]
 			true, -- [15]
 			["1"] = true,
-			["111"] = true,
 			["115"] = true,
-			["14"] = true,
-			["18"] = true,
-			["19"] = true,
-			["16"] = true,
+			["111"] = true,
 			["114"] = true,
-			["11"] = true,
+			["18"] = true,
+			["15"] = true,
+			["16"] = true,
+			["110"] = true,
 			["112"] = true,
+			["11"] = true,
 			["12"] = true,
 			["13"] = true,
 			["113"] = true,
-			["15"] = true,
-			["110"] = true,
+			["19"] = true,
+			["14"] = true,
 			["17"] = true,
 		},
-		[52303] = "Shadowspirit Diamond",
-		[42225] = "Dragon's Eye",
-		[52191] = "Ocean Sapphire",
-		[52193] = "Ember Topaz",
-		[39774] = "Midnight Ink",
-		[52195] = "Amberjewel",
-		[52985] = "Azshara's Veil",
 		[23107] = "Shadow Draenite",
 		[35624] = "Eternal Earth",
+		[39774] = "Midnight Ink",
 		[24243] = "Adamantite Powder",
-		[36918] = "Scarlet Ruby",
-		[36933] = "Forest Emerald",
-		[23112] = "Golden Draenite",
+		[21929] = "Flame Spessarite",
+		[52191] = "Ocean Sapphire",
+		[52193] = "Ember Topaz",
+		[52195] = "Amberjewel",
+		[38682] = "Enchanting Vellum",
 		[3371] = "Crystal Vial",
-		[39501] = "Heavy Parchment",
-		[36923] = "Chalcedony",
+		[23112] = "Golden Draenite",
+		[52329] = "Volatile Life",
+		[43120] = "Celestial Ink",
+		[52327] = "Volatile Earth",
 		[52194] = "Demonseye",
 		[23117] = "Azure Moonstone",
-		[43118] = "Jadefire Ink",
 		[10648] = "Common Parchment",
 		[3860] = "Mithril Bar",
+		[43118] = "Jadefire Ink",
 		[23436] = "Living Ruby",
-		[52327] = "Volatile Earth",
-		[43120] = "Celestial Ink",
-		[52329] = "Volatile Life",
-		[38682] = "Enchanting Vellum",
-		[21929] = "Flame Spessarite",
+		[36923] = "Chalcedony",
+		[39501] = "Heavy Parchment",
+		[36933] = "Forest Emerald",
+		[36918] = "Scarlet Ruby",
+		[52985] = "Azshara's Veil",
 		[36922] = "King's Amber",
 		[41334] = "Earthsiege Diamond",
 		[36926] = "Shadow Crystal",
 		[43102] = "Frozen Orb",
 		[36930] = "Monarch Topaz",
 		[36932] = "Dark Jade",
-		[23077] = "Blood Garnet",
-		[41163] = "Titanium Bar",
-		[23079] = "Deep Peridot",
+		[43126] = "Ink of the Sea",
+		[52196] = "Chimera's Eye",
+		[22452] = "Primal Earth",
+	},
+	["profileKeys"] = {
+		["Kernelpanic - Auchindoun"] = "Default",
+		["Chukk - Auchindoun"] = "Default",
+		["Deadset - Auchindoun"] = "Default",
+		["Gacrux - Auchindoun"] = "Default",
+		["Wezen - Auchindoun"] = "Default",
+		["Sadr - Auchindoun"] = "Default",
+		["Promitto - Auchindoun"] = "Default",
+		["Aset - Auchindoun"] = "Default",
+		["Pulari - Auchindoun"] = "Default",
+		["Aonah - Auchindoun"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
 			["Inscription"] = {
 				["mats"] = {
 					[39334] = {
-						["source"] = "auction",
 						["name"] = "Dusky Pigment",
+						["source"] = "auction",
 					},
 					[43116] = {
 						["name"] = "Lion's Ink",
@@ -159,8 +159,8 @@ TradeSkillMaster_CraftingDB = {
 						["name"] = "Inferno Ink",
 					},
 					[39502] = {
-						["name"] = "Resilient Parchment",
 						["source"] = "vendor",
+						["name"] = "Resilient Parchment",
 					},
 					[43103] = {
 						["name"] = "Verdant Pigment",
@@ -179,8 +179,8 @@ TradeSkillMaster_CraftingDB = {
 						["name"] = "Icy Pigment",
 					},
 					[39774] = {
-						["source"] = "auction",
 						["name"] = "Midnight Ink",
+						["source"] = "auction",
 					},
 					[43115] = {
 						["source"] = "craft",
@@ -218,25 +218,25 @@ TradeSkillMaster_CraftingDB = {
 						["name"] = "Volatile Life",
 						["source"] = "auction",
 					},
-					[35625] = {
-						["name"] = "Eternal Life",
+					[39469] = {
 						["source"] = "auction",
+						["name"] = "Moonglow Ink",
 					},
 					[68047] = {
 						["source"] = "auction",
 						["name"] = "Scavenged Dragon Horn",
 					},
-					[43127] = {
-						["name"] = "Snowfall Ink",
+					[39151] = {
+						["name"] = "Alabaster Pigment",
 						["source"] = "auction",
 					},
-					[62323] = {
-						["source"] = "auction",
-						["name"] = "Deathwing Scale Fragment",
+					[43108] = {
+						["name"] = "Ebon Pigment",
+						["source"] = "mill",
 					},
 					[61978] = {
-						["source"] = "craft",
 						["name"] = "Blackfallow Ink",
+						["source"] = "craft",
 					},
 					[10648] = {
 						["name"] = "Common Parchment",
@@ -258,29 +258,29 @@ TradeSkillMaster_CraftingDB = {
 						["name"] = "Silvery Pigment",
 						["source"] = "mill",
 					},
-					[39338] = {
+					[39340] = {
 						["source"] = "mill",
-						["name"] = "Golden Pigment",
+						["name"] = "Violet Pigment",
 					},
 					[39501] = {
 						["source"] = "vendor",
 						["name"] = "Heavy Parchment",
 					},
-					[21886] = {
-						["name"] = "Primal Life",
-						["source"] = "auction",
+					[39339] = {
+						["name"] = "Emerald Pigment",
+						["source"] = "mill",
 					},
 					[61980] = {
 						["source"] = "mill",
 						["name"] = "Burning Embers",
 					},
-					[39339] = {
-						["name"] = "Emerald Pigment",
-						["source"] = "mill",
+					[21886] = {
+						["name"] = "Primal Life",
+						["source"] = "auction",
 					},
-					[39340] = {
+					[39338] = {
 						["source"] = "mill",
-						["name"] = "Violet Pigment",
+						["name"] = "Golden Pigment",
 					},
 					[43102] = {
 						["source"] = "auction",
@@ -293,16 +293,16 @@ TradeSkillMaster_CraftingDB = {
 						["source"] = "mill",
 						["name"] = "Ruby Pigment",
 					},
-					[43108] = {
-						["name"] = "Ebon Pigment",
-						["source"] = "mill",
+					[62323] = {
+						["source"] = "auction",
+						["name"] = "Deathwing Scale Fragment",
 					},
-					[39151] = {
-						["name"] = "Alabaster Pigment",
+					[43127] = {
+						["name"] = "Snowfall Ink",
 						["source"] = "auction",
 					},
-					[39469] = {
-						["name"] = "Moonglow Ink",
+					[35625] = {
+						["name"] = "Eternal Life",
 						["source"] = "auction",
 					},
 				},
@@ -2291,17 +2291,17 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 57272,
 					},
-					[42398] = {
+					[62056] = {
 						["mats"] = {
-							[43116] = 3,
-							[10648] = 1,
+							[39502] = 1,
+							[61978] = 1,
 						},
 						["numMade"] = 1,
-						["name"] = "Glyph of Fade",
-						["enabled"] = true,
-						["group"] = 5,
-						["queued"] = 0,
-						["spellID"] = 57184,
+						["name"] = "Forged Documents",
+						["group"] = 14,
+						["hasCD"] = true,
+						["queued"] = -2,
+						["spellID"] = 89244,
 					},
 					[2289] = {
 						["mats"] = {
@@ -2361,29 +2361,28 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 57252,
 					},
-					[42459] = {
+					[42970] = {
 						["mats"] = {
-							[43126] = 3,
-							[39502] = 1,
+							[43118] = 3,
+							[10648] = 1,
 						},
 						["numMade"] = 1,
-						["name"] = "Glyph of Felguard",
-						["enabled"] = true,
-						["group"] = 9,
-						["queued"] = 0,
-						["spellID"] = 57263,
-					},
-					[42954] = {
-						["mats"] = {
-							[43126] = 3,
-							[39502] = 1,
-						},
-						["numMade"] = 1,
-						["name"] = "Glyph of Adrenaline Rush",
+						["name"] = "Glyph of Sap",
 						["enabled"] = true,
 						["group"] = 4,
 						["queued"] = 0,
-						["spellID"] = 57112,
+						["spellID"] = 57129,
+					},
+					[43465] = {
+						["mats"] = {
+							[43126] = 1,
+							[39502] = 2,
+						},
+						["numMade"] = 2,
+						["name"] = "Scroll of Strength VII",
+						["group"] = 12,
+						["queued"] = 0,
+						["spellID"] = 58490,
 					},
 					[43123] = {
 						["mats"] = {
@@ -2454,17 +2453,17 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 64283,
 					},
-					[42908] = {
+					[43424] = {
 						["mats"] = {
-							[43116] = 3,
+							[43118] = 3,
 							[10648] = 1,
 						},
 						["numMade"] = 1,
-						["name"] = "Glyph of Immolation Trap",
+						["name"] = "Glyph of Revenge",
 						["enabled"] = true,
-						["group"] = 3,
+						["group"] = 1,
 						["queued"] = 0,
-						["spellID"] = 57005,
+						["spellID"] = 57165,
 					},
 					[45790] = {
 						["mats"] = {
@@ -2501,28 +2500,28 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = -62,
 						["spellID"] = 86004,
 					},
-					[43417] = {
+					[42906] = {
 						["mats"] = {
-							[43116] = 3,
+							[43124] = 3,
+							[39502] = 1,
+						},
+						["numMade"] = 1,
+						["name"] = "Glyph of Ice Trap",
+						["enabled"] = true,
+						["group"] = 3,
+						["queued"] = 0,
+						["spellID"] = 57003,
+					},
+					[44161] = {
+						["mats"] = {
+							[43119] = 2,
 							[10648] = 1,
 						},
 						["numMade"] = 1,
-						["name"] = "Glyph of Piercing Howl",
-						["enabled"] = true,
-						["group"] = 1,
+						["name"] = "Arcane Tarot",
+						["group"] = 14,
 						["queued"] = 0,
-						["spellID"] = 57157,
-					},
-					[43657] = {
-						["mats"] = {
-							[43119] = 5,
-							[10648] = 10,
-						},
-						["numMade"] = 1,
-						["name"] = "Royal Guide of Escape Routes",
-						["group"] = 13,
-						["queued"] = 0,
-						["spellID"] = 59486,
+						["spellID"] = 59487,
 					},
 					[43826] = {
 						["mats"] = {
@@ -2559,17 +2558,17 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 59502,
 					},
-					[43422] = {
+					[42957] = {
 						["mats"] = {
-							[43118] = 3,
-							[10648] = 1,
+							[43126] = 3,
+							[39502] = 1,
 						},
 						["numMade"] = 1,
-						["name"] = "Glyph of Overpower",
+						["name"] = "Glyph of Blade Flurry",
 						["enabled"] = true,
-						["group"] = 1,
+						["group"] = 4,
 						["queued"] = 0,
-						["spellID"] = 57161,
+						["spellID"] = 57115,
 					},
 					[43379] = {
 						["mats"] = {
@@ -2619,17 +2618,17 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 57191,
 					},
-					[42400] = {
+					[42460] = {
 						["mats"] = {
-							[43116] = 3,
-							[10648] = 1,
+							[43126] = 3,
+							[39502] = 1,
 						},
 						["numMade"] = 1,
-						["name"] = "Glyph of Flash Heal",
+						["name"] = "Glyph of Felhunter",
 						["enabled"] = true,
-						["group"] = 5,
+						["group"] = 9,
 						["queued"] = 0,
-						["spellID"] = 57186,
+						["spellID"] = 57264,
 					},
 					[63388] = {
 						["mats"] = {
@@ -2664,51 +2663,50 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 50614,
 					},
-					[43425] = {
+					[4424] = {
 						["mats"] = {
-							[43126] = 3,
-							[39502] = 1,
+							[43118] = 1,
+							[10648] = 2,
 						},
-						["numMade"] = 1,
-						["name"] = "Glyph of Shield Slam",
-						["enabled"] = true,
-						["group"] = 1,
+						["numMade"] = 2,
+						["name"] = "Scroll of Spirit III",
+						["group"] = 12,
 						["queued"] = 0,
-						["spellID"] = 57152,
+						["spellID"] = 50606,
 					},
-					[43421] = {
+					[4426] = {
 						["mats"] = {
-							[43126] = 3,
-							[39502] = 1,
+							[43118] = 1,
+							[10648] = 2,
 						},
-						["numMade"] = 1,
-						["name"] = "Glyph of Mortal Strike",
-						["enabled"] = true,
-						["group"] = 1,
+						["numMade"] = 5,
+						["name"] = "Scroll of Strength III",
+						["group"] = 12,
 						["queued"] = 0,
-						["spellID"] = 57160,
+						["spellID"] = 58486,
 					},
-					[10308] = {
+					[27501] = {
 						["mats"] = {
-							[43120] = 1,
+							[43122] = 1,
 							[39501] = 2,
 						},
 						["numMade"] = 2,
-						["name"] = "Scroll of Intellect IV",
+						["name"] = "Scroll of Spirit V",
 						["group"] = 12,
 						["queued"] = 0,
-						["spellID"] = 50600,
+						["spellID"] = 50608,
 					},
-					[10309] = {
+					[43390] = {
 						["mats"] = {
-							[43120] = 1,
-							[39501] = 2,
+							[39774] = 3,
+							[39354] = 1,
 						},
-						["numMade"] = 2,
-						["name"] = "Scroll of Agility IV",
-						["group"] = 12,
+						["numMade"] = 1,
+						["name"] = "Glyph of Drain Soul",
+						["enabled"] = true,
+						["group"] = 9,
 						["queued"] = 0,
-						["spellID"] = 58478,
+						["spellID"] = 58337,
 					},
 					[41527] = {
 						["mats"] = {
@@ -2734,29 +2732,27 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 57266,
 					},
-					[42461] = {
+					[10306] = {
 						["mats"] = {
-							[43116] = 3,
-							[10648] = 1,
+							[43120] = 1,
+							[39501] = 2,
 						},
-						["numMade"] = 1,
-						["name"] = "Glyph of Health Funnel",
-						["enabled"] = true,
-						["group"] = 9,
+						["numMade"] = 2,
+						["name"] = "Scroll of Spirit IV",
+						["group"] = 12,
 						["queued"] = 0,
-						["spellID"] = 57265,
+						["spellID"] = 50607,
 					},
-					[45780] = {
+					[37093] = {
 						["mats"] = {
-							[43124] = 3,
-							[39502] = 1,
+							[43126] = 1,
+							[39502] = 2,
 						},
-						["numMade"] = 1,
-						["name"] = "Glyph of Metamorphosis",
-						["enabled"] = true,
-						["group"] = 9,
+						["numMade"] = 2,
+						["name"] = "Scroll of Stamina VII",
+						["group"] = 12,
 						["queued"] = 0,
-						["spellID"] = 64318,
+						["spellID"] = 50619,
 					},
 					[43124] = {
 						["mats"] = {
@@ -2769,16 +2765,17 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 57713,
 					},
-					[10306] = {
+					[41096] = {
 						["mats"] = {
-							[43120] = 1,
-							[39501] = 2,
+							[39774] = 3,
+							[39354] = 1,
 						},
-						["numMade"] = 2,
-						["name"] = "Scroll of Spirit IV",
-						["group"] = 12,
-						["queued"] = 0,
-						["spellID"] = 50607,
+						["numMade"] = 1,
+						["name"] = "Glyph of Divine Protection",
+						["enabled"] = true,
+						["group"] = 2,
+						["queued"] = -1,
+						["spellID"] = 57022,
 					},
 					[43667] = {
 						["mats"] = {
@@ -2814,16 +2811,16 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 59498,
 					},
-					[27502] = {
+					[27499] = {
 						["mats"] = {
 							[43122] = 1,
 							[39501] = 2,
 						},
 						["numMade"] = 2,
-						["name"] = "Scroll of Stamina V",
+						["name"] = "Scroll of Intellect V",
 						["group"] = 12,
 						["queued"] = 0,
-						["spellID"] = 50617,
+						["spellID"] = 50601,
 					},
 					[45775] = {
 						["mats"] = {
@@ -2861,28 +2858,27 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 56976,
 					},
-					[37094] = {
+					[37098] = {
 						["mats"] = {
 							[43126] = 1,
 							[39502] = 2,
 						},
 						["numMade"] = 2,
-						["name"] = "Scroll of Stamina VIII",
+						["name"] = "Scroll of Spirit VIII",
 						["group"] = 12,
 						["queued"] = 0,
-						["spellID"] = 50620,
+						["spellID"] = 50611,
 					},
-					[41101] = {
+					[43656] = {
 						["mats"] = {
-							[43126] = 3,
-							[39502] = 1,
+							[43119] = 5,
+							[10648] = 10,
 						},
 						["numMade"] = 1,
-						["name"] = "Glyph of Focused Shield",
-						["enabled"] = true,
-						["group"] = 2,
+						["name"] = "Tome of Kings",
+						["group"] = 13,
 						["queued"] = 0,
-						["spellID"] = 57019,
+						["spellID"] = 59484,
 					},
 					[37168] = {
 						["mats"] = {
@@ -2907,28 +2903,27 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 59340,
 					},
-					[42453] = {
+					[43466] = {
 						["mats"] = {
-							[43124] = 3,
-							[39502] = 1,
-						},
-						["numMade"] = 1,
-						["name"] = "Glyph of Incinerate",
-						["enabled"] = true,
-						["group"] = 9,
-						["queued"] = 0,
-						["spellID"] = 57257,
-					},
-					[63305] = {
-						["mats"] = {
+							[43126] = 1,
 							[39502] = 2,
-							[61978] = 1,
 						},
-						["numMade"] = 5,
-						["name"] = "Scroll of Intellect IX",
+						["numMade"] = 2,
+						["name"] = "Scroll of Strength VIII",
 						["group"] = 12,
 						["queued"] = 0,
-						["spellID"] = 89368,
+						["spellID"] = 58491,
+					},
+					[43664] = {
+						["mats"] = {
+							[43123] = 8,
+							[39501] = 10,
+						},
+						["numMade"] = 1,
+						["name"] = "Manual of Clouds",
+						["group"] = 13,
+						["queued"] = 0,
+						["spellID"] = 59494,
 					},
 					[43364] = {
 						["mats"] = {
@@ -2942,40 +2937,17 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 58308,
 					},
-					[63308] = {
+					[45804] = {
 						["mats"] = {
-							[39502] = 2,
-							[61978] = 1,
-						},
-						["numMade"] = 5,
-						["name"] = "Scroll of Protection IX",
-						["group"] = 12,
-						["queued"] = 0,
-						["spellID"] = 89373,
-					},
-					[42914] = {
-						["mats"] = {
-							[43126] = 3,
-							[39502] = 1,
+							[43122] = 3,
+							[39501] = 1,
 						},
 						["numMade"] = 1,
-						["name"] = "Glyph of Steady Shot",
+						["name"] = "Glyph of Death Coil",
 						["enabled"] = true,
-						["group"] = 3,
+						["group"] = 6,
 						["queued"] = 0,
-						["spellID"] = 57011,
-					},
-					[42901] = {
-						["mats"] = {
-							[43126] = 3,
-							[39502] = 1,
-						},
-						["numMade"] = 1,
-						["name"] = "Glyph of Concussive Shot",
-						["enabled"] = true,
-						["group"] = 3,
-						["queued"] = 0,
-						["spellID"] = 56998,
+						["spellID"] = 64266,
 					},
 					[42917] = {
 						["mats"] = {
@@ -2989,6 +2961,30 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 57014,
 					},
+					[42901] = {
+						["mats"] = {
+							[43126] = 3,
+							[39502] = 1,
+						},
+						["numMade"] = 1,
+						["name"] = "Glyph of Concussive Shot",
+						["enabled"] = true,
+						["group"] = 3,
+						["queued"] = 0,
+						["spellID"] = 56998,
+					},
+					[43428] = {
+						["mats"] = {
+							[43124] = 3,
+							[39502] = 1,
+						},
+						["numMade"] = 1,
+						["name"] = "Glyph of Sweeping Strikes",
+						["enabled"] = true,
+						["group"] = 1,
+						["queued"] = 0,
+						["spellID"] = 57168,
+					},
 					[43850] = {
 						["mats"] = {
 							[43120] = 2,
@@ -2999,18 +2995,6 @@ TradeSkillMaster_CraftingDB = {
 						["group"] = 14,
 						["queued"] = 0,
 						["spellID"] = 59387,
-					},
-					[42965] = {
-						["mats"] = {
-							[43126] = 3,
-							[39502] = 1,
-						},
-						["numMade"] = 1,
-						["name"] = "Glyph of Revealing Strike",
-						["enabled"] = true,
-						["group"] = 4,
-						["queued"] = 0,
-						["spellID"] = 57124,
 					},
 					[42454] = {
 						["mats"] = {
@@ -3024,6 +3008,18 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 57258,
 					},
+					[42965] = {
+						["mats"] = {
+							[43126] = 3,
+							[39502] = 1,
+						},
+						["numMade"] = 1,
+						["name"] = "Glyph of Revealing Strike",
+						["enabled"] = true,
+						["group"] = 4,
+						["queued"] = 0,
+						["spellID"] = 57124,
+					},
 					[42470] = {
 						["mats"] = {
 							[43120] = 3,
@@ -3036,50 +3032,52 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 57274,
 					},
-					[62238] = {
-						["mats"] = {
-							[39502] = 3,
-						},
-						["numMade"] = 1,
-						["name"] = "Origami Rock",
-						["group"] = 14,
-						["queued"] = 0,
-						["spellID"] = 86645,
-					},
-					[42406] = {
+					[41105] = {
 						["mats"] = {
 							[43124] = 3,
-							[39502] = 1,
+							[39501] = 1,
 						},
 						["numMade"] = 1,
-						["name"] = "Glyph of Shadow Word: Pain",
+						["name"] = "Glyph of Word of Glory",
 						["enabled"] = true,
-						["group"] = 5,
+						["group"] = 2,
 						["queued"] = 0,
-						["spellID"] = 57192,
+						["spellID"] = 57026,
 					},
-					[43423] = {
+					[43120] = {
 						["mats"] = {
-							[43116] = 3,
-							[10648] = 1,
+							[39340] = 2,
 						},
 						["numMade"] = 1,
-						["name"] = "Glyph of Slam",
+						["name"] = "Celestial Ink",
+						["enabled"] = true,
+						["group"] = 11,
+						["queued"] = 0,
+						["spellID"] = 57709,
+					},
+					[42960] = {
+						["mats"] = {
+							[39774] = 3,
+							[39354] = 1,
+						},
+						["numMade"] = 1,
+						["name"] = "Glyph of Evasion",
+						["enabled"] = true,
+						["group"] = 4,
+						["queued"] = 0,
+						["spellID"] = 57119,
+					},
+					[43395] = {
+						["mats"] = {
+							[39774] = 3,
+							[39354] = 1,
+						},
+						["numMade"] = 1,
+						["name"] = "Glyph of Battle",
 						["enabled"] = true,
 						["group"] = 1,
 						["queued"] = 0,
-						["spellID"] = 57163,
-					},
-					[61981] = {
-						["mats"] = {
-							[61980] = 2,
-						},
-						["numMade"] = 1,
-						["name"] = "Inferno Ink",
-						["enabled"] = true,
-						["group"] = 11,
-						["queued"] = -10,
-						["spellID"] = 86005,
+						["spellID"] = 58342,
 					},
 					[1180] = {
 						["mats"] = {
@@ -3115,17 +3113,16 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 48116,
 					},
-					[40909] = {
+					[43464] = {
 						["mats"] = {
-							[43118] = 3,
-							[10648] = 1,
+							[43126] = 1,
+							[39502] = 2,
 						},
-						["numMade"] = 1,
-						["name"] = "Glyph of Rebirth",
-						["enabled"] = true,
-						["group"] = 10,
+						["numMade"] = 2,
+						["name"] = "Scroll of Agility VIII",
+						["group"] = 12,
 						["queued"] = 0,
-						["spellID"] = 56953,
+						["spellID"] = 58483,
 					},
 					[43125] = {
 						["mats"] = {
@@ -3149,29 +3146,29 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 59491,
 					},
-					[43725] = {
+					[41534] = {
 						["mats"] = {
-							[43116] = 3,
-							[39354] = 1,
-						},
-						["numMade"] = 1,
-						["name"] = "Glyph of Ghost Wolf",
-						["enabled"] = true,
-						["group"] = 7,
-						["queued"] = 0,
-						["spellID"] = 59326,
-					},
-					[43432] = {
-						["mats"] = {
-							[43124] = 3,
+							[43126] = 3,
 							[39502] = 1,
 						},
 						["numMade"] = 1,
-						["name"] = "Glyph of Raging Blow",
+						["name"] = "Glyph of Healing Wave",
 						["enabled"] = true,
-						["group"] = 1,
+						["group"] = 7,
 						["queued"] = 0,
-						["spellID"] = 57172,
+						["spellID"] = 57243,
+					},
+					[38322] = {
+						["mats"] = {
+							[43127] = 5,
+							[39502] = 10,
+							[43102] = 1,
+						},
+						["numMade"] = 1,
+						["name"] = "Iron-Bound Tome",
+						["group"] = 13,
+						["queued"] = 0,
+						["spellID"] = 59497,
 					},
 					[27503] = {
 						["mats"] = {
@@ -3232,17 +3229,17 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 56977,
 					},
-					[43416] = {
+					[42905] = {
 						["mats"] = {
 							[43122] = 3,
 							[39501] = 1,
 						},
 						["numMade"] = 1,
-						["name"] = "Glyph of Bloodthirst",
+						["name"] = "Glyph of Freezing Trap",
 						["enabled"] = true,
-						["group"] = 1,
+						["group"] = 3,
 						["queued"] = 0,
-						["spellID"] = 57156,
+						["spellID"] = 57002,
 					},
 					[45744] = {
 						["mats"] = {
@@ -3289,17 +3286,17 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 86647,
 					},
-					[45743] = {
+					[67485] = {
 						["mats"] = {
-							[43124] = 3,
-							[39502] = 1,
+							[43116] = 3,
+							[39354] = 1,
 						},
 						["numMade"] = 1,
-						["name"] = "Glyph of Templar's Verdict",
+						["name"] = "Glyph of Faerie Fire",
 						["enabled"] = true,
-						["group"] = 2,
+						["group"] = 10,
 						["queued"] = 0,
-						["spellID"] = 64279,
+						["spellID"] = 94403,
 					},
 					[43365] = {
 						["mats"] = {
@@ -3313,17 +3310,17 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 58311,
 					},
-					[40915] = {
+					[41537] = {
 						["mats"] = {
-							[43126] = 3,
-							[39502] = 1,
+							[39774] = 3,
+							[39354] = 1,
 						},
 						["numMade"] = 1,
-						["name"] = "Glyph of Lifebloom",
+						["name"] = "Glyph of Lightning Shield",
 						["enabled"] = true,
-						["group"] = 10,
+						["group"] = 7,
 						["queued"] = 0,
-						["spellID"] = 56949,
+						["spellID"] = 57246,
 					},
 					[43397] = {
 						["mats"] = {
@@ -3409,29 +3406,29 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 57275,
 					},
-					[43412] = {
+					[44684] = {
 						["mats"] = {
 							[43126] = 3,
 							[39502] = 1,
 						},
 						["numMade"] = 1,
-						["name"] = "Glyph of Bloody Healing",
+						["name"] = "Glyph of Frostfire",
 						["enabled"] = true,
-						["group"] = 1,
+						["group"] = 8,
 						["queued"] = 0,
-						["spellID"] = 57153,
+						["spellID"] = 61677,
 					},
-					[45601] = {
+					[42399] = {
 						["mats"] = {
-							[43124] = 3,
-							[39502] = 1,
+							[43122] = 3,
+							[39501] = 1,
 						},
 						["numMade"] = 1,
-						["name"] = "Glyph of Berserk",
+						["name"] = "Glyph of Fear Ward",
 						["enabled"] = true,
-						["group"] = 10,
+						["group"] = 5,
 						["queued"] = 0,
-						["spellID"] = 64268,
+						["spellID"] = 57185,
 					},
 					[43541] = {
 						["mats"] = {
@@ -3456,29 +3453,29 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 52843,
 					},
-					[42913] = {
+					[43427] = {
 						["mats"] = {
-							[43126] = 3,
+							[43116] = 3,
+							[10648] = 1,
+						},
+						["numMade"] = 1,
+						["name"] = "Glyph of Sunder Armor",
+						["enabled"] = true,
+						["group"] = 1,
+						["queued"] = 0,
+						["spellID"] = 57167,
+					},
+					[44955] = {
+						["mats"] = {
+							[43124] = 3,
 							[39502] = 1,
 						},
 						["numMade"] = 1,
-						["name"] = "Glyph of Snake Trap",
+						["name"] = "Glyph of Arcane Blast",
 						["enabled"] = true,
-						["group"] = 3,
+						["group"] = 8,
 						["queued"] = 0,
-						["spellID"] = 57010,
-					},
-					[42410] = {
-						["mats"] = {
-							[39774] = 3,
-							[39354] = 1,
-						},
-						["numMade"] = 1,
-						["name"] = "Glyph of Psychic Scream",
-						["enabled"] = true,
-						["group"] = 5,
-						["queued"] = 0,
-						["spellID"] = 57196,
+						["spellID"] = 56991,
 					},
 					[42455] = {
 						["mats"] = {
@@ -3492,16 +3489,17 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 57259,
 					},
-					[1711] = {
+					[45745] = {
 						["mats"] = {
-							[39774] = 1,
-							[39354] = 1,
+							[43126] = 3,
+							[39502] = 1,
 						},
 						["numMade"] = 1,
-						["name"] = "Scroll of Stamina II",
-						["group"] = 12,
+						["name"] = "Glyph of Divine Plea",
+						["enabled"] = true,
+						["group"] = 2,
 						["queued"] = 0,
-						["spellID"] = 50612,
+						["spellID"] = 64305,
 					},
 					[43126] = {
 						["enabled"] = true,
@@ -3526,41 +3524,38 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 57024,
 					},
-					[45779] = {
+					[37092] = {
 						["mats"] = {
-							[43124] = 3,
-							[39502] = 1,
+							[43126] = 1,
+							[39502] = 2,
 						},
-						["numMade"] = 1,
-						["name"] = "Glyph of Haunt",
-						["enabled"] = true,
-						["group"] = 9,
+						["numMade"] = 2,
+						["name"] = "Scroll of Intellect VIII",
+						["group"] = 12,
 						["queued"] = 0,
-						["spellID"] = 64291,
+						["spellID"] = 50604,
 					},
-					[45777] = {
+					[1712] = {
 						["mats"] = {
-							[43126] = 3,
-							[39502] = 1,
+							[39774] = 1,
+							[39354] = 1,
 						},
 						["numMade"] = 1,
-						["name"] = "Glyph of Hex",
-						["enabled"] = true,
-						["group"] = 7,
+						["name"] = "Scroll of Spirit II",
+						["group"] = 12,
 						["queued"] = 0,
-						["spellID"] = 64316,
+						["spellID"] = 50605,
 					},
-					[45745] = {
+					[1711] = {
 						["mats"] = {
-							[43126] = 3,
-							[39502] = 1,
+							[39774] = 1,
+							[39354] = 1,
 						},
 						["numMade"] = 1,
-						["name"] = "Glyph of Divine Plea",
-						["enabled"] = true,
-						["group"] = 2,
+						["name"] = "Scroll of Stamina II",
+						["group"] = 12,
 						["queued"] = 0,
-						["spellID"] = 64305,
+						["spellID"] = 50612,
 					},
 					[45761] = {
 						["mats"] = {
@@ -3574,16 +3569,17 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 64284,
 					},
-					[1712] = {
+					[45777] = {
 						["mats"] = {
-							[39774] = 1,
-							[39354] = 1,
+							[43126] = 3,
+							[39502] = 1,
 						},
 						["numMade"] = 1,
-						["name"] = "Scroll of Spirit II",
-						["group"] = 12,
+						["name"] = "Glyph of Hex",
+						["enabled"] = true,
+						["group"] = 7,
 						["queued"] = 0,
-						["spellID"] = 50605,
+						["spellID"] = 64316,
 					},
 					[45793] = {
 						["mats"] = {
@@ -3621,32 +3617,6 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 94000,
 					},
-					[43655] = {
-						["mats"] = {
-							[43117] = 5,
-							[10648] = 10,
-						},
-						["numMade"] = 1,
-						["name"] = "Book of Survival",
-						["group"] = 13,
-						["queued"] = 0,
-						["spellID"] = 59478,
-					},
-					[62241] = {
-						["mats"] = {
-							[39502] = 10,
-							[61981] = 2,
-							[52325] = 2,
-							[52327] = 2,
-							[52326] = 2,
-							[52328] = 2,
-						},
-						["numMade"] = 1,
-						["name"] = "Manual of the Planes",
-						["group"] = 13,
-						["queued"] = 0,
-						["spellID"] = 86648,
-					},
 					[41100] = {
 						["mats"] = {
 							[43118] = 3,
@@ -3670,6 +3640,32 @@ TradeSkillMaster_CraftingDB = {
 						["group"] = 10,
 						["queued"] = 0,
 						["spellID"] = 58287,
+					},
+					[10307] = {
+						["mats"] = {
+							[43120] = 1,
+							[39501] = 2,
+						},
+						["numMade"] = 2,
+						["name"] = "Scroll of Stamina IV",
+						["group"] = 12,
+						["queued"] = 0,
+						["spellID"] = 50616,
+					},
+					[62241] = {
+						["mats"] = {
+							[39502] = 10,
+							[61981] = 2,
+							[52325] = 2,
+							[52327] = 2,
+							[52328] = 2,
+							[52326] = 2,
+						},
+						["numMade"] = 1,
+						["name"] = "Manual of the Planes",
+						["group"] = 13,
+						["queued"] = 0,
+						["spellID"] = 86648,
 					},
 					[43350] = {
 						["mats"] = {
@@ -3695,41 +3691,17 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 58312,
 					},
-					[41108] = {
+					[40921] = {
 						["mats"] = {
-							[43116] = 3,
-							[10648] = 1,
+							[43126] = 3,
+							[39502] = 1,
 						},
 						["numMade"] = 1,
-						["name"] = "Glyph of Divinity",
+						["name"] = "Glyph of Starfall",
 						["enabled"] = true,
-						["group"] = 2,
+						["group"] = 10,
 						["queued"] = 0,
-						["spellID"] = 57031,
-					},
-					[42903] = {
-						["mats"] = {
-							[43120] = 3,
-							[10648] = 1,
-						},
-						["numMade"] = 1,
-						["name"] = "Glyph of Deterrence",
-						["enabled"] = true,
-						["group"] = 3,
-						["queued"] = 0,
-						["spellID"] = 57000,
-					},
-					[43414] = {
-						["mats"] = {
-							[43120] = 3,
-							[39501] = 1,
-						},
-						["numMade"] = 1,
-						["name"] = "Glyph of Cleaving",
-						["enabled"] = true,
-						["group"] = 1,
-						["queued"] = 0,
-						["spellID"] = 57154,
+						["spellID"] = 56958,
 					},
 					[42408] = {
 						["mats"] = {
@@ -3743,29 +3715,40 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 57194,
 					},
-					[42967] = {
+					[43414] = {
+						["mats"] = {
+							[43120] = 3,
+							[39501] = 1,
+						},
+						["numMade"] = 1,
+						["name"] = "Glyph of Cleaving",
+						["enabled"] = true,
+						["group"] = 1,
+						["queued"] = 0,
+						["spellID"] = 57154,
+					},
+					[43430] = {
 						["mats"] = {
 							[43126] = 3,
 							[39502] = 1,
 						},
 						["numMade"] = 1,
-						["name"] = "Glyph of Hemorrhage",
+						["name"] = "Glyph of Resonating Power",
 						["enabled"] = true,
-						["group"] = 4,
+						["group"] = 1,
 						["queued"] = 0,
-						["spellID"] = 57126,
+						["spellID"] = 57164,
 					},
-					[40923] = {
+					[27498] = {
 						["mats"] = {
-							[43116] = 3,
-							[10648] = 1,
+							[43122] = 1,
+							[39501] = 2,
 						},
-						["numMade"] = 1,
-						["name"] = "Glyph of Moonfire",
-						["enabled"] = true,
-						["group"] = 10,
+						["numMade"] = 2,
+						["name"] = "Scroll of Agility V",
+						["group"] = 12,
 						["queued"] = 0,
-						["spellID"] = 56951,
+						["spellID"] = 58480,
 					},
 					[42456] = {
 						["mats"] = {
@@ -3778,6 +3761,18 @@ TradeSkillMaster_CraftingDB = {
 						["group"] = 9,
 						["queued"] = 0,
 						["spellID"] = 57260,
+					},
+					[40923] = {
+						["mats"] = {
+							[43116] = 3,
+							[10648] = 1,
+						},
+						["numMade"] = 1,
+						["name"] = "Glyph of Moonfire",
+						["enabled"] = true,
+						["group"] = 10,
+						["queued"] = 0,
+						["spellID"] = 56951,
 					},
 					[41106] = {
 						["mats"] = {
@@ -3802,18 +3797,6 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 86609,
 					},
-					[43542] = {
-						["mats"] = {
-							[43126] = 3,
-							[39502] = 1,
-						},
-						["numMade"] = 1,
-						["name"] = "Glyph of Death and Decay",
-						["enabled"] = true,
-						["group"] = 6,
-						["queued"] = 0,
-						["spellID"] = 57214,
-					},
 					[64493] = {
 						["mats"] = {
 							[43118] = 3,
@@ -3825,6 +3808,18 @@ TradeSkillMaster_CraftingDB = {
 						["group"] = 4,
 						["queued"] = 0,
 						["spellID"] = 92579,
+					},
+					[43542] = {
+						["mats"] = {
+							[43126] = 3,
+							[39502] = 1,
+						},
+						["numMade"] = 1,
+						["name"] = "Glyph of Death and Decay",
+						["enabled"] = true,
+						["group"] = 6,
+						["queued"] = 0,
+						["spellID"] = 57214,
 					},
 					[45602] = {
 						["mats"] = {
@@ -3850,40 +3845,41 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 57238,
 					},
-					[41099] = {
+					[40922] = {
 						["mats"] = {
-							[43120] = 3,
-							[39501] = 1,
+							[39774] = 3,
+							[39354] = 1,
 						},
 						["numMade"] = 1,
-						["name"] = "Glyph of Consecration",
+						["name"] = "Glyph of Wrath",
 						["enabled"] = true,
-						["group"] = 2,
+						["group"] = 10,
 						["queued"] = 0,
-						["spellID"] = 57023,
+						["spellID"] = 56963,
 					},
-					[42968] = {
+					[40914] = {
 						["mats"] = {
-							[43126] = 3,
-							[39502] = 1,
+							[43116] = 3,
+							[10648] = 1,
 						},
 						["numMade"] = 1,
-						["name"] = "Glyph of Preparation",
+						["name"] = "Glyph of Healing Touch",
 						["enabled"] = true,
-						["group"] = 4,
+						["group"] = 10,
 						["queued"] = 0,
-						["spellID"] = 57127,
+						["spellID"] = 56945,
 					},
-					[37091] = {
+					[45778] = {
 						["mats"] = {
-							[43126] = 1,
-							[39502] = 2,
+							[39774] = 3,
+							[39354] = 1,
 						},
-						["numMade"] = 2,
-						["name"] = "Scroll of Intellect VII",
-						["group"] = 12,
+						["numMade"] = 1,
+						["name"] = "Glyph of Stoneclaw Totem",
+						["enabled"] = true,
+						["group"] = 7,
 						["queued"] = 0,
-						["spellID"] = 50603,
+						["spellID"] = 64247,
 					},
 					[43127] = {
 						["mats"] = {
@@ -3907,29 +3903,28 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 59475,
 					},
-					[40924] = {
-						["mats"] = {
-							[43116] = 3,
-							[39354] = 1,
-						},
-						["numMade"] = 1,
-						["name"] = "Glyph of Entangling Roots",
-						["enabled"] = true,
-						["group"] = 10,
-						["queued"] = 0,
-						["spellID"] = 48121,
-					},
-					[40908] = {
+					[42457] = {
 						["mats"] = {
 							[43126] = 3,
 							[39502] = 1,
 						},
 						["numMade"] = 1,
-						["name"] = "Glyph of Innervate",
+						["name"] = "Glyph of Death Coil",
 						["enabled"] = true,
-						["group"] = 10,
+						["group"] = 9,
 						["queued"] = 0,
-						["spellID"] = 56947,
+						["spellID"] = 57261,
+					},
+					[43463] = {
+						["mats"] = {
+							[43126] = 1,
+							[39502] = 2,
+						},
+						["numMade"] = 2,
+						["name"] = "Scroll of Agility VII",
+						["group"] = 12,
+						["queued"] = 0,
+						["spellID"] = 58482,
 					},
 					[45746] = {
 						["mats"] = {
@@ -3955,17 +3950,16 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 64285,
 					},
-					[45778] = {
+					[37091] = {
 						["mats"] = {
-							[39774] = 3,
-							[39354] = 1,
+							[43126] = 1,
+							[39502] = 2,
 						},
-						["numMade"] = 1,
-						["name"] = "Glyph of Stoneclaw Totem",
-						["enabled"] = true,
-						["group"] = 7,
+						["numMade"] = 2,
+						["name"] = "Scroll of Intellect VII",
+						["group"] = 12,
 						["queued"] = 0,
-						["spellID"] = 64247,
+						["spellID"] = 50603,
 					},
 					[45794] = {
 						["mats"] = {
@@ -3991,41 +3985,41 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 56979,
 					},
-					[50077] = {
+					[40919] = {
 						["mats"] = {
-							[43126] = 3,
-							[39502] = 1,
+							[43118] = 3,
+							[10648] = 1,
 						},
 						["numMade"] = 1,
-						["name"] = "Glyph of Lash of Pain",
+						["name"] = "Glyph of Insect Swarm",
 						["enabled"] = true,
-						["group"] = 9,
+						["group"] = 10,
 						["queued"] = 0,
-						["spellID"] = 71102,
+						["spellID"] = 56948,
 					},
-					[42409] = {
+					[43431] = {
 						["mats"] = {
 							[43126] = 3,
 							[39502] = 1,
 						},
 						["numMade"] = 1,
-						["name"] = "Glyph of Prayer of Healing",
-						["enabled"] = true,
-						["group"] = 5,
-						["queued"] = 0,
-						["spellID"] = 57195,
-					},
-					[43415] = {
-						["mats"] = {
-							[43126] = 3,
-							[39502] = 1,
-						},
-						["numMade"] = 1,
-						["name"] = "Glyph of Devastate",
+						["name"] = "Glyph of Victory Rush",
 						["enabled"] = true,
 						["group"] = 1,
 						["queued"] = 0,
-						["spellID"] = 57155,
+						["spellID"] = 57170,
+					},
+					[42904] = {
+						["mats"] = {
+							[43120] = 3,
+							[39501] = 1,
+						},
+						["numMade"] = 1,
+						["name"] = "Glyph of Disengage",
+						["enabled"] = true,
+						["group"] = 3,
+						["queued"] = 0,
+						["spellID"] = 57001,
 					},
 					[42401] = {
 						["mats"] = {
@@ -4098,64 +4092,65 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 58346,
 					},
-					[42904] = {
-						["mats"] = {
-							[43120] = 3,
-							[39501] = 1,
-						},
-						["numMade"] = 1,
-						["name"] = "Glyph of Disengage",
-						["enabled"] = true,
-						["group"] = 3,
-						["queued"] = 0,
-						["spellID"] = 57001,
-					},
-					[43431] = {
+					[43415] = {
 						["mats"] = {
 							[43126] = 3,
 							[39502] = 1,
 						},
 						["numMade"] = 1,
-						["name"] = "Glyph of Victory Rush",
+						["name"] = "Glyph of Devastate",
 						["enabled"] = true,
 						["group"] = 1,
 						["queued"] = 0,
-						["spellID"] = 57170,
+						["spellID"] = 57155,
 					},
-					[40919] = {
-						["mats"] = {
-							[43118] = 3,
-							[10648] = 1,
-						},
-						["numMade"] = 1,
-						["name"] = "Glyph of Insect Swarm",
-						["enabled"] = true,
-						["group"] = 10,
-						["queued"] = 0,
-						["spellID"] = 56948,
-					},
-					[43463] = {
-						["mats"] = {
-							[43126] = 1,
-							[39502] = 2,
-						},
-						["numMade"] = 2,
-						["name"] = "Scroll of Agility VII",
-						["group"] = 12,
-						["queued"] = 0,
-						["spellID"] = 58482,
-					},
-					[42457] = {
+					[42409] = {
 						["mats"] = {
 							[43126] = 3,
 							[39502] = 1,
 						},
 						["numMade"] = 1,
-						["name"] = "Glyph of Death Coil",
+						["name"] = "Glyph of Prayer of Healing",
+						["enabled"] = true,
+						["group"] = 5,
+						["queued"] = 0,
+						["spellID"] = 57195,
+					},
+					[50077] = {
+						["mats"] = {
+							[43126] = 3,
+							[39502] = 1,
+						},
+						["numMade"] = 1,
+						["name"] = "Glyph of Lash of Pain",
 						["enabled"] = true,
 						["group"] = 9,
 						["queued"] = 0,
-						["spellID"] = 57261,
+						["spellID"] = 71102,
+					},
+					[40908] = {
+						["mats"] = {
+							[43126] = 3,
+							[39502] = 1,
+						},
+						["numMade"] = 1,
+						["name"] = "Glyph of Innervate",
+						["enabled"] = true,
+						["group"] = 10,
+						["queued"] = 0,
+						["spellID"] = 56947,
+					},
+					[40924] = {
+						["mats"] = {
+							[43116] = 3,
+							[39354] = 1,
+						},
+						["numMade"] = 1,
+						["name"] = "Glyph of Entangling Roots",
+						["enabled"] = true,
+						["group"] = 10,
+						["queued"] = 0,
+						["spellID"] = 48121,
 					},
 					[42473] = {
 						["mats"] = {
@@ -4169,29 +4164,29 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 57277,
 					},
-					[40914] = {
+					[42968] = {
 						["mats"] = {
-							[43116] = 3,
-							[10648] = 1,
+							[43126] = 3,
+							[39502] = 1,
 						},
 						["numMade"] = 1,
-						["name"] = "Glyph of Healing Touch",
+						["name"] = "Glyph of Preparation",
 						["enabled"] = true,
-						["group"] = 10,
+						["group"] = 4,
 						["queued"] = 0,
-						["spellID"] = 56945,
+						["spellID"] = 57127,
 					},
-					[40922] = {
+					[41099] = {
 						["mats"] = {
-							[39774] = 3,
-							[39354] = 1,
+							[43120] = 3,
+							[39501] = 1,
 						},
 						["numMade"] = 1,
-						["name"] = "Glyph of Wrath",
+						["name"] = "Glyph of Consecration",
 						["enabled"] = true,
-						["group"] = 10,
+						["group"] = 2,
 						["queued"] = 0,
-						["spellID"] = 56963,
+						["spellID"] = 57023,
 					},
 					[43543] = {
 						["mats"] = {
@@ -4241,51 +4236,52 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 57241,
 					},
-					[27498] = {
-						["mats"] = {
-							[43122] = 1,
-							[39501] = 2,
-						},
-						["numMade"] = 2,
-						["name"] = "Scroll of Agility V",
-						["group"] = 12,
-						["queued"] = 0,
-						["spellID"] = 58480,
-					},
-					[43430] = {
+					[42967] = {
 						["mats"] = {
 							[43126] = 3,
 							[39502] = 1,
 						},
 						["numMade"] = 1,
-						["name"] = "Glyph of Resonating Power",
+						["name"] = "Glyph of Hemorrhage",
 						["enabled"] = true,
-						["group"] = 1,
+						["group"] = 4,
 						["queued"] = 0,
-						["spellID"] = 57164,
+						["spellID"] = 57126,
 					},
-					[40921] = {
+					[42903] = {
 						["mats"] = {
-							[43126] = 3,
-							[39502] = 1,
+							[43120] = 3,
+							[10648] = 1,
 						},
 						["numMade"] = 1,
-						["name"] = "Glyph of Starfall",
+						["name"] = "Glyph of Deterrence",
 						["enabled"] = true,
-						["group"] = 10,
+						["group"] = 3,
 						["queued"] = 0,
-						["spellID"] = 56958,
+						["spellID"] = 57000,
 					},
-					[10307] = {
+					[41108] = {
 						["mats"] = {
-							[43120] = 1,
-							[39501] = 2,
+							[43116] = 3,
+							[10648] = 1,
 						},
-						["numMade"] = 2,
-						["name"] = "Scroll of Stamina IV",
-						["group"] = 12,
+						["numMade"] = 1,
+						["name"] = "Glyph of Divinity",
+						["enabled"] = true,
+						["group"] = 2,
 						["queued"] = 0,
-						["spellID"] = 50616,
+						["spellID"] = 57031,
+					},
+					[43655] = {
+						["mats"] = {
+							[43117] = 5,
+							[10648] = 10,
+						},
+						["numMade"] = 1,
+						["name"] = "Book of Survival",
+						["group"] = 13,
+						["queued"] = 0,
+						["spellID"] = 59478,
 					},
 					[43671] = {
 						["mats"] = {
@@ -4333,16 +4329,17 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 92026,
 					},
-					[37092] = {
+					[45779] = {
 						["mats"] = {
-							[43126] = 1,
-							[39502] = 2,
+							[43124] = 3,
+							[39502] = 1,
 						},
-						["numMade"] = 2,
-						["name"] = "Scroll of Intellect VIII",
-						["group"] = 12,
+						["numMade"] = 1,
+						["name"] = "Glyph of Haunt",
+						["enabled"] = true,
+						["group"] = 9,
 						["queued"] = 0,
-						["spellID"] = 50604,
+						["spellID"] = 64291,
 					},
 					[45795] = {
 						["mats"] = {
@@ -4368,53 +4365,53 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 56980,
 					},
-					[44955] = {
+					[42410] = {
 						["mats"] = {
-							[43124] = 3,
-							[39502] = 1,
+							[39774] = 3,
+							[39354] = 1,
 						},
 						["numMade"] = 1,
-						["name"] = "Glyph of Arcane Blast",
-						["enabled"] = true,
-						["group"] = 8,
-						["queued"] = 0,
-						["spellID"] = 56991,
-					},
-					[43427] = {
-						["mats"] = {
-							[43116] = 3,
-							[10648] = 1,
-						},
-						["numMade"] = 1,
-						["name"] = "Glyph of Sunder Armor",
-						["enabled"] = true,
-						["group"] = 1,
-						["queued"] = 0,
-						["spellID"] = 57167,
-					},
-					[42399] = {
-						["mats"] = {
-							[43122] = 3,
-							[39501] = 1,
-						},
-						["numMade"] = 1,
-						["name"] = "Glyph of Fear Ward",
+						["name"] = "Glyph of Psychic Scream",
 						["enabled"] = true,
 						["group"] = 5,
 						["queued"] = 0,
-						["spellID"] = 57185,
+						["spellID"] = 57196,
 					},
-					[44684] = {
+					[42913] = {
 						["mats"] = {
 							[43126] = 3,
 							[39502] = 1,
 						},
 						["numMade"] = 1,
-						["name"] = "Glyph of Frostfire",
+						["name"] = "Glyph of Snake Trap",
 						["enabled"] = true,
-						["group"] = 8,
+						["group"] = 3,
 						["queued"] = 0,
-						["spellID"] = 61677,
+						["spellID"] = 57010,
+					},
+					[45601] = {
+						["mats"] = {
+							[43124] = 3,
+							[39502] = 1,
+						},
+						["numMade"] = 1,
+						["name"] = "Glyph of Berserk",
+						["enabled"] = true,
+						["group"] = 10,
+						["queued"] = 0,
+						["spellID"] = 64268,
+					},
+					[43412] = {
+						["mats"] = {
+							[43126] = 3,
+							[39502] = 1,
+						},
+						["numMade"] = 1,
+						["name"] = "Glyph of Bloody Healing",
+						["enabled"] = true,
+						["group"] = 1,
+						["queued"] = 0,
+						["spellID"] = 57153,
 					},
 					[4419] = {
 						["mats"] = {
@@ -4427,29 +4424,29 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 50599,
 					},
-					[41537] = {
+					[40915] = {
 						["mats"] = {
-							[39774] = 3,
-							[39354] = 1,
+							[43126] = 3,
+							[39502] = 1,
 						},
 						["numMade"] = 1,
-						["name"] = "Glyph of Lightning Shield",
-						["enabled"] = true,
-						["group"] = 7,
-						["queued"] = 0,
-						["spellID"] = 57246,
-					},
-					[67485] = {
-						["mats"] = {
-							[43116] = 3,
-							[39354] = 1,
-						},
-						["numMade"] = 1,
-						["name"] = "Glyph of Faerie Fire",
+						["name"] = "Glyph of Lifebloom",
 						["enabled"] = true,
 						["group"] = 10,
 						["queued"] = 0,
-						["spellID"] = 94403,
+						["spellID"] = 56949,
+					},
+					[45743] = {
+						["mats"] = {
+							[43124] = 3,
+							[39502] = 1,
+						},
+						["numMade"] = 1,
+						["name"] = "Glyph of Templar's Verdict",
+						["enabled"] = true,
+						["group"] = 2,
+						["queued"] = 0,
+						["spellID"] = 64279,
 					},
 					[4425] = {
 						["mats"] = {
@@ -4474,52 +4471,53 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 58347,
 					},
-					[42905] = {
+					[43416] = {
 						["mats"] = {
 							[43122] = 3,
 							[39501] = 1,
 						},
 						["numMade"] = 1,
-						["name"] = "Glyph of Freezing Trap",
+						["name"] = "Glyph of Bloodthirst",
 						["enabled"] = true,
-						["group"] = 3,
+						["group"] = 1,
 						["queued"] = 0,
-						["spellID"] = 57002,
+						["spellID"] = 57156,
 					},
-					[38322] = {
+					[43432] = {
 						["mats"] = {
-							[43127] = 5,
-							[39502] = 10,
-							[43102] = 1,
-						},
-						["numMade"] = 1,
-						["name"] = "Iron-Bound Tome",
-						["group"] = 13,
-						["queued"] = 0,
-						["spellID"] = 59497,
-					},
-					[41534] = {
-						["mats"] = {
-							[43126] = 3,
+							[43124] = 3,
 							[39502] = 1,
 						},
 						["numMade"] = 1,
-						["name"] = "Glyph of Healing Wave",
+						["name"] = "Glyph of Raging Blow",
+						["enabled"] = true,
+						["group"] = 1,
+						["queued"] = 0,
+						["spellID"] = 57172,
+					},
+					[43725] = {
+						["mats"] = {
+							[43116] = 3,
+							[39354] = 1,
+						},
+						["numMade"] = 1,
+						["name"] = "Glyph of Ghost Wolf",
 						["enabled"] = true,
 						["group"] = 7,
 						["queued"] = 0,
-						["spellID"] = 57243,
+						["spellID"] = 59326,
 					},
-					[43464] = {
+					[40909] = {
 						["mats"] = {
-							[43126] = 1,
-							[39502] = 2,
+							[43118] = 3,
+							[10648] = 1,
 						},
-						["numMade"] = 2,
-						["name"] = "Scroll of Agility VIII",
-						["group"] = 12,
+						["numMade"] = 1,
+						["name"] = "Glyph of Rebirth",
+						["enabled"] = true,
+						["group"] = 10,
 						["queued"] = 0,
-						["spellID"] = 58483,
+						["spellID"] = 56953,
 					},
 					[42458] = {
 						["mats"] = {
@@ -4533,52 +4531,50 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 57262,
 					},
-					[43395] = {
+					[61981] = {
 						["mats"] = {
-							[39774] = 3,
-							[39354] = 1,
+							[61980] = 2,
 						},
 						["numMade"] = 1,
-						["name"] = "Glyph of Battle",
+						["name"] = "Inferno Ink",
+						["enabled"] = true,
+						["group"] = 11,
+						["queued"] = -10,
+						["spellID"] = 86005,
+					},
+					[43423] = {
+						["mats"] = {
+							[43116] = 3,
+							[10648] = 1,
+						},
+						["numMade"] = 1,
+						["name"] = "Glyph of Slam",
 						["enabled"] = true,
 						["group"] = 1,
 						["queued"] = 0,
-						["spellID"] = 58342,
+						["spellID"] = 57163,
 					},
-					[42960] = {
-						["mats"] = {
-							[39774] = 3,
-							[39354] = 1,
-						},
-						["numMade"] = 1,
-						["name"] = "Glyph of Evasion",
-						["enabled"] = true,
-						["group"] = 4,
-						["queued"] = 0,
-						["spellID"] = 57119,
-					},
-					[43120] = {
-						["mats"] = {
-							[39340] = 2,
-						},
-						["numMade"] = 1,
-						["name"] = "Celestial Ink",
-						["enabled"] = true,
-						["group"] = 11,
-						["queued"] = 0,
-						["spellID"] = 57709,
-					},
-					[41105] = {
+					[42406] = {
 						["mats"] = {
 							[43124] = 3,
-							[39501] = 1,
+							[39502] = 1,
 						},
 						["numMade"] = 1,
-						["name"] = "Glyph of Word of Glory",
+						["name"] = "Glyph of Shadow Word: Pain",
 						["enabled"] = true,
-						["group"] = 2,
+						["group"] = 5,
 						["queued"] = 0,
-						["spellID"] = 57026,
+						["spellID"] = 57192,
+					},
+					[62238] = {
+						["mats"] = {
+							[39502] = 3,
+						},
+						["numMade"] = 1,
+						["name"] = "Origami Rock",
+						["group"] = 14,
+						["queued"] = 0,
+						["spellID"] = 86645,
 					},
 					[45604] = {
 						["mats"] = {
@@ -4604,73 +4600,74 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 57240,
 					},
-					[43428] = {
+					[42914] = {
+						["mats"] = {
+							[43126] = 3,
+							[39502] = 1,
+						},
+						["numMade"] = 1,
+						["name"] = "Glyph of Steady Shot",
+						["enabled"] = true,
+						["group"] = 3,
+						["queued"] = 0,
+						["spellID"] = 57011,
+					},
+					[63308] = {
+						["mats"] = {
+							[39502] = 2,
+							[61978] = 1,
+						},
+						["numMade"] = 5,
+						["name"] = "Scroll of Protection IX",
+						["group"] = 12,
+						["queued"] = 0,
+						["spellID"] = 89373,
+					},
+					[63305] = {
+						["mats"] = {
+							[39502] = 2,
+							[61978] = 1,
+						},
+						["numMade"] = 5,
+						["name"] = "Scroll of Intellect IX",
+						["group"] = 12,
+						["queued"] = 0,
+						["spellID"] = 89368,
+					},
+					[42453] = {
 						["mats"] = {
 							[43124] = 3,
 							[39502] = 1,
 						},
 						["numMade"] = 1,
-						["name"] = "Glyph of Sweeping Strikes",
+						["name"] = "Glyph of Incinerate",
 						["enabled"] = true,
-						["group"] = 1,
+						["group"] = 9,
 						["queued"] = 0,
-						["spellID"] = 57168,
+						["spellID"] = 57257,
 					},
-					[45804] = {
+					[41101] = {
 						["mats"] = {
-							[43122] = 3,
-							[39501] = 1,
+							[43126] = 3,
+							[39502] = 1,
 						},
 						["numMade"] = 1,
-						["name"] = "Glyph of Death Coil",
+						["name"] = "Glyph of Focused Shield",
 						["enabled"] = true,
-						["group"] = 6,
+						["group"] = 2,
 						["queued"] = 0,
-						["spellID"] = 64266,
+						["spellID"] = 57019,
 					},
-					[43664] = {
-						["mats"] = {
-							[43123] = 8,
-							[39501] = 10,
-						},
-						["numMade"] = 1,
-						["name"] = "Manual of Clouds",
-						["group"] = 13,
-						["queued"] = 0,
-						["spellID"] = 59494,
-					},
-					[43466] = {
+					[37094] = {
 						["mats"] = {
 							[43126] = 1,
 							[39502] = 2,
 						},
 						["numMade"] = 2,
-						["name"] = "Scroll of Strength VIII",
+						["name"] = "Scroll of Stamina VIII",
 						["group"] = 12,
 						["queued"] = 0,
-						["spellID"] = 58491,
-					},
-					[43656] = {
-						["mats"] = {
-							[43119] = 5,
-							[10648] = 10,
-						},
-						["numMade"] = 1,
-						["name"] = "Tome of Kings",
-						["group"] = 13,
-						["queued"] = 0,
-						["spellID"] = 59484,
-					},
-					[37098] = {
-						["mats"] = {
-							[43126] = 1,
-							[39502] = 2,
-						},
-						["numMade"] = 2,
-						["name"] = "Scroll of Spirit VIII",
-						["group"] = 12,
-						["queued"] = 0,
-						["spellID"] = 50611,
+						["spellID"] = 50620,
 					},
 					[45732] = {
 						["mats"] = {
@@ -4684,16 +4681,16 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 64304,
 					},
-					[27499] = {
+					[27502] = {
 						["mats"] = {
 							[43122] = 1,
 							[39501] = 2,
 						},
 						["numMade"] = 2,
-						["name"] = "Scroll of Intellect V",
+						["name"] = "Scroll of Stamina V",
 						["group"] = 12,
 						["queued"] = 0,
-						["spellID"] = 50601,
+						["spellID"] = 50617,
 					},
 					[45764] = {
 						["mats"] = {
@@ -4707,28 +4704,29 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 64286,
 					},
-					[37093] = {
+					[45780] = {
 						["mats"] = {
-							[43126] = 1,
-							[39502] = 2,
-						},
-						["numMade"] = 2,
-						["name"] = "Scroll of Stamina VII",
-						["group"] = 12,
-						["queued"] = 0,
-						["spellID"] = 50619,
-					},
-					[41096] = {
-						["mats"] = {
-							[39774] = 3,
-							[39354] = 1,
+							[43124] = 3,
+							[39502] = 1,
 						},
 						["numMade"] = 1,
-						["name"] = "Glyph of Divine Protection",
+						["name"] = "Glyph of Metamorphosis",
 						["enabled"] = true,
-						["group"] = 2,
-						["queued"] = -1,
-						["spellID"] = 57022,
+						["group"] = 9,
+						["queued"] = 0,
+						["spellID"] = 64318,
+					},
+					[42461] = {
+						["mats"] = {
+							[43116] = 3,
+							[10648] = 1,
+						},
+						["numMade"] = 1,
+						["name"] = "Glyph of Health Funnel",
+						["enabled"] = true,
+						["group"] = 9,
+						["queued"] = 0,
+						["spellID"] = 57265,
 					},
 					[42746] = {
 						["mats"] = {
@@ -4742,50 +4740,51 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 56981,
 					},
-					[43390] = {
+					[10309] = {
 						["mats"] = {
-							[39774] = 3,
-							[39354] = 1,
-						},
-						["numMade"] = 1,
-						["name"] = "Glyph of Drain Soul",
-						["enabled"] = true,
-						["group"] = 9,
-						["queued"] = 0,
-						["spellID"] = 58337,
-					},
-					[27501] = {
-						["mats"] = {
-							[43122] = 1,
+							[43120] = 1,
 							[39501] = 2,
 						},
 						["numMade"] = 2,
-						["name"] = "Scroll of Spirit V",
+						["name"] = "Scroll of Agility IV",
 						["group"] = 12,
 						["queued"] = 0,
-						["spellID"] = 50608,
+						["spellID"] = 58478,
 					},
-					[4426] = {
+					[10308] = {
 						["mats"] = {
-							[43118] = 1,
-							[10648] = 2,
-						},
-						["numMade"] = 5,
-						["name"] = "Scroll of Strength III",
-						["group"] = 12,
-						["queued"] = 0,
-						["spellID"] = 58486,
-					},
-					[4424] = {
-						["mats"] = {
-							[43118] = 1,
-							[10648] = 2,
+							[43120] = 1,
+							[39501] = 2,
 						},
 						["numMade"] = 2,
-						["name"] = "Scroll of Spirit III",
+						["name"] = "Scroll of Intellect IV",
 						["group"] = 12,
 						["queued"] = 0,
-						["spellID"] = 50606,
+						["spellID"] = 50600,
+					},
+					[43421] = {
+						["mats"] = {
+							[43126] = 3,
+							[39502] = 1,
+						},
+						["numMade"] = 1,
+						["name"] = "Glyph of Mortal Strike",
+						["enabled"] = true,
+						["group"] = 1,
+						["queued"] = 0,
+						["spellID"] = 57160,
+					},
+					[43425] = {
+						["mats"] = {
+							[43126] = 3,
+							[39502] = 1,
+						},
+						["numMade"] = 1,
+						["name"] = "Glyph of Shield Slam",
+						["enabled"] = true,
+						["group"] = 1,
+						["queued"] = 0,
+						["spellID"] = 57152,
 					},
 					[3012] = {
 						["mats"] = {
@@ -4798,29 +4797,29 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 58472,
 					},
-					[42460] = {
+					[42400] = {
 						["mats"] = {
-							[43126] = 3,
-							[39502] = 1,
+							[43116] = 3,
+							[10648] = 1,
 						},
 						["numMade"] = 1,
-						["name"] = "Glyph of Felhunter",
+						["name"] = "Glyph of Flash Heal",
 						["enabled"] = true,
-						["group"] = 9,
+						["group"] = 5,
 						["queued"] = 0,
-						["spellID"] = 57264,
+						["spellID"] = 57186,
 					},
-					[42957] = {
+					[43422] = {
 						["mats"] = {
-							[43126] = 3,
-							[39502] = 1,
+							[43118] = 3,
+							[10648] = 1,
 						},
 						["numMade"] = 1,
-						["name"] = "Glyph of Blade Flurry",
+						["name"] = "Glyph of Overpower",
 						["enabled"] = true,
-						["group"] = 4,
+						["group"] = 1,
 						["queued"] = 0,
-						["spellID"] = 57115,
+						["spellID"] = 57161,
 					},
 					[43385] = {
 						["mats"] = {
@@ -4834,28 +4833,28 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 58330,
 					},
-					[44161] = {
+					[43657] = {
 						["mats"] = {
-							[43119] = 2,
+							[43119] = 5,
+							[10648] = 10,
+						},
+						["numMade"] = 1,
+						["name"] = "Royal Guide of Escape Routes",
+						["group"] = 13,
+						["queued"] = 0,
+						["spellID"] = 59486,
+					},
+					[43417] = {
+						["mats"] = {
+							[43116] = 3,
 							[10648] = 1,
 						},
 						["numMade"] = 1,
-						["name"] = "Arcane Tarot",
-						["group"] = 14,
-						["queued"] = 0,
-						["spellID"] = 59487,
-					},
-					[42906] = {
-						["mats"] = {
-							[43124] = 3,
-							[39502] = 1,
-						},
-						["numMade"] = 1,
-						["name"] = "Glyph of Ice Trap",
+						["name"] = "Glyph of Piercing Howl",
 						["enabled"] = true,
-						["group"] = 3,
+						["group"] = 1,
 						["queued"] = 0,
-						["spellID"] = 57003,
+						["spellID"] = 57157,
 					},
 					[42411] = {
 						["mats"] = {
@@ -4869,52 +4868,53 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 57197,
 					},
-					[43424] = {
+					[42908] = {
 						["mats"] = {
-							[43118] = 3,
+							[43116] = 3,
 							[10648] = 1,
 						},
 						["numMade"] = 1,
-						["name"] = "Glyph of Revenge",
+						["name"] = "Glyph of Immolation Trap",
 						["enabled"] = true,
-						["group"] = 1,
+						["group"] = 3,
 						["queued"] = 0,
-						["spellID"] = 57165,
+						["spellID"] = 57005,
 					},
-					[43465] = {
+					[42954] = {
 						["mats"] = {
-							[43126] = 1,
-							[39502] = 2,
-						},
-						["numMade"] = 2,
-						["name"] = "Scroll of Strength VII",
-						["group"] = 12,
-						["queued"] = 0,
-						["spellID"] = 58490,
-					},
-					[42970] = {
-						["mats"] = {
-							[43118] = 3,
-							[10648] = 1,
+							[43126] = 3,
+							[39502] = 1,
 						},
 						["numMade"] = 1,
-						["name"] = "Glyph of Sap",
+						["name"] = "Glyph of Adrenaline Rush",
 						["enabled"] = true,
 						["group"] = 4,
 						["queued"] = 0,
-						["spellID"] = 57129,
+						["spellID"] = 57112,
 					},
-					[62056] = {
+					[42459] = {
 						["mats"] = {
+							[43126] = 3,
 							[39502] = 1,
-							[61978] = 1,
 						},
 						["numMade"] = 1,
-						["name"] = "Forged Documents",
-						["group"] = 14,
-						["hasCD"] = true,
-						["queued"] = -2,
-						["spellID"] = 89244,
+						["name"] = "Glyph of Felguard",
+						["enabled"] = true,
+						["group"] = 9,
+						["queued"] = 0,
+						["spellID"] = 57263,
+					},
+					[42398] = {
+						["mats"] = {
+							[43116] = 3,
+							[10648] = 1,
+						},
+						["numMade"] = 1,
+						["name"] = "Glyph of Fade",
+						["enabled"] = true,
+						["group"] = 5,
+						["queued"] = 0,
+						["spellID"] = 57184,
 					},
 				},
 			},
@@ -5054,17 +5054,17 @@ TradeSkillMaster_CraftingDB = {
 						["source"] = "auction",
 						["name"] = "Greater Planar Essence",
 					},
-					[34054] = {
-						["name"] = "Infinite Dust",
+					[22452] = {
 						["source"] = "auction",
+						["name"] = "Primal Earth",
 					},
 					[8153] = {
 						["source"] = "auction",
 						["name"] = "Wildvine",
 					},
-					[22452] = {
+					[38425] = {
+						["name"] = "Heavy Borean Leather",
 						["source"] = "auction",
-						["name"] = "Primal Earth",
 					},
 					[1529] = {
 						["name"] = "Jade",
@@ -5078,33 +5078,33 @@ TradeSkillMaster_CraftingDB = {
 						["name"] = "Rune Thread",
 						["source"] = "vendor",
 					},
-					[3864] = {
-						["name"] = "Citrine",
+					[37701] = {
 						["source"] = "auction",
+						["name"] = "Crystallized Earth",
 					},
-					[35627] = {
-						["name"] = "Eternal Shadow",
+					[21842] = {
+						["name"] = "Bolt of Imbued Netherweave",
 						["source"] = "auction",
 					},
 					[7077] = {
 						["source"] = "auction",
 						["name"] = "Heart of Fire",
 					},
-					[41594] = {
-						["source"] = "craft",
-						["name"] = "Moonshroud",
-					},
 					[35625] = {
 						["source"] = "auction",
 						["name"] = "Eternal Life",
 					},
-					[11176] = {
+					[2997] = {
+						["name"] = "Bolt of Woolen Cloth",
 						["source"] = "auction",
-						["name"] = "Dream Dust",
 					},
-					[2605] = {
-						["name"] = "Green Dye",
+					[4341] = {
+						["name"] = "Yellow Dye",
 						["source"] = "vendor",
+					},
+					[34052] = {
+						["source"] = "auction",
+						["name"] = "Dream Shard",
 					},
 					[10285] = {
 						["name"] = "Shadow Silk",
@@ -5134,17 +5134,17 @@ TradeSkillMaster_CraftingDB = {
 						["name"] = "Medium Leather",
 						["source"] = "auction",
 					},
-					[34052] = {
-						["source"] = "auction",
-						["name"] = "Dream Shard",
+					[2605] = {
+						["name"] = "Green Dye",
+						["source"] = "vendor",
 					},
-					[7910] = {
-						["name"] = "Star Ruby",
+					[5498] = {
+						["name"] = "Small Lustrous Pearl",
 						["source"] = "auction",
 					},
-					[43102] = {
-						["source"] = "auction",
-						["name"] = "Frozen Orb",
+					[2996] = {
+						["name"] = "Bolt of Linen Cloth",
+						["source"] = "craft",
 					},
 					[2320] = {
 						["name"] = "Coarse Thread",
@@ -5154,45 +5154,45 @@ TradeSkillMaster_CraftingDB = {
 						["name"] = "Silken Thread",
 						["source"] = "vendor",
 					},
-					[5498] = {
-						["name"] = "Small Lustrous Pearl",
-						["source"] = "auction",
-					},
-					[2321] = {
-						["name"] = "Fine Thread",
+					[6260] = {
+						["name"] = "Blue Dye",
 						["source"] = "vendor",
+					},
+					[53643] = {
+						["source"] = "craft",
+						["name"] = "Bolt of Embersilk Cloth",
 					},
 					[6261] = {
 						["name"] = "Orange Dye",
 						["source"] = "vendor",
 					},
-					[36860] = {
-						["name"] = "Eternal Fire",
-						["source"] = "auction",
+					[21845] = {
+						["name"] = "Primal Mooncloth",
+						["source"] = "craft",
 					},
 					[5500] = {
 						["name"] = "Iridescent Pearl",
 						["source"] = "auction",
 					},
-					[41593] = {
-						["name"] = "Ebonweave",
+					[21877] = {
+						["name"] = "Netherweave Cloth",
 						["source"] = "auction",
-					},
-					[36783] = {
-						["name"] = "Northsea Pearl",
-						["source"] = "auction",
-					},
-					[35624] = {
-						["name"] = "Eternal Earth",
-						["source"] = "auction",
-					},
-					[54440] = {
-						["name"] = "Dreamcloth",
-						["source"] = "craft",
 					},
 					[38426] = {
 						["source"] = "vendor",
 						["name"] = "Eternium Thread",
+					},
+					[41593] = {
+						["name"] = "Ebonweave",
+						["source"] = "auction",
+					},
+					[21887] = {
+						["source"] = "auction",
+						["name"] = "Knothide Leather",
+					},
+					[21881] = {
+						["source"] = "auction",
+						["name"] = "Netherweb Spider Silk",
 					},
 					[8170] = {
 						["source"] = "auction",
@@ -5202,21 +5202,21 @@ TradeSkillMaster_CraftingDB = {
 						["name"] = "Primal Water",
 						["source"] = "auction",
 					},
-					[4234] = {
-						["name"] = "Heavy Leather",
-						["source"] = "auction",
+					[54440] = {
+						["name"] = "Dreamcloth",
+						["source"] = "craft",
 					},
-					[4306] = {
-						["name"] = "Silk Cloth",
+					[23572] = {
+						["name"] = "Primal Nether",
 						["source"] = "auction",
 					},
 					[2324] = {
 						["name"] = "Bleach",
 						["source"] = "vendor",
 					},
-					[23571] = {
-						["name"] = "Primal Might",
-						["source"] = "auction",
+					[2325] = {
+						["name"] = "Black Dye",
+						["source"] = "vendor",
 					},
 					[36930] = {
 						["name"] = "Monarch Topaz",
@@ -5226,9 +5226,9 @@ TradeSkillMaster_CraftingDB = {
 						["source"] = "auction",
 						["name"] = "Hypnotic Dust",
 					},
-					[2325] = {
-						["name"] = "Black Dye",
-						["source"] = "vendor",
+					[41510] = {
+						["source"] = "auction",
+						["name"] = "Bolt of Frostweave",
 					},
 					[37704] = {
 						["name"] = "Crystallized Life",
@@ -5238,8 +5238,8 @@ TradeSkillMaster_CraftingDB = {
 						["name"] = "Eternal Water",
 						["source"] = "auction",
 					},
-					[4339] = {
-						["name"] = "Bolt of Mageweave",
+					[3182] = {
+						["name"] = "Spider's Silk",
 						["source"] = "auction",
 					},
 					[14256] = {
@@ -5258,80 +5258,80 @@ TradeSkillMaster_CraftingDB = {
 						["name"] = "Thick Leather",
 						["source"] = "auction",
 					},
-					[3182] = {
-						["name"] = "Spider's Silk",
+					[4339] = {
+						["name"] = "Bolt of Mageweave",
 						["source"] = "auction",
 					},
 					[4305] = {
 						["name"] = "Bolt of Silk Cloth",
 						["source"] = "auction",
 					},
-					[41510] = {
-						["source"] = "auction",
-						["name"] = "Bolt of Frostweave",
-					},
-					[23572] = {
-						["name"] = "Primal Nether",
+					[23571] = {
+						["name"] = "Primal Might",
 						["source"] = "auction",
 					},
-					[21887] = {
-						["source"] = "auction",
-						["name"] = "Knothide Leather",
-					},
-					[21881] = {
-						["source"] = "auction",
-						["name"] = "Netherweb Spider Silk",
-					},
-					[21877] = {
-						["name"] = "Netherweave Cloth",
+					[4306] = {
+						["name"] = "Silk Cloth",
 						["source"] = "auction",
 					},
-					[21845] = {
-						["name"] = "Primal Mooncloth",
-						["source"] = "craft",
+					[4234] = {
+						["name"] = "Heavy Leather",
+						["source"] = "auction",
 					},
-					[53643] = {
-						["source"] = "craft",
-						["name"] = "Bolt of Embersilk Cloth",
+					[36783] = {
+						["name"] = "Northsea Pearl",
+						["source"] = "auction",
 					},
-					[2996] = {
-						["name"] = "Bolt of Linen Cloth",
-						["source"] = "craft",
+					[35624] = {
+						["name"] = "Eternal Earth",
+						["source"] = "auction",
 					},
-					[6260] = {
-						["name"] = "Blue Dye",
+					[36860] = {
+						["name"] = "Eternal Fire",
+						["source"] = "auction",
+					},
+					[2321] = {
+						["name"] = "Fine Thread",
 						["source"] = "vendor",
+					},
+					[43102] = {
+						["source"] = "auction",
+						["name"] = "Frozen Orb",
+					},
+					[7910] = {
+						["name"] = "Star Ruby",
+						["source"] = "auction",
 					},
 					[22445] = {
 						["name"] = "Arcane Dust",
 						["source"] = "auction",
 					},
-					[4341] = {
-						["name"] = "Yellow Dye",
-						["source"] = "vendor",
-					},
-					[2997] = {
-						["name"] = "Bolt of Woolen Cloth",
+					[11176] = {
 						["source"] = "auction",
+						["name"] = "Dream Dust",
+					},
+					[41594] = {
+						["source"] = "craft",
+						["name"] = "Moonshroud",
 					},
 					[33470] = {
 						["source"] = "auction",
 						["name"] = "Frostweave Cloth",
 					},
-					[21842] = {
-						["name"] = "Bolt of Imbued Netherweave",
+					[35627] = {
+						["name"] = "Eternal Shadow",
 						["source"] = "auction",
 					},
-					[37701] = {
+					[3864] = {
+						["name"] = "Citrine",
 						["source"] = "auction",
-						["name"] = "Crystallized Earth",
 					},
 					[22457] = {
 						["name"] = "Primal Mana",
 						["source"] = "auction",
 					},
-					[38425] = {
-						["name"] = "Heavy Borean Leather",
+					[34054] = {
+						["name"] = "Infinite Dust",
 						["source"] = "auction",
 					},
 				},
@@ -5423,9 +5423,9 @@ TradeSkillMaster_CraftingDB = {
 					},
 					[2578] = {
 						["mats"] = {
+							[2996] = 4,
 							[2318] = 1,
 							[2321] = 1,
-							[2996] = 4,
 						},
 						["numMade"] = 1,
 						["name"] = "Barbaric Linen Vest",
@@ -5560,8 +5560,8 @@ TradeSkillMaster_CraftingDB = {
 						["mats"] = {
 							[4339] = 4,
 							[8153] = 4,
-							[10286] = 2,
 							[8343] = 2,
+							[10286] = 2,
 						},
 						["numMade"] = 1,
 						["name"] = "Dreamweave Gloves",
@@ -5692,8 +5692,8 @@ TradeSkillMaster_CraftingDB = {
 							[10286] = 2,
 							[6037] = 1,
 							[8153] = 4,
-							[4339] = 8,
 							[1529] = 1,
+							[4339] = 8,
 						},
 						["numMade"] = 1,
 						["name"] = "Dreamweave Circlet",
@@ -5769,8 +5769,8 @@ TradeSkillMaster_CraftingDB = {
 						["mats"] = {
 							[22445] = 4,
 							[23112] = 4,
-							[21840] = 6,
 							[8343] = 5,
+							[21840] = 6,
 						},
 						["numMade"] = 1,
 						["name"] = "Flying Carpet",
@@ -5840,17 +5840,17 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 55923,
 					},
-					[54483] = {
+					[14103] = {
 						["mats"] = {
-							[53643] = 4,
-							[38426] = 2,
+							[14048] = 4,
+							[3577] = 2,
 						},
 						["numMade"] = 1,
-						["name"] = "Spiritmend Leggings",
+						["name"] = "Brightcloth Cloak",
 						["enabled"] = true,
 						["group"] = 10,
 						["queued"] = 0,
-						["spellID"] = 75263,
+						["spellID"] = 18420,
 					},
 					[42100] = {
 						["mats"] = {
@@ -5879,17 +5879,16 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 75297,
 					},
-					[54474] = {
+					[41509] = {
 						["mats"] = {
-							[53643] = 3,
-							[38426] = 2,
+							[33470] = 6,
 						},
-						["numMade"] = 1,
-						["name"] = "Deathsilk Shoulders",
+						["numMade"] = 5,
+						["name"] = "Frostweave Net",
 						["enabled"] = true,
 						["group"] = 10,
 						["queued"] = 0,
-						["spellID"] = 75251,
+						["spellID"] = 55898,
 					},
 					[13856] = {
 						["mats"] = {
@@ -5903,44 +5902,42 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 18402,
 					},
-					[10021] = {
+					[24273] = {
 						["mats"] = {
-							[4339] = 6,
-							[8153] = 6,
-							[10286] = 2,
-							[8343] = 2,
+							[14341] = 1,
+							[22457] = 5,
 						},
 						["numMade"] = 1,
-						["name"] = "Dreamweave Vest",
+						["name"] = "Mystic Spellthread",
 						["enabled"] = true,
 						["group"] = 10,
 						["queued"] = 0,
-						["spellID"] = 12070,
+						["spellID"] = 31430,
 					},
-					[41255] = {
+					[14143] = {
 						["mats"] = {
-							[41510] = 4,
-							[2605] = 1,
+							[14048] = 2,
+							[9210] = 2,
 						},
 						["numMade"] = 1,
-						["name"] = "Green Workman's Shirt",
+						["name"] = "Ghostweave Belt",
 						["enabled"] = true,
 						["group"] = 10,
 						["queued"] = 0,
-						["spellID"] = 56000,
+						["spellID"] = 18410,
 					},
-					[21843] = {
+					[41525] = {
 						["mats"] = {
-							[21881] = 2,
-							[22446] = 1,
-							[21842] = 4,
+							[38426] = 4,
+							[36783] = 1,
+							[41510] = 8,
 						},
 						["numMade"] = 1,
-						["name"] = "Imbued Netherweave Bag",
+						["name"] = "Mystic Frostwoven Robe",
 						["enabled"] = true,
 						["group"] = 10,
 						["queued"] = 0,
-						["spellID"] = 26749,
+						["spellID"] = 55911,
 					},
 					[2580] = {
 						["mats"] = {
@@ -5954,18 +5951,18 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 2397,
 					},
-					[21859] = {
+					[70062] = {
 						["mats"] = {
-							[21881] = 2,
-							[14341] = 1,
-							[21842] = 5,
+							[52325] = 4,
+							[52326] = 4,
+							[53643] = 10,
 						},
 						["numMade"] = 1,
-						["name"] = "Imbued Netherweave Pants",
+						["name"] = "Bloodthirsty Embersilk Belt",
 						["enabled"] = true,
 						["group"] = 10,
 						["queued"] = 0,
-						["spellID"] = 26775,
+						["spellID"] = 75293,
 					},
 					[70063] = {
 						["mats"] = {
@@ -6031,44 +6028,43 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 55904,
 					},
-					[13866] = {
+					[41511] = {
 						["mats"] = {
-							[14048] = 6,
-							[14341] = 2,
+							[41510] = 2,
+							[34054] = 2,
 						},
 						["numMade"] = 1,
-						["name"] = "Runecloth Headband",
+						["name"] = "Bolt of Imbued Frostweave",
 						["enabled"] = true,
 						["group"] = 10,
 						["queued"] = 0,
-						["spellID"] = 18444,
+						["spellID"] = 55900,
 					},
-					[43583] = {
+					[70064] = {
 						["mats"] = {
-							[35622] = 3,
-							[41511] = 6,
-							[38426] = 3,
-							[36860] = 3,
-							[43102] = 1,
+							[52325] = 3,
+							[52326] = 3,
+							[53643] = 6,
 						},
 						["numMade"] = 1,
-						["name"] = "Glacial Robe",
+						["name"] = "Bloodthirsty Embersilk Shoulders",
 						["enabled"] = true,
 						["group"] = 10,
 						["queued"] = 0,
-						["spellID"] = 60993,
+						["spellID"] = 75291,
 					},
-					[7026] = {
+					[4245] = {
 						["mats"] = {
-							[2996] = 1,
-							[2320] = 1,
+							[4234] = 2,
+							[4305] = 3,
+							[2321] = 3,
 						},
 						["numMade"] = 1,
-						["name"] = "Linen Belt",
+						["name"] = "Small Silk Pack",
 						["enabled"] = true,
 						["group"] = 10,
 						["queued"] = 0,
-						["spellID"] = 8776,
+						["spellID"] = 3813,
 					},
 					[54476] = {
 						["mats"] = {
@@ -6094,18 +6090,6 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 75262,
 					},
-					[54481] = {
-						["mats"] = {
-							[53643] = 4,
-							[38426] = 2,
-						},
-						["numMade"] = 1,
-						["name"] = "Spiritmend Belt",
-						["enabled"] = true,
-						["group"] = 10,
-						["queued"] = 0,
-						["spellID"] = 75258,
-					},
 					[21848] = {
 						["mats"] = {
 							[21884] = 16,
@@ -6119,30 +6103,45 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 26754,
 					},
-					[21858] = {
+					[43584] = {
 						["mats"] = {
-							[21881] = 4,
-							[22446] = 4,
-							[24271] = 6,
+							[35622] = 2,
+							[41511] = 4,
+							[38426] = 2,
+							[36860] = 2,
+							[43102] = 1,
 						},
 						["numMade"] = 1,
-						["name"] = "Spellfire Bag",
+						["name"] = "Glacial Waistband",
 						["enabled"] = true,
 						["group"] = 10,
 						["queued"] = 0,
-						["spellID"] = 26755,
+						["spellID"] = 60990,
 					},
-					[41511] = {
+					[41548] = {
 						["mats"] = {
-							[41510] = 2,
-							[34054] = 2,
+							[41510] = 8,
+							[38426] = 1,
 						},
 						["numMade"] = 1,
-						["name"] = "Bolt of Imbued Frostweave",
+						["name"] = "Duskweave Leggings",
 						["enabled"] = true,
 						["group"] = 10,
 						["queued"] = 0,
-						["spellID"] = 55900,
+						["spellID"] = 55901,
+					},
+					[24262] = {
+						["mats"] = {
+							[23571] = 5,
+							[24271] = 10,
+							[23572] = 1,
+						},
+						["numMade"] = 1,
+						["name"] = "Spellstrike Pants",
+						["enabled"] = true,
+						["group"] = 10,
+						["queued"] = 0,
+						["spellID"] = 31452,
 					},
 					[41519] = {
 						["mats"] = {
@@ -6168,18 +6167,18 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 31459,
 					},
-					[70064] = {
+					[24274] = {
 						["mats"] = {
-							[52325] = 3,
-							[52326] = 3,
-							[53643] = 6,
+							[22457] = 10,
+							[14341] = 1,
+							[23572] = 1,
 						},
 						["numMade"] = 1,
-						["name"] = "Bloodthirsty Embersilk Shoulders",
+						["name"] = "Runic Spellthread",
 						["enabled"] = true,
 						["group"] = 10,
 						["queued"] = 0,
-						["spellID"] = 75291,
+						["spellID"] = 31432,
 					},
 					[41543] = {
 						["mats"] = {
@@ -6216,17 +6215,18 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 2963,
 					},
-					[41544] = {
+					[10004] = {
 						["mats"] = {
-							[41510] = 10,
-							[38426] = 1,
+							[4339] = 3,
+							[10285] = 2,
+							[8343] = 1,
 						},
 						["numMade"] = 1,
-						["name"] = "Duskweave Boots",
+						["name"] = "Shadoweave Robe",
 						["enabled"] = true,
 						["group"] = 10,
 						["queued"] = 0,
-						["spellID"] = 55924,
+						["spellID"] = 12055,
 					},
 					[2997] = {
 						["mats"] = {
@@ -6303,33 +6303,34 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 7623,
 					},
-					[9998] = {
+					[43585] = {
 						["mats"] = {
-							[4339] = 2,
-							[4291] = 3,
+							[35622] = 2,
+							[41511] = 4,
+							[38426] = 2,
+							[36860] = 2,
+							[43102] = 1,
 						},
 						["numMade"] = 1,
-						["name"] = "Black Mageweave Vest",
+						["name"] = "Glacial Slippers",
 						["enabled"] = true,
 						["group"] = 10,
 						["queued"] = 0,
-						["spellID"] = 12048,
+						["spellID"] = 60994,
 					},
-					[7064] = {
+					[13867] = {
 						["mats"] = {
-							[4304] = 2,
-							[6371] = 2,
-							[2604] = 4,
-							[7068] = 2,
-							[4305] = 6,
-							[4291] = 2,
+							[8170] = 4,
+							[14048] = 7,
+							[14227] = 2,
+							[14341] = 1,
 						},
 						["numMade"] = 1,
-						["name"] = "Crimson Silk Gloves",
+						["name"] = "Runecloth Shoulders",
 						["enabled"] = true,
 						["group"] = 10,
 						["queued"] = 0,
-						["spellID"] = 8804,
+						["spellID"] = 18449,
 					},
 					[6241] = {
 						["mats"] = {
@@ -6344,29 +6345,31 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 7624,
 					},
-					[21842] = {
+					[41516] = {
 						["mats"] = {
-							[21840] = 3,
-							[22445] = 2,
+							[38426] = 2,
+							[37702] = 4,
+							[41511] = 3,
+							[37701] = 4,
 						},
 						["numMade"] = 1,
-						["name"] = "Bolt of Imbued Netherweave",
+						["name"] = "Frostsavage Gloves",
 						["enabled"] = true,
 						["group"] = 10,
 						["queued"] = 0,
-						["spellID"] = 26747,
+						["spellID"] = 59586,
 					},
-					[4344] = {
+					[41253] = {
 						["mats"] = {
-							[2996] = 1,
-							[2320] = 1,
+							[41510] = 4,
+							[6260] = 1,
 						},
 						["numMade"] = 1,
-						["name"] = "Brown Linen Shirt",
+						["name"] = "Blue Workman's Shirt",
 						["enabled"] = true,
 						["group"] = 10,
 						["queued"] = 0,
-						["spellID"] = 3915,
+						["spellID"] = 55998,
 					},
 					[70065] = {
 						["mats"] = {
@@ -6383,9 +6386,9 @@ TradeSkillMaster_CraftingDB = {
 					},
 					[5766] = {
 						["mats"] = {
+							[4305] = 2,
 							[2321] = 2,
 							[3182] = 2,
-							[4305] = 2,
 						},
 						["numMade"] = 1,
 						["name"] = "Lesser Wizard's Robe",
@@ -6408,20 +6411,19 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 59583,
 					},
-					[14112] = {
+					[43975] = {
 						["mats"] = {
-							[12662] = 2,
-							[8170] = 4,
-							[14256] = 3,
-							[14341] = 2,
-							[14048] = 7,
+							[38426] = 2,
+							[37702] = 5,
+							[41511] = 4,
+							[37701] = 5,
 						},
 						["numMade"] = 1,
-						["name"] = "Felcloth Shoulders",
+						["name"] = "Frostsavage Leggings",
 						["enabled"] = true,
 						["group"] = 10,
 						["queued"] = 0,
-						["spellID"] = 18453,
+						["spellID"] = 59588,
 					},
 					[54445] = {
 						["mats"] = {
@@ -6437,44 +6439,41 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 75265,
 					},
-					[5770] = {
+					[4240] = {
 						["mats"] = {
-							[2321] = 2,
-							[3182] = 2,
-							[4305] = 4,
+							[2997] = 3,
+							[2321] = 1,
 						},
 						["numMade"] = 1,
-						["name"] = "Robes of Arcana",
+						["name"] = "Woolen Bag",
 						["enabled"] = true,
 						["group"] = 10,
 						["queued"] = 0,
-						["spellID"] = 6692,
+						["spellID"] = 3757,
 					},
-					[41986] = {
+					[45811] = {
 						["mats"] = {
-							[38426] = 1,
+							[35624] = 4,
 							[42253] = 4,
 							[41511] = 4,
-							[41595] = 1,
 						},
 						["numMade"] = 1,
-						["name"] = "Deep Frozen Cord",
+						["name"] = "Frostguard Drape",
 						["enabled"] = true,
 						["group"] = 10,
 						["queued"] = 0,
-						["spellID"] = 56020,
+						["spellID"] = 64729,
 					},
-					[54473] = {
+					[4339] = {
 						["mats"] = {
-							[53643] = 2,
-							[38426] = 2,
+							[4338] = 4,
 						},
 						["numMade"] = 1,
-						["name"] = "Deathsilk Bracers",
+						["name"] = "Bolt of Mageweave",
 						["enabled"] = true,
 						["group"] = 10,
 						["queued"] = 0,
-						["spellID"] = 75249,
+						["spellID"] = 3865,
 					},
 					[54477] = {
 						["mats"] = {
@@ -6500,18 +6499,6 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 75266,
 					},
-					[10050] = {
-						["mats"] = {
-							[4339] = 4,
-							[4291] = 2,
-						},
-						["numMade"] = 1,
-						["name"] = "Mageweave Bag",
-						["enabled"] = true,
-						["group"] = 10,
-						["queued"] = 0,
-						["spellID"] = 12065,
-					},
 					[54486] = {
 						["mats"] = {
 							[53643] = 6,
@@ -6536,6 +6523,20 @@ TradeSkillMaster_CraftingDB = {
 						["group"] = 10,
 						["queued"] = 0,
 						["spellID"] = 8489,
+					},
+					[41984] = {
+						["mats"] = {
+							[38426] = 1,
+							[41593] = 1,
+							[41511] = 6,
+							[42253] = 4,
+						},
+						["numMade"] = 1,
+						["name"] = "Hat of Wintry Doom",
+						["enabled"] = true,
+						["group"] = 10,
+						["queued"] = 0,
+						["spellID"] = 56018,
 					},
 					[21840] = {
 						["mats"] = {
@@ -6585,27 +6586,24 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 26771,
 					},
-					[43584] = {
+					[41544] = {
 						["mats"] = {
-							[35622] = 2,
-							[41511] = 4,
-							[38426] = 2,
-							[36860] = 2,
-							[43102] = 1,
+							[41510] = 10,
+							[38426] = 1,
 						},
 						["numMade"] = 1,
-						["name"] = "Glacial Waistband",
+						["name"] = "Duskweave Boots",
 						["enabled"] = true,
 						["group"] = 10,
 						["queued"] = 0,
-						["spellID"] = 60990,
+						["spellID"] = 55924,
 					},
 					[21860] = {
 						["mats"] = {
 							[21881] = 2,
-							[21842] = 4,
-							[14341] = 1,
 							[21887] = 6,
+							[14341] = 1,
+							[21842] = 4,
 						},
 						["numMade"] = 1,
 						["name"] = "Imbued Netherweave Boots",
@@ -6614,19 +6612,17 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 26776,
 					},
-					[41984] = {
+					[41521] = {
 						["mats"] = {
+							[41510] = 5,
 							[38426] = 1,
-							[41593] = 1,
-							[41511] = 6,
-							[42253] = 4,
 						},
 						["numMade"] = 1,
-						["name"] = "Hat of Wintry Doom",
+						["name"] = "Frostwoven Cowl",
 						["enabled"] = true,
 						["group"] = 10,
 						["queued"] = 0,
-						["spellID"] = 56018,
+						["spellID"] = 55907,
 					},
 					[21868] = {
 						["mats"] = {
@@ -6641,17 +6637,19 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 26784,
 					},
-					[41521] = {
+					[7055] = {
 						["mats"] = {
-							[41510] = 5,
-							[38426] = 1,
+							[4291] = 1,
+							[2604] = 2,
+							[7071] = 1,
+							[4305] = 4,
 						},
 						["numMade"] = 1,
-						["name"] = "Frostwoven Cowl",
+						["name"] = "Crimson Silk Belt",
 						["enabled"] = true,
 						["group"] = 10,
 						["queued"] = 0,
-						["spellID"] = 55907,
+						["spellID"] = 8772,
 					},
 					[21876] = {
 						["mats"] = {
@@ -6679,18 +6677,18 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 56028,
 					},
-					[24271] = {
+					[70052] = {
 						["mats"] = {
-							[21884] = 1,
-							[21842] = 1,
-							[22457] = 1,
+							[52325] = 3,
+							[53643] = 6,
+							[52328] = 3,
 						},
 						["numMade"] = 1,
-						["name"] = "Spellcloth",
+						["name"] = "Bloodthirsty Fireweave Belt",
 						["enabled"] = true,
 						["group"] = 10,
 						["queued"] = 0,
-						["spellID"] = 31373,
+						["spellID"] = 75269,
 					},
 					[41608] = {
 						["mats"] = {
@@ -6704,32 +6702,19 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 56015,
 					},
-					[7057] = {
+					[42113] = {
 						["mats"] = {
-							[4305] = 5,
-							[4291] = 2,
-						},
-						["numMade"] = 1,
-						["name"] = "Green Silken Shoulders",
-						["enabled"] = true,
-						["group"] = 10,
-						["queued"] = 0,
-						["spellID"] = 8774,
-					},
-					[43585] = {
-						["mats"] = {
-							[35622] = 2,
-							[41511] = 4,
-							[38426] = 2,
-							[36860] = 2,
+							[38426] = 1,
 							[43102] = 1,
+							[41511] = 4,
+							[41595] = 4,
 						},
 						["numMade"] = 1,
-						["name"] = "Glacial Slippers",
+						["name"] = "Spellweave Gloves",
 						["enabled"] = true,
 						["group"] = 10,
 						["queued"] = 0,
-						["spellID"] = 60994,
+						["spellID"] = 56029,
 					},
 					[42103] = {
 						["mats"] = {
@@ -6745,30 +6730,44 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 56025,
 					},
-					[41601] = {
+					[41593] = {
 						["mats"] = {
-							[37704] = 2,
-							[42253] = 2,
+							[41511] = 1,
+							[35627] = 2,
 						},
 						["numMade"] = 1,
-						["name"] = "Shining Spellthread",
+						["name"] = "Ebonweave",
 						["enabled"] = true,
 						["group"] = 10,
 						["queued"] = 0,
-						["spellID"] = 56008,
+						["spellID"] = 56002,
 					},
-					[10026] = {
+					[42111] = {
 						["mats"] = {
-							[8343] = 2,
-							[4304] = 2,
-							[4339] = 3,
+							[38426] = 1,
+							[41593] = 4,
+							[41511] = 4,
+							[43102] = 1,
 						},
 						["numMade"] = 1,
-						["name"] = "Black Mageweave Boots",
+						["name"] = "Ebonweave Gloves",
 						["enabled"] = true,
 						["group"] = 10,
 						["queued"] = 0,
-						["spellID"] = 12073,
+						["spellID"] = 56027,
+					},
+					[13871] = {
+						["mats"] = {
+							[6260] = 2,
+							[14341] = 1,
+							[14048] = 6,
+						},
+						["numMade"] = 1,
+						["name"] = "Frostweave Pants",
+						["enabled"] = true,
+						["group"] = 10,
+						["queued"] = 0,
+						["spellID"] = 18424,
 					},
 					[14048] = {
 						["mats"] = {
@@ -6808,44 +6807,42 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 8467,
 					},
-					[43975] = {
+					[4238] = {
 						["mats"] = {
+							[2996] = 3,
+							[2320] = 3,
+						},
+						["numMade"] = 1,
+						["name"] = "Linen Bag",
+						["enabled"] = true,
+						["group"] = 10,
+						["queued"] = 0,
+						["spellID"] = 3755,
+					},
+					[54471] = {
+						["mats"] = {
+							[53643] = 2,
 							[38426] = 2,
-							[37702] = 5,
-							[41511] = 4,
-							[37701] = 5,
 						},
 						["numMade"] = 1,
-						["name"] = "Frostsavage Leggings",
+						["name"] = "Deathsilk Belt",
 						["enabled"] = true,
 						["group"] = 10,
 						["queued"] = 0,
-						["spellID"] = 59588,
+						["spellID"] = 75248,
 					},
-					[70053] = {
+					[5770] = {
 						["mats"] = {
-							[52325] = 4,
-							[53643] = 10,
-							[52326] = 4,
+							[4305] = 4,
+							[2321] = 2,
+							[3182] = 2,
 						},
 						["numMade"] = 1,
-						["name"] = "Bloodthirsty Fireweave Boots",
+						["name"] = "Robes of Arcana",
 						["enabled"] = true,
 						["group"] = 10,
 						["queued"] = 0,
-						["spellID"] = 75294,
-					},
-					[54446] = {
-						["mats"] = {
-							[53643] = 20,
-							[52329] = 40,
-						},
-						["numMade"] = 1,
-						["name"] = "Hyjal Expedition Bag",
-						["enabled"] = true,
-						["group"] = 10,
-						["queued"] = 0,
-						["spellID"] = 75268,
+						["spellID"] = 6692,
 					},
 					[7046] = {
 						["mats"] = {
@@ -6860,17 +6857,17 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 8758,
 					},
-					[54471] = {
+					[54447] = {
 						["mats"] = {
-							[53643] = 2,
-							[38426] = 2,
+							[53643] = 3,
+							[52325] = 6,
 						},
 						["numMade"] = 1,
-						["name"] = "Deathsilk Belt",
+						["name"] = "Enchanted Spellthread",
 						["enabled"] = true,
 						["group"] = 10,
 						["queued"] = 0,
-						["spellID"] = 75248,
+						["spellID"] = 75250,
 					},
 					[7048] = {
 						["mats"] = {
@@ -6926,9 +6923,9 @@ TradeSkillMaster_CraftingDB = {
 						["mats"] = {
 							[6260] = 2,
 							[7071] = 1,
+							[7070] = 1,
 							[2321] = 2,
 							[4305] = 4,
-							[7070] = 1,
 						},
 						["numMade"] = 1,
 						["name"] = "Azure Silk Belt",
@@ -6937,17 +6934,18 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 8766,
 					},
-					[54479] = {
+					[14132] = {
 						["mats"] = {
-							[53643] = 9,
-							[52326] = 5,
+							[14048] = 4,
+							[11176] = 1,
+							[14341] = 1,
 						},
 						["numMade"] = 1,
-						["name"] = "Spiritmend Shoulders",
+						["name"] = "Wizardweave Leggings",
 						["enabled"] = true,
 						["group"] = 10,
 						["queued"] = 0,
-						["spellID"] = 75260,
+						["spellID"] = 18421,
 					},
 					[41513] = {
 						["mats"] = {
@@ -6961,32 +6959,30 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 55902,
 					},
-					[7055] = {
+					[9998] = {
 						["mats"] = {
-							[4291] = 1,
-							[2604] = 2,
-							[7071] = 1,
-							[4305] = 4,
+							[4339] = 2,
+							[4291] = 3,
 						},
 						["numMade"] = 1,
-						["name"] = "Crimson Silk Belt",
+						["name"] = "Black Mageweave Vest",
 						["enabled"] = true,
 						["group"] = 10,
 						["queued"] = 0,
-						["spellID"] = 8772,
+						["spellID"] = 12048,
 					},
-					[70052] = {
+					[24271] = {
 						["mats"] = {
-							[52325] = 3,
-							[53643] = 6,
-							[52328] = 3,
+							[21884] = 1,
+							[22457] = 1,
+							[21842] = 1,
 						},
 						["numMade"] = 1,
-						["name"] = "Bloodthirsty Fireweave Belt",
+						["name"] = "Spellcloth",
 						["enabled"] = true,
 						["group"] = 10,
 						["queued"] = 0,
-						["spellID"] = 75269,
+						["spellID"] = 31373,
 					},
 					[10002] = {
 						["mats"] = {
@@ -7001,18 +6997,17 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 12052,
 					},
-					[7058] = {
+					[41545] = {
 						["mats"] = {
-							[2604] = 2,
-							[4305] = 4,
-							[2321] = 2,
+							[41510] = 9,
+							[38426] = 1,
 						},
 						["numMade"] = 1,
-						["name"] = "Crimson Silk Vest",
+						["name"] = "Duskweave Gloves",
 						["enabled"] = true,
 						["group"] = 10,
 						["queued"] = 0,
-						["spellID"] = 8791,
+						["spellID"] = 55922,
 					},
 					[41553] = {
 						["mats"] = {
@@ -7027,32 +7022,30 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 55925,
 					},
-					[41603] = {
+					[4324] = {
 						["mats"] = {
-							[37702] = 2,
-							[42253] = 2,
+							[4305] = 5,
+							[6260] = 4,
 						},
 						["numMade"] = 1,
-						["name"] = "Azure Spellthread",
+						["name"] = "Azure Silk Vest",
 						["enabled"] = true,
 						["group"] = 10,
 						["queued"] = 0,
-						["spellID"] = 56010,
+						["spellID"] = 3859,
 					},
-					[44558] = {
+					[10056] = {
 						["mats"] = {
-							[41511] = 12,
-							[2604] = 4,
-							[36930] = 4,
-							[4341] = 2,
-							[42253] = 4,
+							[4339] = 1,
+							[6261] = 1,
+							[8343] = 1,
 						},
 						["numMade"] = 1,
-						["name"] = "Magnificent Flying Carpet",
+						["name"] = "Orange Mageweave Shirt",
 						["enabled"] = true,
 						["group"] = 10,
 						["queued"] = 0,
-						["spellID"] = 60971,
+						["spellID"] = 12061,
 					},
 					[7062] = {
 						["mats"] = {
@@ -7081,31 +7074,33 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 56022,
 					},
-					[41593] = {
+					[7064] = {
 						["mats"] = {
-							[41511] = 1,
-							[35627] = 2,
+							[4304] = 2,
+							[6371] = 2,
+							[4305] = 6,
+							[7068] = 2,
+							[4291] = 2,
+							[2604] = 4,
 						},
 						["numMade"] = 1,
-						["name"] = "Ebonweave",
+						["name"] = "Crimson Silk Gloves",
 						["enabled"] = true,
 						["group"] = 10,
 						["queued"] = 0,
-						["spellID"] = 56002,
+						["spellID"] = 8804,
 					},
-					[42111] = {
+					[41601] = {
 						["mats"] = {
-							[38426] = 1,
-							[41593] = 4,
-							[41511] = 4,
-							[43102] = 1,
+							[37704] = 2,
+							[42253] = 2,
 						},
 						["numMade"] = 1,
-						["name"] = "Ebonweave Gloves",
+						["name"] = "Shining Spellthread",
 						["enabled"] = true,
 						["group"] = 10,
 						["queued"] = 0,
-						["spellID"] = 56027,
+						["spellID"] = 56008,
 					},
 					[14100] = {
 						["mats"] = {
@@ -7119,17 +7114,17 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 18414,
 					},
-					[14142] = {
+					[41522] = {
 						["mats"] = {
-							[14048] = 2,
-							[9210] = 2,
+							[41510] = 3,
+							[38426] = 1,
 						},
 						["numMade"] = 1,
-						["name"] = "Ghostweave Gloves",
+						["name"] = "Frostwoven Belt",
 						["enabled"] = true,
 						["group"] = 10,
 						["queued"] = 0,
-						["spellID"] = 18413,
+						["spellID"] = 55908,
 					},
 					[10024] = {
 						["mats"] = {
@@ -7183,43 +7178,44 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 12081,
 					},
-					[5542] = {
+					[70053] = {
 						["mats"] = {
-							[2997] = 3,
-							[2321] = 2,
-							[5498] = 1,
+							[52325] = 4,
+							[53643] = 10,
+							[52326] = 4,
 						},
 						["numMade"] = 1,
-						["name"] = "Pearl-Clasped Cloak",
+						["name"] = "Bloodthirsty Fireweave Boots",
 						["enabled"] = true,
 						["group"] = 10,
 						["queued"] = 0,
-						["spellID"] = 6521,
+						["spellID"] = 75294,
 					},
-					[21849] = {
+					[70054] = {
 						["mats"] = {
-							[21840] = 3,
+							[52325] = 3,
+							[53643] = 6,
+							[52328] = 3,
+						},
+						["numMade"] = 1,
+						["name"] = "Bloodthirsty Fireweave Bracers",
+						["enabled"] = true,
+						["group"] = 10,
+						["queued"] = 0,
+						["spellID"] = 75290,
+					},
+					[21853] = {
+						["mats"] = {
+							[21887] = 2,
+							[21840] = 6,
 							[14341] = 1,
 						},
 						["numMade"] = 1,
-						["name"] = "Netherweave Bracers",
+						["name"] = "Netherweave Boots",
 						["enabled"] = true,
 						["group"] = 10,
 						["queued"] = 0,
-						["spellID"] = 26764,
-					},
-					[70070] = {
-						["mats"] = {
-							[52325] = 6,
-							[52326] = 6,
-							[53643] = 10,
-						},
-						["numMade"] = 1,
-						["name"] = "Bloodthirsty Embersilk Cape",
-						["enabled"] = true,
-						["group"] = 10,
-						["queued"] = 0,
-						["spellID"] = 99537,
+						["spellID"] = 26772,
 					},
 					[13863] = {
 						["mats"] = {
@@ -7246,19 +7242,18 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 18438,
 					},
-					[13867] = {
+					[10042] = {
 						["mats"] = {
-							[8170] = 4,
-							[14048] = 7,
-							[14227] = 2,
-							[14341] = 1,
+							[4339] = 5,
+							[7077] = 2,
+							[8343] = 2,
 						},
 						["numMade"] = 1,
-						["name"] = "Runecloth Shoulders",
+						["name"] = "Cindercloth Robe",
 						["enabled"] = true,
 						["group"] = 10,
 						["queued"] = 0,
-						["spellID"] = 18449,
+						["spellID"] = 12069,
 					},
 					[10044] = {
 						["mats"] = {
@@ -7272,18 +7267,18 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 12088,
 					},
-					[13871] = {
+					[10046] = {
 						["mats"] = {
-							[6260] = 2,
-							[14341] = 1,
-							[14048] = 6,
+							[2320] = 1,
+							[2318] = 1,
+							[2996] = 2,
 						},
 						["numMade"] = 1,
-						["name"] = "Frostweave Pants",
+						["name"] = "Simple Linen Boots",
 						["enabled"] = true,
 						["group"] = 10,
 						["queued"] = 0,
-						["spellID"] = 18424,
+						["spellID"] = 12045,
 					},
 					[14128] = {
 						["mats"] = {
@@ -7300,10 +7295,10 @@ TradeSkillMaster_CraftingDB = {
 					},
 					[14130] = {
 						["mats"] = {
-							[14048] = 6,
-							[7910] = 1,
 							[11176] = 4,
+							[7910] = 1,
 							[14341] = 1,
+							[14048] = 6,
 						},
 						["numMade"] = 1,
 						["name"] = "Wizardweave Turban",
@@ -7312,44 +7307,47 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 18450,
 					},
-					[14132] = {
+					[34087] = {
 						["mats"] = {
-							[14048] = 4,
-							[11176] = 1,
+							[2605] = 2,
+							[2997] = 1,
 							[14341] = 1,
+							[14048] = 4,
 						},
 						["numMade"] = 1,
-						["name"] = "Wizardweave Leggings",
+						["name"] = "Green Winter Clothes",
 						["enabled"] = true,
 						["group"] = 10,
 						["queued"] = 0,
-						["spellID"] = 18421,
+						["spellID"] = 44950,
 					},
-					[45626] = {
+					[41554] = {
 						["mats"] = {
-							[3182] = 6,
-							[2321] = 2,
-							[4305] = 3,
+							[38426] = 2,
+							[42253] = 2,
+							[41511] = 5,
 						},
 						["numMade"] = 1,
-						["name"] = "Spidersilk Drape",
+						["name"] = "Black Duskweave Robe",
 						["enabled"] = true,
 						["group"] = 10,
 						["queued"] = 0,
-						["spellID"] = 63742,
+						["spellID"] = 55941,
 					},
-					[10056] = {
+					[44558] = {
 						["mats"] = {
-							[4339] = 1,
-							[6261] = 1,
-							[8343] = 1,
+							[41511] = 12,
+							[2604] = 4,
+							[36930] = 4,
+							[42253] = 4,
+							[4341] = 2,
 						},
 						["numMade"] = 1,
-						["name"] = "Orange Mageweave Shirt",
+						["name"] = "Magnificent Flying Carpet",
 						["enabled"] = true,
 						["group"] = 10,
 						["queued"] = 0,
-						["spellID"] = 12061,
+						["spellID"] = 60971,
 					},
 					[41251] = {
 						["mats"] = {
@@ -7375,43 +7373,42 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 26746,
 					},
-					[21845] = {
+					[14142] = {
 						["mats"] = {
-							[21842] = 1,
-							[21885] = 1,
-							[21886] = 1,
+							[14048] = 2,
+							[9210] = 2,
 						},
 						["numMade"] = 1,
-						["name"] = "Primal Mooncloth",
+						["name"] = "Ghostweave Gloves",
 						["enabled"] = true,
 						["group"] = 10,
 						["queued"] = 0,
-						["spellID"] = 26751,
+						["spellID"] = 18413,
 					},
-					[14144] = {
+					[21849] = {
 						["mats"] = {
-							[14048] = 3,
-							[9210] = 4,
-						},
-						["numMade"] = 1,
-						["name"] = "Ghostweave Pants",
-						["enabled"] = true,
-						["group"] = 10,
-						["queued"] = 0,
-						["spellID"] = 18441,
-					},
-					[21853] = {
-						["mats"] = {
-							[21887] = 2,
-							[21840] = 6,
+							[21840] = 3,
 							[14341] = 1,
 						},
 						["numMade"] = 1,
-						["name"] = "Netherweave Boots",
+						["name"] = "Netherweave Bracers",
 						["enabled"] = true,
 						["group"] = 10,
 						["queued"] = 0,
-						["spellID"] = 26772,
+						["spellID"] = 26764,
+					},
+					[70070] = {
+						["mats"] = {
+							[52325] = 6,
+							[52326] = 6,
+							[53643] = 10,
+						},
+						["numMade"] = 1,
+						["name"] = "Bloodthirsty Embersilk Cape",
+						["enabled"] = true,
+						["group"] = 10,
+						["queued"] = 0,
+						["spellID"] = 99537,
 					},
 					[41546] = {
 						["mats"] = {
@@ -7425,56 +7422,56 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 55919,
 					},
-					[41554] = {
+					[21861] = {
+						["mats"] = {
+							[21881] = 2,
+							[14341] = 1,
+							[21842] = 6,
+						},
+						["numMade"] = 1,
+						["name"] = "Imbued Netherweave Robe",
+						["enabled"] = true,
+						["group"] = 10,
+						["queued"] = 0,
+						["spellID"] = 26777,
+					},
+					[41555] = {
 						["mats"] = {
 							[38426] = 2,
 							[42253] = 2,
-							[41511] = 5,
+							[41511] = 4,
 						},
 						["numMade"] = 1,
-						["name"] = "Black Duskweave Robe",
+						["name"] = "Black Duskweave Wristwraps",
 						["enabled"] = true,
 						["group"] = 10,
 						["queued"] = 0,
-						["spellID"] = 55941,
+						["spellID"] = 55943,
 					},
-					[4318] = {
+					[41512] = {
 						["mats"] = {
-							[2997] = 4,
-							[2321] = 3,
-							[3383] = 1,
+							[41510] = 3,
+							[38426] = 1,
 						},
 						["numMade"] = 1,
-						["name"] = "Gloves of Meditation",
+						["name"] = "Frostwoven Wristwraps",
 						["enabled"] = true,
 						["group"] = 10,
 						["queued"] = 0,
-						["spellID"] = 3852,
+						["spellID"] = 56031,
 					},
-					[34085] = {
+					[41523] = {
 						["mats"] = {
-							[2997] = 1,
-							[2604] = 2,
-							[14341] = 1,
-							[14048] = 4,
+							[38426] = 4,
+							[36783] = 1,
+							[41510] = 7,
 						},
 						["numMade"] = 1,
-						["name"] = "Red Winter Clothes",
+						["name"] = "Mystic Frostwoven Shoulders",
 						["enabled"] = true,
 						["group"] = 10,
 						["queued"] = 0,
-						["spellID"] = 44958,
-					},
-					[24268] = {
-						["mats"] = {
-							[21877] = 3,
-						},
-						["numMade"] = 2,
-						["name"] = "Netherweave Net",
-						["enabled"] = true,
-						["group"] = 10,
-						["queued"] = 0,
-						["spellID"] = 31460,
+						["spellID"] = 55910,
 					},
 					[42096] = {
 						["mats"] = {
@@ -7503,31 +7500,30 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 56001,
 					},
-					[24272] = {
+					[70056] = {
 						["mats"] = {
-							[21842] = 1,
-							[22456] = 1,
-							[21884] = 1,
+							[52325] = 4,
+							[53643] = 10,
+							[52328] = 4,
 						},
 						["numMade"] = 1,
-						["name"] = "Shadowcloth",
+						["name"] = "Bloodthirsty Fireweave Gloves",
 						["enabled"] = true,
 						["group"] = 10,
 						["queued"] = 0,
-						["spellID"] = 36686,
+						["spellID"] = 75296,
 					},
-					[41523] = {
+					[4314] = {
 						["mats"] = {
-							[38426] = 4,
-							[36783] = 1,
-							[41510] = 7,
+							[2997] = 3,
+							[2321] = 2,
 						},
 						["numMade"] = 1,
-						["name"] = "Mystic Frostwoven Shoulders",
+						["name"] = "Double-Stitched Woolen Shoulders",
 						["enabled"] = true,
 						["group"] = 10,
 						["queued"] = 0,
-						["spellID"] = 55910,
+						["spellID"] = 3848,
 					},
 					[13870] = {
 						["mats"] = {
@@ -7542,31 +7538,42 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 18411,
 					},
-					[4312] = {
+					[41252] = {
 						["mats"] = {
-							[2318] = 2,
-							[2321] = 1,
-							[2996] = 5,
+							[41510] = 4,
+							[2604] = 1,
 						},
 						["numMade"] = 1,
-						["name"] = "Soft-Soled Linen Boots",
+						["name"] = "Red Workman's Shirt",
 						["enabled"] = true,
 						["group"] = 10,
 						["queued"] = 0,
-						["spellID"] = 3845,
+						["spellID"] = 55997,
 					},
-					[13857] = {
+					[13869] = {
 						["mats"] = {
-							[14048] = 5,
-							[14227] = 1,
+							[6260] = 2,
 							[14341] = 1,
+							[14048] = 5,
 						},
 						["numMade"] = 1,
-						["name"] = "Runecloth Tunic",
+						["name"] = "Frostweave Tunic",
 						["enabled"] = true,
 						["group"] = 10,
 						["queued"] = 0,
-						["spellID"] = 18407,
+						["spellID"] = 18403,
+					},
+					[54480] = {
+						["mats"] = {
+							[53643] = 4,
+							[38426] = 2,
+						},
+						["numMade"] = 1,
+						["name"] = "Spiritmend Bracers",
+						["enabled"] = true,
+						["group"] = 10,
+						["queued"] = 0,
+						["spellID"] = 75259,
 					},
 					[45810] = {
 						["mats"] = {
@@ -7581,6 +7588,17 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 64730,
 					},
+					[53643] = {
+						["mats"] = {
+							[53010] = 5,
+						},
+						["numMade"] = 1,
+						["name"] = "Bolt of Embersilk Cloth",
+						["enabled"] = true,
+						["group"] = 10,
+						["queued"] = 0,
+						["spellID"] = 74964,
+					},
 					[4308] = {
 						["mats"] = {
 							[2320] = 2,
@@ -7593,32 +7611,6 @@ TradeSkillMaster_CraftingDB = {
 						["group"] = 10,
 						["queued"] = 0,
 						["spellID"] = 3841,
-					},
-					[53643] = {
-						["mats"] = {
-							[53010] = 5,
-						},
-						["numMade"] = 1,
-						["name"] = "Bolt of Embersilk Cloth",
-						["enabled"] = true,
-						["group"] = 10,
-						["queued"] = 0,
-						["spellID"] = 74964,
-					},
-					[41985] = {
-						["mats"] = {
-							[42253] = 4,
-							[38426] = 1,
-							[38425] = 2,
-							[41511] = 5,
-							[41595] = 1,
-						},
-						["numMade"] = 1,
-						["name"] = "Silky Iceshard Boots",
-						["enabled"] = true,
-						["group"] = 10,
-						["queued"] = 0,
-						["spellID"] = 56019,
 					},
 					[43969] = {
 						["mats"] = {
@@ -7634,17 +7626,17 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 59582,
 					},
-					[54472] = {
+					[4307] = {
 						["mats"] = {
-							[53643] = 3,
-							[38426] = 2,
+							[2996] = 2,
+							[2320] = 1,
 						},
 						["numMade"] = 1,
-						["name"] = "Deathsilk Leggings",
+						["name"] = "Heavy Linen Gloves",
 						["enabled"] = true,
 						["group"] = 10,
 						["queued"] = 0,
-						["spellID"] = 75254,
+						["spellID"] = 3840,
 					},
 					[54440] = {
 						["enabled"] = true,
@@ -7694,29 +7686,32 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 12076,
 					},
-					[4307] = {
+					[54472] = {
 						["mats"] = {
-							[2996] = 2,
-							[2320] = 1,
-						},
-						["numMade"] = 1,
-						["name"] = "Heavy Linen Gloves",
-						["enabled"] = true,
-						["group"] = 10,
-						["queued"] = 0,
-						["spellID"] = 3840,
-					},
-					[54480] = {
-						["mats"] = {
-							[53643] = 4,
+							[53643] = 3,
 							[38426] = 2,
 						},
 						["numMade"] = 1,
-						["name"] = "Spiritmend Bracers",
+						["name"] = "Deathsilk Leggings",
 						["enabled"] = true,
 						["group"] = 10,
 						["queued"] = 0,
-						["spellID"] = 75259,
+						["spellID"] = 75254,
+					},
+					[41985] = {
+						["mats"] = {
+							[42253] = 4,
+							[38426] = 1,
+							[38425] = 2,
+							[41595] = 1,
+							[41511] = 5,
+						},
+						["numMade"] = 1,
+						["name"] = "Silky Iceshard Boots",
+						["enabled"] = true,
+						["group"] = 10,
+						["queued"] = 0,
+						["spellID"] = 56019,
 					},
 					[4309] = {
 						["mats"] = {
@@ -7742,30 +7737,31 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 3843,
 					},
-					[13869] = {
+					[13857] = {
 						["mats"] = {
-							[6260] = 2,
-							[14341] = 1,
 							[14048] = 5,
+							[14227] = 1,
+							[14341] = 1,
 						},
 						["numMade"] = 1,
-						["name"] = "Frostweave Tunic",
+						["name"] = "Runecloth Tunic",
 						["enabled"] = true,
 						["group"] = 10,
 						["queued"] = 0,
-						["spellID"] = 18403,
+						["spellID"] = 18407,
 					},
-					[41252] = {
+					[4312] = {
 						["mats"] = {
-							[41510] = 4,
-							[2604] = 1,
+							[2996] = 5,
+							[2318] = 2,
+							[2321] = 1,
 						},
 						["numMade"] = 1,
-						["name"] = "Red Workman's Shirt",
+						["name"] = "Soft-Soled Linen Boots",
 						["enabled"] = true,
 						["group"] = 10,
 						["queued"] = 0,
-						["spellID"] = 55997,
+						["spellID"] = 3845,
 					},
 					[41515] = {
 						["mats"] = {
@@ -7779,30 +7775,29 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 55903,
 					},
-					[4314] = {
+					[24268] = {
 						["mats"] = {
-							[2997] = 3,
-							[2321] = 2,
+							[21877] = 3,
 						},
-						["numMade"] = 1,
-						["name"] = "Double-Stitched Woolen Shoulders",
+						["numMade"] = 2,
+						["name"] = "Netherweave Net",
 						["enabled"] = true,
 						["group"] = 10,
 						["queued"] = 0,
-						["spellID"] = 3848,
+						["spellID"] = 31460,
 					},
-					[70056] = {
+					[24272] = {
 						["mats"] = {
-							[52325] = 4,
-							[53643] = 10,
-							[52328] = 4,
+							[21842] = 1,
+							[22456] = 1,
+							[21884] = 1,
 						},
 						["numMade"] = 1,
-						["name"] = "Bloodthirsty Fireweave Gloves",
+						["name"] = "Shadowcloth",
 						["enabled"] = true,
 						["group"] = 10,
 						["queued"] = 0,
-						["spellID"] = 75296,
+						["spellID"] = 36686,
 					},
 					[4316] = {
 						["mats"] = {
@@ -7816,43 +7811,45 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 3850,
 					},
-					[41512] = {
+					[34085] = {
 						["mats"] = {
-							[41510] = 3,
-							[38426] = 1,
-						},
-						["numMade"] = 1,
-						["name"] = "Frostwoven Wristwraps",
-						["enabled"] = true,
-						["group"] = 10,
-						["queued"] = 0,
-						["spellID"] = 56031,
-					},
-					[41555] = {
-						["mats"] = {
-							[38426] = 2,
-							[42253] = 2,
-							[41511] = 4,
-						},
-						["numMade"] = 1,
-						["name"] = "Black Duskweave Wristwraps",
-						["enabled"] = true,
-						["group"] = 10,
-						["queued"] = 0,
-						["spellID"] = 55943,
-					},
-					[21861] = {
-						["mats"] = {
-							[21881] = 2,
+							[14048] = 4,
+							[2997] = 1,
 							[14341] = 1,
-							[21842] = 6,
+							[2604] = 2,
 						},
 						["numMade"] = 1,
-						["name"] = "Imbued Netherweave Robe",
+						["name"] = "Red Winter Clothes",
 						["enabled"] = true,
 						["group"] = 10,
 						["queued"] = 0,
-						["spellID"] = 26777,
+						["spellID"] = 44958,
+					},
+					[4318] = {
+						["mats"] = {
+							[2997] = 4,
+							[2321] = 3,
+							[3383] = 1,
+						},
+						["numMade"] = 1,
+						["name"] = "Gloves of Meditation",
+						["enabled"] = true,
+						["group"] = 10,
+						["queued"] = 0,
+						["spellID"] = 3852,
+					},
+					[45626] = {
+						["mats"] = {
+							[4305] = 3,
+							[3182] = 6,
+							[2321] = 2,
+						},
+						["numMade"] = 1,
+						["name"] = "Spidersilk Drape",
+						["enabled"] = true,
+						["group"] = 10,
+						["queued"] = 0,
+						["spellID"] = 63742,
 					},
 					[4320] = {
 						["mats"] = {
@@ -7868,30 +7865,30 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 3855,
 					},
-					[70054] = {
+					[14144] = {
 						["mats"] = {
-							[52325] = 3,
-							[53643] = 6,
-							[52328] = 3,
+							[14048] = 3,
+							[9210] = 4,
 						},
 						["numMade"] = 1,
-						["name"] = "Bloodthirsty Fireweave Bracers",
+						["name"] = "Ghostweave Pants",
 						["enabled"] = true,
 						["group"] = 10,
 						["queued"] = 0,
-						["spellID"] = 75290,
+						["spellID"] = 18441,
 					},
-					[41522] = {
+					[21845] = {
 						["mats"] = {
-							[41510] = 3,
-							[38426] = 1,
+							[21842] = 1,
+							[21885] = 1,
+							[21886] = 1,
 						},
 						["numMade"] = 1,
-						["name"] = "Frostwoven Belt",
+						["name"] = "Primal Mooncloth",
 						["enabled"] = true,
 						["group"] = 10,
 						["queued"] = 0,
-						["spellID"] = 55908,
+						["spellID"] = 26751,
 					},
 					[41595] = {
 						["mats"] = {
@@ -7905,33 +7902,29 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 56003,
 					},
-					[42113] = {
+					[41603] = {
 						["mats"] = {
-							[38426] = 1,
-							[43102] = 1,
-							[41511] = 4,
-							[41595] = 4,
+							[37702] = 2,
+							[42253] = 2,
 						},
 						["numMade"] = 1,
-						["name"] = "Spellweave Gloves",
+						["name"] = "Azure Spellthread",
 						["enabled"] = true,
 						["group"] = 10,
 						["queued"] = 0,
-						["spellID"] = 56029,
+						["spellID"] = 56010,
 					},
-					[34087] = {
+					[54479] = {
 						["mats"] = {
-							[2605] = 2,
-							[2997] = 1,
-							[14341] = 1,
-							[14048] = 4,
+							[53643] = 9,
+							[52326] = 5,
 						},
 						["numMade"] = 1,
-						["name"] = "Green Winter Clothes",
+						["name"] = "Spiritmend Shoulders",
 						["enabled"] = true,
 						["group"] = 10,
 						["queued"] = 0,
-						["spellID"] = 44950,
+						["spellID"] = 75260,
 					},
 					[4326] = {
 						["mats"] = {
@@ -7946,39 +7939,41 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 3861,
 					},
-					[10046] = {
+					[14112] = {
 						["mats"] = {
-							[2320] = 1,
-							[2318] = 1,
-							[2996] = 2,
+							[12662] = 2,
+							[8170] = 4,
+							[14256] = 3,
+							[14341] = 2,
+							[14048] = 7,
 						},
 						["numMade"] = 1,
-						["name"] = "Simple Linen Boots",
+						["name"] = "Felcloth Shoulders",
 						["enabled"] = true,
 						["group"] = 10,
 						["queued"] = 0,
-						["spellID"] = 12045,
+						["spellID"] = 18453,
 					},
-					[10042] = {
+					[10026] = {
 						["mats"] = {
-							[4339] = 5,
-							[7077] = 2,
 							[8343] = 2,
+							[4304] = 2,
+							[4339] = 3,
 						},
 						["numMade"] = 1,
-						["name"] = "Cindercloth Robe",
+						["name"] = "Black Mageweave Boots",
 						["enabled"] = true,
 						["group"] = 10,
 						["queued"] = 0,
-						["spellID"] = 12069,
+						["spellID"] = 12073,
 					},
 					[4329] = {
 						["mats"] = {
 							[4234] = 4,
 							[7071] = 1,
-							[3864] = 1,
-							[4291] = 1,
 							[4339] = 4,
+							[4291] = 1,
+							[3864] = 1,
 						},
 						["numMade"] = 1,
 						["name"] = "Star Belt",
@@ -8000,29 +7995,30 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 3866,
 					},
-					[4324] = {
+					[7058] = {
+						["mats"] = {
+							[2604] = 2,
+							[4305] = 4,
+							[2321] = 2,
+						},
+						["numMade"] = 1,
+						["name"] = "Crimson Silk Vest",
+						["enabled"] = true,
+						["group"] = 10,
+						["queued"] = 0,
+						["spellID"] = 8791,
+					},
+					[7057] = {
 						["mats"] = {
 							[4305] = 5,
-							[6260] = 4,
+							[4291] = 2,
 						},
 						["numMade"] = 1,
-						["name"] = "Azure Silk Vest",
+						["name"] = "Green Silken Shoulders",
 						["enabled"] = true,
 						["group"] = 10,
 						["queued"] = 0,
-						["spellID"] = 3859,
-					},
-					[41545] = {
-						["mats"] = {
-							[41510] = 9,
-							[38426] = 1,
-						},
-						["numMade"] = 1,
-						["name"] = "Duskweave Gloves",
-						["enabled"] = true,
-						["group"] = 10,
-						["queued"] = 0,
-						["spellID"] = 55922,
+						["spellID"] = 8774,
 					},
 					[43970] = {
 						["mats"] = {
@@ -8040,9 +8036,9 @@ TradeSkillMaster_CraftingDB = {
 					},
 					[4334] = {
 						["mats"] = {
+							[4305] = 3,
 							[2324] = 2,
 							[2321] = 1,
-							[4305] = 3,
 						},
 						["numMade"] = 1,
 						["name"] = "Formal White Shirt",
@@ -8055,10 +8051,10 @@ TradeSkillMaster_CraftingDB = {
 						["mats"] = {
 							[7067] = 2,
 							[4339] = 2,
-							[7069] = 2,
-							[7068] = 2,
 							[7070] = 2,
+							[7068] = 2,
 							[4291] = 2,
+							[7069] = 2,
 						},
 						["numMade"] = 1,
 						["name"] = "Robe of Power",
@@ -8079,78 +8075,81 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 75255,
 					},
-					[4245] = {
+					[6795] = {
 						["mats"] = {
-							[4234] = 2,
+							[4291] = 1,
+							[2324] = 2,
 							[4305] = 3,
-							[2321] = 3,
 						},
 						["numMade"] = 1,
-						["name"] = "Small Silk Pack",
+						["name"] = "White Swashbuckler's Shirt",
 						["enabled"] = true,
 						["group"] = 10,
 						["queued"] = 0,
-						["spellID"] = 3813,
+						["spellID"] = 8483,
 					},
-					[54447] = {
+					[10050] = {
 						["mats"] = {
-							[53643] = 3,
-							[52325] = 6,
+							[4339] = 4,
+							[4291] = 2,
 						},
 						["numMade"] = 1,
-						["name"] = "Enchanted Spellthread",
+						["name"] = "Mageweave Bag",
 						["enabled"] = true,
 						["group"] = 10,
 						["queued"] = 0,
-						["spellID"] = 75250,
+						["spellID"] = 12065,
 					},
-					[4339] = {
+					[54473] = {
 						["mats"] = {
-							[4338] = 4,
+							[53643] = 2,
+							[38426] = 2,
 						},
 						["numMade"] = 1,
-						["name"] = "Bolt of Mageweave",
+						["name"] = "Deathsilk Bracers",
 						["enabled"] = true,
 						["group"] = 10,
 						["queued"] = 0,
-						["spellID"] = 3865,
+						["spellID"] = 75249,
 					},
-					[45811] = {
+					[41986] = {
 						["mats"] = {
-							[35624] = 4,
+							[38426] = 1,
 							[42253] = 4,
 							[41511] = 4,
+							[41595] = 1,
 						},
 						["numMade"] = 1,
-						["name"] = "Frostguard Drape",
+						["name"] = "Deep Frozen Cord",
 						["enabled"] = true,
 						["group"] = 10,
 						["queued"] = 0,
-						["spellID"] = 64729,
+						["spellID"] = 56020,
 					},
-					[4240] = {
+					[54446] = {
+						["mats"] = {
+							[53643] = 20,
+							[52329] = 40,
+						},
+						["numMade"] = 1,
+						["name"] = "Hyjal Expedition Bag",
+						["enabled"] = true,
+						["group"] = 10,
+						["queued"] = 0,
+						["spellID"] = 75268,
+					},
+					[5542] = {
 						["mats"] = {
 							[2997] = 3,
-							[2321] = 1,
+							[2321] = 2,
+							[5498] = 1,
 						},
 						["numMade"] = 1,
-						["name"] = "Woolen Bag",
+						["name"] = "Pearl-Clasped Cloak",
 						["enabled"] = true,
 						["group"] = 10,
 						["queued"] = 0,
-						["spellID"] = 3757,
-					},
-					[4238] = {
-						["mats"] = {
-							[2996] = 3,
-							[2320] = 3,
-						},
-						["numMade"] = 1,
-						["name"] = "Linen Bag",
-						["enabled"] = true,
-						["group"] = 10,
-						["queued"] = 0,
-						["spellID"] = 3755,
+						["spellID"] = 6521,
 					},
 					[4343] = {
 						["mats"] = {
@@ -8164,31 +8163,29 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 3914,
 					},
-					[41253] = {
+					[4344] = {
 						["mats"] = {
-							[41510] = 4,
-							[6260] = 1,
+							[2996] = 1,
+							[2320] = 1,
 						},
 						["numMade"] = 1,
-						["name"] = "Blue Workman's Shirt",
+						["name"] = "Brown Linen Shirt",
 						["enabled"] = true,
 						["group"] = 10,
 						["queued"] = 0,
-						["spellID"] = 55998,
+						["spellID"] = 3915,
 					},
-					[41516] = {
+					[21842] = {
 						["mats"] = {
-							[38426] = 2,
-							[37702] = 4,
-							[41511] = 3,
-							[37701] = 4,
+							[21840] = 3,
+							[22445] = 2,
 						},
 						["numMade"] = 1,
-						["name"] = "Frostsavage Gloves",
+						["name"] = "Bolt of Imbued Netherweave",
 						["enabled"] = true,
 						["group"] = 10,
 						["queued"] = 0,
-						["spellID"] = 59586,
+						["spellID"] = 26747,
 					},
 					[21846] = {
 						["mats"] = {
@@ -8227,17 +8224,18 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 26773,
 					},
-					[41548] = {
+					[21858] = {
 						["mats"] = {
-							[41510] = 8,
-							[38426] = 1,
+							[21881] = 4,
+							[22446] = 4,
+							[24271] = 6,
 						},
 						["numMade"] = 1,
-						["name"] = "Duskweave Leggings",
+						["name"] = "Spellfire Bag",
 						["enabled"] = true,
 						["group"] = 10,
 						["queued"] = 0,
-						["spellID"] = 55901,
+						["spellID"] = 26755,
 					},
 					[21862] = {
 						["mats"] = {
@@ -8252,57 +8250,56 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 26778,
 					},
-					[6795] = {
+					[54481] = {
 						["mats"] = {
-							[4291] = 1,
-							[2324] = 2,
-							[4305] = 3,
+							[53643] = 4,
+							[38426] = 2,
 						},
 						["numMade"] = 1,
-						["name"] = "White Swashbuckler's Shirt",
+						["name"] = "Spiritmend Belt",
 						["enabled"] = true,
 						["group"] = 10,
 						["queued"] = 0,
-						["spellID"] = 8483,
+						["spellID"] = 75258,
 					},
-					[10004] = {
+					[43583] = {
 						["mats"] = {
-							[4339] = 3,
-							[10285] = 2,
-							[8343] = 1,
+							[35622] = 3,
+							[41511] = 6,
+							[38426] = 3,
+							[36860] = 3,
+							[43102] = 1,
 						},
 						["numMade"] = 1,
-						["name"] = "Shadoweave Robe",
+						["name"] = "Glacial Robe",
 						["enabled"] = true,
 						["group"] = 10,
 						["queued"] = 0,
-						["spellID"] = 12055,
+						["spellID"] = 60993,
 					},
-					[24274] = {
+					[7026] = {
 						["mats"] = {
-							[22457] = 10,
-							[14341] = 1,
-							[23572] = 1,
+							[2996] = 1,
+							[2320] = 1,
 						},
 						["numMade"] = 1,
-						["name"] = "Runic Spellthread",
+						["name"] = "Linen Belt",
 						["enabled"] = true,
 						["group"] = 10,
 						["queued"] = 0,
-						["spellID"] = 31432,
+						["spellID"] = 8776,
 					},
-					[24262] = {
+					[13866] = {
 						["mats"] = {
-							[23571] = 5,
-							[24271] = 10,
-							[23572] = 1,
+							[14048] = 6,
+							[14341] = 2,
 						},
 						["numMade"] = 1,
-						["name"] = "Spellstrike Pants",
+						["name"] = "Runecloth Headband",
 						["enabled"] = true,
 						["group"] = 10,
 						["queued"] = 0,
-						["spellID"] = 31452,
+						["spellID"] = 18444,
 					},
 					[2568] = {
 						["mats"] = {
@@ -8342,18 +8339,18 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 2386,
 					},
-					[70062] = {
+					[21859] = {
 						["mats"] = {
-							[52325] = 4,
-							[52326] = 4,
-							[53643] = 10,
+							[21881] = 2,
+							[14341] = 1,
+							[21842] = 5,
 						},
 						["numMade"] = 1,
-						["name"] = "Bloodthirsty Embersilk Belt",
+						["name"] = "Imbued Netherweave Pants",
 						["enabled"] = true,
 						["group"] = 10,
 						["queued"] = 0,
-						["spellID"] = 75293,
+						["spellID"] = 26775,
 					},
 					[2570] = {
 						["mats"] = {
@@ -8367,42 +8364,44 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 2387,
 					},
-					[41525] = {
+					[21843] = {
 						["mats"] = {
-							[38426] = 4,
-							[36783] = 1,
-							[41510] = 8,
+							[21881] = 2,
+							[22446] = 1,
+							[21842] = 4,
 						},
 						["numMade"] = 1,
-						["name"] = "Mystic Frostwoven Robe",
+						["name"] = "Imbued Netherweave Bag",
 						["enabled"] = true,
 						["group"] = 10,
 						["queued"] = 0,
-						["spellID"] = 55911,
+						["spellID"] = 26749,
 					},
-					[14143] = {
+					[41255] = {
 						["mats"] = {
-							[14048] = 2,
-							[9210] = 2,
+							[41510] = 4,
+							[2605] = 1,
 						},
 						["numMade"] = 1,
-						["name"] = "Ghostweave Belt",
+						["name"] = "Green Workman's Shirt",
 						["enabled"] = true,
 						["group"] = 10,
 						["queued"] = 0,
-						["spellID"] = 18410,
+						["spellID"] = 56000,
 					},
-					[24273] = {
+					[10021] = {
 						["mats"] = {
-							[14341] = 1,
-							[22457] = 5,
+							[4339] = 6,
+							[8153] = 6,
+							[8343] = 2,
+							[10286] = 2,
 						},
 						["numMade"] = 1,
-						["name"] = "Mystic Spellthread",
+						["name"] = "Dreamweave Vest",
 						["enabled"] = true,
 						["group"] = 10,
 						["queued"] = 0,
-						["spellID"] = 31430,
+						["spellID"] = 12070,
 					},
 					[70059] = {
 						["mats"] = {
@@ -8417,16 +8416,17 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 75292,
 					},
-					[41509] = {
+					[54474] = {
 						["mats"] = {
-							[33470] = 6,
+							[53643] = 3,
+							[38426] = 2,
 						},
-						["numMade"] = 5,
-						["name"] = "Frostweave Net",
+						["numMade"] = 1,
+						["name"] = "Deathsilk Shoulders",
 						["enabled"] = true,
 						["group"] = 10,
 						["queued"] = 0,
-						["spellID"] = 55898,
+						["spellID"] = 75251,
 					},
 					[43971] = {
 						["mats"] = {
@@ -8442,17 +8442,17 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 59589,
 					},
-					[14103] = {
+					[54483] = {
 						["mats"] = {
-							[14048] = 4,
-							[3577] = 2,
+							[53643] = 4,
+							[38426] = 2,
 						},
 						["numMade"] = 1,
-						["name"] = "Brightcloth Cloak",
+						["name"] = "Spiritmend Leggings",
 						["enabled"] = true,
 						["group"] = 10,
 						["queued"] = 0,
-						["spellID"] = 18420,
+						["spellID"] = 75263,
 					},
 				},
 			},
@@ -8503,8 +8503,8 @@ TradeSkillMaster_CraftingDB = {
 						["source"] = "craft",
 					},
 					[3860] = {
-						["name"] = "Mithril Bar",
 						["source"] = "auction",
+						["name"] = "Mithril Bar",
 					},
 					[4387] = {
 						["name"] = "Iron Strut",
@@ -8561,9 +8561,9 @@ TradeSkillMaster_CraftingDB = {
 						["name"] = "Citrine",
 						["source"] = "auction",
 					},
-					[11371] = {
-						["name"] = "Dark Iron Bar",
-						["source"] = "auction",
+					[10502] = {
+						["name"] = "Spellpower Goggles Xtreme",
+						["source"] = "craft",
 					},
 					[1210] = {
 						["name"] = "Shadowgem",
@@ -8572,29 +8572,29 @@ TradeSkillMaster_CraftingDB = {
 					[10505] = {
 						["name"] = "Solid Blasting Powder",
 					},
-					[3575] = {
-						["name"] = "Iron Bar",
+					[32423] = {
+						["name"] = "Icy Blasting Primers",
 						["source"] = "auction",
 					},
-					[4382] = {
-						["name"] = "Bronze Framework",
+					[23783] = {
+						["name"] = "Handful of Fel Iron Bolts",
 						["source"] = "auction",
 					},
 					[7191] = {
 						["name"] = "Fused Wiring",
 						["source"] = "auction",
 					},
-					[33470] = {
-						["name"] = "Frostweave Cloth",
-						["source"] = "auction",
-					},
 					[4375] = {
 						["source"] = "auction",
 						["name"] = "Whirring Bronze Gizmo",
 					},
-					[41163] = {
+					[22451] = {
+						["name"] = "Primal Air",
 						["source"] = "auction",
-						["name"] = "Titanium Bar",
+					},
+					[4400] = {
+						["name"] = "Heavy Stock",
+						["source"] = "vendor",
 					},
 					[4399] = {
 						["name"] = "Wooden Stock",
@@ -8604,9 +8604,9 @@ TradeSkillMaster_CraftingDB = {
 						["name"] = "Large Opal",
 						["source"] = "auction",
 					},
-					[4400] = {
-						["name"] = "Heavy Stock",
-						["source"] = "vendor",
+					[41163] = {
+						["source"] = "auction",
+						["name"] = "Titanium Bar",
 					},
 					[4337] = {
 						["name"] = "Thick Spider's Silk",
@@ -8620,18 +8620,19 @@ TradeSkillMaster_CraftingDB = {
 						["name"] = "Adamantite Bar",
 						["source"] = "auction",
 					},
-					[814] = {
-						["name"] = "Flask of Oil",
+					[4470] = {
+						["name"] = "Simple Wood",
+						["source"] = "auction",
 					},
 					[7387] = {
 						["name"] = "Dusky Belt",
 					},
-					[22445] = {
-						["name"] = "Arcane Dust",
+					[39681] = {
+						["name"] = "Handful of Cobalt Bolts",
 						["source"] = "auction",
 					},
-					[12810] = {
-						["name"] = "Enchanted Leather",
+					[8153] = {
+						["name"] = "Wildvine",
 						["source"] = "auction",
 					},
 					[4404] = {
@@ -8658,47 +8659,47 @@ TradeSkillMaster_CraftingDB = {
 						["name"] = "Lesser Moonstone",
 						["source"] = "auction",
 					},
-					[18631] = {
-						["name"] = "Truesilver Transformer",
-					},
-					[22456] = {
-						["name"] = "Primal Shadow",
+					[12364] = {
+						["name"] = "Huge Emerald",
 						["source"] = "auction",
-					},
-					[7075] = {
-						["source"] = "auction",
-						["name"] = "Core of Earth",
 					},
 					[15992] = {
 						["name"] = "Dense Blasting Powder",
 						["source"] = "auction",
 					},
-					[36921] = {
-						["name"] = "Autumn's Glow",
+					[7075] = {
+						["name"] = "Core of Earth",
+						["source"] = "auction",
+					},
+					[36913] = {
+						["name"] = "Saronite Bar",
 						["source"] = "auction",
 					},
 					[15994] = {
 						["name"] = "Thorium Widget",
 						["source"] = "auction",
 					},
+					[36921] = {
+						["name"] = "Autumn's Glow",
+						["source"] = "auction",
+					},
 					[10026] = {
 						["name"] = "Black Mageweave Boots",
 					},
-					[12361] = {
-						["name"] = "Blue Sapphire",
+					[4371] = {
+						["name"] = "Bronze Tube",
 						["source"] = "auction",
 					},
 					[7078] = {
 						["name"] = "Essence of Fire",
 						["source"] = "auction",
 					},
-					[2319] = {
-						["name"] = "Medium Leather",
-						["source"] = "auction",
+					[16006] = {
+						["name"] = "Delicate Arcanite Converter",
 					},
 					[7079] = {
-						["source"] = "auction",
 						["name"] = "Globe of Water",
+						["source"] = "auction",
 					},
 					[16000] = {
 						["name"] = "Thorium Tube",
@@ -8712,32 +8713,33 @@ TradeSkillMaster_CraftingDB = {
 						["name"] = "Light Leather",
 						["source"] = "auction",
 					},
-					[15407] = {
-						["name"] = "Cured Rugged Hide",
+					[12359] = {
+						["name"] = "Thorium Bar",
 						["source"] = "auction",
 					},
-					[4306] = {
-						["name"] = "Silk Cloth",
+					[23572] = {
+						["name"] = "Primal Nether",
+						["source"] = "auction",
+					},
+					[10546] = {
+						["name"] = "Deadly Scope",
+						["source"] = "craft",
+					},
+					[2319] = {
+						["name"] = "Medium Leather",
 						["source"] = "auction",
 					},
 					[13467] = {
 						["name"] = "Icecap",
 						["source"] = "auction",
 					},
-					[16006] = {
-						["name"] = "Delicate Arcanite Converter",
-					},
-					[2605] = {
-						["source"] = "vendor",
-						["name"] = "Green Dye",
-					},
 					[7909] = {
-						["source"] = "auction",
 						["name"] = "Aquamarine",
-					},
-					[10285] = {
-						["name"] = "Shadow Silk",
 						["source"] = "auction",
+					},
+					[35627] = {
+						["source"] = "auction",
+						["name"] = "Eternal Shadow",
 					},
 					[7910] = {
 						["source"] = "auction",
@@ -8755,8 +8757,8 @@ TradeSkillMaster_CraftingDB = {
 						["name"] = "Borean Leather",
 						["source"] = "auction",
 					},
-					[1529] = {
-						["name"] = "Jade",
+					[23782] = {
+						["name"] = "Fel Iron Casing",
 						["source"] = "auction",
 					},
 					[159] = {
@@ -8767,21 +8769,6 @@ TradeSkillMaster_CraftingDB = {
 						["name"] = "Rough Blasting Powder",
 						["source"] = "auction",
 					},
-					[23781] = {
-						["source"] = "auction",
-						["name"] = "Elemental Blasting Powder",
-					},
-					[10559] = {
-						["source"] = "auction",
-						["name"] = "Mithril Tube",
-					},
-					[23782] = {
-						["name"] = "Fel Iron Casing",
-						["source"] = "auction",
-					},
-					[23784] = {
-						["name"] = "Adamantite Frame",
-					},
 					[23786] = {
 						["name"] = "Khorium Power Core",
 						["source"] = "auction",
@@ -8789,21 +8776,35 @@ TradeSkillMaster_CraftingDB = {
 					[10561] = {
 						["name"] = "Mithril Casing",
 					},
-					[4359] = {
-						["name"] = "Handful of Copper Bolts",
+					[10558] = {
 						["source"] = "auction",
+						["name"] = "Gold Power Core",
+					},
+					[23784] = {
+						["name"] = "Adamantite Frame",
+					},
+					[10560] = {
+						["name"] = "Unstable Trigger",
+					},
+					[8170] = {
+						["name"] = "Rugged Leather",
+						["source"] = "auction",
+					},
+					[10500] = {
+						["name"] = "Fire Goggles",
+						["source"] = "craft",
 					},
 					[4361] = {
 						["name"] = "Copper Tube",
 						["source"] = "auction",
 					},
-					[35623] = {
+					[21877] = {
+						["name"] = "Netherweave Cloth",
 						["source"] = "auction",
-						["name"] = "Eternal Air",
 					},
-					[36860] = {
+					[4234] = {
 						["source"] = "auction",
-						["name"] = "Eternal Fire",
+						["name"] = "Heavy Leather",
 					},
 					[35622] = {
 						["source"] = "auction",
@@ -8821,28 +8822,29 @@ TradeSkillMaster_CraftingDB = {
 						["name"] = "Coarse Blasting Powder",
 						["source"] = "auction",
 					},
-					[4234] = {
+					[36860] = {
 						["source"] = "auction",
-						["name"] = "Heavy Leather",
+						["name"] = "Eternal Fire",
 					},
-					[21877] = {
-						["name"] = "Netherweave Cloth",
+					[35623] = {
 						["source"] = "auction",
+						["name"] = "Eternal Air",
 					},
-					[10500] = {
-						["name"] = "Fire Goggles",
-						["source"] = "craft",
-					},
-					[8170] = {
-						["name"] = "Rugged Leather",
+					[4359] = {
+						["name"] = "Handful of Copper Bolts",
 						["source"] = "auction",
 					},
-					[10560] = {
-						["name"] = "Unstable Trigger",
-					},
-					[10558] = {
+					[10559] = {
 						["source"] = "auction",
-						["name"] = "Gold Power Core",
+						["name"] = "Mithril Tube",
+					},
+					[23781] = {
+						["source"] = "auction",
+						["name"] = "Elemental Blasting Powder",
+					},
+					[1529] = {
+						["name"] = "Jade",
+						["source"] = "auction",
 					},
 					[4304] = {
 						["name"] = "Thick Leather",
@@ -8852,76 +8854,74 @@ TradeSkillMaster_CraftingDB = {
 						["name"] = "Flying Tiger Goggles",
 						["source"] = "craft",
 					},
-					[35627] = {
-						["source"] = "auction",
-						["name"] = "Eternal Shadow",
-					},
-					[10546] = {
-						["name"] = "Deadly Scope",
-						["source"] = "craft",
-					},
-					[23572] = {
-						["name"] = "Primal Nether",
+					[10285] = {
+						["name"] = "Shadow Silk",
 						["source"] = "auction",
 					},
-					[12359] = {
-						["name"] = "Thorium Bar",
+					[2605] = {
+						["source"] = "vendor",
+						["name"] = "Green Dye",
+					},
+					[4306] = {
+						["name"] = "Silk Cloth",
+						["source"] = "auction",
+					},
+					[15407] = {
+						["name"] = "Cured Rugged Hide",
 						["source"] = "auction",
 					},
 					[23449] = {
 						["name"] = "Khorium Bar",
 						["source"] = "auction",
 					},
-					[4371] = {
-						["name"] = "Bronze Tube",
+					[12361] = {
+						["name"] = "Blue Sapphire",
 						["source"] = "auction",
 					},
 					[9060] = {
 						["name"] = "Inlaid Mithril Cylinder",
 					},
-					[36913] = {
-						["name"] = "Saronite Bar",
+					[22456] = {
+						["name"] = "Primal Shadow",
 						["source"] = "auction",
 					},
-					[12364] = {
-						["name"] = "Huge Emerald",
+					[18631] = {
+						["name"] = "Truesilver Transformer",
+					},
+					[12810] = {
+						["name"] = "Enchanted Leather",
 						["source"] = "auction",
 					},
-					[8153] = {
-						["name"] = "Wildvine",
+					[22445] = {
+						["name"] = "Arcane Dust",
 						["source"] = "auction",
 					},
-					[39681] = {
-						["name"] = "Handful of Cobalt Bolts",
-						["source"] = "auction",
-					},
-					[4470] = {
-						["name"] = "Simple Wood",
-						["source"] = "auction",
+					[814] = {
+						["name"] = "Flask of Oil",
 					},
 					[22449] = {
 						["name"] = "Large Prismatic Shard",
 						["source"] = "auction",
 					},
-					[22451] = {
-						["name"] = "Primal Air",
+					[33470] = {
+						["name"] = "Frostweave Cloth",
 						["source"] = "auction",
 					},
 					[10592] = {
 						["name"] = "Catseye Elixir",
 						["source"] = "auction",
 					},
-					[23783] = {
-						["name"] = "Handful of Fel Iron Bolts",
+					[4382] = {
+						["name"] = "Bronze Framework",
 						["source"] = "auction",
 					},
-					[32423] = {
-						["name"] = "Icy Blasting Primers",
+					[3575] = {
+						["name"] = "Iron Bar",
 						["source"] = "auction",
 					},
-					[10502] = {
-						["name"] = "Spellpower Goggles Xtreme",
-						["source"] = "craft",
+					[11371] = {
+						["name"] = "Dark Iron Bar",
+						["source"] = "auction",
 					},
 				},
 				["crafts"] = {
@@ -8940,9 +8940,9 @@ TradeSkillMaster_CraftingDB = {
 						["mats"] = {
 							[10026] = 1,
 							[4234] = 4,
-							[10505] = 8,
-							[4389] = 4,
 							[10559] = 2,
+							[4389] = 4,
+							[10505] = 8,
 						},
 						["numMade"] = 1,
 						["name"] = "Gnomish Rocket Boots",
@@ -8970,9 +8970,9 @@ TradeSkillMaster_CraftingDB = {
 							[23787] = 4,
 							[22451] = 12,
 							[23572] = 1,
-							[21884] = 12,
 							[23449] = 20,
 							[23785] = 1,
+							[21884] = 12,
 						},
 						["numMade"] = 1,
 						["name"] = "Gyro-Balanced Khorium Destroyer",
@@ -9278,9 +9278,9 @@ TradeSkillMaster_CraftingDB = {
 						["mats"] = {
 							[22456] = 10,
 							[21886] = 10,
-							[16006] = 2,
-							[23786] = 4,
 							[23793] = 8,
+							[23786] = 4,
+							[16006] = 2,
 						},
 						["numMade"] = 1,
 						["name"] = "Nigh-Invulnerability Belt",
@@ -9321,8 +9321,8 @@ TradeSkillMaster_CraftingDB = {
 							[3829] = 2,
 							[7078] = 4,
 							[18631] = 2,
-							[13467] = 4,
 							[12361] = 2,
+							[13467] = 4,
 						},
 						["numMade"] = 1,
 						["name"] = "Gyrofreeze Ice Reflector",
@@ -9358,10 +9358,10 @@ TradeSkillMaster_CraftingDB = {
 					},
 					[15993] = {
 						["mats"] = {
-							[15994] = 1,
 							[15992] = 3,
-							[14047] = 3,
 							[12359] = 3,
+							[14047] = 3,
+							[15994] = 1,
 						},
 						["numMade"] = 3,
 						["name"] = "Thorium Grenade",
@@ -9513,21 +9513,19 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 3919,
 					},
-					[16004] = {
+					[4401] = {
 						["mats"] = {
-							[12361] = 2,
-							[11371] = 6,
-							[8170] = 4,
-							[10546] = 2,
-							[16000] = 2,
-							[12799] = 2,
+							[4363] = 1,
+							[774] = 2,
+							[4359] = 1,
+							[2840] = 1,
 						},
 						["numMade"] = 1,
-						["name"] = "Dark Iron Rifle",
+						["name"] = "Mechanical Squirrel Box",
 						["enabled"] = true,
-						["group"] = 2,
+						["group"] = 6,
 						["queued"] = 0,
-						["spellID"] = 19796,
+						["spellID"] = 3928,
 					},
 					[4398] = {
 						["mats"] = {
@@ -9583,20 +9581,17 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 12619,
 					},
-					[48933] = {
+					[4378] = {
 						["mats"] = {
-							[35622] = 2,
-							[41163] = 8,
-							[36860] = 2,
-							[35623] = 2,
-							[35627] = 2,
+							[4377] = 2,
+							[2592] = 1,
 						},
-						["numMade"] = 1,
-						["name"] = "Wormhole Generator: Northrend",
+						["numMade"] = 3,
+						["name"] = "Heavy Dynamite",
 						["enabled"] = true,
-						["group"] = 1,
+						["group"] = 5,
 						["queued"] = 0,
-						["spellID"] = 67920,
+						["spellID"] = 3946,
 					},
 					[10726] = {
 						["mats"] = {
@@ -9626,41 +9621,38 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 3925,
 					},
-					[7506] = {
+					[4394] = {
 						["mats"] = {
-							[2841] = 6,
-							[814] = 2,
-							[774] = 1,
-							[818] = 1,
-							[4375] = 1,
+							[4377] = 3,
+							[4404] = 1,
+							[3575] = 3,
 						},
-						["numMade"] = 1,
-						["name"] = "Gnomish Universal Remote",
+						["numMade"] = 2,
+						["name"] = "Big Iron Bomb",
 						["enabled"] = true,
-						["group"] = 7,
+						["group"] = 5,
 						["queued"] = 0,
-						["spellID"] = 9269,
+						["spellID"] = 3967,
 					},
-					[10716] = {
+					[4374] = {
 						["mats"] = {
-							[10559] = 1,
-							[8151] = 4,
-							[3860] = 4,
-							[1529] = 2,
-							[10560] = 1,
+							[2841] = 2,
+							[2592] = 1,
+							[4404] = 1,
+							[4364] = 4,
 						},
-						["numMade"] = 1,
-						["name"] = "Gnomish Shrink Ray",
+						["numMade"] = 2,
+						["name"] = "Small Bronze Bomb",
 						["enabled"] = true,
-						["group"] = 7,
+						["group"] = 5,
 						["queued"] = 0,
-						["spellID"] = 12899,
+						["spellID"] = 3941,
 					},
 					[4395] = {
 						["mats"] = {
+							[3575] = 2,
 							[4389] = 1,
 							[4377] = 3,
-							[3575] = 2,
 						},
 						["numMade"] = 1,
 						["name"] = "Goblin Land Mine",
@@ -9726,8 +9718,8 @@ TradeSkillMaster_CraftingDB = {
 							[7909] = 4,
 							[18631] = 2,
 							[3860] = 12,
-							[9060] = 1,
 							[7075] = 4,
+							[9060] = 1,
 						},
 						["numMade"] = 1,
 						["name"] = "Ultrasafe Transporter: Gadgetzan",
@@ -9736,18 +9728,17 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 23489,
 					},
-					[4405] = {
+					[10503] = {
 						["mats"] = {
-							[4361] = 1,
-							[774] = 1,
-							[4359] = 1,
+							[4304] = 6,
+							[7910] = 2,
 						},
 						["numMade"] = 1,
-						["name"] = "Crude Scope",
+						["name"] = "Rose Colored Goggles",
 						["enabled"] = true,
-						["group"] = 3,
+						["group"] = 1,
 						["queued"] = 0,
-						["spellID"] = 3977,
+						["spellID"] = 12618,
 					},
 					[4367] = {
 						["mats"] = {
@@ -9763,18 +9754,20 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 3933,
 					},
-					[23737] = {
+					[10504] = {
 						["mats"] = {
-							[23783] = 2,
-							[23781] = 1,
-							[23446] = 4,
+							[10286] = 2,
+							[1529] = 3,
+							[8153] = 2,
+							[4304] = 8,
+							[7909] = 3,
 						},
-						["numMade"] = 3,
-						["name"] = "Adamantite Grenade",
+						["numMade"] = 1,
+						["name"] = "Green Lens",
 						["enabled"] = true,
-						["group"] = 5,
+						["group"] = 1,
 						["queued"] = 0,
-						["spellID"] = 30311,
+						["spellID"] = 12622,
 					},
 					[4368] = {
 						["mats"] = {
@@ -9787,6 +9780,20 @@ TradeSkillMaster_CraftingDB = {
 						["group"] = 1,
 						["queued"] = 0,
 						["spellID"] = 3934,
+					},
+					[23824] = {
+						["mats"] = {
+							[23786] = 2,
+							[23793] = 8,
+							[23785] = 2,
+							[23787] = 4,
+						},
+						["numMade"] = 1,
+						["name"] = "Rocket Boots Xtreme",
+						["enabled"] = true,
+						["group"] = 1,
+						["queued"] = 0,
+						["spellID"] = 30556,
 					},
 					[35581] = {
 						["mats"] = {
@@ -9802,31 +9809,19 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 46697,
 					},
-					[4369] = {
+					[23841] = {
 						["mats"] = {
-							[4399] = 1,
-							[4361] = 2,
-							[4359] = 4,
-							[2319] = 2,
+							[23783] = 2,
+							[23784] = 1,
+							[23782] = 1,
+							[23781] = 3,
 						},
-						["numMade"] = 1,
-						["name"] = "Deadly Blunderbuss",
-						["enabled"] = true,
-						["group"] = 2,
-						["queued"] = 0,
-						["spellID"] = 3936,
-					},
-					[40536] = {
-						["mats"] = {
-							[33470] = 1,
-							[39690] = 3,
-						},
-						["numMade"] = 5,
-						["name"] = "Explosive Decoy",
+						["numMade"] = 3,
+						["name"] = "Gnomish Flame Turret",
 						["enabled"] = true,
 						["group"] = 5,
 						["queued"] = 0,
-						["spellID"] = 56463,
+						["spellID"] = 30568,
 					},
 					[4370] = {
 						["mats"] = {
@@ -9854,60 +9849,57 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 39973,
 					},
-					[23841] = {
+					[40536] = {
 						["mats"] = {
-							[23783] = 2,
-							[23784] = 1,
-							[23782] = 1,
-							[23781] = 3,
+							[33470] = 1,
+							[39690] = 3,
 						},
-						["numMade"] = 3,
-						["name"] = "Gnomish Flame Turret",
+						["numMade"] = 5,
+						["name"] = "Explosive Decoy",
 						["enabled"] = true,
 						["group"] = 5,
 						["queued"] = 0,
-						["spellID"] = 30568,
+						["spellID"] = 56463,
 					},
-					[23824] = {
+					[4369] = {
 						["mats"] = {
-							[23786] = 2,
-							[23793] = 8,
-							[23785] = 2,
-							[23787] = 4,
+							[4399] = 1,
+							[4361] = 2,
+							[4359] = 4,
+							[2319] = 2,
 						},
 						["numMade"] = 1,
-						["name"] = "Rocket Boots Xtreme",
+						["name"] = "Deadly Blunderbuss",
 						["enabled"] = true,
-						["group"] = 1,
+						["group"] = 2,
 						["queued"] = 0,
-						["spellID"] = 30556,
+						["spellID"] = 3936,
 					},
-					[10504] = {
+					[23737] = {
 						["mats"] = {
-							[10286] = 2,
-							[1529] = 3,
-							[8153] = 2,
-							[7909] = 3,
-							[4304] = 8,
+							[23783] = 2,
+							[23781] = 1,
+							[23446] = 4,
+						},
+						["numMade"] = 3,
+						["name"] = "Adamantite Grenade",
+						["enabled"] = true,
+						["group"] = 5,
+						["queued"] = 0,
+						["spellID"] = 30311,
+					},
+					[4405] = {
+						["mats"] = {
+							[4361] = 1,
+							[774] = 1,
+							[4359] = 1,
 						},
 						["numMade"] = 1,
-						["name"] = "Green Lens",
+						["name"] = "Crude Scope",
 						["enabled"] = true,
-						["group"] = 1,
+						["group"] = 3,
 						["queued"] = 0,
-						["spellID"] = 12622,
-					},
-					[10503] = {
-						["mats"] = {
-							[4304] = 6,
-							[7910] = 2,
-						},
-						["numMade"] = 1,
-						["name"] = "Rose Colored Goggles",
-						["enabled"] = true,
-						["group"] = 1,
-						["queued"] = 0,
-						["spellID"] = 12618,
+						["spellID"] = 3977,
 					},
 					[4373] = {
 						["mats"] = {
@@ -9933,32 +9925,35 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 23066,
 					},
-					[4374] = {
+					[10716] = {
 						["mats"] = {
-							[2592] = 1,
-							[4364] = 4,
-							[4404] = 1,
-							[2841] = 2,
+							[10559] = 1,
+							[8151] = 4,
+							[3860] = 4,
+							[10560] = 1,
+							[1529] = 2,
 						},
-						["numMade"] = 2,
-						["name"] = "Small Bronze Bomb",
+						["numMade"] = 1,
+						["name"] = "Gnomish Shrink Ray",
 						["enabled"] = true,
-						["group"] = 5,
+						["group"] = 7,
 						["queued"] = 0,
-						["spellID"] = 3941,
+						["spellID"] = 12899,
 					},
-					[4394] = {
+					[7506] = {
 						["mats"] = {
-							[4404] = 1,
-							[3575] = 3,
-							[4377] = 3,
+							[2841] = 6,
+							[814] = 2,
+							[774] = 1,
+							[818] = 1,
+							[4375] = 1,
 						},
-						["numMade"] = 2,
-						["name"] = "Big Iron Bomb",
+						["numMade"] = 1,
+						["name"] = "Gnomish Universal Remote",
 						["enabled"] = true,
-						["group"] = 5,
+						["group"] = 7,
 						["queued"] = 0,
-						["spellID"] = 3967,
+						["spellID"] = 9269,
 					},
 					[18641] = {
 						["mats"] = {
@@ -9972,17 +9967,20 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 23070,
 					},
-					[4378] = {
+					[48933] = {
 						["mats"] = {
-							[4377] = 2,
-							[2592] = 1,
+							[35622] = 2,
+							[41163] = 8,
+							[36860] = 2,
+							[35623] = 2,
+							[35627] = 2,
 						},
-						["numMade"] = 3,
-						["name"] = "Heavy Dynamite",
+						["numMade"] = 1,
+						["name"] = "Wormhole Generator: Northrend",
 						["enabled"] = true,
-						["group"] = 5,
+						["group"] = 1,
 						["queued"] = 0,
-						["spellID"] = 3946,
+						["spellID"] = 67920,
 					},
 					[10720] = {
 						["mats"] = {
@@ -10014,19 +10012,21 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 12903,
 					},
-					[4401] = {
+					[16004] = {
 						["mats"] = {
-							[4363] = 1,
-							[4359] = 1,
-							[2840] = 1,
-							[774] = 2,
+							[12361] = 2,
+							[11371] = 6,
+							[8170] = 4,
+							[10546] = 2,
+							[16000] = 2,
+							[12799] = 2,
 						},
 						["numMade"] = 1,
-						["name"] = "Mechanical Squirrel Box",
+						["name"] = "Dark Iron Rifle",
 						["enabled"] = true,
-						["group"] = 6,
+						["group"] = 2,
 						["queued"] = 0,
-						["spellID"] = 3928,
+						["spellID"] = 19796,
 					},
 				},
 			},
@@ -10060,8 +10060,8 @@ TradeSkillMaster_CraftingDB = {
 						["name"] = "Golden Draenite",
 					},
 					[52195] = {
-						["source"] = "auction",
 						["name"] = "Amberjewel",
+						["source"] = "auction",
 					},
 					[52326] = {
 						["name"] = "Volatile Water",
@@ -10091,32 +10091,32 @@ TradeSkillMaster_CraftingDB = {
 						["source"] = "auction",
 						["name"] = "Iron Bar",
 					},
-					[2589] = {
-						["name"] = "Linen Cloth",
-						["source"] = "auction",
+					[20816] = {
+						["source"] = "craft",
+						["name"] = "Delicate Copper Wire",
 					},
 					[2840] = {
 						["source"] = "auction",
 						["name"] = "Copper Bar",
 					},
-					[36931] = {
-						["name"] = "Ametrine",
+					[36860] = {
 						["source"] = "auction",
+						["name"] = "Eternal Fire",
 					},
-					[24243] = {
+					[52191] = {
 						["source"] = "auction",
-						["name"] = "Adamantite Powder",
+						["name"] = "Ocean Sapphire",
 					},
 					[35622] = {
 						["source"] = "auction",
 						["name"] = "Eternal Water",
 					},
-					[24479] = {
+					[42225] = {
 						["source"] = "auction",
-						["name"] = "Shadow Pearl",
+						["name"] = "Dragon's Eye",
 					},
-					[11137] = {
-						["name"] = "Vision Dust",
+					[36924] = {
+						["name"] = "Sky Sapphire",
 						["source"] = "auction",
 					},
 					[3577] = {
@@ -10127,29 +10127,29 @@ TradeSkillMaster_CraftingDB = {
 						["source"] = "auction",
 						["name"] = "Primal Fire",
 					},
-					[42225] = {
+					[2838] = {
 						["source"] = "auction",
-						["name"] = "Dragon's Eye",
+						["name"] = "Heavy Stone",
 					},
-					[41266] = {
+					[36932] = {
+						["name"] = "Dark Jade",
 						["source"] = "auction",
-						["name"] = "Skyflare Diamond",
 					},
 					[36920] = {
 						["source"] = "auction",
 						["name"] = "Sun Crystal",
 					},
-					[36924] = {
-						["name"] = "Sky Sapphire",
+					[11137] = {
+						["name"] = "Vision Dust",
 						["source"] = "auction",
 					},
 					[36928] = {
 						["source"] = "auction",
 						["name"] = "Dreadstone",
 					},
-					[36932] = {
-						["name"] = "Dark Jade",
+					[1210] = {
 						["source"] = "auction",
+						["name"] = "Shadowgem",
 					},
 					[52303] = {
 						["source"] = "auction",
@@ -10159,25 +10159,25 @@ TradeSkillMaster_CraftingDB = {
 						["name"] = "Nightstone",
 						["source"] = "auction",
 					},
-					[12365] = {
+					[31079] = {
+						["name"] = "Mercurial Adamantite",
 						["source"] = "auction",
-						["name"] = "Dense Stone",
 					},
 					[52188] = {
-						["name"] = "Jeweler's Setting",
 						["source"] = "vendor",
+						["name"] = "Jeweler's Setting",
 					},
 					[52192] = {
-						["source"] = "auction",
 						["name"] = "Dream Emerald",
+						["source"] = "auction",
 					},
 					[52196] = {
 						["source"] = "auction",
 						["name"] = "Chimera's Eye",
 					},
-					[2996] = {
-						["source"] = "craft",
-						["name"] = "Bolt of Linen Cloth",
+					[43102] = {
+						["name"] = "Frozen Orb",
+						["source"] = "auction",
 					},
 					[23436] = {
 						["name"] = "Living Ruby",
@@ -10191,8 +10191,8 @@ TradeSkillMaster_CraftingDB = {
 						["name"] = "Titanium Bar",
 						["source"] = "auction",
 					},
-					[774] = {
-						["name"] = "Malachite",
+					[2842] = {
+						["name"] = "Silver Bar",
 						["source"] = "auction",
 					},
 					[1529] = {
@@ -10215,8 +10215,8 @@ TradeSkillMaster_CraftingDB = {
 						["source"] = "auction",
 						["name"] = "Elemental Water",
 					},
-					[35627] = {
-						["name"] = "Eternal Shadow",
+					[1705] = {
+						["name"] = "Lesser Moonstone",
 						["source"] = "auction",
 					},
 					[12808] = {
@@ -10235,29 +10235,29 @@ TradeSkillMaster_CraftingDB = {
 						["name"] = "Earthsiege Diamond",
 						["source"] = "auction",
 					},
-					[23449] = {
+					[12360] = {
+						["name"] = "Arcanite Bar",
 						["source"] = "auction",
-						["name"] = "Khorium Bar",
 					},
-					[1705] = {
-						["name"] = "Lesser Moonstone",
+					[35627] = {
+						["name"] = "Eternal Shadow",
 						["source"] = "auction",
 					},
 					[22452] = {
 						["source"] = "auction",
 						["name"] = "Primal Earth",
 					},
-					[12359] = {
+					[23447] = {
+						["name"] = "Eternium Bar",
 						["source"] = "auction",
-						["name"] = "Thorium Bar",
 					},
 					[12799] = {
 						["name"] = "Large Opal",
 						["source"] = "auction",
 					},
-					[52181] = {
+					[36933] = {
 						["source"] = "auction",
-						["name"] = "Hessonite",
+						["name"] = "Forest Emerald",
 					},
 					[36917] = {
 						["source"] = "auction",
@@ -10275,9 +10275,9 @@ TradeSkillMaster_CraftingDB = {
 						["name"] = "Huge Citrine",
 						["source"] = "auction",
 					},
-					[36933] = {
-						["source"] = "auction",
-						["name"] = "Forest Emerald",
+					[20817] = {
+						["source"] = "craft",
+						["name"] = "Bronze Setting",
 					},
 					[52177] = {
 						["source"] = "auction",
@@ -10287,8 +10287,8 @@ TradeSkillMaster_CraftingDB = {
 						["name"] = "Shadow Draenite",
 						["source"] = "auction",
 					},
-					[2318] = {
-						["name"] = "Light Leather",
+					[52179] = {
+						["name"] = "Alicite",
 						["source"] = "auction",
 					},
 					[10286] = {
@@ -10296,8 +10296,8 @@ TradeSkillMaster_CraftingDB = {
 						["source"] = "auction",
 					},
 					[52193] = {
-						["name"] = "Ember Topaz",
 						["source"] = "auction",
+						["name"] = "Ember Topaz",
 					},
 					[2604] = {
 						["name"] = "Red Dye",
@@ -10311,29 +10311,28 @@ TradeSkillMaster_CraftingDB = {
 						["name"] = "Citrine",
 						["source"] = "auction",
 					},
-					[6037] = {
-						["source"] = "auction",
-						["name"] = "Truesilver Bar",
-					},
 					[818] = {
 						["source"] = "auction",
 						["name"] = "Tigerseye",
+					},
+					[34052] = {
+						["name"] = "Dream Shard",
+						["source"] = "auction",
 					},
 					[7909] = {
 						["source"] = "auction",
 						["name"] = "Aquamarine",
 					},
-					[11083] = {
-						["source"] = "auction",
-						["name"] = "Soul Dust",
+					[5637] = {
+						["name"] = "Large Fang",
 					},
 					[2320] = {
 						["name"] = "Coarse Thread",
 						["source"] = "vendor",
 					},
-					[24478] = {
+					[37701] = {
+						["name"] = "Crystallized Earth",
 						["source"] = "auction",
-						["name"] = "Jaggal Pearl",
 					},
 					[5498] = {
 						["name"] = "Small Lustrous Pearl",
@@ -10375,25 +10374,25 @@ TradeSkillMaster_CraftingDB = {
 						["name"] = "Essence of Earth",
 						["source"] = "auction",
 					},
-					[36783] = {
-						["name"] = "Northsea Pearl",
-						["source"] = "auction",
-					},
 					[21885] = {
 						["source"] = "auction",
 						["name"] = "Primal Water",
 					},
-					[27860] = {
-						["source"] = "auction",
-						["name"] = "Purified Draenic Water",
-					},
-					[36918] = {
-						["name"] = "Scarlet Ruby",
+					[36783] = {
+						["name"] = "Northsea Pearl",
 						["source"] = "auction",
 					},
 					[36922] = {
 						["name"] = "King's Amber",
 						["source"] = "auction",
+					},
+					[36918] = {
+						["name"] = "Scarlet Ruby",
+						["source"] = "auction",
+					},
+					[27860] = {
+						["source"] = "auction",
+						["name"] = "Purified Draenic Water",
 					},
 					[36926] = {
 						["source"] = "auction",
@@ -10412,8 +10411,8 @@ TradeSkillMaster_CraftingDB = {
 						["name"] = "Zephyrite",
 					},
 					[52182] = {
-						["source"] = "auction",
 						["name"] = "Jasper",
+						["source"] = "auction",
 					},
 					[52186] = {
 						["name"] = "Elementium Bar",
@@ -10424,43 +10423,44 @@ TradeSkillMaster_CraftingDB = {
 						["source"] = "auction",
 					},
 					[52194] = {
+						["source"] = "auction",
 						["name"] = "Demonseye",
-						["source"] = "auction",
 					},
-					[37701] = {
-						["name"] = "Crystallized Earth",
+					[24478] = {
 						["source"] = "auction",
+						["name"] = "Jaggal Pearl",
 					},
-					[5637] = {
-						["name"] = "Large Fang",
-					},
-					[34052] = {
-						["name"] = "Dream Shard",
+					[11083] = {
 						["source"] = "auction",
+						["name"] = "Soul Dust",
+					},
+					[6037] = {
+						["source"] = "auction",
+						["name"] = "Truesilver Bar",
 					},
 					[2835] = {
 						["source"] = "auction",
 						["name"] = "Rough Stone",
 					},
-					[52179] = {
+					[2318] = {
+						["name"] = "Light Leather",
 						["source"] = "auction",
-						["name"] = "Alicite",
 					},
-					[20817] = {
-						["source"] = "craft",
-						["name"] = "Bronze Setting",
+					[52181] = {
+						["source"] = "auction",
+						["name"] = "Hessonite",
 					},
 					[23445] = {
 						["source"] = "auction",
 						["name"] = "Fel Iron Bar",
 					},
-					[23447] = {
-						["name"] = "Eternium Bar",
+					[12359] = {
 						["source"] = "auction",
+						["name"] = "Thorium Bar",
 					},
-					[12360] = {
-						["name"] = "Arcanite Bar",
+					[23449] = {
 						["source"] = "auction",
+						["name"] = "Khorium Bar",
 					},
 					[12361] = {
 						["name"] = "Blue Sapphire",
@@ -10470,25 +10470,25 @@ TradeSkillMaster_CraftingDB = {
 						["source"] = "auction",
 						["name"] = "Flame Spessarite",
 					},
-					[2842] = {
-						["name"] = "Silver Bar",
+					[774] = {
+						["name"] = "Malachite",
 						["source"] = "auction",
 					},
-					[43102] = {
-						["name"] = "Frozen Orb",
-						["source"] = "auction",
+					[2996] = {
+						["source"] = "craft",
+						["name"] = "Bolt of Linen Cloth",
 					},
-					[31079] = {
-						["name"] = "Mercurial Adamantite",
+					[12365] = {
 						["source"] = "auction",
+						["name"] = "Dense Stone",
 					},
-					[1210] = {
+					[41266] = {
 						["source"] = "auction",
-						["name"] = "Shadowgem",
+						["name"] = "Skyflare Diamond",
 					},
-					[2838] = {
+					[24479] = {
 						["source"] = "auction",
-						["name"] = "Heavy Stone",
+						["name"] = "Shadow Pearl",
 					},
 					[35625] = {
 						["source"] = "auction",
@@ -10498,21 +10498,21 @@ TradeSkillMaster_CraftingDB = {
 						["name"] = "Mote of Water",
 						["source"] = "auction",
 					},
-					[52191] = {
+					[24243] = {
 						["source"] = "auction",
-						["name"] = "Ocean Sapphire",
+						["name"] = "Adamantite Powder",
 					},
-					[36860] = {
+					[36931] = {
+						["name"] = "Ametrine",
 						["source"] = "auction",
-						["name"] = "Eternal Fire",
 					},
 					[36784] = {
 						["source"] = "auction",
 						["name"] = "Siren's Tear",
 					},
-					[20816] = {
-						["source"] = "craft",
-						["name"] = "Delicate Copper Wire",
+					[2589] = {
+						["name"] = "Linen Cloth",
+						["source"] = "auction",
 					},
 				},
 				["crafts"] = {
@@ -10685,10 +10685,10 @@ TradeSkillMaster_CraftingDB = {
 						["mats"] = {
 							[23107] = 3,
 							[23117] = 3,
-							[23079] = 3,
 							[23077] = 3,
-							[23112] = 3,
 							[21929] = 3,
+							[23112] = 3,
+							[23079] = 3,
 						},
 						["numMade"] = 1,
 						["name"] = "Brilliant Glass",
@@ -10768,8 +10768,8 @@ TradeSkillMaster_CraftingDB = {
 						["mats"] = {
 							[3577] = 2,
 							[7070] = 2,
-							[3864] = 1,
 							[20817] = 1,
+							[3864] = 1,
 						},
 						["numMade"] = 1,
 						["name"] = "Citrine Pendant of Golden Healing",
@@ -10790,9 +10790,9 @@ TradeSkillMaster_CraftingDB = {
 					},
 					[42413] = {
 						["mats"] = {
+							[36933] = 1,
 							[41163] = 2,
 							[36924] = 2,
-							[36933] = 1,
 						},
 						["numMade"] = 1,
 						["name"] = "Figurine - Sapphire Owl",
@@ -11484,8 +11484,8 @@ TradeSkillMaster_CraftingDB = {
 					[42338] = {
 						["mats"] = {
 							[36932] = 2,
-							[36929] = 2,
 							[35624] = 1,
+							[36929] = 2,
 						},
 						["numMade"] = 1,
 						["name"] = "Jade Dagger Pendant",
@@ -11571,9 +11571,9 @@ TradeSkillMaster_CraftingDB = {
 					},
 					[44063] = {
 						["mats"] = {
+							[36933] = 1,
 							[41163] = 2,
 							[36930] = 2,
-							[36933] = 1,
 						},
 						["numMade"] = 1,
 						["name"] = "Figurine - Monarch Crab",
@@ -11617,8 +11617,8 @@ TradeSkillMaster_CraftingDB = {
 						["mats"] = {
 							[2842] = 2,
 							[20817] = 1,
-							[1705] = 1,
 							[1206] = 1,
+							[1705] = 1,
 						},
 						["numMade"] = 1,
 						["name"] = "Heavy Silver Ring",
@@ -11694,9 +11694,9 @@ TradeSkillMaster_CraftingDB = {
 					[42339] = {
 						["mats"] = {
 							[36923] = 1,
-							[36917] = 1,
-							[36920] = 2,
 							[35624] = 1,
+							[36920] = 2,
+							[36917] = 1,
 						},
 						["numMade"] = 1,
 						["name"] = "Blood Sun Necklace",
@@ -11812,8 +11812,8 @@ TradeSkillMaster_CraftingDB = {
 							[42225] = 4,
 							[41163] = 2,
 							[35625] = 4,
-							[43102] = 1,
 							[35624] = 4,
+							[43102] = 1,
 						},
 						["numMade"] = 1,
 						["name"] = "Titanium Earthguard Ring",
@@ -11894,8 +11894,8 @@ TradeSkillMaster_CraftingDB = {
 						["mats"] = {
 							[36923] = 1,
 							[43102] = 1,
-							[36932] = 1,
 							[36926] = 1,
+							[36932] = 1,
 						},
 						["numMade"] = 1,
 						["name"] = "Icy Prism",
@@ -12052,9 +12052,9 @@ TradeSkillMaster_CraftingDB = {
 					},
 					[42341] = {
 						["mats"] = {
+							[36921] = 1,
 							[41163] = 2,
 							[36918] = 2,
-							[36921] = 1,
 						},
 						["numMade"] = 1,
 						["name"] = "Figurine - Ruby Hare",
@@ -12131,9 +12131,9 @@ TradeSkillMaster_CraftingDB = {
 					[32776] = {
 						["mats"] = {
 							[24479] = 3,
-							[31079] = 4,
 							[24478] = 20,
 							[23449] = 12,
+							[31079] = 4,
 						},
 						["numMade"] = 1,
 						["name"] = "Crown of the Sea Witch",
@@ -12247,7 +12247,7 @@ TradeSkillMaster_CraftingDB = {
 							[52303] = 1,
 						},
 						["group"] = 7,
-						["queued"] = 0,
+						["queued"] = 3,
 						["spellID"] = 96256,
 					},
 					[52099] = {
@@ -12322,7 +12322,7 @@ TradeSkillMaster_CraftingDB = {
 						["name"] = "Chaotic Shadowspirit Diamond",
 						["enabled"] = true,
 						["group"] = 7,
-						["queued"] = 0,
+						["queued"] = 2,
 						["spellID"] = 73465,
 					},
 					[20820] = {
@@ -12356,7 +12356,7 @@ TradeSkillMaster_CraftingDB = {
 						["name"] = "Burning Shadowspirit Diamond",
 						["enabled"] = true,
 						["group"] = 7,
-						["queued"] = 0,
+						["queued"] = 2,
 						["spellID"] = 96257,
 					},
 					[42151] = {
@@ -12567,50 +12567,49 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 64728,
 					},
-					[2569] = {
+					[24075] = {
 						["mats"] = {
-							[2320] = 1,
-							[2996] = 3,
-							[2318] = 1,
+							[23445] = 1,
+							[23112] = 2,
 						},
 						["numMade"] = 1,
-						["name"] = "Linen Boots",
-						["group"] = 10,
-						["queued"] = 0,
-						["spellID"] = 2386,
-					},
-					[2570] = {
-						["mats"] = {
-							[2996] = 1,
-							[2320] = 1,
-						},
-						["numMade"] = 1,
-						["name"] = "Linen Cloak",
-						["group"] = 10,
-						["queued"] = 0,
-						["spellID"] = 2387,
-					},
-					[10045] = {
-						["mats"] = {
-							[2996] = 1,
-							[2320] = 1,
-						},
-						["numMade"] = 1,
-						["name"] = "Simple Linen Pants",
-						["group"] = 10,
-						["queued"] = 0,
-						["spellID"] = 12044,
-					},
-					[52308] = {
-						["mats"] = {
-							[52188] = 1,
-							[52181] = 2,
-						},
-						["numMade"] = 1,
-						["name"] = "Hessonite Band",
+						["name"] = "Golden Draenite Ring",
 						["group"] = 9,
 						["queued"] = 0,
-						["spellID"] = 73495,
+						["spellID"] = 31049,
+					},
+					[52212] = {
+						["mats"] = {
+							[52190] = 1,
+						},
+						["numMade"] = 1,
+						["name"] = "Delicate Inferno Ruby",
+						["enabled"] = true,
+						["group"] = 1,
+						["queued"] = 0,
+						["spellID"] = 73336,
+					},
+					[41396] = {
+						["mats"] = {
+							[41334] = 1,
+						},
+						["numMade"] = 1,
+						["name"] = "Eternal Earthsiege Diamond",
+						["enabled"] = false,
+						["group"] = 7,
+						["queued"] = 0,
+						["spellID"] = 55398,
+					},
+					[40055] = {
+						["mats"] = {
+							[36930] = 1,
+						},
+						["numMade"] = 1,
+						["name"] = "Deft Monarch Topaz",
+						["enabled"] = false,
+						["group"] = 6,
+						["queued"] = 0,
+						["spellID"] = 53991,
 					},
 					[21754] = {
 						["mats"] = {
@@ -12623,17 +12622,16 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 26887,
 					},
-					[42395] = {
+					[52104] = {
 						["mats"] = {
-							[41163] = 2,
-							[36927] = 2,
-							[36930] = 1,
+							[52180] = 1,
 						},
 						["numMade"] = 1,
-						["name"] = "Figurine - Twilight Serpent",
-						["group"] = 10,
+						["name"] = "Veiled Nightstone",
+						["enabled"] = false,
+						["group"] = 4,
 						["queued"] = 0,
-						["spellID"] = 56201,
+						["spellID"] = 73249,
 					},
 					[52085] = {
 						["mats"] = {
@@ -12679,27 +12677,27 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 26876,
 					},
-					[52206] = {
+					[23111] = {
 						["mats"] = {
-							[52190] = 1,
+							[23107] = 1,
 						},
 						["numMade"] = 1,
-						["name"] = "Bold Inferno Ruby",
-						["enabled"] = true,
-						["group"] = 1,
+						["name"] = "Sovereign Shadow Draenite",
+						["enabled"] = false,
+						["group"] = 4,
 						["queued"] = 0,
-						["spellID"] = 73335,
+						["spellID"] = 28936,
 					},
-					[52207] = {
+					[52221] = {
 						["mats"] = {
-							[52190] = 1,
+							[52194] = 1,
 						},
 						["numMade"] = 1,
-						["name"] = "Brilliant Inferno Ruby",
+						["name"] = "Guardian's Demonseye",
 						["enabled"] = true,
-						["group"] = 1,
+						["group"] = 4,
 						["queued"] = 0,
-						["spellID"] = 73338,
+						["spellID"] = 73354,
 					},
 					[21779] = {
 						["mats"] = {
@@ -12800,16 +12798,18 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 25283,
 					},
-					[39908] = {
+					[21777] = {
 						["mats"] = {
-							[36917] = 1,
+							[12360] = 2,
+							[12359] = 2,
+							[12364] = 2,
+							[12804] = 4,
 						},
 						["numMade"] = 1,
-						["name"] = "Flashing Bloodstone",
-						["enabled"] = false,
-						["group"] = 1,
+						["name"] = "Figurine - Emerald Owl",
+						["group"] = 10,
 						["queued"] = 0,
-						["spellID"] = 53844,
+						["spellID"] = 26909,
 					},
 					[40045] = {
 						["mats"] = {
@@ -12821,26 +12821,28 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 53981,
 					},
-					[52128] = {
+					[52232] = {
 						["mats"] = {
-							[52182] = 1,
+							[52195] = 1,
 						},
 						["numMade"] = 1,
-						["name"] = "Sensei's Jasper",
-						["enabled"] = false,
-						["group"] = 5,
+						["name"] = "Quick Amberjewel",
+						["enabled"] = true,
+						["group"] = 3,
 						["queued"] = 0,
-						["spellID"] = 73281,
+						["spellID"] = 73348,
 					},
-					[40100] = {
+					[21791] = {
 						["mats"] = {
-							[36933] = 1,
+							[12804] = 4,
+							[12803] = 4,
+							[12364] = 2,
 						},
 						["numMade"] = 1,
-						["name"] = "Lightning Forest Emerald",
-						["group"] = 5,
+						["name"] = "Living Emerald Pendant",
+						["group"] = 10,
 						["queued"] = 0,
-						["spellID"] = 54009,
+						["spellID"] = 26911,
 					},
 					[40125] = {
 						["mats"] = {
@@ -12874,22 +12876,22 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 66573,
 					},
-					[41285] = {
+					[52220] = {
 						["mats"] = {
-							[41266] = 1,
+							[52194] = 1,
 						},
 						["numMade"] = 1,
-						["name"] = "Chaotic Skyflare Diamond",
-						["enabled"] = false,
-						["group"] = 7,
+						["name"] = "Glinting Demonseye",
+						["enabled"] = true,
+						["group"] = 4,
 						["queued"] = 0,
-						["spellID"] = 55389,
+						["spellID"] = 73357,
 					},
 					[42418] = {
 						["mats"] = {
+							[36918] = 1,
 							[41163] = 2,
 							[36933] = 2,
-							[36918] = 1,
 						},
 						["numMade"] = 1,
 						["name"] = "Figurine - Emerald Boar",
@@ -12897,15 +12899,16 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 56203,
 					},
-					[52090] = {
+					[39975] = {
 						["mats"] = {
-							[52179] = 1,
+							[36932] = 1,
 						},
 						["numMade"] = 1,
-						["name"] = "Subtle Alicite",
-						["group"] = 3,
+						["name"] = "Nimble Dark Jade",
+						["enabled"] = false,
+						["group"] = 5,
 						["queued"] = 0,
-						["spellID"] = 73231,
+						["spellID"] = 53917,
 					},
 					[20909] = {
 						["mats"] = {
@@ -12919,39 +12922,38 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 25498,
 					},
-					[52127] = {
+					[29159] = {
 						["mats"] = {
-							[52182] = 1,
+							[12800] = 2,
+							[21752] = 1,
 						},
 						["numMade"] = 1,
-						["name"] = "Zen Jasper",
-						["enabled"] = false,
-						["group"] = 5,
-						["queued"] = 0,
-						["spellID"] = 73280,
-					},
-					[52213] = {
-						["mats"] = {
-							[52194] = 1,
-						},
-						["numMade"] = 1,
-						["name"] = "Etched Demonseye",
-						["enabled"] = true,
-						["group"] = 4,
-						["queued"] = 0,
-						["spellID"] = 73356,
-					},
-					[24076] = {
-						["mats"] = {
-							[23117] = 2,
-							[23445] = 1,
-							[23079] = 1,
-						},
-						["numMade"] = 1,
-						["name"] = "Azure Moonstone Ring",
+						["name"] = "Glowing Thorium Band",
 						["group"] = 9,
 						["queued"] = 0,
-						["spellID"] = 31050,
+						["spellID"] = 34960,
+					},
+					[52093] = {
+						["mats"] = {
+							[52179] = 1,
+						},
+						["numMade"] = 1,
+						["name"] = "Quick Alicite",
+						["enabled"] = false,
+						["group"] = 3,
+						["queued"] = 0,
+						["spellID"] = 73234,
+					},
+					[39947] = {
+						["mats"] = {
+							[36929] = 1,
+						},
+						["numMade"] = 1,
+						["name"] = "Inscribed Huge Citrine",
+						["enabled"] = false,
+						["group"] = 6,
+						["queued"] = 0,
+						["spellID"] = 53872,
 					},
 					[41307] = {
 						["mats"] = {
@@ -13031,27 +13033,28 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 73230,
 					},
-					[24030] = {
+					[21775] = {
 						["mats"] = {
-							[23436] = 1,
-						},
-						["numMade"] = 1,
-						["name"] = "Brilliant Living Ruby",
-						["enabled"] = false,
-						["group"] = 1,
-						["queued"] = 0,
-						["spellID"] = 31088,
-					},
-					[30421] = {
-						["mats"] = {
-							[7910] = 1,
+							[12804] = 1,
+							[7076] = 1,
 							[21752] = 1,
 						},
 						["numMade"] = 1,
-						["name"] = "Red Ring of Destruction",
+						["name"] = "Onslaught Ring",
 						["group"] = 9,
 						["queued"] = 0,
-						["spellID"] = 36525,
+						["spellID"] = 26907,
+					},
+					[23103] = {
+						["mats"] = {
+							[23079] = 1,
+						},
+						["numMade"] = 1,
+						["name"] = "Radiant Deep Peridot",
+						["enabled"] = false,
+						["group"] = 5,
+						["queued"] = 0,
+						["spellID"] = 28916,
 					},
 					[39918] = {
 						["mats"] = {
@@ -13097,16 +13100,16 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 53892,
 					},
-					[52219] = {
+					[52126] = {
 						["mats"] = {
-							[52195] = 1,
+							[52182] = 1,
 						},
 						["numMade"] = 1,
-						["name"] = "Fractured Amberjewel",
-						["enabled"] = true,
-						["group"] = 3,
+						["name"] = "Puissant Jasper",
+						["enabled"] = false,
+						["group"] = 5,
 						["queued"] = 0,
-						["spellID"] = 73349,
+						["spellID"] = 73279,
 					},
 					[39998] = {
 						["mats"] = {
@@ -13137,19 +13140,19 @@ TradeSkillMaster_CraftingDB = {
 						["name"] = "Austere Shadowspirit Diamond",
 						["enabled"] = true,
 						["group"] = 7,
-						["queued"] = 0,
+						["queued"] = 3,
 						["spellID"] = 73468,
 					},
-					[39978] = {
+					[52208] = {
 						["mats"] = {
-							[36932] = 1,
+							[52193] = 1,
 						},
 						["numMade"] = 1,
-						["name"] = "Forceful Dark Jade",
-						["enabled"] = false,
-						["group"] = 5,
+						["name"] = "Reckless Ember Topaz",
+						["enabled"] = true,
+						["group"] = 6,
 						["queued"] = 0,
-						["spellID"] = 53920,
+						["spellID"] = 73369,
 					},
 					[24051] = {
 						["mats"] = {
@@ -13162,15 +13165,15 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 31098,
 					},
-					[52258] = {
+					[41367] = {
 						["mats"] = {
-							[52196] = 1,
+							[36932] = 1,
 						},
 						["numMade"] = 1,
-						["name"] = "Delicate Chimera's Eye",
+						["name"] = "Dark Jade Focusing Lens",
 						["group"] = 10,
 						["queued"] = 0,
-						["spellID"] = 73397,
+						["spellID"] = 56205,
 					},
 					[49110] = {
 						["mats"] = {
@@ -13193,16 +13196,16 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 56081,
 					},
-					[52231] = {
+					[39967] = {
 						["mats"] = {
-							[52192] = 1,
+							[36929] = 1,
 						},
 						["numMade"] = 1,
-						["name"] = "Puissant Dream Emerald",
-						["enabled"] = true,
-						["group"] = 5,
+						["name"] = "Resolute Huge Citrine",
+						["enabled"] = false,
+						["group"] = 6,
 						["queued"] = 0,
-						["spellID"] = 73382,
+						["spellID"] = 53893,
 					},
 					[40142] = {
 						["mats"] = {
@@ -13248,16 +13251,16 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 53874,
 					},
-					[21931] = {
+					[52309] = {
 						["mats"] = {
-							[20816] = 2,
-							[2840] = 1,
+							[52188] = 1,
+							[52180] = 2,
 						},
 						["numMade"] = 1,
-						["name"] = "Woven Copper Ring",
+						["name"] = "Nightstone Choker",
 						["group"] = 9,
 						["queued"] = 0,
-						["spellID"] = 26925,
+						["spellID"] = 73497,
 					},
 					[52486] = {
 						["mats"] = {
@@ -13282,15 +13285,16 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 73496,
 					},
-					[52261] = {
+					[23118] = {
 						["mats"] = {
-							[52196] = 1,
+							[23117] = 1,
 						},
 						["numMade"] = 1,
-						["name"] = "Solid Chimera's Eye",
-						["group"] = 10,
+						["name"] = "Solid Azure Moonstone",
+						["enabled"] = false,
+						["group"] = 2,
 						["queued"] = 0,
-						["spellID"] = 73401,
+						["spellID"] = 28950,
 					},
 					[52204] = {
 						["mats"] = {
@@ -13303,16 +13307,38 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 73371,
 					},
-					[23098] = {
+					[40037] = {
 						["mats"] = {
-							[21929] = 1,
+							[36930] = 1,
 						},
 						["numMade"] = 1,
-						["name"] = "Inscribed Flame Spessarite",
+						["name"] = "Inscribed Monarch Topaz",
 						["enabled"] = false,
 						["group"] = 6,
 						["queued"] = 0,
-						["spellID"] = 28910,
+						["spellID"] = 53975,
+					},
+					[52087] = {
+						["mats"] = {
+							[52178] = 1,
+						},
+						["numMade"] = 1,
+						["name"] = "Sparkling Zephyrite",
+						["enabled"] = false,
+						["group"] = 2,
+						["queued"] = 0,
+						["spellID"] = 73228,
+					},
+					[52244] = {
+						["mats"] = {
+							[52191] = 1,
+						},
+						["numMade"] = 1,
+						["name"] = "Sparkling Ocean Sapphire",
+						["enabled"] = true,
+						["group"] = 2,
+						["queued"] = 0,
+						["spellID"] = 73341,
 					},
 					[30419] = {
 						["mats"] = {
@@ -13326,45 +13352,23 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 36523,
 					},
-					[52244] = {
+					[23098] = {
 						["mats"] = {
-							[52191] = 1,
+							[21929] = 1,
 						},
 						["numMade"] = 1,
-						["name"] = "Sparkling Ocean Sapphire",
-						["enabled"] = true,
-						["group"] = 2,
-						["queued"] = 0,
-						["spellID"] = 73341,
-					},
-					[52087] = {
-						["mats"] = {
-							[52178] = 1,
-						},
-						["numMade"] = 1,
-						["name"] = "Sparkling Zephyrite",
-						["enabled"] = false,
-						["group"] = 2,
-						["queued"] = 0,
-						["spellID"] = 73228,
-					},
-					[40037] = {
-						["mats"] = {
-							[36930] = 1,
-						},
-						["numMade"] = 1,
-						["name"] = "Inscribed Monarch Topaz",
+						["name"] = "Inscribed Flame Spessarite",
 						["enabled"] = false,
 						["group"] = 6,
 						["queued"] = 0,
-						["spellID"] = 53975,
+						["spellID"] = 28910,
 					},
 					[21748] = {
 						["mats"] = {
 							[20963] = 4,
-							[6037] = 2,
 							[11137] = 4,
 							[1529] = 4,
+							[6037] = 2,
 						},
 						["numMade"] = 1,
 						["name"] = "Figurine - Jade Owl",
@@ -13372,16 +13376,15 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 26872,
 					},
-					[23118] = {
+					[52261] = {
 						["mats"] = {
-							[23117] = 1,
+							[52196] = 1,
 						},
 						["numMade"] = 1,
-						["name"] = "Solid Azure Moonstone",
-						["enabled"] = false,
-						["group"] = 2,
+						["name"] = "Solid Chimera's Eye",
+						["group"] = 10,
 						["queued"] = 0,
-						["spellID"] = 28950,
+						["spellID"] = 73401,
 					},
 					[21764] = {
 						["mats"] = {
@@ -13394,16 +13397,16 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 26883,
 					},
-					[52309] = {
+					[21931] = {
 						["mats"] = {
-							[52188] = 1,
-							[52180] = 2,
+							[20816] = 2,
+							[2840] = 1,
 						},
 						["numMade"] = 1,
-						["name"] = "Nightstone Choker",
+						["name"] = "Woven Copper Ring",
 						["group"] = 9,
 						["queued"] = 0,
-						["spellID"] = 73497,
+						["spellID"] = 26925,
 					},
 					[39919] = {
 						["mats"] = {
@@ -13438,16 +13441,16 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 53876,
 					},
-					[39967] = {
+					[52231] = {
 						["mats"] = {
-							[36929] = 1,
+							[52192] = 1,
 						},
 						["numMade"] = 1,
-						["name"] = "Resolute Huge Citrine",
-						["enabled"] = false,
-						["group"] = 6,
+						["name"] = "Puissant Dream Emerald",
+						["enabled"] = true,
+						["group"] = 5,
 						["queued"] = 0,
-						["spellID"] = 53893,
+						["spellID"] = 73382,
 					},
 					[39983] = {
 						["mats"] = {
@@ -13460,15 +13463,15 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 53925,
 					},
-					[41367] = {
+					[52258] = {
 						["mats"] = {
-							[36932] = 1,
+							[52196] = 1,
 						},
 						["numMade"] = 1,
-						["name"] = "Dark Jade Focusing Lens",
+						["name"] = "Delicate Chimera's Eye",
 						["group"] = 10,
 						["queued"] = 0,
-						["spellID"] = 56205,
+						["spellID"] = 73397,
 					},
 					[2996] = {
 						["mats"] = {
@@ -13480,50 +13483,49 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 2963,
 					},
-					[52208] = {
+					[39978] = {
 						["mats"] = {
-							[52193] = 1,
+							[36932] = 1,
 						},
 						["numMade"] = 1,
-						["name"] = "Reckless Ember Topaz",
+						["name"] = "Forceful Dark Jade",
+						["enabled"] = false,
+						["group"] = 5,
+						["queued"] = 0,
+						["spellID"] = 53920,
+					},
+					[52219] = {
+						["mats"] = {
+							[52195] = 1,
+						},
+						["numMade"] = 1,
+						["name"] = "Fractured Amberjewel",
 						["enabled"] = true,
-						["group"] = 6,
+						["group"] = 3,
 						["queued"] = 0,
-						["spellID"] = 73369,
+						["spellID"] = 73349,
 					},
-					[52126] = {
+					[30421] = {
 						["mats"] = {
-							[52182] = 1,
-						},
-						["numMade"] = 1,
-						["name"] = "Puissant Jasper",
-						["enabled"] = false,
-						["group"] = 5,
-						["queued"] = 0,
-						["spellID"] = 73279,
-					},
-					[23103] = {
-						["mats"] = {
-							[23079] = 1,
-						},
-						["numMade"] = 1,
-						["name"] = "Radiant Deep Peridot",
-						["enabled"] = false,
-						["group"] = 5,
-						["queued"] = 0,
-						["spellID"] = 28916,
-					},
-					[21775] = {
-						["mats"] = {
-							[12804] = 1,
-							[7076] = 1,
+							[7910] = 1,
 							[21752] = 1,
 						},
 						["numMade"] = 1,
-						["name"] = "Onslaught Ring",
+						["name"] = "Red Ring of Destruction",
 						["group"] = 9,
 						["queued"] = 0,
-						["spellID"] = 26907,
+						["spellID"] = 36525,
+					},
+					[24030] = {
+						["mats"] = {
+							[23436] = 1,
+						},
+						["numMade"] = 1,
+						["name"] = "Brilliant Living Ruby",
+						["enabled"] = false,
+						["group"] = 1,
+						["queued"] = 0,
+						["spellID"] = 31088,
 					},
 					[40095] = {
 						["mats"] = {
@@ -13547,49 +13549,49 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 66447,
 					},
-					[39947] = {
+					[24076] = {
 						["mats"] = {
-							[36929] = 1,
+							[23117] = 2,
+							[23445] = 1,
+							[23079] = 1,
 						},
 						["numMade"] = 1,
-						["name"] = "Inscribed Huge Citrine",
-						["enabled"] = false,
-						["group"] = 6,
+						["name"] = "Azure Moonstone Ring",
+						["group"] = 9,
 						["queued"] = 0,
-						["spellID"] = 53872,
+						["spellID"] = 31050,
 					},
-					[52093] = {
+					[52213] = {
+						["mats"] = {
+							[52194] = 1,
+						},
+						["numMade"] = 1,
+						["name"] = "Etched Demonseye",
+						["enabled"] = true,
+						["group"] = 4,
+						["queued"] = 0,
+						["spellID"] = 73356,
+					},
+					[52127] = {
+						["mats"] = {
+							[52182] = 1,
+						},
+						["numMade"] = 1,
+						["name"] = "Zen Jasper",
+						["enabled"] = false,
+						["group"] = 5,
+						["queued"] = 0,
+						["spellID"] = 73280,
+					},
+					[52090] = {
 						["mats"] = {
 							[52179] = 1,
 						},
 						["numMade"] = 1,
-						["name"] = "Quick Alicite",
-						["enabled"] = false,
+						["name"] = "Subtle Alicite",
 						["group"] = 3,
 						["queued"] = 0,
-						["spellID"] = 73234,
-					},
-					[29159] = {
-						["mats"] = {
-							[12800] = 2,
-							[21752] = 1,
-						},
-						["numMade"] = 1,
-						["name"] = "Glowing Thorium Band",
-						["group"] = 9,
-						["queued"] = 0,
-						["spellID"] = 34960,
-					},
-					[39975] = {
-						["mats"] = {
-							[36932] = 1,
-						},
-						["numMade"] = 1,
-						["name"] = "Nimble Dark Jade",
-						["enabled"] = false,
-						["group"] = 5,
-						["queued"] = 0,
-						["spellID"] = 53917,
+						["spellID"] = 73231,
 					},
 					[45812] = {
 						["mats"] = {
@@ -13602,16 +13604,16 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 64725,
 					},
-					[52220] = {
+					[41285] = {
 						["mats"] = {
-							[52194] = 1,
+							[41266] = 1,
 						},
 						["numMade"] = 1,
-						["name"] = "Glinting Demonseye",
-						["enabled"] = true,
-						["group"] = 4,
+						["name"] = "Chaotic Skyflare Diamond",
+						["enabled"] = false,
+						["group"] = 7,
 						["queued"] = 0,
-						["spellID"] = 73357,
+						["spellID"] = 55389,
 					},
 					[21932] = {
 						["mats"] = {
@@ -13624,34 +13626,32 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 26926,
 					},
-					[21791] = {
+					[40100] = {
 						["mats"] = {
-							[12804] = 4,
-							[12803] = 4,
-							[12364] = 2,
+							[36933] = 1,
 						},
 						["numMade"] = 1,
-						["name"] = "Living Emerald Pendant",
-						["group"] = 10,
+						["name"] = "Lightning Forest Emerald",
+						["group"] = 5,
 						["queued"] = 0,
-						["spellID"] = 26911,
+						["spellID"] = 54009,
 					},
-					[52232] = {
+					[52128] = {
 						["mats"] = {
-							[52195] = 1,
+							[52182] = 1,
 						},
 						["numMade"] = 1,
-						["name"] = "Quick Amberjewel",
-						["enabled"] = true,
-						["group"] = 3,
+						["name"] = "Sensei's Jasper",
+						["enabled"] = false,
+						["group"] = 5,
 						["queued"] = 0,
-						["spellID"] = 73348,
+						["spellID"] = 73281,
 					},
 					[31154] = {
 						["mats"] = {
 							[1705] = 1,
-							[20817] = 1,
 							[2841] = 6,
+							[20817] = 1,
 						},
 						["numMade"] = 1,
 						["name"] = "Bronze Torc",
@@ -13659,18 +13659,16 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 38175,
 					},
-					[21777] = {
+					[39908] = {
 						["mats"] = {
-							[12360] = 2,
-							[12359] = 2,
-							[12364] = 2,
-							[12804] = 4,
+							[36917] = 1,
 						},
 						["numMade"] = 1,
-						["name"] = "Figurine - Emerald Owl",
-						["group"] = 10,
+						["name"] = "Flashing Bloodstone",
+						["enabled"] = false,
+						["group"] = 1,
 						["queued"] = 0,
-						["spellID"] = 26909,
+						["spellID"] = 53844,
 					},
 					[20950] = {
 						["mats"] = {
@@ -13683,38 +13681,39 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 25610,
 					},
-					[52221] = {
+					[52207] = {
 						["mats"] = {
-							[52194] = 1,
+							[52190] = 1,
 						},
 						["numMade"] = 1,
-						["name"] = "Guardian's Demonseye",
+						["name"] = "Brilliant Inferno Ruby",
 						["enabled"] = true,
-						["group"] = 4,
+						["group"] = 1,
 						["queued"] = 0,
-						["spellID"] = 73354,
+						["spellID"] = 73338,
 					},
-					[23111] = {
+					[52206] = {
 						["mats"] = {
-							[23107] = 1,
+							[52190] = 1,
 						},
 						["numMade"] = 1,
-						["name"] = "Sovereign Shadow Draenite",
-						["enabled"] = false,
-						["group"] = 4,
-						["queued"] = 0,
-						["spellID"] = 28936,
+						["name"] = "Bold Inferno Ruby",
+						["enabled"] = true,
+						["group"] = 1,
+						["queued"] = 2,
+						["spellID"] = 73335,
 					},
-					[52104] = {
+					[42395] = {
 						["mats"] = {
-							[52180] = 1,
+							[36930] = 1,
+							[41163] = 2,
+							[36927] = 2,
 						},
 						["numMade"] = 1,
-						["name"] = "Veiled Nightstone",
-						["enabled"] = false,
-						["group"] = 4,
+						["name"] = "Figurine - Twilight Serpent",
+						["group"] = 10,
 						["queued"] = 0,
-						["spellID"] = 73249,
+						["spellID"] = 56201,
 					},
 					[29158] = {
 						["mats"] = {
@@ -13728,49 +13727,50 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 34959,
 					},
-					[40055] = {
+					[52308] = {
 						["mats"] = {
-							[36930] = 1,
+							[52188] = 1,
+							[52181] = 2,
 						},
 						["numMade"] = 1,
-						["name"] = "Deft Monarch Topaz",
-						["enabled"] = false,
-						["group"] = 6,
-						["queued"] = 0,
-						["spellID"] = 53991,
-					},
-					[41396] = {
-						["mats"] = {
-							[41334] = 1,
-						},
-						["numMade"] = 1,
-						["name"] = "Eternal Earthsiege Diamond",
-						["enabled"] = false,
-						["group"] = 7,
-						["queued"] = 0,
-						["spellID"] = 55398,
-					},
-					[52212] = {
-						["mats"] = {
-							[52190] = 1,
-						},
-						["numMade"] = 1,
-						["name"] = "Delicate Inferno Ruby",
-						["enabled"] = true,
-						["group"] = 1,
-						["queued"] = 0,
-						["spellID"] = 73336,
-					},
-					[24075] = {
-						["mats"] = {
-							[23445] = 1,
-							[23112] = 2,
-						},
-						["numMade"] = 1,
-						["name"] = "Golden Draenite Ring",
+						["name"] = "Hessonite Band",
 						["group"] = 9,
 						["queued"] = 0,
-						["spellID"] = 31049,
+						["spellID"] = 73495,
+					},
+					[10045] = {
+						["mats"] = {
+							[2996] = 1,
+							[2320] = 1,
+						},
+						["numMade"] = 1,
+						["name"] = "Simple Linen Pants",
+						["group"] = 10,
+						["queued"] = 0,
+						["spellID"] = 12044,
+					},
+					[2570] = {
+						["mats"] = {
+							[2996] = 1,
+							[2320] = 1,
+						},
+						["numMade"] = 1,
+						["name"] = "Linen Cloak",
+						["group"] = 10,
+						["queued"] = 0,
+						["spellID"] = 2387,
+					},
+					[2569] = {
+						["mats"] = {
+							[2320] = 1,
+							[2996] = 3,
+							[2318] = 1,
+						},
+						["numMade"] = 1,
+						["name"] = "Linen Boots",
+						["group"] = 10,
+						["queued"] = 0,
+						["spellID"] = 2386,
 					},
 				},
 			},
@@ -13780,293 +13780,1299 @@ TradeSkillMaster_CraftingDB = {
 				["Aset"] = true,
 				["Pulari"] = true,
 				["Sadr"] = true,
-				["Chukk"] = true,
 				["Deadset"] = true,
+				["Chukk"] = true,
 			},
-			["craftHistory"] = {
-				[86004] = 447,
-				[96256] = 3,
-				[80479] = 100,
-				[73357] = 133,
-				[56943] = 1,
-				[57007] = 1,
-				[57023] = 1,
-				[64257] = 2,
-				[73230] = 2157,
-				[96257] = 37,
-				[64305] = 2,
-				[57183] = 2,
-				[57199] = 1,
-				[94405] = 1,
-				[57247] = 1,
-				[57263] = 2,
-				[58301] = 1,
-				[58317] = 1,
-				[58333] = 1,
-				[53830] = 2,
-				[86645] = 1,
-				[76457] = 10,
-				[94406] = 1,
-				[57024] = 1,
-				[74254] = 1,
-				[57152] = 1,
-				[86646] = 10,
-				[76458] = 6,
-				[57232] = 1,
-				[57248] = 1,
-				[57264] = 2,
-				[74191] = 2,
-				[74223] = 1,
-				[14380] = 6,
-				[86647] = 3,
-				[76459] = 1,
-				[56977] = 2,
-				[57009] = 1,
-				[64307] = 1,
-				[57233] = 1,
-				[57249] = 1,
-				[55732] = 1,
-				[58303] = 1,
-				[58319] = 1,
-				[74193] = 2,
-				[76269] = 1,
-				[76461] = 7,
-				[56978] = 1,
-				[56994] = 1,
-				[57010] = 1,
-				[74226] = 1,
-				[73268] = 1912,
-				[64308] = 1,
-				[57170] = 1,
-				[76462] = 7,
-				[57266] = 1,
-				[73620] = 352,
-				[56947] = 2,
-				[56963] = 1,
-				[56979] = 1,
-				[57011] = 1,
-				[57027] = 1,
-				[74132] = 1,
-				[64261] = 1,
-				[57155] = 1,
-				[76464] = 7,
-				[57219] = 1,
-				[57235] = 1,
-				[73494] = 1448,
-				[89367] = 1,
-				[58337] = 1,
-				[74229] = 2,
-				[73239] = 1907,
-				[73335] = 322,
-				[73367] = 62,
-				[73399] = 2,
-				[73495] = 926,
-				[89368] = 1,
-				[74198] = 5,
-				[74230] = 2,
-				[57124] = 1,
-				[57156] = 1,
-				[73336] = 472,
-				[57715] = 115,
-				[57220] = 1,
-				[73496] = 923,
-				[29688] = 6,
-				[94000] = 2,
-				[74199] = 3,
-				[74231] = 2,
-				[73369] = 191,
-				[56949] = 1,
-				[73465] = 47,
-				[73497] = 744,
-				[89370] = 1,
-				[71102] = 2,
-				[64247] = 2,
-				[74232] = 4,
-				[73274] = 1878,
-				[64311] = 2,
-				[73338] = 475,
-				[57189] = 3,
-				[76468] = 4,
-				[95471] = 1,
-				[89371] = 1,
-				[80237] = 93,
-				[58339] = 1,
-				[74201] = 1,
-				[73243] = 101,
-				[73371] = 139,
-				[89244] = 2,
-				[56998] = 1,
-				[89372] = 1,
-				[61677] = 1,
-				[64248] = 2,
-				[74234] = 6,
-				[57126] = 2,
-				[64312] = 1,
-				[73340] = 168,
-				[73468] = 32,
-				[57270] = 1,
-				[58308] = 1,
-				[74235] = 5,
-				[78866] = 50,
-				[73341] = 117,
-				[76439] = 228,
-				[56999] = 1,
-				[80719] = 37,
-				[57127] = 1,
-				[73278] = 13,
-				[57159] = 1,
-				[57191] = 1,
-				[57207] = 1,
-				[57239] = 1,
-				[57271] = 1,
-				[80720] = 13,
-				[92026] = 1,
-				[73375] = 67,
-				[57000] = 1,
-				[80721] = 50,
-				[64266] = 1,
-				[64314] = 1,
-				[73344] = 102,
-				[57192] = 1,
-				[57208] = 2,
-				[57272] = 1,
-				[80243] = 15,
-				[58342] = 1,
-				[74239] = 1,
-				[73249] = 3,
-				[57001] = 1,
-				[80723] = 15,
-				[74240] = 2,
-				[73250] = 2057,
-				[64315] = 1,
-				[73378] = 47,
-				[80245] = 548,
-				[56954] = 1,
-				[56986] = 1,
-				[57034] = 2,
-				[64252] = 1,
-				[76286] = 232,
-				[57130] = 1,
-				[64316] = 1,
-				[73348] = 106,
-				[57210] = 1,
-				[57242] = 1,
-				[58312] = 1,
-				[58344] = 2,
-				[67600] = 3,
-				[73349] = 205,
-				[73381] = 48,
-				[56955] = 1,
-				[56987] = 2,
-				[57019] = 1,
-				[57035] = 1,
-				[64253] = 1,
-				[74244] = 1,
-				[57131] = 1,
-				[57163] = 19,
-				[73350] = 87,
-				[73382] = 98,
-				[57211] = 2,
-				[57243] = 1,
-				[57259] = 1,
-				[58297] = 1,
-				[85785] = 2,
-				[86005] = 10,
-				[73351] = 137,
-				[57716] = 18,
-				[58489] = 1,
-				[58288] = 1,
-				[56988] = 2,
-				[57004] = 1,
-				[64268] = 1,
-				[57036] = 2,
-				[62162] = 1,
-				[56976] = 1,
-				[57012] = 2,
-				[64254] = 1,
-				[57116] = 1,
-				[57132] = 1,
-				[57114] = 1,
-				[57164] = 1,
-				[73352] = 117,
-				[57196] = 2,
-				[57119] = 1,
-				[57158] = 1,
-				[57032] = 3,
-				[57260] = 2,
-				[58298] = 1,
-				[57162] = 1,
-				[58330] = 1,
-				[58346] = 1,
-				[58323] = 1,
-				[80495] = 440,
-				[76291] = 1,
-				[58287] = 2,
-				[76467] = 4,
-				[64260] = 1,
-				[57160] = 1,
-				[59561] = 2,
-				[56957] = 1,
-				[64313] = 1,
-				[56996] = 1,
-				[73373] = 185,
-				[57021] = 1,
-				[57153] = 1,
-				[74238] = 2,
-				[64309] = 3,
-				[64317] = 2,
-				[64255] = 1,
-				[57117] = 1,
-				[57133] = 1,
-				[57193] = 1,
-				[80486] = 3,
-				[73354] = 25,
-				[57197] = 1,
-				[92375] = 1,
-				[94401] = 2,
-				[57112] = 1,
-				[57261] = 2,
-				[64246] = 2,
-				[64262] = 1,
-				[57161] = 1,
-				[76456] = 9,
-				[74225] = 1,
-				[73222] = 1300,
-				[73227] = 60,
-				[57115] = 2,
-				[73478] = 1,
-				[86609] = 553,
-				[73355] = 226,
-				[57202] = 1,
-				[57195] = 2,
-				[56974] = 1,
-				[57251] = 1,
-				[57006] = 1,
-				[57022] = 2,
-				[7818] = 2,
-				[89369] = 1,
-				[73384] = 34,
-				[56981] = 1,
-				[57268] = 1,
-				[73228] = 1013,
-				[96255] = 59,
-				[64304] = 1,
-				[80478] = 110,
-				[73356] = 46,
-				[57198] = 1,
-				[57214] = 1,
-				[94403] = 1,
-				[57246] = 1,
-				[76463] = 4,
-				[89373] = 1,
-				[73397] = 5,
+			["Cooking"] = {
+				["mats"] = {
+					[43011] = {
+						["name"] = "Worg Haunch",
+						["source"] = "auction",
+					},
+					[27422] = {
+						["name"] = "Barbed Gill Trout",
+						["source"] = "auction",
+					},
+					[27678] = {
+						["name"] = "Clefthoof Meat",
+						["source"] = "auction",
+					},
+					[27682] = {
+						["name"] = "Talbuk Venison",
+						["source"] = "auction",
+					},
+					[27438] = {
+						["name"] = "Golden Darter",
+						["source"] = "auction",
+					},
+					[6289] = {
+						["name"] = "Raw Longjaw Mud Snapper",
+						["source"] = "auction",
+					},
+					[44853] = {
+						["name"] = "Honey",
+						["source"] = "vendor",
+					},
+					[41809] = {
+						["name"] = "Glacial Salmon",
+						["source"] = "auction",
+					},
+					[41813] = {
+						["name"] = "Nettlefish",
+						["source"] = "auction",
+					},
+					[33824] = {
+						["name"] = "Crescent-Tail Skullfish",
+						["source"] = "auction",
+					},
+					[2593] = {
+						["name"] = "Flask of Port",
+						["source"] = "auction",
+					},
+					[6361] = {
+						["name"] = "Raw Rainbow Fin Albacore",
+						["source"] = "auction",
+					},
+					[43012] = {
+						["name"] = "Rhino Meat",
+						["source"] = "auction",
+					},
+					[6362] = {
+						["name"] = "Raw Rockscale Cod",
+						["source"] = "auction",
+					},
+					[2594] = {
+						["name"] = "Flagon of Mead",
+					},
+					[34412] = {
+						["name"] = "Sparkling Apple Cider",
+						["source"] = "vendor",
+					},
+					[1179] = {
+						["name"] = "Ice Cold Milk",
+					},
+					[44834] = {
+						["name"] = "Wild Turkey",
+					},
+					[35948] = {
+						["source"] = "auction",
+						["name"] = "Savory Snowplum",
+					},
+					[41802] = {
+						["name"] = "Imperial Manta Ray",
+						["source"] = "auction",
+					},
+					[44854] = {
+						["name"] = "Tangy Wetland Cranberries",
+					},
+					[41810] = {
+						["name"] = "Fangtooth Herring",
+						["source"] = "auction",
+					},
+					[30816] = {
+						["name"] = "Spice Bread",
+						["source"] = "craft",
+					},
+					[27516] = {
+						["name"] = "Enormous Barbed Gill Trout",
+						["source"] = "auction",
+					},
+					[12808] = {
+						["name"] = "Essence of Undeath",
+						["source"] = "auction",
+					},
+					[8365] = {
+						["name"] = "Raw Mithril Head Trout",
+						["source"] = "auction",
+					},
+					[785] = {
+						["name"] = "Mageroyal",
+						["source"] = "auction",
+					},
+					[22577] = {
+						["name"] = "Mote of Shadow",
+						["source"] = "auction",
+					},
+					[36782] = {
+						["name"] = "Succulent Clam Meat",
+						["source"] = "auction",
+					},
+					[43009] = {
+						["name"] = "Shoveltusk Flank",
+						["source"] = "auction",
+					},
+					[43013] = {
+						["name"] = "Chilled Meat",
+						["source"] = "auction",
+					},
+					[27671] = {
+						["name"] = "Buzzard Meat",
+						["source"] = "auction",
+					},
+					[21071] = {
+						["name"] = "Raw Sagefish",
+					},
+					[27677] = {
+						["name"] = "Chunk o' Basilisk",
+						["source"] = "auction",
+					},
+					[27425] = {
+						["name"] = "Spotted Feltail",
+						["source"] = "auction",
+					},
+					[4603] = {
+						["name"] = "Raw Spotted Yellowtail",
+						["source"] = "auction",
+					},
+					[27429] = {
+						["name"] = "Zangarian Sporefish",
+						["source"] = "auction",
+					},
+					[44835] = {
+						["name"] = "Autumnal Herbs",
+						["source"] = "vendor",
+					},
+					[35949] = {
+						["source"] = "vendor",
+						["name"] = "Tundra Berries",
+					},
+					[27439] = {
+						["name"] = "Furious Crawdad",
+						["source"] = "auction",
+					},
+					[41803] = {
+						["name"] = "Rockfin Grouper",
+						["source"] = "auction",
+					},
+					[44855] = {
+						["name"] = "Teldrassil Sweet Potato",
+					},
+					[7974] = {
+						["name"] = "Zesty Clam Meat",
+						["source"] = "auction",
+					},
+					[12203] = {
+						["name"] = "Red Wolf Meat",
+						["source"] = "auction",
+					},
+					[159] = {
+						["name"] = "Refreshing Spring Water",
+						["source"] = "auction",
+					},
+					[41806] = {
+						["name"] = "Musselback Sculpin",
+						["source"] = "auction",
+					},
+					[43501] = {
+						["name"] = "Northern Egg",
+						["source"] = "auction",
+					},
+					[12208] = {
+						["name"] = "Tender Wolf Meat",
+						["source"] = "auction",
+					},
+					[46784] = {
+						["name"] = "Ripe Elwynn Pumpkin",
+					},
+					[3404] = {
+						["name"] = "Buzzard Wing",
+						["source"] = "auction",
+					},
+					[2672] = {
+						["name"] = "Stringy Wolf Meat",
+						["source"] = "auction",
+					},
+					[5503] = {
+						["name"] = "Clam Meat",
+						["source"] = "auction",
+					},
+					[17196] = {
+						["name"] = "Holiday Spirits",
+						["source"] = "vendor",
+					},
+					[43010] = {
+						["name"] = "Worm Meat",
+						["source"] = "auction",
+					},
+					[2673] = {
+						["name"] = "Coyote Meat",
+						["source"] = "auction",
+					},
+					[31670] = {
+						["name"] = "Raptor Ribs",
+						["source"] = "auction",
+					},
+					[17194] = {
+						["name"] = "Holiday Spices",
+						["source"] = "vendor",
+					},
+					[6522] = {
+						["name"] = "Deviate Fish",
+						["source"] = "auction",
+					},
+					[2674] = {
+						["name"] = "Crawler Meat",
+						["source"] = "auction",
+					},
+					[769] = {
+						["name"] = "Chunk of Boar Meat",
+						["source"] = "auction",
+					},
+					[12205] = {
+						["name"] = "White Spider Meat",
+						["source"] = "auction",
+					},
+					[4655] = {
+						["name"] = "Giant Clam Meat",
+					},
+					[27435] = {
+						["name"] = "Figluster's Mudfish",
+						["source"] = "auction",
+					},
+					[27681] = {
+						["name"] = "Warped Flesh",
+						["source"] = "auction",
+					},
+					[2677] = {
+						["name"] = "Boar Ribs",
+						["source"] = "auction",
+					},
+					[33823] = {
+						["name"] = "Bloodfin Catfish",
+						["source"] = "auction",
+					},
+					[30817] = {
+						["name"] = "Simple Flour",
+						["source"] = "vendor",
+					},
+					[21153] = {
+						["name"] = "Raw Greater Sagefish",
+						["source"] = "auction",
+					},
+					[13756] = {
+						["name"] = "Raw Summer Bass",
+						["source"] = "auction",
+					},
+					[13754] = {
+						["name"] = "Raw Glossy Mightfish",
+						["source"] = "auction",
+					},
+					[41808] = {
+						["name"] = "Bonescale Snapper",
+						["source"] = "auction",
+					},
+					[41812] = {
+						["name"] = "Barrelhead Goby",
+						["source"] = "auction",
+					},
+					[13757] = {
+						["name"] = "Lightning Eel",
+						["source"] = "auction",
+					},
+					[13758] = {
+						["name"] = "Raw Redgill",
+						["source"] = "auction",
+					},
+					[2678] = {
+						["name"] = "Mild Spices",
+						["source"] = "vendor",
+					},
+					[27515] = {
+						["name"] = "Huge Spotted Feltail",
+						["source"] = "auction",
+					},
+					[13888] = {
+						["name"] = "Darkclaw Lobster",
+						["source"] = "auction",
+					},
+					[13889] = {
+						["name"] = "Raw Whitescale Salmon",
+						["source"] = "auction",
+					},
+					[27437] = {
+						["name"] = "Icefin Bluefish",
+						["source"] = "auction",
+					},
+					[5504] = {
+						["name"] = "Tangy Clam Meat",
+						["source"] = "auction",
+					},
+					[34736] = {
+						["source"] = "auction",
+						["name"] = "Chunk o' Mammoth",
+					},
+					[13893] = {
+						["name"] = "Large Raw Mightfish",
+						["source"] = "auction",
+					},
+					[6308] = {
+						["name"] = "Raw Bristle Whisker Catfish",
+						["source"] = "auction",
+					},
+					[6889] = {
+						["name"] = "Small Egg",
+						["source"] = "auction",
+					},
+					[31671] = {
+						["name"] = "Serpent Flesh",
+						["source"] = "auction",
+					},
+					[2596] = {
+						["name"] = "Skin of Dwarven Stout",
+					},
+				},
+				["crafts"] = {
+					[27666] = {
+						["mats"] = {
+							[27438] = 1,
+						},
+						["numMade"] = 1,
+						["name"] = "Golden Fish Sticks",
+						["enabled"] = true,
+						["group"] = 2,
+						["queued"] = 0,
+						["spellID"] = 33295,
+					},
+					[34760] = {
+						["mats"] = {
+							[41808] = 1,
+						},
+						["numMade"] = 1,
+						["name"] = "Grilled Bonescale",
+						["enabled"] = true,
+						["group"] = 3,
+						["queued"] = 0,
+						["spellID"] = 45561,
+					},
+					[34764] = {
+						["mats"] = {
+							[41813] = 1,
+						},
+						["numMade"] = 1,
+						["name"] = "Poached Nettlefish",
+						["enabled"] = true,
+						["group"] = 3,
+						["queued"] = 0,
+						["spellID"] = 45565,
+					},
+					[21072] = {
+						["mats"] = {
+							[21071] = 1,
+						},
+						["numMade"] = 1,
+						["name"] = "Smoked Sagefish",
+						["enabled"] = true,
+						["group"] = 1,
+						["queued"] = 0,
+						["spellID"] = 25704,
+					},
+					[34411] = {
+						["mats"] = {
+							[34412] = 1,
+							[17196] = 1,
+							[17194] = 1,
+						},
+						["numMade"] = 2,
+						["name"] = "Hot Apple Cider",
+						["enabled"] = true,
+						["group"] = 3,
+						["queued"] = 0,
+						["spellID"] = 45022,
+					},
+					[5525] = {
+						["mats"] = {
+							[5503] = 1,
+							[159] = 1,
+						},
+						["numMade"] = 1,
+						["name"] = "Boiled Clams",
+						["enabled"] = true,
+						["group"] = 1,
+						["queued"] = 0,
+						["spellID"] = 6499,
+					},
+					[16766] = {
+						["mats"] = {
+							[7974] = 2,
+						},
+						["numMade"] = 2,
+						["name"] = "Undermine Clam Chowder",
+						["enabled"] = true,
+						["group"] = 2,
+						["queued"] = 0,
+						["spellID"] = 20626,
+					},
+					[44837] = {
+						["mats"] = {
+							[30816] = 1,
+							[44835] = 1,
+						},
+						["numMade"] = 1,
+						["name"] = "Spice Bread Stuffing",
+						["enabled"] = true,
+						["group"] = 1,
+						["queued"] = 0,
+						["spellID"] = 62050,
+					},
+					[2684] = {
+						["mats"] = {
+							[2673] = 1,
+						},
+						["numMade"] = 1,
+						["name"] = "Coyote Steak",
+						["enabled"] = true,
+						["group"] = 1,
+						["queued"] = 0,
+						["spellID"] = 2541,
+					},
+					[5527] = {
+						["mats"] = {
+							[5504] = 1,
+						},
+						["numMade"] = 1,
+						["name"] = "Goblin Deviled Clams",
+						["enabled"] = true,
+						["group"] = 1,
+						["queued"] = 0,
+						["spellID"] = 6500,
+					},
+					[34832] = {
+						["mats"] = {
+							[2596] = 1,
+							[2594] = 1,
+						},
+						["numMade"] = 5,
+						["name"] = "Captain Rumsey's Lager",
+						["enabled"] = true,
+						["group"] = 1,
+						["queued"] = 0,
+						["spellID"] = 45695,
+					},
+					[6038] = {
+						["mats"] = {
+							[4655] = 1,
+						},
+						["numMade"] = 1,
+						["name"] = "Giant Clam Scorcho",
+						["enabled"] = true,
+						["group"] = 1,
+						["queued"] = 0,
+						["spellID"] = 7213,
+					},
+					[43488] = {
+						["mats"] = {
+							[34736] = 1,
+						},
+						["numMade"] = 5,
+						["name"] = "Last Week's Mammoth",
+						["enabled"] = true,
+						["group"] = 3,
+						["queued"] = 0,
+						["spellID"] = 58521,
+					},
+					[43492] = {
+						["mats"] = {
+							[41810] = 1,
+							[12808] = 1,
+						},
+						["numMade"] = 5,
+						["name"] = "Haunted Herring",
+						["enabled"] = true,
+						["group"] = 3,
+						["queued"] = 0,
+						["spellID"] = 58525,
+					},
+					[13927] = {
+						["mats"] = {
+							[13754] = 1,
+						},
+						["numMade"] = 1,
+						["name"] = "Cooked Glossy Mightfish",
+						["enabled"] = true,
+						["group"] = 2,
+						["queued"] = 0,
+						["spellID"] = 18239,
+					},
+					[34753] = {
+						["mats"] = {
+							[34736] = 1,
+							[43009] = 1,
+							[43010] = 1,
+							[43013] = 2,
+						},
+						["numMade"] = 1,
+						["name"] = "Great Feast",
+						["enabled"] = true,
+						["group"] = 3,
+						["queued"] = 0,
+						["spellID"] = 45554,
+					},
+					[13929] = {
+						["mats"] = {
+							[13756] = 1,
+						},
+						["numMade"] = 1,
+						["name"] = "Hot Smoked Bass",
+						["enabled"] = true,
+						["group"] = 2,
+						["queued"] = 0,
+						["spellID"] = 18242,
+					},
+					[13930] = {
+						["mats"] = {
+							[13758] = 1,
+						},
+						["numMade"] = 1,
+						["name"] = "Filet of Redgill",
+						["enabled"] = true,
+						["group"] = 2,
+						["queued"] = 0,
+						["spellID"] = 18241,
+					},
+					[34765] = {
+						["mats"] = {
+							[41810] = 1,
+						},
+						["numMade"] = 1,
+						["name"] = "Pickled Fangtooth",
+						["enabled"] = true,
+						["group"] = 3,
+						["queued"] = 0,
+						["spellID"] = 45566,
+					},
+					[31673] = {
+						["mats"] = {
+							[31671] = 1,
+						},
+						["numMade"] = 1,
+						["name"] = "Crunchy Serpent",
+						["enabled"] = true,
+						["group"] = 2,
+						["queued"] = 0,
+						["spellID"] = 38868,
+					},
+					[13933] = {
+						["mats"] = {
+							[13888] = 1,
+							[159] = 1,
+						},
+						["numMade"] = 1,
+						["name"] = "Lobster Stew",
+						["enabled"] = true,
+						["group"] = 2,
+						["queued"] = 0,
+						["spellID"] = 18245,
+					},
+					[13934] = {
+						["mats"] = {
+							[13893] = 1,
+						},
+						["numMade"] = 1,
+						["name"] = "Mightfish Steak",
+						["enabled"] = true,
+						["group"] = 2,
+						["queued"] = 0,
+						["spellID"] = 18246,
+					},
+					[13935] = {
+						["mats"] = {
+							[13889] = 1,
+						},
+						["numMade"] = 1,
+						["name"] = "Baked Salmon",
+						["enabled"] = true,
+						["group"] = 2,
+						["queued"] = 0,
+						["spellID"] = 18247,
+					},
+					[5095] = {
+						["mats"] = {
+							[6361] = 1,
+						},
+						["numMade"] = 1,
+						["name"] = "Rainbow Fin Albacore",
+						["enabled"] = true,
+						["group"] = 1,
+						["queued"] = 0,
+						["spellID"] = 7827,
+					},
+					[44838] = {
+						["mats"] = {
+							[44834] = 1,
+							[44853] = 2,
+							[44835] = 1,
+						},
+						["numMade"] = 1,
+						["name"] = "Slow-Roasted Turkey",
+						["enabled"] = true,
+						["group"] = 2,
+						["queued"] = 0,
+						["spellID"] = 62045,
+					},
+					[33924] = {
+						["mats"] = {
+							[30817] = 8,
+							[6889] = 8,
+							[1179] = 4,
+							[785] = 3,
+							[2678] = 4,
+							[2593] = 1,
+						},
+						["numMade"] = 1,
+						["name"] = "Delicious Chocolate Cake",
+						["enabled"] = true,
+						["group"] = 1,
+						["queued"] = 0,
+						["spellID"] = 43779,
+					},
+					[39520] = {
+						["mats"] = {
+							[35949] = 2,
+							[35948] = 1,
+						},
+						["numMade"] = 5,
+						["name"] = "Kungaloosh",
+						["enabled"] = true,
+						["group"] = 3,
+						["queued"] = 0,
+						["spellID"] = 53056,
+					},
+					[4592] = {
+						["mats"] = {
+							[6289] = 1,
+						},
+						["numMade"] = 1,
+						["name"] = "Longjaw Mud Snapper",
+						["enabled"] = true,
+						["group"] = 1,
+						["queued"] = 0,
+						["spellID"] = 7753,
+					},
+					[4593] = {
+						["mats"] = {
+							[6308] = 1,
+						},
+						["numMade"] = 1,
+						["name"] = "Bristle Whisker Catfish",
+						["enabled"] = true,
+						["group"] = 1,
+						["queued"] = 0,
+						["spellID"] = 7755,
+					},
+					[33825] = {
+						["mats"] = {
+							[33824] = 1,
+						},
+						["numMade"] = 1,
+						["name"] = "Skullfish Soup",
+						["enabled"] = true,
+						["group"] = 2,
+						["queued"] = 0,
+						["spellID"] = 43707,
+					},
+					[8364] = {
+						["mats"] = {
+							[8365] = 1,
+						},
+						["numMade"] = 1,
+						["name"] = "Mithril Head Trout",
+						["enabled"] = true,
+						["group"] = 1,
+						["queued"] = 0,
+						["spellID"] = 20916,
+					},
+					[27657] = {
+						["mats"] = {
+							[27677] = 1,
+						},
+						["numMade"] = 1,
+						["name"] = "Blackened Basilisk",
+						["enabled"] = true,
+						["group"] = 2,
+						["queued"] = 0,
+						["spellID"] = 33286,
+					},
+					[27659] = {
+						["mats"] = {
+							[27681] = 1,
+						},
+						["numMade"] = 1,
+						["name"] = "Warp Burger",
+						["enabled"] = true,
+						["group"] = 2,
+						["queued"] = 0,
+						["spellID"] = 33288,
+					},
+					[27661] = {
+						["mats"] = {
+							[27422] = 1,
+						},
+						["numMade"] = 1,
+						["name"] = "Blackened Trout",
+						["enabled"] = true,
+						["group"] = 2,
+						["queued"] = 0,
+						["spellID"] = 33290,
+					},
+					[27663] = {
+						["mats"] = {
+							[27429] = 1,
+						},
+						["numMade"] = 1,
+						["name"] = "Blackened Sporefish",
+						["enabled"] = true,
+						["group"] = 2,
+						["queued"] = 0,
+						["spellID"] = 33292,
+					},
+					[27665] = {
+						["mats"] = {
+							[27437] = 1,
+						},
+						["numMade"] = 1,
+						["name"] = "Poached Bluefish",
+						["enabled"] = true,
+						["group"] = 2,
+						["queued"] = 0,
+						["spellID"] = 33294,
+					},
+					[27667] = {
+						["mats"] = {
+							[27439] = 1,
+						},
+						["numMade"] = 1,
+						["name"] = "Spicy Crawdad",
+						["enabled"] = true,
+						["group"] = 2,
+						["queued"] = 0,
+						["spellID"] = 33296,
+					},
+					[34762] = {
+						["mats"] = {
+							[41806] = 1,
+						},
+						["numMade"] = 1,
+						["name"] = "Grilled Sculpin",
+						["enabled"] = true,
+						["group"] = 3,
+						["queued"] = 0,
+						["spellID"] = 45563,
+					},
+					[6887] = {
+						["mats"] = {
+							[4603] = 1,
+						},
+						["numMade"] = 1,
+						["name"] = "Spotted Yellowtail",
+						["enabled"] = true,
+						["group"] = 2,
+						["queued"] = 0,
+						["spellID"] = 18238,
+					},
+					[6888] = {
+						["mats"] = {
+							[6889] = 1,
+						},
+						["numMade"] = 1,
+						["name"] = "Herb Baked Egg",
+						["enabled"] = true,
+						["group"] = 1,
+						["queued"] = 0,
+						["spellID"] = 8604,
+					},
+					[44839] = {
+						["mats"] = {
+							[44855] = 1,
+							[44853] = 1,
+							[44835] = 1,
+						},
+						["numMade"] = 1,
+						["name"] = "Candied Sweet Potato",
+						["enabled"] = true,
+						["group"] = 2,
+						["queued"] = 0,
+						["spellID"] = 62051,
+					},
+					[42942] = {
+						["mats"] = {
+							[41802] = 1,
+						},
+						["numMade"] = 1,
+						["name"] = "Baked Manta Ray",
+						["enabled"] = true,
+						["group"] = 3,
+						["queued"] = 0,
+						["spellID"] = 45569,
+					},
+					[18045] = {
+						["mats"] = {
+							[12208] = 1,
+						},
+						["numMade"] = 1,
+						["name"] = "Tender Wolf Steak",
+						["enabled"] = true,
+						["group"] = 2,
+						["queued"] = 0,
+						["spellID"] = 22480,
+					},
+					[33048] = {
+						["mats"] = {
+							[27422] = 1,
+						},
+						["numMade"] = 1,
+						["name"] = "Stewed Trout",
+						["enabled"] = true,
+						["group"] = 3,
+						["queued"] = 0,
+						["spellID"] = 42296,
+					},
+					[33052] = {
+						["mats"] = {
+							[27515] = 1,
+						},
+						["numMade"] = 6,
+						["name"] = "Fisherman's Feast",
+						["enabled"] = true,
+						["group"] = 3,
+						["queued"] = 0,
+						["spellID"] = 42302,
+					},
+					[43490] = {
+						["mats"] = {
+							[30817] = 2,
+							[43501] = 1,
+						},
+						["numMade"] = 5,
+						["name"] = "Tasty Cupcake",
+						["enabled"] = true,
+						["group"] = 3,
+						["queued"] = 0,
+						["spellID"] = 58512,
+					},
+					[30816] = {
+						["mats"] = {
+							[30817] = 1,
+							[2678] = 1,
+						},
+						["numMade"] = 1,
+						["name"] = "Spice Bread",
+						["enabled"] = true,
+						["group"] = 1,
+						["queued"] = 0,
+						["spellID"] = 37836,
+					},
+					[34752] = {
+						["mats"] = {
+							[43012] = 1,
+						},
+						["numMade"] = 1,
+						["name"] = "Rhino Dogs",
+						["enabled"] = true,
+						["group"] = 3,
+						["queued"] = 0,
+						["spellID"] = 45553,
+					},
+					[34747] = {
+						["mats"] = {
+							[43013] = 1,
+						},
+						["numMade"] = 1,
+						["name"] = "Northern Stew",
+						["enabled"] = true,
+						["group"] = 3,
+						["queued"] = 0,
+						["spellID"] = 57421,
+					},
+					[34751] = {
+						["mats"] = {
+							[43011] = 1,
+						},
+						["numMade"] = 1,
+						["name"] = "Roasted Worg",
+						["enabled"] = true,
+						["group"] = 3,
+						["queued"] = 0,
+						["spellID"] = 45552,
+					},
+					[33866] = {
+						["mats"] = {
+							[27678] = 1,
+							[13757] = 1,
+						},
+						["numMade"] = 1,
+						["name"] = "Stormchops",
+						["enabled"] = true,
+						["group"] = 2,
+						["queued"] = 0,
+						["spellID"] = 43758,
+					},
+					[43268] = {
+						["mats"] = {
+							[36782] = 2,
+						},
+						["numMade"] = 1,
+						["name"] = "Dalaran Clam Chowder",
+						["enabled"] = true,
+						["group"] = 3,
+						["queued"] = 0,
+						["spellID"] = 58065,
+					},
+					[33874] = {
+						["mats"] = {
+							[27671] = 1,
+						},
+						["numMade"] = 1,
+						["name"] = "Kibler's Bits",
+						["enabled"] = true,
+						["group"] = 2,
+						["queued"] = 0,
+						["spellID"] = 43772,
+					},
+					[31672] = {
+						["mats"] = {
+							[31670] = 1,
+						},
+						["numMade"] = 1,
+						["name"] = "Mok'Nathal Shortribs",
+						["enabled"] = true,
+						["group"] = 2,
+						["queued"] = 0,
+						["spellID"] = 38867,
+					},
+					[34748] = {
+						["mats"] = {
+							[34736] = 1,
+						},
+						["numMade"] = 1,
+						["name"] = "Mammoth Meal",
+						["enabled"] = true,
+						["group"] = 3,
+						["queued"] = 0,
+						["spellID"] = 45549,
+					},
+					[17198] = {
+						["mats"] = {
+							[1179] = 1,
+							[17196] = 1,
+							[17194] = 1,
+							[6889] = 1,
+						},
+						["numMade"] = 1,
+						["name"] = "Egg Nog",
+						["enabled"] = true,
+						["group"] = 1,
+						["queued"] = 0,
+						["spellID"] = 21144,
+					},
+					[2680] = {
+						["mats"] = {
+							[2672] = 1,
+						},
+						["numMade"] = 1,
+						["name"] = "Spiced Wolf Meat",
+						["enabled"] = true,
+						["group"] = 1,
+						["queued"] = 0,
+						["spellID"] = 2539,
+					},
+					[2683] = {
+						["mats"] = {
+							[2674] = 1,
+						},
+						["numMade"] = 1,
+						["name"] = "Crab Cake",
+						["enabled"] = true,
+						["group"] = 1,
+						["queued"] = 0,
+						["spellID"] = 2544,
+					},
+					[2687] = {
+						["mats"] = {
+							[2677] = 1,
+						},
+						["numMade"] = 1,
+						["name"] = "Dry Pork Ribs",
+						["enabled"] = true,
+						["group"] = 1,
+						["queued"] = 0,
+						["spellID"] = 2546,
+					},
+					[34763] = {
+						["mats"] = {
+							[41809] = 1,
+						},
+						["numMade"] = 1,
+						["name"] = "Smoked Salmon",
+						["enabled"] = true,
+						["group"] = 3,
+						["queued"] = 0,
+						["spellID"] = 45564,
+					},
+					[2679] = {
+						["mats"] = {
+							[2672] = 1,
+						},
+						["numMade"] = 1,
+						["name"] = "Charred Wolf Meat",
+						["enabled"] = true,
+						["group"] = 1,
+						["queued"] = 0,
+						["spellID"] = 2538,
+					},
+					[34759] = {
+						["mats"] = {
+							[41803] = 1,
+						},
+						["numMade"] = 1,
+						["name"] = "Smoked Rockfin",
+						["enabled"] = true,
+						["group"] = 3,
+						["queued"] = 0,
+						["spellID"] = 45560,
+					},
+					[44836] = {
+						["mats"] = {
+							[46784] = 1,
+							[44853] = 1,
+						},
+						["numMade"] = 1,
+						["name"] = "Pumpkin Pie",
+						["enabled"] = true,
+						["group"] = 1,
+						["queued"] = 0,
+						["spellID"] = 62044,
+					},
+					[44840] = {
+						["mats"] = {
+							[44854] = 1,
+							[44853] = 1,
+						},
+						["numMade"] = 1,
+						["name"] = "Cranberry Chutney",
+						["enabled"] = true,
+						["group"] = 1,
+						["queued"] = 0,
+						["spellID"] = 62049,
+					},
+					[33867] = {
+						["mats"] = {
+							[33823] = 1,
+						},
+						["numMade"] = 1,
+						["name"] = "Broiled Bloodfin",
+						["enabled"] = true,
+						["group"] = 2,
+						["queued"] = 0,
+						["spellID"] = 43761,
+					},
+					[34749] = {
+						["mats"] = {
+							[43009] = 1,
+						},
+						["numMade"] = 1,
+						["name"] = "Shoveltusk Steak",
+						["enabled"] = true,
+						["group"] = 3,
+						["queued"] = 0,
+						["spellID"] = 45550,
+					},
+					[4457] = {
+						["mats"] = {
+							[3404] = 1,
+						},
+						["numMade"] = 1,
+						["name"] = "Barbecued Buzzard Wing",
+						["enabled"] = true,
+						["group"] = 1,
+						["queued"] = 0,
+						["spellID"] = 4094,
+					},
+					[17222] = {
+						["mats"] = {
+							[12205] = 2,
+						},
+						["numMade"] = 1,
+						["name"] = "Spider Sausage",
+						["enabled"] = true,
+						["group"] = 2,
+						["queued"] = 0,
+						["spellID"] = 21175,
+					},
+					[34761] = {
+						["mats"] = {
+							[41812] = 1,
+						},
+						["numMade"] = 1,
+						["name"] = "Sauteed Goby",
+						["enabled"] = true,
+						["group"] = 3,
+						["queued"] = 0,
+						["spellID"] = 45562,
+					},
+					[33053] = {
+						["mats"] = {
+							[27516] = 1,
+						},
+						["numMade"] = 2,
+						["name"] = "Hot Buttered Trout",
+						["enabled"] = true,
+						["group"] = 3,
+						["queued"] = 0,
+						["spellID"] = 42305,
+					},
+					[6657] = {
+						["mats"] = {
+							[6522] = 1,
+						},
+						["numMade"] = 1,
+						["name"] = "Savory Deviate Delight",
+						["enabled"] = true,
+						["group"] = 1,
+						["queued"] = 0,
+						["spellID"] = 8238,
+					},
+					[4594] = {
+						["mats"] = {
+							[6362] = 1,
+						},
+						["numMade"] = 1,
+						["name"] = "Rockscale Cod",
+						["enabled"] = true,
+						["group"] = 1,
+						["queued"] = 0,
+						["spellID"] = 7828,
+					},
+					[33872] = {
+						["mats"] = {
+							[27682] = 1,
+						},
+						["numMade"] = 1,
+						["name"] = "Spicy Hot Talbuk",
+						["enabled"] = true,
+						["group"] = 3,
+						["queued"] = 0,
+						["spellID"] = 43765,
+					},
+					[13851] = {
+						["mats"] = {
+							[12203] = 1,
+						},
+						["numMade"] = 1,
+						["name"] = "Hot Wolf Ribs",
+						["enabled"] = true,
+						["group"] = 1,
+						["queued"] = 0,
+						["spellID"] = 15856,
+					},
+					[21217] = {
+						["mats"] = {
+							[21153] = 1,
+						},
+						["numMade"] = 1,
+						["name"] = "Sagefish Delight",
+						["enabled"] = true,
+						["group"] = 2,
+						["queued"] = 0,
+						["spellID"] = 25954,
+					},
+					[43491] = {
+						["mats"] = {
+							[36782] = 1,
+							[22577] = 1,
+						},
+						["numMade"] = 5,
+						["name"] = "Bad Clams",
+						["enabled"] = true,
+						["group"] = 3,
+						["queued"] = 0,
+						["spellID"] = 58523,
+					},
+					[17197] = {
+						["mats"] = {
+							[6889] = 1,
+							[17194] = 1,
+						},
+						["numMade"] = 1,
+						["name"] = "Gingerbread Cookie",
+						["enabled"] = true,
+						["group"] = 1,
+						["queued"] = 0,
+						["spellID"] = 21143,
+					},
+					[34750] = {
+						["mats"] = {
+							[43010] = 1,
+						},
+						["numMade"] = 1,
+						["name"] = "Worm Delight",
+						["enabled"] = true,
+						["group"] = 3,
+						["queued"] = 0,
+						["spellID"] = 45551,
+					},
+					[27658] = {
+						["mats"] = {
+							[27678] = 1,
+						},
+						["numMade"] = 1,
+						["name"] = "Roasted Clefthoof",
+						["enabled"] = true,
+						["group"] = 2,
+						["queued"] = 0,
+						["spellID"] = 33287,
+					},
+					[27660] = {
+						["mats"] = {
+							[27682] = 1,
+						},
+						["numMade"] = 1,
+						["name"] = "Talbuk Steak",
+						["enabled"] = true,
+						["group"] = 2,
+						["queued"] = 0,
+						["spellID"] = 33289,
+					},
+					[27662] = {
+						["mats"] = {
+							[27425] = 1,
+						},
+						["numMade"] = 1,
+						["name"] = "Feltail Delight",
+						["enabled"] = true,
+						["group"] = 2,
+						["queued"] = 0,
+						["spellID"] = 33291,
+					},
+					[27664] = {
+						["mats"] = {
+							[27435] = 1,
+						},
+						["numMade"] = 1,
+						["name"] = "Grilled Mudfish",
+						["enabled"] = true,
+						["group"] = 2,
+						["queued"] = 0,
+						["spellID"] = 33293,
+					},
+					[2681] = {
+						["mats"] = {
+							[769] = 1,
+						},
+						["numMade"] = 1,
+						["name"] = "Roasted Boar Meat",
+						["enabled"] = true,
+						["group"] = 1,
+						["queued"] = 0,
+						["spellID"] = 2540,
+					},
+				},
 			},
 			["maxRestockQuantity"] = {
 				["Inscription"] = 1,
 				[52207] = 6,
 				["Jewelcrafting"] = 3,
-				[52206] = 6,
 				[52212] = 6,
+				[52206] = 6,
 			},
 			["Blacksmithing"] = {
 				["mats"] = {
@@ -14095,8 +15101,8 @@ TradeSkillMaster_CraftingDB = {
 						["name"] = "Silver Bar",
 					},
 					[52326] = {
-						["name"] = "Volatile Water",
 						["source"] = "auction",
+						["name"] = "Volatile Water",
 					},
 					[3859] = {
 						["name"] = "Steel Bar",
@@ -14226,25 +15232,25 @@ TradeSkillMaster_CraftingDB = {
 						["source"] = "auction",
 						["name"] = "Crystallized Shadow",
 					},
-					[22452] = {
-						["name"] = "Primal Earth",
+					[3860] = {
 						["source"] = "auction",
+						["name"] = "Mithril Bar",
 					},
-					[23793] = {
-						["name"] = "Heavy Knothide Leather",
+					[7067] = {
+						["name"] = "Elemental Earth",
 						["source"] = "auction",
 					},
 					[2318] = {
 						["source"] = "auction",
 						["name"] = "Light Leather",
 					},
-					[7966] = {
+					[35622] = {
+						["name"] = "Eternal Water",
 						["source"] = "auction",
-						["name"] = "Solid Grinding Stone",
 					},
-					[4255] = {
+					[2841] = {
+						["name"] = "Bronze Bar",
 						["source"] = "auction",
-						["name"] = "Green Leather Armor",
 					},
 					[7971] = {
 						["name"] = "Black Pearl",
@@ -14278,8 +15284,9 @@ TradeSkillMaster_CraftingDB = {
 						["name"] = "Small Lustrous Pearl",
 						["source"] = "auction",
 					},
-					[52078] = {
-						["name"] = "Chaos Orb",
+					[3478] = {
+						["name"] = "Coarse Grinding Stone",
+						["source"] = "auction",
 					},
 					[2321] = {
 						["source"] = "vendor",
@@ -14292,24 +15299,24 @@ TradeSkillMaster_CraftingDB = {
 						["source"] = "auction",
 						["name"] = "Iridescent Pearl",
 					},
-					[35624] = {
-						["name"] = "Eternal Earth",
+					[21877] = {
+						["name"] = "Netherweave Cloth",
 						["source"] = "auction",
 					},
 					[58480] = {
 						["name"] = "Truegold",
 						["source"] = "auction",
 					},
-					[21877] = {
-						["name"] = "Netherweave Cloth",
+					[35624] = {
+						["name"] = "Eternal Earth",
 						["source"] = "auction",
 					},
 					[35627] = {
 						["source"] = "auction",
 						["name"] = "Eternal Shadow",
 					},
-					[7912] = {
-						["name"] = "Solid Stone",
+					[21887] = {
+						["name"] = "Knothide Leather",
 						["source"] = "auction",
 					},
 					[3466] = {
@@ -14320,12 +15327,12 @@ TradeSkillMaster_CraftingDB = {
 						["name"] = "Hardened Elementium Bar",
 						["source"] = "auction",
 					},
-					[21887] = {
-						["name"] = "Knothide Leather",
+					[4234] = {
+						["name"] = "Heavy Leather",
 						["source"] = "auction",
 					},
-					[11371] = {
-						["name"] = "Dark Iron Bar",
+					[8170] = {
+						["name"] = "Rugged Leather",
 						["source"] = "auction",
 					},
 					[3575] = {
@@ -14336,12 +15343,12 @@ TradeSkillMaster_CraftingDB = {
 						["name"] = "Titanium Bar",
 						["source"] = "auction",
 					},
-					[2836] = {
-						["name"] = "Coarse Stone",
+					[23447] = {
 						["source"] = "auction",
+						["name"] = "Eternium Bar",
 					},
-					[4306] = {
-						["name"] = "Silk Cloth",
+					[23445] = {
+						["name"] = "Fel Iron Bar",
 						["source"] = "auction",
 					},
 					[37700] = {
@@ -14353,12 +15360,12 @@ TradeSkillMaster_CraftingDB = {
 						["source"] = "auction",
 					},
 					[52186] = {
+						["source"] = "auction",
 						["name"] = "Elementium Bar",
-						["source"] = "auction",
 					},
-					[12359] = {
+					[23448] = {
+						["name"] = "Felsteel Bar",
 						["source"] = "auction",
-						["name"] = "Thorium Bar",
 					},
 					[49908] = {
 						["name"] = "Primordial Saronite",
@@ -14368,33 +15375,33 @@ TradeSkillMaster_CraftingDB = {
 						["source"] = "auction",
 						["name"] = "Volatile Fire",
 					},
-					[2589] = {
+					[3470] = {
 						["source"] = "auction",
-						["name"] = "Linen Cloth",
+						["name"] = "Rough Grinding Stone",
 					},
 					[4304] = {
 						["name"] = "Thick Leather",
 						["source"] = "auction",
 					},
-					[3470] = {
-						["source"] = "auction",
-						["name"] = "Rough Grinding Stone",
-					},
 					[2835] = {
 						["name"] = "Rough Stone",
 						["source"] = "auction",
 					},
-					[23448] = {
-						["name"] = "Felsteel Bar",
+					[2589] = {
+						["source"] = "auction",
+						["name"] = "Linen Cloth",
+					},
+					[12359] = {
+						["source"] = "auction",
+						["name"] = "Thorium Bar",
+					},
+					[4306] = {
+						["name"] = "Silk Cloth",
 						["source"] = "auction",
 					},
-					[23445] = {
-						["name"] = "Fel Iron Bar",
+					[2836] = {
+						["name"] = "Coarse Stone",
 						["source"] = "auction",
-					},
-					[23447] = {
-						["source"] = "auction",
-						["name"] = "Eternium Bar",
 					},
 					[12360] = {
 						["source"] = "auction",
@@ -14404,12 +15411,12 @@ TradeSkillMaster_CraftingDB = {
 						["name"] = "Blue Sapphire",
 						["source"] = "auction",
 					},
-					[8170] = {
-						["name"] = "Rugged Leather",
+					[11371] = {
+						["name"] = "Dark Iron Bar",
 						["source"] = "auction",
 					},
-					[4234] = {
-						["name"] = "Heavy Leather",
+					[7912] = {
+						["name"] = "Solid Stone",
 						["source"] = "auction",
 					},
 					[43102] = {
@@ -14420,9 +15427,8 @@ TradeSkillMaster_CraftingDB = {
 						["source"] = "auction",
 						["name"] = "Dense Stone",
 					},
-					[3478] = {
-						["name"] = "Coarse Grinding Stone",
-						["source"] = "auction",
+					[52078] = {
+						["name"] = "Chaos Orb",
 					},
 					[2838] = {
 						["source"] = "auction",
@@ -14436,21 +15442,21 @@ TradeSkillMaster_CraftingDB = {
 						["name"] = "Primal Air",
 						["source"] = "auction",
 					},
-					[2841] = {
-						["name"] = "Bronze Bar",
+					[4255] = {
+						["source"] = "auction",
+						["name"] = "Green Leather Armor",
+					},
+					[7966] = {
+						["source"] = "auction",
+						["name"] = "Solid Grinding Stone",
+					},
+					[23793] = {
+						["name"] = "Heavy Knothide Leather",
 						["source"] = "auction",
 					},
-					[35622] = {
-						["name"] = "Eternal Water",
+					[22452] = {
+						["name"] = "Primal Earth",
 						["source"] = "auction",
-					},
-					[7067] = {
-						["name"] = "Elemental Earth",
-						["source"] = "auction",
-					},
-					[3860] = {
-						["source"] = "auction",
-						["name"] = "Mithril Bar",
 					},
 				},
 				["crafts"] = {
@@ -14604,8 +15610,8 @@ TradeSkillMaster_CraftingDB = {
 						["name"] = "Titansteel Shield Wall",
 						["mats"] = {
 							[43102] = 1,
-							[36913] = 4,
 							[37663] = 3,
+							[36913] = 4,
 						},
 						["group"] = 7,
 						["queued"] = 0,
@@ -14697,10 +15703,10 @@ TradeSkillMaster_CraftingDB = {
 					},
 					[7166] = {
 						["mats"] = {
-							[2840] = 6,
-							[2880] = 1,
-							[3470] = 1,
 							[2318] = 1,
+							[2880] = 1,
+							[2840] = 6,
+							[3470] = 1,
 						},
 						["numMade"] = 1,
 						["name"] = "Copper Dagger",
@@ -14750,8 +15756,8 @@ TradeSkillMaster_CraftingDB = {
 						["name"] = "Spiked Titansteel Treads",
 						["mats"] = {
 							[43102] = 1,
-							[36913] = 4,
 							[37663] = 3,
+							[36913] = 4,
 						},
 						["group"] = 3,
 						["queued"] = 0,
@@ -14870,8 +15876,8 @@ TradeSkillMaster_CraftingDB = {
 						["name"] = "Tempered Titansteel Treads",
 						["mats"] = {
 							[43102] = 1,
-							[36913] = 4,
 							[37663] = 3,
+							[36913] = 4,
 						},
 						["group"] = 3,
 						["queued"] = 0,
@@ -14951,10 +15957,10 @@ TradeSkillMaster_CraftingDB = {
 					},
 					[55046] = {
 						["mats"] = {
-							[52327] = 10,
-							[65365] = 4,
-							[52326] = 6,
 							[52186] = 12,
+							[52327] = 10,
+							[52326] = 6,
+							[65365] = 4,
 						},
 						["numMade"] = 1,
 						["name"] = "Lifeforce Hammer",
@@ -15120,8 +16126,8 @@ TradeSkillMaster_CraftingDB = {
 						["name"] = "Brilliant Titansteel Treads",
 						["mats"] = {
 							[43102] = 1,
-							[36913] = 4,
 							[37663] = 3,
+							[36913] = 4,
 						},
 						["group"] = 3,
 						["queued"] = 0,
@@ -15505,9 +16511,9 @@ TradeSkillMaster_CraftingDB = {
 						["mats"] = {
 							[7069] = 2,
 							[3859] = 10,
-							[3829] = 1,
-							[7070] = 2,
 							[4234] = 2,
+							[7070] = 2,
+							[3829] = 1,
 						},
 						["numMade"] = 1,
 						["name"] = "Edge of Winter",
@@ -15519,8 +16525,8 @@ TradeSkillMaster_CraftingDB = {
 					[45085] = {
 						["mats"] = {
 							[43102] = 2,
-							[37663] = 6,
 							[34054] = 6,
+							[37663] = 6,
 						},
 						["numMade"] = 1,
 						["name"] = "Titansteel Spellblade",
@@ -15590,8 +16596,8 @@ TradeSkillMaster_CraftingDB = {
 					[42435] = {
 						["mats"] = {
 							[43102] = 2,
-							[36913] = 6,
 							[37663] = 6,
+							[36913] = 6,
 						},
 						["numMade"] = 1,
 						["name"] = "Titansteel Shanker",
@@ -15615,8 +16621,8 @@ TradeSkillMaster_CraftingDB = {
 						["mats"] = {
 							[7069] = 2,
 							[3486] = 2,
-							[3859] = 5,
 							[4234] = 1,
+							[3859] = 5,
 						},
 						["numMade"] = 1,
 						["name"] = "Whirling Steel Axes",
@@ -15639,8 +16645,8 @@ TradeSkillMaster_CraftingDB = {
 						["mats"] = {
 							[3466] = 1,
 							[2841] = 6,
-							[5498] = 2,
 							[3478] = 2,
+							[5498] = 2,
 						},
 						["numMade"] = 1,
 						["name"] = "Pearl-Handled Dagger",
@@ -15655,8 +16661,8 @@ TradeSkillMaster_CraftingDB = {
 						["name"] = "Brilliant Saronite Legplates",
 						["mats"] = {
 							[37705] = 1,
-							[36916] = 5,
 							[36913] = 5,
+							[36916] = 5,
 						},
 						["group"] = 6,
 						["queued"] = 0,
@@ -15777,8 +16783,8 @@ TradeSkillMaster_CraftingDB = {
 						["name"] = "Hardened Obsidium Shoulders",
 						["mats"] = {
 							[52327] = 10,
-							[65365] = 5,
 							[52186] = 15,
+							[65365] = 5,
 						},
 						["group"] = 8,
 						["queued"] = 0,
@@ -15878,8 +16884,8 @@ TradeSkillMaster_CraftingDB = {
 							[3575] = 20,
 							[3486] = 4,
 							[1529] = 2,
-							[1206] = 2,
 							[4255] = 1,
+							[1206] = 2,
 						},
 						["group"] = 2,
 						["queued"] = 0,
@@ -15889,8 +16895,8 @@ TradeSkillMaster_CraftingDB = {
 						["mats"] = {
 							[3859] = 8,
 							[3864] = 1,
-							[1705] = 1,
 							[3486] = 2,
+							[1705] = 1,
 						},
 						["numMade"] = 1,
 						["name"] = "Polished Steel Boots",
@@ -15919,8 +16925,8 @@ TradeSkillMaster_CraftingDB = {
 							[3575] = 8,
 							[4234] = 2,
 							[3466] = 2,
-							[3486] = 1,
 							[2842] = 4,
+							[3486] = 1,
 						},
 						["numMade"] = 1,
 						["name"] = "Solid Iron Maul",
@@ -15934,9 +16940,9 @@ TradeSkillMaster_CraftingDB = {
 							[3575] = 10,
 							[3486] = 2,
 							[3466] = 2,
-							[4234] = 2,
-							[1705] = 2,
 							[3577] = 4,
+							[1705] = 2,
+							[4234] = 2,
 						},
 						["numMade"] = 1,
 						["name"] = "Golden Iron Destroyer",
@@ -15974,8 +16980,8 @@ TradeSkillMaster_CraftingDB = {
 							[3575] = 14,
 							[4234] = 2,
 							[3466] = 2,
-							[3486] = 2,
 							[3577] = 4,
+							[3486] = 2,
 						},
 						["numMade"] = 1,
 						["name"] = "Massive Iron Axe",
@@ -16063,8 +17069,8 @@ TradeSkillMaster_CraftingDB = {
 					[2848] = {
 						["mats"] = {
 							[2319] = 1,
-							[2841] = 6,
 							[2880] = 4,
+							[2841] = 6,
 						},
 						["numMade"] = 1,
 						["name"] = "Bronze Mace",
@@ -16450,8 +17456,8 @@ TradeSkillMaster_CraftingDB = {
 						["mats"] = {
 							[22451] = 2,
 							[23448] = 6,
-							[21884] = 2,
 							[23793] = 1,
+							[21884] = 2,
 						},
 						["numMade"] = 1,
 						["name"] = "Felsteel Whisper Knives",
@@ -16460,29 +17466,29 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 34983,
 					},
-					[70019] = {
-						["mats"] = {
-							[52186] = 8,
-							[52326] = 10,
-						},
+					[16206] = {
+						["enabled"] = false,
 						["numMade"] = 1,
-						["name"] = "Bloodthirsty Ornate Pyrium Bracers",
-						["enabled"] = true,
-						["group"] = 16,
-						["queued"] = 3,
-						["spellID"] = 76465,
+						["name"] = "Arcanite Rod",
+						["mats"] = {
+							[12360] = 3,
+							[12644] = 1,
+						},
+						["group"] = 15,
+						["queued"] = 0,
+						["spellID"] = 20201,
 					},
-					[70014] = {
-						["mats"] = {
-							[52186] = 10,
-							[52326] = 10,
-						},
+					[2854] = {
+						["enabled"] = false,
 						["numMade"] = 1,
-						["name"] = "Bloodthirsty Ornate Pyrium Gauntlets",
-						["enabled"] = true,
-						["group"] = 16,
-						["queued"] = 3,
-						["spellID"] = 76466,
+						["name"] = "Runed Copper Bracers",
+						["mats"] = {
+							[2840] = 10,
+							[3470] = 3,
+						},
+						["group"] = 10,
+						["queued"] = 0,
+						["spellID"] = 2664,
 					},
 					[70017] = {
 						["mats"] = {
@@ -16496,38 +17502,42 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 3,
 						["spellID"] = 76469,
 					},
-					[40954] = {
+					[41745] = {
 						["enabled"] = false,
 						["numMade"] = 1,
-						["name"] = "Spiked Cobalt Bracers",
+						["name"] = "Titanium Rod",
 						["mats"] = {
-							[36916] = 12,
+							[36913] = 2,
+							[41163] = 1,
 						},
-						["group"] = 10,
-						["queued"] = 0,
-						["spellID"] = 54948,
-					},
-					[65365] = {
-						["mats"] = {
-							[54849] = 2,
-						},
-						["numMade"] = 1,
-						["name"] = "Folded Obsidium",
 						["group"] = 15,
 						["queued"] = 0,
-						["spellID"] = 76178,
+						["spellID"] = 55732,
 					},
-					[12405] = {
+					[2849] = {
+						["mats"] = {
+							[2319] = 1,
+							[2880] = 4,
+							[2841] = 7,
+						},
+						["numMade"] = 1,
+						["name"] = "Bronze Axe",
+						["enabled"] = false,
+						["group"] = 11,
+						["queued"] = 0,
+						["spellID"] = 2741,
+					},
+					[41351] = {
 						["enabled"] = false,
 						["numMade"] = 1,
-						["name"] = "Thorium Armor",
+						["name"] = "Savage Saronite Pauldrons",
 						["mats"] = {
-							[12359] = 16,
-							[12361] = 1,
+							[36913] = 12,
+							[35622] = 1,
 						},
-						["group"] = 2,
+						["group"] = 8,
 						["queued"] = 0,
-						["spellID"] = 16642,
+						["spellID"] = 55306,
 					},
 					[70005] = {
 						["enabled"] = true,
@@ -16579,8 +17589,8 @@ TradeSkillMaster_CraftingDB = {
 					[41182] = {
 						["mats"] = {
 							[37702] = 2,
-							[36916] = 8,
 							[36913] = 6,
+							[36916] = 8,
 						},
 						["numMade"] = 1,
 						["name"] = "Savage Cobalt Slicer",
@@ -16612,17 +17622,16 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 56550,
 					},
-					[43864] = {
-						["enabled"] = false,
-						["numMade"] = 1,
-						["name"] = "Brilliant Saronite Bracers",
+					[23497] = {
 						["mats"] = {
-							[36916] = 3,
-							[36913] = 8,
+							[23445] = 9,
 						},
-						["group"] = 10,
+						["numMade"] = 1,
+						["name"] = "Fel Iron Hatchet",
+						["enabled"] = false,
+						["group"] = 12,
 						["queued"] = 0,
-						["spellID"] = 59438,
+						["spellID"] = 29557,
 					},
 					[55023] = {
 						["enabled"] = false,
@@ -16630,8 +17639,8 @@ TradeSkillMaster_CraftingDB = {
 						["name"] = "Hardened Obsidium Helm",
 						["mats"] = {
 							[52327] = 6,
-							[65365] = 4,
 							[52186] = 15,
+							[65365] = 4,
 						},
 						["group"] = 5,
 						["queued"] = 0,
@@ -16671,42 +17680,42 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 15292,
 					},
-					[2850] = {
+					[6214] = {
 						["mats"] = {
-							[2319] = 2,
-							[2841] = 5,
-							[2880] = 4,
+							[2880] = 2,
+							[2840] = 12,
+							[2318] = 2,
 						},
 						["numMade"] = 1,
-						["name"] = "Bronze Shortsword",
+						["name"] = "Heavy Copper Maul",
 						["enabled"] = false,
-						["group"] = 11,
+						["group"] = 14,
 						["queued"] = 0,
-						["spellID"] = 2742,
+						["spellID"] = 7408,
 					},
-					[55039] = {
-						["enabled"] = false,
-						["numMade"] = 1,
-						["name"] = "Stormforged Helm",
+					[41184] = {
 						["mats"] = {
-							[52186] = 20,
-							[52327] = 8,
+							[36913] = 12,
+							[37703] = 2,
 						},
-						["group"] = 5,
+						["numMade"] = 1,
+						["name"] = "Saronite Shiv",
+						["enabled"] = false,
+						["group"] = 12,
 						["queued"] = 0,
-						["spellID"] = 76288,
+						["spellID"] = 55181,
 					},
-					[41245] = {
-						["mats"] = {
-							[36913] = 7,
-							[37700] = 2,
-						},
-						["numMade"] = 1,
-						["name"] = "Deadly Saronite Dirk",
+					[55042] = {
 						["enabled"] = false,
-						["group"] = 13,
+						["numMade"] = 1,
+						["name"] = "Stormforged Shield",
+						["mats"] = {
+							[65365] = 10,
+							[52327] = 4,
+						},
+						["group"] = 7,
 						["queued"] = 0,
-						["spellID"] = 55206,
+						["spellID"] = 76293,
 					},
 					[3239] = {
 						["mats"] = {
@@ -16732,17 +17741,17 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 55305,
 					},
-					[41976] = {
-						["mats"] = {
-							[36913] = 2,
-							[41163] = 1,
-						},
-						["numMade"] = 1,
-						["name"] = "Titanium Weapon Chain",
+					[41127] = {
 						["enabled"] = false,
-						["group"] = 1,
+						["numMade"] = 1,
+						["name"] = "Brilliant Saronite Gauntlets",
+						["mats"] = {
+							[36916] = 3,
+							[36913] = 8,
+						},
+						["group"] = 4,
 						["queued"] = 0,
-						["spellID"] = 55839,
+						["spellID"] = 55056,
 					},
 					[41386] = {
 						["enabled"] = false,
@@ -16750,8 +17759,8 @@ TradeSkillMaster_CraftingDB = {
 						["name"] = "Spiked Titansteel Helm",
 						["mats"] = {
 							[43102] = 1,
-							[36913] = 4,
 							[37663] = 4,
+							[36913] = 4,
 						},
 						["group"] = 5,
 						["queued"] = 0,
@@ -16779,30 +17788,29 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 55201,
 					},
-					[40670] = {
-						["enabled"] = false,
-						["numMade"] = 1,
-						["name"] = "Saronite Defender",
+					[41181] = {
 						["mats"] = {
-							[36916] = 6,
+							[37702] = 2,
 							[36913] = 4,
-						},
-						["group"] = 7,
-						["queued"] = 0,
-						["spellID"] = 54557,
-					},
-					[55052] = {
-						["mats"] = {
-							[52327] = 6,
-							[65365] = 10,
-							[52186] = 10,
+							[36916] = 12,
 						},
 						["numMade"] = 1,
-						["name"] = "Obsidium Executioner",
+						["name"] = "Honed Cobalt Cleaver",
 						["enabled"] = false,
 						["group"] = 14,
 						["queued"] = 0,
-						["spellID"] = 76437,
+						["spellID"] = 55174,
+					},
+					[41974] = {
+						["enabled"] = false,
+						["numMade"] = 1,
+						["name"] = "Cobalt Bracers",
+						["mats"] = {
+							[36916] = 4,
+						},
+						["group"] = 10,
+						["queued"] = 0,
+						["spellID"] = 55834,
 					},
 					[40955] = {
 						["enabled"] = false,
@@ -16815,30 +17823,28 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 54949,
 					},
-					[41239] = {
-						["mats"] = {
-							[36916] = 8,
-						},
-						["numMade"] = 1,
-						["name"] = "Sturdy Cobalt Quickblade",
+					[41975] = {
 						["enabled"] = false,
-						["group"] = 12,
+						["numMade"] = 1,
+						["name"] = "Cobalt Gauntlets",
+						["mats"] = {
+							[36916] = 5,
+						},
+						["group"] = 4,
 						["queued"] = 0,
-						["spellID"] = 55200,
+						["spellID"] = 55835,
 					},
-					[7955] = {
-						["mats"] = {
-							[2840] = 10,
-							[2880] = 2,
-							[3470] = 1,
-							[2318] = 1,
-						},
-						["numMade"] = 1,
-						["name"] = "Copper Claymore",
+					[12424] = {
 						["enabled"] = false,
-						["group"] = 14,
+						["numMade"] = 1,
+						["name"] = "Imperial Plate Belt",
+						["mats"] = {
+							[12359] = 10,
+							[8170] = 6,
+						},
+						["group"] = 9,
 						["queued"] = 0,
-						["spellID"] = 9983,
+						["spellID"] = 16647,
 					},
 					[15871] = {
 						["mats"] = {
@@ -16852,40 +17858,41 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 19668,
 					},
-					[23494] = {
-						["mats"] = {
-							[23445] = 6,
-						},
-						["numMade"] = 1,
-						["name"] = "Fel Iron Chain Bracers",
+					[40672] = {
 						["enabled"] = false,
-						["group"] = 10,
-						["queued"] = 0,
-						["spellID"] = 29553,
-					},
-					[23490] = {
-						["mats"] = {
-							[23445] = 9,
-						},
 						["numMade"] = 1,
-						["name"] = "Fel Iron Chain Tunic",
-						["enabled"] = false,
+						["name"] = "Tempered Saronite Breastplate",
+						["mats"] = {
+							[36913] = 5,
+							[37701] = 1,
+							[36916] = 6,
+						},
 						["group"] = 2,
 						["queued"] = 0,
-						["spellID"] = 29556,
+						["spellID"] = 54553,
 					},
-					[41383] = {
-						["mats"] = {
-							[43102] = 2,
-							[36913] = 6,
-							[37663] = 6,
-						},
-						["numMade"] = 1,
-						["name"] = "Titansteel Bonecrusher",
+					[40953] = {
 						["enabled"] = false,
-						["group"] = 11,
+						["numMade"] = 1,
+						["name"] = "Spiked Cobalt Belt",
+						["mats"] = {
+							[36916] = 12,
+						},
+						["group"] = 9,
 						["queued"] = 0,
-						["spellID"] = 55370,
+						["spellID"] = 54946,
+					},
+					[42724] = {
+						["enabled"] = false,
+						["numMade"] = 1,
+						["name"] = "Ornate Saronite Gauntlets",
+						["mats"] = {
+							[36913] = 12,
+							[36860] = 1,
+						},
+						["group"] = 4,
+						["queued"] = 0,
+						["spellID"] = 56553,
 					},
 					[23502] = {
 						["mats"] = {
@@ -16898,41 +17905,39 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 29566,
 					},
-					[39085] = {
+					[2868] = {
 						["enabled"] = false,
 						["numMade"] = 1,
-						["name"] = "Cobalt Chestpiece",
+						["name"] = "Patterned Bronze Bracers",
 						["mats"] = {
-							[36916] = 6,
+							[2841] = 5,
+							[3478] = 2,
 						},
-						["group"] = 2,
+						["group"] = 10,
 						["queued"] = 0,
-						["spellID"] = 52570,
+						["spellID"] = 2672,
 					},
-					[47593] = {
-						["enabled"] = false,
-						["numMade"] = 1,
-						["name"] = "Sunforged Breastplate",
+					[43854] = {
 						["mats"] = {
-							[37663] = 10,
-							[35625] = 20,
-							[47556] = 8,
+							[36916] = 4,
 						},
-						["group"] = 2,
+						["numMade"] = 10,
+						["name"] = "Cobalt Skeleton Key",
+						["enabled"] = false,
+						["group"] = 15,
 						["queued"] = 0,
-						["spellID"] = 67095,
+						["spellID"] = 59405,
 					},
-					[41185] = {
+					[41241] = {
 						["mats"] = {
-							[36913] = 15,
-							[37701] = 2,
+							[36916] = 7,
 						},
 						["numMade"] = 1,
-						["name"] = "Furious Saronite Beatstick",
+						["name"] = "Sure-Fire Shuriken",
 						["enabled"] = false,
-						["group"] = 12,
+						["group"] = 13,
 						["queued"] = 0,
-						["spellID"] = 55182,
+						["spellID"] = 55202,
 					},
 					[39087] = {
 						["enabled"] = false,
@@ -16945,28 +17950,27 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 52568,
 					},
-					[12643] = {
+					[7920] = {
 						["mats"] = {
-							[12365] = 1,
-							[14047] = 1,
+							[3860] = 12,
 						},
 						["numMade"] = 1,
-						["name"] = "Dense Weightstone",
+						["name"] = "Mithril Scale Pants",
 						["enabled"] = false,
-						["group"] = 1,
+						["group"] = 6,
 						["queued"] = 0,
-						["spellID"] = 16640,
+						["spellID"] = 9931,
 					},
-					[41243] = {
-						["mats"] = {
-							[36916] = 10,
-						},
-						["numMade"] = 1,
-						["name"] = "Notched Cobalt War Axe",
+					[55040] = {
 						["enabled"] = false,
-						["group"] = 12,
+						["numMade"] = 1,
+						["name"] = "Stormforged Breastplate",
+						["mats"] = {
+							[52186] = 15,
+						},
+						["group"] = 2,
 						["queued"] = 0,
-						["spellID"] = 55204,
+						["spellID"] = 76289,
 					},
 					[7918] = {
 						["enabled"] = false,
@@ -16980,16 +17984,17 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 9926,
 					},
-					[7920] = {
-						["mats"] = {
-							[3860] = 12,
-						},
-						["numMade"] = 1,
-						["name"] = "Mithril Scale Pants",
+					[42728] = {
 						["enabled"] = false,
-						["group"] = 6,
+						["numMade"] = 1,
+						["name"] = "Ornate Saronite Skullshield",
+						["mats"] = {
+							[36913] = 14,
+							[35627] = 1,
+						},
+						["group"] = 5,
 						["queued"] = 0,
-						["spellID"] = 9931,
+						["spellID"] = 56556,
 					},
 					[7922] = {
 						["enabled"] = false,
@@ -17016,20 +18021,16 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 76261,
 					},
-					[12259] = {
+					[41243] = {
 						["mats"] = {
-							[7067] = 1,
-							[1206] = 1,
-							[3466] = 2,
-							[3859] = 10,
-							[4234] = 1,
+							[36916] = 10,
 						},
 						["numMade"] = 1,
-						["name"] = "Glinting Steel Dagger",
+						["name"] = "Notched Cobalt War Axe",
 						["enabled"] = false,
 						["group"] = 12,
 						["queued"] = 0,
-						["spellID"] = 15972,
+						["spellID"] = 55204,
 					},
 					[40668] = {
 						["enabled"] = false,
@@ -17064,18 +18065,17 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 29549,
 					},
-					[41257] = {
+					[7931] = {
 						["mats"] = {
-							[43102] = 2,
-							[36913] = 8,
-							[37663] = 8,
+							[3860] = 10,
+							[4338] = 6,
 						},
 						["numMade"] = 1,
-						["name"] = "Titansteel Destroyer",
+						["name"] = "Mithril Coif",
 						["enabled"] = false,
-						["group"] = 14,
+						["group"] = 5,
 						["queued"] = 0,
-						["spellID"] = 55369,
+						["spellID"] = 9961,
 					},
 					[23504] = {
 						["mats"] = {
@@ -17089,17 +18089,18 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 29569,
 					},
-					[15872] = {
+					[7956] = {
 						["mats"] = {
-							[12360] = 1,
-							[12644] = 1,
+							[3466] = 1,
+							[2841] = 8,
+							[2319] = 1,
 						},
-						["numMade"] = 2,
-						["name"] = "Arcanite Skeleton Key",
+						["numMade"] = 1,
+						["name"] = "Bronze Warhammer",
 						["enabled"] = false,
-						["group"] = 15,
+						["group"] = 14,
 						["queued"] = 0,
-						["spellID"] = 19669,
+						["spellID"] = 9985,
 					},
 					[41355] = {
 						["enabled"] = false,
@@ -17131,47 +18132,46 @@ TradeSkillMaster_CraftingDB = {
 						["name"] = "Tempered Titansteel Helm",
 						["mats"] = {
 							[43102] = 1,
-							[36913] = 4,
 							[37663] = 4,
+							[36913] = 4,
 						},
 						["group"] = 5,
 						["queued"] = 0,
 						["spellID"] = 55373,
 					},
-					[41128] = {
+					[3472] = {
 						["enabled"] = false,
 						["numMade"] = 1,
-						["name"] = "Brilliant Saronite Boots",
+						["name"] = "Runed Copper Gauntlets",
 						["mats"] = {
-							[36913] = 12,
+							[2840] = 8,
+							[3470] = 2,
 						},
-						["group"] = 3,
+						["group"] = 4,
 						["queued"] = 0,
-						["spellID"] = 55057,
+						["spellID"] = 3323,
 					},
-					[12427] = {
+					[25844] = {
 						["enabled"] = false,
 						["numMade"] = 1,
-						["name"] = "Imperial Plate Helm",
+						["name"] = "Adamantite Rod",
 						["mats"] = {
-							[12359] = 18,
-							[7910] = 1,
+							[23446] = 10,
 						},
-						["group"] = 5,
+						["group"] = 15,
 						["queued"] = 0,
-						["spellID"] = 16658,
+						["spellID"] = 32656,
 					},
-					[3480] = {
+					[41116] = {
 						["enabled"] = false,
 						["numMade"] = 1,
-						["name"] = "Rough Bronze Shoulders",
+						["name"] = "Tempered Saronite Bracers",
 						["mats"] = {
-							[2841] = 5,
-							[3478] = 1,
+							[36913] = 13,
 						},
-						["group"] = 8,
+						["group"] = 10,
 						["queued"] = 0,
-						["spellID"] = 3328,
+						["spellID"] = 55017,
 					},
 					[3469] = {
 						["enabled"] = false,
@@ -17194,54 +18194,56 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 3320,
 					},
-					[7956] = {
-						["mats"] = {
-							[3466] = 1,
-							[2841] = 8,
-							[2319] = 1,
-						},
-						["numMade"] = 1,
-						["name"] = "Bronze Warhammer",
-						["enabled"] = false,
-						["group"] = 14,
-						["queued"] = 0,
-						["spellID"] = 9985,
-					},
-					[3472] = {
+					[3471] = {
 						["enabled"] = false,
 						["numMade"] = 1,
-						["name"] = "Runed Copper Gauntlets",
+						["name"] = "Copper Chain Vest",
 						["mats"] = {
 							[2840] = 8,
 							[3470] = 2,
 						},
-						["group"] = 4,
+						["group"] = 2,
 						["queued"] = 0,
-						["spellID"] = 3323,
+						["spellID"] = 3321,
+					},
+					[7958] = {
+						["mats"] = {
+							[3466] = 1,
+							[2841] = 14,
+							[2319] = 2,
+						},
+						["numMade"] = 1,
+						["name"] = "Bronze Battle Axe",
+						["enabled"] = false,
+						["group"] = 14,
+						["queued"] = 0,
+						["spellID"] = 9987,
 					},
 					[3473] = {
 						["enabled"] = false,
 						["numMade"] = 1,
 						["name"] = "Runed Copper Pants",
 						["mats"] = {
+							[2321] = 2,
 							[3470] = 3,
 							[2840] = 8,
-							[2321] = 2,
 						},
 						["group"] = 6,
 						["queued"] = 0,
 						["spellID"] = 3324,
 					},
-					[39088] = {
+					[3484] = {
 						["enabled"] = false,
 						["numMade"] = 1,
-						["name"] = "Cobalt Boots",
+						["name"] = "Green Iron Boots",
 						["mats"] = {
-							[36916] = 4,
+							[3478] = 2,
+							[3575] = 6,
+							[2605] = 1,
 						},
 						["group"] = 3,
 						["queued"] = 0,
-						["spellID"] = 52569,
+						["spellID"] = 3334,
 					},
 					[7964] = {
 						["mats"] = {
@@ -17264,16 +18266,19 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 9920,
 					},
-					[55025] = {
-						["enabled"] = false,
-						["numMade"] = 1,
-						["name"] = "Redsteel Bracers",
+					[3487] = {
 						["mats"] = {
-							[65365] = 3,
+							[818] = 2,
+							[2880] = 2,
+							[2840] = 14,
+							[2319] = 2,
 						},
-						["group"] = 10,
+						["numMade"] = 1,
+						["name"] = "Heavy Copper Broadsword",
+						["enabled"] = false,
+						["group"] = 14,
 						["queued"] = 0,
-						["spellID"] = 76262,
+						["spellID"] = 3292,
 					},
 					[3478] = {
 						["mats"] = {
@@ -17299,16 +18304,17 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 55656,
 					},
-					[41116] = {
+					[3480] = {
 						["enabled"] = false,
 						["numMade"] = 1,
-						["name"] = "Tempered Saronite Bracers",
+						["name"] = "Rough Bronze Shoulders",
 						["mats"] = {
-							[36913] = 13,
+							[2841] = 5,
+							[3478] = 1,
 						},
-						["group"] = 10,
+						["group"] = 8,
 						["queued"] = 0,
-						["spellID"] = 55017,
+						["spellID"] = 3328,
 					},
 					[3481] = {
 						["enabled"] = false,
@@ -17349,18 +18355,17 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 3333,
 					},
-					[3484] = {
+					[40669] = {
 						["enabled"] = false,
 						["numMade"] = 1,
-						["name"] = "Green Iron Boots",
+						["name"] = "Tempered Saronite Belt",
 						["mats"] = {
-							[3478] = 2,
-							[3575] = 6,
-							[2605] = 1,
+							[36916] = 6,
+							[36913] = 5,
 						},
-						["group"] = 3,
+						["group"] = 9,
 						["queued"] = 0,
-						["spellID"] = 3334,
+						["spellID"] = 54551,
 					},
 					[42729] = {
 						["enabled"] = false,
@@ -17384,27 +18389,24 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 3337,
 					},
-					[3487] = {
-						["mats"] = {
-							[818] = 2,
-							[2880] = 2,
-							[2840] = 14,
-							[2319] = 2,
-						},
-						["numMade"] = 1,
-						["name"] = "Heavy Copper Broadsword",
+					[55025] = {
 						["enabled"] = false,
-						["group"] = 14,
+						["numMade"] = 1,
+						["name"] = "Redsteel Bracers",
+						["mats"] = {
+							[65365] = 3,
+						},
+						["group"] = 10,
 						["queued"] = 0,
-						["spellID"] = 3292,
+						["spellID"] = 76262,
 					},
 					[3488] = {
 						["mats"] = {
 							[2840] = 12,
 							[774] = 2,
 							[2880] = 2,
-							[3470] = 2,
 							[2318] = 2,
+							[3470] = 2,
 						},
 						["numMade"] = 1,
 						["name"] = "Copper Battle Axe",
@@ -17446,8 +18448,8 @@ TradeSkillMaster_CraftingDB = {
 							[1206] = 1,
 							[1210] = 1,
 							[2319] = 2,
-							[3466] = 1,
 							[3478] = 2,
+							[3466] = 1,
 						},
 						["numMade"] = 1,
 						["name"] = "Heavy Bronze Mace",
@@ -17455,30 +18457,6 @@ TradeSkillMaster_CraftingDB = {
 						["group"] = 12,
 						["queued"] = 0,
 						["spellID"] = 3296,
-					},
-					[41384] = {
-						["mats"] = {
-							[43102] = 2,
-							[36913] = 6,
-							[37663] = 6,
-						},
-						["numMade"] = 1,
-						["name"] = "Titansteel Guardian",
-						["enabled"] = false,
-						["group"] = 11,
-						["queued"] = 0,
-						["spellID"] = 55371,
-					},
-					[55041] = {
-						["enabled"] = false,
-						["numMade"] = 1,
-						["name"] = "Hardened Obsidium Shield",
-						["mats"] = {
-							[65365] = 3,
-						},
-						["group"] = 7,
-						["queued"] = 0,
-						["spellID"] = 76291,
 					},
 					[41352] = {
 						["enabled"] = false,
@@ -17492,6 +18470,30 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 55307,
 					},
+					[55041] = {
+						["enabled"] = false,
+						["numMade"] = 1,
+						["name"] = "Hardened Obsidium Shield",
+						["mats"] = {
+							[65365] = 3,
+						},
+						["group"] = 7,
+						["queued"] = 0,
+						["spellID"] = 76291,
+					},
+					[41384] = {
+						["mats"] = {
+							[43102] = 2,
+							[37663] = 6,
+							[36913] = 6,
+						},
+						["numMade"] = 1,
+						["name"] = "Titansteel Guardian",
+						["enabled"] = false,
+						["group"] = 11,
+						["queued"] = 0,
+						["spellID"] = 55371,
+					},
 					[41356] = {
 						["enabled"] = false,
 						["numMade"] = 1,
@@ -17504,17 +18506,16 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 55300,
 					},
-					[40669] = {
+					[39088] = {
 						["enabled"] = false,
 						["numMade"] = 1,
-						["name"] = "Tempered Saronite Belt",
+						["name"] = "Cobalt Boots",
 						["mats"] = {
-							[36916] = 6,
-							[36913] = 5,
+							[36916] = 4,
 						},
-						["group"] = 9,
+						["group"] = 3,
 						["queued"] = 0,
-						["spellID"] = 54551,
+						["spellID"] = 52569,
 					},
 					[41388] = {
 						["enabled"] = false,
@@ -17522,60 +18523,60 @@ TradeSkillMaster_CraftingDB = {
 						["name"] = "Brilliant Titansteel Helm",
 						["mats"] = {
 							[43102] = 1,
-							[36913] = 4,
 							[37663] = 4,
+							[36913] = 4,
 						},
 						["group"] = 5,
 						["queued"] = 0,
 						["spellID"] = 55374,
 					},
-					[25844] = {
+					[12427] = {
 						["enabled"] = false,
 						["numMade"] = 1,
-						["name"] = "Adamantite Rod",
+						["name"] = "Imperial Plate Helm",
 						["mats"] = {
-							[23446] = 10,
+							[12359] = 18,
+							[7910] = 1,
 						},
+						["group"] = 5,
+						["queued"] = 0,
+						["spellID"] = 16658,
+					},
+					[41128] = {
+						["enabled"] = false,
+						["numMade"] = 1,
+						["name"] = "Brilliant Saronite Boots",
+						["mats"] = {
+							[36913] = 12,
+						},
+						["group"] = 3,
+						["queued"] = 0,
+						["spellID"] = 55057,
+					},
+					[15872] = {
+						["mats"] = {
+							[12360] = 1,
+							[12644] = 1,
+						},
+						["numMade"] = 2,
+						["name"] = "Arcanite Skeleton Key",
+						["enabled"] = false,
 						["group"] = 15,
 						["queued"] = 0,
-						["spellID"] = 32656,
+						["spellID"] = 19669,
 					},
-					[7958] = {
+					[41257] = {
 						["mats"] = {
-							[3466] = 1,
-							[2841] = 14,
-							[2319] = 2,
+							[43102] = 2,
+							[37663] = 8,
+							[36913] = 8,
 						},
 						["numMade"] = 1,
-						["name"] = "Bronze Battle Axe",
+						["name"] = "Titansteel Destroyer",
 						["enabled"] = false,
 						["group"] = 14,
 						["queued"] = 0,
-						["spellID"] = 9987,
-					},
-					[3471] = {
-						["enabled"] = false,
-						["numMade"] = 1,
-						["name"] = "Copper Chain Vest",
-						["mats"] = {
-							[2840] = 8,
-							[3470] = 2,
-						},
-						["group"] = 2,
-						["queued"] = 0,
-						["spellID"] = 3321,
-					},
-					[7931] = {
-						["mats"] = {
-							[3860] = 10,
-							[4338] = 6,
-						},
-						["numMade"] = 1,
-						["name"] = "Mithril Coif",
-						["enabled"] = false,
-						["group"] = 5,
-						["queued"] = 0,
-						["spellID"] = 9961,
+						["spellID"] = 55369,
 					},
 					[40957] = {
 						["enabled"] = false,
@@ -17589,62 +18590,68 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 54979,
 					},
-					[55040] = {
+					[12259] = {
+						["mats"] = {
+							[7067] = 1,
+							[1206] = 1,
+							[3466] = 2,
+							[3859] = 10,
+							[4234] = 1,
+						},
+						["numMade"] = 1,
+						["name"] = "Glinting Steel Dagger",
+						["enabled"] = false,
+						["group"] = 12,
+						["queued"] = 0,
+						["spellID"] = 15972,
+					},
+					[12643] = {
+						["mats"] = {
+							[12365] = 1,
+							[14047] = 1,
+						},
+						["numMade"] = 1,
+						["name"] = "Dense Weightstone",
+						["enabled"] = false,
+						["group"] = 1,
+						["queued"] = 0,
+						["spellID"] = 16640,
+					},
+					[41185] = {
+						["mats"] = {
+							[36913] = 15,
+							[37701] = 2,
+						},
+						["numMade"] = 1,
+						["name"] = "Furious Saronite Beatstick",
+						["enabled"] = false,
+						["group"] = 12,
+						["queued"] = 0,
+						["spellID"] = 55182,
+					},
+					[47593] = {
 						["enabled"] = false,
 						["numMade"] = 1,
-						["name"] = "Stormforged Breastplate",
+						["name"] = "Sunforged Breastplate",
 						["mats"] = {
-							[52186] = 15,
+							[37663] = 10,
+							[35625] = 20,
+							[47556] = 8,
 						},
 						["group"] = 2,
 						["queued"] = 0,
-						["spellID"] = 76289,
+						["spellID"] = 67095,
 					},
-					[42728] = {
+					[39085] = {
 						["enabled"] = false,
 						["numMade"] = 1,
-						["name"] = "Ornate Saronite Skullshield",
+						["name"] = "Cobalt Chestpiece",
 						["mats"] = {
-							[36913] = 14,
-							[35627] = 1,
+							[36916] = 6,
 						},
-						["group"] = 5,
+						["group"] = 2,
 						["queued"] = 0,
-						["spellID"] = 56556,
-					},
-					[41241] = {
-						["mats"] = {
-							[36916] = 7,
-						},
-						["numMade"] = 1,
-						["name"] = "Sure-Fire Shuriken",
-						["enabled"] = false,
-						["group"] = 13,
-						["queued"] = 0,
-						["spellID"] = 55202,
-					},
-					[43854] = {
-						["mats"] = {
-							[36916] = 4,
-						},
-						["numMade"] = 10,
-						["name"] = "Cobalt Skeleton Key",
-						["enabled"] = false,
-						["group"] = 15,
-						["queued"] = 0,
-						["spellID"] = 59405,
-					},
-					[2868] = {
-						["enabled"] = false,
-						["numMade"] = 1,
-						["name"] = "Patterned Bronze Bracers",
-						["mats"] = {
-							[2841] = 5,
-							[3478] = 2,
-						},
-						["group"] = 10,
-						["queued"] = 0,
-						["spellID"] = 2672,
+						["spellID"] = 52570,
 					},
 					[54850] = {
 						["enabled"] = false,
@@ -17658,41 +18665,40 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 76179,
 					},
-					[42724] = {
-						["enabled"] = false,
-						["numMade"] = 1,
-						["name"] = "Ornate Saronite Gauntlets",
+					[41383] = {
 						["mats"] = {
-							[36913] = 12,
-							[36860] = 1,
+							[43102] = 2,
+							[37663] = 6,
+							[36913] = 6,
 						},
-						["group"] = 4,
+						["numMade"] = 1,
+						["name"] = "Titansteel Bonecrusher",
+						["enabled"] = false,
+						["group"] = 11,
 						["queued"] = 0,
-						["spellID"] = 56553,
+						["spellID"] = 55370,
 					},
-					[40953] = {
-						["enabled"] = false,
-						["numMade"] = 1,
-						["name"] = "Spiked Cobalt Belt",
+					[23490] = {
 						["mats"] = {
-							[36916] = 12,
+							[23445] = 9,
 						},
-						["group"] = 9,
-						["queued"] = 0,
-						["spellID"] = 54946,
-					},
-					[40672] = {
-						["enabled"] = false,
 						["numMade"] = 1,
-						["name"] = "Tempered Saronite Breastplate",
-						["mats"] = {
-							[36913] = 5,
-							[37701] = 1,
-							[36916] = 6,
-						},
+						["name"] = "Fel Iron Chain Tunic",
+						["enabled"] = false,
 						["group"] = 2,
 						["queued"] = 0,
-						["spellID"] = 54553,
+						["spellID"] = 29556,
+					},
+					[23494] = {
+						["mats"] = {
+							[23445] = 6,
+						},
+						["numMade"] = 1,
+						["name"] = "Fel Iron Chain Bracers",
+						["enabled"] = false,
+						["group"] = 10,
+						["queued"] = 0,
+						["spellID"] = 29553,
 					},
 					[41117] = {
 						["enabled"] = false,
@@ -17706,52 +18712,55 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 55013,
 					},
-					[12424] = {
-						["enabled"] = false,
-						["numMade"] = 1,
-						["name"] = "Imperial Plate Belt",
+					[7955] = {
 						["mats"] = {
-							[12359] = 10,
-							[8170] = 6,
-						},
-						["group"] = 9,
-						["queued"] = 0,
-						["spellID"] = 16647,
-					},
-					[41975] = {
-						["enabled"] = false,
-						["numMade"] = 1,
-						["name"] = "Cobalt Gauntlets",
-						["mats"] = {
-							[36916] = 5,
-						},
-						["group"] = 4,
-						["queued"] = 0,
-						["spellID"] = 55835,
-					},
-					[41974] = {
-						["enabled"] = false,
-						["numMade"] = 1,
-						["name"] = "Cobalt Bracers",
-						["mats"] = {
-							[36916] = 4,
-						},
-						["group"] = 10,
-						["queued"] = 0,
-						["spellID"] = 55834,
-					},
-					[41181] = {
-						["mats"] = {
-							[37702] = 2,
-							[36916] = 12,
-							[36913] = 4,
+							[2318] = 1,
+							[2880] = 2,
+							[2840] = 10,
+							[3470] = 1,
 						},
 						["numMade"] = 1,
-						["name"] = "Honed Cobalt Cleaver",
+						["name"] = "Copper Claymore",
 						["enabled"] = false,
 						["group"] = 14,
 						["queued"] = 0,
-						["spellID"] = 55174,
+						["spellID"] = 9983,
+					},
+					[41239] = {
+						["mats"] = {
+							[36916] = 8,
+						},
+						["numMade"] = 1,
+						["name"] = "Sturdy Cobalt Quickblade",
+						["enabled"] = false,
+						["group"] = 12,
+						["queued"] = 0,
+						["spellID"] = 55200,
+					},
+					[55052] = {
+						["mats"] = {
+							[52327] = 6,
+							[52186] = 10,
+							[65365] = 10,
+						},
+						["numMade"] = 1,
+						["name"] = "Obsidium Executioner",
+						["enabled"] = false,
+						["group"] = 14,
+						["queued"] = 0,
+						["spellID"] = 76437,
+					},
+					[40670] = {
+						["enabled"] = false,
+						["numMade"] = 1,
+						["name"] = "Saronite Defender",
+						["mats"] = {
+							[36916] = 6,
+							[36913] = 4,
+						},
+						["group"] = 7,
+						["queued"] = 0,
+						["spellID"] = 54557,
 					},
 					[42730] = {
 						["enabled"] = false,
@@ -17765,17 +18774,17 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 56552,
 					},
-					[41127] = {
-						["enabled"] = false,
-						["numMade"] = 1,
-						["name"] = "Brilliant Saronite Gauntlets",
+					[41976] = {
 						["mats"] = {
-							[36916] = 3,
-							[36913] = 8,
+							[36913] = 2,
+							[41163] = 1,
 						},
-						["group"] = 4,
+						["numMade"] = 1,
+						["name"] = "Titanium Weapon Chain",
+						["enabled"] = false,
+						["group"] = 1,
 						["queued"] = 0,
-						["spellID"] = 55056,
+						["spellID"] = 55839,
 					},
 					[55026] = {
 						["enabled"] = false,
@@ -17788,42 +18797,42 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 76263,
 					},
-					[55042] = {
-						["enabled"] = false,
-						["numMade"] = 1,
-						["name"] = "Stormforged Shield",
+					[41245] = {
 						["mats"] = {
-							[65365] = 10,
-							[52327] = 4,
+							[36913] = 7,
+							[37700] = 2,
 						},
-						["group"] = 7,
+						["numMade"] = 1,
+						["name"] = "Deadly Saronite Dirk",
+						["enabled"] = false,
+						["group"] = 13,
 						["queued"] = 0,
-						["spellID"] = 76293,
+						["spellID"] = 55206,
 					},
-					[41184] = {
-						["mats"] = {
-							[36913] = 12,
-							[37703] = 2,
-						},
-						["numMade"] = 1,
-						["name"] = "Saronite Shiv",
+					[55039] = {
 						["enabled"] = false,
-						["group"] = 12,
+						["numMade"] = 1,
+						["name"] = "Stormforged Helm",
+						["mats"] = {
+							[52186] = 20,
+							[52327] = 8,
+						},
+						["group"] = 5,
 						["queued"] = 0,
-						["spellID"] = 55181,
+						["spellID"] = 76288,
 					},
-					[6214] = {
+					[2850] = {
 						["mats"] = {
-							[2880] = 2,
-							[2840] = 12,
-							[2318] = 2,
+							[2319] = 2,
+							[2880] = 4,
+							[2841] = 5,
 						},
 						["numMade"] = 1,
-						["name"] = "Heavy Copper Maul",
+						["name"] = "Bronze Shortsword",
 						["enabled"] = false,
-						["group"] = 14,
+						["group"] = 11,
 						["queued"] = 0,
-						["spellID"] = 7408,
+						["spellID"] = 2742,
 					},
 					[23489] = {
 						["enabled"] = false,
@@ -17836,16 +18845,17 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 29550,
 					},
-					[23497] = {
-						["mats"] = {
-							[23445] = 9,
-						},
-						["numMade"] = 1,
-						["name"] = "Fel Iron Hatchet",
+					[43864] = {
 						["enabled"] = false,
-						["group"] = 12,
+						["numMade"] = 1,
+						["name"] = "Brilliant Saronite Bracers",
+						["mats"] = {
+							[36916] = 3,
+							[36913] = 8,
+						},
+						["group"] = 10,
 						["queued"] = 0,
-						["spellID"] = 29557,
+						["spellID"] = 59438,
 					},
 					[23505] = {
 						["mats"] = {
@@ -17881,42 +18891,38 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 55301,
 					},
-					[41351] = {
+					[12405] = {
 						["enabled"] = false,
 						["numMade"] = 1,
-						["name"] = "Savage Saronite Pauldrons",
+						["name"] = "Thorium Armor",
 						["mats"] = {
-							[36913] = 12,
-							[35622] = 1,
+							[12359] = 16,
+							[12361] = 1,
 						},
-						["group"] = 8,
+						["group"] = 2,
 						["queued"] = 0,
-						["spellID"] = 55306,
+						["spellID"] = 16642,
 					},
-					[2849] = {
+					[65365] = {
 						["mats"] = {
-							[2319] = 1,
-							[2841] = 7,
-							[2880] = 4,
+							[54849] = 2,
 						},
 						["numMade"] = 1,
-						["name"] = "Bronze Axe",
-						["enabled"] = false,
-						["group"] = 11,
-						["queued"] = 0,
-						["spellID"] = 2741,
-					},
-					[41745] = {
-						["enabled"] = false,
-						["numMade"] = 1,
-						["name"] = "Titanium Rod",
-						["mats"] = {
-							[36913] = 2,
-							[41163] = 1,
-						},
+						["name"] = "Folded Obsidium",
 						["group"] = 15,
 						["queued"] = 0,
-						["spellID"] = 55732,
+						["spellID"] = 76178,
+					},
+					[40954] = {
+						["enabled"] = false,
+						["numMade"] = 1,
+						["name"] = "Spiked Cobalt Bracers",
+						["mats"] = {
+							[36916] = 12,
+						},
+						["group"] = 10,
+						["queued"] = 0,
+						["spellID"] = 54948,
 					},
 					[42443] = {
 						["mats"] = {
@@ -17930,29 +18936,29 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 56280,
 					},
-					[2854] = {
-						["enabled"] = false,
-						["numMade"] = 1,
-						["name"] = "Runed Copper Bracers",
+					[70014] = {
 						["mats"] = {
-							[2840] = 10,
-							[3470] = 3,
+							[52186] = 10,
+							[52326] = 10,
 						},
-						["group"] = 10,
-						["queued"] = 0,
-						["spellID"] = 2664,
+						["numMade"] = 1,
+						["name"] = "Bloodthirsty Ornate Pyrium Gauntlets",
+						["enabled"] = true,
+						["group"] = 16,
+						["queued"] = 3,
+						["spellID"] = 76466,
 					},
-					[16206] = {
-						["enabled"] = false,
-						["numMade"] = 1,
-						["name"] = "Arcanite Rod",
+					[70019] = {
 						["mats"] = {
-							[12360] = 3,
-							[12644] = 1,
+							[52186] = 8,
+							[52326] = 10,
 						},
-						["group"] = 15,
-						["queued"] = 0,
-						["spellID"] = 20201,
+						["numMade"] = 1,
+						["name"] = "Bloodthirsty Ornate Pyrium Bracers",
+						["enabled"] = true,
+						["group"] = 16,
+						["queued"] = 3,
+						["spellID"] = 76465,
 					},
 				},
 			},
@@ -17969,37 +18975,38 @@ TradeSkillMaster_CraftingDB = {
 					[37701] = {
 						["name"] = "Crystallized Earth",
 					},
-					[3860] = {
+					[52179] = {
 						["source"] = "auction",
-						["name"] = "Mithril Bar",
+						["name"] = "Alicite",
 					},
 					[23112] = {
 						["name"] = "Golden Draenite",
 					},
-					[22457] = {
-						["name"] = "Primal Mana",
-						["source"] = "craft",
+					[56850] = {
+						["name"] = "Deepstone Oil",
 					},
 					[52326] = {
+						["source"] = "auction",
 						["name"] = "Volatile Water",
-						["source"] = "auction",
 					},
-					[3575] = {
-						["name"] = "Iron Bar",
-						["source"] = "auction",
+					[8838] = {
+						["name"] = "Sungrass",
 					},
-					[118] = {
-						["name"] = "Minor Healing Potion",
+					[36903] = {
+						["name"] = "Adder's Tongue",
+						["source"] = "auction",
 					},
 					[8831] = {
+						["source"] = "auction",
 						["name"] = "Purple Lotus",
+					},
+					[33447] = {
+						["name"] = "Runic Healing Potion",
 						["source"] = "auction",
 					},
-					[8839] = {
-						["name"] = "Blindweed",
-					},
-					[10620] = {
-						["name"] = "Thorium Ore",
+					[6358] = {
+						["source"] = "auction",
+						["name"] = "Oily Blackmouth",
 					},
 					[52985] = {
 						["name"] = "Azshara's Veil",
@@ -18012,25 +19019,25 @@ TradeSkillMaster_CraftingDB = {
 					[8836] = {
 						["name"] = "Arthas' Tears",
 					},
-					[8846] = {
-						["name"] = "Gromsblood",
+					[13423] = {
+						["name"] = "Stonescale Oil",
 					},
-					[8838] = {
-						["name"] = "Sungrass",
-					},
-					[33447] = {
+					[3575] = {
 						["source"] = "auction",
-						["name"] = "Runic Healing Potion",
+						["name"] = "Iron Bar",
 					},
-					[37702] = {
-						["name"] = "Crystallized Fire",
+					[8839] = {
+						["name"] = "Blindweed",
 					},
-					[22787] = {
-						["name"] = "Ragveil",
+					[36932] = {
+						["name"] = "Dark Jade",
 					},
-					[6358] = {
-						["name"] = "Oily Blackmouth",
+					[53065] = {
+						["name"] = "Albino Cavefish",
 						["source"] = "auction",
+					},
+					[10620] = {
+						["name"] = "Thorium Ore",
 					},
 					[35622] = {
 						["source"] = "auction",
@@ -18043,40 +19050,39 @@ TradeSkillMaster_CraftingDB = {
 						["name"] = "Discolored Worg Heart",
 					},
 					[36904] = {
-						["name"] = "Tiger Lily",
 						["source"] = "auction",
+						["name"] = "Tiger Lily",
 					},
 					[36908] = {
-						["source"] = "auction",
 						["name"] = "Frost Lotus",
+						["source"] = "auction",
 					},
 					[21886] = {
-						["source"] = "auction",
 						["name"] = "Primal Life",
-					},
-					[52180] = {
-						["name"] = "Nightstone",
 						["source"] = "auction",
+					},
+					[785] = {
+						["name"] = "Mageroyal",
 					},
 					[13422] = {
 						["name"] = "Stonescale Eel",
 					},
-					[13423] = {
-						["name"] = "Stonescale Oil",
+					[3356] = {
+						["name"] = "Kingsblood",
 					},
-					[52986] = {
-						["name"] = "Heartblossom",
+					[6370] = {
+						["source"] = "craft",
+						["name"] = "Blackmouth Oil",
+					},
+					[22785] = {
 						["source"] = "auction",
+						["name"] = "Felweed",
 					},
-					[36932] = {
-						["name"] = "Dark Jade",
+					[22787] = {
+						["name"] = "Ragveil",
 					},
-					[53065] = {
-						["name"] = "Albino Cavefish",
-						["source"] = "auction",
-					},
-					[3357] = {
-						["name"] = "Liferoot",
+					[37702] = {
+						["name"] = "Crystallized Fire",
 					},
 					[22791] = {
 						["source"] = "auction",
@@ -18085,8 +19091,8 @@ TradeSkillMaster_CraftingDB = {
 					[22793] = {
 						["name"] = "Mana Thistle",
 					},
-					[21929] = {
-						["name"] = "Flame Spessarite",
+					[3821] = {
+						["name"] = "Goldthorn",
 					},
 					[3358] = {
 						["name"] = "Khadgar's Whisker",
@@ -18096,25 +19102,28 @@ TradeSkillMaster_CraftingDB = {
 						["source"] = "auction",
 					},
 					[51950] = {
+						["source"] = "craft",
 						["name"] = "Pyrium Bar",
+					},
+					[35623] = {
 						["source"] = "craft",
+						["name"] = "Eternal Air",
 					},
-					[40195] = {
-						["name"] = "Pygmy Oil",
-						["source"] = "craft",
+					[37921] = {
+						["source"] = "auction",
+						["name"] = "Deadnettle",
 					},
-					[8153] = {
-						["name"] = "Wildvine",
+					[52988] = {
+						["source"] = "auction",
+						["name"] = "Whiptail",
 					},
-					[12359] = {
-						["name"] = "Thorium Bar",
+					[52984] = {
+						["name"] = "Stormvine",
+						["source"] = "auction",
 					},
-					[3820] = {
-						["name"] = "Stranglekelp",
-					},
-					[6370] = {
-						["name"] = "Blackmouth Oil",
-						["source"] = "craft",
+					[52986] = {
+						["source"] = "auction",
+						["name"] = "Heartblossom",
 					},
 					[41814] = {
 						["name"] = "Glassfin Minnow",
@@ -18126,13 +19135,13 @@ TradeSkillMaster_CraftingDB = {
 					[7070] = {
 						["name"] = "Elemental Water",
 					},
-					[36901] = {
-						["name"] = "Goldclover",
+					[9262] = {
 						["source"] = "auction",
+						["name"] = "Black Vitriol",
 					},
 					[33448] = {
-						["source"] = "auction",
 						["name"] = "Runic Mana Potion",
+						["source"] = "auction",
 					},
 					[23077] = {
 						["name"] = "Blood Garnet",
@@ -18143,53 +19152,66 @@ TradeSkillMaster_CraftingDB = {
 					[22573] = {
 						["name"] = "Mote of Earth",
 					},
-					[785] = {
-						["name"] = "Mageroyal",
+					[40195] = {
+						["source"] = "craft",
+						["name"] = "Pygmy Oil",
 					},
 					[35627] = {
 						["name"] = "Eternal Shadow",
 						["source"] = "craft",
 					},
 					[22452] = {
+						["source"] = "auction",
 						["name"] = "Primal Earth",
+					},
+					[36905] = {
+						["name"] = "Lichbloom",
 						["source"] = "auction",
 					},
-					[37921] = {
-						["name"] = "Deadnettle",
+					[7078] = {
 						["source"] = "auction",
-					},
-					[52181] = {
-						["name"] = "Hessonite",
-						["source"] = "auction",
+						["name"] = "Essence of Fire",
 					},
 					[36913] = {
 						["source"] = "auction",
 						["name"] = "Saronite Bar",
 					},
-					[9262] = {
-						["name"] = "Black Vitriol",
+					[36917] = {
+						["name"] = "Bloodstone",
 						["source"] = "auction",
 					},
 					[36921] = {
 						["name"] = "Autumn's Glow",
 						["source"] = "auction",
 					},
-					[23117] = {
-						["name"] = "Azure Moonstone",
+					[37703] = {
+						["name"] = "Crystallized Shadow",
 					},
 					[36929] = {
 						["name"] = "Huge Citrine",
 					},
-					[7078] = {
+					[36933] = {
+						["name"] = "Forest Emerald",
 						["source"] = "auction",
-						["name"] = "Essence of Fire",
 					},
 					[52177] = {
-						["source"] = "auction",
 						["name"] = "Carnelian",
+						["source"] = "auction",
 					},
-					[23107] = {
-						["name"] = "Shadow Draenite",
+					[52181] = {
+						["source"] = "auction",
+						["name"] = "Hessonite",
+					},
+					[13463] = {
+						["source"] = "auction",
+						["name"] = "Dreamfoil",
+					},
+					[52328] = {
+						["source"] = "auction",
+						["name"] = "Volatile Air",
+					},
+					[13467] = {
+						["name"] = "Icecap",
 					},
 					[44958] = {
 						["name"] = "Ethereal Oil",
@@ -18199,17 +19221,6 @@ TradeSkillMaster_CraftingDB = {
 						["name"] = "Golden Sansam",
 						["source"] = "auction",
 					},
-					[7972] = {
-						["name"] = "Ichor of Undeath",
-					},
-					[13463] = {
-						["source"] = "auction",
-						["name"] = "Dreamfoil",
-					},
-					[52328] = {
-						["name"] = "Volatile Air",
-						["source"] = "auction",
-					},
 					[13465] = {
 						["name"] = "Mountain Silversage",
 						["source"] = "auction",
@@ -18217,33 +19228,33 @@ TradeSkillMaster_CraftingDB = {
 					[13466] = {
 						["name"] = "Sorrowmoss",
 					},
-					[13467] = {
-						["name"] = "Icecap",
+					[7972] = {
+						["name"] = "Ichor of Undeath",
+					},
+					[52987] = {
+						["name"] = "Twilight Jasmine",
+						["source"] = "auction",
+					},
+					[52983] = {
+						["name"] = "Cinderbloom",
+						["source"] = "auction",
 					},
 					[2447] = {
 						["name"] = "Peacebloom",
 					},
-					[52983] = {
+					[22794] = {
+						["name"] = "Fel Lotus",
+					},
+					[52186] = {
+						["name"] = "Elementium Bar",
 						["source"] = "auction",
-						["name"] = "Cinderbloom",
 					},
-					[52987] = {
+					[22790] = {
+						["name"] = "Ancient Lichen",
+					},
+					[2452] = {
+						["name"] = "Swiftthistle",
 						["source"] = "auction",
-						["name"] = "Twilight Jasmine",
-					},
-					[3818] = {
-						["name"] = "Fadeleaf",
-					},
-					[22792] = {
-						["name"] = "Nightmare Vine",
-					},
-					[52182] = {
-						["source"] = "auction",
-						["name"] = "Jasper",
-					},
-					[52178] = {
-						["source"] = "auction",
-						["name"] = "Zephyrite",
 					},
 					[36924] = {
 						["name"] = "Sky Sapphire",
@@ -18253,34 +19264,36 @@ TradeSkillMaster_CraftingDB = {
 						["name"] = "Crystallized Life",
 						["source"] = "auction",
 					},
-					[22789] = {
-						["name"] = "Terocone",
+					[40199] = {
+						["source"] = "auction",
+						["name"] = "Pygmy Suckerfish",
 					},
 					[2449] = {
 						["name"] = "Earthroot",
 					},
 					[21884] = {
-						["name"] = "Primal Fire",
 						["source"] = "craft",
+						["name"] = "Primal Fire",
 					},
 					[3355] = {
+						["source"] = "auction",
 						["name"] = "Wild Steelbloom",
-					},
-					[2450] = {
-						["source"] = "auction",
-						["name"] = "Briarthorn",
-					},
-					[36906] = {
-						["name"] = "Icethorn",
-						["source"] = "auction",
 					},
 					[3371] = {
 						["source"] = "vendor",
 						["name"] = "Crystal Vial",
 					},
+					[36906] = {
+						["source"] = "auction",
+						["name"] = "Icethorn",
+					},
 					[21885] = {
-						["source"] = "craft",
 						["name"] = "Primal Water",
+						["source"] = "craft",
+					},
+					[2450] = {
+						["source"] = "auction",
+						["name"] = "Briarthorn",
 					},
 					[36918] = {
 						["name"] = "Scarlet Ruby",
@@ -18289,9 +19302,8 @@ TradeSkillMaster_CraftingDB = {
 					[39970] = {
 						["name"] = "Fire Leaf",
 					},
-					[40199] = {
-						["name"] = "Pygmy Suckerfish",
-						["source"] = "auction",
+					[22789] = {
+						["name"] = "Terocone",
 					},
 					[36930] = {
 						["name"] = "Monarch Topaz",
@@ -18299,26 +19311,27 @@ TradeSkillMaster_CraftingDB = {
 					[22786] = {
 						["name"] = "Dreaming Glory",
 					},
-					[2452] = {
-						["source"] = "auction",
-						["name"] = "Swiftthistle",
-					},
-					[22790] = {
-						["name"] = "Ancient Lichen",
-					},
-					[52186] = {
-						["name"] = "Elementium Bar",
+					[52178] = {
+						["name"] = "Zephyrite",
 						["source"] = "auction",
 					},
-					[22794] = {
-						["name"] = "Fel Lotus",
+					[52182] = {
+						["name"] = "Jasper",
+						["source"] = "auction",
+					},
+					[22792] = {
+						["name"] = "Nightmare Vine",
+					},
+					[3818] = {
+						["source"] = "auction",
+						["name"] = "Fadeleaf",
 					},
 					[2453] = {
 						["name"] = "Bruiseweed",
 					},
 					[52325] = {
-						["name"] = "Volatile Fire",
 						["source"] = "auction",
+						["name"] = "Volatile Fire",
 					},
 					[52329] = {
 						["name"] = "Volatile Life",
@@ -18327,76 +19340,71 @@ TradeSkillMaster_CraftingDB = {
 					[3819] = {
 						["name"] = "Dragon's Teeth",
 					},
-					[37703] = {
-						["name"] = "Crystallized Shadow",
+					[23117] = {
+						["name"] = "Azure Moonstone",
 					},
-					[36933] = {
-						["name"] = "Forest Emerald",
-						["source"] = "auction",
+					[23107] = {
+						["name"] = "Shadow Draenite",
 					},
-					[36917] = {
-						["name"] = "Bloodstone",
+					[36901] = {
 						["source"] = "auction",
+						["name"] = "Goldclover",
 					},
-					[52984] = {
-						["name"] = "Stormvine",
-						["source"] = "auction",
+					[3820] = {
+						["name"] = "Stranglekelp",
 					},
-					[52988] = {
-						["source"] = "auction",
-						["name"] = "Whiptail",
+					[12359] = {
+						["name"] = "Thorium Bar",
 					},
-					[36905] = {
-						["source"] = "auction",
-						["name"] = "Lichbloom",
+					[8153] = {
+						["name"] = "Wildvine",
 					},
 					[4625] = {
-						["name"] = "Firebloom",
 						["source"] = "auction",
+						["name"] = "Firebloom",
 					},
-					[3821] = {
-						["name"] = "Goldthorn",
+					[21929] = {
+						["name"] = "Flame Spessarite",
 					},
 					[12363] = {
 						["name"] = "Arcane Crystal",
 					},
-					[35623] = {
-						["source"] = "craft",
-						["name"] = "Eternal Air",
+					[3357] = {
+						["name"] = "Liferoot",
 					},
 					[765] = {
 						["name"] = "Silverleaf",
 						["source"] = "auction",
 					},
-					[22785] = {
+					[52180] = {
+						["name"] = "Nightstone",
 						["source"] = "auction",
-						["name"] = "Felweed",
 					},
-					[3356] = {
-						["name"] = "Kingsblood",
+					[8846] = {
+						["name"] = "Gromsblood",
 					},
 					[35625] = {
 						["source"] = "craft",
 						["name"] = "Eternal Life",
 					},
 					[22451] = {
-						["source"] = "craft",
 						["name"] = "Primal Air",
+						["source"] = "craft",
 					},
-					[36903] = {
-						["source"] = "auction",
-						["name"] = "Adder's Tongue",
+					[118] = {
+						["name"] = "Minor Healing Potion",
 					},
 					[36907] = {
 						["source"] = "auction",
 						["name"] = "Talandra's Rose",
 					},
-					[56850] = {
-						["name"] = "Deepstone Oil",
+					[22457] = {
+						["source"] = "craft",
+						["name"] = "Primal Mana",
 					},
-					[52179] = {
-						["name"] = "Alicite",
+					[3860] = {
 						["source"] = "auction",
+						["name"] = "Mithril Bar",
 					},
 				},
 				["crafts"] = {
@@ -18584,9 +19592,9 @@ TradeSkillMaster_CraftingDB = {
 						["name"] = "Lifebound Alchemist Stone",
 						["mats"] = {
 							[52985] = 12,
+							[52983] = 12,
 							[52329] = 50,
 							[52986] = 12,
-							[52983] = 12,
 						},
 						["group"] = 7,
 						["queued"] = 0,
@@ -18600,8 +19608,8 @@ TradeSkillMaster_CraftingDB = {
 							[23107] = 3,
 							[22452] = 2,
 							[23112] = 3,
-							[23079] = 3,
 							[21885] = 2,
+							[23079] = 3,
 						},
 						["group"] = 5,
 						["queued"] = 0,
@@ -18612,9 +19620,9 @@ TradeSkillMaster_CraftingDB = {
 						["numMade"] = 1,
 						["name"] = "Minor Healing Potion",
 						["mats"] = {
+							[3371] = 1,
 							[2447] = 1,
 							[765] = 1,
-							[3371] = 1,
 						},
 						["group"] = 2,
 						["queued"] = 0,
@@ -18702,10 +19710,10 @@ TradeSkillMaster_CraftingDB = {
 						["numMade"] = 1,
 						["name"] = "Flask of Steelskin",
 						["mats"] = {
-							[52329] = 8,
-							[52987] = 8,
-							[3371] = 1,
 							[52983] = 8,
+							[52987] = 8,
+							[52329] = 8,
+							[3371] = 1,
 						},
 						["group"] = 3,
 						["queued"] = -7,
@@ -18742,9 +19750,9 @@ TradeSkillMaster_CraftingDB = {
 						["name"] = "Flask of Stoneblood",
 						["mats"] = {
 							[36905] = 7,
-							[37704] = 3,
-							[3371] = 1,
 							[36908] = 1,
+							[3371] = 1,
+							[37704] = 3,
 						},
 						["group"] = 3,
 						["queued"] = 0,
@@ -18896,9 +19904,9 @@ TradeSkillMaster_CraftingDB = {
 						["numMade"] = 1,
 						["name"] = "Elixir of Impossible Accuracy",
 						["mats"] = {
+							[3371] = 1,
 							[52983] = 1,
 							[52986] = 1,
-							[3371] = 1,
 						},
 						["group"] = 1,
 						["queued"] = 0,
@@ -19062,9 +20070,9 @@ TradeSkillMaster_CraftingDB = {
 						["numMade"] = 1,
 						["name"] = "Strong Troll's Blood Elixir",
 						["mats"] = {
+							[3371] = 1,
 							[2453] = 2,
 							[2450] = 2,
-							[3371] = 1,
 						},
 						["group"] = 1,
 						["queued"] = 0,
@@ -19075,9 +20083,9 @@ TradeSkillMaster_CraftingDB = {
 						["numMade"] = 1,
 						["name"] = "Arcane Elixir",
 						["mats"] = {
+							[3371] = 1,
 							[8839] = 1,
 							[3821] = 1,
-							[3371] = 1,
 						},
 						["group"] = 1,
 						["queued"] = 0,
@@ -19105,7 +20113,7 @@ TradeSkillMaster_CraftingDB = {
 							[52986] = 3,
 						},
 						["group"] = 5,
-						["queued"] = -115,
+						["queued"] = -144,
 						["spellID"] = 80245,
 					},
 					[40213] = {
@@ -19126,9 +20134,9 @@ TradeSkillMaster_CraftingDB = {
 						["name"] = "Flask of the Winds",
 						["mats"] = {
 							[52985] = 8,
-							[52329] = 8,
-							[3371] = 1,
 							[52988] = 8,
+							[3371] = 1,
+							[52329] = 8,
 						},
 						["group"] = 3,
 						["queued"] = -9,
@@ -19152,9 +20160,9 @@ TradeSkillMaster_CraftingDB = {
 						["numMade"] = 1,
 						["name"] = "Volatile Alchemist Stone",
 						["mats"] = {
+							[52986] = 24,
 							[52329] = 50,
 							[52983] = 12,
-							[52986] = 24,
 						},
 						["group"] = 7,
 						["queued"] = 0,
@@ -19266,52 +20274,53 @@ TradeSkillMaster_CraftingDB = {
 						["numMade"] = 1,
 						["name"] = "Quicksilver Alchemist Stone",
 						["mats"] = {
+							[52986] = 12,
 							[52329] = 50,
 							[52983] = 24,
-							[52986] = 12,
 						},
 						["group"] = 7,
 						["queued"] = 0,
 						["spellID"] = 96253,
 					},
-					[33448] = {
-						["enabled"] = false,
-						["numMade"] = 1,
-						["name"] = "Runic Mana Potion",
-						["mats"] = {
-							[36905] = 2,
-							[36901] = 1,
-							[3371] = 1,
-						},
-						["group"] = 2,
-						["queued"] = 0,
-						["spellID"] = 53837,
-					},
-					[44323] = {
+					[9149] = {
 						["enabled"] = true,
 						["numMade"] = 1,
-						["name"] = "Indestructible Alchemist Stone",
+						["name"] = "Philosopher's Stone",
 						["mats"] = {
-							[36908] = 1,
-							[40195] = 12,
-							[37921] = 20,
+							[3575] = 4,
+							[8831] = 4,
+							[9262] = 1,
+							[4625] = 4,
 						},
 						["group"] = 7,
 						["queued"] = 0,
-						["spellID"] = 60403,
+						["spellID"] = 11459,
 					},
-					[6149] = {
+					[44324] = {
+						["enabled"] = true,
+						["numMade"] = 1,
+						["name"] = "Mighty Alchemist Stone",
+						["mats"] = {
+							[36908] = 1,
+							[36904] = 15,
+							[36903] = 15,
+						},
+						["group"] = 7,
+						["queued"] = 0,
+						["spellID"] = 60405,
+					},
+					[8951] = {
 						["enabled"] = false,
 						["numMade"] = 1,
-						["name"] = "Greater Mana Potion",
+						["name"] = "Elixir of Greater Defense",
 						["mats"] = {
-							[3358] = 1,
+							[3355] = 1,
 							[3821] = 1,
 							[3371] = 1,
 						},
-						["group"] = 2,
+						["group"] = 1,
 						["queued"] = 0,
-						["spellID"] = 11448,
+						["spellID"] = 11450,
 					},
 					[8956] = {
 						["enabled"] = false,
@@ -19338,29 +20347,31 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 17552,
 					},
-					[21884] = {
+					[2455] = {
 						["enabled"] = false,
 						["numMade"] = 1,
-						["name"] = "Primal Fire",
+						["name"] = "Minor Mana Potion",
 						["mats"] = {
-							[22451] = 1,
-						},
-						["group"] = 5,
-						["queued"] = 0,
-						["spellID"] = 28566,
-					},
-					[18294] = {
-						["enabled"] = false,
-						["numMade"] = 1,
-						["name"] = "Elixir of Greater Water Breathing",
-						["mats"] = {
-							[7972] = 1,
-							[8831] = 2,
+							[785] = 1,
+							[765] = 1,
 							[3371] = 1,
 						},
-						["group"] = 1,
+						["group"] = 2,
 						["queued"] = 0,
-						["spellID"] = 22808,
+						["spellID"] = 2331,
+					},
+					[44322] = {
+						["enabled"] = true,
+						["numMade"] = 1,
+						["name"] = "Mercurial Alchemist Stone",
+						["mats"] = {
+							[36908] = 1,
+							[36901] = 20,
+							[35625] = 2,
+						},
+						["group"] = 7,
+						["queued"] = 0,
+						["spellID"] = 60396,
 					},
 					[35623] = {
 						["enabled"] = false,
@@ -19379,9 +20390,9 @@ TradeSkillMaster_CraftingDB = {
 						["numMade"] = 1,
 						["name"] = "Major Dreamless Sleep Potion",
 						["mats"] = {
+							[3371] = 1,
 							[22786] = 1,
 							[22792] = 1,
-							[3371] = 1,
 						},
 						["group"] = 2,
 						["queued"] = 0,
@@ -19416,26 +20427,28 @@ TradeSkillMaster_CraftingDB = {
 						["numMade"] = 1,
 						["name"] = "Flask of Flowing Water",
 						["mats"] = {
-							[52986] = 8,
-							[52984] = 8,
-							[3371] = 1,
 							[52329] = 8,
+							[52984] = 8,
+							[52986] = 8,
+							[3371] = 1,
 						},
 						["group"] = 3,
 						["queued"] = 0,
 						["spellID"] = 94162,
 					},
-					[6037] = {
-						["enabled"] = false,
-						["group"] = 5,
-						["hasCD"] = true,
-						["mats"] = {
-							[3860] = 1,
-						},
+					[68777] = {
+						["enabled"] = true,
 						["numMade"] = 1,
-						["name"] = "Truesilver Bar",
+						["name"] = "Vibrant Alchemist Stone",
+						["mats"] = {
+							[52985] = 20,
+							[52983] = 8,
+							[52329] = 50,
+							[52986] = 8,
+						},
+						["group"] = 7,
 						["queued"] = 0,
-						["spellID"] = 11480,
+						["spellID"] = 96254,
 					},
 					[58088] = {
 						["enabled"] = true,
@@ -19443,9 +20456,9 @@ TradeSkillMaster_CraftingDB = {
 						["name"] = "Flask of Titanic Strength",
 						["mats"] = {
 							[52988] = 8,
+							[52983] = 8,
 							[52329] = 8,
 							[3371] = 1,
-							[52983] = 8,
 						},
 						["group"] = 3,
 						["queued"] = -9,
@@ -19463,19 +20476,17 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 11478,
 					},
-					[68777] = {
+					[43569] = {
 						["enabled"] = true,
 						["numMade"] = 1,
-						["name"] = "Vibrant Alchemist Stone",
+						["name"] = "Endless Healing Potion",
 						["mats"] = {
-							[52985] = 20,
-							[52329] = 50,
-							[52986] = 8,
-							[52983] = 8,
+							[33447] = 10,
+							[3371] = 1,
 						},
 						["group"] = 7,
 						["queued"] = 0,
-						["spellID"] = 96254,
+						["spellID"] = 58871,
 					},
 					[28100] = {
 						["enabled"] = false,
@@ -19503,17 +20514,18 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 33741,
 					},
-					[35622] = {
+					[3385] = {
 						["enabled"] = false,
-						["group"] = 5,
-						["hasCD"] = true,
-						["mats"] = {
-							[36860] = 1,
-						},
 						["numMade"] = 1,
-						["name"] = "Eternal Water",
+						["name"] = "Lesser Mana Potion",
+						["mats"] = {
+							[3820] = 1,
+							[3371] = 1,
+							[785] = 1,
+						},
+						["group"] = 2,
 						["queued"] = 0,
-						["spellID"] = 53776,
+						["spellID"] = 3173,
 					},
 					[5996] = {
 						["enabled"] = false,
@@ -19541,18 +20553,18 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 80493,
 					},
-					[36919] = {
+					[45621] = {
 						["enabled"] = false,
-						["group"] = 5,
-						["hasCD"] = true,
-						["mats"] = {
-							[36860] = 1,
-							[36918] = 1,
-						},
 						["numMade"] = 1,
-						["name"] = "Cardinal Ruby",
+						["name"] = "Elixir of Minor Accuracy",
+						["mats"] = {
+							[6371] = 1,
+							[2453] = 1,
+							[3371] = 1,
+						},
+						["group"] = 1,
 						["queued"] = 0,
-						["spellID"] = 66659,
+						["spellID"] = 63732,
 					},
 					[1710] = {
 						["enabled"] = false,
@@ -19583,18 +20595,18 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = -14,
 						["spellID"] = 80237,
 					},
-					[28103] = {
+					[36931] = {
 						["enabled"] = false,
-						["numMade"] = 1,
-						["name"] = "Adept's Elixir",
+						["group"] = 5,
+						["hasCD"] = true,
 						["mats"] = {
-							[22785] = 1,
-							[3371] = 1,
-							[13463] = 1,
+							[36930] = 1,
+							[35627] = 1,
 						},
-						["group"] = 1,
+						["numMade"] = 1,
+						["name"] = "Ametrine",
 						["queued"] = 0,
-						["spellID"] = 33740,
+						["spellID"] = 66658,
 					},
 					[40079] = {
 						["enabled"] = false,
@@ -19635,45 +20647,17 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 2335,
 					},
-					[25868] = {
+					[40077] = {
 						["enabled"] = false,
 						["numMade"] = 1,
-						["name"] = "Skyfire Diamond",
+						["name"] = "Crazy Alchemist's Potion",
 						["mats"] = {
-							[21884] = 2,
-							[23117] = 3,
-							[23077] = 3,
-							[21929] = 3,
-							[22451] = 2,
-						},
-						["group"] = 5,
-						["queued"] = 0,
-						["spellID"] = 32766,
-					},
-					[36922] = {
-						["enabled"] = false,
-						["group"] = 5,
-						["hasCD"] = true,
-						["mats"] = {
-							[36921] = 1,
-							[35625] = 1,
-						},
-						["numMade"] = 1,
-						["name"] = "King's Amber",
-						["queued"] = 0,
-						["spellID"] = 66660,
-					},
-					[858] = {
-						["enabled"] = false,
-						["numMade"] = 1,
-						["name"] = "Lesser Healing Potion",
-						["mats"] = {
-							[118] = 1,
-							[2450] = 1,
+							[36901] = 2,
+							[3371] = 1,
 						},
 						["group"] = 2,
 						["queued"] = 0,
-						["spellID"] = 2337,
+						["spellID"] = 53895,
 					},
 					[6052] = {
 						["enabled"] = false,
@@ -19688,17 +20672,42 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 7259,
 					},
-					[36860] = {
+					[858] = {
 						["enabled"] = false,
-						["group"] = 5,
-						["hasCD"] = true,
-						["mats"] = {
-							[35622] = 1,
-						},
 						["numMade"] = 1,
-						["name"] = "Eternal Fire",
+						["name"] = "Lesser Healing Potion",
+						["mats"] = {
+							[118] = 1,
+							[2450] = 1,
+						},
+						["group"] = 2,
 						["queued"] = 0,
-						["spellID"] = 53773,
+						["spellID"] = 2337,
+					},
+					[58487] = {
+						["enabled"] = false,
+						["numMade"] = 1,
+						["name"] = "Potion of Deepholm",
+						["mats"] = {
+							[52986] = 5,
+							[3371] = 1,
+						},
+						["group"] = 2,
+						["queued"] = 0,
+						["spellID"] = 80725,
+					},
+					[22829] = {
+						["enabled"] = false,
+						["numMade"] = 1,
+						["name"] = "Super Healing Potion",
+						["mats"] = {
+							[22785] = 1,
+							[3371] = 1,
+							[22791] = 2,
+						},
+						["group"] = 2,
+						["queued"] = 0,
+						["spellID"] = 28551,
 					},
 					[41163] = {
 						["enabled"] = false,
@@ -19748,43 +20757,42 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 28545,
 					},
-					[22829] = {
+					[36860] = {
+						["enabled"] = false,
+						["group"] = 5,
+						["hasCD"] = true,
+						["mats"] = {
+							[35622] = 1,
+						},
+						["numMade"] = 1,
+						["name"] = "Eternal Fire",
+						["queued"] = 0,
+						["spellID"] = 53773,
+					},
+					[36928] = {
+						["enabled"] = false,
+						["group"] = 5,
+						["hasCD"] = true,
+						["mats"] = {
+							[35627] = 1,
+							[36927] = 1,
+						},
+						["numMade"] = 1,
+						["name"] = "Dreadstone",
+						["queued"] = 0,
+						["spellID"] = 66662,
+					},
+					[40215] = {
 						["enabled"] = false,
 						["numMade"] = 1,
-						["name"] = "Super Healing Potion",
+						["name"] = "Mighty Frost Protection Potion",
 						["mats"] = {
-							[22785] = 1,
+							[37702] = 2,
 							[3371] = 1,
-							[22791] = 2,
 						},
 						["group"] = 2,
 						["queued"] = 0,
-						["spellID"] = 28551,
-					},
-					[41334] = {
-						["enabled"] = false,
-						["numMade"] = 1,
-						["name"] = "Earthsiege Diamond",
-						["mats"] = {
-							[36860] = 1,
-							[36929] = 1,
-							[36932] = 1,
-						},
-						["group"] = 5,
-						["queued"] = 0,
-						["spellID"] = 57427,
-					},
-					[52192] = {
-						["enabled"] = false,
-						["numMade"] = 1,
-						["name"] = "Dream Emerald",
-						["mats"] = {
-							[52182] = 3,
-							[52984] = 3,
-						},
-						["group"] = 5,
-						["queued"] = 0,
-						["spellID"] = 80251,
+						["spellID"] = 53937,
 					},
 					[22841] = {
 						["enabled"] = false,
@@ -19812,17 +20820,17 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 28575,
 					},
-					[40215] = {
+					[35625] = {
 						["enabled"] = false,
-						["numMade"] = 1,
-						["name"] = "Mighty Frost Protection Potion",
+						["group"] = 5,
+						["hasCD"] = true,
 						["mats"] = {
-							[37702] = 2,
-							[3371] = 1,
+							[35627] = 1,
 						},
-						["group"] = 2,
+						["numMade"] = 1,
+						["name"] = "Eternal Life",
 						["queued"] = 0,
-						["spellID"] = 53937,
+						["spellID"] = 53775,
 					},
 					[22853] = {
 						["enabled"] = false,
@@ -19838,19 +20846,6 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 28588,
 					},
-					[58089] = {
-						["enabled"] = false,
-						["numMade"] = 1,
-						["name"] = "Elixir of the Naga",
-						["mats"] = {
-							[52985] = 1,
-							[52984] = 1,
-							[3371] = 1,
-						},
-						["group"] = 1,
-						["queued"] = 0,
-						["spellID"] = 80480,
-					},
 					[22861] = {
 						["enabled"] = false,
 						["numMade"] = 2,
@@ -19864,6 +20859,19 @@ TradeSkillMaster_CraftingDB = {
 						["group"] = 3,
 						["queued"] = 0,
 						["spellID"] = 28590,
+					},
+					[58089] = {
+						["enabled"] = false,
+						["numMade"] = 1,
+						["name"] = "Elixir of the Naga",
+						["mats"] = {
+							[52985] = 1,
+							[52984] = 1,
+							[3371] = 1,
+						},
+						["group"] = 1,
+						["queued"] = 0,
+						["spellID"] = 80480,
 					},
 					[44327] = {
 						["enabled"] = false,
@@ -19890,17 +20898,19 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 58868,
 					},
-					[36934] = {
+					[22866] = {
 						["enabled"] = false,
-						["group"] = 5,
-						["hasCD"] = true,
+						["numMade"] = 2,
+						["name"] = "Flask of Pure Death",
 						["mats"] = {
-							[36933] = 3,
+							[22793] = 3,
+							[22794] = 1,
+							[22792] = 7,
+							[3371] = 1,
 						},
-						["numMade"] = 1,
-						["name"] = "Eye of Zul",
+						["group"] = 3,
 						["queued"] = 0,
-						["spellID"] = 66664,
+						["spellID"] = 28591,
 					},
 					[22849] = {
 						["enabled"] = false,
@@ -19915,17 +20925,18 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 28579,
 					},
-					[12360] = {
+					[22832] = {
 						["enabled"] = false,
 						["numMade"] = 1,
-						["name"] = "Arcanite Bar",
+						["name"] = "Super Mana Potion",
 						["mats"] = {
-							[12359] = 1,
-							[12363] = 1,
+							[22785] = 1,
+							[22786] = 2,
+							[3371] = 1,
 						},
-						["group"] = 5,
+						["group"] = 2,
 						["queued"] = 0,
-						["spellID"] = 17187,
+						["spellID"] = 28555,
 					},
 					[41266] = {
 						["enabled"] = false,
@@ -19953,51 +20964,54 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 80495,
 					},
-					[35627] = {
+					[22850] = {
 						["enabled"] = false,
-						["group"] = 5,
-						["hasCD"] = true,
+						["numMade"] = 1,
+						["name"] = "Super Rejuvenation Potion",
 						["mats"] = {
-							[35625] = 1,
+							[22793] = 2,
+							[22791] = 1,
+							[22786] = 1,
+							[3371] = 1,
 						},
-						["numMade"] = 1,
-						["name"] = "Eternal Shadow",
+						["group"] = 2,
 						["queued"] = 0,
-						["spellID"] = 53782,
+						["spellID"] = 28586,
 					},
-					[52194] = {
+					[4596] = {
 						["enabled"] = false,
 						["numMade"] = 1,
-						["name"] = "Demonseye",
+						["name"] = "Discolored Healing Potion",
 						["mats"] = {
-							[52180] = 3,
-							[52987] = 3,
+							[3371] = 1,
+							[3164] = 1,
+							[2447] = 1,
 						},
-						["group"] = 5,
+						["group"] = 2,
 						["queued"] = 0,
-						["spellID"] = 80248,
+						["spellID"] = 4508,
 					},
-					[40109] = {
+					[22848] = {
 						["enabled"] = false,
 						["numMade"] = 1,
-						["name"] = "Elixir of Mighty Mageblood",
+						["name"] = "Elixir of Empowerment",
 						["mats"] = {
-							[36905] = 2,
-							[36901] = 1,
+							[22793] = 1,
+							[22791] = 1,
 							[3371] = 1,
 						},
 						["group"] = 1,
 						["queued"] = 0,
-						["spellID"] = 56519,
+						["spellID"] = 28578,
 					},
 					[10592] = {
 						["enabled"] = false,
 						["numMade"] = 1,
 						["name"] = "Catseye Elixir",
 						["mats"] = {
+							[3371] = 1,
 							[3821] = 1,
 							[3818] = 1,
-							[3371] = 1,
 						},
 						["group"] = 1,
 						["queued"] = 0,
@@ -20016,30 +21030,31 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 60357,
 					},
-					[22834] = {
+					[9154] = {
 						["enabled"] = false,
 						["numMade"] = 1,
-						["name"] = "Elixir of Major Defense",
+						["name"] = "Elixir of Detect Undead",
 						["mats"] = {
-							[22790] = 3,
-							[22789] = 1,
+							[8836] = 1,
 							[3371] = 1,
 						},
 						["group"] = 1,
 						["queued"] = 0,
-						["spellID"] = 28557,
+						["spellID"] = 11460,
 					},
-					[40072] = {
+					[33208] = {
 						["enabled"] = false,
-						["numMade"] = 1,
-						["name"] = "Elixir of Spirit",
+						["numMade"] = 2,
+						["name"] = "Flask of Chromatic Wonder",
 						["mats"] = {
-							[36907] = 3,
 							[3371] = 1,
+							[22791] = 3,
+							[22786] = 7,
+							[22794] = 1,
 						},
-						["group"] = 1,
+						["group"] = 3,
 						["queued"] = 0,
-						["spellID"] = 53847,
+						["spellID"] = 42736,
 					},
 					[47499] = {
 						["enabled"] = true,
@@ -20053,18 +21068,16 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 67025,
 					},
-					[6373] = {
+					[21885] = {
 						["enabled"] = false,
 						["numMade"] = 1,
-						["name"] = "Elixir of Firepower",
+						["name"] = "Primal Water",
 						["mats"] = {
-							[6371] = 2,
-							[3356] = 1,
-							[3371] = 1,
+							[22452] = 1,
 						},
-						["group"] = 1,
+						["group"] = 5,
 						["queued"] = 0,
-						["spellID"] = 7845,
+						["spellID"] = 28567,
 					},
 					[58480] = {
 						["enabled"] = true,
@@ -20072,9 +21085,9 @@ TradeSkillMaster_CraftingDB = {
 						["hasCD"] = true,
 						["mats"] = {
 							[52328] = 10,
-							[52325] = 10,
-							[52326] = 10,
 							[51950] = 3,
+							[52326] = 10,
+							[52325] = 10,
 						},
 						["numMade"] = 1,
 						["name"] = "Truegold",
@@ -20096,29 +21109,29 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 80726,
 					},
-					[39666] = {
+					[5997] = {
 						["enabled"] = false,
 						["numMade"] = 1,
-						["name"] = "Elixir of Mighty Agility",
+						["name"] = "Elixir of Minor Defense",
 						["mats"] = {
-							[36901] = 2,
-							[36903] = 2,
+							[765] = 2,
 							[3371] = 1,
 						},
 						["group"] = 1,
 						["queued"] = 0,
-						["spellID"] = 53840,
+						["spellID"] = 7183,
 					},
-					[22451] = {
+					[39671] = {
 						["enabled"] = false,
 						["numMade"] = 1,
-						["name"] = "Primal Air",
+						["name"] = "Resurgent Healing Potion",
 						["mats"] = {
-							[21885] = 1,
+							[36901] = 2,
+							[3371] = 1,
 						},
-						["group"] = 5,
+						["group"] = 2,
 						["queued"] = 0,
-						["spellID"] = 28569,
+						["spellID"] = 53838,
 					},
 					[8827] = {
 						["enabled"] = false,
@@ -20132,29 +21145,30 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 62410,
 					},
-					[9144] = {
+					[3577] = {
+						["enabled"] = false,
+						["group"] = 5,
+						["hasCD"] = true,
+						["mats"] = {
+							[3575] = 1,
+						},
+						["numMade"] = 1,
+						["name"] = "Gold Bar",
+						["queued"] = 0,
+						["spellID"] = 11479,
+					},
+					[58489] = {
 						["enabled"] = false,
 						["numMade"] = 1,
-						["name"] = "Wildvine Potion",
+						["name"] = "Potion of Illusion",
 						["mats"] = {
-							[8831] = 1,
+							[52985] = 1,
+							[52329] = 3,
 							[3371] = 1,
-							[8153] = 1,
 						},
 						["group"] = 2,
 						["queued"] = 0,
-						["spellID"] = 11458,
-					},
-					[6371] = {
-						["enabled"] = false,
-						["numMade"] = 1,
-						["name"] = "Fire Oil",
-						["mats"] = {
-							[6359] = 2,
-						},
-						["group"] = 6,
-						["queued"] = 0,
-						["spellID"] = 7837,
+						["spellID"] = 80269,
 					},
 					[13423] = {
 						["enabled"] = false,
@@ -20176,21 +21190,23 @@ TradeSkillMaster_CraftingDB = {
 						},
 						["numMade"] = 15,
 						["name"] = "Random Volatile Element",
-						["queued"] = -20,
+						["queued"] = -29,
 						["spellID"] = 78866,
 					},
-					[58489] = {
+					[23571] = {
 						["enabled"] = false,
 						["numMade"] = 1,
-						["name"] = "Potion of Illusion",
+						["name"] = "Primal Might",
 						["mats"] = {
-							[52985] = 1,
-							[52329] = 3,
-							[3371] = 1,
+							[22457] = 1,
+							[22451] = 1,
+							[22452] = 1,
+							[21884] = 1,
+							[21885] = 1,
 						},
-						["group"] = 2,
-						["queued"] = 0,
-						["spellID"] = 80269,
+						["group"] = 5,
+						["queued"] = -6,
+						["spellID"] = 29688,
 					},
 					[33447] = {
 						["enabled"] = false,
@@ -20229,32 +21245,6 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 53942,
 					},
-					[58090] = {
-						["enabled"] = false,
-						["numMade"] = 1,
-						["name"] = "Earthen Potion",
-						["mats"] = {
-							[52984] = 2,
-							[3371] = 1,
-						},
-						["group"] = 2,
-						["queued"] = 0,
-						["spellID"] = 80478,
-					},
-					[46376] = {
-						["enabled"] = false,
-						["numMade"] = 2,
-						["name"] = "Flask of the Frost Wyrm",
-						["mats"] = {
-							[36905] = 5,
-							[36906] = 5,
-							[3371] = 1,
-							[36908] = 1,
-						},
-						["group"] = 3,
-						["queued"] = 0,
-						["spellID"] = 53901,
-					},
 					[36925] = {
 						["enabled"] = false,
 						["group"] = 5,
@@ -20268,31 +21258,57 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 66663,
 					},
+					[13443] = {
+						["enabled"] = false,
+						["numMade"] = 1,
+						["name"] = "Superior Mana Potion",
+						["mats"] = {
+							[8838] = 2,
+							[8839] = 2,
+							[3371] = 1,
+						},
+						["group"] = 2,
+						["queued"] = 0,
+						["spellID"] = 17553,
+					},
+					[58090] = {
+						["enabled"] = false,
+						["numMade"] = 1,
+						["name"] = "Earthen Potion",
+						["mats"] = {
+							[52984] = 2,
+							[3371] = 1,
+						},
+						["group"] = 2,
+						["queued"] = 0,
+						["spellID"] = 80478,
+					},
 					[44328] = {
 						["enabled"] = false,
 						["numMade"] = 1,
 						["name"] = "Elixir of Mighty Defense",
 						["mats"] = {
+							[3371] = 1,
 							[36906] = 2,
 							[37704] = 1,
-							[3371] = 1,
 						},
 						["group"] = 1,
 						["queued"] = 0,
 						["spellID"] = 60356,
 					},
-					[3823] = {
+					[46376] = {
 						["enabled"] = false,
-						["numMade"] = 1,
-						["name"] = "Lesser Invisibility Potion",
+						["numMade"] = 2,
+						["name"] = "Flask of the Frost Wyrm",
 						["mats"] = {
-							[3355] = 1,
-							[3818] = 1,
+							[36905] = 5,
+							[36908] = 1,
 							[3371] = 1,
+							[36906] = 5,
 						},
-						["group"] = 2,
+						["group"] = 3,
 						["queued"] = 0,
-						["spellID"] = 3448,
+						["spellID"] = 53901,
 					},
 					[28101] = {
 						["enabled"] = false,
@@ -20320,18 +21336,18 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 17555,
 					},
-					[58146] = {
+					[13453] = {
 						["enabled"] = false,
 						["numMade"] = 1,
-						["name"] = "Golemblood Potion",
+						["name"] = "Elixir of Brute Force",
 						["mats"] = {
-							[52329] = 1,
-							[52986] = 1,
+							[13466] = 2,
 							[3371] = 1,
+							[8846] = 2,
 						},
-						["group"] = 2,
+						["group"] = 1,
 						["queued"] = 0,
-						["spellID"] = 80496,
+						["spellID"] = 17557,
 					},
 					[3825] = {
 						["enabled"] = false,
@@ -20346,18 +21362,18 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 3450,
 					},
-					[13453] = {
+					[58146] = {
 						["enabled"] = false,
 						["numMade"] = 1,
-						["name"] = "Elixir of Brute Force",
+						["name"] = "Golemblood Potion",
 						["mats"] = {
-							[13466] = 2,
 							[3371] = 1,
-							[8846] = 2,
+							[52329] = 1,
+							[52986] = 1,
 						},
-						["group"] = 1,
+						["group"] = 2,
 						["queued"] = 0,
-						["spellID"] = 17557,
+						["spellID"] = 80496,
 					},
 					[13455] = {
 						["enabled"] = false,
@@ -20372,17 +21388,18 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 17570,
 					},
-					[40073] = {
+					[929] = {
 						["enabled"] = false,
 						["numMade"] = 1,
-						["name"] = "Elixir of Mighty Strength",
+						["name"] = "Healing Potion",
 						["mats"] = {
-							[36904] = 2,
 							[3371] = 1,
+							[2453] = 1,
+							[2450] = 1,
 						},
-						["group"] = 1,
+						["group"] = 2,
 						["queued"] = 0,
-						["spellID"] = 54218,
+						["spellID"] = 3447,
 					},
 					[3827] = {
 						["enabled"] = false,
@@ -20397,18 +21414,17 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 3452,
 					},
-					[929] = {
+					[40073] = {
 						["enabled"] = false,
 						["numMade"] = 1,
-						["name"] = "Healing Potion",
+						["name"] = "Elixir of Mighty Strength",
 						["mats"] = {
-							[2453] = 1,
-							[2450] = 1,
+							[36904] = 2,
 							[3371] = 1,
 						},
-						["group"] = 2,
+						["group"] = 1,
 						["queued"] = 0,
-						["spellID"] = 3447,
+						["spellID"] = 54218,
 					},
 					[40081] = {
 						["enabled"] = false,
@@ -20440,26 +21456,26 @@ TradeSkillMaster_CraftingDB = {
 						["numMade"] = 1,
 						["name"] = "Elixir of Protection",
 						["mats"] = {
+							[3371] = 1,
 							[36906] = 2,
 							[37701] = 1,
-							[3371] = 1,
 						},
 						["group"] = 1,
 						["queued"] = 0,
 						["spellID"] = 54220,
 					},
-					[13443] = {
+					[3823] = {
 						["enabled"] = false,
 						["numMade"] = 1,
-						["name"] = "Superior Mana Potion",
+						["name"] = "Lesser Invisibility Potion",
 						["mats"] = {
-							[8838] = 2,
-							[8839] = 2,
+							[3355] = 1,
+							[3818] = 1,
 							[3371] = 1,
 						},
 						["group"] = 2,
 						["queued"] = 0,
-						["spellID"] = 17553,
+						["spellID"] = 3448,
 					},
 					[44958] = {
 						["enabled"] = false,
@@ -20483,20 +21499,16 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 7836,
 					},
-					[23571] = {
+					[6371] = {
 						["enabled"] = false,
 						["numMade"] = 1,
-						["name"] = "Primal Might",
+						["name"] = "Fire Oil",
 						["mats"] = {
-							[22457] = 1,
-							[22451] = 1,
-							[22452] = 1,
-							[21885] = 1,
-							[21884] = 1,
+							[6359] = 2,
 						},
-						["group"] = 5,
-						["queued"] = -6,
-						["spellID"] = 29688,
+						["group"] = 6,
+						["queued"] = 0,
+						["spellID"] = 7837,
 					},
 					[6372] = {
 						["enabled"] = false,
@@ -20511,78 +21523,80 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 7841,
 					},
-					[3577] = {
-						["enabled"] = false,
-						["group"] = 5,
-						["hasCD"] = true,
-						["mats"] = {
-							[3575] = 1,
-						},
-						["numMade"] = 1,
-						["name"] = "Gold Bar",
-						["queued"] = 0,
-						["spellID"] = 11479,
-					},
-					[39671] = {
+					[9144] = {
 						["enabled"] = false,
 						["numMade"] = 1,
-						["name"] = "Resurgent Healing Potion",
+						["name"] = "Wildvine Potion",
 						["mats"] = {
-							[36901] = 2,
+							[8831] = 1,
 							[3371] = 1,
+							[8153] = 1,
 						},
 						["group"] = 2,
 						["queued"] = 0,
-						["spellID"] = 53838,
+						["spellID"] = 11458,
 					},
-					[5997] = {
+					[22451] = {
 						["enabled"] = false,
 						["numMade"] = 1,
-						["name"] = "Elixir of Minor Defense",
+						["name"] = "Primal Air",
 						["mats"] = {
-							[765] = 2,
-							[3371] = 1,
-						},
-						["group"] = 1,
-						["queued"] = 0,
-						["spellID"] = 7183,
-					},
-					[21885] = {
-						["enabled"] = false,
-						["numMade"] = 1,
-						["name"] = "Primal Water",
-						["mats"] = {
-							[22452] = 1,
+							[21885] = 1,
 						},
 						["group"] = 5,
 						["queued"] = 0,
-						["spellID"] = 28567,
+						["spellID"] = 28569,
 					},
-					[33208] = {
-						["enabled"] = false,
-						["numMade"] = 2,
-						["name"] = "Flask of Chromatic Wonder",
-						["mats"] = {
-							[22794] = 1,
-							[22791] = 3,
-							[3371] = 1,
-							[22786] = 7,
-						},
-						["group"] = 3,
-						["queued"] = 0,
-						["spellID"] = 42736,
-					},
-					[9154] = {
+					[39666] = {
 						["enabled"] = false,
 						["numMade"] = 1,
-						["name"] = "Elixir of Detect Undead",
+						["name"] = "Elixir of Mighty Agility",
 						["mats"] = {
-							[8836] = 1,
+							[36901] = 2,
+							[36903] = 2,
 							[3371] = 1,
 						},
 						["group"] = 1,
 						["queued"] = 0,
-						["spellID"] = 11460,
+						["spellID"] = 53840,
+					},
+					[6373] = {
+						["enabled"] = false,
+						["numMade"] = 1,
+						["name"] = "Elixir of Firepower",
+						["mats"] = {
+							[6371] = 2,
+							[3356] = 1,
+							[3371] = 1,
+						},
+						["group"] = 1,
+						["queued"] = 0,
+						["spellID"] = 7845,
+					},
+					[40072] = {
+						["enabled"] = false,
+						["numMade"] = 1,
+						["name"] = "Elixir of Spirit",
+						["mats"] = {
+							[36907] = 3,
+							[3371] = 1,
+						},
+						["group"] = 1,
+						["queued"] = 0,
+						["spellID"] = 53847,
+					},
+					[22834] = {
+						["enabled"] = false,
+						["numMade"] = 1,
+						["name"] = "Elixir of Major Defense",
+						["mats"] = {
+							[22790] = 3,
+							[22789] = 1,
+							[3371] = 1,
+						},
+						["group"] = 1,
+						["queued"] = 0,
+						["spellID"] = 28557,
 					},
 					[22838] = {
 						["enabled"] = false,
@@ -20597,45 +21611,42 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 28564,
 					},
-					[22848] = {
+					[40109] = {
 						["enabled"] = false,
 						["numMade"] = 1,
-						["name"] = "Elixir of Empowerment",
+						["name"] = "Elixir of Mighty Mageblood",
 						["mats"] = {
-							[22793] = 1,
-							[22791] = 1,
+							[36905] = 2,
+							[36901] = 1,
 							[3371] = 1,
 						},
 						["group"] = 1,
 						["queued"] = 0,
-						["spellID"] = 28578,
+						["spellID"] = 56519,
 					},
-					[4596] = {
+					[52194] = {
 						["enabled"] = false,
 						["numMade"] = 1,
-						["name"] = "Discolored Healing Potion",
+						["name"] = "Demonseye",
 						["mats"] = {
-							[3164] = 1,
-							[2447] = 1,
-							[3371] = 1,
+							[52180] = 3,
+							[52987] = 3,
 						},
-						["group"] = 2,
+						["group"] = 5,
 						["queued"] = 0,
-						["spellID"] = 4508,
+						["spellID"] = 80248,
 					},
-					[22850] = {
+					[35627] = {
 						["enabled"] = false,
-						["numMade"] = 1,
-						["name"] = "Super Rejuvenation Potion",
+						["group"] = 5,
+						["hasCD"] = true,
 						["mats"] = {
-							[22793] = 2,
-							[22791] = 1,
-							[22786] = 1,
-							[3371] = 1,
+							[35625] = 1,
 						},
-						["group"] = 2,
+						["numMade"] = 1,
+						["name"] = "Eternal Shadow",
 						["queued"] = 0,
-						["spellID"] = 28586,
+						["spellID"] = 53782,
 					},
 					[22854] = {
 						["enabled"] = false,
@@ -20651,18 +21662,17 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 28589,
 					},
-					[22832] = {
+					[12360] = {
 						["enabled"] = false,
 						["numMade"] = 1,
-						["name"] = "Super Mana Potion",
+						["name"] = "Arcanite Bar",
 						["mats"] = {
-							[22785] = 1,
-							[22786] = 2,
-							[3371] = 1,
+							[12359] = 1,
+							[12363] = 1,
 						},
-						["group"] = 2,
+						["group"] = 5,
 						["queued"] = 0,
-						["spellID"] = 28555,
+						["spellID"] = 17187,
 					},
 					[58091] = {
 						["enabled"] = false,
@@ -20677,19 +21687,17 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 80481,
 					},
-					[22866] = {
+					[36934] = {
 						["enabled"] = false,
-						["numMade"] = 2,
-						["name"] = "Flask of Pure Death",
+						["group"] = 5,
+						["hasCD"] = true,
 						["mats"] = {
-							[22793] = 3,
-							[22794] = 1,
-							[22792] = 7,
-							[3371] = 1,
+							[36933] = 3,
 						},
-						["group"] = 3,
+						["numMade"] = 1,
+						["name"] = "Eye of Zul",
 						["queued"] = 0,
-						["spellID"] = 28591,
+						["spellID"] = 66664,
 					},
 					[46377] = {
 						["enabled"] = false,
@@ -20705,30 +21713,30 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 53903,
 					},
-					[35625] = {
+					[52192] = {
 						["enabled"] = false,
-						["group"] = 5,
-						["hasCD"] = true,
-						["mats"] = {
-							[35627] = 1,
-						},
 						["numMade"] = 1,
-						["name"] = "Eternal Life",
+						["name"] = "Dream Emerald",
+						["mats"] = {
+							[52182] = 3,
+							[52984] = 3,
+						},
+						["group"] = 5,
 						["queued"] = 0,
-						["spellID"] = 53775,
+						["spellID"] = 80251,
 					},
-					[36928] = {
+					[41334] = {
 						["enabled"] = false,
-						["group"] = 5,
-						["hasCD"] = true,
-						["mats"] = {
-							[35627] = 1,
-							[36927] = 1,
-						},
 						["numMade"] = 1,
-						["name"] = "Dreadstone",
+						["name"] = "Earthsiege Diamond",
+						["mats"] = {
+							[36860] = 1,
+							[36932] = 1,
+							[36929] = 1,
+						},
+						["group"] = 5,
 						["queued"] = 0,
-						["spellID"] = 66662,
+						["spellID"] = 57427,
 					},
 					[32062] = {
 						["enabled"] = false,
@@ -20743,29 +21751,33 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 39636,
 					},
-					[58487] = {
+					[36922] = {
 						["enabled"] = false,
-						["numMade"] = 1,
-						["name"] = "Potion of Deepholm",
+						["group"] = 5,
+						["hasCD"] = true,
 						["mats"] = {
-							[52986] = 5,
-							[3371] = 1,
+							[36921] = 1,
+							[35625] = 1,
 						},
-						["group"] = 2,
+						["numMade"] = 1,
+						["name"] = "King's Amber",
 						["queued"] = 0,
-						["spellID"] = 80725,
+						["spellID"] = 66660,
 					},
-					[40077] = {
+					[25868] = {
 						["enabled"] = false,
 						["numMade"] = 1,
-						["name"] = "Crazy Alchemist's Potion",
+						["name"] = "Skyfire Diamond",
 						["mats"] = {
-							[36901] = 2,
-							[3371] = 1,
+							[21884] = 2,
+							[23117] = 3,
+							[23077] = 3,
+							[22451] = 2,
+							[21929] = 3,
 						},
-						["group"] = 2,
+						["group"] = 5,
 						["queued"] = 0,
-						["spellID"] = 53895,
+						["spellID"] = 32766,
 					},
 					[34440] = {
 						["enabled"] = false,
@@ -20779,31 +21791,31 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 45061,
 					},
-					[36931] = {
+					[28103] = {
+						["enabled"] = false,
+						["numMade"] = 1,
+						["name"] = "Adept's Elixir",
+						["mats"] = {
+							[22785] = 1,
+							[3371] = 1,
+							[13463] = 1,
+						},
+						["group"] = 1,
+						["queued"] = 0,
+						["spellID"] = 33740,
+					},
+					[36919] = {
 						["enabled"] = false,
 						["group"] = 5,
 						["hasCD"] = true,
 						["mats"] = {
-							[36930] = 1,
-							[35627] = 1,
+							[36860] = 1,
+							[36918] = 1,
 						},
 						["numMade"] = 1,
-						["name"] = "Ametrine",
+						["name"] = "Cardinal Ruby",
 						["queued"] = 0,
-						["spellID"] = 66658,
-					},
-					[45621] = {
-						["enabled"] = false,
-						["numMade"] = 1,
-						["name"] = "Elixir of Minor Accuracy",
-						["mats"] = {
-							[6371] = 1,
-							[2453] = 1,
-							[3371] = 1,
-						},
-						["group"] = 1,
-						["queued"] = 0,
-						["spellID"] = 63732,
+						["spellID"] = 66659,
 					},
 					[21886] = {
 						["enabled"] = false,
@@ -20816,30 +21828,29 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 28585,
 					},
-					[3385] = {
+					[35622] = {
 						["enabled"] = false,
-						["numMade"] = 1,
-						["name"] = "Lesser Mana Potion",
+						["group"] = 5,
+						["hasCD"] = true,
 						["mats"] = {
-							[3820] = 1,
-							[3371] = 1,
-							[785] = 1,
+							[36860] = 1,
 						},
-						["group"] = 2,
+						["numMade"] = 1,
+						["name"] = "Eternal Water",
 						["queued"] = 0,
-						["spellID"] = 3173,
+						["spellID"] = 53776,
 					},
-					[43569] = {
-						["enabled"] = true,
-						["numMade"] = 1,
-						["name"] = "Endless Healing Potion",
+					[6037] = {
+						["enabled"] = false,
+						["group"] = 5,
+						["hasCD"] = true,
 						["mats"] = {
-							[33447] = 10,
-							[3371] = 1,
+							[3860] = 1,
 						},
-						["group"] = 7,
+						["numMade"] = 1,
+						["name"] = "Truesilver Bar",
 						["queued"] = 0,
-						["spellID"] = 58871,
+						["spellID"] = 11480,
 					},
 					[5634] = {
 						["enabled"] = false,
@@ -20867,31 +21878,29 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 80498,
 					},
-					[44322] = {
-						["enabled"] = true,
-						["numMade"] = 1,
-						["name"] = "Mercurial Alchemist Stone",
-						["mats"] = {
-							[36908] = 1,
-							[36901] = 20,
-							[35625] = 2,
-						},
-						["group"] = 7,
-						["queued"] = 0,
-						["spellID"] = 60396,
-					},
-					[2455] = {
+					[18294] = {
 						["enabled"] = false,
 						["numMade"] = 1,
-						["name"] = "Minor Mana Potion",
+						["name"] = "Elixir of Greater Water Breathing",
 						["mats"] = {
-							[785] = 1,
-							[765] = 1,
+							[7972] = 1,
+							[8831] = 2,
 							[3371] = 1,
 						},
-						["group"] = 2,
+						["group"] = 1,
 						["queued"] = 0,
-						["spellID"] = 2331,
+						["spellID"] = 22808,
+					},
+					[21884] = {
+						["enabled"] = false,
+						["numMade"] = 1,
+						["name"] = "Primal Fire",
+						["mats"] = {
+							[22451] = 1,
+						},
+						["group"] = 5,
+						["queued"] = 0,
+						["spellID"] = 28566,
 					},
 					[8949] = {
 						["enabled"] = false,
@@ -20906,45 +21915,44 @@ TradeSkillMaster_CraftingDB = {
 						["queued"] = 0,
 						["spellID"] = 11449,
 					},
-					[8951] = {
+					[6149] = {
 						["enabled"] = false,
 						["numMade"] = 1,
-						["name"] = "Elixir of Greater Defense",
+						["name"] = "Greater Mana Potion",
 						["mats"] = {
-							[3355] = 1,
+							[3358] = 1,
 							[3821] = 1,
 							[3371] = 1,
 						},
-						["group"] = 1,
+						["group"] = 2,
 						["queued"] = 0,
-						["spellID"] = 11450,
+						["spellID"] = 11448,
 					},
-					[44324] = {
+					[44323] = {
 						["enabled"] = true,
 						["numMade"] = 1,
-						["name"] = "Mighty Alchemist Stone",
+						["name"] = "Indestructible Alchemist Stone",
 						["mats"] = {
 							[36908] = 1,
-							[36904] = 15,
-							[36903] = 15,
+							[40195] = 12,
+							[37921] = 20,
 						},
 						["group"] = 7,
 						["queued"] = 0,
-						["spellID"] = 60405,
+						["spellID"] = 60403,
 					},
-					[9149] = {
-						["enabled"] = true,
+					[33448] = {
+						["enabled"] = false,
 						["numMade"] = 1,
-						["name"] = "Philosopher's Stone",
+						["name"] = "Runic Mana Potion",
 						["mats"] = {
-							[4625] = 4,
-							[8831] = 4,
-							[3575] = 4,
-							[9262] = 1,
+							[36905] = 2,
+							[36901] = 1,
+							[3371] = 1,
 						},
-						["group"] = 7,
+						["group"] = 2,
 						["queued"] = 0,
-						["spellID"] = 11459,
+						["spellID"] = 53837,
 					},
 				},
 			},
@@ -20956,8 +21964,8 @@ TradeSkillMaster_CraftingDB = {
 					["Promitto"] = 310,
 				},
 				["Jewelcrafting"] = {
-					["Promitto"] = 236,
 					["Aset"] = 274,
+					["Promitto"] = 236,
 				},
 				["Enchanting"] = {
 					["Chukk"] = 216,
@@ -20969,1289 +21977,283 @@ TradeSkillMaster_CraftingDB = {
 				["crafts"] = {
 				},
 			},
-			["Cooking"] = {
-				["mats"] = {
-					[43011] = {
-						["name"] = "Worg Haunch",
-						["source"] = "auction",
-					},
-					[27422] = {
-						["name"] = "Barbed Gill Trout",
-						["source"] = "auction",
-					},
-					[27678] = {
-						["name"] = "Clefthoof Meat",
-						["source"] = "auction",
-					},
-					[27682] = {
-						["name"] = "Talbuk Venison",
-						["source"] = "auction",
-					},
-					[27438] = {
-						["name"] = "Golden Darter",
-						["source"] = "auction",
-					},
-					[6289] = {
-						["name"] = "Raw Longjaw Mud Snapper",
-						["source"] = "auction",
-					},
-					[44853] = {
-						["name"] = "Honey",
-						["source"] = "vendor",
-					},
-					[41809] = {
-						["name"] = "Glacial Salmon",
-						["source"] = "auction",
-					},
-					[41813] = {
-						["name"] = "Nettlefish",
-						["source"] = "auction",
-					},
-					[33824] = {
-						["name"] = "Crescent-Tail Skullfish",
-						["source"] = "auction",
-					},
-					[2593] = {
-						["name"] = "Flask of Port",
-						["source"] = "auction",
-					},
-					[6361] = {
-						["name"] = "Raw Rainbow Fin Albacore",
-						["source"] = "auction",
-					},
-					[43012] = {
-						["name"] = "Rhino Meat",
-						["source"] = "auction",
-					},
-					[6362] = {
-						["name"] = "Raw Rockscale Cod",
-						["source"] = "auction",
-					},
-					[2594] = {
-						["name"] = "Flagon of Mead",
-					},
-					[34412] = {
-						["name"] = "Sparkling Apple Cider",
-						["source"] = "vendor",
-					},
-					[1179] = {
-						["name"] = "Ice Cold Milk",
-					},
-					[44834] = {
-						["name"] = "Wild Turkey",
-					},
-					[35948] = {
-						["source"] = "auction",
-						["name"] = "Savory Snowplum",
-					},
-					[41802] = {
-						["name"] = "Imperial Manta Ray",
-						["source"] = "auction",
-					},
-					[44854] = {
-						["name"] = "Tangy Wetland Cranberries",
-					},
-					[41810] = {
-						["name"] = "Fangtooth Herring",
-						["source"] = "auction",
-					},
-					[30816] = {
-						["name"] = "Spice Bread",
-						["source"] = "craft",
-					},
-					[27516] = {
-						["name"] = "Enormous Barbed Gill Trout",
-						["source"] = "auction",
-					},
-					[12808] = {
-						["name"] = "Essence of Undeath",
-						["source"] = "auction",
-					},
-					[8365] = {
-						["name"] = "Raw Mithril Head Trout",
-						["source"] = "auction",
-					},
-					[785] = {
-						["name"] = "Mageroyal",
-						["source"] = "auction",
-					},
-					[22577] = {
-						["name"] = "Mote of Shadow",
-						["source"] = "auction",
-					},
-					[36782] = {
-						["name"] = "Succulent Clam Meat",
-						["source"] = "auction",
-					},
-					[43009] = {
-						["name"] = "Shoveltusk Flank",
-						["source"] = "auction",
-					},
-					[43013] = {
-						["name"] = "Chilled Meat",
-						["source"] = "auction",
-					},
-					[27671] = {
-						["name"] = "Buzzard Meat",
-						["source"] = "auction",
-					},
-					[21071] = {
-						["name"] = "Raw Sagefish",
-					},
-					[27677] = {
-						["name"] = "Chunk o' Basilisk",
-						["source"] = "auction",
-					},
-					[27425] = {
-						["name"] = "Spotted Feltail",
-						["source"] = "auction",
-					},
-					[4603] = {
-						["name"] = "Raw Spotted Yellowtail",
-						["source"] = "auction",
-					},
-					[27429] = {
-						["name"] = "Zangarian Sporefish",
-						["source"] = "auction",
-					},
-					[44835] = {
-						["name"] = "Autumnal Herbs",
-						["source"] = "vendor",
-					},
-					[35949] = {
-						["source"] = "vendor",
-						["name"] = "Tundra Berries",
-					},
-					[27439] = {
-						["name"] = "Furious Crawdad",
-						["source"] = "auction",
-					},
-					[41803] = {
-						["name"] = "Rockfin Grouper",
-						["source"] = "auction",
-					},
-					[44855] = {
-						["name"] = "Teldrassil Sweet Potato",
-					},
-					[7974] = {
-						["name"] = "Zesty Clam Meat",
-						["source"] = "auction",
-					},
-					[12203] = {
-						["name"] = "Red Wolf Meat",
-						["source"] = "auction",
-					},
-					[159] = {
-						["name"] = "Refreshing Spring Water",
-						["source"] = "auction",
-					},
-					[2596] = {
-						["name"] = "Skin of Dwarven Stout",
-					},
-					[31671] = {
-						["name"] = "Serpent Flesh",
-						["source"] = "auction",
-					},
-					[12208] = {
-						["name"] = "Tender Wolf Meat",
-						["source"] = "auction",
-					},
-					[6889] = {
-						["name"] = "Small Egg",
-						["source"] = "auction",
-					},
-					[6308] = {
-						["name"] = "Raw Bristle Whisker Catfish",
-						["source"] = "auction",
-					},
-					[2672] = {
-						["name"] = "Stringy Wolf Meat",
-						["source"] = "auction",
-					},
-					[5503] = {
-						["name"] = "Clam Meat",
-						["source"] = "auction",
-					},
-					[6522] = {
-						["name"] = "Deviate Fish",
-						["source"] = "auction",
-					},
-					[43010] = {
-						["name"] = "Worm Meat",
-						["source"] = "auction",
-					},
-					[2673] = {
-						["name"] = "Coyote Meat",
-						["source"] = "auction",
-					},
-					[31670] = {
-						["name"] = "Raptor Ribs",
-						["source"] = "auction",
-					},
-					[17194] = {
-						["name"] = "Holiday Spices",
-						["source"] = "vendor",
-					},
-					[3404] = {
-						["name"] = "Buzzard Wing",
-						["source"] = "auction",
-					},
-					[2674] = {
-						["name"] = "Crawler Meat",
-						["source"] = "auction",
-					},
-					[769] = {
-						["name"] = "Chunk of Boar Meat",
-						["source"] = "auction",
-					},
-					[5504] = {
-						["name"] = "Tangy Clam Meat",
-						["source"] = "auction",
-					},
-					[27437] = {
-						["name"] = "Icefin Bluefish",
-						["source"] = "auction",
-					},
-					[27435] = {
-						["name"] = "Figluster's Mudfish",
-						["source"] = "auction",
-					},
-					[27681] = {
-						["name"] = "Warped Flesh",
-						["source"] = "auction",
-					},
-					[27515] = {
-						["name"] = "Huge Spotted Feltail",
-						["source"] = "auction",
-					},
-					[2678] = {
-						["name"] = "Mild Spices",
-						["source"] = "vendor",
-					},
-					[13758] = {
-						["name"] = "Raw Redgill",
-						["source"] = "auction",
-					},
-					[21153] = {
-						["name"] = "Raw Greater Sagefish",
-						["source"] = "auction",
-					},
-					[41812] = {
-						["name"] = "Barrelhead Goby",
-						["source"] = "auction",
-					},
-					[13754] = {
-						["name"] = "Raw Glossy Mightfish",
-						["source"] = "auction",
-					},
-					[2677] = {
-						["name"] = "Boar Ribs",
-						["source"] = "auction",
-					},
-					[13756] = {
-						["name"] = "Raw Summer Bass",
-						["source"] = "auction",
-					},
-					[13757] = {
-						["name"] = "Lightning Eel",
-						["source"] = "auction",
-					},
-					[30817] = {
-						["name"] = "Simple Flour",
-						["source"] = "vendor",
-					},
-					[33823] = {
-						["name"] = "Bloodfin Catfish",
-						["source"] = "auction",
-					},
-					[41808] = {
-						["name"] = "Bonescale Snapper",
-						["source"] = "auction",
-					},
-					[13888] = {
-						["name"] = "Darkclaw Lobster",
-						["source"] = "auction",
-					},
-					[13889] = {
-						["name"] = "Raw Whitescale Salmon",
-						["source"] = "auction",
-					},
-					[4655] = {
-						["name"] = "Giant Clam Meat",
-					},
-					[12205] = {
-						["name"] = "White Spider Meat",
-						["source"] = "auction",
-					},
-					[34736] = {
-						["source"] = "auction",
-						["name"] = "Chunk o' Mammoth",
-					},
-					[13893] = {
-						["name"] = "Large Raw Mightfish",
-						["source"] = "auction",
-					},
-					[17196] = {
-						["name"] = "Holiday Spirits",
-						["source"] = "vendor",
-					},
-					[46784] = {
-						["name"] = "Ripe Elwynn Pumpkin",
-					},
-					[43501] = {
-						["name"] = "Northern Egg",
-						["source"] = "auction",
-					},
-					[41806] = {
-						["name"] = "Musselback Sculpin",
-						["source"] = "auction",
-					},
-				},
-				["crafts"] = {
-					[27666] = {
-						["mats"] = {
-							[27438] = 1,
-						},
-						["numMade"] = 1,
-						["name"] = "Golden Fish Sticks",
-						["enabled"] = true,
-						["group"] = 2,
-						["queued"] = 0,
-						["spellID"] = 33295,
-					},
-					[34760] = {
-						["mats"] = {
-							[41808] = 1,
-						},
-						["numMade"] = 1,
-						["name"] = "Grilled Bonescale",
-						["enabled"] = true,
-						["group"] = 3,
-						["queued"] = 0,
-						["spellID"] = 45561,
-					},
-					[34764] = {
-						["mats"] = {
-							[41813] = 1,
-						},
-						["numMade"] = 1,
-						["name"] = "Poached Nettlefish",
-						["enabled"] = true,
-						["group"] = 3,
-						["queued"] = 0,
-						["spellID"] = 45565,
-					},
-					[21072] = {
-						["mats"] = {
-							[21071] = 1,
-						},
-						["numMade"] = 1,
-						["name"] = "Smoked Sagefish",
-						["enabled"] = true,
-						["group"] = 1,
-						["queued"] = 0,
-						["spellID"] = 25704,
-					},
-					[34411] = {
-						["mats"] = {
-							[34412] = 1,
-							[17196] = 1,
-							[17194] = 1,
-						},
-						["numMade"] = 2,
-						["name"] = "Hot Apple Cider",
-						["enabled"] = true,
-						["group"] = 3,
-						["queued"] = 0,
-						["spellID"] = 45022,
-					},
-					[5525] = {
-						["mats"] = {
-							[5503] = 1,
-							[159] = 1,
-						},
-						["numMade"] = 1,
-						["name"] = "Boiled Clams",
-						["enabled"] = true,
-						["group"] = 1,
-						["queued"] = 0,
-						["spellID"] = 6499,
-					},
-					[16766] = {
-						["mats"] = {
-							[7974] = 2,
-						},
-						["numMade"] = 2,
-						["name"] = "Undermine Clam Chowder",
-						["enabled"] = true,
-						["group"] = 2,
-						["queued"] = 0,
-						["spellID"] = 20626,
-					},
-					[44837] = {
-						["mats"] = {
-							[30816] = 1,
-							[44835] = 1,
-						},
-						["numMade"] = 1,
-						["name"] = "Spice Bread Stuffing",
-						["enabled"] = true,
-						["group"] = 1,
-						["queued"] = 0,
-						["spellID"] = 62050,
-					},
-					[2684] = {
-						["mats"] = {
-							[2673] = 1,
-						},
-						["numMade"] = 1,
-						["name"] = "Coyote Steak",
-						["enabled"] = true,
-						["group"] = 1,
-						["queued"] = 0,
-						["spellID"] = 2541,
-					},
-					[5527] = {
-						["mats"] = {
-							[5504] = 1,
-						},
-						["numMade"] = 1,
-						["name"] = "Goblin Deviled Clams",
-						["enabled"] = true,
-						["group"] = 1,
-						["queued"] = 0,
-						["spellID"] = 6500,
-					},
-					[34832] = {
-						["mats"] = {
-							[2596] = 1,
-							[2594] = 1,
-						},
-						["numMade"] = 5,
-						["name"] = "Captain Rumsey's Lager",
-						["enabled"] = true,
-						["group"] = 1,
-						["queued"] = 0,
-						["spellID"] = 45695,
-					},
-					[6038] = {
-						["mats"] = {
-							[4655] = 1,
-						},
-						["numMade"] = 1,
-						["name"] = "Giant Clam Scorcho",
-						["enabled"] = true,
-						["group"] = 1,
-						["queued"] = 0,
-						["spellID"] = 7213,
-					},
-					[43488] = {
-						["mats"] = {
-							[34736] = 1,
-						},
-						["numMade"] = 5,
-						["name"] = "Last Week's Mammoth",
-						["enabled"] = true,
-						["group"] = 3,
-						["queued"] = 0,
-						["spellID"] = 58521,
-					},
-					[43492] = {
-						["mats"] = {
-							[41810] = 1,
-							[12808] = 1,
-						},
-						["numMade"] = 5,
-						["name"] = "Haunted Herring",
-						["enabled"] = true,
-						["group"] = 3,
-						["queued"] = 0,
-						["spellID"] = 58525,
-					},
-					[13927] = {
-						["mats"] = {
-							[13754] = 1,
-						},
-						["numMade"] = 1,
-						["name"] = "Cooked Glossy Mightfish",
-						["enabled"] = true,
-						["group"] = 2,
-						["queued"] = 0,
-						["spellID"] = 18239,
-					},
-					[34753] = {
-						["mats"] = {
-							[34736] = 1,
-							[43009] = 1,
-							[43013] = 2,
-							[43010] = 1,
-						},
-						["numMade"] = 1,
-						["name"] = "Great Feast",
-						["enabled"] = true,
-						["group"] = 3,
-						["queued"] = 0,
-						["spellID"] = 45554,
-					},
-					[13929] = {
-						["mats"] = {
-							[13756] = 1,
-						},
-						["numMade"] = 1,
-						["name"] = "Hot Smoked Bass",
-						["enabled"] = true,
-						["group"] = 2,
-						["queued"] = 0,
-						["spellID"] = 18242,
-					},
-					[13930] = {
-						["mats"] = {
-							[13758] = 1,
-						},
-						["numMade"] = 1,
-						["name"] = "Filet of Redgill",
-						["enabled"] = true,
-						["group"] = 2,
-						["queued"] = 0,
-						["spellID"] = 18241,
-					},
-					[34765] = {
-						["mats"] = {
-							[41810] = 1,
-						},
-						["numMade"] = 1,
-						["name"] = "Pickled Fangtooth",
-						["enabled"] = true,
-						["group"] = 3,
-						["queued"] = 0,
-						["spellID"] = 45566,
-					},
-					[31673] = {
-						["mats"] = {
-							[31671] = 1,
-						},
-						["numMade"] = 1,
-						["name"] = "Crunchy Serpent",
-						["enabled"] = true,
-						["group"] = 2,
-						["queued"] = 0,
-						["spellID"] = 38868,
-					},
-					[13933] = {
-						["mats"] = {
-							[13888] = 1,
-							[159] = 1,
-						},
-						["numMade"] = 1,
-						["name"] = "Lobster Stew",
-						["enabled"] = true,
-						["group"] = 2,
-						["queued"] = 0,
-						["spellID"] = 18245,
-					},
-					[13934] = {
-						["mats"] = {
-							[13893] = 1,
-						},
-						["numMade"] = 1,
-						["name"] = "Mightfish Steak",
-						["enabled"] = true,
-						["group"] = 2,
-						["queued"] = 0,
-						["spellID"] = 18246,
-					},
-					[13935] = {
-						["mats"] = {
-							[13889] = 1,
-						},
-						["numMade"] = 1,
-						["name"] = "Baked Salmon",
-						["enabled"] = true,
-						["group"] = 2,
-						["queued"] = 0,
-						["spellID"] = 18247,
-					},
-					[5095] = {
-						["mats"] = {
-							[6361] = 1,
-						},
-						["numMade"] = 1,
-						["name"] = "Rainbow Fin Albacore",
-						["enabled"] = true,
-						["group"] = 1,
-						["queued"] = 0,
-						["spellID"] = 7827,
-					},
-					[44838] = {
-						["mats"] = {
-							[44834] = 1,
-							[44853] = 2,
-							[44835] = 1,
-						},
-						["numMade"] = 1,
-						["name"] = "Slow-Roasted Turkey",
-						["enabled"] = true,
-						["group"] = 2,
-						["queued"] = 0,
-						["spellID"] = 62045,
-					},
-					[33924] = {
-						["mats"] = {
-							[2593] = 1,
-							[30817] = 8,
-							[1179] = 4,
-							[785] = 3,
-							[2678] = 4,
-							[6889] = 8,
-						},
-						["numMade"] = 1,
-						["name"] = "Delicious Chocolate Cake",
-						["enabled"] = true,
-						["group"] = 1,
-						["queued"] = 0,
-						["spellID"] = 43779,
-					},
-					[39520] = {
-						["mats"] = {
-							[35949] = 2,
-							[35948] = 1,
-						},
-						["numMade"] = 5,
-						["name"] = "Kungaloosh",
-						["enabled"] = true,
-						["group"] = 3,
-						["queued"] = 0,
-						["spellID"] = 53056,
-					},
-					[4592] = {
-						["mats"] = {
-							[6289] = 1,
-						},
-						["numMade"] = 1,
-						["name"] = "Longjaw Mud Snapper",
-						["enabled"] = true,
-						["group"] = 1,
-						["queued"] = 0,
-						["spellID"] = 7753,
-					},
-					[4593] = {
-						["mats"] = {
-							[6308] = 1,
-						},
-						["numMade"] = 1,
-						["name"] = "Bristle Whisker Catfish",
-						["enabled"] = true,
-						["group"] = 1,
-						["queued"] = 0,
-						["spellID"] = 7755,
-					},
-					[33825] = {
-						["mats"] = {
-							[33824] = 1,
-						},
-						["numMade"] = 1,
-						["name"] = "Skullfish Soup",
-						["enabled"] = true,
-						["group"] = 2,
-						["queued"] = 0,
-						["spellID"] = 43707,
-					},
-					[8364] = {
-						["mats"] = {
-							[8365] = 1,
-						},
-						["numMade"] = 1,
-						["name"] = "Mithril Head Trout",
-						["enabled"] = true,
-						["group"] = 1,
-						["queued"] = 0,
-						["spellID"] = 20916,
-					},
-					[27657] = {
-						["mats"] = {
-							[27677] = 1,
-						},
-						["numMade"] = 1,
-						["name"] = "Blackened Basilisk",
-						["enabled"] = true,
-						["group"] = 2,
-						["queued"] = 0,
-						["spellID"] = 33286,
-					},
-					[27659] = {
-						["mats"] = {
-							[27681] = 1,
-						},
-						["numMade"] = 1,
-						["name"] = "Warp Burger",
-						["enabled"] = true,
-						["group"] = 2,
-						["queued"] = 0,
-						["spellID"] = 33288,
-					},
-					[27661] = {
-						["mats"] = {
-							[27422] = 1,
-						},
-						["numMade"] = 1,
-						["name"] = "Blackened Trout",
-						["enabled"] = true,
-						["group"] = 2,
-						["queued"] = 0,
-						["spellID"] = 33290,
-					},
-					[27663] = {
-						["mats"] = {
-							[27429] = 1,
-						},
-						["numMade"] = 1,
-						["name"] = "Blackened Sporefish",
-						["enabled"] = true,
-						["group"] = 2,
-						["queued"] = 0,
-						["spellID"] = 33292,
-					},
-					[27665] = {
-						["mats"] = {
-							[27437] = 1,
-						},
-						["numMade"] = 1,
-						["name"] = "Poached Bluefish",
-						["enabled"] = true,
-						["group"] = 2,
-						["queued"] = 0,
-						["spellID"] = 33294,
-					},
-					[27667] = {
-						["mats"] = {
-							[27439] = 1,
-						},
-						["numMade"] = 1,
-						["name"] = "Spicy Crawdad",
-						["enabled"] = true,
-						["group"] = 2,
-						["queued"] = 0,
-						["spellID"] = 33296,
-					},
-					[34762] = {
-						["mats"] = {
-							[41806] = 1,
-						},
-						["numMade"] = 1,
-						["name"] = "Grilled Sculpin",
-						["enabled"] = true,
-						["group"] = 3,
-						["queued"] = 0,
-						["spellID"] = 45563,
-					},
-					[6887] = {
-						["mats"] = {
-							[4603] = 1,
-						},
-						["numMade"] = 1,
-						["name"] = "Spotted Yellowtail",
-						["enabled"] = true,
-						["group"] = 2,
-						["queued"] = 0,
-						["spellID"] = 18238,
-					},
-					[6888] = {
-						["mats"] = {
-							[6889] = 1,
-						},
-						["numMade"] = 1,
-						["name"] = "Herb Baked Egg",
-						["enabled"] = true,
-						["group"] = 1,
-						["queued"] = 0,
-						["spellID"] = 8604,
-					},
-					[44839] = {
-						["mats"] = {
-							[44855] = 1,
-							[44853] = 1,
-							[44835] = 1,
-						},
-						["numMade"] = 1,
-						["name"] = "Candied Sweet Potato",
-						["enabled"] = true,
-						["group"] = 2,
-						["queued"] = 0,
-						["spellID"] = 62051,
-					},
-					[42942] = {
-						["mats"] = {
-							[41802] = 1,
-						},
-						["numMade"] = 1,
-						["name"] = "Baked Manta Ray",
-						["enabled"] = true,
-						["group"] = 3,
-						["queued"] = 0,
-						["spellID"] = 45569,
-					},
-					[18045] = {
-						["mats"] = {
-							[12208] = 1,
-						},
-						["numMade"] = 1,
-						["name"] = "Tender Wolf Steak",
-						["enabled"] = true,
-						["group"] = 2,
-						["queued"] = 0,
-						["spellID"] = 22480,
-					},
-					[33048] = {
-						["mats"] = {
-							[27422] = 1,
-						},
-						["numMade"] = 1,
-						["name"] = "Stewed Trout",
-						["enabled"] = true,
-						["group"] = 3,
-						["queued"] = 0,
-						["spellID"] = 42296,
-					},
-					[33052] = {
-						["mats"] = {
-							[27515] = 1,
-						},
-						["numMade"] = 6,
-						["name"] = "Fisherman's Feast",
-						["enabled"] = true,
-						["group"] = 3,
-						["queued"] = 0,
-						["spellID"] = 42302,
-					},
-					[43490] = {
-						["mats"] = {
-							[30817] = 2,
-							[43501] = 1,
-						},
-						["numMade"] = 5,
-						["name"] = "Tasty Cupcake",
-						["enabled"] = true,
-						["group"] = 3,
-						["queued"] = 0,
-						["spellID"] = 58512,
-					},
-					[2681] = {
-						["mats"] = {
-							[769] = 1,
-						},
-						["numMade"] = 1,
-						["name"] = "Roasted Boar Meat",
-						["enabled"] = true,
-						["group"] = 1,
-						["queued"] = 0,
-						["spellID"] = 2540,
-					},
-					[27664] = {
-						["mats"] = {
-							[27435] = 1,
-						},
-						["numMade"] = 1,
-						["name"] = "Grilled Mudfish",
-						["enabled"] = true,
-						["group"] = 2,
-						["queued"] = 0,
-						["spellID"] = 33293,
-					},
-					[34747] = {
-						["mats"] = {
-							[43013] = 1,
-						},
-						["numMade"] = 1,
-						["name"] = "Northern Stew",
-						["enabled"] = true,
-						["group"] = 3,
-						["queued"] = 0,
-						["spellID"] = 57421,
-					},
-					[34751] = {
-						["mats"] = {
-							[43011] = 1,
-						},
-						["numMade"] = 1,
-						["name"] = "Roasted Worg",
-						["enabled"] = true,
-						["group"] = 3,
-						["queued"] = 0,
-						["spellID"] = 45552,
-					},
-					[33866] = {
-						["mats"] = {
-							[27678] = 1,
-							[13757] = 1,
-						},
-						["numMade"] = 1,
-						["name"] = "Stormchops",
-						["enabled"] = true,
-						["group"] = 2,
-						["queued"] = 0,
-						["spellID"] = 43758,
-					},
-					[43268] = {
-						["mats"] = {
-							[36782] = 2,
-						},
-						["numMade"] = 1,
-						["name"] = "Dalaran Clam Chowder",
-						["enabled"] = true,
-						["group"] = 3,
-						["queued"] = 0,
-						["spellID"] = 58065,
-					},
-					[33874] = {
-						["mats"] = {
-							[27671] = 1,
-						},
-						["numMade"] = 1,
-						["name"] = "Kibler's Bits",
-						["enabled"] = true,
-						["group"] = 2,
-						["queued"] = 0,
-						["spellID"] = 43772,
-					},
-					[31672] = {
-						["mats"] = {
-							[31670] = 1,
-						},
-						["numMade"] = 1,
-						["name"] = "Mok'Nathal Shortribs",
-						["enabled"] = true,
-						["group"] = 2,
-						["queued"] = 0,
-						["spellID"] = 38867,
-					},
-					[27662] = {
-						["mats"] = {
-							[27425] = 1,
-						},
-						["numMade"] = 1,
-						["name"] = "Feltail Delight",
-						["enabled"] = true,
-						["group"] = 2,
-						["queued"] = 0,
-						["spellID"] = 33291,
-					},
-					[17198] = {
-						["mats"] = {
-							[1179] = 1,
-							[17196] = 1,
-							[17194] = 1,
-							[6889] = 1,
-						},
-						["numMade"] = 1,
-						["name"] = "Egg Nog",
-						["enabled"] = true,
-						["group"] = 1,
-						["queued"] = 0,
-						["spellID"] = 21144,
-					},
-					[27660] = {
-						["mats"] = {
-							[27682] = 1,
-						},
-						["numMade"] = 1,
-						["name"] = "Talbuk Steak",
-						["enabled"] = true,
-						["group"] = 2,
-						["queued"] = 0,
-						["spellID"] = 33289,
-					},
-					[2683] = {
-						["mats"] = {
-							[2674] = 1,
-						},
-						["numMade"] = 1,
-						["name"] = "Crab Cake",
-						["enabled"] = true,
-						["group"] = 1,
-						["queued"] = 0,
-						["spellID"] = 2544,
-					},
-					[34750] = {
-						["mats"] = {
-							[43010] = 1,
-						},
-						["numMade"] = 1,
-						["name"] = "Worm Delight",
-						["enabled"] = true,
-						["group"] = 3,
-						["queued"] = 0,
-						["spellID"] = 45551,
-					},
-					[17197] = {
-						["mats"] = {
-							[6889] = 1,
-							[17194] = 1,
-						},
-						["numMade"] = 1,
-						["name"] = "Gingerbread Cookie",
-						["enabled"] = true,
-						["group"] = 1,
-						["queued"] = 0,
-						["spellID"] = 21143,
-					},
-					[43491] = {
-						["mats"] = {
-							[36782] = 1,
-							[22577] = 1,
-						},
-						["numMade"] = 5,
-						["name"] = "Bad Clams",
-						["enabled"] = true,
-						["group"] = 3,
-						["queued"] = 0,
-						["spellID"] = 58523,
-					},
-					[21217] = {
-						["mats"] = {
-							[21153] = 1,
-						},
-						["numMade"] = 1,
-						["name"] = "Sagefish Delight",
-						["enabled"] = true,
-						["group"] = 2,
-						["queued"] = 0,
-						["spellID"] = 25954,
-					},
-					[44836] = {
-						["mats"] = {
-							[46784] = 1,
-							[44853] = 1,
-						},
-						["numMade"] = 1,
-						["name"] = "Pumpkin Pie",
-						["enabled"] = true,
-						["group"] = 1,
-						["queued"] = 0,
-						["spellID"] = 62044,
-					},
-					[44840] = {
-						["mats"] = {
-							[44854] = 1,
-							[44853] = 1,
-						},
-						["numMade"] = 1,
-						["name"] = "Cranberry Chutney",
-						["enabled"] = true,
-						["group"] = 1,
-						["queued"] = 0,
-						["spellID"] = 62049,
-					},
-					[13851] = {
-						["mats"] = {
-							[12203] = 1,
-						},
-						["numMade"] = 1,
-						["name"] = "Hot Wolf Ribs",
-						["enabled"] = true,
-						["group"] = 1,
-						["queued"] = 0,
-						["spellID"] = 15856,
-					},
-					[33872] = {
-						["mats"] = {
-							[27682] = 1,
-						},
-						["numMade"] = 1,
-						["name"] = "Spicy Hot Talbuk",
-						["enabled"] = true,
-						["group"] = 3,
-						["queued"] = 0,
-						["spellID"] = 43765,
-					},
-					[4594] = {
-						["mats"] = {
-							[6362] = 1,
-						},
-						["numMade"] = 1,
-						["name"] = "Rockscale Cod",
-						["enabled"] = true,
-						["group"] = 1,
-						["queued"] = 0,
-						["spellID"] = 7828,
-					},
-					[17222] = {
-						["mats"] = {
-							[12205] = 2,
-						},
-						["numMade"] = 1,
-						["name"] = "Spider Sausage",
-						["enabled"] = true,
-						["group"] = 2,
-						["queued"] = 0,
-						["spellID"] = 21175,
-					},
-					[34761] = {
-						["mats"] = {
-							[41812] = 1,
-						},
-						["numMade"] = 1,
-						["name"] = "Sauteed Goby",
-						["enabled"] = true,
-						["group"] = 3,
-						["queued"] = 0,
-						["spellID"] = 45562,
-					},
-					[33053] = {
-						["mats"] = {
-							[27516] = 1,
-						},
-						["numMade"] = 2,
-						["name"] = "Hot Buttered Trout",
-						["enabled"] = true,
-						["group"] = 3,
-						["queued"] = 0,
-						["spellID"] = 42305,
-					},
-					[6657] = {
-						["mats"] = {
-							[6522] = 1,
-						},
-						["numMade"] = 1,
-						["name"] = "Savory Deviate Delight",
-						["enabled"] = true,
-						["group"] = 1,
-						["queued"] = 0,
-						["spellID"] = 8238,
-					},
-					[4457] = {
-						["mats"] = {
-							[3404] = 1,
-						},
-						["numMade"] = 1,
-						["name"] = "Barbecued Buzzard Wing",
-						["enabled"] = true,
-						["group"] = 1,
-						["queued"] = 0,
-						["spellID"] = 4094,
-					},
-					[34749] = {
-						["mats"] = {
-							[43009] = 1,
-						},
-						["numMade"] = 1,
-						["name"] = "Shoveltusk Steak",
-						["enabled"] = true,
-						["group"] = 3,
-						["queued"] = 0,
-						["spellID"] = 45550,
-					},
-					[33867] = {
-						["mats"] = {
-							[33823] = 1,
-						},
-						["numMade"] = 1,
-						["name"] = "Broiled Bloodfin",
-						["enabled"] = true,
-						["group"] = 2,
-						["queued"] = 0,
-						["spellID"] = 43761,
-					},
-					[34759] = {
-						["mats"] = {
-							[41803] = 1,
-						},
-						["numMade"] = 1,
-						["name"] = "Smoked Rockfin",
-						["enabled"] = true,
-						["group"] = 3,
-						["queued"] = 0,
-						["spellID"] = 45560,
-					},
-					[2679] = {
-						["mats"] = {
-							[2672] = 1,
-						},
-						["numMade"] = 1,
-						["name"] = "Charred Wolf Meat",
-						["enabled"] = true,
-						["group"] = 1,
-						["queued"] = 0,
-						["spellID"] = 2538,
-					},
-					[34763] = {
-						["mats"] = {
-							[41809] = 1,
-						},
-						["numMade"] = 1,
-						["name"] = "Smoked Salmon",
-						["enabled"] = true,
-						["group"] = 3,
-						["queued"] = 0,
-						["spellID"] = 45564,
-					},
-					[2687] = {
-						["mats"] = {
-							[2677] = 1,
-						},
-						["numMade"] = 1,
-						["name"] = "Dry Pork Ribs",
-						["enabled"] = true,
-						["group"] = 1,
-						["queued"] = 0,
-						["spellID"] = 2546,
-					},
-					[27658] = {
-						["mats"] = {
-							[27678] = 1,
-						},
-						["numMade"] = 1,
-						["name"] = "Roasted Clefthoof",
-						["enabled"] = true,
-						["group"] = 2,
-						["queued"] = 0,
-						["spellID"] = 33287,
-					},
-					[2680] = {
-						["mats"] = {
-							[2672] = 1,
-						},
-						["numMade"] = 1,
-						["name"] = "Spiced Wolf Meat",
-						["enabled"] = true,
-						["group"] = 1,
-						["queued"] = 0,
-						["spellID"] = 2539,
-					},
-					[34748] = {
-						["mats"] = {
-							[34736] = 1,
-						},
-						["numMade"] = 1,
-						["name"] = "Mammoth Meal",
-						["enabled"] = true,
-						["group"] = 3,
-						["queued"] = 0,
-						["spellID"] = 45549,
-					},
-					[34752] = {
-						["mats"] = {
-							[43012] = 1,
-						},
-						["numMade"] = 1,
-						["name"] = "Rhino Dogs",
-						["enabled"] = true,
-						["group"] = 3,
-						["queued"] = 0,
-						["spellID"] = 45553,
-					},
-					[30816] = {
-						["mats"] = {
-							[30817] = 1,
-							[2678] = 1,
-						},
-						["numMade"] = 1,
-						["name"] = "Spice Bread",
-						["enabled"] = true,
-						["group"] = 1,
-						["queued"] = 0,
-						["spellID"] = 37836,
-					},
-				},
+			["craftHistory"] = {
+				[86004] = 447,
+				[96256] = 6,
+				[80479] = 100,
+				[73357] = 143,
+				[56943] = 1,
+				[57007] = 1,
+				[57023] = 1,
+				[64257] = 2,
+				[73230] = 2157,
+				[96257] = 42,
+				[64305] = 2,
+				[57183] = 2,
+				[57199] = 1,
+				[94405] = 1,
+				[57247] = 1,
+				[57263] = 2,
+				[58301] = 1,
+				[58317] = 1,
+				[58333] = 1,
+				[53830] = 2,
+				[86645] = 1,
+				[76457] = 10,
+				[94406] = 1,
+				[57024] = 1,
+				[74254] = 1,
+				[57152] = 1,
+				[86646] = 10,
+				[76458] = 6,
+				[57232] = 1,
+				[57248] = 1,
+				[57264] = 2,
+				[74191] = 2,
+				[74223] = 1,
+				[14380] = 6,
+				[86647] = 3,
+				[76459] = 1,
+				[56977] = 2,
+				[57009] = 1,
+				[64307] = 1,
+				[57233] = 1,
+				[57249] = 1,
+				[55732] = 1,
+				[58303] = 1,
+				[58319] = 1,
+				[74193] = 2,
+				[76269] = 1,
+				[76461] = 7,
+				[56978] = 1,
+				[56994] = 1,
+				[57010] = 1,
+				[74226] = 1,
+				[73268] = 1912,
+				[64308] = 1,
+				[57170] = 1,
+				[76462] = 7,
+				[57266] = 1,
+				[73620] = 352,
+				[56947] = 2,
+				[56963] = 1,
+				[56979] = 1,
+				[57011] = 1,
+				[57027] = 1,
+				[74132] = 1,
+				[64261] = 1,
+				[57155] = 1,
+				[76464] = 7,
+				[57219] = 1,
+				[57235] = 1,
+				[73494] = 1448,
+				[89367] = 1,
+				[58337] = 1,
+				[74229] = 2,
+				[73239] = 1907,
+				[73335] = 350,
+				[73367] = 74,
+				[73399] = 3,
+				[73495] = 926,
+				[89368] = 1,
+				[74198] = 5,
+				[74230] = 2,
+				[57124] = 1,
+				[57156] = 1,
+				[73336] = 508,
+				[57715] = 115,
+				[57220] = 1,
+				[73496] = 923,
+				[29688] = 6,
+				[94000] = 2,
+				[74199] = 3,
+				[74231] = 2,
+				[73369] = 208,
+				[56949] = 1,
+				[73465] = 49,
+				[73497] = 744,
+				[89370] = 1,
+				[71102] = 2,
+				[64247] = 2,
+				[74232] = 4,
+				[73274] = 1881,
+				[64311] = 2,
+				[73338] = 510,
+				[57189] = 3,
+				[76468] = 4,
+				[95471] = 1,
+				[89371] = 1,
+				[80237] = 93,
+				[58339] = 1,
+				[74201] = 1,
+				[73243] = 113,
+				[73371] = 149,
+				[89244] = 2,
+				[56998] = 1,
+				[89372] = 1,
+				[61677] = 1,
+				[64248] = 2,
+				[74234] = 6,
+				[57126] = 2,
+				[64312] = 1,
+				[73340] = 173,
+				[73468] = 32,
+				[57270] = 1,
+				[58308] = 1,
+				[74235] = 5,
+				[78866] = 59,
+				[73341] = 120,
+				[76439] = 228,
+				[56999] = 1,
+				[80719] = 37,
+				[57127] = 1,
+				[73278] = 13,
+				[57159] = 1,
+				[57191] = 1,
+				[57207] = 1,
+				[57239] = 1,
+				[57271] = 1,
+				[80720] = 13,
+				[92026] = 1,
+				[73375] = 67,
+				[57000] = 1,
+				[80721] = 50,
+				[64266] = 1,
+				[64314] = 1,
+				[73344] = 107,
+				[57192] = 1,
+				[57208] = 2,
+				[57272] = 1,
+				[80243] = 15,
+				[58342] = 1,
+				[74239] = 1,
+				[73249] = 3,
+				[57001] = 1,
+				[80723] = 15,
+				[74240] = 2,
+				[73250] = 2057,
+				[64315] = 1,
+				[73378] = 50,
+				[80245] = 577,
+				[56954] = 1,
+				[56986] = 1,
+				[57034] = 2,
+				[64252] = 1,
+				[76286] = 232,
+				[57130] = 1,
+				[64316] = 1,
+				[73348] = 113,
+				[57210] = 1,
+				[57242] = 1,
+				[58312] = 1,
+				[58344] = 2,
+				[67600] = 3,
+				[73349] = 217,
+				[73381] = 50,
+				[56955] = 1,
+				[56987] = 2,
+				[57019] = 1,
+				[57035] = 1,
+				[64253] = 1,
+				[74244] = 1,
+				[57131] = 1,
+				[57163] = 19,
+				[73350] = 95,
+				[73382] = 113,
+				[57211] = 2,
+				[57243] = 1,
+				[57259] = 1,
+				[58297] = 1,
+				[73397] = 5,
+				[89373] = 1,
+				[73351] = 143,
+				[76463] = 4,
+				[58489] = 1,
+				[58288] = 1,
+				[56988] = 2,
+				[57004] = 1,
+				[64268] = 1,
+				[57036] = 2,
+				[62162] = 1,
+				[56976] = 1,
+				[57012] = 2,
+				[64254] = 1,
+				[57116] = 1,
+				[57132] = 1,
+				[57114] = 1,
+				[57164] = 1,
+				[73352] = 125,
+				[57196] = 2,
+				[57119] = 1,
+				[57158] = 1,
+				[57032] = 3,
+				[57260] = 2,
+				[58298] = 1,
+				[57162] = 1,
+				[58330] = 1,
+				[58346] = 1,
+				[57268] = 1,
+				[56981] = 1,
+				[76291] = 1,
+				[73384] = 43,
+				[89369] = 1,
+				[7818] = 2,
+				[57160] = 1,
+				[57006] = 1,
+				[56957] = 1,
+				[57251] = 1,
+				[56996] = 1,
+				[57195] = 2,
+				[57021] = 1,
+				[57202] = 1,
+				[74238] = 2,
+				[64309] = 3,
+				[73478] = 1,
+				[64255] = 1,
+				[57117] = 1,
+				[57133] = 1,
+				[57115] = 2,
+				[80486] = 3,
+				[73354] = 26,
+				[57197] = 1,
+				[73222] = 1300,
+				[94401] = 2,
+				[74225] = 1,
+				[57261] = 2,
+				[76456] = 9,
+				[57161] = 1,
+				[64262] = 1,
+				[64246] = 2,
+				[57112] = 1,
+				[92375] = 1,
+				[73227] = 66,
+				[57193] = 1,
+				[64317] = 2,
+				[86609] = 553,
+				[73355] = 244,
+				[57153] = 1,
+				[73373] = 205,
+				[56974] = 1,
+				[64313] = 1,
+				[59561] = 2,
+				[57022] = 2,
+				[64260] = 1,
+				[76467] = 4,
+				[58287] = 2,
+				[80495] = 440,
+				[58323] = 1,
+				[73228] = 1013,
+				[96255] = 60,
+				[64304] = 1,
+				[80478] = 110,
+				[73356] = 63,
+				[57198] = 1,
+				[57214] = 1,
+				[94403] = 1,
+				[57246] = 1,
+				[57716] = 18,
+				[86005] = 10,
+				[85785] = 2,
 			},
 			["craftSortMethod"] = {
 				["default"] = "profit",

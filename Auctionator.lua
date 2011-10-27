@@ -1,12 +1,12 @@
 
 AUCTIONATOR_SAVEDVARS = {
-	["_5000000"] = 10000,
+	["_10000"] = 200,
 	["_50000"] = 500,
-	["STARTING_DISCOUNT"] = 5,
+	["_500"] = 5,
 	["_1000000"] = 2500,
 	["_200000"] = 1000,
-	["_500"] = 5,
-	["_10000"] = 200,
+	["STARTING_DISCOUNT"] = 5,
+	["_5000000"] = 10000,
 	["_2000"] = 100,
 }
 AUCTIONATOR_PRICING_HISTORY = {
@@ -263,10 +263,9 @@ AUCTIONATOR_PRICE_DATABASE = {
 		},
 		["Whiptail"] = {
 			["H328"] = 24500,
-			["H327"] = 39000,
+			["sc"] = 6,
 			["id"] = "52988",
 			["mr"] = 24500,
-			["sc"] = 6,
 			["cc"] = 6,
 		},
 		["Obsidium Ore"] = {
@@ -291,18 +290,18 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["cc"] = 8,
 		},
 		["Precise Carnelian"] = {
-			["mr"] = 300000,
-			["cc"] = 8,
-			["H309"] = 300000,
-			["id"] = "52085",
+			["mr"] = 350000,
 			["sc"] = 1,
+			["id"] = "52085",
+			["H332"] = 350000,
+			["cc"] = 8,
 		},
 		["Brilliant Carnelian"] = {
-			["mr"] = 390000,
+			["mr"] = 120000,
 			["sc"] = 1,
 			["id"] = "52084",
+			["H332"] = 120000,
 			["cc"] = 8,
-			["H304"] = 390000,
 		},
 		["Elemental Fire"] = {
 			["mr"] = 1653,
@@ -312,11 +311,11 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H238"] = 1653,
 		},
 		["Elementium Bar"] = {
-			["mr"] = 49000,
+			["mr"] = 38000,
 			["cc"] = 6,
 			["id"] = "52186",
-			["H331"] = 49000,
 			["sc"] = 4,
+			["H335"] = 38000,
 		},
 		["Enchant Cloak - Protection"] = {
 			["H238"] = 4052572,
@@ -340,22 +339,19 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["sc"] = 2,
 		},
 		["Elementium Ore"] = {
-			["H330"] = 19500,
-			["H328"] = 24800,
-			["H327"] = 12000,
-			["id"] = "52185",
-			["H331"] = 30000,
-			["mr"] = 30000,
+			["mr"] = 23200,
 			["sc"] = 4,
-			["L328"] = 21500,
+			["H346"] = 23200,
+			["id"] = "52185",
 			["cc"] = 6,
+			["H335"] = 29399,
 		},
 		["Hardened Elementium Bar"] = {
-			["mr"] = 775000,
+			["mr"] = 950000,
 			["cc"] = 6,
 			["id"] = "53039",
-			["H331"] = 775000,
 			["sc"] = 4,
+			["H335"] = 950000,
 		},
 		["Perfect Brilliant Carnelian"] = {
 			["mr"] = 50000,
@@ -365,11 +361,12 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H263"] = 50000,
 		},
 		["Pyrite Ore"] = {
-			["mr"] = 41198,
+			["mr"] = 49200,
 			["cc"] = 6,
+			["H346"] = 49200,
 			["id"] = "52183",
-			["H315"] = 41198,
 			["sc"] = 4,
+			["H335"] = 59500,
 		},
 		["Volatile Fire"] = {
 			["H323"] = 76419,
@@ -385,13 +382,19 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H219"] = 1990000,
 			["sc"] = 2,
 		},
-		["Cinderbloom"] = {
-			["H328"] = 15999,
-			["H327"] = 17822,
-			["id"] = "52983",
-			["mr"] = 15999,
+		["Enchanted Elementium Bar"] = {
+			["mr"] = 45190000,
 			["cc"] = 6,
+			["id"] = "17771",
+			["sc"] = 4,
+			["H335"] = 45190000,
+		},
+		["Cinderbloom"] = {
+			["H333"] = 22000,
 			["sc"] = 6,
+			["id"] = "52983",
+			["cc"] = 6,
+			["mr"] = 22000,
 		},
 		["Etched Demonseye"] = {
 			["H202"] = 200000,
@@ -408,11 +411,11 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["mr"] = 1499999,
 		},
 		["Volatile Water"] = {
-			["mr"] = 180000,
+			["mr"] = 125000,
 			["cc"] = 6,
 			["id"] = "52326",
-			["H325"] = 180000,
 			["sc"] = 1,
+			["H335"] = 125000,
 		},
 		["Defender's Demonseye"] = {
 			["H202"] = 499999,
@@ -472,10 +475,10 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["mr"] = 399999,
 		},
 		["Carnelian"] = {
-			["H314"] = 300000,
-			["mr"] = 300000,
+			["mr"] = 200000,
 			["sc"] = 1,
 			["id"] = "52177",
+			["H332"] = 200000,
 			["cc"] = 8,
 		},
 		["Perfect Delicate Carnelian"] = {
@@ -500,10 +503,10 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H274"] = 1237500,
 		},
 		["Volatile Life"] = {
-			["mr"] = 63800,
+			["mr"] = 48400,
 			["cc"] = 6,
 			["id"] = "52329",
-			["H325"] = 63800,
+			["H334"] = 48400,
 			["sc"] = 1,
 		},
 		["Maelstrom Crystal"] = {
@@ -623,8 +626,9 @@ AUCTIONATOR_PRICE_DATABASE = {
 		},
 		["Heartblossom"] = {
 			["H323"] = 65000,
-			["mr"] = 65000,
+			["mr"] = 62000,
 			["cc"] = 6,
+			["H346"] = 62000,
 			["id"] = "52986",
 			["sc"] = 6,
 		},
@@ -643,10 +647,10 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H274"] = 1500000,
 		},
 		["Bold Carnelian"] = {
-			["H314"] = 150000,
-			["mr"] = 150000,
+			["mr"] = 220000,
 			["cc"] = 8,
 			["id"] = "52081",
+			["H332"] = 220000,
 			["sc"] = 1,
 		},
 		["Volatile Air"] = {
@@ -735,10 +739,9 @@ AUCTIONATOR_PRICE_DATABASE = {
 		},
 		["Azshara's Veil"] = {
 			["H328"] = 35000,
-			["H327"] = 40000,
+			["sc"] = 6,
 			["id"] = "52985",
 			["mr"] = 35000,
-			["sc"] = 6,
 			["cc"] = 6,
 		},
 		["Perfect Precise Carnelian"] = {
@@ -751,12 +754,9 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["Stormvine"] = {
 			["H330"] = 24999,
 			["mr"] = 24999,
-			["H327"] = 39487,
 			["sc"] = 6,
 			["id"] = "52984",
 			["cc"] = 6,
-			["L327"] = 37000,
-			["H328"] = 32500,
 		},
 	},
 	["Arthas_Horde"] = {
@@ -781,8 +781,8 @@ AUCTIONATOR_TOONS = {
 		["firstSeen"] = 1307131917,
 		["firstVersion"] = "2.9.4",
 	},
-	["Deadset"] = {
-		["firstSeen"] = 1307478618,
+	["Promitto"] = {
+		["firstSeen"] = 1306638326,
 		["firstVersion"] = "2.9.4",
 	},
 	["Wezen"] = {
@@ -807,8 +807,8 @@ AUCTIONATOR_TOONS = {
 		["firstSeen"] = 1306615330,
 		["firstVersion"] = "2.9.4",
 	},
-	["Promitto"] = {
-		["firstSeen"] = 1306638326,
+	["Deadset"] = {
+		["firstSeen"] = 1307478618,
 		["firstVersion"] = "2.9.4",
 	},
 }

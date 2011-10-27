@@ -934,14 +934,14 @@ DominosDB = {
 					["columns"] = 1,
 				},
 				["xp"] = {
+					["y"] = -52.57145475896596,
 					["alwaysShowXP"] = false,
 					["point"] = "TOPLEFT",
-					["width"] = 0.23,
-					["y"] = -52.57145475896596,
-					["x"] = 72.91423640781213,
-					["height"] = 14,
-					["alwaysShowText"] = true,
 					["texture"] = "blizzard",
+					["height"] = 14,
+					["x"] = 72.91423640781213,
+					["alwaysShowText"] = true,
+					["width"] = 0.23,
 				},
 				["vehicle"] = {
 					["y"] = 372.4286957290025,
@@ -1187,6 +1187,13 @@ DominosDB = {
 		},
 		["Druid"] = {
 			["minimapPos"] = 189.0952848444137,
+			["classStyle"] = {
+				nil, -- [1]
+				nil, -- [2]
+				false, -- [3]
+				{
+				}, -- [4]
+			},
 			["ab"] = {
 				["style"] = {
 					nil, -- [1]
@@ -1196,7 +1203,7 @@ DominosDB = {
 					}, -- [4]
 				},
 			},
-			["classStyle"] = {
+			["petStyle"] = {
 				nil, -- [1]
 				nil, -- [2]
 				false, -- [3]
@@ -1381,14 +1388,14 @@ DominosDB = {
 					["point"] = "BOTTOMRIGHT",
 				},
 				["xp"] = {
-					["y"] = -19.42857954188821,
 					["alwaysShowXP"] = false,
 					["point"] = "TOPLEFT",
-					["texture"] = "blizzard",
-					["height"] = 14,
-					["x"] = 19.42855704952488,
-					["alwaysShowText"] = true,
 					["width"] = 0.29,
+					["y"] = -19.42857954188821,
+					["x"] = 19.42855704952488,
+					["height"] = 14,
+					["alwaysShowText"] = true,
+					["texture"] = "blizzard",
 				},
 				["vehicle"] = {
 					["y"] = 386.1430633797546,
@@ -1398,10 +1405,10 @@ DominosDB = {
 					["showstates"] = "[@vehicle,exists]",
 				},
 				["bags"] = {
-					["numButtons"] = 5,
-					["hidden"] = true,
 					["point"] = "BOTTOMRIGHT",
 					["spacing"] = 2,
+					["hidden"] = true,
+					["numButtons"] = 5,
 				},
 				["pet"] = {
 					["y"] = 348.5714958075289,
@@ -1419,13 +1426,6 @@ DominosDB = {
 					["hidden"] = true,
 					["numButtons"] = 5,
 				},
-			},
-			["petStyle"] = {
-				nil, -- [1]
-				nil, -- [2]
-				false, -- [3]
-				{
-				}, -- [4]
 			},
 		},
 		["Death Knight"] = {
@@ -1862,8 +1862,8 @@ DominosDB = {
 				},
 				["bags"] = {
 					["hidden"] = true,
-					["numButtons"] = 5,
 					["point"] = "BOTTOMRIGHT",
+					["numButtons"] = 5,
 					["spacing"] = 2,
 				},
 			},
@@ -2074,11 +2074,11 @@ DominosDB = {
 					["y"] = -20.5714795005656,
 					["alwaysShowXP"] = true,
 					["point"] = "TOPLEFT",
-					["texture"] = "blizzard",
+					["width"] = 0.23,
 					["height"] = 14,
 					["x"] = 32.91437754739194,
 					["alwaysShowText"] = true,
-					["width"] = 0.23,
+					["texture"] = "blizzard",
 				},
 				["roll"] = {
 					["y"] = -280.4287398702654,
