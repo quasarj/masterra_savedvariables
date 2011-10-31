@@ -12,9 +12,9 @@ SexyCooldownDB = {
 		["Wezen - Auchindoun"] = "Wezen - Auchindoun",
 		["Pooshield - Thrall"] = "Pooshield - Thrall",
 		["Sadr - Auchindoun"] = "Sadr - Auchindoun",
-		["Aset - Auchindoun"] = "Aset - Auchindoun",
-		["Pulari - Auchindoun"] = "Pulari - Auchindoun",
 		["Promitto - Auchindoun"] = "Promitto - Auchindoun",
+		["Pulari - Auchindoun"] = "Pulari - Auchindoun",
+		["Aset - Auchindoun"] = "Aset - Auchindoun",
 		["Aonah - Auchindoun"] = "Aonah - Auchindoun",
 	},
 	["profiles"] = {
@@ -241,19 +241,79 @@ SexyCooldownDB = {
 					["bar"] = {
 						["fontColor"] = {
 						},
-						["flexible"] = false,
+						["x"] = -9.142695840480201,
 						["advancedOptions"] = true,
 						["width"] = 449.9999930245016,
 						["y"] = -354.8573556108008,
-						["x"] = -9.142695840480201,
+						["flexible"] = false,
 						["name"] = "Bar 0",
 						["borderColor"] = {
 						},
-						["height"] = 32.99999870064245,
+						["inactiveAlpha"] = 0.2,
 						["lock"] = true,
 						["backgroundColor"] = {
 						},
+						["height"] = 32.99999870064245,
+					},
+				}, -- [1]
+			},
+		},
+		["Promitto - Auchindoun"] = {
+			["bars"] = {
+				{
+					["events"] = {
+					},
+					["blacklist"] = {
+					},
+					["eventColors"] = {
+					},
+					["icon"] = {
+						["fontColor"] = {
+						},
+						["borderColor"] = {
+						},
+					},
+					["bar"] = {
+						["fontColor"] = {
+						},
+						["borderColor"] = {
+						},
+						["height"] = 32.99999870064245,
+						["name"] = "Bar 0",
+						["backgroundColor"] = {
+						},
+						["width"] = 449.9999930245016,
+					},
+				}, -- [1]
+			},
+		},
+		["Pulari - Auchindoun"] = {
+			["bars"] = {
+				{
+					["events"] = {
+					},
+					["bar"] = {
+						["borderColor"] = {
+						},
+						["height"] = 32.99999870064245,
+						["fontColor"] = {
+						},
+						["lock"] = true,
 						["inactiveAlpha"] = 0.2,
+						["name"] = "Bar 0",
+						["backgroundColor"] = {
+						},
+						["width"] = 449.9999930245016,
+					},
+					["eventColors"] = {
+					},
+					["icon"] = {
+						["fontColor"] = {
+						},
+						["borderColor"] = {
+						},
+					},
+					["blacklist"] = {
 					},
 				}, -- [1]
 			},
@@ -297,66 +357,6 @@ SexyCooldownDB = {
 						},
 					},
 					["blacklist"] = {
-					},
-				}, -- [1]
-			},
-		},
-		["Pulari - Auchindoun"] = {
-			["bars"] = {
-				{
-					["events"] = {
-					},
-					["bar"] = {
-						["borderColor"] = {
-						},
-						["height"] = 32.99999870064245,
-						["fontColor"] = {
-						},
-						["lock"] = true,
-						["inactiveAlpha"] = 0.2,
-						["name"] = "Bar 0",
-						["backgroundColor"] = {
-						},
-						["width"] = 449.9999930245016,
-					},
-					["eventColors"] = {
-					},
-					["icon"] = {
-						["fontColor"] = {
-						},
-						["borderColor"] = {
-						},
-					},
-					["blacklist"] = {
-					},
-				}, -- [1]
-			},
-		},
-		["Promitto - Auchindoun"] = {
-			["bars"] = {
-				{
-					["events"] = {
-					},
-					["blacklist"] = {
-					},
-					["eventColors"] = {
-					},
-					["icon"] = {
-						["fontColor"] = {
-						},
-						["borderColor"] = {
-						},
-					},
-					["bar"] = {
-						["fontColor"] = {
-						},
-						["borderColor"] = {
-						},
-						["height"] = 32.99999870064245,
-						["name"] = "Bar 0",
-						["backgroundColor"] = {
-						},
-						["width"] = 449.9999930245016,
 					},
 				}, -- [1]
 			},

@@ -1040,60 +1040,60 @@ CliqueDB3 = {
 				["SUFUnitfocustarget"] = true,
 				["CompactPartyFrameMember4Buff1"] = true,
 				["CompactPartyFrameMember3Buff3"] = true,
-				["CompactPartyFrameMember5"] = true,
+				["SUFUnitplayer"] = true,
 				["CompactPartyFrameMember2Debuff3"] = true,
 				["TargetFrameToT"] = true,
 				["CompactPartyFrameMember5Debuff3"] = true,
 				["FocusFrame"] = true,
 				["CompactPartyFrameMember5Buff2"] = true,
 				["CompactPartyFrameMember1Debuff2"] = true,
-				["CompactPartyFrameMember4Buff3"] = true,
+				["SUFUnitpet"] = true,
 				["CompactPartyFrameMember2"] = true,
 				["CompactPartyFrameMember5Debuff2"] = true,
 				["PartyMemberFrame3"] = true,
 				["PetFrame"] = true,
-				["SUFHeadermaintankUnitButton1"] = true,
+				["CompactPartyFrameMember2Buff2"] = true,
 				["PartyMemberFrame4"] = true,
-				["CompactPartyFrameMember4Buff2"] = true,
+				["Boss3TargetFrame"] = true,
 				["PlayerFrame"] = true,
 				["PartyMemberFrame3PetFrame"] = true,
 				["CompactPartyFrameMember3Debuff3"] = true,
 				["CompactPartyFrameMember1Buff3"] = true,
 				["PartyMemberFrame2PetFrame"] = true,
 				["PartyMemberFrame4PetFrame"] = true,
-				["SUFUnitplayer"] = true,
+				["CompactPartyFrameMember2Buff1"] = true,
 				["Boss4TargetFrame"] = true,
-				["CompactPartyFrameMember2Buff2"] = true,
+				["CompactPartyFrameMember5Debuff1"] = true,
 				["PartyMemberFrame1PetFrame"] = true,
 				["SUFUnittargettarget"] = true,
 				["PartyMemberFrame2"] = true,
-				["CompactPartyFrameMember5Debuff1"] = true,
-				["SUFUnitpet"] = true,
+				["CompactPartyFrameMember3Buff1"] = true,
+				["CompactPartyFrameMember3"] = true,
 				["FocusFrameToT"] = true,
-				["Boss2TargetFrame"] = true,
+				["CompactPartyFrameMember3Buff2"] = true,
 				["TargetFrame"] = true,
 				["Boss1TargetFrame"] = true,
-				["CompactPartyFrameMember3Debuff1"] = true,
-				["CompactPartyFrameMember3"] = true,
+				["Boss2TargetFrame"] = true,
+				["CompactPartyFrameMember5Buff1"] = true,
 				["PartyMemberFrame1"] = true,
 				["CompactPartyFrameMember2Debuff2"] = true,
 				["CompactPartyFrameMember1Debuff1"] = true,
 				["CompactPartyFrameMember2Buff3"] = true,
-				["CompactPartyFrameMember5Buff3"] = true,
+				["CompactPartyFrameMember1Debuff3"] = true,
 				["CompactPartyFrameMember4"] = true,
 				["SUFUnitfocus"] = true,
-				["CompactPartyFrameMember1Debuff3"] = true,
+				["CompactPartyFrameMember5Buff3"] = true,
 				["CompactPartyFrameMember1Buff2"] = true,
-				["CompactPartyFrameMember5Buff1"] = true,
+				["CompactPartyFrameMember5"] = true,
 				["CompactPartyFrameMember4Debuff1"] = true,
-				["CompactPartyFrameMember3Buff2"] = true,
 				["CompactPartyFrameMember1"] = true,
+				["CompactPartyFrameMember3Debuff1"] = true,
 				["CompactPartyFrameMember1Buff1"] = true,
-				["CompactPartyFrameMember3Buff1"] = true,
-				["CompactPartyFrameMember2Buff1"] = true,
 				["CompactPartyFrameMember2Debuff1"] = true,
 				["CompactPartyFrameMember4Debuff2"] = true,
-				["Boss3TargetFrame"] = true,
+				["SUFHeadermaintankUnitButton1"] = true,
+				["CompactPartyFrameMember4Buff3"] = true,
+				["CompactPartyFrameMember4Buff2"] = true,
 				["CompactPartyFrameMember4Debuff3"] = true,
 				["CompactPartyFrameMember3Debuff2"] = true,
 			},
@@ -1238,15 +1238,6 @@ CliqueDB3 = {
 					["unit"] = "mouseover",
 				}, -- [1]
 				{
-					["spell"] = "Renew",
-					["key"] = "BUTTON3",
-					["sets"] = {
-						["default"] = true,
-					},
-					["icon"] = "Interface\\Icons\\Spell_Holy_Renew",
-					["type"] = "spell",
-				}, -- [2]
-				{
 					["spell"] = "Power Word: Shield",
 					["key"] = "BUTTON2",
 					["sets"] = {
@@ -1254,7 +1245,7 @@ CliqueDB3 = {
 					},
 					["icon"] = "Interface\\Icons\\Spell_Holy_PowerWordShield",
 					["type"] = "spell",
-				}, -- [3]
+				}, -- [2]
 				{
 					["spell"] = "Dispel Magic",
 					["key"] = "BUTTON5",
@@ -1262,6 +1253,15 @@ CliqueDB3 = {
 						["default"] = true,
 					},
 					["icon"] = "Interface\\Icons\\Spell_Holy_DispelMagic",
+					["type"] = "spell",
+				}, -- [3]
+				{
+					["spell"] = "Renew",
+					["key"] = "BUTTON3",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = "Interface\\Icons\\Spell_Holy_Renew",
 					["type"] = "spell",
 				}, -- [4]
 				{
@@ -1274,15 +1274,6 @@ CliqueDB3 = {
 					["type"] = "spell",
 				}, -- [5]
 				{
-					["spell"] = "Circle of Healing",
-					["key"] = "SHIFT-BUTTON2",
-					["sets"] = {
-						["default"] = true,
-					},
-					["icon"] = "Interface\\Icons\\Spell_Holy_CircleOfRenewal",
-					["type"] = "spell",
-				}, -- [6]
-				{
 					["spell"] = "Cure Disease",
 					["key"] = "BUTTON4",
 					["sets"] = {
@@ -1290,7 +1281,7 @@ CliqueDB3 = {
 					},
 					["icon"] = "Interface\\Icons\\Spell_Holy_NullifyDisease",
 					["type"] = "spell",
-				}, -- [7]
+				}, -- [6]
 				{
 					["spell"] = "Leap of Faith",
 					["key"] = "SHIFT-BUTTON3",
@@ -1298,6 +1289,15 @@ CliqueDB3 = {
 						["default"] = true,
 					},
 					["icon"] = "INTERFACE\\ICONS\\priest_spell_leapoffaith_a",
+					["type"] = "spell",
+				}, -- [7]
+				{
+					["spell"] = "Circle of Healing",
+					["key"] = "SHIFT-BUTTON2",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = "Interface\\Icons\\Spell_Holy_CircleOfRenewal",
 					["type"] = "spell",
 				}, -- [8]
 				{

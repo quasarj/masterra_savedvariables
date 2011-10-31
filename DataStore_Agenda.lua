@@ -7,7 +7,7 @@ DataStore_AgendaDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.Auchindoun.Aonah"] = {
-				["lastUpdate"] = 1319695637,
+				["lastUpdate"] = 1320067324,
 				["Contacts"] = {
 					["Vanasukuov"] = {
 						["note"] = "",
@@ -18,7 +18,7 @@ DataStore_AgendaDB = {
 				},
 			},
 			["Default.Auchindoun.Chukk"] = {
-				["lastUpdate"] = 1318554980,
+				["lastUpdate"] = 1320034962,
 				["Contacts"] = {
 					["Greymouser"] = {
 						["note"] = "",

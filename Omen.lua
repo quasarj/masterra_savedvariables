@@ -193,8 +193,8 @@ Omen3DB = {
 				["Color"] = {
 					["a"] = 0,
 				},
-				["BorderTexture"] = "None",
 				["Texture"] = "Solid",
+				["BorderTexture"] = "None",
 			},
 			["VGrip1"] = 100.0571688583233,
 		},
@@ -215,26 +215,26 @@ Omen3DB = {
 			["ShowWith"] = {
 				["UseShowWith"] = false,
 			},
-			["VGrip1"] = 119.0001078377044,
+			["Warnings"] = {
+				["Sound"] = false,
+			},
 			["PositionH"] = 150.9999619738483,
 			["VGrip2"] = 161.0001458980705,
 			["PositionY"] = 842.0001452163207,
 			["PositionX"] = 1636.571705548817,
-			["Warnings"] = {
-				["Sound"] = false,
-			},
+			["Autocollapse"] = true,
 			["Locked"] = true,
 			["Background"] = {
 				["Color"] = {
 					["a"] = 0,
 				},
-				["BorderTexture"] = "None",
 				["Texture"] = "Blizzard Dialog Background",
+				["BorderTexture"] = "None",
 			},
-			["Autocollapse"] = true,
+			["VGrip1"] = 119.0001078377044,
 			["Bar"] = {
-				["Texture"] = "Flat",
 				["Spacing"] = 1,
+				["Texture"] = "Flat",
 			},
 		},
 		["Promitto - Auchindoun"] = {

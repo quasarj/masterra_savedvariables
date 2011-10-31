@@ -4,22 +4,22 @@ TomTomDB = {
 		["Zik - Zuluhed"] = "Zik - Zuluhed",
 		["Ciid - Hellscream"] = "Ciid - Hellscream",
 		["Irone - Hellscream"] = "Irone - Hellscream",
-		["Oxshield - Auchindoun"] = "Default",
+		["Japhaar - Hellscream"] = "Japhaar - Hellscream",
 		["Sadr - Auchindoun"] = "Default",
 		["Thunderdome - Laughing Skull"] = "Thunderdome - Laughing Skull",
-		["Abeninka - Hellscream"] = "Abeninka - Hellscream",
-		["Idsapme - Auchindoun"] = "Default",
+		["Aonarah - Hellscream"] = "Aonarah - Hellscream",
+		["Oxshield - Auchindoun"] = "Default",
 		["Anabnak - Hellscream"] = "Anabnak - Hellscream",
-		["Tamori - ChaosWoW Funserver"] = "Tamori - ChaosWoW Funserver",
+		["Abeninka - Hellscream"] = "Abeninka - Hellscream",
 		["Aonah - Auchindoun"] = "Default",
 		["Dolivis - Hellscream"] = "Dolivis - Hellscream",
 		["Pandohra - Auchindoun"] = "Default",
 		["Xanaomi - Hellscream"] = "Xanaomi - Hellscream",
-		["Japhaar - Hellscream"] = "Japhaar - Hellscream",
+		["Idsapme - Auchindoun"] = "Default",
 		["Tyrela - Hellscream"] = "Tyrela - Hellscream",
 		["Krisgurl - Hellscream"] = "Krisgurl - Hellscream",
 		["Barimuri - Hellscream"] = "Barimuri - Hellscream",
-		["Promitto - Auchindoun"] = "Default",
+		["Totemtusk - Auchindoun"] = "Default",
 		["Prudey - Laughing Skull"] = "Prudey - Laughing Skull",
 		["Pooshield - Thrall"] = "Default",
 		["Knasbank - Auchindoun"] = "Default",
@@ -35,12 +35,12 @@ TomTomDB = {
 		["Chukk - Auchindoun"] = "Default",
 		["Deadset - Auchindoun"] = "Default",
 		["Karrl - Auchindoun"] = "Default",
-		["Gacrux - Thorium Brotherhood"] = "Default",
+		["Pulari - Auchindoun"] = "Default",
 		["Aonar - Hellscream"] = "Aonar - Hellscream",
 		["Aniak - Garona"] = "Aniak - Garona",
 		["Pooshield - Arthas"] = "Default",
 		["Wezen - Thorium Brotherhood"] = "Default",
-		["Totemtusk - Auchindoun"] = "Default",
+		["Promitto - Auchindoun"] = "Default",
 		["Kabun - Laughing Skull"] = "Kabun - Laughing Skull",
 		["Aona - Hellscream"] = "Aona - Hellscream",
 		["Phoebeldia - Laughing Skull"] = "Phoebeldia - Laughing Skull",
@@ -49,14 +49,14 @@ TomTomDB = {
 		["Chukk - Hellscream"] = "Chukk - Hellscream",
 		["Nohsk - Hellscream"] = "Nohsk - Hellscream",
 		["Anokank - Hellscream"] = "Anokank - Hellscream",
-		["Pulari - Auchindoun"] = "Default",
+		["Gacrux - Thorium Brotherhood"] = "Default",
 		["Gacrux - Auchindoun"] = "Default",
 		["Kernelpanic - Auchindoun"] = "Default",
 		["Promitto - Thorium Brotherhood"] = "Default",
 		["Wezen - Auchindoun"] = "Default",
 		["Ankra - Medivh"] = "Ankra - Medivh",
 		["Yttrium - Auchindoun"] = "Default",
-		["Aonarah - Hellscream"] = "Aonarah - Hellscream",
+		["Tamori - ChaosWoW Funserver"] = "Tamori - ChaosWoW Funserver",
 		["Bairra - Alterac valley (PVP - INSTA 70)"] = "Bairra - Alterac valley (PVP - INSTA 70)",
 		["Knas - Auchindoun"] = "Default",
 		["Pandohra - Zuluhed"] = "Default",
@@ -271,9 +271,9 @@ TomTomWaypointsMF = {
 		["Pooshield - Thrall"] = "Pooshield - Thrall",
 		["Sadr - Auchindoun"] = "Sadr - Auchindoun",
 		["Pooshield - Arthas"] = "Pooshield - Arthas",
-		["Aset - Auchindoun"] = "Aset - Auchindoun",
 		["Promitto - Auchindoun"] = "Promitto - Auchindoun",
 		["Pulari - Auchindoun"] = "Pulari - Auchindoun",
+		["Aset - Auchindoun"] = "Aset - Auchindoun",
 		["Wezen - Auchindoun"] = "Wezen - Auchindoun",
 		["Itsashaman - Arthas"] = "Itsashaman - Arthas",
 	},
@@ -322,8 +322,6 @@ TomTomWaypointsMF = {
 		},
 		["Pooshield - Arthas"] = {
 		},
-		["Aset - Auchindoun"] = {
-		},
 		["Promitto - Auchindoun"] = {
 			[467] = {
 				["467:0:683261628:485004204:nil"] = {
@@ -340,6 +338,21 @@ TomTomWaypointsMF = {
 			},
 		},
 		["Pulari - Auchindoun"] = {
+		},
+		["Aset - Auchindoun"] = {
+			[606] = {
+				["606:0:467027454:777752058:nil"] = {
+					606, -- [1]
+					0, -- [2]
+					0.467027454970838, -- [3]
+					0.7777520589156937, -- [4]
+					["silent"] = true,
+					["crazy"] = true,
+					["minimap"] = true,
+					["persistent"] = true,
+					["world"] = true,
+				},
+			},
 		},
 		["Wezen - Auchindoun"] = {
 		},
