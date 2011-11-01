@@ -17,8 +17,6 @@ Quartz3DB = {
 				},
 			},
 		},
-		["EnemyCasts"] = {
-		},
 		["Player"] = {
 			["profiles"] = {
 				["Default"] = {
@@ -26,6 +24,8 @@ Quartz3DB = {
 					["x"] = 936.1745554196854,
 				},
 			},
+		},
+		["EnemyCasts"] = {
 		},
 		["GCD"] = {
 			["profiles"] = {
@@ -51,9 +51,9 @@ Quartz3DB = {
 				},
 			},
 		},
-		["Range"] = {
-		},
 		["Mirror"] = {
+		},
+		["Range"] = {
 		},
 		["Latency"] = {
 		},
@@ -69,18 +69,18 @@ Quartz3DB = {
 		["Aonah - Auchindoun"] = "Default",
 		["Gacrux - Zuluhed"] = "Default",
 		["Wezen - Thorium Brotherhood"] = "Default",
-		["Itsashaman - Arthas"] = "Default",
-		["Gacrux - Auchindoun"] = "Default",
+		["Promitto - Thorium Brotherhood"] = "Default",
+		["Oxshield - Auchindoun"] = "Default",
 		["Pooshield - Thrall"] = "Default",
-		["Idsapme - Auchindoun"] = "Default",
+		["Pooshield - Arthas"] = "Default",
 		["Gacrux - Thorium Brotherhood"] = "Default",
 		["Wezen - Auchindoun"] = "Default",
 		["Pulari - Auchindoun"] = "Default",
 		["Whizle - Shadow Council"] = "Default",
 		["Aset - Auchindoun"] = "Default",
-		["Pooshield - Arthas"] = "Default",
-		["Oxshield - Auchindoun"] = "Default",
-		["Promitto - Thorium Brotherhood"] = "Default",
+		["Idsapme - Auchindoun"] = "Default",
+		["Gacrux - Auchindoun"] = "Default",
+		["Itsashaman - Arthas"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

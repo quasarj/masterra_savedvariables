@@ -127,7 +127,69 @@ SexyMapDB = {
 					["controlVisibility"] = false,
 					["allowDragging"] = false,
 				},
+				["Promitto - Auchindoun"] = {
+					["MiniMapRecordingButton"] = {
+						["hide"] = "always",
+					},
+					["allowDragging"] = false,
+					["MiniMapLFGFrame"] = {
+						["hide"] = "always",
+					},
+					["LibDBIcon10_VanasKoSMinimapButton"] = {
+						["hide"] = "always",
+					},
+					["SmartBuff_MiniMapButton"] = {
+						["hide"] = "always",
+					},
+					["LibFuBarPlugin-3.0_CooldownTimers3_FrameMinimapButton"] = {
+						["hide"] = "always",
+					},
+					["lfg"] = {
+						["hide"] = "always",
+					},
+					["tracking"] = {
+						["hide"] = "hover",
+					},
+					["MiniMapInstanceDifficulty"] = {
+						["hide"] = "always",
+					},
+					["calendar"] = {
+						["hide"] = "always",
+					},
+					["worldmap"] = {
+						["hide"] = "never",
+					},
+					["difficulty"] = {
+						["hide"] = "always",
+					},
+					["mapclock"] = {
+						["hide"] = "always",
+					},
+					["DBMMinimapButton"] = {
+						["hide"] = "always",
+					},
+					["DominosMinimapButton"] = {
+						["hide"] = "always",
+					},
+					["mail"] = {
+						["hide"] = "always",
+					},
+					["dragPositions"] = {
+						["DHUD3_MinimapButton"] = 24.57767261166489,
+						["NeatFreakMinimapButton"] = 212.0014849475789,
+					},
+					["LibDBIcon10_BankStack"] = {
+						["hide"] = "always",
+					},
+					["pvp"] = {
+						["hide"] = "always",
+					},
+				},
 				["Pulari - Auchindoun"] = {
+					["allowDragging"] = false,
+					["controlVisibility"] = false,
+				},
+				["Pandohra - Auchindoun"] = {
 					["allowDragging"] = false,
 					["controlVisibility"] = false,
 				},
@@ -197,68 +259,6 @@ SexyMapDB = {
 						["hide"] = "always",
 					},
 				},
-				["Pandohra - Auchindoun"] = {
-					["allowDragging"] = false,
-					["controlVisibility"] = false,
-				},
-				["Promitto - Auchindoun"] = {
-					["MiniMapRecordingButton"] = {
-						["hide"] = "always",
-					},
-					["allowDragging"] = false,
-					["MiniMapLFGFrame"] = {
-						["hide"] = "always",
-					},
-					["LibDBIcon10_VanasKoSMinimapButton"] = {
-						["hide"] = "always",
-					},
-					["SmartBuff_MiniMapButton"] = {
-						["hide"] = "always",
-					},
-					["LibFuBarPlugin-3.0_CooldownTimers3_FrameMinimapButton"] = {
-						["hide"] = "always",
-					},
-					["lfg"] = {
-						["hide"] = "always",
-					},
-					["tracking"] = {
-						["hide"] = "hover",
-					},
-					["MiniMapInstanceDifficulty"] = {
-						["hide"] = "always",
-					},
-					["calendar"] = {
-						["hide"] = "always",
-					},
-					["worldmap"] = {
-						["hide"] = "never",
-					},
-					["difficulty"] = {
-						["hide"] = "always",
-					},
-					["mapclock"] = {
-						["hide"] = "always",
-					},
-					["DBMMinimapButton"] = {
-						["hide"] = "always",
-					},
-					["DominosMinimapButton"] = {
-						["hide"] = "always",
-					},
-					["mail"] = {
-						["hide"] = "always",
-					},
-					["dragPositions"] = {
-						["DHUD3_MinimapButton"] = 24.57767261166489,
-						["NeatFreakMinimapButton"] = 212.0014849475789,
-					},
-					["LibDBIcon10_BankStack"] = {
-						["hide"] = "always",
-					},
-					["pvp"] = {
-						["hide"] = "always",
-					},
-				},
 				["Aonah - Auchindoun"] = {
 					["controlVisibility"] = false,
 					["allowDragging"] = false,
@@ -314,9 +314,6 @@ SexyMapDB = {
 		},
 		["Movers"] = {
 			["profiles"] = {
-				["Chukk - Auchindoun"] = {
-					["clamp"] = false,
-				},
 				["Aset - Auchindoun"] = {
 					["clamp"] = false,
 					["scale"] = 1,
@@ -325,6 +322,9 @@ SexyMapDB = {
 				["Promitto - Auchindoun"] = {
 					["clamp"] = false,
 					["lock"] = false,
+				},
+				["Chukk - Auchindoun"] = {
+					["clamp"] = false,
 				},
 				["Deadset - Auchindoun"] = {
 					["scale"] = 1,

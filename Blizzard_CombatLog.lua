@@ -107,7 +107,8 @@ Blizzard_CombatLog_Filters = {
 						["b"] = 0.7,
 					},
 				},
-				["eventColoring"] = {
+				["highlightedEvents"] = {
+					["PARTY_KILL"] = true,
 				},
 				["defaults"] = {
 					["spell"] = {
@@ -123,8 +124,7 @@ Blizzard_CombatLog_Filters = {
 						["b"] = 0,
 					},
 				},
-				["highlightedEvents"] = {
-					["PARTY_KILL"] = true,
+				["eventColoring"] = {
 				},
 			},
 			["hasQuickButton"] = true,
@@ -155,8 +155,8 @@ Blizzard_CombatLog_Filters = {
 				["braces"] = false,
 				["unitBraces"] = true,
 				["schoolNameHighlighting"] = true,
-				["hideBuffs"] = false,
 				["unitIcons"] = true,
+				["hideBuffs"] = false,
 				["unitColoring"] = false,
 				["amountSchoolColoring"] = false,
 				["amountColoring"] = false,
@@ -180,10 +180,10 @@ Blizzard_CombatLog_Filters = {
 						["SPELL_AURA_APPLIED_DOSE"] = true,
 						["SPELL_ENERGIZE"] = true,
 						["SPELL_INTERRUPT"] = true,
-						["ENVIRONMENTAL_DAMAGE"] = true,
 						["SPELL_AURA_DISPELLED"] = true,
+						["ENVIRONMENTAL_DAMAGE"] = true,
 						["SPELL_AURA_STOLEN"] = true,
-						["UNIT_DESTROYED"] = true,
+						["SWING_MISSED"] = true,
 						["SPELL_HEAL"] = true,
 						["ENCHANT_APPLIED"] = true,
 						["SPELL_DISPEL_FAILED"] = true,
@@ -203,7 +203,7 @@ Blizzard_CombatLog_Filters = {
 						["RANGE_MISSED"] = true,
 						["RANGE_DAMAGE"] = true,
 						["SPELL_AURA_APPLIED"] = true,
-						["SWING_MISSED"] = true,
+						["UNIT_DESTROYED"] = true,
 						["SPELL_PERIODIC_DRAIN"] = true,
 						["SPELL_DRAIN"] = true,
 					},
@@ -344,7 +344,8 @@ Blizzard_CombatLog_Filters = {
 						["b"] = 0.7,
 					},
 				},
-				["eventColoring"] = {
+				["highlightedEvents"] = {
+					["PARTY_KILL"] = true,
 				},
 				["defaults"] = {
 					["spell"] = {
@@ -360,8 +361,7 @@ Blizzard_CombatLog_Filters = {
 						["b"] = 0,
 					},
 				},
-				["highlightedEvents"] = {
-					["PARTY_KILL"] = true,
+				["eventColoring"] = {
 				},
 			},
 			["hasQuickButton"] = true,
@@ -392,8 +392,8 @@ Blizzard_CombatLog_Filters = {
 				["braces"] = false,
 				["unitBraces"] = true,
 				["schoolNameHighlighting"] = true,
-				["hideBuffs"] = false,
 				["unitIcons"] = true,
+				["hideBuffs"] = false,
 				["unitColoring"] = false,
 				["amountSchoolColoring"] = false,
 				["amountColoring"] = false,
@@ -444,7 +444,7 @@ Blizzard_CombatLog_Filters = {
 						["SPELL_DISPEL_FAILED"] = true,
 						["SPELL_DURABILITY_DAMAGE"] = true,
 						["SPELL_CAST_FAILED"] = true,
-						["SPELL_AURA_REMOVED_DOSE"] = true,
+						["ENCHANT_APPLIED"] = true,
 						["SPELL_PERIODIC_LEECH"] = true,
 						["DAMAGE_SHIELD"] = true,
 						["SPELL_CAST_SUCCESS"] = true,
@@ -455,7 +455,7 @@ Blizzard_CombatLog_Filters = {
 						["RANGE_MISSED"] = true,
 						["SPELL_HEAL"] = true,
 						["SPELL_AURA_DISPELLED"] = true,
-						["ENCHANT_APPLIED"] = true,
+						["SPELL_AURA_REMOVED_DOSE"] = true,
 						["SPELL_PERIODIC_DRAIN"] = true,
 						["SPELL_DRAIN"] = true,
 					},
@@ -499,7 +499,7 @@ Blizzard_CombatLog_Filters = {
 						["SPELL_DISPEL_FAILED"] = true,
 						["SPELL_DURABILITY_DAMAGE"] = true,
 						["SPELL_CAST_FAILED"] = true,
-						["SPELL_AURA_REMOVED_DOSE"] = true,
+						["ENCHANT_APPLIED"] = true,
 						["SPELL_PERIODIC_LEECH"] = true,
 						["DAMAGE_SHIELD"] = true,
 						["SPELL_CAST_SUCCESS"] = true,
@@ -510,7 +510,7 @@ Blizzard_CombatLog_Filters = {
 						["RANGE_MISSED"] = true,
 						["SPELL_HEAL"] = true,
 						["SPELL_AURA_DISPELLED"] = true,
-						["ENCHANT_APPLIED"] = true,
+						["SPELL_AURA_REMOVED_DOSE"] = true,
 						["SPELL_PERIODIC_DRAIN"] = true,
 						["SPELL_DRAIN"] = true,
 					},
@@ -622,7 +622,8 @@ Blizzard_CombatLog_Filters = {
 						["b"] = 0.7,
 					},
 				},
-				["eventColoring"] = {
+				["highlightedEvents"] = {
+					["PARTY_KILL"] = true,
 				},
 				["defaults"] = {
 					["spell"] = {
@@ -638,8 +639,7 @@ Blizzard_CombatLog_Filters = {
 						["b"] = 0,
 					},
 				},
-				["highlightedEvents"] = {
-					["PARTY_KILL"] = true,
+				["eventColoring"] = {
 				},
 			},
 			["hasQuickButton"] = true,
@@ -670,8 +670,8 @@ Blizzard_CombatLog_Filters = {
 				["braces"] = false,
 				["unitBraces"] = true,
 				["schoolNameHighlighting"] = true,
-				["hideBuffs"] = false,
 				["unitIcons"] = true,
+				["hideBuffs"] = false,
 				["unitColoring"] = false,
 				["amountSchoolColoring"] = false,
 				["amountColoring"] = false,
@@ -722,7 +722,7 @@ Blizzard_CombatLog_Filters = {
 						["SPELL_DISPEL_FAILED"] = true,
 						["SPELL_DURABILITY_DAMAGE"] = true,
 						["SPELL_CAST_FAILED"] = true,
-						["SPELL_AURA_REMOVED_DOSE"] = true,
+						["ENCHANT_APPLIED"] = true,
 						["SPELL_PERIODIC_LEECH"] = true,
 						["DAMAGE_SHIELD"] = true,
 						["SPELL_CAST_SUCCESS"] = true,
@@ -733,7 +733,7 @@ Blizzard_CombatLog_Filters = {
 						["RANGE_MISSED"] = true,
 						["SPELL_HEAL"] = true,
 						["SPELL_AURA_DISPELLED"] = true,
-						["ENCHANT_APPLIED"] = true,
+						["SPELL_AURA_REMOVED_DOSE"] = true,
 						["SPELL_PERIODIC_DRAIN"] = true,
 						["SPELL_DRAIN"] = true,
 					},
@@ -772,7 +772,7 @@ Blizzard_CombatLog_Filters = {
 						["SPELL_DISPEL_FAILED"] = true,
 						["SPELL_DURABILITY_DAMAGE"] = true,
 						["SPELL_CAST_FAILED"] = true,
-						["SPELL_AURA_REMOVED_DOSE"] = true,
+						["ENCHANT_APPLIED"] = true,
 						["SPELL_PERIODIC_LEECH"] = true,
 						["DAMAGE_SHIELD"] = true,
 						["SPELL_CAST_SUCCESS"] = true,
@@ -783,7 +783,7 @@ Blizzard_CombatLog_Filters = {
 						["RANGE_MISSED"] = true,
 						["SPELL_HEAL"] = true,
 						["SPELL_AURA_DISPELLED"] = true,
-						["ENCHANT_APPLIED"] = true,
+						["SPELL_AURA_REMOVED_DOSE"] = true,
 						["SPELL_PERIODIC_DRAIN"] = true,
 						["SPELL_DRAIN"] = true,
 					},
@@ -895,7 +895,8 @@ Blizzard_CombatLog_Filters = {
 						["b"] = 0.7,
 					},
 				},
-				["eventColoring"] = {
+				["highlightedEvents"] = {
+					["PARTY_KILL"] = true,
 				},
 				["defaults"] = {
 					["spell"] = {
@@ -911,8 +912,7 @@ Blizzard_CombatLog_Filters = {
 						["b"] = 0,
 					},
 				},
-				["highlightedEvents"] = {
-					["PARTY_KILL"] = true,
+				["eventColoring"] = {
 				},
 			},
 			["hasQuickButton"] = false,
@@ -943,8 +943,8 @@ Blizzard_CombatLog_Filters = {
 				["braces"] = false,
 				["unitBraces"] = true,
 				["schoolNameHighlighting"] = true,
-				["hideBuffs"] = false,
 				["unitIcons"] = true,
+				["hideBuffs"] = false,
 				["unitColoring"] = false,
 				["amountSchoolColoring"] = false,
 				["amountColoring"] = false,
