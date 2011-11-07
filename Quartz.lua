@@ -71,7 +71,7 @@ Quartz3DB = {
 		["Wezen - Thorium Brotherhood"] = "Default",
 		["Promitto - Thorium Brotherhood"] = "Default",
 		["Oxshield - Auchindoun"] = "Default",
-		["Pooshield - Thrall"] = "Default",
+		["Gacrux - Auchindoun"] = "Default",
 		["Pooshield - Arthas"] = "Default",
 		["Gacrux - Thorium Brotherhood"] = "Default",
 		["Wezen - Auchindoun"] = "Default",
@@ -79,7 +79,7 @@ Quartz3DB = {
 		["Whizle - Shadow Council"] = "Default",
 		["Aset - Auchindoun"] = "Default",
 		["Idsapme - Auchindoun"] = "Default",
-		["Gacrux - Auchindoun"] = "Default",
+		["Pooshield - Thrall"] = "Default",
 		["Itsashaman - Arthas"] = "Default",
 	},
 	["profiles"] = {

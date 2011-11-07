@@ -121,50 +121,45 @@ ThreatPlatesDB = {
 				"Frost", -- [3]
 			},
 		},
-		["Pulari - Auchindoun"] = {
+		["Promitto - Auchindoun"] = {
 			["welcome"] = true,
 			["spec"] = {
+				["secondary"] = true,
 				["primary"] = false,
 			},
 			["specInfo"] = {
 				{
-					31, -- [1]
+					34, -- [1]
 					5, -- [2]
-					5, -- [3]
+					2, -- [3]
 				}, -- [1]
-				{
-					7, -- [1]
-					31, -- [2]
-					3, -- [3]
-				}, -- [2]
-			},
-			["specName"] = {
-				"Beast Mastery", -- [1]
-				"Marksmanship", -- [2]
-				"Survival", -- [3]
-			},
-		},
-		["Sadr - Auchindoun"] = {
-			["welcome"] = true,
-			["spec"] = {
-				["primary"] = false,
-			},
-			["specInfo"] = {
 				{
 					nil, -- [1]
-					31, -- [2]
-					9, -- [3]
-				}, -- [1]
-				{
-					32, -- [1]
-					3, -- [2]
-					6, -- [3]
+					34, -- [2]
+					7, -- [3]
 				}, -- [2]
 			},
 			["specName"] = {
-				"Affliction", -- [1]
-				"Demonology", -- [2]
-				"Destruction", -- [3]
+				"Holy", -- [1]
+				"Protection", -- [2]
+				"Retribution", -- [3]
+			},
+		},
+		["Wezen - Auchindoun"] = {
+			["welcome"] = true,
+			["spec"] = {
+				["primary"] = false,
+			},
+			["specInfo"] = {
+				{
+					4, -- [1]
+					33, -- [2]
+				}, -- [1]
+			},
+			["specName"] = {
+				"Elemental", -- [1]
+				"Enhancement", -- [2]
+				"Restoration", -- [3]
 			},
 		},
 		["Pooshield - Arthas"] = {
@@ -187,30 +182,6 @@ ThreatPlatesDB = {
 				"Elemental", -- [1]
 				"Enhancement", -- [2]
 				"Restoration", -- [3]
-			},
-		},
-		["Promitto - Auchindoun"] = {
-			["spec"] = {
-				["secondary"] = true,
-				["primary"] = false,
-			},
-			["welcome"] = true,
-			["specInfo"] = {
-				{
-					34, -- [1]
-					5, -- [2]
-					2, -- [3]
-				}, -- [1]
-				{
-					nil, -- [1]
-					34, -- [2]
-					7, -- [3]
-				}, -- [2]
-			},
-			["specName"] = {
-				"Holy", -- [1]
-				"Protection", -- [2]
-				"Retribution", -- [3]
 			},
 		},
 		["Aset - Auchindoun"] = {
@@ -236,6 +207,29 @@ ThreatPlatesDB = {
 				"Restoration", -- [3]
 			},
 		},
+		["Pulari - Auchindoun"] = {
+			["welcome"] = true,
+			["spec"] = {
+				["primary"] = false,
+			},
+			["specInfo"] = {
+				{
+					31, -- [1]
+					5, -- [2]
+					5, -- [3]
+				}, -- [1]
+				{
+					7, -- [1]
+					31, -- [2]
+					3, -- [3]
+				}, -- [2]
+			},
+			["specName"] = {
+				"Beast Mastery", -- [1]
+				"Marksmanship", -- [2]
+				"Survival", -- [3]
+			},
+		},
 		["Pooshield - Thrall"] = {
 			["welcome"] = true,
 			["spec"] = {
@@ -258,21 +252,27 @@ ThreatPlatesDB = {
 				"Restoration", -- [3]
 			},
 		},
-		["Wezen - Auchindoun"] = {
+		["Sadr - Auchindoun"] = {
 			["welcome"] = true,
 			["spec"] = {
 				["primary"] = false,
 			},
 			["specInfo"] = {
 				{
-					4, -- [1]
-					33, -- [2]
+					nil, -- [1]
+					31, -- [2]
+					9, -- [3]
 				}, -- [1]
+				{
+					32, -- [1]
+					3, -- [2]
+					6, -- [3]
+				}, -- [2]
 			},
 			["specName"] = {
-				"Elemental", -- [1]
-				"Enhancement", -- [2]
-				"Restoration", -- [3]
+				"Affliction", -- [1]
+				"Demonology", -- [2]
+				"Destruction", -- [3]
 			},
 		},
 		["Itsashaman - Arthas"] = {
@@ -294,13 +294,13 @@ ThreatPlatesDB = {
 		["Deadset - Auchindoun"] = "Default",
 		["Gacrux - Auchindoun"] = "Default",
 		["Aonah - Auchindoun"] = "Default",
-		["Pulari - Auchindoun"] = "Default",
-		["Sadr - Auchindoun"] = "Default",
-		["Pooshield - Arthas"] = "Default",
 		["Promitto - Auchindoun"] = "Default",
-		["Aset - Auchindoun"] = "Default",
-		["Pooshield - Thrall"] = "Default",
 		["Wezen - Auchindoun"] = "Default",
+		["Pooshield - Arthas"] = "Default",
+		["Aset - Auchindoun"] = "Default",
+		["Pulari - Auchindoun"] = "Default",
+		["Pooshield - Thrall"] = "Default",
+		["Sadr - Auchindoun"] = "Default",
 		["Itsashaman - Arthas"] = "Default",
 	},
 	["profiles"] = {

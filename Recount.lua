@@ -10,9 +10,9 @@ RecountDB = {
 		["Wezen - Auchindoun"] = "Wezen - Auchindoun",
 		["Sadr - Auchindoun"] = "Sadr - Auchindoun",
 		["Pooshield - Arthas"] = "Pooshield - Arthas",
+		["Pulari - Auchindoun"] = "Pulari - Auchindoun",
 		["Aset - Auchindoun"] = "Aset - Auchindoun",
 		["Promitto - Auchindoun"] = "Promitto - Auchindoun",
-		["Pulari - Auchindoun"] = "Pulari - Auchindoun",
 		["Pooshield - Thrall"] = "Pooshield - Thrall",
 		["Aonah - Auchindoun"] = "Aonah - Auchindoun",
 	},
@@ -86,9 +86,9 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = 0,
-			["GraphWindowX"] = 0,
-			["MainWindowWidth"] = 226.6667456311325,
 			["MainWindowHeight"] = 203.3333609161866,
+			["MainWindowWidth"] = 226.6667456311325,
+			["GraphWindowX"] = 0,
 		},
 		["Deadset - Auchindoun"] = {
 			["GraphWindowY"] = 0,
@@ -101,7 +101,7 @@ RecountDB = {
 				},
 			},
 			["DetailWindowX"] = 899.5548846919336,
-			["LastInstanceName"] = "Baradin Hold",
+			["LastInstanceName"] = "Firelands",
 			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
@@ -114,10 +114,10 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = -391.2221739332326,
-			["MainWindowHeight"] = 206.1111302215452,
-			["MainWindowWidth"] = 265.4446257238191,
-			["ReportLines"] = 5,
 			["GraphWindowX"] = 0,
+			["ReportLines"] = 5,
+			["MainWindowWidth"] = 265.4446257238191,
+			["MainWindowHeight"] = 206.1111302215452,
 		},
 		["Gacrux - Auchindoun"] = {
 			["GraphWindowY"] = 0,
@@ -184,9 +184,9 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = 0,
+			["LastInstanceName"] = "Throne of the Tides",
 			["DetailWindowX"] = 0,
 			["GraphWindowX"] = 0,
-			["LastInstanceName"] = "Throne of the Tides",
 			["CurDataSet"] = "LastFightData",
 		},
 		["Sadr - Auchindoun"] = {
@@ -242,6 +242,32 @@ RecountDB = {
 			["MainWindowWidth"] = 214.4444381376213,
 			["MainWindowHeight"] = 201.1110754433665,
 		},
+		["Pulari - Auchindoun"] = {
+			["GraphWindowY"] = 0,
+			["MainWindow"] = {
+				["Position"] = {
+					["y"] = -502.5716909244184,
+					["x"] = 510.1424581423934,
+					["w"] = 235.9999034372179,
+					["h"] = 205.7141734810562,
+				},
+			},
+			["DetailWindowX"] = 497.7775200338708,
+			["LastInstanceName"] = "Baradin Hold",
+			["CurDataSet"] = "LastFightData",
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["DetailWindowY"] = -354.4445538488304,
+			["GraphWindowX"] = 0,
+			["ReportLines"] = 3,
+			["MainWindowWidth"] = 235.9998445215386,
+			["MainWindowHeight"] = 205.7142192011542,
+		},
 		["Aset - Auchindoun"] = {
 			["GraphWindowY"] = 0,
 			["MainWindow"] = {
@@ -252,15 +278,18 @@ RecountDB = {
 					["h"] = 285.0000235935976,
 				},
 			},
-			["DetailWindowX"] = 255.0000100529242,
-			["LastInstanceName"] = "Firelands",
-			["CurDataSet"] = "LastFightData",
+			["ReportLines"] = 2,
 			["Colors"] = {
-				["Window"] = {
-					["Title"] = {
+				["Other Windows"] = {
+					["Background"] = {
 						["a"] = 0,
 					},
+				},
+				["Window"] = {
 					["Background"] = {
+						["a"] = 0,
+					},
+					["Title"] = {
 						["a"] = 0,
 					},
 				},
@@ -272,17 +301,14 @@ RecountDB = {
 						["a"] = 1,
 					},
 				},
-				["Other Windows"] = {
-					["Background"] = {
-						["a"] = 0,
-					},
-				},
 			},
-			["DetailWindowY"] = -285.0000060864643,
-			["MainWindowHeight"] = 284.571347357931,
-			["MainWindowWidth"] = 252.5714440750933,
-			["ReportLines"] = 2,
+			["DetailWindowY"] = 141.9999993161276,
+			["DetailWindowX"] = 255.0000100529242,
+			["LastInstanceName"] = "Zul'Gurub",
+			["CurDataSet"] = "LastFightData",
 			["GraphWindowX"] = 0,
+			["MainWindowWidth"] = 252.5714440750933,
+			["MainWindowHeight"] = 284.571347357931,
 		},
 		["Promitto - Auchindoun"] = {
 			["GraphWindowY"] = 0,
@@ -307,32 +333,6 @@ RecountDB = {
 			["DetailWindowY"] = -321.143010095803,
 			["MainWindowHeight"] = 236.5713664764398,
 			["MainWindowWidth"] = 222.2856028280211,
-			["GraphWindowX"] = 0,
-		},
-		["Pulari - Auchindoun"] = {
-			["GraphWindowY"] = 0,
-			["MainWindow"] = {
-				["Position"] = {
-					["y"] = -502.5716909244184,
-					["x"] = 510.1424581423934,
-					["w"] = 235.9999034372179,
-					["h"] = 205.7141734810562,
-				},
-			},
-			["DetailWindowX"] = 497.7775200338708,
-			["LastInstanceName"] = "Baradin Hold",
-			["CurDataSet"] = "LastFightData",
-			["Colors"] = {
-				["Bar"] = {
-					["Bar Text"] = {
-						["a"] = 1,
-					},
-				},
-			},
-			["DetailWindowY"] = -354.4445538488304,
-			["MainWindowHeight"] = 205.7142192011542,
-			["MainWindowWidth"] = 235.9998445215386,
-			["ReportLines"] = 3,
 			["GraphWindowX"] = 0,
 		},
 		["Pooshield - Thrall"] = {

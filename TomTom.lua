@@ -4,59 +4,59 @@ TomTomDB = {
 		["Zik - Zuluhed"] = "Zik - Zuluhed",
 		["Ciid - Hellscream"] = "Ciid - Hellscream",
 		["Irone - Hellscream"] = "Irone - Hellscream",
-		["Idsapme - Auchindoun"] = "Default",
+		["Oxshield - Auchindoun"] = "Default",
 		["Sadr - Auchindoun"] = "Default",
 		["Thunderdome - Laughing Skull"] = "Thunderdome - Laughing Skull",
-		["Tamori - ChaosWoW Funserver"] = "Tamori - ChaosWoW Funserver",
-		["Japhaar - Hellscream"] = "Japhaar - Hellscream",
+		["Abeninka - Hellscream"] = "Abeninka - Hellscream",
+		["Idsapme - Auchindoun"] = "Default",
 		["Anabnak - Hellscream"] = "Anabnak - Hellscream",
-		["Aonarah - Hellscream"] = "Aonarah - Hellscream",
+		["Tamori - ChaosWoW Funserver"] = "Tamori - ChaosWoW Funserver",
 		["Aonah - Auchindoun"] = "Default",
 		["Dolivis - Hellscream"] = "Dolivis - Hellscream",
 		["Barimuri - Hellscream"] = "Barimuri - Hellscream",
 		["Ankra - Medivh"] = "Ankra - Medivh",
-		["Oxshield - Auchindoun"] = "Default",
+		["Japhaar - Hellscream"] = "Japhaar - Hellscream",
 		["Knasbank - Auchindoun"] = "Default",
-		["Itsashaman - Arthas"] = "Default",
+		["Promitto - Thorium Brotherhood"] = "Default",
 		["Pandohra - Auchindoun"] = "Default",
-		["Xuyxee - Hellscream"] = "Xuyxee - Hellscream",
+		["Kernelpanic - Auchindoun"] = "Default",
 		["Prudey - Laughing Skull"] = "Prudey - Laughing Skull",
 		["Gacrux - Auchindoun"] = "Default",
 		["Tyrela - Hellscream"] = "Tyrela - Hellscream",
-		["Aonarap - Hellscream"] = "Aonarap - Hellscream",
+		["Krisgurl - Hellscream"] = "Krisgurl - Hellscream",
 		["Aset - Auchindoun"] = "Default",
 		["Rimbaa - Hellscream"] = "Rimbaa - Hellscream",
 		["Nideyn - Hellscream"] = "Nideyn - Hellscream",
-		["Promitto - Thorium Brotherhood"] = "Default",
-		["Kernelpanic - Auchindoun"] = "Default",
+		["Itsashaman - Arthas"] = "Default",
+		["Xuyxee - Hellscream"] = "Xuyxee - Hellscream",
 		["Unlok - Auchindoun"] = "Default",
-		["Totemtusk - Auchindoun"] = "Default",
+		["Gacrux - Thorium Brotherhood"] = "Default",
 		["Rudeadyet - Hellscream"] = "Rudeadyet - Hellscream",
 		["Chukk - Auchindoun"] = "Default",
 		["Deadset - Auchindoun"] = "Default",
 		["Karrl - Auchindoun"] = "Default",
-		["Kabun - Laughing Skull"] = "Kabun - Laughing Skull",
-		["Aonar - Hellscream"] = "Aonar - Hellscream",
+		["Anokank - Hellscream"] = "Anokank - Hellscream",
+		["Vanisa - Hellscream"] = "Vanisa - Hellscream",
 		["Aniak - Garona"] = "Aniak - Garona",
 		["Pooshield - Arthas"] = "Default",
 		["Nohsk - Hellscream"] = "Nohsk - Hellscream",
-		["Pulari - Auchindoun"] = "Default",
-		["Anokank - Hellscream"] = "Anokank - Hellscream",
+		["Totemtusk - Auchindoun"] = "Default",
+		["Kabun - Laughing Skull"] = "Kabun - Laughing Skull",
 		["Chukk - Hellscream"] = "Chukk - Hellscream",
 		["Phoebeldia - Laughing Skull"] = "Phoebeldia - Laughing Skull",
 		["Gacrux - Zuluhed"] = "Default",
 		["Freezeforu - Zuluhed"] = "Default",
 		["Aona - Hellscream"] = "Aona - Hellscream",
 		["Wezen - Thorium Brotherhood"] = "Default",
-		["Gacrux - Thorium Brotherhood"] = "Default",
-		["Vanisa - Hellscream"] = "Vanisa - Hellscream",
-		["Pooshield - Thrall"] = "Default",
 		["Promitto - Auchindoun"] = "Default",
-		["Krisgurl - Hellscream"] = "Krisgurl - Hellscream",
+		["Aonar - Hellscream"] = "Aonar - Hellscream",
+		["Pooshield - Thrall"] = "Default",
+		["Pulari - Auchindoun"] = "Default",
+		["Aonarap - Hellscream"] = "Aonarap - Hellscream",
 		["Wezen - Auchindoun"] = "Default",
 		["Xanaomi - Hellscream"] = "Xanaomi - Hellscream",
 		["Yttrium - Auchindoun"] = "Default",
-		["Abeninka - Hellscream"] = "Abeninka - Hellscream",
+		["Aonarah - Hellscream"] = "Aonarah - Hellscream",
 		["Bairra - Alterac valley (PVP - INSTA 70)"] = "Bairra - Alterac valley (PVP - INSTA 70)",
 		["Knas - Auchindoun"] = "Default",
 		["Pandohra - Zuluhed"] = "Default",
@@ -127,13 +127,13 @@ TomTomDB = {
 		},
 		["Aona - Hellscream"] = {
 		},
-		["Aonarah - Hellscream"] = {
+		["Tamori - ChaosWoW Funserver"] = {
 		},
 		["Bairra - Alterac valley (PVP - INSTA 70)"] = {
 		},
 		["Nideyn - Hellscream"] = {
 		},
-		["Tamori - ChaosWoW Funserver"] = {
+		["Aonarah - Hellscream"] = {
 		},
 	},
 }
@@ -151,7 +151,7 @@ TomTomWaypoints = {
 		["Gacrux - Thorium Brotherhood"] = "Gacrux - Thorium Brotherhood",
 		["Aonah - Auchindoun"] = "Aonah - Auchindoun",
 		["Pulari - Auchindoun"] = "Pulari - Auchindoun",
-		["Freezeforu - Zuluhed"] = "Freezeforu - Zuluhed",
+		["Gacrux - Zuluhed"] = "Gacrux - Zuluhed",
 		["Idsapme - Auchindoun"] = "Idsapme - Auchindoun",
 		["Wezen - Thorium Brotherhood"] = "Wezen - Thorium Brotherhood",
 		["Totemtusk - Auchindoun"] = "Totemtusk - Auchindoun",
@@ -163,7 +163,7 @@ TomTomWaypoints = {
 		["Xanaomi - Hellscream"] = "Xanaomi - Hellscream",
 		["Yttrium - Auchindoun"] = "Yttrium - Auchindoun",
 		["Aset - Auchindoun"] = "Aset - Auchindoun",
-		["Gacrux - Zuluhed"] = "Gacrux - Zuluhed",
+		["Freezeforu - Zuluhed"] = "Freezeforu - Zuluhed",
 		["Knas - Auchindoun"] = "Knas - Auchindoun",
 		["Pandohra - Zuluhed"] = "Pandohra - Zuluhed",
 	},
@@ -207,7 +207,14 @@ TomTomWaypoints = {
 				"69014988:", -- [1]
 			},
 		},
-		["Freezeforu - Zuluhed"] = {
+		["Gacrux - Zuluhed"] = {
+			["Dragonblight"] = {
+				"28395012:", -- [1]
+				"36824625:", -- [2]
+			},
+			["BoreanTundra"] = {
+				"33643197:", -- [1]
+			},
 		},
 		["Idsapme - Auchindoun"] = {
 		},
@@ -240,14 +247,7 @@ TomTomWaypoints = {
 				"60681429:", -- [1]
 			},
 		},
-		["Gacrux - Zuluhed"] = {
-			["Dragonblight"] = {
-				"28395012:", -- [1]
-				"36824625:", -- [2]
-			},
-			["BoreanTundra"] = {
-				"33643197:", -- [1]
-			},
+		["Freezeforu - Zuluhed"] = {
 		},
 		["Knas - Auchindoun"] = {
 			["Felwood"] = {
@@ -268,12 +268,12 @@ TomTomWaypointsMF = {
 		["Deadset - Auchindoun"] = "Deadset - Auchindoun",
 		["Gacrux - Auchindoun"] = "Gacrux - Auchindoun",
 		["Itsashaman - Arthas"] = "Itsashaman - Arthas",
-		["Sadr - Auchindoun"] = "Sadr - Auchindoun",
 		["Wezen - Auchindoun"] = "Wezen - Auchindoun",
+		["Sadr - Auchindoun"] = "Sadr - Auchindoun",
 		["Pooshield - Arthas"] = "Pooshield - Arthas",
-		["Pulari - Auchindoun"] = "Pulari - Auchindoun",
 		["Aset - Auchindoun"] = "Aset - Auchindoun",
 		["Promitto - Auchindoun"] = "Promitto - Auchindoun",
+		["Pulari - Auchindoun"] = "Pulari - Auchindoun",
 		["Pooshield - Thrall"] = "Pooshield - Thrall",
 		["Aonah - Auchindoun"] = "Aonah - Auchindoun",
 	},
@@ -303,13 +303,11 @@ TomTomWaypointsMF = {
 		},
 		["Itsashaman - Arthas"] = {
 		},
-		["Sadr - Auchindoun"] = {
-		},
 		["Wezen - Auchindoun"] = {
 		},
-		["Pooshield - Arthas"] = {
+		["Sadr - Auchindoun"] = {
 		},
-		["Pulari - Auchindoun"] = {
+		["Pooshield - Arthas"] = {
 		},
 		["Aset - Auchindoun"] = {
 			[606] = {
@@ -318,6 +316,32 @@ TomTomWaypointsMF = {
 					0, -- [2]
 					0.467027454970838, -- [3]
 					0.7777520589156937, -- [4]
+					["silent"] = true,
+					["crazy"] = true,
+					["minimap"] = true,
+					["persistent"] = true,
+					["world"] = true,
+				},
+			},
+			[301] = {
+				["301:0:742032986:183939755:nil"] = {
+					301, -- [1]
+					0, -- [2]
+					0.742032986260379, -- [3]
+					0.1839397551061049, -- [4]
+					["silent"] = true,
+					["crazy"] = true,
+					["minimap"] = true,
+					["persistent"] = true,
+					["world"] = true,
+				},
+			},
+			[640] = {
+				["640:0:581243424:135702671:nil"] = {
+					640, -- [1]
+					0, -- [2]
+					0.581243424269717, -- [3]
+					0.1357026718809939, -- [4]
 					["silent"] = true,
 					["crazy"] = true,
 					["minimap"] = true,
@@ -335,11 +359,13 @@ TomTomWaypointsMF = {
 					0.4850042049195391, -- [4]
 					["silent"] = true,
 					["crazy"] = true,
-					["world"] = true,
-					["persistent"] = true,
 					["minimap"] = true,
+					["persistent"] = true,
+					["world"] = true,
 				},
 			},
+		},
+		["Pulari - Auchindoun"] = {
 		},
 		["Pooshield - Thrall"] = {
 			[606] = {

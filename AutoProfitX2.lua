@@ -19,9 +19,9 @@ AutoProfitX2DB = {
 		["Wezen - Auchindoun"] = "Wezen - Auchindoun",
 		["Gacrux - Auchindoun"] = "Gacrux - Auchindoun",
 		["Sadr - Auchindoun"] = "Sadr - Auchindoun",
-		["Promitto - Auchindoun"] = "Promitto - Auchindoun",
-		["Aset - Auchindoun"] = "Aset - Auchindoun",
 		["Pulari - Auchindoun"] = "Pulari - Auchindoun",
+		["Aset - Auchindoun"] = "Aset - Auchindoun",
+		["Promitto - Auchindoun"] = "Promitto - Auchindoun",
 		["Aonah - Auchindoun"] = "Aonah - Auchindoun",
 	},
 }

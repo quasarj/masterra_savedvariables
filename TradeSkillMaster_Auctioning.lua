@@ -519,7 +519,7 @@ TradeSkillMaster_AuctioningDB = {
 		},
 	},
 	["global"] = {
-		["bInfo"] = "3#P#B#R",
+		["bInfo"] = "r#p#B#C",
 		["hideAdvanced"] = false,
 		["msgID"] = 1,
 		["infoID"] = 1,

@@ -18,10 +18,10 @@ CliqueDB = {
 		["Freezeforu - Zuluhed"] = "Freezeforu - Zuluhed",
 		["Carrl - Auchindoun"] = "Carrl - Auchindoun",
 		["Scid - Auchindoun"] = "Scid - Auchindoun",
-		["Wezen - Thorium Brotherhood"] = "Wezen - Thorium Brotherhood",
-		["Gacrux - Zuluhed"] = "Gacrux - Zuluhed",
-		["Japhaar - Hellscream"] = "Japhaar - Hellscream",
 		["Chukk - Hellscream"] = "off",
+		["Gacrux - Zuluhed"] = "Gacrux - Zuluhed",
+		["Wezen - Thorium Brotherhood"] = "Wezen - Thorium Brotherhood",
+		["Japhaar - Hellscream"] = "Japhaar - Hellscream",
 		["Aonah - Auchindoun"] = "Aonah - Auchindoun",
 		["Pandohra - Auchindoun"] = "Pandohra - Auchindoun",
 		["Gacrux - Auchindoun"] = "Gacrux - Auchindoun",
@@ -1081,14 +1081,14 @@ CliqueDB3 = {
 				["CompactPartyFrameMember1Debuff1"] = true,
 				["CompactPartyFrameMember2Buff3"] = true,
 				["CompactPartyFrameMember5Buff3"] = true,
-				["CompactPartyFrameMember5Buff1"] = true,
+				["CompactPartyFrameMember4"] = true,
 				["SUFUnitfocus"] = true,
 				["CompactPartyFrameMember1Debuff3"] = true,
 				["CompactPartyFrameMember1Buff2"] = true,
 				["CompactPartyFrameMember5"] = true,
 				["CompactPartyFrameMember4Debuff1"] = true,
+				["CompactPartyFrameMember5Buff1"] = true,
 				["CompactPartyFrameMember3Buff2"] = true,
-				["CompactPartyFrameMember4"] = true,
 				["CompactPartyFrameMember1Buff1"] = true,
 				["CompactPartyFrameMember5Debuff1"] = true,
 				["CompactPartyFrameMember2Buff1"] = true,
@@ -1107,12 +1107,12 @@ CliqueDB3 = {
 			["downclick"] = false,
 			["specswap"] = false,
 			["blacklist"] = {
-				["SUFUnitplayer"] = true,
-				["SUFUnitfocus"] = true,
 				["SUFUnittarget"] = true,
-				["SUFHeadermaintankUnitButton1"] = true,
 				["SUFUnittargettarget"] = true,
+				["SUFUnitplayer"] = true,
 				["SUFUnitfocustarget"] = true,
+				["SUFHeadermaintankUnitButton1"] = true,
+				["SUFUnitfocus"] = true,
 				["SUFUnitpet"] = true,
 			},
 		},
@@ -1238,15 +1238,6 @@ CliqueDB3 = {
 					["unit"] = "mouseover",
 				}, -- [1]
 				{
-					["spell"] = "Power Word: Shield",
-					["key"] = "BUTTON2",
-					["sets"] = {
-						["default"] = true,
-					},
-					["icon"] = "Interface\\Icons\\Spell_Holy_PowerWordShield",
-					["type"] = "spell",
-				}, -- [2]
-				{
 					["spell"] = "Dispel Magic",
 					["key"] = "BUTTON5",
 					["sets"] = {
@@ -1254,7 +1245,7 @@ CliqueDB3 = {
 					},
 					["icon"] = "Interface\\Icons\\Spell_Holy_DispelMagic",
 					["type"] = "spell",
-				}, -- [3]
+				}, -- [2]
 				{
 					["spell"] = "Renew",
 					["key"] = "BUTTON3",
@@ -1262,6 +1253,15 @@ CliqueDB3 = {
 						["default"] = true,
 					},
 					["icon"] = "Interface\\Icons\\Spell_Holy_Renew",
+					["type"] = "spell",
+				}, -- [3]
+				{
+					["spell"] = "Power Word: Shield",
+					["key"] = "BUTTON2",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = "Interface\\Icons\\Spell_Holy_PowerWordShield",
 					["type"] = "spell",
 				}, -- [4]
 				{
@@ -1274,15 +1274,6 @@ CliqueDB3 = {
 					["type"] = "spell",
 				}, -- [5]
 				{
-					["spell"] = "Cure Disease",
-					["key"] = "BUTTON4",
-					["sets"] = {
-						["default"] = true,
-					},
-					["icon"] = "Interface\\Icons\\Spell_Holy_NullifyDisease",
-					["type"] = "spell",
-				}, -- [6]
-				{
 					["spell"] = "Leap of Faith",
 					["key"] = "SHIFT-BUTTON3",
 					["sets"] = {
@@ -1290,7 +1281,7 @@ CliqueDB3 = {
 					},
 					["icon"] = "INTERFACE\\ICONS\\priest_spell_leapoffaith_a",
 					["type"] = "spell",
-				}, -- [7]
+				}, -- [6]
 				{
 					["spell"] = "Circle of Healing",
 					["key"] = "SHIFT-BUTTON2",
@@ -1298,6 +1289,15 @@ CliqueDB3 = {
 						["default"] = true,
 					},
 					["icon"] = "Interface\\Icons\\Spell_Holy_CircleOfRenewal",
+					["type"] = "spell",
+				}, -- [7]
+				{
+					["spell"] = "Cure Disease",
+					["key"] = "BUTTON4",
+					["sets"] = {
+						["default"] = true,
+					},
+					["icon"] = "Interface\\Icons\\Spell_Holy_NullifyDisease",
 					["type"] = "spell",
 				}, -- [8]
 				{
