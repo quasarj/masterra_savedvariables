@@ -5,6 +5,7 @@ Gladius2DB = {
 		["Deadset - Auchindoun"] = "Deadset - Auchindoun",
 		["Gacrux - Auchindoun"] = "Gacrux - Auchindoun",
 		["Sadr - Auchindoun"] = "Sadr - Auchindoun",
+		["Profitmargin - Mannoroth"] = "Profitmargin - Mannoroth",
 		["Wezen - Auchindoun"] = "Wezen - Auchindoun",
 		["Pulari - Auchindoun"] = "Pulari - Auchindoun",
 		["Promitto - Auchindoun"] = "Promitto - Auchindoun",
@@ -16,10 +17,10 @@ Gladius2DB = {
 			["auraVersion"] = 1,
 			["tagsVersion"] = 1,
 			["y"] = {
-				["arena1"] = 397.0844972718328,
+				["arena1"] = 511.5731464481279,
 			},
 			["x"] = {
-				["arena1"] = 863.2887015049503,
+				["arena1"] = 155.7339192884086,
 			},
 		},
 		["Deadset - Auchindoun"] = {
@@ -52,6 +53,10 @@ Gladius2DB = {
 				["arena1"] = 216.8889844249993,
 			},
 		},
+		["Profitmargin - Mannoroth"] = {
+			["tagsVersion"] = 1,
+			["auraVersion"] = 1,
+		},
 		["Wezen - Auchindoun"] = {
 			["auraVersion"] = 1,
 			["tagsVersion"] = 1,
@@ -76,20 +81,20 @@ Gladius2DB = {
 			["auraVersion"] = 1,
 			["tagsVersion"] = 1,
 			["x"] = {
-				["arena1"] = 854.043859689873,
+				["arena1"] = 1003.377137572447,
 			},
 			["y"] = {
-				["arena1"] = 490.9508307221755,
+				["arena1"] = 511.5730119933472,
 			},
 		},
 		["Aset - Auchindoun"] = {
 			["auraVersion"] = 1,
 			["tagsVersion"] = 1,
-			["x"] = {
-				["arena1"] = 211.9113788049691,
-			},
 			["y"] = {
-				["arena1"] = 586.9510063613431,
+				["arena1"] = 543.5732498127774,
+			},
+			["x"] = {
+				["arena1"] = 153.6003796228405,
 			},
 		},
 		["Aonah - Auchindoun"] = {

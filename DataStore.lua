@@ -2,17 +2,27 @@
 DataStoreDB = {
 	["profileKeys"] = {
 		["Chukk - Auchindoun"] = "Chukk - Auchindoun",
+		["Sadr - Auchindoun"] = "Sadr - Auchindoun",
+		["Aset - Auchindoun"] = "Aset - Auchindoun",
 		["Aonah - Auchindoun"] = "Aonah - Auchindoun",
 	},
 	["global"] = {
 		["Characters"] = {
 			["Default.Auchindoun.Aonah"] = {
-				["guildName"] = "Terokkar Florist",
+				["guildName"] = "Open Ticket",
 				["faction"] = "Alliance",
 			},
 			["Default.Auchindoun.Chukk"] = {
 				["guildName"] = "Open Ticket",
 				["faction"] = "Alliance",
+			},
+			["Default.Auchindoun.Aset"] = {
+				["guildName"] = "Open Ticket",
+				["faction"] = "Alliance",
+			},
+			["Default.Auchindoun.Sadr"] = {
+				["faction"] = "Alliance",
+				["guildName"] = "Terokkar Florist",
 			},
 		},
 		["Guilds"] = {

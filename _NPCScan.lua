@@ -1,5 +1,13 @@
 
 _NPCScanOptions = {
-	["Version"] = "4.2.0.2",
+	["Achievements"] = {
+		[2257] = true,
+		[1312] = true,
+		[7439] = true,
+	},
+	["Version"] = "5.0.0.5",
 	["CacheWarnings"] = true,
+	["PrintTime"] = true,
+	["AlertSoundUnmute"] = true,
+	["AchievementsAddFound"] = true,
 }

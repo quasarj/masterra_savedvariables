@@ -1,77 +1,59 @@
 
 Omen3DB = {
 	["profileKeys"] = {
-		["Kernelpanic - Auchindoun"] = "Kernelpanic - Auchindoun",
 		["Zik - Zuluhed"] = "Zik - Zuluhed",
+		["Pulari - Whisperwind"] = "Pulari - Whisperwind",
+		["Aset - Mannoroth"] = "Aset - Auchindoun",
+		["Sadr - Auchindoun"] = "Sadr - Auchindoun",
+		["Gogogogogog - Auchindoun"] = "Gogogogogog - Auchindoun",
+		["Promitto - Whisperwind"] = "Promitto - Whisperwind",
+		["Aonah - Auchindoun"] = "Aonah - Auchindoun",
+		["Idsapme - Auchindoun"] = "Idsapme - Auchindoun",
+		["Profitmargin - Mannoroth"] = "Profitmargin - Mannoroth",
+		["Pandohra - Auchindoun"] = "Pandohra - Auchindoun",
+		["Profitmargin - Whisperwind"] = "Profitmargin - Whisperwind",
+		["Aset - Auchindoun"] = "Aset - Auchindoun",
+		["Itsashaman - Arthas"] = "Itsashaman - Arthas",
+		["Kernelpanic - Auchindoun"] = "Kernelpanic - Auchindoun",
+		["Unlok - Auchindoun"] = "Unlok - Auchindoun",
 		["Chukk - Auchindoun"] = "Chukk - Auchindoun",
 		["Deadset - Auchindoun"] = "Deadset - Auchindoun",
-		["Sadr - Auchindoun"] = "Sadr - Auchindoun",
+		["Karrl - Auchindoun"] = "Karrl - Auchindoun",
 		["Pooshield - Arthas"] = "Pooshield - Arthas",
-		["Totemtusk - Auchindoun"] = "Totemtusk - Auchindoun",
-		["Aonah - Auchindoun"] = "Aonah - Auchindoun",
-		["Itsashaman - Arthas"] = "Itsashaman - Arthas",
-		["Freezeforu - Zuluhed"] = "Freezeforu - Zuluhed",
-		["Oxshield - Auchindoun"] = "Oxshield - Auchindoun",
-		["Idsapme - Auchindoun"] = "Idsapme - Auchindoun",
-		["Gacrux - Zuluhed"] = "Gacrux - Zuluhed",
-		["Pooshield - Thrall"] = "Pooshield - Thrall",
-		["Pandohra - Auchindoun"] = "Pandohra - Auchindoun",
-		["Pulari - Auchindoun"] = "Pulari - Auchindoun",
-		["Gacrux - Auchindoun"] = "Gacrux - Auchindoun",
-		["Wezen - Auchindoun"] = "Wezen - Auchindoun",
 		["Promitto - Auchindoun"] = "Promitto - Auchindoun",
+		["Gacrux - Zuluhed"] = "Gacrux - Zuluhed",
+		["Aonah - Whisperwind"] = "Aonah - Whisperwind",
+		["Deadset - Whisperwind"] = "Deadset - Whisperwind",
+		["Fatset - Whisperwind"] = "Fatset - Whisperwind",
+		["Pulari - Auchindoun"] = "Pulari - Auchindoun",
+		["Charlls - Whisperwind"] = "Charlls - Whisperwind",
+		["Gacrux - Auchindoun"] = "Gacrux - Auchindoun",
+		["Oxshield - Auchindoun"] = "Oxshield - Auchindoun",
+		["Fatset - Auchindoun"] = "Fatset - Auchindoun",
+		["Wezen - Auchindoun"] = "Wezen - Auchindoun",
+		["Freezeforu - Zuluhed"] = "Freezeforu - Zuluhed",
 		["Yttrium - Auchindoun"] = "Yttrium - Auchindoun",
-		["Aset - Auchindoun"] = "Aset - Auchindoun",
-		["Unlok - Auchindoun"] = "Unlok - Auchindoun",
+		["Pooshield - Thrall"] = "Pooshield - Thrall",
+		["Totemtusk - Auchindoun"] = "Totemtusk - Auchindoun",
 		["Knas - Auchindoun"] = "Knas - Auchindoun",
 		["Pandohra - Zuluhed"] = "Pandohra - Zuluhed",
 	},
 	["profiles"] = {
-		["Kernelpanic - Auchindoun"] = {
-			["PositionX"] = 1707.435976789644,
-			["PositionY"] = 497.3811235216474,
-			["PositionW"] = 199.9998801855565,
-			["PositionH"] = 81.99998974191408,
-		},
 		["Zik - Zuluhed"] = {
 			["PositionX"] = 847.5000858575681,
 			["PositionY"] = 675.0000696560377,
 		},
-		["Chukk - Auchindoun"] = {
-			["PositionW"] = 241.1427503844613,
-			["Shown"] = true,
-			["PositionH"] = 139.1428607376188,
-			["VGrip2"] = 138.6571360937415,
-			["PositionY"] = 139.1428607376188,
-			["PositionX"] = 1661.214986577331,
-			["Locked"] = true,
-			["Background"] = {
-				["Texture"] = "Blizzard Dialog Background",
-				["BorderTexture"] = "None",
-				["BorderColor"] = {
-					["g"] = 0.2705882352941176,
-					["r"] = 0.3607843137254902,
-				},
-			},
-			["VGrip1"] = 102.4857092866784,
+		["Pulari - Whisperwind"] = {
+			["PositionX"] = 1785.619750976563,
+			["PositionY"] = 573.8716430664063,
+			["PositionW"] = 200.0000762939453,
+			["PositionH"] = 82.00000762939453,
 		},
-		["Deadset - Auchindoun"] = {
-			["VGrip2"] = 147.1999561308923,
-			["PositionY"] = 743.9522542178002,
-			["PositionW"] = 255.9998074215337,
-			["PositionH"] = 135.7143169574846,
-			["VGrip1"] = 108.7999675750073,
-			["Background"] = {
-				["Color"] = {
-					["a"] = 0,
-				},
-				["BorderTexture"] = "None",
-				["Texture"] = "Solid",
-			},
-			["PositionX"] = 1850.547407709882,
-			["Bar"] = {
-				["Texture"] = "Flat",
-			},
+		["Aset - Mannoroth"] = {
+			["Shown"] = true,
+			["PositionY"] = 665.7692260742188,
+			["PositionX"] = 937.7564086914063,
+			["PositionH"] = 82.00000762939453,
 		},
 		["Sadr - Auchindoun"] = {
 			["VGrip2"] = 145.8859523224855,
@@ -84,15 +66,15 @@ Omen3DB = {
 			["PositionX"] = 1662.85660520933,
 			["VGrip1"] = 107.8287473687937,
 		},
-		["Pooshield - Arthas"] = {
-			["PositionX"] = 1839.722256989535,
-			["PositionY"] = 726.111014783885,
-			["PositionW"] = 200.0000552568895,
-			["PositionH"] = 81.99998974191408,
+		["Gogogogogog - Auchindoun"] = {
+			["PositionW"] = 199.9999389648438,
+			["PositionY"] = 387.8881530761719,
+			["PositionX"] = 1874.234375,
+			["PositionH"] = 82.00000762939453,
 		},
-		["Totemtusk - Auchindoun"] = {
-			["PositionX"] = 847.5000858575681,
-			["PositionY"] = 675.0000696560377,
+		["Promitto - Whisperwind"] = {
+			["PositionY"] = 665.7692260742188,
+			["PositionX"] = 937.7564697265625,
 		},
 		["Aonah - Auchindoun"] = {
 			["PositionW"] = 284.5715632846188,
@@ -124,26 +106,6 @@ Omen3DB = {
 				["Texture"] = "Flat",
 			},
 		},
-		["Itsashaman - Arthas"] = {
-			["PositionW"] = 200.0000552568895,
-			["PositionY"] = 601.6668098467503,
-			["PositionX"] = 1703.055131809223,
-			["PositionH"] = 81.99998974191408,
-		},
-		["Freezeforu - Zuluhed"] = {
-			["PositionW"] = 199.9999353344555,
-			["PositionY"] = 385.8573203961946,
-			["PositionX"] = 29.21436128963058,
-			["PositionH"] = 81.9999860828502,
-		},
-		["Oxshield - Auchindoun"] = {
-			["VGrip2"] = 84.33318870986294,
-			["PositionY"] = 702.7776475760725,
-			["PositionW"] = 146.6664556692372,
-			["VGrip1"] = 62.33322643772478,
-			["PositionX"] = 1696.388135333697,
-			["PositionH"] = 168.6665758940042,
-		},
 		["Idsapme - Auchindoun"] = {
 			["VGrip2"] = 134.7142132888524,
 			["PositionY"] = 480.7146341149687,
@@ -152,19 +114,9 @@ Omen3DB = {
 			["PositionX"] = 1496.642286866055,
 			["PositionH"] = 112.8570523856279,
 		},
-		["Gacrux - Zuluhed"] = {
-			["PositionX"] = 1541.214017718781,
-			["PositionY"] = 463.5713866492782,
-			["PositionW"] = 199.9999353344555,
-			["PositionH"] = 81.9999860828502,
-		},
-		["Pooshield - Thrall"] = {
-			["VGrip2"] = 145.02773829434,
-			["PositionY"] = 694.999998563868,
-			["PositionW"] = 252.2222232404322,
-			["VGrip1"] = 107.1944152610339,
-			["PositionX"] = 1661.944041047115,
-			["PositionH"] = 101.9999550011964,
+		["Profitmargin - Mannoroth"] = {
+			["PositionX"] = 937.7564697265625,
+			["PositionY"] = 665.7692260742188,
 		},
 		["Pandohra - Auchindoun"] = {
 			["VGrip2"] = 163.6285569434848,
@@ -176,6 +128,147 @@ Omen3DB = {
 			["VGrip1"] = 120.9428464364887,
 			["PositionX"] = 1613.214483873011,
 			["PositionH"] = 134.5714588357067,
+		},
+		["Profitmargin - Whisperwind"] = {
+			["PositionX"] = 937.7564697265625,
+			["PositionY"] = 665.7692260742188,
+		},
+		["Aset - Auchindoun"] = {
+			["MinimapIcon"] = {
+				["minimapPos"] = 248.5097544565978,
+			},
+			["PositionW"] = 269.5084533691406,
+			["ShowWith"] = {
+				["HideWhenOOC"] = true,
+			},
+			["PositionH"] = 197.9511108398438,
+			["VGrip1"] = 114.5411432183168,
+			["VGrip2"] = 154.9674290600757,
+			["PositionY"] = 475.5869750976563,
+			["PositionX"] = 1831.004516601563,
+			["Warnings"] = {
+				["Sound"] = false,
+			},
+			["Locked"] = true,
+			["Background"] = {
+				["BorderTexture"] = "None",
+				["Texture"] = "None",
+			},
+			["CollapseHide"] = true,
+			["Bar"] = {
+				["Texture"] = "Flat",
+				["Spacing"] = 1,
+			},
+		},
+		["Itsashaman - Arthas"] = {
+			["PositionW"] = 200.0000552568895,
+			["PositionY"] = 601.6668098467503,
+			["PositionX"] = 1703.055131809223,
+			["PositionH"] = 81.99998974191408,
+		},
+		["Kernelpanic - Auchindoun"] = {
+			["PositionW"] = 199.9998801855565,
+			["PositionY"] = 497.3811235216474,
+			["PositionX"] = 1707.435976789644,
+			["PositionH"] = 81.99998974191408,
+		},
+		["Unlok - Auchindoun"] = {
+			["PositionX"] = 847.5000858575681,
+			["PositionY"] = 675.0000696560377,
+		},
+		["Chukk - Auchindoun"] = {
+			["PositionW"] = 241.1427503844613,
+			["Shown"] = true,
+			["PositionH"] = 139.1428607376188,
+			["VGrip2"] = 138.6571360937415,
+			["PositionY"] = 139.1428607376188,
+			["PositionX"] = 1661.214986577331,
+			["Locked"] = true,
+			["Background"] = {
+				["Texture"] = "Blizzard Dialog Background",
+				["BorderTexture"] = "None",
+				["BorderColor"] = {
+					["g"] = 0.2705882352941176,
+					["r"] = 0.3607843137254902,
+				},
+			},
+			["VGrip1"] = 102.4857092866784,
+		},
+		["Deadset - Auchindoun"] = {
+			["VGrip2"] = 147.1999561308923,
+			["PositionY"] = 766.7837269281115,
+			["PositionW"] = 255.9997724072671,
+			["PositionH"] = 135.7142994503512,
+			["VGrip1"] = 108.7999675750073,
+			["Background"] = {
+				["Color"] = {
+					["a"] = 0,
+				},
+				["BorderTexture"] = "None",
+				["Texture"] = "Solid",
+			},
+			["PositionX"] = 1827.389672063355,
+			["Bar"] = {
+				["Texture"] = "Flat",
+			},
+		},
+		["Karrl - Auchindoun"] = {
+			["PositionX"] = 937.7564697265625,
+			["PositionY"] = 665.7692260742188,
+		},
+		["Pooshield - Arthas"] = {
+			["PositionX"] = 1839.722256989535,
+			["PositionY"] = 726.111014783885,
+			["PositionW"] = 200.0000552568895,
+			["PositionH"] = 81.99998974191408,
+		},
+		["Promitto - Auchindoun"] = {
+			["VGrip2"] = 150.4854971880648,
+			["PositionY"] = 467.1429220293088,
+			["PositionW"] = 261.713959976667,
+			["Warnings"] = {
+				["Sound"] = false,
+			},
+			["VGrip1"] = 111.2284109650913,
+			["Background"] = {
+				["Texture"] = "Blizzard Dialog Background",
+				["BorderTexture"] = "None",
+			},
+			["PositionX"] = 1629.214219587742,
+			["PositionH"] = 181.4286027371379,
+		},
+		["Gacrux - Zuluhed"] = {
+			["PositionX"] = 1541.214017718781,
+			["PositionY"] = 463.5713866492782,
+			["PositionW"] = 199.9999353344555,
+			["PositionH"] = 81.9999860828502,
+		},
+		["Aonah - Whisperwind"] = {
+			["PositionX"] = 937.7564697265625,
+			["PositionY"] = 665.7692260742188,
+		},
+		["Deadset - Whisperwind"] = {
+			["PositionX"] = 937.7564697265625,
+			["PositionY"] = 665.7692260742188,
+		},
+		["Fatset - Whisperwind"] = {
+			["PositionW"] = 213.1282348632813,
+			["PositionH"] = 170.6155090332031,
+			["VGrip2"] = 122.5487625248552,
+			["PositionY"] = 406.4874877929688,
+			["PositionX"] = 1863.293823242188,
+			["ClickThrough"] = true,
+			["Locked"] = true,
+			["Background"] = {
+				["Color"] = {
+					["b"] = 0,
+					["g"] = 0,
+					["r"] = 0,
+				},
+				["Texture"] = "None",
+				["BorderTexture"] = "Blizzard Tooltip",
+			},
+			["VGrip1"] = 90.57952012706693,
 		},
 		["Pulari - Auchindoun"] = {
 			["MinimapIcon"] = {
@@ -193,18 +286,44 @@ Omen3DB = {
 				["Color"] = {
 					["a"] = 0,
 				},
-				["BorderTexture"] = "None",
 				["Texture"] = "Solid",
+				["BorderTexture"] = "None",
 			},
 			["VGrip1"] = 100.0571688583233,
+		},
+		["Charlls - Whisperwind"] = {
+			["PositionX"] = 937.7564697265625,
+			["PositionY"] = 665.7692260742188,
 		},
 		["Gacrux - Auchindoun"] = {
 			["VGrip2"] = 187.9286444721159,
 			["PositionY"] = 751.6032216134314,
 			["PositionW"] = 236.571423803861,
-			["VGrip1"] = 100.5428514182291,
-			["PositionX"] = 1685.651080508126,
 			["PositionH"] = 136.8571388516045,
+			["PositionX"] = 1685.651080508126,
+			["VGrip1"] = 100.5428514182291,
+		},
+		["Oxshield - Auchindoun"] = {
+			["VGrip2"] = 84.33318870986294,
+			["PositionY"] = 702.7776475760725,
+			["PositionW"] = 146.6664556692372,
+			["VGrip1"] = 62.33322643772478,
+			["PositionX"] = 1696.388135333697,
+			["PositionH"] = 168.6665758940042,
+		},
+		["Fatset - Auchindoun"] = {
+			["PositionW"] = 264.5469970703125,
+			["Shown"] = true,
+			["PositionH"] = 133.3711853027344,
+			["VGrip2"] = 152.1145233154296,
+			["PositionY"] = 319.4887390136719,
+			["PositionX"] = 1835.965942382813,
+			["Locked"] = true,
+			["Background"] = {
+				["BorderTexture"] = "None",
+				["Texture"] = "None",
+			},
+			["VGrip1"] = 112.4324737548828,
 		},
 		["Wezen - Auchindoun"] = {
 			["MinimapIcon"] = {
@@ -215,14 +334,14 @@ Omen3DB = {
 			["ShowWith"] = {
 				["UseShowWith"] = false,
 			},
-			["Warnings"] = {
-				["Sound"] = false,
-			},
-			["VGrip1"] = 119.0001078377044,
+			["Autocollapse"] = true,
+			["PositionH"] = 150.9999619738483,
 			["VGrip2"] = 161.0001458980705,
 			["PositionY"] = 842.0001452163207,
 			["PositionX"] = 1636.571705548817,
-			["Autocollapse"] = true,
+			["Warnings"] = {
+				["Sound"] = false,
+			},
 			["Locked"] = true,
 			["Background"] = {
 				["Color"] = {
@@ -231,26 +350,17 @@ Omen3DB = {
 				["Texture"] = "Blizzard Dialog Background",
 				["BorderTexture"] = "None",
 			},
-			["PositionH"] = 150.9999619738483,
+			["VGrip1"] = 119.0001078377044,
 			["Bar"] = {
 				["Spacing"] = 1,
 				["Texture"] = "Flat",
 			},
 		},
-		["Promitto - Auchindoun"] = {
-			["VGrip2"] = 150.4854971880648,
-			["PositionY"] = 467.1429220293088,
-			["PositionW"] = 261.713959976667,
-			["Warnings"] = {
-				["Sound"] = false,
-			},
-			["VGrip1"] = 111.2284109650913,
-			["Background"] = {
-				["Texture"] = "Blizzard Dialog Background",
-				["BorderTexture"] = "None",
-			},
-			["PositionX"] = 1629.214219587742,
-			["PositionH"] = 181.4286027371379,
+		["Freezeforu - Zuluhed"] = {
+			["PositionW"] = 199.9999353344555,
+			["PositionY"] = 385.8573203961946,
+			["PositionX"] = 29.21436128963058,
+			["PositionH"] = 81.9999860828502,
 		},
 		["Yttrium - Auchindoun"] = {
 			["PositionY"] = 537.8571488919242,
@@ -261,34 +371,15 @@ Omen3DB = {
 			["PositionX"] = 9.785696276761783,
 			["PositionH"] = 81.9999860828502,
 		},
-		["Aset - Auchindoun"] = {
-			["PositionW"] = 341.7138801287772,
-			["PositionH"] = 196.8570684114368,
-			["VGrip2"] = 196.4855427761355,
-			["PositionY"] = 831.1427035722301,
-			["Background"] = {
-				["BorderTexture"] = "None",
-				["Texture"] = "None",
-			},
-			["Locked"] = true,
-			["MinimapIcon"] = {
-				["minimapPos"] = 248.5097544565978,
-			},
-			["ShowWith"] = {
-				["HideWhenOOC"] = true,
-			},
-			["VGrip1"] = 145.2284446606219,
-			["PositionX"] = 1566.859342529945,
-			["CollapseHide"] = true,
-			["Warnings"] = {
-				["Sound"] = false,
-			},
-			["Bar"] = {
-				["Texture"] = "Flat",
-				["Spacing"] = 1,
-			},
+		["Pooshield - Thrall"] = {
+			["VGrip2"] = 145.02773829434,
+			["PositionY"] = 694.999998563868,
+			["PositionW"] = 252.2222232404322,
+			["VGrip1"] = 107.1944152610339,
+			["PositionX"] = 1661.944041047115,
+			["PositionH"] = 101.9999550011964,
 		},
-		["Unlok - Auchindoun"] = {
+		["Totemtusk - Auchindoun"] = {
 			["PositionX"] = 847.5000858575681,
 			["PositionY"] = 675.0000696560377,
 		},

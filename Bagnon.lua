@@ -7,5 +7,5 @@ BagnonGlobalSettings = {
 			["craft"] = true,
 		},
 	},
-	["version"] = "4.2.11",
+	["version"] = "5.3.4",
 }
